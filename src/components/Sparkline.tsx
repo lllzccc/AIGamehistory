@@ -13,10 +13,18 @@ export default function Sparkline({ series }: { series: RevenuePoint[] }) {
     .x((p) => x(p.x))
     .y((p) => y(p.amountCNY))
     .curve(curveMonotoneX)(series);
+  const hasEstimate = series.some((p) => p.kind === 'estimate');
 
   return (
     <svg viewBox={`0 0 ${W} ${H}`} preserveAspectRatio="none" className="block h-9 w-full" aria-hidden="true">
-      <path d={d ?? ''} fill="none" stroke="currentColor" strokeWidth={1.25} vectorEffect="non-scaling-stroke" />
+      <path
+        d={d ?? ''}
+        fill="none"
+        stroke="currentColor"
+        strokeWidth={1.25}
+        strokeDasharray={hasEstimate ? '3 3' : undefined}
+        vectorEffect="non-scaling-stroke"
+      />
     </svg>
   );
 }

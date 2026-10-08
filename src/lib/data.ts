@@ -31,12 +31,29 @@ export function checkIntegrity(ds: Dataset): string[] {
     if (granularities.size > 1) {
       errors.push(`产品 ${product.id}：流水数据混用了年度和季度`);
     }
+    const periods = new Set<string>();
+    for (const r of product.revenue) {
+      if (periods.has(r.period)) errors.push(`产品 ${product.id}：流水期间 ${r.period} 重复`);
+      periods.add(r.period);
+    }
+    if (product.status === 'shutdown' && !product.shutdown) {
+      errors.push(`产品 ${product.id}：状态为已停服但缺少停服日期`);
+    }
+    if (product.shutdown && product.status !== 'shutdown') {
+      errors.push(`产品 ${product.id}：有停服日期但状态不是已停服`);
+    }
+    if (product.shutdown && compareDates(product.shutdown, product.released) < 0) {
+      errors.push(`产品 ${product.id}：停服日期 ${product.shutdown} 早于上线日期 ${product.released}`);
+    }
   }
 
   for (const person of ds.people) {
     for (const role of person.roles) {
       if (!companyIds.has(role.company)) {
         errors.push(`人物 ${person.id}：任职公司 "${role.company}" 不是已收录公司的 id`);
+      }
+      if (role.to && compareDates(role.to, role.from) < 0) {
+        errors.push(`人物 ${person.id}：在 "${role.company}" 的任职结束时间 ${role.to} 早于开始时间 ${role.from}`);
       }
     }
   }

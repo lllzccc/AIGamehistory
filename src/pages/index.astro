@@ -29,6 +29,7 @@ const endYear = new Date().getFullYear();
             <span>
               <span class="block font-serif text-2xl text-ink transition group-hover:text-rouge">{c.name}</span>
               <span class="mt-2 block text-sm text-ink-soft">{c.tagline}</span>
+              {!c.verified && <span class="unverified mt-3">待核实</span>}
             </span>
             <span class="text-mist transition group-hover:translate-x-1 group-hover:text-rouge">→</span>
           </a>

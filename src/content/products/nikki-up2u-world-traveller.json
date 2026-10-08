@@ -3,11 +3,11 @@
   "aliases": ["Nikki Up2U2: World Traveler"],
   "genre": "dressup",
   "developer": "papergames",
-  "publisher": "猎豹移动",
+  "publisher": "猎豹移动（iOS）/ 阿里游戏（安卓）",
   "released": "2013-07",
   "platforms": ["iOS", "Android"],
   "status": "live",
-  "significance": "叠纸成立后的首部作品，被官方称为国内第一款主流换装手游，奠定了“暖暖”系列。",
+  "significance": "叠纸团队的首部作品，公司正式成立前一个月上线，被官方称为国内第一款主流换装手游，奠定了“暖暖”系列。",
   "keyArt": "/images/papergames/nikki-up2u-world-traveller.jpg",
   "revenue": [],
   "sources": [
@@ -16,7 +16,7 @@
     { "title": "网易（游戏干线）：叠纸的开挂之路——2013 年 7 月完成并上线《暖暖环游世界》", "url": "https://www.163.com/dy/article/JFKAR6P105268VHQ.html" },
     { "title": "Papergames 官网 About Paper", "url": "https://www.playpapergames.com/about.html" },
     { "title": "知乎：如何看待暖暖环游世界停止更新？（2019-11-27 终章更新）", "url": "https://www.zhihu.com/question/356597633" },
-    { "title": "新浪（转载暖暖环游世界官方微博）：2025 年 12 月停服维护公告", "url": "https://www.sina.cn/news/detail/5238635940547489.html" }
+    { "title": "新浪（转载暖暖环游世界官方微博）：2025 年 12 月例行维护公告（仍在运营）", "url": "https://www.sina.cn/news/detail/5238635940547489.html" }
   ],
   "verified": false
 }

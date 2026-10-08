@@ -9,13 +9,15 @@ const M = { top: 16, right: 16, bottom: 32, left: 72 };
 
 export default function RevenueChart({ series }: { series: RevenuePoint[] }) {
   const [active, setActive] = useState(series.length - 1);
+  if (series.length === 0) return null;
   const first = series[0].x;
   const last = series[series.length - 1].x;
   const x = scaleLinear()
     .domain(first === last ? [first - 1, last + 1] : [first, last])
     .range([M.left, W - M.right]);
+  const max = Math.max(...series.map((p) => p.amountCNY));
   const y = scaleLinear()
-    .domain([0, Math.max(...series.map((p) => p.amountCNY))])
+    .domain([0, max > 0 ? max : 1])
     .nice(4)
     .range([H - M.bottom, M.top]);
   const labelStep = Math.ceil(series.length / 8);
@@ -24,7 +26,7 @@ export default function RevenueChart({ series }: { series: RevenuePoint[] }) {
 
   return (
     <figure className="mt-4">
-      <svg viewBox={`0 0 ${W} ${H}`} className="w-full overflow-visible" role="img" aria-label="营收流水折线图">
+      <svg viewBox={`0 0 ${W} ${H}`} className="w-full overflow-visible" role="group" aria-label="营收流水折线图">
         {y.ticks(4).map((t) => (
           <g key={t}>
             <line x1={M.left} x2={W - M.right} y1={y(t)} y2={y(t)} stroke="currentColor" className="text-ink/10" />
@@ -78,7 +80,7 @@ export default function RevenueChart({ series }: { series: RevenuePoint[] }) {
         ))}
       </svg>
 
-      <figcaption className="mt-3 min-h-12 text-sm leading-relaxed text-ink-soft">
+      <figcaption aria-live="polite" className="mt-3 min-h-12 text-sm leading-relaxed text-ink-soft">
         <span className="font-display text-base text-ink">{point.period}</span>
         <span className="mx-2 text-mist">·</span>
         {formatCNY(point.amountCNY)}
@@ -93,7 +95,7 @@ export default function RevenueChart({ series }: { series: RevenuePoint[] }) {
         >
           {point.sourceTitle}
         </a>
-        {hasEstimate && <span className="mt-1 block text-xs text-mist">虚线与空心点为第三方估算，仅供参考。</span>}
+        {hasEstimate && <span className="mt-1 block text-xs text-ink-soft">虚线与空心点为第三方估算，仅供参考。</span>}
       </figcaption>
     </figure>
   );

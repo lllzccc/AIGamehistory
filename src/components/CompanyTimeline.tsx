@@ -1,5 +1,5 @@
 import { useRef, type PointerEvent } from 'react';
-import { motion, MotionConfig } from 'motion/react';
+import { motion, MotionConfig, useReducedMotion } from 'motion/react';
 import type { TimelineItem, TimelineKind } from '../lib/types';
 import { dateToNumber, formatDate } from '../lib/dates';
 import { timelineKindLabel } from '../lib/labels';
@@ -33,6 +33,7 @@ interface Props {
 export default function CompanyTimeline({ items, endYear }: Props) {
   const scroller = useRef<HTMLDivElement>(null);
   const drag = useRef<{ x: number; left: number } | null>(null);
+  const reduceMotion = useReducedMotion();
 
   if (items.length === 0) return null;
 
@@ -90,7 +91,7 @@ export default function CompanyTimeline({ items, endYear }: Props) {
                 key={`${item.date}-${i}`}
                 className="absolute top-0"
                 style={{ left: xs[i], height: HEIGHT }}
-                initial={{ opacity: 0, y: up ? 10 : -10 }}
+                initial={reduceMotion ? false : { opacity: 0, y: up ? 10 : -10 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: Math.min(i * 0.04, 0.4), ease: [0.22, 1, 0.36, 1] }}
