@@ -1,19 +1,25 @@
 ---
 import Base from '../layouts/Base.astro';
 import HeatStrip from '../components/HeatStrip.astro';
+import YearRiver from '../components/YearRiver';
 import { loadDataset } from '../lib/load';
-import { compareDates, yearOf } from '../lib/dates';
 import { bucketSize, getYearBuckets, marketSeries } from '../lib/data';
+import { compareDates } from '../lib/dates';
 
 const ds = await loadDataset();
-const companies = [...ds.companies].sort((a, b) => compareDates(a.founded, b.founded));
-const firstYear = companies.length > 0 ? yearOf(companies[0].founded) : new Date().getFullYear();
 const endYear = new Date().getFullYear();
 const buckets = getYearBuckets(ds, endYear);
+const firstYear = buckets[0]?.year ?? endYear;
+const companies = [...ds.companies].sort((a, b) => compareDates(a.founded, b.founded));
+const stats = [
+  { label: '收录公司', value: ds.companies.length },
+  { label: '作品', value: ds.products.length },
+  { label: '大事记', value: ds.events.length },
+];
 ---
 
-<Base title="首页">
-  <section class="mx-auto max-w-6xl px-6 pt-36 pb-20 sm:px-10">
+<Base title="时间长河">
+  <section class="mx-auto max-w-6xl px-6 pt-36 pb-16 sm:px-10">
     <p class="hero-rise font-display text-sm tracking-[0.4em] text-mist">CHRONICLE · {firstYear} — {endYear}</p>
     <h1 class="hero-rise mt-6 font-serif text-5xl leading-tight font-bold sm:text-7xl" style="animation-delay: 80ms">
       中国女性向游戏<br />编年史
@@ -21,27 +27,32 @@ const buckets = getYearBuckets(ds, endYear);
     <p class="hero-rise mt-8 max-w-xl font-serif text-lg leading-loose text-ink-soft" style="animation-delay: 160ms">
       从换装到乙女，从互动阅读到 3D 恋爱，记录那些为女性玩家做游戏的公司，以及它们走过的年份。
     </p>
+    <dl class="hero-rise mt-12 flex gap-12" style="animation-delay: 240ms">
+      {stats.map((s) => (
+        <div>
+          <dt class="text-xs tracking-[0.3em] text-mist">{s.label}</dt>
+          <dd class="mt-2 font-display text-4xl text-ink">{s.value}</dd>
+        </div>
+      ))}
+    </dl>
   </section>
 
-  <section class="mx-auto max-w-6xl px-6 pb-12 sm:px-10">
+  <section class="mx-auto max-w-6xl px-6 pb-14 sm:px-10">
     <HeatStrip years={buckets.map((b) => ({ year: b.year, count: bucketSize(b) }))} market={marketSeries(ds)} />
   </section>
 
-  <section class="mx-auto max-w-6xl px-6 pb-32 sm:px-10">
-    <ul class="divide-y divide-ink/10 border-y border-ink/10">
+  <section class="mx-auto max-w-6xl px-6 sm:px-10">
+    <p class="text-xs tracking-[0.3em] text-mist">收录公司</p>
+    <ul class="mt-3 flex flex-wrap gap-x-6 gap-y-2">
       {companies.map((c) => (
         <li>
-          <a href={`/company/${c.id}`} class="group grid grid-cols-[5rem_1fr_auto] items-baseline gap-6 py-8 sm:grid-cols-[7rem_1fr_auto]">
-            <span class="font-display text-3xl text-mist transition group-hover:text-rouge">{yearOf(c.founded)}</span>
-            <span>
-              <span class="block font-serif text-2xl text-ink transition group-hover:text-rouge">{c.name}</span>
-              <span class="mt-2 block text-sm text-ink-soft">{c.tagline}</span>
-              {!c.verified && <span class="unverified mt-3">待核实</span>}
-            </span>
-            <span class="text-mist transition group-hover:translate-x-1 group-hover:text-rouge">→</span>
-          </a>
+          <a href={`/company/${c.id}`} class="font-serif text-lg text-ink-soft transition hover:text-rouge">{c.name}</a>
         </li>
       ))}
     </ul>
+  </section>
+
+  <section class="mx-auto max-w-6xl px-6 pt-16 pb-32 sm:px-10">
+    <YearRiver client:load buckets={buckets} />
   </section>
 </Base>
