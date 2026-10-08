@@ -6,6 +6,7 @@ import PeopleSection from '../../components/PeopleSection.astro';
 import SectionTitle from '../../components/SectionTitle.astro';
 import SourceList from '../../components/SourceList';
 import CompanyTimeline from '../../components/CompanyTimeline';
+import ProductShelf from '../../components/ProductShelf';
 import { loadDataset } from '../../lib/load';
 import { displayCompanyName, getCompanyView, toProductCards } from '../../lib/data';
 
@@ -41,7 +42,9 @@ const notesIndex = view.people.length > 0 ? '04' : '03';
 
   <section id="works" class="mx-auto max-w-6xl px-6 py-24 sm:px-10">
     <SectionTitle index="02" title="作品" note={`${cards.length} 款`} />
-    <div class="mt-12"></div>
+    <div class="mt-12">
+      <ProductShelf client:visible products={cards} />
+    </div>
   </section>
 
   {view.people.length > 0 && <PeopleSection index={peopleIndex} people={view.people} companies={ds.companies} />}
