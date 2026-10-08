@@ -4,6 +4,7 @@ import type { TimelineItem, TimelineKind } from '../lib/types';
 import { dateToNumber, formatDate } from '../lib/dates';
 import { timelineKindLabel } from '../lib/labels';
 import { assignLevels } from '../lib/timelineLayout';
+import SourceLinks from './SourceLinks';
 
 const PX_PER_YEAR = 180;
 const PAD = 96;
@@ -45,6 +46,7 @@ export default function CompanyTimeline({ items, endYear }: Props) {
 
   const onPointerDown = (e: PointerEvent<HTMLDivElement>) => {
     if (e.pointerType !== 'mouse' || !scroller.current) return;
+    if (e.target instanceof Element && e.target.closest('a')) return;
     drag.current = { x: e.clientX, left: scroller.current.scrollLeft };
     scroller.current.setPointerCapture(e.pointerId);
   };
@@ -88,7 +90,7 @@ export default function CompanyTimeline({ items, endYear }: Props) {
             const up = offset < 0;
             return (
               <motion.div
-                key={`${item.date}-${i}`}
+                key={item.id}
                 className="absolute top-0"
                 style={{ left: xs[i], height: HEIGHT }}
                 initial={reduceMotion ? false : { opacity: 0, y: up ? 10 : -10 }}
@@ -118,7 +120,10 @@ export default function CompanyTimeline({ items, endYear }: Props) {
                   <p className="mt-1 line-clamp-3 font-serif text-sm leading-snug text-ink" title={item.label}>
                     {item.label}
                   </p>
-                  {!item.verified && <span className="unverified mt-1">待核实</span>}
+                  <p className="mt-1 flex flex-wrap items-center gap-x-2 text-[0.7rem] text-mist">
+                    <SourceLinks sources={item.sources} />
+                    {!item.verified && <span className="unverified">待核实</span>}
+                  </p>
                 </div>
               </motion.div>
             );

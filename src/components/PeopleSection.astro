@@ -1,6 +1,8 @@
 ---
 import type { Company, CompanyPerson } from '../lib/types';
+import { yearOf } from '../lib/dates';
 import SectionTitle from './SectionTitle.astro';
+import SourceLinks from './SourceLinks';
 
 interface Props {
   index: string;
@@ -10,7 +12,7 @@ interface Props {
 
 const { index, people, companies } = Astro.props;
 const nameOf = (id: string) => companies.find((c) => c.id === id)?.name ?? id;
-const span = (from: string, to?: string) => `${from.slice(0, 4)} — ${to ? to.slice(0, 4) : '至今'}`;
+const span = (from: string, to?: string) => `${yearOf(from)} — ${to ? yearOf(to) : '至今'}`;
 ---
 
 <section class="mx-auto max-w-6xl px-6 py-24 sm:px-10">
@@ -49,7 +51,10 @@ const span = (from: string, to?: string) => `${from.slice(0, 4)} — ${to ? to.s
             ))}
           </p>
         )}
-        {!person.verified && <span class="unverified mt-3">待核实</span>}
+        <p class="mt-3 flex flex-wrap items-center gap-x-2 text-xs text-mist">
+          <SourceLinks sources={person.sources} />
+          {!person.verified && <span class="unverified">待核实</span>}
+        </p>
       </li>
     ))}
   </ul>

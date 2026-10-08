@@ -2,8 +2,9 @@ import { useEffect, useRef } from 'react';
 import { motion } from 'motion/react';
 import type { ProductCard } from '../lib/types';
 import { formatDate } from '../lib/dates';
-import { genreLabel, productStatusLabel } from '../lib/labels';
+import { genreLabel, productStatusLabel, timelineKindLabel } from '../lib/labels';
 import RevenueChart from './RevenueChart';
+import SourceLinks from './SourceLinks';
 import SourceList from './SourceList';
 
 interface Props {
@@ -13,6 +14,7 @@ interface Props {
 
 const ease = [0.22, 1, 0.36, 1] as const;
 const FOCUSABLE = 'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])';
+const companyLink = 'underline decoration-ink/20 underline-offset-4 transition hover:text-rouge';
 
 export default function ProductDrawer({ product, onClose }: Props) {
   const panelRef = useRef<HTMLElement>(null);
@@ -96,9 +98,21 @@ export default function ProductDrawer({ product, onClose }: Props) {
 
           <dl className="mt-8 grid grid-cols-[5rem_1fr] gap-y-3 border-t border-ink/10 pt-6 text-sm">
             <dt className="text-mist">研发</dt>
-            <dd className="text-ink">{product.developerName}</dd>
+            <dd className="text-ink">
+              <a href={`/company/${product.developer}`} className={companyLink}>
+                {product.developerName}
+              </a>
+            </dd>
             <dt className="text-mist">发行</dt>
-            <dd className="text-ink">{product.publisherName}</dd>
+            <dd className="text-ink">
+              {product.publisherId ? (
+                <a href={`/company/${product.publisherId}`} className={companyLink}>
+                  {product.publisherName}
+                </a>
+              ) : (
+                product.publisherName
+              )}
+            </dd>
             <dt className="text-mist">首发</dt>
             <dd className="text-ink">{formatDate(product.released)}</dd>
             {product.shutdown && (
@@ -112,6 +126,25 @@ export default function ProductDrawer({ product, onClose }: Props) {
             <dt className="text-mist">状态</dt>
             <dd className="text-ink">{productStatusLabel[product.status]}</dd>
           </dl>
+
+          <section className="mt-10">
+            <h3 className="font-serif text-lg text-ink">关键节点</h3>
+            <ol className="mt-5 space-y-5 border-l border-ink/15 pl-5">
+              {product.milestones.map((m) => (
+                <li key={m.id} className="relative">
+                  <span className="absolute top-1.5 -left-[24.5px] h-2 w-2 rounded-full bg-rouge" aria-hidden="true" />
+                  <p className="font-display text-xs tracking-wide text-mist">
+                    {formatDate(m.date)} · {timelineKindLabel[m.kind]}
+                  </p>
+                  <p className="mt-1 font-serif text-sm leading-relaxed text-ink">{m.label}</p>
+                  <p className="mt-1 flex flex-wrap items-center gap-x-2 text-xs text-mist">
+                    <SourceLinks sources={m.sources} />
+                    {!m.verified && <span className="unverified">待核实</span>}
+                  </p>
+                </li>
+              ))}
+            </ol>
+          </section>
 
           <section className="mt-10">
             <h3 className="font-serif text-lg text-ink">营收流水</h3>
