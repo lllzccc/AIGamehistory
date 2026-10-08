@@ -20,7 +20,7 @@
       "period": "2025",
       "amountCNY": 3960000000,
       "kind": "estimate",
-      "source": { "title": "腾讯网（智通财经，Sensor Tower）：2025 年全球收入增长 44% 达 5.5 亿美元（按 7.2 折算，不含中国第三方安卓渠道）", "url": "https://news.qq.com/rain/a/20260113A03NQ500" }
+      "source": { "title": "腾讯网（智通财经，Sensor Tower）：2025 年全球收入增长 44% 达 5.5 亿美元（按 7.2 折算；Sensor Tower 应用商店口径）", "url": "https://news.qq.com/rain/a/20260113A03NQ500" }
     }
   ],
   "sources": [
@@ -28,5 +28,5 @@
     { "title": "游侠网：恋与深空 1 月 18 日全球公测（叠纸自研自发）", "url": "https://m.ali213.net/news/240118/208511.html" },
     { "title": "GameLook：叠纸的“奇迹年”——《恋与深空》2024 年全平台预估流水约 60 亿元", "url": "http://www.gamelook.com.cn/2025/01/562489/" }
   ],
-  "verified": true
+  "verified": false
 }
