@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import { motion } from 'motion/react';
 import type { ProductCard } from '../lib/types';
 import { formatDate } from '../lib/dates';
@@ -12,11 +12,35 @@ interface Props {
 }
 
 const ease = [0.22, 1, 0.36, 1] as const;
+const FOCUSABLE = 'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])';
 
 export default function ProductDrawer({ product, onClose }: Props) {
+  const panelRef = useRef<HTMLElement>(null);
+  const closeRef = useRef<HTMLButtonElement>(null);
+
   useEffect(() => {
+    const previousFocus = document.activeElement as HTMLElement | null;
+    closeRef.current?.focus({ preventScroll: true });
+
     const onKey = (e: KeyboardEvent) => {
-      if (e.key === 'Escape') onClose();
+      if (e.key === 'Escape') {
+        onClose();
+        return;
+      }
+      if (e.key !== 'Tab' || !panelRef.current) return;
+      const nodes = Array.from(panelRef.current.querySelectorAll<HTMLElement | SVGElement>(FOCUSABLE));
+      if (nodes.length === 0) return;
+      const first = nodes[0];
+      const last = nodes[nodes.length - 1];
+      const current = document.activeElement;
+      const inside = current instanceof Node && panelRef.current.contains(current);
+      if (e.shiftKey && (current === first || !inside)) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && (current === last || !inside)) {
+        e.preventDefault();
+        first.focus();
+      }
     };
     const previous = document.body.style.overflow;
     document.body.style.overflow = 'hidden';
@@ -24,6 +48,7 @@ export default function ProductDrawer({ product, onClose }: Props) {
     return () => {
       document.body.style.overflow = previous;
       document.removeEventListener('keydown', onKey);
+      previousFocus?.focus({ preventScroll: true });
     };
   }, [onClose]);
 
@@ -40,6 +65,7 @@ export default function ProductDrawer({ product, onClose }: Props) {
         onClick={onClose}
       />
       <motion.aside
+        ref={panelRef}
         className="absolute inset-y-0 right-0 w-[min(600px,94vw)] overflow-y-auto bg-paper shadow-2xl"
         initial={{ x: '100%' }}
         animate={{ x: 0 }}
@@ -55,6 +81,7 @@ export default function ProductDrawer({ product, onClose }: Props) {
               {product.aliases.length > 0 && <p className="mt-1 text-sm text-mist">{product.aliases.join(' / ')}</p>}
             </div>
             <button
+              ref={closeRef}
               type="button"
               onClick={onClose}
               aria-label="关闭"

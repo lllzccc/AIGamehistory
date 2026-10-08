@@ -67,8 +67,9 @@ export default function RevenueChart({ series }: { series: RevenuePoint[] }) {
             r={active === i ? 5.5 : 3.5}
             fill={p.kind === 'official' ? 'var(--color-rouge)' : 'var(--color-paper)'}
             stroke="var(--color-rouge)"
-            strokeWidth={1.5}
+            strokeWidth={active === i ? 2.5 : 1.5}
             tabIndex={0}
+            aria-label={`${p.period} ${formatCNY(p.amountCNY)} ${p.kind === 'official' ? '官方数据' : '第三方估算'}`}
             className="cursor-pointer outline-none transition-[r]"
             onMouseEnter={() => setActive(i)}
             onFocus={() => setActive(i)}
