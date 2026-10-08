@@ -95,7 +95,14 @@ frontmatter 字段：
 - `summary`（一句话）
 - `sources`、`verified`
 
-### 3.5 数据准确性
+### 3.5 市场规模 Market —— `src/content/market/<year>.json`
+
+- `year`、`amountCNY`（元）、`kind`（`official` | `estimate`）
+- `scope`：统计口径说明（如"中国女性向游戏市场实际销售收入"）；所有条目必须同一口径，否则构建报错
+- `source`、`verified`、`note`（可选，记录版本修订等）
+- 用于首页热度条上叠加的市场整体流水曲线；口径一致的数据不足两年时不画线
+
+### 3.6 数据准确性
 
 - 每条事实必须带至少一个来源链接。
 - 无法核实的条目标记 `verified: false`，页面上用"待核实"标识显示。
