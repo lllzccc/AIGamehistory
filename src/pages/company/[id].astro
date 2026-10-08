@@ -5,6 +5,7 @@ import CompanyHero from '../../components/CompanyHero.astro';
 import PeopleSection from '../../components/PeopleSection.astro';
 import SectionTitle from '../../components/SectionTitle.astro';
 import SourceList from '../../components/SourceList';
+import CompanyTimeline from '../../components/CompanyTimeline';
 import { loadDataset } from '../../lib/load';
 import { displayCompanyName, getCompanyView, toProductCards } from '../../lib/data';
 
@@ -33,7 +34,9 @@ const notesIndex = view.people.length > 0 ? '04' : '03';
     <div class="mx-auto max-w-6xl px-6 sm:px-10">
       <SectionTitle index="01" title="时间轴" note="按住拖动浏览" />
     </div>
-    <div class="mt-10"></div>
+    <div class="mt-10">
+      <CompanyTimeline client:visible items={view.timeline} endYear={endYear} />
+    </div>
   </section>
 
   <section id="works" class="mx-auto max-w-6xl px-6 py-24 sm:px-10">
