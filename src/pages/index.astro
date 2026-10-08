@@ -1,9 +1,39 @@
 ---
 import Base from '../layouts/Base.astro';
+import { loadDataset } from '../lib/load';
+import { compareDates, yearOf } from '../lib/dates';
+
+const ds = await loadDataset();
+const companies = [...ds.companies].sort((a, b) => compareDates(a.founded, b.founded));
+const firstYear = companies.length > 0 ? yearOf(companies[0].founded) : new Date().getFullYear();
+const endYear = new Date().getFullYear();
 ---
 
 <Base title="首页">
-  <section class="mx-auto max-w-6xl px-6 pt-32 pb-24 sm:px-10">
-    <h1 class="hero-rise font-serif text-5xl font-bold">中国女性向游戏编年史</h1>
+  <section class="mx-auto max-w-6xl px-6 pt-36 pb-20 sm:px-10">
+    <p class="hero-rise font-display text-sm tracking-[0.4em] text-mist">CHRONICLE · {firstYear} — {endYear}</p>
+    <h1 class="hero-rise mt-6 font-serif text-5xl leading-tight font-bold sm:text-7xl" style="animation-delay: 80ms">
+      中国女性向游戏<br />编年史
+    </h1>
+    <p class="hero-rise mt-8 max-w-xl font-serif text-lg leading-loose text-ink-soft" style="animation-delay: 160ms">
+      从换装到乙女，从互动阅读到 3D 恋爱，记录那些为女性玩家做游戏的公司，以及它们走过的年份。
+    </p>
+  </section>
+
+  <section class="mx-auto max-w-6xl px-6 pb-32 sm:px-10">
+    <ul class="divide-y divide-ink/10 border-y border-ink/10">
+      {companies.map((c) => (
+        <li>
+          <a href={`/company/${c.id}`} class="group grid grid-cols-[5rem_1fr_auto] items-baseline gap-6 py-8 sm:grid-cols-[7rem_1fr_auto]">
+            <span class="font-display text-3xl text-mist transition group-hover:text-rouge">{yearOf(c.founded)}</span>
+            <span>
+              <span class="block font-serif text-2xl text-ink transition group-hover:text-rouge">{c.name}</span>
+              <span class="mt-2 block text-sm text-ink-soft">{c.tagline}</span>
+            </span>
+            <span class="text-mist transition group-hover:translate-x-1 group-hover:text-rouge">→</span>
+          </a>
+        </li>
+      ))}
+    </ul>
   </section>
 </Base>

@@ -1,0 +1,55 @@
+---
+import { getCollection, render } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import CompanyHero from '../../components/CompanyHero.astro';
+import PeopleSection from '../../components/PeopleSection.astro';
+import SectionTitle from '../../components/SectionTitle.astro';
+import SourceList from '../../components/SourceList';
+import { loadDataset } from '../../lib/load';
+import { displayCompanyName, getCompanyView, toProductCards } from '../../lib/data';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('companies');
+  return entries.map((entry) => ({ params: { id: entry.id }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const ds = await loadDataset();
+const view = getCompanyView(ds, entry.id);
+const { company } = view;
+const cards = toProductCards(ds, view.products);
+const cover = company.cover ?? view.products.find((p) => p.keyArt)?.keyArt;
+const parentName = company.parent ? displayCompanyName(ds, company.parent) : undefined;
+const endYear = new Date().getFullYear();
+const peopleIndex = '03';
+const notesIndex = view.people.length > 0 ? '04' : '03';
+---
+
+<Base title={company.name} description={company.tagline}>
+  <CompanyHero company={company} cover={cover} productCount={view.products.length} parentName={parentName} />
+
+  <section id="timeline" class="py-24">
+    <div class="mx-auto max-w-6xl px-6 sm:px-10">
+      <SectionTitle index="01" title="时间轴" note="按住拖动浏览" />
+    </div>
+    <div class="mt-10"></div>
+  </section>
+
+  <section id="works" class="mx-auto max-w-6xl px-6 py-24 sm:px-10">
+    <SectionTitle index="02" title="作品" note={`${cards.length} 款`} />
+    <div class="mt-12"></div>
+  </section>
+
+  {view.people.length > 0 && <PeopleSection index={peopleIndex} people={view.people} companies={ds.companies} />}
+
+  <section class="mx-auto max-w-3xl px-6 py-24 sm:px-10">
+    <SectionTitle index={notesIndex} title="笔记" />
+    <article class="prose-chronicle mt-10">
+      <Content />
+    </article>
+    <div class="mt-16">
+      <SourceList sources={company.sources} />
+    </div>
+  </section>
+</Base>

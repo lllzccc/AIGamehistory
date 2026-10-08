@@ -1,0 +1,52 @@
+---
+import type { Company } from '../lib/types';
+import { formatDate, yearOf } from '../lib/dates';
+import { companyKindLabel, companyStatusLabel } from '../lib/labels';
+
+interface Props {
+  company: Company;
+  cover?: string;
+  productCount: number;
+  parentName?: string;
+}
+
+const { company, cover, productCount, parentName } = Astro.props;
+---
+
+<section class="relative isolate flex min-h-[86vh] items-end overflow-hidden">
+  {cover && <img src={cover} alt="" class="hero-art absolute inset-0 -z-20 h-full w-full object-cover saturate-[0.85]" />}
+  <div class="absolute inset-0 -z-10 bg-gradient-to-b from-paper/10 via-paper/65 to-paper"></div>
+  <span
+    aria-hidden="true"
+    class="pointer-events-none absolute -right-6 top-16 -z-10 font-display text-[22vw] leading-none text-ink/[0.06]"
+  >{yearOf(company.founded)}</span>
+
+  <div class="mx-auto w-full max-w-6xl px-6 pb-20 sm:px-10">
+    <p class="hero-rise text-xs tracking-[0.4em] text-ink-soft">
+      {companyKindLabel[company.kind]}{' · '}{company.headquarters}{parentName && ` · 隶属${parentName}`}
+    </p>
+    <h1 class="hero-rise mt-5 font-serif text-5xl font-bold tracking-wide sm:text-7xl" style="animation-delay: 80ms">
+      {company.name}
+    </h1>
+    {company.aliases.length > 0 && <p class="mt-3 text-sm text-mist">{company.aliases.join(' / ')}</p>}
+    <p class="hero-rise mt-6 max-w-xl font-serif text-xl leading-relaxed text-ink-soft" style="animation-delay: 160ms">
+      {company.tagline}
+    </p>
+
+    <dl class="hero-rise mt-12 grid max-w-2xl grid-cols-3 gap-6 border-t border-ink/15 pt-6" style="animation-delay: 240ms">
+      <div>
+        <dt class="text-xs tracking-widest text-mist">成立</dt>
+        <dd class="mt-2 font-display text-2xl text-ink">{formatDate(company.founded)}</dd>
+      </div>
+      <div>
+        <dt class="text-xs tracking-widest text-mist">现状</dt>
+        <dd class="mt-2 font-serif text-xl text-ink">{companyStatusLabel[company.status]}</dd>
+      </div>
+      <div>
+        <dt class="text-xs tracking-widest text-mist">收录作品</dt>
+        <dd class="mt-2 font-display text-2xl text-ink">{productCount}</dd>
+      </div>
+    </dl>
+    {!company.verified && <span class="unverified mt-6">待核实</span>}
+  </div>
+</section>

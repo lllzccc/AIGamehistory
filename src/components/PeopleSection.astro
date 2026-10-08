@@ -1,0 +1,56 @@
+---
+import type { Company, CompanyPerson } from '../lib/types';
+import SectionTitle from './SectionTitle.astro';
+
+interface Props {
+  index: string;
+  people: CompanyPerson[];
+  companies: Company[];
+}
+
+const { index, people, companies } = Astro.props;
+const nameOf = (id: string) => companies.find((c) => c.id === id)?.name ?? id;
+const span = (from: string, to?: string) => `${from.slice(0, 4)} — ${to ? to.slice(0, 4) : '至今'}`;
+---
+
+<section class="mx-auto max-w-6xl px-6 py-24 sm:px-10">
+  <SectionTitle index={index} title="关键人物" />
+  <ul class="mt-12 grid gap-x-8 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
+    {people.map(({ person, roles, elsewhere }) => (
+      <li class="border-t border-ink/15 pt-6">
+        <div class="flex items-center gap-4">
+          {person.avatar ? (
+            <img src={person.avatar} alt="" class="h-14 w-14 rounded-full object-cover grayscale" />
+          ) : (
+            <span class="flex h-14 w-14 items-center justify-center rounded-full bg-rouge-soft font-serif text-xl text-rouge">
+              {person.name.slice(0, 1)}
+            </span>
+          )}
+          <div>
+            <p class="font-serif text-lg text-ink">{person.name}</p>
+            {roles.map((role) => (
+              <p class="text-sm text-ink-soft">
+                {role.title}
+                <span class="ml-2 font-display text-mist">{span(role.from, role.to)}</span>
+              </p>
+            ))}
+          </div>
+        </div>
+        <p class="mt-4 text-sm leading-relaxed text-ink-soft">{person.bio}</p>
+        {elsewhere.length > 0 && (
+          <p class="mt-3 text-xs leading-relaxed text-mist">
+            亦曾任职：
+            {elsewhere.map((role, i) => (
+              <>
+                {i > 0 && '、'}
+                <a href={`/company/${role.company}`} class="text-rouge hover:underline">{nameOf(role.company)}</a>
+                <span class="ml-1">{role.title}</span>
+              </>
+            ))}
+          </p>
+        )}
+        {!person.verified && <span class="unverified mt-3">待核实</span>}
+      </li>
+    ))}
+  </ul>
+</section>
