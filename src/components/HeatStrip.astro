@@ -31,7 +31,7 @@ const columns = `grid-template-columns: repeat(${n}, minmax(0, 1fr))`;
 ---
 
 {n > 0 && (
-  <figure class="overflow-x-clip">
+  <figure class="overflow-x-clip pt-14">
     <div class="relative h-36">
       <div class="absolute inset-0 grid items-end gap-1 sm:gap-2" style={columns}>
         {years.map(({ year, count }) => {
