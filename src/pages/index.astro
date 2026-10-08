@@ -1,12 +1,15 @@
 ---
 import Base from '../layouts/Base.astro';
+import HeatStrip from '../components/HeatStrip.astro';
 import { loadDataset } from '../lib/load';
 import { compareDates, yearOf } from '../lib/dates';
+import { bucketSize, getYearBuckets, marketSeries } from '../lib/data';
 
 const ds = await loadDataset();
 const companies = [...ds.companies].sort((a, b) => compareDates(a.founded, b.founded));
 const firstYear = companies.length > 0 ? yearOf(companies[0].founded) : new Date().getFullYear();
 const endYear = new Date().getFullYear();
+const buckets = getYearBuckets(ds, endYear);
 ---
 
 <Base title="首页">
@@ -18,6 +21,10 @@ const endYear = new Date().getFullYear();
     <p class="hero-rise mt-8 max-w-xl font-serif text-lg leading-loose text-ink-soft" style="animation-delay: 160ms">
       从换装到乙女，从互动阅读到 3D 恋爱，记录那些为女性玩家做游戏的公司，以及它们走过的年份。
     </p>
+  </section>
+
+  <section class="mx-auto max-w-6xl px-6 pb-12 sm:px-10">
+    <HeatStrip years={buckets.map((b) => ({ year: b.year, count: bucketSize(b) }))} market={marketSeries(ds)} />
   </section>
 
   <section class="mx-auto max-w-6xl px-6 pb-32 sm:px-10">

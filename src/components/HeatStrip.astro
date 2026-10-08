@@ -1,0 +1,106 @@
+---
+import type { MarketPoint } from '../lib/types';
+import { formatCNY } from '../lib/money';
+
+interface Props {
+  years: { year: number; count: number }[];
+  market: MarketPoint[];
+}
+
+const { years, market } = Astro.props;
+const n = years.length;
+const first = years[0]?.year ?? 0;
+const maxCount = Math.max(1, ...years.map((y) => y.count));
+const inRange = market.filter((m) => m.year >= first && m.year < first + n);
+const maxMarket = Math.max(1, ...inRange.map((m) => m.amountCNY));
+const marketByYear = new Map(inRange.map((m) => [m.year, m]));
+const linePath = inRange
+  .map((m, i) => {
+    const x = ((m.year - first + 0.5) / n) * 100;
+    const y = 100 - (m.amountCNY / maxMarket) * 86;
+    return `${i === 0 ? 'M' : 'L'}${x.toFixed(2)},${y.toFixed(2)}`;
+  })
+  .join(' ');
+const showLine = inRange.length >= 2;
+const estimated = inRange.some((m) => m.kind === 'estimate');
+const marketSources = [...new Map(inRange.map((m) => [m.sourceUrl, m.sourceTitle])).entries()];
+const barHeight = (count: number) => (count === 0 ? 2 : 10 + (count / maxCount) * 90);
+const columns = `grid-template-columns: repeat(${n}, minmax(0, 1fr))`;
+---
+
+{n > 0 && (
+  <figure>
+    <div class="relative h-36">
+      <div class="absolute inset-0 grid items-end gap-1 sm:gap-2" style={columns}>
+        {years.map(({ year, count }) => {
+          const m = marketByYear.get(year);
+          const label = `${year} 年 · ${count} 条记录${m ? ` · 市场 ${formatCNY(m.amountCNY)}` : ''}`;
+          return (
+            <a href={`#y${year}`} aria-label={label} class="group relative flex h-full items-end justify-center focus-visible:outline-none">
+              <span
+                class="block w-full max-w-7 bg-ink/15 transition-colors duration-300 group-hover:bg-rouge group-focus-visible:bg-rouge"
+                style={`height: ${barHeight(count)}%`}
+              ></span>
+              <span class="pointer-events-none absolute bottom-full z-10 mb-2 whitespace-nowrap bg-ink px-2.5 py-1 text-xs text-paper opacity-0 transition-opacity group-hover:opacity-100 group-focus-visible:opacity-100">
+                {label}
+              </span>
+            </a>
+          );
+        })}
+      </div>
+      {showLine && (
+        <svg
+          class="pointer-events-none absolute inset-0 h-full w-full overflow-visible"
+          viewBox="0 0 100 100"
+          preserveAspectRatio="none"
+          aria-hidden="true"
+        >
+          <path
+            d={linePath}
+            fill="none"
+            stroke="var(--color-rouge)"
+            stroke-width="1.5"
+            stroke-linejoin="round"
+            vector-effect="non-scaling-stroke"
+            stroke-dasharray={estimated ? '5 4' : undefined}
+          ></path>
+        </svg>
+      )}
+    </div>
+    <div class="mt-3 grid gap-1 sm:gap-2" style={columns}>
+      {years.map(({ year }, i) => (
+        <span
+          class:list={[
+            'text-center font-display text-xs text-mist',
+            year % 5 === 0 || i === 0 || i === n - 1 ? '' : 'invisible sm:visible',
+          ]}
+        >
+          {year}
+        </span>
+      ))}
+    </div>
+    <figcaption class="mt-5 flex flex-wrap items-center gap-x-6 gap-y-2 text-xs text-ink-soft">
+      <span class="flex items-center gap-2">
+        <span class="inline-block h-3 w-2 bg-ink/15"></span>
+        柱高：当年收录的成立、上线与大事记条数
+      </span>
+      {showLine && (
+        <span class="flex flex-wrap items-center gap-2">
+          <span class:list={['inline-block w-5 border-t-[1.5px] border-rouge', estimated && 'border-dashed']}></span>
+          <span>{inRange[0].scope}{estimated ? '（第三方估算）' : ''}</span>
+          {marketSources.map(([url, title], i) => (
+            <a
+              href={url}
+              target="_blank"
+              rel="noreferrer"
+              title={title}
+              class="text-mist underline decoration-ink/20 underline-offset-2 transition hover:text-rouge"
+            >
+              来源{marketSources.length > 1 ? i + 1 : ''}
+            </a>
+          ))}
+        </span>
+      )}
+    </figcaption>
+  </figure>
+)}
