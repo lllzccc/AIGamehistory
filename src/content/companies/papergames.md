@@ -7,7 +7,7 @@ kind: independent
 status: active
 tagline: 以“暖暖”“恋与”两大系列开辟国产女性向手游赛道的游戏公司
 website: https://www.papegames.com/
-cover: /images/papergames/cover.jpg
+cover: /images/papergames/miracle-nikki.jpg
 sources:
   - title: Papergames 官网 About Paper：Founded in August 2013
     url: https://www.playpapergames.com/about.html

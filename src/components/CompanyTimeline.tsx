@@ -7,7 +7,7 @@ import { assignLevels } from '../lib/timelineLayout';
 
 const PX_PER_YEAR = 180;
 const PAD = 96;
-const HEIGHT = 400;
+const HEIGHT = 520;
 const AXIS_Y = HEIGHT / 2;
 const LEVEL_OFFSETS = [-64, 64, -140, 140];
 const LABEL_WIDTH = 168;
@@ -59,7 +59,10 @@ export default function CompanyTimeline({ items, endYear }: Props) {
     <MotionConfig reducedMotion="user">
       <div
         ref={scroller}
-        className="timeline-scroller cursor-grab overflow-x-auto select-none active:cursor-grabbing"
+        tabIndex={0}
+        role="region"
+        aria-label="公司时间轴"
+        className="timeline-scroller cursor-grab overflow-x-auto select-none active:cursor-grabbing focus-visible:outline focus-visible:outline-1 focus-visible:outline-offset-4 focus-visible:outline-rouge/40"
         onPointerDown={onPointerDown}
         onPointerMove={onPointerMove}
         onPointerUp={endDrag}
