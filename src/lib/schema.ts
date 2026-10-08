@@ -79,3 +79,13 @@ export const eventSchema = z.object({
   sources,
   verified: z.boolean().default(false),
 });
+
+export const marketEntrySchema = z.object({
+  year: z.number().int().min(2000).max(2100),
+  amountCNY: z.number().positive(),
+  kind: z.enum(['official', 'estimate']),
+  scope: z.string().min(1),
+  source: sourceSchema,
+  verified: z.boolean().default(false),
+  note: z.string().optional(),
+});

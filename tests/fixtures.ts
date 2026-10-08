@@ -43,5 +43,9 @@ export function makeDataset(): Dataset {
       { id: 'joint', date: '2019', type: 'milestone', companies: ['alpha', 'beta'], products: ['b-first'], summary: '达成合作', sources, verified: false },
       { id: 'alpha-a-round', date: '2016-03', type: 'funding', companies: ['alpha'], products: [], summary: '完成 A 轮融资', sources, verified: true },
     ],
+    market: [
+      { id: '2016', year: 2016, amountCNY: 2e9, kind: 'estimate', scope: '测试口径', source: sources[0], verified: true },
+      { id: '2015', year: 2015, amountCNY: 1e9, kind: 'estimate', scope: '测试口径', source: sources[0], verified: true },
+    ],
   };
 }

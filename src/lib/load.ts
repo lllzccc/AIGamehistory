@@ -3,11 +3,12 @@ import { checkIntegrity } from './data';
 import type { Dataset } from './types';
 
 export async function loadDataset(): Promise<Dataset> {
-  const [companies, products, people, events] = await Promise.all([
+  const [companies, products, people, events, market] = await Promise.all([
     getCollection('companies'),
     getCollection('products'),
     getCollection('people'),
     getCollection('events'),
+    getCollection('market'),
   ]);
 
   const ds: Dataset = {
@@ -15,6 +16,7 @@ export async function loadDataset(): Promise<Dataset> {
     products: products.map((e) => ({ id: e.id, ...e.data })),
     people: people.map((e) => ({ id: e.id, ...e.data })),
     events: events.map((e) => ({ id: e.id, ...e.data })),
+    market: market.map((e) => ({ id: e.id, ...e.data })),
   };
 
   const errors = checkIntegrity(ds);

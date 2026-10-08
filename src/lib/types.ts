@@ -2,6 +2,7 @@ import type { z } from 'astro/zod';
 import type {
   companySchema,
   eventSchema,
+  marketEntrySchema,
   personSchema,
   productSchema,
   revenueEntrySchema,
@@ -16,13 +17,17 @@ export type Product = z.infer<typeof productSchema> & { id: string };
 export type Role = z.infer<typeof roleSchema>;
 export type Person = z.infer<typeof personSchema> & { id: string };
 export type ChronicleEvent = z.infer<typeof eventSchema> & { id: string };
+export type MarketEntry = z.infer<typeof marketEntrySchema> & { id: string };
 export type EventType = ChronicleEvent['type'];
+export type Genre = Product['genre'];
+export type GenreFilter = Genre | 'all';
 
 export interface Dataset {
   companies: Company[];
   products: Product[];
   people: Person[];
   events: ChronicleEvent[];
+  market: MarketEntry[];
 }
 
 export interface RevenuePoint {
@@ -34,21 +39,25 @@ export interface RevenuePoint {
   sourceUrl: string;
 }
 
-export type ProductCard = Product & {
-  developerName: string;
-  publisherName: string;
-  series: RevenuePoint[];
-};
-
 export type TimelineKind = 'founded' | 'launch' | 'shutdown' | EventType;
 
 export interface TimelineItem {
+  id: string;
   date: string;
   kind: TimelineKind;
   label: string;
-  productId?: string;
+  productIds: string[];
+  sources: Source[];
   verified: boolean;
 }
+
+export type ProductCard = Product & {
+  developerName: string;
+  publisherName: string;
+  publisherId?: string;
+  series: RevenuePoint[];
+  milestones: TimelineItem[];
+};
 
 export interface CompanyPerson {
   person: Person;
@@ -62,4 +71,37 @@ export interface CompanyView {
   people: CompanyPerson[];
   events: ChronicleEvent[];
   timeline: TimelineItem[];
+}
+
+export interface MarketPoint {
+  year: number;
+  amountCNY: number;
+  kind: MarketEntry['kind'];
+  scope: string;
+  sourceTitle: string;
+  sourceUrl: string;
+  verified: boolean;
+}
+
+export interface RiverCompany {
+  id: string;
+  name: string;
+  tagline: string;
+  kind: Company['kind'];
+  logo?: string;
+  founded: string;
+  verified: boolean;
+  genres: Genre[];
+}
+
+export interface RiverEvent extends TimelineItem {
+  companies: { id: string; name: string }[];
+  genres: Genre[];
+}
+
+export interface YearBucket {
+  year: number;
+  founded: RiverCompany[];
+  launches: ProductCard[];
+  events: RiverEvent[];
 }

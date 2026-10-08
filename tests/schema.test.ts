@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { companySchema, partialDate, productSchema } from '../src/lib/schema';
+import { companySchema, marketEntrySchema, partialDate, productSchema } from '../src/lib/schema';
 
 const source = { title: '官网', url: 'https://example.com' };
 
@@ -59,5 +59,25 @@ describe('productSchema', () => {
 
   it('流水默认为空数组', () => {
     expect(productSchema.parse(valid).revenue).toEqual([]);
+  });
+});
+
+describe('marketEntrySchema', () => {
+  const base = {
+    year: 2023,
+    amountCNY: 5e9,
+    kind: 'estimate',
+    scope: '中国女性向游戏市场实际销售收入',
+    source: { title: '测试来源', url: 'https://example.com' },
+  };
+
+  it('接受合法条目，verified 默认为 false', () => {
+    const parsed = marketEntrySchema.parse(base);
+    expect(parsed.verified).toBe(false);
+  });
+
+  it('拒绝非整数年份和非正数金额', () => {
+    expect(marketEntrySchema.safeParse({ ...base, year: 2023.5 }).success).toBe(false);
+    expect(marketEntrySchema.safeParse({ ...base, amountCNY: 0 }).success).toBe(false);
   });
 });

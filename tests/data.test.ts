@@ -1,5 +1,15 @@
 import { describe, expect, it } from 'vitest';
-import { checkIntegrity, displayCompanyName, getCompanyView, revenueSeries, toProductCards } from '../src/lib/data';
+import {
+  bucketSize,
+  checkIntegrity,
+  displayCompanyName,
+  filterBucket,
+  getCompanyView,
+  getYearBuckets,
+  marketSeries,
+  revenueSeries,
+  toProductCards,
+} from '../src/lib/data';
 import { makeDataset } from './fixtures';
 
 describe('checkIntegrity', () => {
@@ -61,6 +71,18 @@ describe('checkIntegrity', () => {
     ds.people[0].roles[0].to = '2018';
     expect(checkIntegrity(ds).join('\n')).toContain('founder');
   });
+
+  it('发现重复年份的市场数据', () => {
+    const ds = makeDataset();
+    ds.market.push({ ...ds.market[0], id: '2016-b' });
+    expect(checkIntegrity(ds).join('\n')).toContain('2016');
+  });
+
+  it('发现口径不一致的市场数据', () => {
+    const ds = makeDataset();
+    ds.market[1].scope = '另一种口径';
+    expect(checkIntegrity(ds).join('\n')).toContain('口径');
+  });
 });
 
 describe('displayCompanyName', () => {
@@ -86,6 +108,22 @@ describe('toProductCards', () => {
     expect(card.developerName).toBe('Beta 工作室');
     expect(card.publisherName).toBe('Alpha 游戏');
     expect(card.series).toEqual([]);
+  });
+
+  it('发行方是已收录公司时给出 publisherId，否则为空', () => {
+    const ds = makeDataset();
+    const [second, third] = toProductCards(ds, [ds.products[1], ds.products[2]]);
+    expect(second.publisherId).toBeUndefined();
+    expect(third.publisherId).toBe('alpha');
+  });
+
+  it('关键节点包含上线、停服和关联事件，按日期排序', () => {
+    const ds = makeDataset();
+    const [first, second, third] = toProductCards(ds, ds.products);
+    expect(first.milestones.map((m) => m.id)).toEqual(['launch-a-first']);
+    expect(second.milestones.map((m) => m.id)).toEqual(['launch-a-second', 'shutdown-a-second']);
+    expect(third.milestones.map((m) => m.id)).toEqual(['joint', 'launch-b-first']);
+    expect(third.milestones[0].sources).toHaveLength(1);
   });
 });
 
@@ -120,9 +158,72 @@ describe('getCompanyView', () => {
     ]);
     expect(view.timeline[1].label).toBe('《初作》上线');
     expect(view.timeline[4].verified).toBe(false);
+    expect(view.timeline[0]).toMatchObject({ id: 'founded-alpha', productIds: [] });
+    expect(view.timeline[1]).toMatchObject({ id: 'launch-a-first', productIds: ['a-first'] });
+    expect(view.timeline[4]).toMatchObject({ id: 'joint', productIds: ['b-first'] });
+    expect(view.timeline.every((t) => t.sources.length > 0)).toBe(true);
   });
 
   it('未收录的公司抛出错误', () => {
     expect(() => getCompanyView(makeDataset(), 'nope')).toThrow('nope');
+  });
+});
+
+describe('getYearBuckets', () => {
+  const buckets = getYearBuckets(makeDataset(), 2024);
+  const at = (year: number) => buckets.find((b) => b.year === year)!;
+
+  it('覆盖从最早年份到 endYear 的每一年，包含空年份', () => {
+    expect(buckets.map((b) => b.year)).toEqual([
+      2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024,
+    ]);
+    expect(bucketSize(at(2014))).toBe(0);
+  });
+
+  it('成立的公司带上其作品品类', () => {
+    expect(at(2013).founded.map((c) => [c.id, c.genres])).toEqual([['alpha', ['otome', 'dressup']]]);
+    expect(at(2018).founded.map((c) => [c.id, c.genres])).toEqual([['beta', ['otome']]]);
+  });
+
+  it('上线作品是完整的 ProductCard', () => {
+    expect(at(2015).launches.map((p) => p.id)).toEqual(['a-first']);
+    expect(at(2015).launches[0].developerName).toBe('Alpha 游戏');
+  });
+
+  it('事件包含停服，并带公司名和品类', () => {
+    expect(at(2023).events.map((e) => [e.id, e.kind])).toEqual([['shutdown-a-second', 'shutdown']]);
+    const joint = at(2019).events[0];
+    expect(joint.companies.map((c) => c.name)).toEqual(['Alpha 游戏', 'Beta 工作室']);
+    expect(joint.genres).toEqual(['otome']);
+    expect(at(2016).events[0].genres).toEqual(['otome', 'dressup']);
+  });
+
+  it('bucketSize 统计三类条目总数', () => {
+    expect(bucketSize(at(2013))).toBe(1);
+    expect(bucketSize(at(2021))).toBe(1);
+  });
+});
+
+describe('filterBucket', () => {
+  const buckets = getYearBuckets(makeDataset(), 2024);
+  const at = (year: number) => buckets.find((b) => b.year === year)!;
+
+  it('all 原样返回', () => {
+    expect(filterBucket(at(2019), 'all')).toBe(at(2019));
+  });
+
+  it('按品类过滤公司、作品和事件', () => {
+    expect(filterBucket(at(2013), 'dressup').founded.map((c) => c.id)).toEqual(['alpha']);
+    expect(filterBucket(at(2015), 'otome').launches).toEqual([]);
+    expect(filterBucket(at(2016), 'dressup').events).toHaveLength(1);
+    expect(filterBucket(at(2019), 'dressup').events).toEqual([]);
+  });
+});
+
+describe('marketSeries', () => {
+  it('按年份升序并展开来源', () => {
+    const series = marketSeries(makeDataset());
+    expect(series.map((p) => p.year)).toEqual([2015, 2016]);
+    expect(series[0]).toMatchObject({ amountCNY: 1e9, kind: 'estimate', scope: '测试口径', sourceTitle: '测试来源' });
   });
 });

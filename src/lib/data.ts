@@ -1,17 +1,30 @@
-import { compareDates, periodToNumber } from './dates';
+import { compareDates, periodToNumber, yearOf } from './dates';
 import type {
   ChronicleEvent,
   Company,
   CompanyView,
   Dataset,
+  Genre,
+  GenreFilter,
+  MarketPoint,
   Product,
   ProductCard,
   RevenuePoint,
+  RiverCompany,
+  RiverEvent,
   TimelineItem,
+  YearBucket,
 } from './types';
+
+const GENRE_ORDER: Genre[] = ['otome', 'dressup', 'interactive', 'other'];
 
 function byDate<T>(get: (item: T) => string) {
   return (a: T, b: T) => compareDates(get(a), get(b));
+}
+
+function uniqueGenres(products: Product[]): Genre[] {
+  const present = new Set(products.map((p) => p.genre));
+  return GENRE_ORDER.filter((g) => present.has(g));
 }
 
 export function displayCompanyName(ds: Dataset, idOrName: string): string {
@@ -67,6 +80,16 @@ export function checkIntegrity(ds: Dataset): string[] {
     }
   }
 
+  const marketYears = new Set<number>();
+  for (const entry of ds.market) {
+    if (marketYears.has(entry.year)) errors.push(`市场数据：${entry.year} 年重复`);
+    marketYears.add(entry.year);
+  }
+  const scopes = new Set(ds.market.map((m) => m.scope));
+  if (scopes.size > 1) {
+    errors.push(`市场数据：统计口径不一致（${[...scopes].join(' / ')}）`);
+  }
+
   return errors;
 }
 
@@ -83,28 +106,79 @@ export function revenueSeries(product: Product): RevenuePoint[] {
     .sort((a, b) => a.x - b.x);
 }
 
+function launchItem(p: Product): TimelineItem {
+  return {
+    id: `launch-${p.id}`,
+    date: p.released,
+    kind: 'launch',
+    label: `《${p.name}》上线`,
+    productIds: [p.id],
+    sources: p.sources,
+    verified: p.verified,
+  };
+}
+
+function shutdownItem(p: Product, date: string): TimelineItem {
+  return {
+    id: `shutdown-${p.id}`,
+    date,
+    kind: 'shutdown',
+    label: `《${p.name}》停服`,
+    productIds: [p.id],
+    sources: p.sources,
+    verified: p.verified,
+  };
+}
+
+function eventItem(e: ChronicleEvent): TimelineItem {
+  return {
+    id: e.id,
+    date: e.date,
+    kind: e.type,
+    label: e.summary,
+    productIds: e.products,
+    sources: e.sources,
+    verified: e.verified,
+  };
+}
+
+export function productMilestones(ds: Dataset, product: Product): TimelineItem[] {
+  const items = [launchItem(product)];
+  if (product.shutdown) items.push(shutdownItem(product, product.shutdown));
+  for (const e of ds.events) {
+    if (e.products.includes(product.id)) items.push(eventItem(e));
+  }
+  return items.sort(byDate((item) => item.date));
+}
+
 export function toProductCards(ds: Dataset, products: Product[]): ProductCard[] {
   return products.map((p) => ({
     ...p,
     developerName: displayCompanyName(ds, p.developer),
     publisherName: displayCompanyName(ds, p.publisher),
+    publisherId: ds.companies.some((c) => c.id === p.publisher) ? p.publisher : undefined,
     series: revenueSeries(p),
+    milestones: productMilestones(ds, p),
   }));
 }
 
 export function buildTimeline(company: Company, products: Product[], events: ChronicleEvent[]): TimelineItem[] {
   const items: TimelineItem[] = [
-    { date: company.founded, kind: 'founded', label: `${company.name}成立`, verified: company.verified },
+    {
+      id: `founded-${company.id}`,
+      date: company.founded,
+      kind: 'founded',
+      label: `${company.name}成立`,
+      productIds: [],
+      sources: company.sources,
+      verified: company.verified,
+    },
   ];
   for (const p of products) {
-    items.push({ date: p.released, kind: 'launch', label: `《${p.name}》上线`, productId: p.id, verified: p.verified });
-    if (p.shutdown) {
-      items.push({ date: p.shutdown, kind: 'shutdown', label: `《${p.name}》停服`, productId: p.id, verified: p.verified });
-    }
+    items.push(launchItem(p));
+    if (p.shutdown) items.push(shutdownItem(p, p.shutdown));
   }
-  for (const e of events) {
-    items.push({ date: e.date, kind: e.type, label: e.summary, verified: e.verified });
-  }
+  for (const e of events) items.push(eventItem(e));
   return items.sort(byDate((item) => item.date));
 }
 
@@ -129,4 +203,79 @@ export function getCompanyView(ds: Dataset, id: string): CompanyView {
     .sort((a, b) => compareDates(a.roles[0].from, b.roles[0].from));
 
   return { company, products, people, events, timeline: buildTimeline(company, products, events) };
+}
+
+export function getYearBuckets(ds: Dataset, endYear: number): YearBucket[] {
+  const productsOf = (companyIds: string[]) =>
+    ds.products.filter((p) => companyIds.includes(p.developer) || companyIds.includes(p.publisher));
+  const companyRef = (id: string) => ({ id, name: displayCompanyName(ds, id) });
+
+  const founded: RiverCompany[] = ds.companies.map((c) => ({
+    id: c.id,
+    name: c.name,
+    tagline: c.tagline,
+    kind: c.kind,
+    logo: c.logo,
+    founded: c.founded,
+    verified: c.verified,
+    genres: uniqueGenres(productsOf([c.id])),
+  }));
+  const launches = toProductCards(ds, ds.products);
+  const events: RiverEvent[] = [];
+  for (const p of ds.products) {
+    if (p.shutdown) {
+      events.push({ ...shutdownItem(p, p.shutdown), companies: [companyRef(p.developer)], genres: [p.genre] });
+    }
+  }
+  for (const e of ds.events) {
+    const linked = ds.products.filter((p) => e.products.includes(p.id));
+    const genres = uniqueGenres(linked.length > 0 ? linked : productsOf(e.companies));
+    events.push({ ...eventItem(e), companies: e.companies.map(companyRef), genres });
+  }
+
+  const years = [
+    ...founded.map((c) => yearOf(c.founded)),
+    ...launches.map((p) => yearOf(p.released)),
+    ...events.map((e) => yearOf(e.date)),
+  ];
+  if (years.length === 0) return [];
+
+  const buckets: YearBucket[] = [];
+  for (let year = Math.min(...years); year <= Math.max(endYear, ...years); year++) {
+    buckets.push({
+      year,
+      founded: founded.filter((c) => yearOf(c.founded) === year).sort(byDate((c) => c.founded)),
+      launches: launches.filter((p) => yearOf(p.released) === year).sort(byDate((p) => p.released)),
+      events: events.filter((e) => yearOf(e.date) === year).sort(byDate((e) => e.date)),
+    });
+  }
+  return buckets;
+}
+
+export function bucketSize(bucket: YearBucket): number {
+  return bucket.founded.length + bucket.launches.length + bucket.events.length;
+}
+
+export function filterBucket(bucket: YearBucket, genre: GenreFilter): YearBucket {
+  if (genre === 'all') return bucket;
+  return {
+    year: bucket.year,
+    founded: bucket.founded.filter((c) => c.genres.includes(genre)),
+    launches: bucket.launches.filter((p) => p.genre === genre),
+    events: bucket.events.filter((e) => e.genres.includes(genre)),
+  };
+}
+
+export function marketSeries(ds: Dataset): MarketPoint[] {
+  return [...ds.market]
+    .sort((a, b) => a.year - b.year)
+    .map((m) => ({
+      year: m.year,
+      amountCNY: m.amountCNY,
+      kind: m.kind,
+      scope: m.scope,
+      sourceTitle: m.source.title,
+      sourceUrl: m.source.url,
+      verified: m.verified,
+    }));
 }

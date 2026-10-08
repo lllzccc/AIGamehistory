@@ -1,6 +1,6 @@
 import { defineCollection } from 'astro:content';
 import { glob } from 'astro/loaders';
-import { companySchema, eventSchema, personSchema, productSchema } from './lib/schema';
+import { companySchema, eventSchema, marketEntrySchema, personSchema, productSchema } from './lib/schema';
 
 const companies = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/companies' }),
@@ -22,4 +22,9 @@ const events = defineCollection({
   schema: eventSchema,
 });
 
-export const collections = { companies, products, people, events };
+const market = defineCollection({
+  loader: glob({ pattern: '**/*.json', base: './src/content/market' }),
+  schema: marketEntrySchema,
+});
+
+export const collections = { companies, products, people, events, market };
