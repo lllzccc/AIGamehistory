@@ -1,0 +1,12 @@
+{
+  "date": "2014-01",
+  "type": "funding",
+  "companies": ["papergames"],
+  "products": [],
+  "summary": "获 IDG 资本投资，金额据报道为数百万美元。",
+  "sources": [
+    { "title": "腾讯网（时代周报）：2014 年 1 月，叠纸网络获得 IDG 资本的投资，融资数百万美元", "url": "https://news.qq.com/rain/a/20240425A00G8W00" },
+    { "title": "Forbes：In 2014, the company raised an undisclosed amount from IDG", "url": "https://www.forbes.com/sites/ywang/2025/02/14/ai-boyfriends-make-chinese-gaming-entrepreneur-yao-runhao-a-billionaire/" }
+  ],
+  "verified": true
+}

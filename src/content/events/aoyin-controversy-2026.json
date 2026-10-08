@@ -1,0 +1,12 @@
+{
+  "date": "2026-06",
+  "type": "controversy",
+  "companies": ["papergames"],
+  "products": ["love-and-deepspace"],
+  "summary": "《恋与深空》6 月 22 日空降第六位男主“敖尹”引发大规模玩家抵制，官方 6 月 30 日宣布取消该角色并承诺不再新增男主。",
+  "sources": [
+    { "title": "腾讯网：“不接受！”游戏空降新男主，遭玩家大规模抵制", "url": "https://news.qq.com/rain/a/20260628A03L6S00" },
+    { "title": "17173：《恋与深空》宣布取消男主敖尹上线", "url": "https://news.17173.com/content/07012026/094502802.shtml" }
+  ],
+  "verified": true
+}

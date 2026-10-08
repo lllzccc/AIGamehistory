@@ -1,0 +1,38 @@
+{
+  "name": "恋与制作人",
+  "aliases": ["Mr Love: Queen's Choice"],
+  "genre": "otome",
+  "developer": "papergames",
+  "publisher": "papergames",
+  "released": "2017-12-14",
+  "platforms": ["iOS", "Android"],
+  "status": "live",
+  "significance": "“恋与”系列首作，上线首月成为现象级产品，打开了国内乙女游戏市场。",
+  "keyArt": "/images/papergames/love-and-producer.jpg",
+  "revenue": [
+    {
+      "period": "2018",
+      "amountCNY": 1250280000,
+      "kind": "estimate",
+      "source": { "title": "新浪财经（道总有理）：2018 年流水约 12.5028 亿元（第三方统计）", "url": "https://finance.sina.com.cn/jjxw/2024-01-25/doc-inaetiwi8696772.shtml" }
+    },
+    {
+      "period": "2019",
+      "amountCNY": 594610000,
+      "kind": "estimate",
+      "source": { "title": "新浪财经（道总有理）：2019 年流水约 5.9461 亿元（第三方统计）", "url": "https://finance.sina.com.cn/jjxw/2024-01-25/doc-inaetiwi8696772.shtml" }
+    },
+    {
+      "period": "2020",
+      "amountCNY": 529350000,
+      "kind": "estimate",
+      "source": { "title": "新浪财经（道总有理）：2020 年流水约 5.2935 亿元（第三方统计）", "url": "https://finance.sina.com.cn/jjxw/2024-01-25/doc-inaetiwi8696772.shtml" }
+    }
+  ],
+  "sources": [
+    { "title": "《恋与制作人》官网公告：12 月 14 日 iOS 公测、12 月 20 日全平台公测", "url": "https://evol.papegames.cn/news/18" },
+    { "title": "北京商报：《恋与制作人》走红的背后", "url": "https://www.bbtnews.com.cn/2018/0118/226958.shtml" },
+    { "title": "GameLook：《恋与制作人》DAU 超 400 万，月收入或达 3 亿元", "url": "http://www.gamelook.com.cn/2018/01/317760/" }
+  ],
+  "verified": true
+}

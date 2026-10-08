@@ -1,0 +1,12 @@
+{
+  "date": "2015-10",
+  "type": "funding",
+  "companies": ["papergames"],
+  "products": ["miracle-nikki"],
+  "summary": "完成 1.5 亿元 B 轮融资，东方证券旗下东方星晖领投、宋城演艺旗下基金跟投。",
+  "sources": [
+    { "title": "虎嗅：那个做《暖暖环游世界》和《奇迹暖暖》的游戏公司，刚刚完成B轮融资", "url": "https://www.huxiu.com/article/129420.html" },
+    { "title": "界面新闻：女性手游《奇迹暖暖》研发商苏州叠纸完成1.5亿人民币B轮融资", "url": "https://www.jiemian.com/article/417216.html" }
+  ],
+  "verified": true
+}

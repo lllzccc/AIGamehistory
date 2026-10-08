@@ -1,0 +1,26 @@
+{
+  "name": "闪耀暖暖",
+  "aliases": ["Shining Nikki"],
+  "genre": "dressup",
+  "developer": "papergames",
+  "publisher": "papergames",
+  "released": "2019-08-06",
+  "platforms": ["iOS", "Android"],
+  "status": "live",
+  "significance": "“暖暖”系列第四作、叠纸首款 3D 手游，把换装游戏推进到次世代 3D 画面。",
+  "keyArt": "/images/papergames/shining-nikki.jpg",
+  "revenue": [
+    {
+      "period": "2019",
+      "amountCNY": 800000000,
+      "kind": "estimate",
+      "source": { "title": "竞核：《闪耀暖暖》2019 年总流水预估达 8 亿元（8 月上线后约 5 个月）", "url": "https://cgames.com/contents/2/952.html" }
+    }
+  ],
+  "sources": [
+    { "title": "《闪耀暖暖》官网公告：8 月 6 日 11:00 公测开服", "url": "https://nikki4.papegames.cn/news/100303" },
+    { "title": "人民网：国产原创手游《闪耀暖暖》上线（叠纸自研自发）", "url": "http://m.people.cn/n4/2019/0806/c903-13038030.html" },
+    { "title": "维基百科：閃耀暖暖（台港澳版 2019 年 4 月 10 日先行发行）", "url": "https://zh.wikipedia.org/wiki/%E9%97%AA%E8%80%80%E6%9A%96%E6%9A%96" }
+  ],
+  "verified": true
+}
