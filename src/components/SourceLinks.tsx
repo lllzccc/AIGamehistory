@@ -1,6 +1,20 @@
 import type { Source } from '../lib/types';
 
-export default function SourceLinks({ sources }: { sources: Source[] }) {
+export default function SourceLinks({ sources, compact }: { sources: Source[]; compact?: boolean }) {
+  if (compact && sources.length > 2) {
+    return (
+      <a
+        href={sources[0].url}
+        target="_blank"
+        rel="noreferrer"
+        title={sources.map((source) => source.title).join(' · ')}
+        className="underline decoration-ink/20 underline-offset-2 transition hover:text-rouge"
+      >
+        来源
+      </a>
+    );
+  }
+
   return (
     <>
       {sources.map((source, i) => (

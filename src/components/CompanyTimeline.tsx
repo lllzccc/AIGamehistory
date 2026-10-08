@@ -120,8 +120,8 @@ export default function CompanyTimeline({ items, endYear }: Props) {
                   <p className="mt-1 line-clamp-3 font-serif text-sm leading-snug text-ink" title={item.label}>
                     {item.label}
                   </p>
-                  <p className="mt-1 flex flex-wrap items-center gap-x-2 text-[0.7rem] text-mist">
-                    <SourceLinks sources={item.sources} />
+                  <p className="mt-1 flex flex-nowrap items-center gap-x-2 overflow-hidden whitespace-nowrap text-[0.7rem] text-mist">
+                    <SourceLinks sources={item.sources} compact />
                     {!item.verified && <span className="unverified">待核实</span>}
                   </p>
                 </div>

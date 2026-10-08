@@ -40,12 +40,15 @@ export default function YearRiver({ buckets }: { buckets: YearBucket[] }) {
     [buckets, openId],
   );
 
-  const reveal = (delay = 0) => ({
-    initial: reduceMotion ? (false as const) : { opacity: 0, y: 20 },
-    whileInView: { opacity: 1, y: 0 },
-    viewport: { once: true, amount: 0.2 },
-    transition: { duration: 0.6, delay, ease },
-  });
+  const reveal = (delay = 0) =>
+    reduceMotion
+      ? { initial: false as const }
+      : {
+          initial: { opacity: 0, y: 20 },
+          whileInView: { opacity: 1, y: 0 },
+          viewport: { once: true, amount: 0.2 },
+          transition: { duration: 0.6, delay, ease },
+        };
 
   return (
     <MotionConfig reducedMotion="user">
