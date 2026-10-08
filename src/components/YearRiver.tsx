@@ -31,10 +31,7 @@ export default function YearRiver({ buckets }: { buckets: YearBucket[] }) {
   const close = useCallback(() => setOpenId(null), []);
   const reduceMotion = useReducedMotion();
 
-  const visible = useMemo(
-    () => buckets.map((b) => filterBucket(b, genre)).filter((b) => bucketSize(b) > 0),
-    [buckets, genre],
-  );
+  const visible = useMemo(() => buckets.map((b) => filterBucket(b, genre)), [buckets, genre]);
   const open = useMemo(
     () => buckets.flatMap((b) => b.launches).find((p) => p.id === openId),
     [buckets, openId],
@@ -88,6 +85,9 @@ export default function YearRiver({ buckets }: { buckets: YearBucket[] }) {
             </div>
 
             <div className="space-y-14">
+              {bucketSize(b) === 0 && (
+                <p className="text-sm text-ink-soft">本年暂无收录</p>
+              )}
               {b.founded.length > 0 && (
                 <Group label="新成立">
                   <ul className="grid gap-4 sm:grid-cols-2">
@@ -95,7 +95,7 @@ export default function YearRiver({ buckets }: { buckets: YearBucket[] }) {
                       <motion.li key={c.id} {...reveal(i * 0.06)}>
                         <a
                           href={`/company/${c.id}`}
-                          className="group flex items-start gap-4 border border-ink/10 bg-paper-deep/40 p-5 transition hover:-translate-y-0.5 hover:border-rouge/40"
+                          className="group flex items-start gap-4 border border-ink/10 bg-paper-deep/40 p-5 transition hover:border-rouge/40 motion-safe:hover:-translate-y-0.5"
                         >
                           {c.logo ? (
                             <img src={c.logo} alt="" className="h-12 w-12 shrink-0 rounded-full object-cover" />
@@ -140,7 +140,7 @@ export default function YearRiver({ buckets }: { buckets: YearBucket[] }) {
                                   src={art}
                                   alt=""
                                   loading="lazy"
-                                  className="h-full w-full object-cover object-top transition duration-700 ease-out group-hover:scale-[1.03]"
+                                  className="h-full w-full object-cover object-top transition duration-700 ease-out motion-safe:group-hover:scale-[1.03]"
                                 />
                               ) : (
                                 <span className="flex h-full items-center justify-center font-display text-6xl text-ink/10">

@@ -25,6 +25,7 @@ const linePath = inRange
   .join(' ');
 const showLine = inRange.length >= 2;
 const estimated = inRange.some((m) => m.kind === 'estimate');
+const hasUnverified = inRange.some((m) => !m.verified);
 const marketSources = [...new Map(inRange.map((m) => [m.sourceUrl, m.sourceTitle])).entries()];
 const barHeight = (count: number) => (count === 0 ? 2 : 10 + (count / maxCount) * 90);
 const columns = `grid-template-columns: repeat(${n}, minmax(0, 1fr))`;
@@ -34,17 +35,25 @@ const columns = `grid-template-columns: repeat(${n}, minmax(0, 1fr))`;
   <figure class="overflow-x-clip pt-14">
     <div class="relative h-36">
       <div class="absolute inset-0 grid items-end gap-1 sm:gap-2" style={columns}>
-        {years.map(({ year, count }) => {
+        {years.map(({ year, count }, i) => {
           const m = marketByYear.get(year);
           const label = `${year} 年 · ${count} 条记录${m ? ` · 市场 ${formatCNY(m.amountCNY)}` : ''}`;
+          const aria = m && !m.verified ? `${label} · 待核实` : label;
+          const tipAlign = i === 0 ? 'left-0' : i === n - 1 ? 'right-0' : '';
           return (
-            <a href={`#y${year}`} aria-label={label} class="group relative flex h-full items-end justify-center focus-visible:outline-none">
+            <a href={`#y${year}`} aria-label={aria} class="group relative flex h-full items-end justify-center focus-visible:outline-none">
               <span
                 class="block w-full max-w-7 bg-ink/15 transition-colors duration-300 group-hover:bg-rouge group-focus-visible:bg-rouge"
                 style={`height: ${barHeight(count)}%`}
               ></span>
-              <span class="pointer-events-none absolute bottom-full z-10 mb-2 whitespace-nowrap bg-ink px-2.5 py-1 text-xs text-paper opacity-0 transition-opacity group-hover:opacity-100 group-focus-visible:opacity-100">
-                {label}
+              <span
+                class:list={[
+                  'pointer-events-none absolute bottom-full z-10 mb-2 flex items-center gap-2 whitespace-nowrap bg-ink px-2.5 py-1 text-xs text-paper opacity-0 transition-opacity group-hover:opacity-100 group-focus-visible:opacity-100',
+                  tipAlign,
+                ]}
+              >
+                <span>{label}</span>
+                {m && !m.verified && <span class="unverified">待核实</span>}
               </span>
             </a>
           );
@@ -103,6 +112,7 @@ const columns = `grid-template-columns: repeat(${n}, minmax(0, 1fr))`;
           ))}
         </span>
       )}
+      {hasUnverified && <span class="unverified">待核实</span>}
     </figcaption>
   </figure>
 )}
