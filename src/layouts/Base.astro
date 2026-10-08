@@ -1,0 +1,44 @@
+---
+import '@fontsource/noto-serif-sc/500.css';
+import '@fontsource/noto-serif-sc/700.css';
+import '@fontsource/noto-sans-sc/400.css';
+import '@fontsource/noto-sans-sc/500.css';
+import '@fontsource/cormorant-garamond/500.css';
+import '@fontsource/cormorant-garamond/600.css';
+import '../styles/global.css';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = '中国女性向游戏公司编年史' } = Astro.props;
+---
+
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <title>{title} · 女性向游戏编年史</title>
+  </head>
+  <body class="min-h-screen bg-paper font-sans text-ink antialiased">
+    <header class="absolute inset-x-0 top-0 z-40">
+      <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-6 sm:px-10">
+        <a href="/" class="font-serif text-base tracking-[0.2em] text-ink">女性向游戏编年史</a>
+        <nav class="flex gap-8 text-sm text-ink-soft">
+          <a href="/" class="transition hover:text-rouge">时间长河</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer class="border-t border-ink/10">
+      <div class="mx-auto max-w-6xl px-6 py-10 text-xs leading-relaxed text-mist sm:px-10">
+        <p>资料整理自公开来源，仅供个人学习。流水数据多为第三方估算，以页面标注为准。</p>
+      </div>
+    </footer>
+  </body>
+</html>
