@@ -1,13 +1,18 @@
 import { describe, expect, it } from 'vitest';
 import {
+  COMPARE_THICKNESS_MAX,
+  COMPARE_THICKNESS_MIN,
   bucketSize,
   checkIntegrity,
+  compareThickness,
   displayCompanyName,
   filterBucket,
   getCompanyView,
+  getCompareLanes,
   getYearBuckets,
   listFreePublishers,
   marketSeries,
+  representativeRevenue,
   revenueSeries,
   toProductCards,
 } from '../src/lib/data';
@@ -243,5 +248,80 @@ describe('marketSeries', () => {
     const series = marketSeries(makeDataset());
     expect(series.map((p) => p.year)).toEqual([2015, 2016]);
     expect(series[0]).toMatchObject({ amountCNY: 1e9, kind: 'estimate', scope: '测试口径', sourceTitle: '测试来源' });
+  });
+});
+
+describe('getCompareLanes', () => {
+  const ds = makeDataset();
+
+  it('ids 为空时返回全部公司，按成立时间排序', () => {
+    expect(getCompareLanes(ds, []).map((l) => l.company.id)).toEqual(['alpha', 'beta']);
+  });
+
+  it('忽略未知 id，只返回仍存在的公司', () => {
+    expect(getCompareLanes(ds, ['beta', 'ghost']).map((l) => l.company.id)).toEqual(['beta']);
+  });
+
+  it('产品只收本公司自研，按上线排序；事件只含本公司', () => {
+    const [alpha] = getCompareLanes(ds, ['alpha']);
+    expect(alpha.products.map((p) => p.id)).toEqual(['a-first', 'a-second']);
+    expect(alpha.products[0].developerName).toBe('Alpha 游戏');
+    expect(alpha.events.map((e) => e.id)).toEqual(['alpha-a-round', 'joint']);
+  });
+
+  it('全部 id 都不存在时返回空数组', () => {
+    expect(getCompareLanes(ds, ['ghost'])).toEqual([]);
+  });
+});
+
+describe('representativeRevenue', () => {
+  it('取期间最晚的一条；没有流水则 undefined', () => {
+    const ds = makeDataset();
+    expect(representativeRevenue(ds.products[0])?.period).toBe('2016');
+    expect(representativeRevenue(ds.products[1])).toBeUndefined();
+  });
+});
+
+describe('compareThickness', () => {
+  const source = { title: 's', url: 'https://example.com' };
+  const entry = (amountCNY: number, basis: 'store' | 'all-platform' = 'store') => ({
+    period: '2024',
+    amountCNY,
+    kind: 'estimate' as const,
+    basis,
+    partial: false,
+    lowerBound: false,
+    source,
+  });
+  const product = (id: string, revenue: ReturnType<typeof entry>[]) =>
+    ({
+      id,
+      name: id,
+      aliases: [],
+      genre: 'otome' as const,
+      developer: 'alpha',
+      publisher: 'alpha',
+      released: '2020',
+      platforms: ['iOS'],
+      status: 'live' as const,
+      significance: 'x',
+      revenue,
+      sources: [source],
+      verified: true,
+    });
+
+  it('没有口径时用最细条', () => {
+    expect(compareThickness(product('a', []), [product('b', [entry(1e9)])])).toBe(COMPARE_THICKNESS_MIN);
+  });
+
+  it('只在同一 basis 内比较粗细', () => {
+    const storeSmall = product('a', [entry(1e8, 'store')]);
+    const storeLarge = product('b', [entry(9e8, 'store')]);
+    const allPlat = product('c', [entry(9e9, 'all-platform')]);
+    expect(compareThickness(storeSmall, [storeSmall, storeLarge, allPlat])).toBe(COMPARE_THICKNESS_MIN);
+    expect(compareThickness(storeLarge, [storeSmall, storeLarge, allPlat])).toBe(COMPARE_THICKNESS_MAX);
+    expect(compareThickness(allPlat, [storeSmall, storeLarge, allPlat])).toBe(
+      (COMPARE_THICKNESS_MIN + COMPARE_THICKNESS_MAX) / 2,
+    );
   });
 });

@@ -110,3 +110,9 @@ export interface YearBucket {
   launches: ProductCard[];
   events: RiverEvent[];
 }
+
+export interface CompareLane {
+  company: Company;
+  products: ProductCard[];
+  events: ChronicleEvent[];
+}

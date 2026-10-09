@@ -3,6 +3,7 @@ import type {
   ChronicleEvent,
   Company,
   CompanyView,
+  CompareLane,
   Dataset,
   Genre,
   GenreFilter,
@@ -170,6 +171,42 @@ export function toProductCards(ds: Dataset, products: Product[]): ProductCard[] 
     series: revenueSeries(p),
     milestones: productMilestones(ds, p),
   }));
+}
+
+export const COMPARE_THICKNESS_MIN = 6;
+export const COMPARE_THICKNESS_MAX = 28;
+
+export function representativeRevenue(product: Product): Product['revenue'][number] | undefined {
+  if (product.revenue.length === 0) return undefined;
+  return [...product.revenue].sort((a, b) => periodToNumber(a.period) - periodToNumber(b.period)).at(-1);
+}
+
+export function compareThickness(product: Product, peers: Product[]): number {
+  const mine = representativeRevenue(product);
+  if (!mine?.basis) return COMPARE_THICKNESS_MIN;
+  const amounts = peers
+    .map(representativeRevenue)
+    .filter((r): r is NonNullable<typeof r> => !!r && r.basis === mine.basis)
+    .map((r) => r.amountCNY);
+  if (amounts.length === 0) return COMPARE_THICKNESS_MIN;
+  const min = Math.min(...amounts);
+  const max = Math.max(...amounts);
+  if (min === max) return (COMPARE_THICKNESS_MIN + COMPARE_THICKNESS_MAX) / 2;
+  return COMPARE_THICKNESS_MIN + ((mine.amountCNY - min) / (max - min)) * (COMPARE_THICKNESS_MAX - COMPARE_THICKNESS_MIN);
+}
+
+export function getCompareLanes(ds: Dataset, ids: string[]): CompareLane[] {
+  const wanted = ids.length === 0 ? ds.companies.map((c) => c.id) : ids;
+  const known = new Set(ds.companies.map((c) => c.id));
+  const selected = ds.companies
+    .filter((c) => wanted.includes(c.id) && known.has(c.id))
+    .sort((a, b) => compareDates(a.founded, b.founded) || a.id.localeCompare(b.id));
+
+  return selected.map((company) => {
+    const products = ds.products.filter((p) => p.developer === company.id).sort(byDate((p) => p.released));
+    const events = ds.events.filter((e) => e.companies.includes(company.id)).sort(byDate((e) => e.date));
+    return { company, products: toProductCards(ds, products), events };
+  });
 }
 
 export function buildTimeline(company: Company, products: Product[], events: ChronicleEvent[]): TimelineItem[] {
