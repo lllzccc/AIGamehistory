@@ -1,0 +1,28 @@
+{
+  "name": "熹妃传",
+  "aliases": ["The Empress", "清宫熹妃传"],
+  "genre": "other",
+  "developer": "youyi-shiguang",
+  "publisher": "youyi-shiguang",
+  "released": "2015-06",
+  "platforms": ["iOS", "Android"],
+  "status": "live",
+  "significance": "改编小说《清宫熹妃传》的 2D 女性向古风宫廷手游，把换装与宫斗养成做成友谊时光的长线招牌，并打开海外多语言发行。",
+  "revenue": [
+    {
+      "period": "2018",
+      "amountCNY": 443000000,
+      "kind": "official",
+      "basis": "official-report",
+      "partial": false,
+      "lowerBound": false,
+      "source": { "title": "界面新闻（三文娱，引招股书）：《熹妃传》2018 年收益 4.43 亿元", "url": "https://www.jiemian.com/article/2947398.html" }
+    }
+  ],
+  "sources": [
+    { "title": "界面新闻（三文娱）：《熹妃传》手游于 2015 年 6 月正式上线，改编《清宫熹妃传》", "url": "https://www.jiemian.com/article/2947398.html" },
+    { "title": "36氪（毒眸）：2015 年 6 月上线，至 2018 年底累计贡献收益 13.96 亿元", "url": "https://www.36kr.com/p/1002642987995652" },
+    { "title": "友谊时光官网：旗下拥有《熹妃传》等热门精品游戏", "url": "https://www.friendtimes.cn/aboutus.html" }
+  ],
+  "verified": false
+}
