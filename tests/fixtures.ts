@@ -13,8 +13,8 @@ export function makeDataset(): Dataset {
         id: 'a-first', name: '初作', aliases: [], genre: 'dressup', developer: 'alpha', publisher: 'alpha',
         released: '2015-06-01', platforms: ['iOS', 'Android'], status: 'live', significance: '第一款作品',
         revenue: [
-          { period: '2016', amountCNY: 5e8, kind: 'estimate', source: sources[0] },
-          { period: '2015', amountCNY: 1e8, kind: 'official', source: sources[0] },
+          { period: '2016', amountCNY: 5e8, kind: 'estimate', source: sources[0], partial: false, lowerBound: false },
+          { period: '2015', amountCNY: 1e8, kind: 'official', source: sources[0], partial: false, lowerBound: false },
         ],
         sources, verified: true,
       },

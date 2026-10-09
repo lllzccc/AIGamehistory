@@ -29,10 +29,15 @@ export const companySchema = z.object({
   verified: z.boolean().default(false),
 });
 
+export const revenueBasisSchema = z.enum(['store', 'all-platform', 'official-report']);
+
 export const revenueEntrySchema = z.object({
   period: z.string().regex(/^\d{4}(-Q[1-4])?$/, { error: '流水期间应为 YYYY 或 YYYY-Q1..Q4' }),
   amountCNY: z.number().nonnegative(),
   kind: z.enum(['official', 'estimate']),
+  basis: revenueBasisSchema.optional(),
+  partial: z.boolean().default(false),
+  lowerBound: z.boolean().default(false),
   source: sourceSchema,
 });
 

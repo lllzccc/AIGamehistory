@@ -31,6 +31,13 @@ export function displayCompanyName(ds: Dataset, idOrName: string): string {
   return ds.companies.find((c) => c.id === idOrName)?.name ?? idOrName;
 }
 
+export function listFreePublishers(ds: Dataset): string[] {
+  const companyIds = new Set(ds.companies.map((c) => c.id));
+  return [...new Set(ds.products.map((p) => p.publisher).filter((name) => !companyIds.has(name)))].sort((a, b) =>
+    a.localeCompare(b, 'zh-CN'),
+  );
+}
+
 export function checkIntegrity(ds: Dataset): string[] {
   const companyIds = new Set(ds.companies.map((c) => c.id));
   const productIds = new Set(ds.products.map((p) => p.id));
@@ -100,6 +107,9 @@ export function revenueSeries(product: Product): RevenuePoint[] {
       x: periodToNumber(r.period),
       amountCNY: r.amountCNY,
       kind: r.kind,
+      basis: r.basis,
+      partial: r.partial ?? false,
+      lowerBound: r.lowerBound ?? false,
       sourceTitle: r.source.title,
       sourceUrl: r.source.url,
     }))

@@ -6,6 +6,7 @@ import {
   filterBucket,
   getCompanyView,
   getYearBuckets,
+  listFreePublishers,
   marketSeries,
   revenueSeries,
   toProductCards,
@@ -36,13 +37,13 @@ describe('checkIntegrity', () => {
 
   it('发现年度与季度混用的流水', () => {
     const ds = makeDataset();
-    ds.products[0].revenue.push({ period: '2017-Q1', amountCNY: 1, kind: 'estimate', source: ds.products[0].sources[0] });
+    ds.products[0].revenue.push({ period: '2017-Q1', amountCNY: 1, kind: 'estimate', source: ds.products[0].sources[0], partial: false, lowerBound: false });
     expect(checkIntegrity(ds).join('\n')).toContain('a-first');
   });
 
   it('发现同一期间重复的流水', () => {
     const ds = makeDataset();
-    ds.products[0].revenue.push({ period: '2015', amountCNY: 2e8, kind: 'estimate', source: ds.products[0].sources[0] });
+    ds.products[0].revenue.push({ period: '2015', amountCNY: 2e8, kind: 'estimate', source: ds.products[0].sources[0], partial: false, lowerBound: false });
     const errors = checkIntegrity(ds).join('\n');
     expect(errors).toContain('a-first');
     expect(errors).toContain('2015');
@@ -85,6 +86,16 @@ describe('checkIntegrity', () => {
   });
 });
 
+describe('listFreePublishers', () => {
+  it('列出不是已收录公司 id 的发行方，去重排序', () => {
+    const ds = makeDataset();
+    expect(listFreePublishers(ds)).toEqual(['某发行商']);
+    ds.products[1].publisher = '腾讯游戏';
+    ds.products.push({ ...ds.products[1], id: 'a-third', publisher: '腾讯' });
+    expect(listFreePublishers(ds)).toEqual(['腾讯', '腾讯游戏']);
+  });
+});
+
 describe('displayCompanyName', () => {
   it('id 转成公司名，未收录的名称原样返回', () => {
     const ds = makeDataset();
@@ -97,7 +108,14 @@ describe('revenueSeries', () => {
   it('按期间排序并展开来源', () => {
     const series = revenueSeries(makeDataset().products[0]);
     expect(series.map((p) => p.period)).toEqual(['2015', '2016']);
-    expect(series[0]).toMatchObject({ x: 2015, amountCNY: 1e8, kind: 'official', sourceTitle: '测试来源' });
+    expect(series[0]).toMatchObject({
+      x: 2015,
+      amountCNY: 1e8,
+      kind: 'official',
+      partial: false,
+      lowerBound: false,
+      sourceTitle: '测试来源',
+    });
   });
 });
 

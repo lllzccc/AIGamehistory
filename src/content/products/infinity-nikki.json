@@ -14,6 +14,9 @@
       "period": "2024",
       "amountCNY": 400000000,
       "kind": "estimate",
+      "basis": "all-platform",
+      "partial": true,
+      "lowerBound": true,
       "source": { "title": "GameLook（引述第三方平台，全平台预估流水口径，非 Sensor Tower 应用商店口径）：仅 2024 年 12 月（上线当月）全球流水 4 亿元以上，为下限值", "url": "http://www.gamelook.com.cn/2025/01/562489/" }
     }
   ],

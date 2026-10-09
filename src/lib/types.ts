@@ -5,6 +5,7 @@ import type {
   marketEntrySchema,
   personSchema,
   productSchema,
+  revenueBasisSchema,
   revenueEntrySchema,
   roleSchema,
   sourceSchema,
@@ -12,6 +13,7 @@ import type {
 
 export type Source = z.infer<typeof sourceSchema>;
 export type Company = z.infer<typeof companySchema> & { id: string };
+export type RevenueBasis = z.infer<typeof revenueBasisSchema>;
 export type RevenueEntry = z.infer<typeof revenueEntrySchema>;
 export type Product = z.infer<typeof productSchema> & { id: string };
 export type Role = z.infer<typeof roleSchema>;
@@ -35,6 +37,9 @@ export interface RevenuePoint {
   x: number;
   amountCNY: number;
   kind: RevenueEntry['kind'];
+  basis?: RevenueBasis;
+  partial: boolean;
+  lowerBound: boolean;
   sourceTitle: string;
   sourceUrl: string;
 }

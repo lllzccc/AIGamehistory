@@ -14,12 +14,18 @@
       "period": "2024",
       "amountCNY": 2880000000,
       "kind": "estimate",
+      "basis": "store",
+      "partial": false,
+      "lowerBound": false,
       "source": { "title": "游戏陀螺（Sensor Tower 2024 出海榜）：2024 年全球收入近 4 亿美元（按 7.2 折算，不含中国第三方安卓渠道）", "url": "http://www.youxituoluo.com/533127.html" }
     },
     {
       "period": "2025",
       "amountCNY": 3960000000,
       "kind": "estimate",
+      "basis": "store",
+      "partial": false,
+      "lowerBound": false,
       "source": { "title": "腾讯网（智通财经，Sensor Tower）：2025 年全球收入增长 44% 达 5.5 亿美元（按 7.2 折算；Sensor Tower 应用商店口径）", "url": "https://news.qq.com/rain/a/20260113A03NQ500" }
     }
   ],

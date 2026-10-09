@@ -1,4 +1,10 @@
-import type { Company, Product, TimelineKind } from './types';
+import type { Company, Product, RevenueBasis, TimelineKind } from './types';
+
+export const revenueBasisLabel: Record<RevenueBasis, string> = {
+  store: '应用商店口径',
+  'all-platform': '全平台估算',
+  'official-report': '官方财报',
+};
 
 export const companyKindLabel: Record<Company['kind'], string> = {
   independent: '独立公司',

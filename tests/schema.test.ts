@@ -60,6 +60,32 @@ describe('productSchema', () => {
   it('流水默认为空数组', () => {
     expect(productSchema.parse(valid).revenue).toEqual([]);
   });
+
+  it('流水缺省 basis，partial 与 lowerBound 为 false', () => {
+    const parsed = productSchema.parse({ ...valid, revenue: [revenue('2024')] });
+    expect(parsed.revenue[0].basis).toBeUndefined();
+    expect(parsed.revenue[0].partial).toBe(false);
+    expect(parsed.revenue[0].lowerBound).toBe(false);
+  });
+
+  it('接受三种口径', () => {
+    for (const basis of ['store', 'all-platform', 'official-report'] as const) {
+      const parsed = productSchema.parse({
+        ...valid,
+        revenue: [{ ...revenue('2024'), basis, partial: true, lowerBound: true }],
+      });
+      expect(parsed.revenue[0]).toMatchObject({ basis, partial: true, lowerBound: true });
+    }
+  });
+
+  it('拒绝未知口径', () => {
+    expect(
+      productSchema.safeParse({
+        ...valid,
+        revenue: [{ ...revenue('2024'), basis: 'sensor-tower' }],
+      }).success,
+    ).toBe(false);
+  });
 });
 
 describe('marketEntrySchema', () => {
