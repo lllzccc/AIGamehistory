@@ -1,0 +1,12 @@
+{
+  "date": "2020-12-10",
+  "type": "milestone",
+  "companies": ["happyelements"],
+  "products": ["ensemble-stars"],
+  "summary": "腾讯代理的国服《偶像梦幻祭》在多次延期后停止运营，续作《偶像梦幻祭2》改由乐元素自营。",
+  "sources": [
+    { "title": "机核：2020 年 8 月公告因代理协议到期，原定 10 月 12 日停运", "url": "https://www.gcores.com/articles/127477" },
+    { "title": "维基百科：因离线版审核延期，最终于 2020 年 12 月 10 日停运", "url": "https://zh.wikipedia.org/zh-hans/%E5%81%B6%E5%83%8F%E5%A4%A2%E5%B9%BB%E7%A5%AD" }
+  ],
+  "verified": false
+}

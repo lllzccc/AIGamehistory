@@ -1,0 +1,18 @@
+{
+  "name": "偶像梦幻祭2",
+  "aliases": ["Ensemble Stars!! Music", "偶像梦幻祭！！Music"],
+  "genre": "other",
+  "developer": "happyelements",
+  "publisher": "happyelements",
+  "released": "2020-11-27",
+  "platforms": ["iOS", "Android"],
+  "status": "live",
+  "significance": "一代国服停运后的续作，对应日服 Music，由乐元素自研自发，从卡牌养成转向 3D LIVE 音游。",
+  "revenue": [],
+  "sources": [
+    { "title": "178 新闻（官方）：公测定档 2020 年 11 月 27 日 11:00", "url": "http://news.178.com/202011/398387146963.html" },
+    { "title": "搞趣网：乐元素出品，《偶像梦幻祭2》全平台公测开启", "url": "https://news.gao7.com/article/976202-20201127-1" },
+    { "title": "App Store：开发者为乐元素，官网 es2.happyelements.cn", "url": "https://apps.apple.com/cn/app/%E5%81%B6%E5%83%8F%E6%A2%A6%E5%B9%BB%E7%A5%AD2/id1495166402" }
+  ],
+  "verified": false
+}
