@@ -1,0 +1,12 @@
+{
+  "date": "2026-06-17",
+  "type": "milestone",
+  "companies": ["lingxi"],
+  "products": ["ru-yuan", "daimao-yuan"],
+  "summary": "官方确认《如鸢》《代号鸢》制作人小萌因个人职业规划离职，项目由原核心团队接手。",
+  "sources": [
+    { "title": "每经网：6 月 17 日官方微博公告确认小萌离职", "url": "https://www.nbd.com.cn/articles/2026-06-18/4430386.html" },
+    { "title": "新京报：相关工作由原核心团队承接", "url": "https://m.bjnews.com.cn/detail/1781680628129793.html" }
+  ],
+  "verified": true
+}

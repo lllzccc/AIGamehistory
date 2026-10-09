@@ -1,0 +1,27 @@
+{
+  "name": "代号鸢",
+  "aliases": ["如鸢", "Ash of the Kingdom"],
+  "genre": "otome",
+  "developer": "lingxi",
+  "publisher": "lingxi",
+  "released": "2023-03-30",
+  "platforms": ["iOS", "Android"],
+  "status": "live",
+  "significance": "灵犀互娱第一条女向产品线，三国权谋卡牌，先在港澳台及海外上线并出圈，再以《如鸢》回国。",
+  "revenue": [
+    {
+      "period": "2023",
+      "amountCNY": 73000000,
+      "kind": "estimate",
+      "basis": "all-platform",
+      "partial": true,
+      "lowerBound": false,
+      "source": { "title": "腾讯新闻：截至 2023 年 12 月底《代号鸢》总流水约 7300 万元（3 月上线，不足一年）", "url": "https://news.qq.com/rain/a/20250121A054TC00" }
+    }
+  ],
+  "sources": [
+    { "title": "TapTap 动态：2023 年 3 月 30 日在港澳台及新马上线", "url": "https://www.taptap.cn/moment/390921174047001294" },
+    { "title": "36氪：海外服《代号鸢》与国服《如鸢》两边服务器同时经营", "url": "https://m.36kr.com/p/2934123680685192" }
+  ],
+  "verified": false
+}
