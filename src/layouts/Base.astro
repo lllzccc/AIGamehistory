@@ -13,6 +13,7 @@ interface Props {
 }
 
 const { title, description = '中国女性向游戏公司编年史' } = Astro.props;
+const path = Astro.url.pathname;
 ---
 
 <!doctype html>
@@ -28,7 +29,8 @@ const { title, description = '中国女性向游戏公司编年史' } = Astro.pr
       <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-6 sm:px-10">
         <a href="/" class="font-serif text-base tracking-[0.2em] text-ink">女性向游戏编年史</a>
         <nav class="flex gap-8 text-sm text-ink-soft">
-          <a href="/" class="transition hover:text-rouge">时间长河</a>
+          <a href="/" class:list={['transition hover:text-rouge', path === '/' && 'text-rouge']}>时间长河</a>
+          <a href="/compare" class:list={['transition hover:text-rouge', path.startsWith('/compare') && 'text-rouge']}>对比</a>
         </nav>
       </div>
     </header>

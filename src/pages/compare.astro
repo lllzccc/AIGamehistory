@@ -1,0 +1,21 @@
+---
+import Base from '../layouts/Base.astro';
+import SwimLanes from '../components/SwimLanes';
+import { loadDataset } from '../lib/load';
+import { getCompareLanes } from '../lib/data';
+
+const ds = await loadDataset();
+const endYear = new Date().getFullYear();
+const lanes = getCompareLanes(ds, []);
+---
+
+<Base title="对比" description="把已收录公司放在同一条时间轴上并排比较。这是并排年表，不是市值榜。">
+  <section class="mx-auto max-w-6xl px-6 pt-36 pb-10 sm:px-10">
+    <p class="font-display text-sm tracking-[0.4em] text-mist">COMPARE</p>
+    <h1 class="mt-6 font-serif text-5xl font-bold sm:text-6xl">并排年表</h1>
+    <p class="mt-6 max-w-xl font-serif text-lg leading-loose text-ink-soft">
+      这是并排年表，不是市值榜。条带长度是作品从上线到停服或至今的时间；粗细只在同一流水口径里比较。
+    </p>
+  </section>
+  <SwimLanes client:load lanes={lanes} endYear={endYear} />
+</Base>
