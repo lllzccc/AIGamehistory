@@ -1,6 +1,5 @@
 ---
 import type { Company } from '../lib/types';
-import ResearchChecklist from './ResearchChecklist.astro';
 interface Props { company: Company }
 const { company } = Astro.props;
 const financials = company.financials ?? [];
@@ -9,7 +8,6 @@ const interims = financials.filter(f => f.period.includes('-')).sort((a,b) => a.
 const max = Math.max(1, ...annuals.map(f => f.revenueCNY));
 const money = (n: number) => (n / 100000000).toFixed(3);
 ---
-<ResearchChecklist company={company} />
 {financials.length > 0 && <section id="financials" class="mx-auto max-w-6xl px-6 pt-20 sm:px-10">
   <h2 class="font-serif text-2xl text-ink">经营账页</h2>
   <p class="mt-3 max-w-3xl text-sm leading-relaxed text-ink-soft">集团合并财报 · 人民币亿元。收益包含多个产品及地区，不能当作单款游戏流水；利润采用财报的年内／期内利润，保留亏损。半年与全年分开展示。</p>

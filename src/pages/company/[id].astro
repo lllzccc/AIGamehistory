@@ -4,6 +4,7 @@ import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import CompanyHero from '../../components/CompanyHero.astro';
 import CompanyDossier from '../../components/CompanyDossier.astro';
+import ResearchChecklist from '../../components/ResearchChecklist.astro';
 import PeopleSection from '../../components/PeopleSection.astro';
 import TalentMap from '../../components/TalentMap.astro';
 import SectionTitle from '../../components/SectionTitle.astro';
@@ -71,4 +72,5 @@ const notesIndex = pad(section);
       <SourceList sources={company.sources} />
     </div>
   </section>
+  <ResearchChecklist company={company} />
 </Base>

@@ -12,7 +12,7 @@ const stateLabels = { pending: '清单待核查', partial: '已查部分 · 未�
 const gapLabels = { pending: '尚未检索', 'not-found': '已检索 · 暂未找到', conflicting: '证据不足或冲突', unavailable: '来源失效 · 无法核对', 'access-needed': '需访问条件或人工协助' };
 const gaps = checklist?.items.flatMap(i => i.gaps) ?? [];
 ---
-<section id="research" class="mx-auto max-w-6xl px-6 pt-16 sm:px-10">
+<section id="research" class="mx-auto max-w-6xl px-6 pt-16 pb-24 sm:px-10">
   <div class="flex flex-wrap items-start justify-between gap-5 border-b border-ink/15 pb-6">
     <div><p class="text-xs tracking-widest text-mist">公开资料 · 覆盖范围与缺口</p><h2 class="mt-3 font-serif text-3xl text-ink">深挖清单</h2></div>
     <div class="text-left sm:text-right"><p class="text-sm text-rouge">{deep ? '深度收录 · 本轮已验收' : checklist ? '持续补全 · 尚未达到深度收录标准' : '尚未完成覆盖范围核查'}</p><p class="mt-2 text-xs text-mist">{accepted}/5 个方向已验收{lastDate && ` · 核查截至 ${lastDate}`}</p></div>
