@@ -1,0 +1,41 @@
+---
+import type { Company } from '../lib/types';
+interface Props { company: Company }
+const { company } = Astro.props;
+const financials = company.financials ?? [];
+const annuals = financials.filter(f => !f.period.includes('-')).sort((a,b) => a.period.localeCompare(b.period));
+const interims = financials.filter(f => f.period.includes('-')).sort((a,b) => a.period.localeCompare(b.period));
+const max = Math.max(1, ...annuals.map(f => f.revenueCNY));
+const money = (n: number) => (n / 100000000).toFixed(3);
+const areas = { company: '公司沿革', products: '产品与版本', financials: '营收与财务', people: '人员与团队' };
+const statuses = { reviewed: '已核对本轮来源', partial: '已补充 · 继续检索', 'searched-unconfirmed': '已检索 · 尚未确认', pending: '尚未检索' };
+---
+{company.research && <section id="research" class="mx-auto max-w-6xl px-6 pt-16 sm:px-10">
+  <div class="flex flex-wrap items-baseline justify-between gap-3 border-b border-ink/15 pb-4">
+    <h2 class="font-serif text-2xl text-ink">档案进度</h2>
+    <p class="text-xs text-mist">按来源核对，持续补全</p>
+  </div>
+  <ul class="divide-y divide-ink/10">
+    {company.research.map(item => <li class="grid gap-3 py-5 sm:grid-cols-[9rem_1fr]">
+      <div><h3 class="font-serif text-base">{areas[item.area]}</h3><p class="mt-1 text-xs text-mist">核查 {item.checkedAt}</p></div>
+      <div><span class="text-xs text-rouge">{statuses[item.status]}</span><p class="mt-2 text-sm leading-relaxed text-ink-soft">{item.note}</p>
+        <details class="mt-2 text-xs text-mist"><summary class="cursor-pointer">本轮来源</summary><ul class="mt-2 space-y-2">{item.sources.map(s => <li><a href={s.url} target="_blank" rel="noopener noreferrer" class="underline underline-offset-4">{s.title} ↗</a></li>)}</ul></details>
+      </div>
+    </li>)}
+  </ul>
+</section>}
+{financials.length > 0 && <section id="financials" class="mx-auto max-w-6xl px-6 pt-20 sm:px-10">
+  <h2 class="font-serif text-2xl text-ink">经营账页</h2>
+  <p class="mt-3 max-w-3xl text-sm leading-relaxed text-ink-soft">集团合并财报 · 人民币亿元。收益包含多个产品及地区，不能当作单款游戏流水；利润采用财报的年内／期内利润，保留亏损。半年与全年分开展示。</p>
+  <p class="mt-4 text-xs text-mist sm:hidden">左右滑动账页，查看利润与财报来源 →</p>
+  {annuals.length > 0 && <div class="mt-8 overflow-x-auto"><table class="w-full min-w-[34rem] text-left text-sm">
+    <caption class="pb-4 text-left text-xs tracking-widest text-mist">年度 · 1月1日至12月31日</caption>
+    <thead class="border-b border-ink/15 text-xs text-mist"><tr><th class="py-3 font-normal">年份</th><th class="font-normal">合并收益</th><th class="font-normal">年内利润／亏损</th><th class="font-normal">官方来源</th></tr></thead>
+    <tbody>{annuals.map(f => <tr class="border-b border-ink/10"><th class="py-5 font-display text-xl font-normal">{f.period}</th><td class="w-[40%] pr-8"><span class="tabular-nums">{money(f.revenueCNY)}</span><span class="mt-2 block h-1 bg-ink/5"><span class="block h-full bg-rouge/50" style={`width:${f.revenueCNY/max*100}%`}></span></span></td><td class:list={['tabular-nums', { 'text-rouge': (f.profitCNY ?? 0) < 0 }]}>{f.profitCNY === undefined ? '未收录' : money(f.profitCNY)}</td><td><a href={f.source.url} title={f.source.title} target="_blank" rel="noopener noreferrer" class="text-xs text-mist underline underline-offset-4">财报 ↗</a></td></tr>)}</tbody>
+  </table></div>}
+  {interims.length > 0 && <div class="mt-10 overflow-x-auto"><table class="w-full min-w-[34rem] text-left text-sm">
+    <caption class="pb-4 text-left text-xs tracking-widest text-mist">半年度 · 不与全年直接比较</caption>
+    <thead class="border-b border-ink/15 text-xs text-mist"><tr><th class="py-3 font-normal">期间</th><th class="font-normal">合并收益</th><th class="font-normal">期内利润／亏损</th><th class="font-normal">官方来源</th></tr></thead>
+    <tbody>{interims.map(f => <tr class="border-b border-ink/10"><th class="py-5 font-normal">{f.period.replace('-H1', ' 上半年').replace('-H2', ' 下半年')}</th><td class="w-[40%] tabular-nums">{money(f.revenueCNY)}</td><td class="tabular-nums">{f.profitCNY === undefined ? '未收录' : money(f.profitCNY)}</td><td><a href={f.source.url} title={f.source.title} target="_blank" rel="noopener noreferrer" class="text-xs text-mist underline underline-offset-4">财报 ↗</a></td></tr>)}</tbody>
+  </table></div>}
+</section>}

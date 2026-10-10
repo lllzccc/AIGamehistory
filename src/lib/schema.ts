@@ -25,6 +25,19 @@ export const companySchema = z.object({
   website: z.url().optional(),
   logo: z.string().optional(),
   cover: z.string().optional(),
+  financials: z.array(z.object({
+    period: z.string().regex(/^\d{4}(-H[12])?$/),
+    revenueCNY: z.number().nonnegative(),
+    profitCNY: z.number().optional(),
+    source: sourceSchema,
+  })).optional(),
+  research: z.array(z.object({
+    area: z.enum(['company', 'products', 'financials', 'people']),
+    status: z.enum(['reviewed', 'partial', 'searched-unconfirmed', 'pending']),
+    checkedAt: partialDate,
+    note: z.string().min(1),
+    sources: z.array(sourceSchema).min(1),
+  })).optional(),
   sources,
   verified: z.boolean().default(false),
 });
@@ -55,6 +68,12 @@ export const productSchema = z.object({
   significance: z.string().min(1),
   cover: z.string().optional(),
   keyArt: z.string().optional(),
+  personnelResearch: z.object({
+    status: z.enum(['searched-unconfirmed', 'documented']),
+    checkedAt: partialDate,
+    note: z.string().min(1),
+    sources: z.array(sourceSchema).min(1),
+  }).optional(),
   artPosition: z.enum(['top', 'center', 'bottom', 'center 25%']).optional(),
   revenue: z.array(revenueEntrySchema).default([]),
   sources,

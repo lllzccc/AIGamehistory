@@ -1,0 +1,33 @@
+{
+  "name": "花与绯想",
+  "aliases": [],
+  "chronicles": [
+    "female",
+    "casual"
+  ],
+  "genre": "other",
+  "developer": "youyi-shiguang",
+  "publisher": "youyi-shiguang",
+  "released": "2026-01-20",
+  "platforms": [
+    "iOS",
+    "Android",
+    "微信小游戏",
+    "抖音小游戏"
+  ],
+  "status": "live",
+  "significance": "合成花植、花园建造与恋爱剧情相结合的自研产品。2026年1月20日为全平台公测日；1月15日限量计费不删档测试另作区分。",
+  "keyArt": "/images/youyi-shiguang/hua-yu-feixiang.jpg",
+  "revenue": [],
+  "sources": [
+    {
+      "title": "花与绯想官方入驻账号：公测定档1.20",
+      "url": "https://www.taptap.cn/app/800932/topic?page=2&type=official"
+    },
+    {
+      "title": "友谊时光官网产品介绍",
+      "url": "https://www.friendtimes.cn/game/index.html"
+    }
+  ],
+  "verified": true
+}

@@ -3,6 +3,7 @@ import type { InferGetStaticPropsType } from 'astro';
 import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import CompanyHero from '../../components/CompanyHero.astro';
+import CompanyDossier from '../../components/CompanyDossier.astro';
 import PeopleSection from '../../components/PeopleSection.astro';
 import TalentMap from '../../components/TalentMap.astro';
 import SectionTitle from '../../components/SectionTitle.astro';
@@ -41,6 +42,7 @@ const notesIndex = pad(section);
 <Base title={company.name} description={company.tagline}>
   <CompanyHero company={company} cover={cover} productCount={view.products.length} parentName={parentName} />
 
+  <CompanyDossier company={company} />
   <section id="timeline" class="py-24">
     <div class="mx-auto max-w-6xl px-6 sm:px-10">
       <SectionTitle index="01" title="时间轴" note="按住拖动浏览" />

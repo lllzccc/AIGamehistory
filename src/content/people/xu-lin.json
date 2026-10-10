@@ -1,0 +1,38 @@
+{
+  "name": "徐林",
+  "bio": "曾从事游戏策划及美术设计；2010年11月加入集团。2025年报披露负责产品研发策略规划及决策，2026年中报仍列为执行董事。",
+  "roles": [
+    {
+      "company": "youyi-shiguang",
+      "scope": "company",
+      "title": "other",
+      "titleNote": "执行董事、副总裁 · 产品研发策略",
+      "from": "2010-11",
+      "status": "active",
+      "dateBasis": "employment",
+      "checkedAt": "2026-10-10",
+      "sources": [
+        {
+          "title": "友谊时光2025年年度报告（印刷页10：五年财务摘要；33–36：管理层）",
+          "url": "https://www.friendtimes.net/res/ftnet/202604/20174700jyaz.pdf"
+        },
+        {
+          "title": "友谊时光2026年中期报告（印刷页7：财务摘要；4：执行董事）",
+          "url": "https://www.friendtimes.net/res/ftnet/202609/29172654j3zq.pdf"
+        }
+      ],
+      "note": "加入集团日期不等于现任职务任命日。最近任职证据为2026年中报，未推定具体项目署名。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "友谊时光2025年年度报告（印刷页10：五年财务摘要；33–36：管理层）",
+      "url": "https://www.friendtimes.net/res/ftnet/202604/20174700jyaz.pdf"
+    },
+    {
+      "title": "友谊时光2026年中期报告（印刷页7：财务摘要；4：执行董事）",
+      "url": "https://www.friendtimes.net/res/ftnet/202609/29172654j3zq.pdf"
+    }
+  ],
+  "verified": true
+}
