@@ -1,6 +1,7 @@
 ---
 import { withBase } from '../../lib/paths';
 import Base from '../../layouts/Base.astro';
+import CompanyRoster from '../../components/CompanyRoster.astro';
 import HeatStrip from '../../components/HeatStrip.astro';
 import YearRiver from '../../components/YearRiver';
 import { loadDataset } from '../../lib/load';
@@ -62,6 +63,8 @@ const stats = [
       ))}
     </ul>
   </section>
+
+  {volume.id === 'female' && <CompanyRoster companies={companies} products={ds.products} />}
 
   <section class="mx-auto max-w-6xl px-6 pt-16 pb-32 sm:px-10">
     <YearRiver client:load buckets={buckets} />

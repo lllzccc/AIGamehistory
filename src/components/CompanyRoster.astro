@@ -1,0 +1,54 @@
+---
+import roster from '../content/company-roster/female.json';
+import { z } from 'astro/zod';
+import { sourceSchema } from '../lib/schema';
+import { withBase } from '../lib/paths';
+import type { Dataset } from '../lib/types';
+interface Props { companies: Dataset['companies']; products: Dataset['products']; }
+const { companies, products } = Astro.props;
+const candidates = z.array(z.object({ id:z.string(), name:z.string(), kind:z.enum(['公司','工作室']), products:z.array(z.string()).min(1), note:z.string(), source:sourceSchema, checkedAt:z.string() })).parse(roster);
+if (new Set(candidates.map(c => c.id)).size !== candidates.length || candidates.some(c => companies.some(company => company.id === c.id))) throw new Error('公司名录存在重复条目');
+const entries = [
+ ...companies.map(c => ({ ...c, kind:'公司', stage:'archived', products:products.filter(p => p.developer===c.id || p.publisher===c.id).map(p=>p.name), note:c.tagline, source:c.sources[0] })),
+ ...candidates.map(c => ({...c,stage:'listed'})),
+];
+---
+<section id="company-roster" class="mx-auto mt-16 max-w-6xl px-6 sm:px-10" aria-labelledby="roster-title">
+ <div class="border-t border-ink/15 pt-8">
+  <p class="text-xs tracking-[0.25em] text-rouge">公司与团队名录</p>
+  <h2 id="roster-title" class="mt-3 font-serif text-3xl">下一页，从这些名字开始</h2>
+  <p class="mt-4 max-w-2xl text-sm leading-7 text-ink-soft">已建档 {companies.length} 家 · 新列入 {candidates.length} 家公司与工作室。先确定名字与产品线索，再逐家补齐历史。包含历史项目与发行主体，名单持续补充。</p>
+  <div class="mt-6 flex flex-col gap-3 sm:flex-row">
+   <label class="flex-1"><span class="sr-only">搜索公司或产品</span><input data-roster-search type="search" placeholder="搜索公司、团队或代表产品" class="w-full border border-ink/20 bg-transparent px-4 py-3 text-sm focus-visible:outline-2 focus-visible:outline-rouge" /></label>
+   <label><span class="sr-only">收录进度</span><select data-roster-filter class="w-full border border-ink/20 bg-paper px-4 py-3 text-sm focus-visible:outline-2 focus-visible:outline-rouge"><option value="">全部名字</option><option value="listed">已列入 · 待建档</option><option value="archived">已有公司档案</option><option value="studio">工作室</option></select></label>
+  </div>
+  <p data-roster-count aria-live="polite" class="my-4 text-xs text-mist">显示 {entries.length} 条</p>
+  <ul class="roster-grid">
+   {entries.map(c => <li data-roster-row data-stage={c.stage} data-kind={c.kind} data-search={`${c.name} ${c.products.join(' ')} ${c.note}`} class="roster-entry">
+    <div class="flex flex-wrap items-baseline justify-between gap-2"><h3 class="font-serif text-xl">{c.stage==='archived' ? <a class="hover:text-rouge underline-offset-4 hover:underline" href={withBase(`/company/${c.id}/`)}>{c.name}</a> : c.name}</h3><span class="text-xs text-rouge">{c.stage==='archived'?'已有档案':'待建档'}{c.kind==='工作室'?' · 工作室':''}</span></div>
+    <p class="mt-3 text-sm leading-6 text-ink-soft">{c.products.join(' · ')}</p>
+    <p class="mt-2 text-xs leading-6 text-ink-soft">{c.note}</p>
+    <a href={c.source.url} target="_blank" rel="noopener noreferrer" class="mt-auto pt-4 text-xs text-rouge underline underline-offset-4" aria-label={`${c.name}的收录依据`}>收录依据 ↗</a>
+   </li>)}
+  </ul>
+  <p data-roster-empty hidden class="py-8 text-sm text-ink-soft">没有找到这个名字，试试代表产品或清除筛选。</p>
+  <p class="mt-5 text-xs leading-6 text-mist">名单核查：2026年10月10日。待建档条目尚未补齐成立年份、全量产品与人员，不计入上方时间轴和已建档统计；工作室不视为独立公司。</p>
+ </div>
+</section>
+<script>
+ function setupRoster(){
+  const root=document.querySelector('#company-roster');if(!root || root.hasAttribute('data-ready'))return;root.setAttribute('data-ready','');
+  const search=root.querySelector<HTMLInputElement>('[data-roster-search]')!;
+  const filter=root.querySelector<HTMLSelectElement>('[data-roster-filter]')!;
+  const rows=[...root.querySelectorAll<HTMLElement>('[data-roster-row]')];
+  const update=()=>{let count=0;for(const row of rows){const match=(row.dataset.search??'').toLocaleLowerCase().includes(search.value.trim().toLocaleLowerCase());const stage=!filter.value || (filter.value==='studio'?row.dataset.kind==='工作室':row.dataset.stage===filter.value);row.hidden=!(match&&stage);if(!row.hidden)count++;}root.querySelector('[data-roster-count]')!.textContent=`显示 ${count} 条`;root.querySelector<HTMLElement>('[data-roster-empty]')!.hidden=count!==0;};
+  search.addEventListener('input',update);filter.addEventListener('change',update);
+ }
+ setupRoster();document.addEventListener('astro:page-load',setupRoster);
+</script>
+<style>
+ .roster-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:2.5rem;}
+ .roster-entry{min-width:0;display:flex;flex-direction:column;border-top:1px solid color-mix(in srgb,var(--color-ink) 15%,transparent);padding:1.5rem 0;}
+ .roster-entry[hidden]{display:none;}
+ @media(max-width:639px){.roster-grid{grid-template-columns:minmax(0,1fr);}}
+</style>

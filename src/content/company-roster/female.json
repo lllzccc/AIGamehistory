@@ -1,0 +1,243 @@
+[
+  {
+    "id": "mihoyo",
+    "name": "米哈游",
+    "kind": "公司",
+    "products": [
+      "未定事件簿"
+    ],
+    "note": "律政恋爱推理；后续拆分项目团队。",
+    "source": {
+      "title": "官方产品页／公司公开资料",
+      "url": "https://wd.mihoyo.com/m/main"
+    },
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "id": "tencent",
+    "name": "腾讯游戏",
+    "kind": "公司",
+    "products": [
+      "光与夜之恋"
+    ],
+    "note": "官方商店厂商署名腾讯；研发团队待独立核查。",
+    "source": {
+      "title": "官方产品页／公司公开资料",
+      "url": "https://www.taptap.cn/app/186316"
+    },
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "id": "netease",
+    "name": "网易游戏",
+    "kind": "公司",
+    "products": [
+      "世界之外",
+      "时空中的绘旅人"
+    ],
+    "note": "覆盖无限流言情与多时空恋爱；按项目拆分不同团队。",
+    "source": {
+      "title": "官方产品页／公司公开资料",
+      "url": "https://www.taptap.cn/app/364144"
+    },
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "id": "zulong",
+    "name": "祖龙游戏",
+    "kind": "公司",
+    "products": [
+      "以闪亮之名"
+    ],
+    "note": "商店列为研发、发行方；制作人署名来自Vvanna工作室。",
+    "source": {
+      "title": "官方产品页／公司公开资料",
+      "url": "https://www.taptap.cn/app/218210/all-info?platform=android"
+    },
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "id": "baioo",
+    "name": "百奥家庭互动／广州天梯",
+    "kind": "公司",
+    "products": [
+      "食物语"
+    ],
+    "note": "上市公司披露与产品关联；集团和研发主体后续分层建档。",
+    "source": {
+      "title": "官方产品页／公司公开资料",
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2023/0426/2023042603172_c.pdf"
+    },
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "id": "joymore",
+    "name": "掌梦网络",
+    "kind": "公司",
+    "products": [
+      "半世界之旅"
+    ],
+    "note": "官网明确专注女性向游戏研发；主体为上海掌梦网络科技有限公司。",
+    "source": {
+      "title": "官方产品页／公司公开资料",
+      "url": "https://www.joymore.cn/"
+    },
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "id": "shizixing",
+    "name": "十字星",
+    "kind": "公司",
+    "products": [
+      "螺旋圆舞曲"
+    ],
+    "note": "商店供应商为杭州十字星信息服务有限公司。",
+    "source": {
+      "title": "官方产品页／公司公开资料",
+      "url": "https://www.taptap.cn/app/71617"
+    },
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "id": "bingshi",
+    "name": "冰狮游戏",
+    "kind": "公司",
+    "products": [
+      "月影别墅"
+    ],
+    "note": "商店列为发行方，供应商北京冰狮互动科技有限公司；与研发工作室分列。",
+    "source": {
+      "title": "官方产品页／公司公开资料",
+      "url": "https://www.taptap.cn/app/213627"
+    },
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "id": "lameng",
+    "name": "拉萌游戏工作室",
+    "kind": "工作室",
+    "products": [
+      "月影别墅",
+      "神仙记事录"
+    ],
+    "note": "商店开发署名及制作人留言确认团队关联；法律主体待核查。",
+    "source": {
+      "title": "官方产品页／公司公开资料",
+      "url": "https://www.taptap.cn/app/213627"
+    },
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "id": "youmeng",
+    "name": "游梦初心",
+    "kind": "公司",
+    "products": [
+      "灵猫传"
+    ],
+    "note": "当前商店厂商、供应商为深圳市游梦初心文化网络有限公司；历史发行关系待补。",
+    "source": {
+      "title": "官方产品页／公司公开资料",
+      "url": "https://www.taptap.cn/app/172183?os=ios"
+    },
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "id": "nuverse",
+    "name": "朝夕光年",
+    "kind": "公司",
+    "products": [
+      "花亦山心之月",
+      "灵猫传"
+    ],
+    "note": "保留历史女性向产品布局；当前项目归属及重组关系待补。",
+    "source": {
+      "title": "官方产品页／公司公开资料",
+      "url": "https://www.taptap.cn/app/172183/topic?group_label_id=2710291"
+    },
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "id": "perfectworld",
+    "name": "完美世界游戏",
+    "kind": "公司",
+    "products": [
+      "黑猫奇闻社"
+    ],
+    "note": "商店厂商及供应商署名确认；历史产品与工作室待展开。",
+    "source": {
+      "title": "官方产品页／公司公开资料",
+      "url": "https://www.taptap.cn/app/204399"
+    },
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "id": "blueport",
+    "name": "蓝港游戏",
+    "kind": "公司",
+    "products": [
+      "筑梦公馆"
+    ],
+    "note": "官方产品介绍明确为蓝港独立研运的开放剧情手游。",
+    "source": {
+      "title": "官方产品页／公司公开资料",
+      "url": "https://www.taptap.cn/app/145665"
+    },
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "id": "qiyun",
+    "name": "合肥启云软件",
+    "kind": "公司",
+    "products": [
+      "轻舞罗裳"
+    ],
+    "note": "当前商店供应商线索；研发和历史发行关系尚待核实。",
+    "source": {
+      "title": "官方产品页／公司公开资料",
+      "url": "https://www.taptap.cn/app/196426"
+    },
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "id": "yueyou",
+    "name": "山西越游网络",
+    "kind": "公司",
+    "products": [
+      "星辰降临时"
+    ],
+    "note": "官方商店开发署名为山西越游网络。",
+    "source": {
+      "title": "官方产品页／公司公开资料",
+      "url": "https://www.taptap.cn/app/202777"
+    },
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "id": "zheshan",
+    "name": "折扇工作室",
+    "kind": "工作室",
+    "products": [
+      "花落长安"
+    ],
+    "note": "官方产品介绍明确折扇自研；工作室公司主体待核查。",
+    "source": {
+      "title": "官方产品页／公司公开资料",
+      "url": "https://www.taptap.cn/app/238975"
+    },
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "id": "bantang",
+    "name": "半糖工作室",
+    "kind": "工作室",
+    "products": [
+      "无限梦境"
+    ],
+    "note": "开发者公开说明女性向定位及项目研发；法律主体待核查。",
+    "source": {
+      "title": "官方产品页／公司公开资料",
+      "url": "https://www.taptap.cn/app/720557?os=android"
+    },
+    "checkedAt": "2026-10-10"
+  }
+]
