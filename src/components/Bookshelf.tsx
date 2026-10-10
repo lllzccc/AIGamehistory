@@ -38,7 +38,7 @@ export default function Bookshelf({ books }: { books: Book[] }) {
             <h2>{book.shortTitle}<br />游戏编年史</h2>
             <p className="cover-subtitle">{book.subtitle}</p>
             <div className={'cover-illustration ' + book.id} aria-hidden="true">
-              {book.id === 'female' ? <img src={withBase('/images/home-ensemble-v1.png')} alt="" /> :
+              {book.id === 'female' ? <img src={withBase('/images/home-ensemble-v2.png')} alt="" /> :
                 <><span className="casual-orbit" /><span className="casual-tile one" /><span className="casual-tile two" /><span className="casual-tile three" /></>}
             </div>
             <p className="cover-description">{book.description}</p>
