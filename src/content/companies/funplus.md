@@ -101,15 +101,29 @@
       {
         "area": "talent",
         "status": "partial",
-        "scope": "历任关键角色与公开流动",
+        "scope": "已补项目管理、研发制作人与音频创作署名；现任、离职、项目主策与核心美术仍待核实。",
         "checkedAt": "2026-10-11",
         "examined": [
           {
             "source": {
-              "title": "FunPlus官方制作人访谈：David Du与叙事编剧",
-              "url": "https://funplus.com/info/inside-dc-dark-legion-team-exclusive-insights/"
+              "title": "FunPlus官方访谈：Zhao Chen与State of Survival项目管理",
+              "url": "https://funplus.com/people/fun-people-zhao-chen-state-of-survival-lead-project-manager/"
             },
-            "note": "制作人与两名外部叙事编剧；其他角色仍待查。"
+            "note": "按公开职业资料核查角色；不以署名日期推断任职起点，不联系人员。"
+          },
+          {
+            "source": {
+              "title": "FunPlus官方文章：Sea of Conquest研发制作人署名",
+              "url": "https://funplus.com/info/sea-of-conquest-2024-nyx-game-awards/"
+            },
+            "note": "按公开职业资料核查角色；不以署名日期推断任职起点，不联系人员。"
+          },
+          {
+            "source": {
+              "title": "FunPlus官方音乐访谈：Zhang Zhiwei与三款策略产品",
+              "url": "https://funplus.com/info/behind-the-music-inside-zhang-zhiwei-creative-mind/"
+            },
+            "note": "按公开职业资料核查角色；不以署名日期推断任职起点，不联系人员。"
           }
         ],
         "gaps": [

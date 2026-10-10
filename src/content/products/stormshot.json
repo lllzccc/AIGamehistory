@@ -1,0 +1,45 @@
+{
+  "name": "Stormshot: Isle of Adventure",
+  "aliases": [],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "funplus",
+  "publisher": "funplus",
+  "released": "2022-09-26",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "美国iOS商店发行记录",
+  "significance": "将弹道解谜与4X城建、联盟战争结合。",
+  "cover": "/images/slg/stormshot.jpg",
+  "keyArt": "/images/slg/stormshot.jpg",
+  "sources": [
+    {
+      "title": "Apple美国iOS官方元数据：发行日期、卖方及截图",
+      "url": "https://itunes.apple.com/lookup?id=6443388218&country=us"
+    },
+    {
+      "title": "FunPlus官方Stormshot：4X城建、联盟战争与射击解谜",
+      "url": "https://funplus.com/games/stormshot_isle_of_adventure/"
+    }
+  ],
+  "verified": true,
+  "lifecycleNotes": [
+    {
+      "note": "核查日期2026-10-11。仅采用美国iOS商店元数据日期；Android、其他地区与国内版本未核对。本条公司归属按品牌聚合，具体研发工作室与任职法人待查。",
+      "sources": [
+        {
+          "title": "Apple美国iOS官方元数据：发行日期、卖方及截图",
+          "url": "https://itunes.apple.com/lookup?id=6443388218&country=us"
+        },
+        {
+          "title": "FunPlus官方Stormshot：4X城建、联盟战争与射击解谜",
+          "url": "https://funplus.com/games/stormshot_isle_of_adventure/"
+        }
+      ]
+    }
+  ]
+}

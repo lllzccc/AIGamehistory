@@ -1,0 +1,34 @@
+{
+  "name": "张竑",
+  "aliases": [
+    "Hong Zhang"
+  ],
+  "bio": "官方管理资料记载2008年12月加入集团，负责整体技术运营。",
+  "roles": [
+    {
+      "company": "igg",
+      "scope": "company",
+      "products": [],
+      "title": "other",
+      "from": "2026-10-11",
+      "status": "active",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-11",
+      "sources": [
+        {
+          "title": "IGG官方企业管治：执行董事与管理职务",
+          "url": "https://investor.igg.com/corporate_governance.php?lang=2"
+        }
+      ],
+      "note": "核查日官网列示在任。from为公开资料观察日，不是任职开始；董事委任日期也不等于现职开始。",
+      "titleNote": "首席技术官／全球业务高级副总裁"
+    }
+  ],
+  "sources": [
+    {
+      "title": "IGG官方企业管治：执行董事与管理职务",
+      "url": "https://investor.igg.com/corporate_governance.php?lang=2"
+    }
+  ],
+  "verified": true
+}

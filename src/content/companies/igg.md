@@ -78,16 +78,25 @@
       },
       {
         "area": "talent",
-        "status": "pending",
-        "scope": "项目人员与公开流动",
-        "examined": [],
+        "status": "partial",
+        "scope": "已核对官网公司管理层；项目制作人、主策、美术与流动仍未找到可靠署名。",
+        "examined": [
+          {
+            "source": {
+              "title": "IGG官方企业管治：执行董事与管理职务",
+              "url": "https://investor.igg.com/corporate_governance.php?lang=2"
+            },
+            "note": "按公开职业资料核查角色；不以署名日期推断任职起点，不联系人员。"
+          }
+        ],
         "gaps": [
           {
             "question": "继续逐项核对原始资料。",
             "status": "pending",
             "nextStep": "补齐来源、版本与日期后再验收。"
           }
-        ]
+        ],
+        "checkedAt": "2026-10-11"
       },
       {
         "area": "business",

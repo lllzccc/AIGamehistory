@@ -1,0 +1,33 @@
+{
+  "name": "Haojun Liu",
+  "aliases": [],
+  "bio": "FunPlus官方文章明确署名Sea of Conquest的Development Producer（研发制作人）；中文姓名及当前任期未核实。",
+  "roles": [
+    {
+      "company": "funplus",
+      "scope": "product",
+      "products": [
+        "sea-of-conquest"
+      ],
+      "title": "producer",
+      "from": "2026-10-11",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-11",
+      "sources": [
+        {
+          "title": "FunPlus官方文章：Sea of Conquest研发制作人署名",
+          "url": "https://funplus.com/info/sea-of-conquest-2024-nyx-game-awards/"
+        }
+      ],
+      "note": "from为本轮资料观察日，不是加入或任职日期。官方文章保留历史署名；没有据此确认2026年仍在任。具体雇佣法人与离职信息待核实。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "FunPlus官方文章：Sea of Conquest研发制作人署名",
+      "url": "https://funplus.com/info/sea-of-conquest-2024-nyx-game-awards/"
+    }
+  ],
+  "verified": true
+}

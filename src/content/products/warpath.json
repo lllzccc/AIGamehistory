@@ -1,0 +1,45 @@
+{
+  "name": "Warpath: Ace Shooter",
+  "aliases": [],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "lilith",
+  "publisher": "lilith",
+  "released": "2021-03-15",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "美国iOS商店发行记录",
+  "significance": "射击入口与基地建设、联盟战争结合的策略产品。",
+  "cover": "/images/slg/warpath.jpg",
+  "keyArt": "/images/slg/warpath.jpg",
+  "sources": [
+    {
+      "title": "Apple美国iOS官方元数据：发行日期、卖方及截图",
+      "url": "https://itunes.apple.com/lookup?id=1529067679&country=us"
+    },
+    {
+      "title": "Lilith官方Warpath商店",
+      "url": "https://store.lilith.com/warpath/global"
+    }
+  ],
+  "verified": true,
+  "lifecycleNotes": [
+    {
+      "note": "核查日期2026-10-11。仅采用美国iOS商店元数据日期；Android、其他地区与国内版本未核对。本条公司归属按品牌聚合，具体研发工作室与任职法人待查。 美国iOS记录2021-03-15，与次日全球推广公告的口径不同，不当作所有平台最早首发。",
+      "sources": [
+        {
+          "title": "Apple美国iOS官方元数据：发行日期、卖方及截图",
+          "url": "https://itunes.apple.com/lookup?id=1529067679&country=us"
+        },
+        {
+          "title": "Lilith官方Warpath商店",
+          "url": "https://store.lilith.com/warpath/global"
+        }
+      ]
+    }
+  ]
+}

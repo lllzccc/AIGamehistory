@@ -1,6 +1,8 @@
 {
   "name": "David Du",
-  "aliases": [],
+  "aliases": [
+    "Yi Du"
+  ],
   "bio": "FunPlus官方公告署名的DC: Dark Legion制作人；访谈另提及参与State of Survival，但该项目职务和任期未公开确认。",
   "roles": [
     {
@@ -21,10 +23,14 @@
         {
           "title": "FunPlus官方制作人访谈：David Du与叙事编剧",
           "url": "https://funplus.com/info/inside-dc-dark-legion-team-exclusive-insights/"
+        },
+        {
+          "title": "FunPlus 2025-02-26官方访谈：Yi Du即David Du",
+          "url": "https://funplus.com/people/funpeople-yi-du-producer-dc-dark-legion/"
         }
       ],
-      "note": "官方2025-03-14上线公告的公开署名日期，不是任职起点；当前在任及法律雇主未核实。",
-      "from": "2025-03-14"
+      "note": "官方2025-02-26访谈同时使用Yi Du与David Du，合并为同一人；此日是公开署名日期，不是任职开始。曾在莉莉丝和Supercell工作为自述，具体任期、职务及当前在任未核实。",
+      "from": "2025-02-26"
     }
   ],
   "sources": [
@@ -35,6 +41,10 @@
     {
       "title": "FunPlus官方制作人访谈：David Du与叙事编剧",
       "url": "https://funplus.com/info/inside-dc-dark-legion-team-exclusive-insights/"
+    },
+    {
+      "title": "FunPlus 2025-02-26官方访谈：Yi Du即David Du",
+      "url": "https://funplus.com/people/funpeople-yi-du-producer-dc-dark-legion/"
     }
   ],
   "verified": true

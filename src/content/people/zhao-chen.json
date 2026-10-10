@@ -1,0 +1,34 @@
+{
+  "name": "Zhao Chen",
+  "aliases": [],
+  "bio": "官方访谈确认负责State of Survival的进度、质量、预算与团队协作；不是主策划或制作人职务。",
+  "roles": [
+    {
+      "company": "funplus",
+      "scope": "product",
+      "products": [
+        "state-of-survival"
+      ],
+      "title": "other",
+      "from": "2026-10-11",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-11",
+      "sources": [
+        {
+          "title": "FunPlus官方访谈：Zhao Chen与State of Survival项目管理",
+          "url": "https://funplus.com/people/fun-people-zhao-chen-state-of-survival-lead-project-manager/"
+        }
+      ],
+      "note": "from为本轮资料观察日，不是加入或任职日期。官方文章保留历史署名；没有据此确认2026年仍在任。具体雇佣法人与离职信息待核实。",
+      "titleNote": "Lead Project Manager／项目管理负责人"
+    }
+  ],
+  "sources": [
+    {
+      "title": "FunPlus官方访谈：Zhao Chen与State of Survival项目管理",
+      "url": "https://funplus.com/people/fun-people-zhao-chen-state-of-survival-lead-project-manager/"
+    }
+  ],
+  "verified": true
+}

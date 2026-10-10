@@ -38,5 +38,29 @@
   ],
   "verified": true,
   "cover": "/images/slg/king-of-avalon.jpg",
-  "keyArt": "/images/slg/king-of-avalon.jpg"
+  "keyArt": "/images/slg/king-of-avalon.jpg",
+  "teamEvidence": [
+    {
+      "observedAt": "2026-10-11",
+      "kind": "official",
+      "summary": "Zhang Zhiwei：FunPlus官方音乐创作访谈署名的音频设计师、作曲者，明确涉及阿瓦隆之王、State of Survival及火枪纪元；中文姓名用字未核实。",
+      "sources": [
+        {
+          "title": "FunPlus官方音乐访谈：Zhang Zhiwei与三款策略产品",
+          "url": "https://funplus.com/info/behind-the-music-inside-zhang-zhiwei-creative-mind/"
+        }
+      ]
+    }
+  ],
+  "personnelResearch": {
+    "status": "documented",
+    "checkedAt": "2026-10-11",
+    "note": "已有官方项目署名；其他主策、美术、任期与人员流动仍待专项核查。",
+    "sources": [
+      {
+        "title": "FunPlus官方音乐访谈：Zhang Zhiwei与三款策略产品",
+        "url": "https://funplus.com/info/behind-the-music-inside-zhang-zhiwei-creative-mind/"
+      }
+    ]
+  }
 }
