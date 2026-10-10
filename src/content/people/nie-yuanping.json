@@ -1,0 +1,39 @@
+{
+  "name": "聂源平",
+  "aliases": [],
+  "bio": "暨南大学2010届光电工程系校友。学校2019年专访及2025年校友报道记载其于2014年创办广州火羽信息科技有限公司。",
+  "roles": [
+    {
+      "company": "huoyu",
+      "scope": "company",
+      "products": [],
+      "title": "founder",
+      "from": "2014",
+      "status": "unknown",
+      "dateBasis": "employment",
+      "checkedAt": "2026-10-10",
+      "sources": [
+        {
+          "title": "暨南大学：聂源平校友回访（2025年）",
+          "url": "https://gdgcx.jnu.edu.cn/2025/0429/c3865a835069/page.htm"
+        },
+        {
+          "title": "暨南大学：聂源平校友专访（2019年）",
+          "url": "https://lgxy.jnu.edu.cn/2019/1030/c19131a434251/page.htm"
+        }
+      ],
+      "note": "创办年份由学校报道确认；当前经营职务及任职状态待核实，未关联具体产品制作岗位。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "暨南大学：聂源平校友回访（2025年）",
+      "url": "https://gdgcx.jnu.edu.cn/2025/0429/c3865a835069/page.htm"
+    },
+    {
+      "title": "暨南大学：聂源平校友专访（2019年）",
+      "url": "https://lgxy.jnu.edu.cn/2019/1030/c19131a434251/page.htm"
+    }
+  ],
+  "verified": true
+}

@@ -1,0 +1,49 @@
+{
+  "name": "盛世芳华",
+  "aliases": [],
+  "chronicles": [
+    "female"
+  ],
+  "genre": "other",
+  "developer": "huoyu",
+  "publisher": "huoyu",
+  "released": "2021-07-01",
+  "platforms": [
+    "Android"
+  ],
+  "status": "live",
+  "versionLabel": "中国大陆 · 安卓首发口径",
+  "significance": "火羽自研的唐风宫廷养成产品，以重生剧情、换装、家园和社交拓展古风女性向玩法。",
+  "cover": "/images/huoyu/shengshi-fanghua.jpg",
+  "keyArt": "/images/huoyu/shengshi-fanghua.jpg",
+  "lifecycleNotes": [
+    {
+      "note": "官方公告确认2021年7月1日首发；此处采用TapTap安卓正式上线日期，其他平台及海外版本时间待补。",
+      "sources": [
+        {
+          "title": "盛世芳华官方首发公告",
+          "url": "https://www.taptap.cn/moment/157597069979156781"
+        },
+        {
+          "title": "TapTap：盛世芳华游戏信息",
+          "url": "https://www.taptap.cn/app/206052/all-info"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "火羽游戏官网：关于我们",
+      "url": "https://www.huoyugame.com/m/about.html"
+    },
+    {
+      "title": "盛世芳华官方首发公告",
+      "url": "https://www.taptap.cn/moment/157597069979156781"
+    },
+    {
+      "title": "TapTap：盛世芳华游戏信息",
+      "url": "https://www.taptap.cn/app/206052/all-info"
+    }
+  ],
+  "verified": true
+}

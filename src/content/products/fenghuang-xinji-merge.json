@@ -1,0 +1,75 @@
+{
+  "name": "凤凰心计",
+  "aliases": [
+    "凤凰心计合成版"
+  ],
+  "chronicles": [
+    "female",
+    "casual"
+  ],
+  "genre": "other",
+  "developer": "huoyu",
+  "publisher": "huoyu",
+  "released": "2023-12-22",
+  "platforms": [
+    "Android",
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "合成版 · 安卓上线口径",
+  "significance": "将古风情缘剧情与合成、装修结合的女性向休闲产品，区别于同名旧版宫廷游戏。",
+  "cover": "/images/huoyu/fenghuang-xinji.png",
+  "keyArt": "/images/huoyu/fenghuang-xinji.png",
+  "lifecycleNotes": [
+    {
+      "note": "2023年12月22日为TapTap记录的安卓正式上线日期；App Store已有2023年12月版本记录，不能把安卓日期视为全平台首发。",
+      "sources": [
+        {
+          "title": "TapTap：凤凰心计合成版游戏信息",
+          "url": "https://www.taptap.cn/app/482410/all-info"
+        },
+        {
+          "title": "App Store：凤凰心计版本历史",
+          "url": "https://apps.apple.com/cn/app/凤凰心计-休闲合成装修游戏/id6469108950"
+        }
+      ]
+    },
+    {
+      "note": "官网列为火羽自研产品；TapTap开发署名筑心工作室，供应商为海南火羽信息科技有限公司。此档案按火羽品牌聚合，工作室及主体关系待进一步核实。",
+      "sources": [
+        {
+          "title": "火羽游戏官网：关于我们",
+          "url": "https://www.huoyugame.com/m/about.html"
+        },
+        {
+          "title": "TapTap：凤凰心计合成版游戏信息",
+          "url": "https://www.taptap.cn/app/482410/all-info"
+        }
+      ]
+    },
+    {
+      "note": "旧版凤凰心计曾公告2023年2月27日停止充值及创建角色，并继续维持服务器；该公告不证明关服，也不代表本合成版的生命周期。",
+      "sources": [
+        {
+          "title": "九游：旧版凤凰心计停止充值公告",
+          "url": "https://www.9game.cn/news/7650185.html"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "火羽游戏官网：关于我们",
+      "url": "https://www.huoyugame.com/m/about.html"
+    },
+    {
+      "title": "TapTap：凤凰心计合成版游戏信息",
+      "url": "https://www.taptap.cn/app/482410/all-info"
+    },
+    {
+      "title": "App Store：凤凰心计版本历史",
+      "url": "https://apps.apple.com/cn/app/凤凰心计-休闲合成装修游戏/id6469108950"
+    }
+  ],
+  "verified": true
+}
