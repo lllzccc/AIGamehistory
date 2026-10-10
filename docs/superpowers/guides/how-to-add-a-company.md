@@ -99,3 +99,5 @@ npx astro build
 公司 `financials` 使用集团合并口径，期间为 YYYY 或 YYYY-H1/H2，收入以人民币元储存，利润允许负数。不得写入产品 `revenue` 或以集团收入推算单款流水。公司页年度与半年分开展示。
 
 项目 `personnelResearch` 区分检索过但未确认与有资料；没有该字段表示待检索。岗位记录必须以实名/花名公开署名和明确项目关系为依据，集团副总裁不能自动视作项目制作人。
+
+匿名访谈、团队规模及无实名岗位记录使用产品teamEvidence（observedAt、kind、summary、sources），不创建虚构person。日期是来源所描述的公开记录日期；媒体转述标reported。招聘岗位未注明项目时，不挂到任何项目，不认定在招或缺编。待补岗位只是研究清单。

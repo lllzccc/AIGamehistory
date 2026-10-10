@@ -34,16 +34,40 @@
   "personnelResearch": {
     "status": "searched-unconfirmed",
     "checkedAt": "2026-10-10",
-    "note": "本轮检索公司年报、官网新闻及公开制作人访谈关键词，未确认可归属本项目的制作人、主策划或主美姓名。集团研发负责人不等于项目制作人；招聘及社交渠道尚待补查。",
+    "note": "本轮检索官方项目新闻、开发者自述、行业访谈与公开索引中的制作人、主策划、主美、核心策划及核心美术署名。已找到团队线索，但尚未确认可建档的关键人员姓名、花名及任职时间。未登录LinkedIn/脉脉或访问非公开履历；公司招聘岗位未明确项目，不分配到本产品。",
     "sources": [
       {
-        "title": "友谊时光2025年年度报告（印刷页10：五年财务摘要；33–36：管理层）",
-        "url": "https://www.friendtimes.net/res/ftnet/202604/20174700jyaz.pdf"
+        "title": "凌云诺官网：策划与美术主笔答疑，2021-06-04",
+        "url": "https://lyn.9917.com/information/20210604/32310b13f8b39bf1218a.html"
       },
       {
-        "title": "友谊时光2026年中期报告（印刷页7：财务摘要；4：执行董事）",
-        "url": "https://www.friendtimes.net/res/ftnet/202609/29172654j3zq.pdf"
+        "title": "凌云诺官网：策划面对面反馈，2022-08-18",
+        "url": "https://lyn.9917.com/notice/20220818/12390ce4903b86f933ebb.html"
       }
     ]
-  }
+  },
+  "teamEvidence": [
+    {
+      "observedAt": "2021-06-04",
+      "kind": "official",
+      "summary": "官方答疑由策划与美术主笔参与，说明角色设计职责。未公开姓名，且美术主笔不等于项目主美或美术总监。",
+      "sources": [
+        {
+          "title": "凌云诺官网：策划与美术主笔答疑，2021-06-04",
+          "url": "https://lyn.9917.com/information/20210604/32310b13f8b39bf1218a.html"
+        }
+      ]
+    },
+    {
+      "observedAt": "2022-08-18",
+      "kind": "official",
+      "summary": "官方记录策划面对面活动及建议反馈；能确认策划团队参与，但未披露个人、职级或任职起止时间。",
+      "sources": [
+        {
+          "title": "凌云诺官网：策划面对面反馈，2022-08-18",
+          "url": "https://lyn.9917.com/notice/20220818/12390ce4903b86f933ebb.html"
+        }
+      ]
+    }
+  ]
 }

@@ -47,5 +47,29 @@
     }
   ],
   "verified": false,
-  "keyArt": "/images/youyi-shiguang/cisheng-wubai.jpg"
+  "keyArt": "/images/youyi-shiguang/cisheng-wubai.jpg",
+  "teamEvidence": [
+    {
+      "observedAt": "2021-02-25",
+      "kind": "reported",
+      "summary": "采访报道引用官方项目负责人介绍测试与差异化设计，但没有给出姓名。保留负责人线索，不生成匿名个人档案，不推断为某位公司高管。",
+      "sources": [
+        {
+          "title": "游戏茶馆：此生无白项目负责人谈女性仙侠差异化，2021-02-25",
+          "url": "https://youxichaguan.com/archives/138847"
+        }
+      ]
+    }
+  ],
+  "personnelResearch": {
+    "status": "searched-unconfirmed",
+    "checkedAt": "2026-10-10",
+    "note": "本轮检索官方项目新闻、开发者自述、行业访谈与公开索引中的制作人、主策划、主美、核心策划及核心美术署名。已找到团队线索，但尚未确认可建档的关键人员姓名、花名及任职时间。未登录LinkedIn/脉脉或访问非公开履历；公司招聘岗位未明确项目，不分配到本产品。",
+    "sources": [
+      {
+        "title": "游戏茶馆：此生无白项目负责人谈女性仙侠差异化，2021-02-25",
+        "url": "https://youxichaguan.com/archives/138847"
+      }
+    ]
+  }
 }

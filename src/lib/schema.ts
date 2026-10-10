@@ -70,6 +70,12 @@ export const productSchema = z.object({
   significance: z.string().min(1),
   cover: z.string().optional(),
   keyArt: z.string().optional(),
+  teamEvidence: z.array(z.object({
+    observedAt: partialDate,
+    kind: z.enum(['official', 'reported']),
+    summary: z.string().min(1),
+    sources: z.array(sourceSchema).min(1),
+  })).optional(),
   personnelResearch: z.object({
     status: z.enum(['searched-unconfirmed', 'documented']),
     checkedAt: partialDate,

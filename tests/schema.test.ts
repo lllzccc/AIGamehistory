@@ -63,6 +63,13 @@ describe('productSchema', () => {
     expect(productSchema.safeParse({ ...valid, lifecycleNotes: [{ note: '未确认', sources: [] }] }).success).toBe(false);
   });
 
+  it('匿名团队证据需日期和来源，不生成实名任职', () => {
+    const record = { observedAt: '2023-03-24', kind: 'official', summary: '策划自述未署名', sources: [source] };
+    expect(productSchema.safeParse({ ...valid, teamEvidence: [record] }).success).toBe(true);
+    expect(productSchema.safeParse({ ...valid, teamEvidence: [{ ...record, sources: [] }] }).success).toBe(false);
+    expect(productSchema.safeParse({ ...valid, teamEvidence: [{ ...record, observedAt: '未知' }] }).success).toBe(false);
+  });
+
   it('流水默认为空数组', () => {
     expect(productSchema.parse(valid).revenue).toEqual([]);
   });
