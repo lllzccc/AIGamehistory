@@ -1,11 +1,17 @@
 {
   "name": "宫廷计手游",
-  "aliases": ["宫廷计", "宫廷记"],
+  "aliases": [
+    "宫廷计",
+    "宫廷记"
+  ],
   "genre": "other",
   "developer": "youyi-shiguang",
   "publisher": "youyi-shiguang",
   "released": "2018-03",
-  "platforms": ["iOS", "Android"],
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
   "status": "live",
   "significance": "2010 年页游《宫廷计》的手游化，以《熹妃传》同一故事系列的不同故事线为蓝本，是公司宫斗产品线的第三款主力。",
   "keyArt": "/images/youyi-shiguang/gongting-ji.jpg",
@@ -17,12 +23,24 @@
       "basis": "official-report",
       "partial": true,
       "lowerBound": false,
-      "source": { "title": "界面新闻（三文娱，引招股书）：《宫廷计手游》2018 年收益 2.75 亿元（当年 3 月上线）", "url": "https://www.jiemian.com/article/2947398.html" }
+      "source": {
+        "title": "界面新闻（三文娱，引招股书）：《宫廷计手游》2018 年收益 2.75 亿元（当年 3 月上线）",
+        "url": "https://www.jiemian.com/article/2947398.html"
+      }
     }
   ],
   "sources": [
-    { "title": "界面新闻（三文娱）：《宫廷计手游》于 2018 年 3 月发行", "url": "https://www.jiemian.com/article/2947398.html" },
-    { "title": "智通财经：2018 年发行的《宫廷计手游》为 2D 女性向中国古风游戏", "url": "https://www.zhitongcaijing.com/content/detail/188533.html" }
+    {
+      "title": "界面新闻（三文娱）：《宫廷计手游》于 2018 年 3 月发行",
+      "url": "https://www.jiemian.com/article/2947398.html"
+    },
+    {
+      "title": "智通财经：2018 年发行的《宫廷计手游》为 2D 女性向中国古风游戏",
+      "url": "https://www.zhitongcaijing.com/content/detail/188533.html"
+    }
   ],
-  "verified": false
+  "verified": false,
+  "chronicles": [
+    "female"
+  ]
 }

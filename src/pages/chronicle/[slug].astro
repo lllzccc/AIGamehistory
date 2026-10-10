@@ -1,0 +1,93 @@
+---
+import { withBase } from '../../lib/paths';
+import Base from '../../layouts/Base.astro';
+import HeatStrip from '../../components/HeatStrip.astro';
+import YearRiver from '../../components/YearRiver';
+import { loadDataset } from '../../lib/load';
+import { bucketSize, getYearBuckets, marketSeries } from '../../lib/data';
+import { compareDates } from '../../lib/dates';
+
+import { chronicles, selectChronicle } from '../../lib/chronicles';
+export function getStaticPaths() {
+  return chronicles.map(volume => ({ params: { slug: volume.id }, props: { volume } }));
+}
+const { volume } = Astro.props;
+const ds = selectChronicle(await loadDataset(), volume.id);
+const endYear = new Date().getFullYear();
+const buckets = getYearBuckets(ds, endYear);
+const firstYear = buckets[0]?.year ?? endYear;
+const companies = [...ds.companies].sort((a, b) => compareDates(a.founded, b.founded));
+const stats = [
+  { label: '收录公司', value: ds.companies.length },
+  { label: '作品', value: ds.products.length },
+  { label: '大事记', value: ds.events.length },
+];
+---
+
+<Base title={volume.title} description={volume.description}>
+  <section class:list={["chronicle-hero relative isolate overflow-hidden", volume.id === "casual" && "casual-hero"]}>
+    {volume.id === 'female' && <img src={withBase('/images/home-ensemble-v1.png')} alt="" aria-hidden="true" fetchpriority="high" width="1672" height="941" class="chronicle-hero-art pointer-events-none absolute inset-0 -z-20 h-full w-full object-cover object-right" />}
+    <div aria-hidden="true" class="chronicle-hero-wash pointer-events-none absolute inset-0 -z-10"></div>
+    <div class="mx-auto w-full max-w-6xl px-6 pt-36 pb-20 sm:px-10 sm:pb-24">
+    <p class="hero-rise font-display text-sm tracking-[0.4em] text-mist">CHRONICLE · {firstYear} — {endYear}</p>
+    <h1 class="hero-rise mt-6 font-serif text-5xl leading-tight font-bold sm:text-7xl" style="animation-delay: 80ms">
+      {volume.shortTitle}游戏<br />编年史
+    </h1>
+    <p class="hero-rise mt-8 max-w-xl font-serif text-lg leading-loose text-ink-soft" style="animation-delay: 160ms">
+      {volume.description}
+    </p>
+    <dl class="hero-rise mt-12 flex gap-12" style="animation-delay: 240ms">
+      {stats.map((s) => (
+        <div>
+          <dt class="text-xs tracking-[0.3em] text-mist">{s.label}</dt>
+          <dd class="mt-2 font-display text-4xl text-ink">{s.value}</dd>
+        </div>
+      ))}
+    </dl>
+    </div>
+  </section>
+
+  <p class="mx-auto max-w-6xl px-6 pb-8 text-xs text-mist sm:px-10">{volume.id === "casual" ? "休闲卷首批编目：以开心消消乐为起点，后续逐家公司补充。" : "收录范围包含宫廷恋爱及相邻的官斗、历史养成产品。"}</p>
+  <section class="mx-auto max-w-6xl px-6 pb-14 sm:px-10">
+    <HeatStrip years={buckets.map((b) => ({ year: b.year, count: bucketSize(b) }))} market={marketSeries(ds)} />
+  </section>
+
+  <section class="mx-auto max-w-6xl px-6 sm:px-10">
+    <p class="text-xs tracking-[0.3em] text-mist">收录公司</p>
+    <ul class="mt-3 flex flex-wrap gap-x-6 gap-y-2">
+      {companies.map((c) => (
+        <li>
+          <a href={withBase(`/company/${c.id}`)} class="font-serif text-lg text-ink-soft transition hover:text-rouge">{c.name}</a>
+        </li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="mx-auto max-w-6xl px-6 pt-16 pb-32 sm:px-10">
+    <YearRiver client:load buckets={buckets} />
+  </section>
+</Base>
+
+<style>
+  .chronicle-hero {
+    min-height: min(820px, 88svh);
+    display: flex;
+    align-items: center;
+  }
+  .casual-hero { background: radial-gradient(ellipse at 85% 30%, #bed5cc 0%, transparent 60%); }
+  .chronicle-hero-art { opacity: 0.88; }
+  .chronicle-hero-wash {
+    background:
+      linear-gradient(to top, var(--color-paper) 0%, transparent 26%),
+      linear-gradient(to right, var(--color-paper) 0%, rgba(244, 239, 232, 0.98) 22%, rgba(244, 239, 232, 0.88) 40%, rgba(244, 239, 232, 0.3) 60%, transparent 78%);
+  }
+  @media (max-width: 767px) {
+    .chronicle-hero { min-height: auto; }
+    .chronicle-hero-art { object-position: 65% center; opacity: 0.5; }
+    .chronicle-hero-wash {
+      background:
+        linear-gradient(to top, var(--color-paper), rgba(244, 239, 232, 0.78) 45%, rgba(244, 239, 232, 0.62)),
+        linear-gradient(to right, rgba(244, 239, 232, 0.86), transparent);
+    }
+  }
+</style>

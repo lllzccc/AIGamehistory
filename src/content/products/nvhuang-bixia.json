@@ -27,5 +27,8 @@
   "genre": "other",
   "status": "live",
   "revenue": [],
-  "keyArt": "/images/palace/nvhuang-bixia.jpg"
+  "keyArt": "/images/palace/nvhuang-bixia.jpg",
+  "chronicles": [
+    "female"
+  ]
 }

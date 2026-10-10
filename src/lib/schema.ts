@@ -42,6 +42,7 @@ export const revenueEntrySchema = z.object({
 });
 
 export const productSchema = z.object({
+  chronicles: z.array(z.enum(['female', 'casual'])).min(1).optional(),
   name: z.string().min(1),
   aliases: z.array(z.string()).default([]),
   genre: z.enum(['otome', 'dressup', 'interactive', 'other']),

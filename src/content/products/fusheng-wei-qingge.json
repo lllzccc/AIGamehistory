@@ -5,7 +5,10 @@
   "developer": "youyi-shiguang",
   "publisher": "youyi-shiguang",
   "released": "2019-12-31",
-  "platforms": ["iOS", "Android"],
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
   "status": "live",
   "significance": "3D 开放式古风养成，友谊时光第五代古风产品，上线后一度成为公司最赚钱的游戏并在韩国取得较好的出海成绩。",
   "keyArt": "/images/youyi-shiguang/fusheng-wei-qingge.jpg",
@@ -17,13 +20,28 @@
       "basis": "official-report",
       "partial": true,
       "lowerBound": false,
-      "source": { "title": "36氪（毒眸，引 2020 上半年财报）：《浮生为卿歌》已贡献 4.93 亿元（上半年）", "url": "https://www.36kr.com/p/1002642987995652" }
+      "source": {
+        "title": "36氪（毒眸，引 2020 上半年财报）：《浮生为卿歌》已贡献 4.93 亿元（上半年）",
+        "url": "https://www.36kr.com/p/1002642987995652"
+      }
     }
   ],
   "sources": [
-    { "title": "《浮生为卿歌》官网：2019 年 12 月 31 日 10:00 全平台公测", "url": "https://fswqg.9917.com/activity/20191230/2936e43be4f20955651.html" },
-    { "title": "友谊时光新闻：12 月 31 日全平台公测后登上 iOS 免费榜前列", "url": "https://www.friendtimes.net/information/20200106/433b67632a7e958e23f.html" },
-    { "title": "36氪（毒眸）：2019 年 12 月上线，2020 上半年贡献 4.93 亿元", "url": "https://www.36kr.com/p/1002642987995652" }
+    {
+      "title": "《浮生为卿歌》官网：2019 年 12 月 31 日 10:00 全平台公测",
+      "url": "https://fswqg.9917.com/activity/20191230/2936e43be4f20955651.html"
+    },
+    {
+      "title": "友谊时光新闻：12 月 31 日全平台公测后登上 iOS 免费榜前列",
+      "url": "https://www.friendtimes.net/information/20200106/433b67632a7e958e23f.html"
+    },
+    {
+      "title": "36氪（毒眸）：2019 年 12 月上线，2020 上半年贡献 4.93 亿元",
+      "url": "https://www.36kr.com/p/1002642987995652"
+    }
   ],
-  "verified": true
+  "verified": true,
+  "chronicles": [
+    "female"
+  ]
 }

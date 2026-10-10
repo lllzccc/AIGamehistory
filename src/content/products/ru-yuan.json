@@ -1,19 +1,36 @@
 {
   "name": "如鸢",
-  "aliases": ["代号鸢"],
+  "aliases": [
+    "代号鸢"
+  ],
   "genre": "otome",
   "developer": "lingxi",
   "publisher": "lingxi",
   "released": "2024-09-26",
-  "platforms": ["iOS", "Android"],
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
   "status": "live",
   "significance": "《代号鸢》国服，2024 年 9 月公测后进入畅销榜前列，是灵犀在大陆女向市场的正式落地。",
   "keyArt": "/images/lingxi/ru-yuan.jpg",
   "revenue": [],
   "sources": [
-    { "title": "36氪：2024 年 9 月 26 日《如鸢》上线", "url": "https://m.36kr.com/p/2934123680685192" },
-    { "title": "233乐园：归鸿公测 2024 年 9 月 26 日 9:00 开启", "url": "https://www.233leyuan.com/post-detail/1668464867334729728" },
-    { "title": "每经网：内地版《如鸢》于 2024 年 9 月正式推出", "url": "https://www.nbd.com.cn/articles/2026-06-18/4430386.html" }
+    {
+      "title": "36氪：2024 年 9 月 26 日《如鸢》上线",
+      "url": "https://m.36kr.com/p/2934123680685192"
+    },
+    {
+      "title": "233乐园：归鸿公测 2024 年 9 月 26 日 9:00 开启",
+      "url": "https://www.233leyuan.com/post-detail/1668464867334729728"
+    },
+    {
+      "title": "每经网：内地版《如鸢》于 2024 年 9 月正式推出",
+      "url": "https://www.nbd.com.cn/articles/2026-06-18/4430386.html"
+    }
   ],
-  "verified": false
+  "verified": false,
+  "chronicles": [
+    "female"
+  ]
 }

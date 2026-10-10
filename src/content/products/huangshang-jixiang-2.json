@@ -24,5 +24,8 @@
   "genre": "other",
   "status": "live",
   "revenue": [],
-  "keyArt": "/images/palace/huangshang-jixiang-2.jpg"
+  "keyArt": "/images/palace/huangshang-jixiang-2.jpg",
+  "chronicles": [
+    "female"
+  ]
 }

@@ -1,0 +1,32 @@
+{
+  "name": "开心消消乐",
+  "aliases": [
+    "开心消消乐（移动版）"
+  ],
+  "chronicles": [
+    "casual"
+  ],
+  "genre": "other",
+  "developer": "happyelements",
+  "publisher": "happyelements",
+  "released": "2014-02",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "status": "live",
+  "significance": "乐元素的长线三消休闲产品。官方 App Store 介绍记载 2014 年 2 月推出 iOS 版；本条按移动版建档，不与更早网页版本混用，安卓与地区日期另行核实。",
+  "revenue": [],
+  "sources": [
+    {
+      "title": "App Store 官方产品说明：开心消消乐于2014年2月推出iOS版本",
+      "url": "https://apps.apple.com/cn/app/%E5%BC%80%E5%BF%83%E6%B6%88%E6%B6%88%E4%B9%90/id791532221"
+    },
+    {
+      "title": "TapTap 官方入驻：开心消消乐厂商乐元素",
+      "url": "https://www.taptap.cn/app/2321/all-info"
+    }
+  ],
+  "keyArt": "/images/happyelements/kaixin-xiaoxiaole.jpg",
+  "verified": false
+}

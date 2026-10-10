@@ -23,5 +23,8 @@
   "genre": "other",
   "status": "live",
   "revenue": [],
-  "keyArt": "/images/palace/qingluan-fanhualu.jpg"
+  "keyArt": "/images/palace/qingluan-fanhualu.jpg",
+  "chronicles": [
+    "female"
+  ]
 }

@@ -23,5 +23,8 @@
   "genre": "other",
   "status": "live",
   "revenue": [],
-  "keyArt": "/images/palace/wo-zai-daqing.jpg"
+  "keyArt": "/images/palace/wo-zai-daqing.jpg",
+  "chronicles": [
+    "female"
+  ]
 }

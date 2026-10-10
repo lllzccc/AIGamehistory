@@ -1,11 +1,16 @@
 {
   "name": "熹妃Q传",
-  "aliases": ["The Empress Q"],
+  "aliases": [
+    "The Empress Q"
+  ],
   "genre": "other",
   "developer": "youyi-shiguang",
   "publisher": "youyi-shiguang",
   "released": "2017-09",
-  "platforms": ["iOS", "Android"],
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
   "status": "live",
   "significance": "同一小说蓝本的 3D 续作，强化社交互动，2018 年成为公司收入最高的单品。",
   "keyArt": "/images/youyi-shiguang/xifei-q-zhuan.jpg",
@@ -17,12 +22,24 @@
       "basis": "official-report",
       "partial": false,
       "lowerBound": false,
-      "source": { "title": "界面新闻（三文娱，引招股书）：《熹妃Q传》2018 年收益 6.92 亿元", "url": "https://www.jiemian.com/article/2947398.html" }
+      "source": {
+        "title": "界面新闻（三文娱，引招股书）：《熹妃Q传》2018 年收益 6.92 亿元",
+        "url": "https://www.jiemian.com/article/2947398.html"
+      }
     }
   ],
   "sources": [
-    { "title": "界面新闻（三文娱）：《熹妃Q传》于 2017 年 9 月上线", "url": "https://www.jiemian.com/article/2947398.html" },
-    { "title": "36氪（毒眸）：2017 年 9 月上线，iOS 畅销榜最高约第 18 名", "url": "https://www.36kr.com/p/1002642987995652" }
+    {
+      "title": "界面新闻（三文娱）：《熹妃Q传》于 2017 年 9 月上线",
+      "url": "https://www.jiemian.com/article/2947398.html"
+    },
+    {
+      "title": "36氪（毒眸）：2017 年 9 月上线，iOS 畅销榜最高约第 18 名",
+      "url": "https://www.36kr.com/p/1002642987995652"
+    }
   ],
-  "verified": false
+  "verified": false,
+  "chronicles": [
+    "female"
+  ]
 }

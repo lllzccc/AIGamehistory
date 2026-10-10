@@ -3,8 +3,9 @@ import Base from '../layouts/Base.astro';
 import SwimLanes from '../components/SwimLanes';
 import { loadDataset } from '../lib/load';
 import { getCompareLanes } from '../lib/data';
+import { selectChronicle } from '../lib/chronicles';
 
-const ds = await loadDataset();
+const ds = selectChronicle(await loadDataset(), 'female');
 const endYear = new Date().getFullYear();
 const lanes = getCompareLanes(ds, []);
 ---

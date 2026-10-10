@@ -1,11 +1,18 @@
 {
   "name": "无限暖暖",
-  "aliases": ["Infinity Nikki"],
+  "aliases": [
+    "Infinity Nikki"
+  ],
   "genre": "dressup",
   "developer": "papergames",
   "publisher": "papergames",
   "released": "2024-12-05",
-  "platforms": ["PC", "PS5", "iOS", "Android"],
+  "platforms": [
+    "PC",
+    "PS5",
+    "iOS",
+    "Android"
+  ],
   "status": "live",
   "significance": "“暖暖”系列第五作，以 UE5 打造的多平台开放世界换装冒险，标志叠纸进入主机与 PC 市场。",
   "keyArt": "/images/papergames/infinity-nikki.jpg",
@@ -17,12 +24,24 @@
       "basis": "all-platform",
       "partial": true,
       "lowerBound": true,
-      "source": { "title": "GameLook（引述第三方平台，全平台预估流水口径，非 Sensor Tower 应用商店口径）：仅 2024 年 12 月（上线当月）全球流水 4 亿元以上，为下限值", "url": "http://www.gamelook.com.cn/2025/01/562489/" }
+      "source": {
+        "title": "GameLook（引述第三方平台，全平台预估流水口径，非 Sensor Tower 应用商店口径）：仅 2024 年 12 月（上线当月）全球流水 4 亿元以上，为下限值",
+        "url": "http://www.gamelook.com.cn/2025/01/562489/"
+      }
     }
   ],
   "sources": [
-    { "title": "《无限暖暖》官网公告：12 月 5 日 10:00 多平台同步上线，登陆 PC、iOS、安卓和 PS5", "url": "https://infinitynikki.nuanpaper.com/news/76" },
-    { "title": "界面新闻：《无限暖暖》12 月 5 日全球公测", "url": "https://m.jiemian.com/article/12079832.html" }
+    {
+      "title": "《无限暖暖》官网公告：12 月 5 日 10:00 多平台同步上线，登陆 PC、iOS、安卓和 PS5",
+      "url": "https://infinitynikki.nuanpaper.com/news/76"
+    },
+    {
+      "title": "界面新闻：《无限暖暖》12 月 5 日全球公测",
+      "url": "https://m.jiemian.com/article/12079832.html"
+    }
   ],
-  "verified": true
+  "verified": true,
+  "chronicles": [
+    "female"
+  ]
 }

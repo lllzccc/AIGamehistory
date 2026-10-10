@@ -34,5 +34,8 @@
   "genre": "other",
   "status": "live",
   "revenue": [],
-  "keyArt": "/images/palace/gongsuo-xinji.jpg"
+  "keyArt": "/images/palace/gongsuo-xinji.jpg",
+  "chronicles": [
+    "female"
+  ]
 }

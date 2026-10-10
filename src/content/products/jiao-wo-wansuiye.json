@@ -23,5 +23,8 @@
   "genre": "other",
   "status": "live",
   "revenue": [],
-  "keyArt": "/images/palace/jiao-wo-wansuiye.jpg"
+  "keyArt": "/images/palace/jiao-wo-wansuiye.jpg",
+  "chronicles": [
+    "female"
+  ]
 }

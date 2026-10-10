@@ -13,7 +13,7 @@ interface Props {
   description?: string;
 }
 
-const { title, description = '中国女性向游戏公司编年史' } = Astro.props;
+const { title, description = '中国游戏公司编年史合集' } = Astro.props;
 const path = Astro.url.pathname.slice(withBase('/').length - 1);
 ---
 
@@ -23,14 +23,16 @@ const path = Astro.url.pathname.slice(withBase('/').length - 1);
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
-    <title>{title} · 女性向游戏编年史</title>
+    <title>{title} · 游戏编年史合集</title>
   </head>
   <body class="min-h-screen bg-paper font-sans text-ink antialiased">
     <header class="absolute inset-x-0 top-0 z-40">
       <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-6 sm:px-10">
-        <a href={withBase('/')} class="font-serif text-base tracking-[0.2em] text-ink">女性向游戏编年史</a>
-        <nav class="flex gap-8 text-sm text-ink-soft">
-          <a href={withBase('/')} class:list={['transition hover:text-rouge', path === '/' && 'text-rouge']}>时间长河</a>
+        <a href={withBase('/')} class="font-serif text-base tracking-[0.2em] text-ink">游戏编年史合集</a>
+        <nav class="flex flex-wrap justify-end gap-x-5 gap-y-2 text-xs text-ink-soft sm:text-sm">
+          <a href={withBase('/')} class:list={['transition hover:text-rouge', path === '/' && 'text-rouge']}>书架</a>
+          <a href={withBase('/chronicle/female/')} class:list={['transition hover:text-rouge', path.startsWith('/chronicle/female') && 'text-rouge']}>女性向</a>
+          <a href={withBase('/chronicle/casual/')} class:list={['transition hover:text-rouge', path.startsWith('/chronicle/casual') && 'text-rouge']}>休闲</a>
           <a href={withBase('/compare')} class:list={['transition hover:text-rouge', path.startsWith('/compare') && 'text-rouge']}>对比</a>
         </nav>
       </div>

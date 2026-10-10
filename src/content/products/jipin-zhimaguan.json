@@ -23,5 +23,8 @@
   "genre": "other",
   "status": "live",
   "revenue": [],
-  "keyArt": "/images/palace/jipin-zhimaguan.jpg"
+  "keyArt": "/images/palace/jipin-zhimaguan.jpg",
+  "chronicles": [
+    "female"
+  ]
 }

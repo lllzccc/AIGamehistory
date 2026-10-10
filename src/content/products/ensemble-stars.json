@@ -1,21 +1,42 @@
 {
   "name": "偶像梦幻祭",
-  "aliases": ["Ensemble Stars!", "あんさんぶるスターズ！"],
+  "aliases": [
+    "Ensemble Stars!",
+    "あんさんぶるスターズ！"
+  ],
   "genre": "other",
   "developer": "happyelements",
   "publisher": "腾讯游戏",
   "released": "2016-05-26",
   "shutdown": "2020-12-10",
-  "platforms": ["iOS", "Android"],
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
   "status": "shutdown",
   "significance": "乐元素日本工作室开发的男子偶像养成，玩家扮演女性制作人；国服由腾讯代理，是当时少有的头部二次元女向引进作。",
   "keyArt": "/images/happyelements/ensemble-stars.jpg",
   "revenue": [],
   "sources": [
-    { "title": "游民星空：2016 年 5 月 26 日国服不删档测试开启", "url": "https://shouyou.gamersky.com/news/201605/757335.shtml" },
-    { "title": "GameLook：乐元素出品，腾讯独家代理，bilibili 合作发行，5 月 26 日不删档", "url": "http://www.gamelook.com.cn/2016/05/254866/" },
-    { "title": "机核：代理协议到期，简体中文版宣布停止运营", "url": "https://www.gcores.com/articles/127477" },
-    { "title": "维基百科：国服最终于 2020 年 12 月 10 日正式停运", "url": "https://zh.wikipedia.org/zh-hans/%E5%81%B6%E5%83%8F%E5%A4%A2%E5%B9%BB%E7%A5%AD" }
+    {
+      "title": "游民星空：2016 年 5 月 26 日国服不删档测试开启",
+      "url": "https://shouyou.gamersky.com/news/201605/757335.shtml"
+    },
+    {
+      "title": "GameLook：乐元素出品，腾讯独家代理，bilibili 合作发行，5 月 26 日不删档",
+      "url": "http://www.gamelook.com.cn/2016/05/254866/"
+    },
+    {
+      "title": "机核：代理协议到期，简体中文版宣布停止运营",
+      "url": "https://www.gcores.com/articles/127477"
+    },
+    {
+      "title": "维基百科：国服最终于 2020 年 12 月 10 日正式停运",
+      "url": "https://zh.wikipedia.org/zh-hans/%E5%81%B6%E5%83%8F%E5%A4%A2%E5%B9%BB%E7%A5%AD"
+    }
   ],
-  "verified": false
+  "verified": false,
+  "chronicles": [
+    "female"
+  ]
 }

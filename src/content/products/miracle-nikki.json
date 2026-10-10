@@ -1,19 +1,37 @@
 {
   "name": "奇迹暖暖",
-  "aliases": ["Love Nikki: Dress Up Queen", "Miracle Nikki"],
+  "aliases": [
+    "Love Nikki: Dress Up Queen",
+    "Miracle Nikki"
+  ],
   "genre": "dressup",
   "developer": "papergames",
   "publisher": "腾讯游戏",
   "released": "2015-05-20",
-  "platforms": ["iOS", "Android"],
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
   "status": "live",
   "significance": "“暖暖”系列第三作，由腾讯代理，全球注册用户过亿，使“暖暖”成为国内最具影响力的女性向游戏系列。",
   "keyArt": "/images/papergames/miracle-nikki.jpg",
   "revenue": [],
   "sources": [
-    { "title": "暖暖游戏官网：奇迹暖暖 2015 年 5 月 20 日在中国大陆正式上线，腾讯游戏独家代理", "url": "https://center.nikkigames.cn/" },
-    { "title": "腾讯游戏：全新《奇迹暖暖》公测倒计时 5月20日梦幻开启", "url": "https://game.qq.com/webplat/info/news_version3/128/3294/3321/3322/m2614/201505/342187.shtml" },
-    { "title": "Papergames 官网 About Paper：Miracle Nikki 全球注册用户超 1 亿", "url": "https://www.playpapergames.com/about.html" }
+    {
+      "title": "暖暖游戏官网：奇迹暖暖 2015 年 5 月 20 日在中国大陆正式上线，腾讯游戏独家代理",
+      "url": "https://center.nikkigames.cn/"
+    },
+    {
+      "title": "腾讯游戏：全新《奇迹暖暖》公测倒计时 5月20日梦幻开启",
+      "url": "https://game.qq.com/webplat/info/news_version3/128/3294/3321/3322/m2614/201505/342187.shtml"
+    },
+    {
+      "title": "Papergames 官网 About Paper：Miracle Nikki 全球注册用户超 1 亿",
+      "url": "https://www.playpapergames.com/about.html"
+    }
   ],
-  "verified": true
+  "verified": true,
+  "chronicles": [
+    "female"
+  ]
 }
