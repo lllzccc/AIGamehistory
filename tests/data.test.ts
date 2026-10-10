@@ -9,6 +9,9 @@ import {
   filterBucket,
   getCompanyView,
   getCompareLanes,
+  getCompanyTalentMap,
+  getPersonView,
+  getProductCredits,
   getYearBuckets,
   listFreePublishers,
   marketSeries,
@@ -27,11 +30,13 @@ describe('checkIntegrity', () => {
     const ds = makeDataset();
     ds.products[0].developer = 'ghost-dev';
     ds.people[1].roles[0].company = 'ghost-co';
+    ds.people[1].roles[0].products = ['ghost-credit'];
     ds.events[0].products = ['ghost-product'];
     const errors = checkIntegrity(ds).join('\n');
     expect(errors).toContain('ghost-dev');
     expect(errors).toContain('ghost-co');
     expect(errors).toContain('ghost-product');
+    expect(errors).toContain('ghost-credit');
   });
 
   it('发行方允许填未收录的名称', () => {
@@ -138,6 +143,13 @@ describe('toProductCards', () => {
     const [second, third] = toProductCards(ds, [ds.products[1], ds.products[2]]);
     expect(second.publisherId).toBeUndefined();
     expect(third.publisherId).toBe('alpha');
+    expect(third.credits.map((c) => c.person.id)).toEqual(['producer']);
+  });
+
+  it('产品主创按岗位顺序派生，没有署名则为空', () => {
+    const ds = makeDataset();
+    expect(getProductCredits(ds, 'b-first').map((c) => c.person.name)).toEqual(['李四']);
+    expect(getProductCredits(ds, 'a-first')).toEqual([]);
   });
 
   it('关键节点包含上线、停服和关联事件，按日期排序', () => {
@@ -159,8 +171,21 @@ describe('getCompanyView', () => {
   it('人物只保留在本公司任职的人，并区分本公司与其他公司的任职', () => {
     const view = getCompanyView(makeDataset(), 'alpha');
     expect(view.people.map((p) => p.person.id)).toEqual(['founder']);
-    expect(view.people[0].roles.map((r) => r.title)).toEqual(['创始人']);
+    expect(view.people[0].roles.map((r) => r.title)).toEqual(['founder']);
     expect(view.people[0].elsewhere.map((r) => r.company)).toEqual(['beta']);
+  });
+
+  it('人才地图保留空项目以展示检索缺口', () => {
+    const ds = makeDataset();
+    expect(getCompanyTalentMap(ds, 'beta').map((g) => g.product.id)).toEqual(['b-first']);
+    expect(getCompanyTalentMap(ds, 'alpha').map(g => g.product.id)).toEqual(['a-first', 'a-second', 'b-first']);
+    expect(getCompanyTalentMap(ds, 'alpha').every(g => g.credits.length === 0)).toBe(true);
+    expect(getCompanyView(ds, 'beta').talentMap[0].credits.map((c) => c.person.id)).toEqual(['producer']);
+  });
+
+  it('个人页履历按开始时间排序', () => {
+    const view = getPersonView(makeDataset(), 'founder');
+    expect(view.roles.map((r) => r.company)).toEqual(['alpha', 'beta']);
   });
 
   it('事件按日期排序', () => {

@@ -1,5 +1,6 @@
 ---
 name: 友谊时光
+logo: /images/companies/youyi-shiguang.png
 aliases: [玩友时代, FriendTimes, FriendTimes Inc., 苏州玩友时代科技股份有限公司, 友谊时光科技股份有限公司, 苏州宝将]
 founded: "2010-05"
 headquarters: 苏州
@@ -7,6 +8,7 @@ kind: independent
 status: active
 tagline: 深耕女性向古风手游、2019 年登陆港交所的苏州研运一体公司
 website: https://www.friendtimes.cn/
+cover: /images/youyi-shiguang/xifei-zhuan.jpg
 sources:
   - title: 友谊时光官网 About：成立于 2010 年，总部位于苏州，2010 年 5 月开展研发
     url: https://www.friendtimes.cn/aboutus.html

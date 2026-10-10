@@ -1,0 +1,38 @@
+{
+  "name": "宫锁心计",
+  "aliases": [
+    "花之舞（海外品牌线）",
+    "Legend of the Phoenix"
+  ],
+  "developer": "modo",
+  "publisher": "modo",
+  "released": "2020",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "significance": "摩多官网列出的女性向古风恋爱与宫廷养成品牌线，结合剧情、换装与恋爱。此档采用 2020 年海外发行口径；国内《花之舞》的对歌供应商及具体研发法人仍需核实，不能视为所有版本同一主体自研。",
+  "sources": [
+    {
+      "title": "摩多官网：公司成立及产品发展历程",
+      "url": "https://modo.cn/cn/mobile/about.html"
+    },
+    {
+      "title": "摩多官网：宫锁心计与皇上吉祥2产品介绍",
+      "url": "https://www.modo7game.com/cn/game.html"
+    },
+    {
+      "title": "Google Play：花之舞／宫锁心计，Modo Global 发布",
+      "url": "https://play.google.com/store/apps/details?hl=zh&id=com.duige.hzw.global"
+    },
+    {
+      "title": "Sensor Tower：Legend of the Phoenix 2020 年海外发行记录",
+      "url": "https://app.sensortower.com/overview/com.duige.hzw.multilingual?country=us"
+    }
+  ],
+  "verified": false,
+  "genre": "other",
+  "status": "live",
+  "revenue": [],
+  "keyArt": "/images/palace/gongsuo-xinji.jpg"
+}

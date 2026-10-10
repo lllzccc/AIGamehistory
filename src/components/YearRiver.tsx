@@ -1,3 +1,4 @@
+import { withBase } from '../lib/paths';
 import { useCallback, useMemo, useState, type ReactNode } from 'react';
 import { AnimatePresence, motion, MotionConfig, useReducedMotion } from 'motion/react';
 import type { GenreFilter, YearBucket } from '../lib/types';
@@ -94,11 +95,11 @@ export default function YearRiver({ buckets }: { buckets: YearBucket[] }) {
                     {b.founded.map((c, i) => (
                       <motion.li key={c.id} {...reveal(i * 0.06)}>
                         <a
-                          href={`/company/${c.id}`}
+                          href={withBase(`/company/${c.id}`)}
                           className="group flex items-start gap-4 border border-ink/10 bg-paper-deep/40 p-5 transition hover:border-rouge/40 motion-safe:hover:-translate-y-0.5"
                         >
                           {c.logo ? (
-                            <img src={c.logo} alt="" className="h-12 w-12 shrink-0 rounded-full object-cover" />
+                            <img src={c.logo} alt="" className="h-12 w-12 shrink-0 object-contain" />
                           ) : (
                             <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-full bg-rouge-soft font-serif text-lg text-rouge">
                               {c.name.slice(0, 1)}
@@ -189,7 +190,7 @@ export default function YearRiver({ buckets }: { buckets: YearBucket[] }) {
                           <p className="font-serif leading-relaxed text-ink">{e.label}</p>
                           <p className="mt-2 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs text-mist">
                             {e.companies.map((c) => (
-                              <a key={c.id} href={`/company/${c.id}`} className="text-ink-soft transition hover:text-rouge">
+                              <a key={c.id} href={withBase(`/company/${c.id}`)} className="text-ink-soft transition hover:text-rouge">
                                 {c.name}
                               </a>
                             ))}

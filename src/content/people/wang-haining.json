@@ -1,9 +1,29 @@
 {
   "name": "王海宁",
   "bio": "乐元素联合创始人、CEO。曾在人人网工作，2009 年离开后与前同事创办乐元素；触乐采访中他确认日本京都工作室对《偶像梦幻祭》有充分自主权，中国团队负责引进与运营经验回馈。",
-  "roles": [{ "company": "happyelements", "title": "联合创始人、CEO", "from": "2009" }],
+  "roles": [
+    {
+      "company": "happyelements",
+      "scope": "company",
+      "title": "ceo",
+      "titleNote": "联合创始人、CEO",
+      "from": "2009",
+      "status": "unknown",
+      "dateBasis": "unknown",
+      "sources": [
+        {
+          "title": "触乐专访乐元素 CEO 王海宁：沙丘上的理想主义者",
+          "url": "https://www.chuapp.com/mobile/281939.html"
+        }
+      ],
+      "note": "沿用既有公开履历，起点不一定为实际入职日期；当前状态需独立核实。"
+    }
+  ],
   "sources": [
-    { "title": "触乐专访乐元素 CEO 王海宁：沙丘上的理想主义者", "url": "https://www.chuapp.com/mobile/281939.html" }
+    {
+      "title": "触乐专访乐元素 CEO 王海宁：沙丘上的理想主义者",
+      "url": "https://www.chuapp.com/mobile/281939.html"
+    }
   ],
   "verified": false
 }

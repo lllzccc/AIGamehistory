@@ -1,6 +1,7 @@
 import { getCollection } from 'astro:content';
 import { checkIntegrity, listFreePublishers } from './data';
 import type { Dataset } from './types';
+import { withBase } from './paths';
 
 export async function loadDataset(): Promise<Dataset> {
   const [companies, products, people, events, market] = await Promise.all([
@@ -12,9 +13,9 @@ export async function loadDataset(): Promise<Dataset> {
   ]);
 
   const ds: Dataset = {
-    companies: companies.map((e) => ({ id: e.id, ...e.data })),
-    products: products.map((e) => ({ id: e.id, ...e.data })),
-    people: people.map((e) => ({ id: e.id, ...e.data })),
+    companies: companies.map((e) => ({ id: e.id, ...e.data, logo: e.data.logo ? withBase(e.data.logo) : undefined, cover: e.data.cover ? withBase(e.data.cover) : undefined })),
+    products: products.map((e) => ({ id: e.id, ...e.data, cover: e.data.cover ? withBase(e.data.cover) : undefined, keyArt: e.data.keyArt ? withBase(e.data.keyArt) : undefined })),
+    people: people.map((e) => ({ id: e.id, ...e.data, avatar: e.data.avatar ? withBase(e.data.avatar) : undefined })),
     events: events.map((e) => ({ id: e.id, ...e.data })),
     market: market.map((e) => ({ id: e.id, ...e.data })),
   };

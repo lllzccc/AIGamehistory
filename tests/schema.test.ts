@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { companySchema, marketEntrySchema, partialDate, productSchema } from '../src/lib/schema';
+import { companySchema, marketEntrySchema, partialDate, personSchema, productSchema, roleSchema } from '../src/lib/schema';
 
 const source = { title: '官网', url: 'https://example.com' };
 
@@ -85,6 +85,43 @@ describe('productSchema', () => {
         revenue: [{ ...revenue('2024'), basis: 'sensor-tower' }],
       }).success,
     ).toBe(false);
+  });
+});
+
+describe('roleSchema / personSchema', () => {
+  const companyRole = { company: 'alpha', scope: 'company', title: 'founder', from: '2013' };
+  const productRole = { company: 'alpha', scope: 'product', products: ['a-first'], title: 'producer', from: '2018' };
+
+  it('公司职务默认不挂产品，人物默认无花名', () => {
+    const role = roleSchema.parse(companyRole);
+    expect(role.products).toEqual([]);
+    const person = personSchema.parse({ name: '张三', bio: '简介', roles: [companyRole], sources: [source] });
+    expect(person.aliases).toEqual([]);
+  });
+
+  it('产品署名必须挂产品；other 必须写 titleNote', () => {
+    expect(roleSchema.safeParse({ ...productRole, products: [] }).success).toBe(false);
+    expect(roleSchema.safeParse({ ...companyRole, title: 'other' }).success).toBe(false);
+    expect(roleSchema.safeParse({ ...companyRole, title: 'other', titleNote: '顾问' }).success).toBe(true);
+  });
+
+  it('公司职务不能挂产品 id', () => {
+    expect(roleSchema.safeParse({ ...companyRole, products: ['a-first'] }).success).toBe(false);
+  });
+
+  it('接受核心策划 / 核心美术，以及可空外链', () => {
+    expect(roleSchema.safeParse({ ...productRole, title: 'core-designer' }).success).toBe(true);
+    expect(roleSchema.safeParse({ ...productRole, title: 'core-artist' }).success).toBe(true);
+    const person = personSchema.parse({
+      name: '张三',
+      bio: '简介',
+      roles: [companyRole],
+      sources: [source],
+      linkedin: 'https://www.linkedin.com/in/example',
+      weibo: 'https://weibo.com/u/1',
+    });
+    expect(person.linkedin).toBe('https://www.linkedin.com/in/example');
+    expect(person.maimai).toBeUndefined();
   });
 });
 

@@ -4,6 +4,7 @@ import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import CompanyHero from '../../components/CompanyHero.astro';
 import PeopleSection from '../../components/PeopleSection.astro';
+import TalentMap from '../../components/TalentMap.astro';
 import SectionTitle from '../../components/SectionTitle.astro';
 import SourceList from '../../components/SourceList';
 import CompanyTimeline from '../../components/CompanyTimeline';
@@ -27,8 +28,14 @@ const cards = toProductCards(ds, view.products);
 const cover = company.cover ?? view.products.find((p) => p.keyArt)?.keyArt;
 const parentName = company.parent ? displayCompanyName(ds, company.parent) : undefined;
 const endYear = new Date().getFullYear();
-const peopleIndex = '03';
-const notesIndex = view.people.length > 0 ? '04' : '03';
+const leadership = view.people.filter((entry) => entry.roles.some((r) => r.scope === 'company'));
+const pad = (n: number) => String(n).padStart(2, '0');
+let section = 3;
+const peopleIndex = pad(section);
+if (leadership.length > 0) section += 1;
+const talentIndex = pad(section);
+if (view.talentMap.length > 0) section += 1;
+const notesIndex = pad(section);
 ---
 
 <Base title={company.name} description={company.tagline}>
@@ -50,7 +57,8 @@ const notesIndex = view.people.length > 0 ? '04' : '03';
     </div>
   </section>
 
-  {view.people.length > 0 && <PeopleSection index={peopleIndex} people={view.people} companies={ds.companies} />}
+  <PeopleSection index={peopleIndex} people={view.people} companies={ds.companies} />
+  {view.talentMap.length > 0 && <TalentMap index={talentIndex} groups={view.talentMap} />}
 
   <section class="mx-auto max-w-3xl px-6 py-24 sm:px-10">
     <SectionTitle index={notesIndex} title="笔记" />

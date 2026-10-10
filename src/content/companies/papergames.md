@@ -1,5 +1,6 @@
 ---
 name: 叠纸游戏
+logo: /images/companies/papergames.png
 aliases: [Papergames, 苏州叠纸网络科技股份有限公司, 苏州叠纸网络科技有限公司, Infold Games]
 founded: "2013-08"
 headquarters: 上海

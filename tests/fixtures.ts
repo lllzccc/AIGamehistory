@@ -31,13 +31,16 @@ export function makeDataset(): Dataset {
     ],
     people: [
       {
-        id: 'founder', name: '张三', bio: '创始人', sources, verified: true,
+        id: 'founder', name: '张三', aliases: [], bio: '创始人', sources, verified: true,
         roles: [
-          { company: 'beta', title: '顾问', from: '2019', to: '2020' },
-          { company: 'alpha', title: '创始人', from: '2013' },
+          { company: 'beta', scope: 'company', products: [], title: 'other', titleNote: '顾问', from: '2019', to: '2020' },
+          { company: 'alpha', scope: 'company', products: [], title: 'founder', from: '2013' },
         ],
       },
-      { id: 'producer', name: '李四', bio: '制作人', sources, verified: false, roles: [{ company: 'beta', title: '制作人', from: '2018' }] },
+      {
+        id: 'producer', name: '李四', aliases: ['阿四'], bio: '制作人', sources, verified: false,
+        roles: [{ company: 'beta', scope: 'product', products: ['b-first'], title: 'producer', from: '2018' }],
+      },
     ],
     events: [
       { id: 'joint', date: '2019', type: 'milestone', companies: ['alpha', 'beta'], products: ['b-first'], summary: '达成合作', sources, verified: false },

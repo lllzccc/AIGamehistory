@@ -1,0 +1,31 @@
+{
+  "name": "全民养成之女皇陛下",
+  "aliases": [
+    "女皇陛下"
+  ],
+  "developer": "hongdou",
+  "publisher": "hongdou",
+  "released": "2017-05",
+  "platforms": [
+    "H5",
+    "微信小游戏",
+    "iOS",
+    "Android"
+  ],
+  "significance": "红豆研发运营的女皇视角恋爱与宫廷养成产品。专访确认 2017 年 5 月首发 QQ 玩吧、2018 年初上线微信小游戏，TapTap 安卓版于 2019-05-27 上线；各平台时间分别保留。",
+  "sources": [
+    {
+      "title": "游戏茶馆专访转载：女皇陛下研发运营与H5首发历程",
+      "url": "https://ccipic.com/h-nd-310.html"
+    },
+    {
+      "title": "TapTap 官方入驻：全民养成之女皇陛下",
+      "url": "https://www.taptap.cn/app/167665/all-info"
+    }
+  ],
+  "verified": false,
+  "genre": "other",
+  "status": "live",
+  "revenue": [],
+  "keyArt": "/images/palace/nvhuang-bixia.jpg"
+}

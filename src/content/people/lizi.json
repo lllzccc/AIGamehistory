@@ -1,0 +1,40 @@
+{
+  "name": "栗子",
+  "bio": "《恋与深空》制作人栗子。竞核在 GDC 2026 后的直接采访确认她于 2013 年加入叠纸，并参与公司多款核心项目；各项目的具体任期仍需分别核实。",
+  "roles": [
+    {
+      "company": "papergames",
+      "scope": "product",
+      "products": [
+        "love-and-deepspace"
+      ],
+      "title": "producer",
+      "from": "2025-08",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "sources": [
+        {
+          "title": "腾讯网：恋与深空制作人栗子——2025 年 8 月在科隆游戏展领取“最佳移动游戏奖”",
+          "url": "https://news.qq.com/rain/a/20260309A03PR300"
+        },
+        {
+          "url": "https://cgames.com/contents/2/10773.html",
+          "title": "竞核：GDC2026 对话《恋与深空》制作人栗子（2026-03-16）"
+        }
+      ],
+      "note": "沿用既有公开履历，起点不一定为实际入职日期；当前状态需独立核实。",
+      "checkedAt": "2026-10-10"
+    }
+  ],
+  "sources": [
+    {
+      "title": "腾讯网：恋与深空制作人栗子——2025 年 8 月在科隆游戏展领取“最佳移动游戏奖”",
+      "url": "https://news.qq.com/rain/a/20260309A03PR300"
+    },
+    {
+      "url": "https://cgames.com/contents/2/10773.html",
+      "title": "竞核：GDC2026 对话《恋与深空》制作人栗子（2026-03-16）"
+    }
+  ],
+  "verified": false
+}

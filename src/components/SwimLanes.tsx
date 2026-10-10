@@ -1,3 +1,4 @@
+import { withBase } from '../lib/paths';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { scaleLinear } from 'd3-scale';
 import { MotionConfig } from 'motion/react';
@@ -22,6 +23,7 @@ function eventFill(type: ChronicleEvent['type']): string {
     case 'controversy':
       return '#1E1A17';
     case 'layoff':
+    case 'departure':
     case 'rename':
       return '#A79E95';
     default:
@@ -137,7 +139,7 @@ export default function SwimLanes({ lanes, endYear }: { lanes: CompareLane[]; en
                     const x2 = x(dateToNumber(product.shutdown ?? `${endYear}`));
                     const w = Math.max(8, x2 - x1);
                     return (
-                      <a key={product.id} href={`/company/${product.developer}#works`} aria-label={`《${product.name}》`}>
+                      <a key={product.id} href={withBase(`/company/${product.developer}#works`)} aria-label={`《${product.name}》`}>
                         <rect
                           x={x1}
                           y={mid - h / 2}
@@ -174,7 +176,7 @@ export default function SwimLanes({ lanes, endYear }: { lanes: CompareLane[]; en
             {visible.map((lane, i) => (
               <a
                 key={lane.company.id}
-                href={`/company/${lane.company.id}`}
+                href={withBase(`/company/${lane.company.id}`)}
                 className="pointer-events-auto absolute left-6 truncate font-serif text-sm text-ink hover:text-rouge"
                 style={{ top: AXIS_H + i * LANE_H + LANE_H / 2 - 10 }}
               >

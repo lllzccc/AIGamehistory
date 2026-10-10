@@ -1,0 +1,28 @@
+{
+  "name": "皇上吉祥2",
+  "developer": "dianchu",
+  "publisher": "modo",
+  "released": "2018",
+  "platforms": [
+    "H5",
+    "iOS",
+    "Android"
+  ],
+  "significance": "宫廷模拟经营代表产品。摩多官网记 2018 年发布，TapTap 安卓正式上线为 2020-07-22，并分别列点触研发、摩多发行；按最早品牌发布年份入时间线。",
+  "sources": [
+    {
+      "title": "摩多官网：公司成立及产品发展历程",
+      "url": "https://modo.cn/cn/mobile/about.html"
+    },
+    {
+      "title": "TapTap 官方入驻：皇上吉祥2研发、发行与安卓上线日期",
+      "url": "https://www.taptap.cn/app/195532"
+    }
+  ],
+  "verified": false,
+  "aliases": [],
+  "genre": "other",
+  "status": "live",
+  "revenue": [],
+  "keyArt": "/images/palace/huangshang-jixiang-2.jpg"
+}

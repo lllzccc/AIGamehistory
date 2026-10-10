@@ -1,8 +1,9 @@
+import { withBase } from '../lib/paths';
 import { useEffect, useRef } from 'react';
 import { motion } from 'motion/react';
 import type { ProductCard } from '../lib/types';
 import { formatDate } from '../lib/dates';
-import { genreLabel, productStatusLabel, timelineKindLabel } from '../lib/labels';
+import { displayRoleTitle, genreLabel, productStatusLabel, timelineKindLabel } from '../lib/labels';
 import RevenueChart from './RevenueChart';
 import SourceLinks from './SourceLinks';
 import SourceList from './SourceList';
@@ -99,14 +100,14 @@ export default function ProductDrawer({ product, onClose }: Props) {
           <dl className="mt-8 grid grid-cols-[5rem_1fr] gap-y-3 border-t border-ink/10 pt-6 text-sm">
             <dt className="text-mist">研发</dt>
             <dd className="text-ink">
-              <a href={`/company/${product.developer}`} className={companyLink}>
+              <a href={withBase(`/company/${product.developer}`)} className={companyLink}>
                 {product.developerName}
               </a>
             </dd>
             <dt className="text-mist">发行</dt>
             <dd className="text-ink">
               {product.publisherId ? (
-                <a href={`/company/${product.publisherId}`} className={companyLink}>
+                <a href={withBase(`/company/${product.publisherId}`)} className={companyLink}>
                   {product.publisherName}
                 </a>
               ) : (
@@ -126,6 +127,22 @@ export default function ProductDrawer({ product, onClose }: Props) {
             <dt className="text-mist">状态</dt>
             <dd className="text-ink">{productStatusLabel[product.status]}</dd>
           </dl>
+
+          {product.credits.length > 0 && (
+            <section className="mt-10">
+              <h3 className="font-serif text-lg text-ink">主创</h3>
+              <ul className="mt-5 space-y-3">
+                {product.credits.map(({ person, role }) => (
+                  <li key={`${person.id}-${role.from}-${role.title}`} className="flex items-baseline justify-between gap-4 text-sm">
+                    <a href={withBase(`/person/${person.id}`)} className={companyLink}>
+                      {person.name}
+                    </a>
+                    <span className="shrink-0 text-mist">{displayRoleTitle(role)}</span>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
 
           <section className="mt-10">
             <h3 className="font-serif text-lg text-ink">关键节点</h3>

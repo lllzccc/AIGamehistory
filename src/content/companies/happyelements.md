@@ -1,5 +1,6 @@
 ---
 name: 乐元素
+logo: /images/companies/happyelements.png
 aliases: [Happy Elements, 乐元素科技（北京）股份有限公司, 北京乐元素科技股份有限公司]
 founded: "2009"
 headquarters: 北京
@@ -7,6 +8,7 @@ kind: independent
 status: active
 tagline: 北京起步的研运公司，以消消乐出圈，又在日本做出女性向偶像养成《偶像梦幻祭》
 website: https://www.happyelements.com/
+cover: /images/happyelements/ensemble-stars-2.jpg
 sources:
   - title: 乐元素官网（网页存档）：2009 年在北京成立，总部海淀苏州街维亚大厦
     url: https://web.archive.org/web/20231119234602/https://happyelements.com/company/

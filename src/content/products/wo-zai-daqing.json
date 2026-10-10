@@ -1,0 +1,27 @@
+{
+  "name": "我在大清当皇帝",
+  "developer": "dianchu",
+  "publisher": "dianchu",
+  "released": "2013-07",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "significance": "点触原创清宫帝王养成产品，2013 年 7 月不删档公测上线并长期迭代；以朝政、重臣与后宫养成为主，本次作为宫廷历史养成方向收录。",
+  "sources": [
+    {
+      "title": "点触官网：历史养成研运公司与代表产品",
+      "url": "https://www.dianchu.com/product_type"
+    },
+    {
+      "title": "点触公开转让说明书：我在大清当皇帝研发和上线历程",
+      "url": "https://spdf.askci.com/870702-%E8%82%A1%E8%BD%AC%E4%B9%A6.pdf"
+    }
+  ],
+  "verified": false,
+  "aliases": [],
+  "genre": "other",
+  "status": "live",
+  "revenue": [],
+  "keyArt": "/images/palace/wo-zai-daqing.jpg"
+}

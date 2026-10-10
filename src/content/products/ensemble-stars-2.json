@@ -8,6 +8,7 @@
   "platforms": ["iOS", "Android"],
   "status": "live",
   "significance": "一代国服停运后的续作，对应日服 Music，由乐元素自研自发，从卡牌养成转向 3D LIVE 音游。",
+  "keyArt": "/images/happyelements/ensemble-stars-2.jpg",
   "revenue": [],
   "sources": [
     { "title": "178 新闻（官方）：公测定档 2020 年 11 月 27 日 11:00", "url": "http://news.178.com/202011/398387146963.html" },

@@ -26,8 +26,9 @@ const { company, cover, productCount, parentName } = Astro.props;
     <p class="hero-rise text-xs tracking-[0.4em] text-ink-soft">
       {companyKindLabel[company.kind]}{' · '}{company.headquarters}{parentName && ` · 隶属${parentName}`}
     </p>
-    <h1 class="hero-rise mt-5 font-serif text-5xl font-bold tracking-wide sm:text-7xl" style="animation-delay: 80ms">
-      {company.name}
+    <h1 class="hero-rise mt-5 flex items-center gap-4 font-serif text-5xl font-bold tracking-wide sm:text-7xl" style="animation-delay: 80ms">
+      {company.logo && <img src={company.logo} alt="" class="h-12 w-12 shrink-0 object-contain sm:h-16 sm:w-16" />}
+      <span>{company.name}</span>
     </h1>
     {company.aliases.length > 0 && <p class="hero-rise mt-3 text-sm text-mist" style="animation-delay: 120ms">{company.aliases.join(' / ')}</p>}
     <p class="hero-rise mt-6 max-w-xl font-serif text-xl leading-relaxed text-ink-soft" style="animation-delay: 160ms">

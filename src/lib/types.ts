@@ -4,6 +4,7 @@ import type {
   eventSchema,
   marketEntrySchema,
   personSchema,
+  personTitleSchema,
   productSchema,
   revenueBasisSchema,
   revenueEntrySchema,
@@ -16,6 +17,7 @@ export type Company = z.infer<typeof companySchema> & { id: string };
 export type RevenueBasis = z.infer<typeof revenueBasisSchema>;
 export type RevenueEntry = z.infer<typeof revenueEntrySchema>;
 export type Product = z.infer<typeof productSchema> & { id: string };
+export type PersonTitle = z.infer<typeof personTitleSchema>;
 export type Role = z.infer<typeof roleSchema>;
 export type Person = z.infer<typeof personSchema> & { id: string };
 export type ChronicleEvent = z.infer<typeof eventSchema> & { id: string };
@@ -56,13 +58,24 @@ export interface TimelineItem {
   verified: boolean;
 }
 
+export interface ProductCredit {
+  person: Person;
+  role: Role;
+}
+
 export type ProductCard = Product & {
   developerName: string;
   publisherName: string;
   publisherId?: string;
   series: RevenuePoint[];
   milestones: TimelineItem[];
+  credits: ProductCredit[];
 };
+
+export interface PersonView {
+  person: Person;
+  roles: Role[];
+}
 
 export interface CompanyPerson {
   person: Person;
@@ -70,10 +83,16 @@ export interface CompanyPerson {
   elsewhere: Role[];
 }
 
+export interface TalentMapGroup {
+  product: Product;
+  credits: ProductCredit[];
+}
+
 export interface CompanyView {
   company: Company;
   products: Product[];
   people: CompanyPerson[];
+  talentMap: TalentMapGroup[];
   events: ChronicleEvent[];
   timeline: TimelineItem[];
 }

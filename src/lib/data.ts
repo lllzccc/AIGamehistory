@@ -1,3 +1,4 @@
+import { CREDIT_TITLE_ORDER } from './labels';
 import { compareDates, periodToNumber, yearOf } from './dates';
 import type {
   ChronicleEvent,
@@ -8,9 +9,12 @@ import type {
   Genre,
   GenreFilter,
   MarketPoint,
+  PersonView,
   Product,
   ProductCard,
+  ProductCredit,
   RevenuePoint,
+  TalentMapGroup,
   RiverCompany,
   RiverEvent,
   TimelineItem,
@@ -75,6 +79,19 @@ export function checkIntegrity(ds: Dataset): string[] {
       }
       if (role.to && compareDates(role.to, role.from) < 0) {
         errors.push(`人物 ${person.id}：在 "${role.company}" 的任职结束时间 ${role.to} 早于开始时间 ${role.from}`);
+      }
+      if (role.scope === 'company' && role.products.length > 0) {
+        errors.push(`人物 ${person.id}：公司职务不应挂产品`);
+      }
+      if (role.scope === 'product') {
+        if (role.products.length === 0) {
+          errors.push(`人物 ${person.id}：产品署名未挂产品`);
+        }
+        for (const productId of role.products) {
+          if (!productIds.has(productId)) {
+            errors.push(`人物 ${person.id}：署名产品 "${productId}" 不存在`);
+          }
+        }
       }
     }
   }
@@ -162,6 +179,39 @@ export function productMilestones(ds: Dataset, product: Product): TimelineItem[]
   return items.sort(byDate((item) => item.date));
 }
 
+export function getProductCredits(ds: Dataset, productId: string): ProductCredit[] {
+  const credits: ProductCredit[] = [];
+  for (const person of ds.people) {
+    for (const role of person.roles) {
+      if (role.scope === 'product' && role.products.includes(productId)) {
+        credits.push({ person, role });
+      }
+    }
+  }
+  return credits.sort((a, b) => {
+    const ai = CREDIT_TITLE_ORDER.indexOf(a.role.title);
+    const bi = CREDIT_TITLE_ORDER.indexOf(b.role.title);
+    if (ai !== bi) return (ai === -1 ? 99 : ai) - (bi === -1 ? 99 : bi);
+    return compareDates(a.role.from, b.role.from);
+  });
+}
+
+export function getCompanyTalentMap(ds: Dataset, companyId: string): TalentMapGroup[] {
+  return ds.products
+    .filter((p) => p.developer === companyId || p.publisher === companyId)
+    .sort(byDate((p) => p.released))
+    .map((product) => ({
+      product,
+      credits: getProductCredits(ds, product.id).filter((c) => c.role.company === companyId),
+    }));
+}
+
+export function getPersonView(ds: Dataset, id: string): PersonView {
+  const person = ds.people.find((p) => p.id === id);
+  if (!person) throw new Error(`未找到人物：${id}`);
+  return { person, roles: [...person.roles].sort(byDate((r) => r.from)) };
+}
+
 export function toProductCards(ds: Dataset, products: Product[]): ProductCard[] {
   return products.map((p) => ({
     ...p,
@@ -170,6 +220,7 @@ export function toProductCards(ds: Dataset, products: Product[]): ProductCard[] 
     publisherId: ds.companies.some((c) => c.id === p.publisher) ? p.publisher : undefined,
     series: revenueSeries(p),
     milestones: productMilestones(ds, p),
+    credits: getProductCredits(ds, p.id),
   }));
 }
 
@@ -249,7 +300,14 @@ export function getCompanyView(ds: Dataset, id: string): CompanyView {
     .filter((entry) => entry.roles.length > 0)
     .sort((a, b) => compareDates(a.roles[0].from, b.roles[0].from));
 
-  return { company, products, people, events, timeline: buildTimeline(company, products, events) };
+  return {
+    company,
+    products,
+    people,
+    talentMap: getCompanyTalentMap(ds, id),
+    events,
+    timeline: buildTimeline(company, products, events),
+  };
 }
 
 export function getYearBuckets(ds: Dataset, endYear: number): YearBucket[] {

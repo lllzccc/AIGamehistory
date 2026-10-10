@@ -6,6 +6,7 @@ import '@fontsource/noto-sans-sc/500.css';
 import '@fontsource/cormorant-garamond/500.css';
 import '@fontsource/cormorant-garamond/600.css';
 import '../styles/global.css';
+import { withBase } from '../lib/paths';
 
 interface Props {
   title: string;
@@ -13,7 +14,7 @@ interface Props {
 }
 
 const { title, description = '中国女性向游戏公司编年史' } = Astro.props;
-const path = Astro.url.pathname;
+const path = Astro.url.pathname.slice(withBase('/').length - 1);
 ---
 
 <!doctype html>
@@ -27,10 +28,10 @@ const path = Astro.url.pathname;
   <body class="min-h-screen bg-paper font-sans text-ink antialiased">
     <header class="absolute inset-x-0 top-0 z-40">
       <div class="mx-auto flex max-w-6xl items-center justify-between px-6 py-6 sm:px-10">
-        <a href="/" class="font-serif text-base tracking-[0.2em] text-ink">女性向游戏编年史</a>
+        <a href={withBase('/')} class="font-serif text-base tracking-[0.2em] text-ink">女性向游戏编年史</a>
         <nav class="flex gap-8 text-sm text-ink-soft">
-          <a href="/" class:list={['transition hover:text-rouge', path === '/' && 'text-rouge']}>时间长河</a>
-          <a href="/compare" class:list={['transition hover:text-rouge', path.startsWith('/compare') && 'text-rouge']}>对比</a>
+          <a href={withBase('/')} class:list={['transition hover:text-rouge', path === '/' && 'text-rouge']}>时间长河</a>
+          <a href={withBase('/compare')} class:list={['transition hover:text-rouge', path.startsWith('/compare') && 'text-rouge']}>对比</a>
         </nav>
       </div>
     </header>

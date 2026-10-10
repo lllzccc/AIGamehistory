@@ -1,5 +1,6 @@
 ---
 name: 灵犀互娱
+logo: /images/companies/lingxi.png
 aliases: [阿里灵犀, 广州灵犀互动娱乐有限公司, 上海灵犀互动娱乐有限公司]
 founded: "2020-09"
 headquarters: 广州
@@ -7,6 +8,7 @@ kind: studio
 parent: 阿里巴巴
 status: active
 tagline: 阿里巴巴旗下研运一体游戏品牌，女向代表作是三国权谋卡牌《代号鸢》／《如鸢》
+cover: /images/lingxi/daimao-yuan.jpg
 sources:
   - title: 每日经济新闻（新浪转载）：阿里官方确认灵犀互娱升级为独立事业群
     url: https://finance.sina.cn/chanjing/gsxw/2020-09-22/detail-iivhuipp5719085.d.html

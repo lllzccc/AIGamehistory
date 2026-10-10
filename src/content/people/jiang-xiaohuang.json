@@ -1,10 +1,37 @@
 {
   "name": "蒋孝黄",
   "bio": "友谊时光创始人、董事长。2008 年创办苏州宝将并做女性社交平台「女儿国」，2010 年带领团队转入女性向古风游戏研发；媒体报道其多次拜访作家解语、签下《清宫熹妃传》版权。",
-  "roles": [{ "company": "youyi-shiguang", "title": "创始人、董事长", "from": "2010-05" }],
+  "roles": [
+    {
+      "company": "youyi-shiguang",
+      "scope": "company",
+      "title": "founder",
+      "titleNote": "创始人、董事长",
+      "from": "2010-05",
+      "status": "unknown",
+      "dateBasis": "unknown",
+      "sources": [
+        {
+          "title": "界面新闻（三文娱）：玩友时代由蒋孝黄创办于 2010 年 5 月",
+          "url": "https://www.jiemian.com/article/2947398.html"
+        },
+        {
+          "title": "36氪（毒眸）：创始人蒋孝黄讲述公司十年发展；2008 年创立苏州宝将",
+          "url": "https://www.36kr.com/p/1002642987995652"
+        }
+      ],
+      "note": "沿用既有公开履历，起点不一定为实际入职日期；当前状态需独立核实。"
+    }
+  ],
   "sources": [
-    { "title": "界面新闻（三文娱）：玩友时代由蒋孝黄创办于 2010 年 5 月", "url": "https://www.jiemian.com/article/2947398.html" },
-    { "title": "36氪（毒眸）：创始人蒋孝黄讲述公司十年发展；2008 年创立苏州宝将", "url": "https://www.36kr.com/p/1002642987995652" }
+    {
+      "title": "界面新闻（三文娱）：玩友时代由蒋孝黄创办于 2010 年 5 月",
+      "url": "https://www.jiemian.com/article/2947398.html"
+    },
+    {
+      "title": "36氪（毒眸）：创始人蒋孝黄讲述公司十年发展；2008 年创立苏州宝将",
+      "url": "https://www.36kr.com/p/1002642987995652"
+    }
   ],
   "verified": false
 }

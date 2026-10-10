@@ -8,6 +8,7 @@
   "platforms": ["iOS", "Android", "PC"],
   "status": "live",
   "significance": "浮生系列第二部，古风甜宠探案，公测同步上 PC，承接《浮生为卿歌》之后的女向旗舰。",
+  "keyArt": "/images/youyi-shiguang/fusheng-yi-linglong.jpg",
   "revenue": [],
   "sources": [
     { "title": "《浮生忆玲珑》官网公测 FAQ：2024 年 1 月 2 日 10:00 全平台公测", "url": "https://fsyll.9917.com/notice/20240101/134576398d2ee6a71296e.html" },

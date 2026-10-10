@@ -20,7 +20,7 @@ export const companySchema = z.object({
   headquarters: z.string().min(1),
   kind: z.enum(['independent', 'studio', 'platform']),
   parent: z.string().optional(),
-  status: z.enum(['active', 'acquired', 'closed']),
+  status: z.enum(['active', 'acquired', 'closed', 'unknown']),
   tagline: z.string().min(1),
   website: z.url().optional(),
   logo: z.string().optional(),
@@ -59,17 +59,61 @@ export const productSchema = z.object({
   verified: z.boolean().default(false),
 });
 
-export const roleSchema = z.object({
-  company: z.string().min(1),
-  title: z.string().min(1),
-  from: partialDate,
-  to: partialDate.optional(),
-});
+export const personTitleSchema = z.enum([
+  'founder',
+  'chair',
+  'ceo',
+  'president',
+  'producer',
+  'executive-producer',
+  'creative-director',
+  'lead-designer',
+  'core-designer',
+  'lead-artist',
+  'core-artist',
+  'writer',
+  'music',
+  'other',
+]);
+
+export const roleSchema = z
+  .object({
+    company: z.string().min(1),
+    scope: z.enum(['company', 'product']),
+    products: z.array(z.string()).default([]),
+    title: personTitleSchema,
+    titleNote: z.string().optional(),
+    from: partialDate,
+    to: partialDate.optional(),
+    status: z.enum(['active', 'departed', 'unknown']).optional(),
+    dateBasis: z.enum(['employment', 'public-observation', 'unknown']).optional(),
+    sources: z.array(sourceSchema).min(1).optional(),
+    checkedAt: partialDate.optional(),
+    note: z.string().optional(),
+  })
+  .superRefine((role, ctx) => {
+    if (role.status === 'active' && (role.to || !role.checkedAt || !role.sources?.length)) {
+      ctx.addIssue({ code: 'custom', message: '确认在任需来源、核实日期且不能有离任日期', path: ['status'] });
+    }
+    if (role.scope === 'product' && role.products.length === 0) {
+      ctx.addIssue({ code: 'custom', message: '产品署名必须挂至少一个产品 id', path: ['products'] });
+    }
+    if (role.scope === 'company' && role.products.length > 0) {
+      ctx.addIssue({ code: 'custom', message: '公司职务不要挂产品 id', path: ['products'] });
+    }
+    if (role.title === 'other' && !role.titleNote?.trim()) {
+      ctx.addIssue({ code: 'custom', message: 'title 为 other 时必须写 titleNote', path: ['titleNote'] });
+    }
+  });
 
 export const personSchema = z.object({
   name: z.string().min(1),
+  aliases: z.array(z.string()).default([]),
   avatar: z.string().optional(),
   bio: z.string().min(1),
+  linkedin: z.url().optional(),
+  maimai: z.url().optional(),
+  weibo: z.url().optional(),
   roles: z.array(roleSchema).min(1),
   sources,
   verified: z.boolean().default(false),
@@ -77,7 +121,7 @@ export const personSchema = z.object({
 
 export const eventSchema = z.object({
   date: partialDate,
-  type: z.enum(['funding', 'ipo', 'acquisition', 'rename', 'layoff', 'controversy', 'milestone']),
+  type: z.enum(['funding', 'ipo', 'acquisition', 'rename', 'layoff', 'departure', 'controversy', 'milestone']),
   companies: z.array(z.string()).min(1),
   products: z.array(z.string()).default([]),
   summary: z.string().min(1),

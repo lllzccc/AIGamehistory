@@ -1,10 +1,42 @@
 {
   "name": "富永健太郎",
   "bio": "日本游戏开发者，曾参与《塞尔达传说》系列多部作品，任《塞尔达传说：旷野之息》策划及 DLC「英杰之诗」导演。2022 年 11 月以《无限暖暖》执行制作人身份公开亮相，后负责叠纸京都工作室。加入叠纸的确切时间未见公开报道。",
-  "roles": [{ "company": "papergames", "title": "《无限暖暖》执行制作人", "from": "2022" }],
+  "aliases": [
+    "Kentaro Tominaga"
+  ],
+  "roles": [
+    {
+      "company": "papergames",
+      "scope": "product",
+      "products": [
+        "infinity-nikki"
+      ],
+      "title": "executive-producer",
+      "from": "2022",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "sources": [
+        {
+          "title": "游民星空：《塞尔达传说：荒野之息》主创任《无限暖暖》制作人（2022-11-30）",
+          "url": "https://www.gamersky.com/news/202211/1543149.shtml"
+        },
+        {
+          "title": "腾讯网（IGN 中国）：专访《无限暖暖》制作人富永健太郎",
+          "url": "https://news.qq.com/rain/a/20240829A015H000"
+        }
+      ],
+      "note": "沿用既有公开履历，起点不一定为实际入职日期；当前状态需独立核实。"
+    }
+  ],
   "sources": [
-    { "title": "游民星空：《塞尔达传说：荒野之息》主创任《无限暖暖》制作人（2022-11-30）", "url": "https://www.gamersky.com/news/202211/1543149.shtml" },
-    { "title": "腾讯网（IGN 中国）：专访《无限暖暖》制作人富永健太郎", "url": "https://news.qq.com/rain/a/20240829A015H000" }
+    {
+      "title": "游民星空：《塞尔达传说：荒野之息》主创任《无限暖暖》制作人（2022-11-30）",
+      "url": "https://www.gamersky.com/news/202211/1543149.shtml"
+    },
+    {
+      "title": "腾讯网（IGN 中国）：专访《无限暖暖》制作人富永健太郎",
+      "url": "https://news.qq.com/rain/a/20240829A015H000"
+    }
   ],
   "verified": false
 }

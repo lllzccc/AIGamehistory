@@ -1,0 +1,101 @@
+---
+import { withBase } from '../lib/paths';
+import type { TalentMapGroup } from '../lib/types';
+import { yearOf } from '../lib/dates';
+import { displayRoleTitle, personTitleLabel, rolePeriodLabel, roleStatusLabel } from '../lib/labels';
+import SectionTitle from './SectionTitle.astro';
+import SourceLinks from './SourceLinks';
+
+interface Props {
+  index: string;
+  groups: TalentMapGroup[];
+}
+
+const { index, groups } = Astro.props;
+---
+
+<section id="talent" class="mx-auto max-w-6xl px-6 py-24 sm:px-10">
+  <SectionTitle index={index} title="人才地图" note="按项目 · 历任关键角色" />
+  <p class="mt-4 text-xs text-mist">公开署名与任职记录。状态未知不代表仍在职，记录日期不一定是实际入职日。</p>
+  <div class="mt-6 flex flex-wrap gap-3 text-sm">
+    <input data-search-input aria-label="搜索姓名、花名或岗位" placeholder="搜索姓名、花名或岗位" class="border border-ink/15 bg-transparent px-3 py-2" />
+    <select data-status-input aria-label="筛选状态" class="border border-ink/15 bg-paper px-3 py-2">
+      <option value="">全部状态</option><option value="active">在任已确认</option><option value="departed">已离任</option><option value="unknown">状态未知</option>
+    </select>
+    <select data-title-input aria-label="筛选岗位" class="border border-ink/15 bg-paper px-3 py-2">
+      <option value="">全部岗位</option>
+      {[...new Set(groups.flatMap(g => g.credits.map(c => c.role.title)))].map(title => <option value={title}>{personTitleLabel[title]}</option>)}
+    </select>
+  </div>
+  <p data-empty hidden class="mt-6 text-sm text-mist">没有匹配的人员。</p>
+  <div class="mt-12 space-y-16">
+    {groups.map(({ product, credits }) => (
+      <div>
+        <div class="flex items-baseline justify-between gap-4 border-b border-ink/15 pb-3">
+          <h3 class="font-serif text-2xl text-ink">《{product.name}》</h3>
+          <p class="font-display text-xs tracking-wide text-mist">{yearOf(product.released)}</p>
+        </div>
+        {credits.length === 0 && <p class="mt-5 text-sm text-mist">项目人员待检索 · 制作人、策划、美术、叙事等公开署名尚待补充。</p>}
+        <div class="mt-4 overflow-x-auto" hidden={credits.length === 0}>
+          <table class="w-full min-w-[36rem] text-left text-sm">
+            <thead>
+              <tr class="font-display text-xs tracking-[0.2em] text-mist">
+                <th class="py-3 pr-4 font-normal">岗位</th>
+                <th class="py-3 pr-4 font-normal">姓名</th>
+                <th class="py-3 pr-4 font-normal">履历时间</th>
+                <th class="py-3 pr-4 font-normal">状态</th>
+                <th class="py-3 font-normal">来源</th>
+              </tr>
+            </thead>
+            <tbody>
+              {credits.map(({ person, role }) => (
+                <tr data-talent-row data-status={role.status ?? (role.to ? 'departed' : 'unknown')} data-title={role.title} data-search={[person.name, ...person.aliases, displayRoleTitle(role)].join(' ')} class="border-t border-ink/10">
+                  <td class="py-3 pr-4 text-ink-soft">{displayRoleTitle(role)}</td>
+                  <td class="py-3 pr-4">
+                    <a href={withBase(`/person/${person.id}`)} class="text-ink underline decoration-ink/20 underline-offset-4 transition hover:text-rouge">
+                      {person.name}
+                    </a>
+                  </td>
+                  <td class="py-3 pr-4 font-display text-mist">{rolePeriodLabel(role)}</td>
+                  <td class="py-3 pr-4">
+                    <span class:list={[role.to ? 'text-mist' : 'text-rouge']}>{roleStatusLabel(role)}</span>
+                  </td>
+                  <td class="py-3 text-xs text-mist">
+                    <span class="flex flex-wrap items-center gap-x-2">
+                      <SourceLinks sources={role.sources ?? person.sources} compact />
+                      {!person.verified && <span class="unverified">待核实</span>}
+                    </span>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+
+<script>
+  const root = document.querySelector('#talent');
+  if (root) {
+    const search = root.querySelector<HTMLInputElement>('[data-search-input]')!;
+    const status = root.querySelector<HTMLSelectElement>('[data-status-input]')!;
+    const title = root.querySelector<HTMLSelectElement>('[data-title-input]')!;
+    const update = () => {
+      let count = 0;
+      root.querySelectorAll<HTMLTableRowElement>('[data-talent-row]').forEach(row => {
+        row.hidden = !(
+          row.dataset.search?.toLowerCase().includes(search.value.trim().toLowerCase()) &&
+          (!status.value || row.dataset.status === status.value) &&
+          (!title.value || row.dataset.title === title.value)
+        );
+        if (!row.hidden) count++;
+      });
+      root.querySelector<HTMLElement>('[data-empty]')!.hidden = count > 0;
+    };
+    search.addEventListener('input', update);
+    status.addEventListener('change', update);
+    title.addEventListener('change', update);
+  }
+</script>

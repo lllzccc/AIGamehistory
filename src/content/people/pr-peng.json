@@ -1,0 +1,36 @@
+{
+  "bio": "GDC 2026 官方议程将其列为 Infold Games（叠纸）《无限暖暖》开放世界活动内容负责人。公开演讲记录不等同于完整任职履历。",
+  "name": "PR Peng",
+  "verified": true,
+  "aliases": [
+    "PR"
+  ],
+  "sources": [
+    {
+      "url": "https://schedule.gdconf.com/session/refreshing-the-core-mechanics-fun-after-1-year-of-liveops-in-infinity-nikki/915310",
+      "title": "GDC 2026 官方议程：PR Peng，开放世界活动内容负责人"
+    }
+  ],
+  "roles": [
+    {
+      "note": "以 GDC 演讲时披露的项目职责为准；实际入职时间及当前任职状态尚未确认。",
+      "sources": [
+        {
+          "url": "https://schedule.gdconf.com/session/refreshing-the-core-mechanics-fun-after-1-year-of-liveops-in-infinity-nikki/915310",
+          "title": "GDC 2026 官方议程：PR Peng，开放世界活动内容负责人"
+        }
+      ],
+      "status": "unknown",
+      "titleNote": "开放世界活动内容负责人（Feature Lead）",
+      "company": "papergames",
+      "scope": "product",
+      "checkedAt": "2026-10-10",
+      "from": "2026-03-10",
+      "products": [
+        "infinity-nikki"
+      ],
+      "title": "core-designer",
+      "dateBasis": "public-observation"
+    }
+  ]
+}
