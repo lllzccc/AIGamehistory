@@ -35,3 +35,21 @@
 .shelf-caption button{background:none;border:0;cursor:pointer;font-size:11px;color:inherit}
 @media(max-width:640px){.archive-shelf{padding:0 0}.shelf-books{gap:12px;min-height:398px;padding:20px 5px 0;justify-content:flex-start;overflow-x:auto;overflow-y:hidden;scrollbar-width:thin;padding-bottom:0}.archive-book{height:360px;width:76px}.archive-book:nth-child(2){height:346px}.book-spine{width:76px;padding-top:27px}.spine-title{font-size:21px}.archive-book.is-open{width:320px}.book-cover{width:254px;padding:24px 22px 18px}.book-cover h2{font-size:25px;margin-top:10px}.cover-illustration{height:80px;margin:8px -22px}.cover-description{font-size:10px}.future-volume{height:318px;width:44px;flex-shrink:0}.shelf-caption{font-size:10px}.book-pages{width:240px}}
 @media(prefers-reduced-motion:reduce){.archive-book,.book-cover,.book-pages,.book-spine{transition:none}}
+
+/* One rigid book: the spine and cover meet at the same vertical edge. */
+.archive-book{--book-width:292px;--spine-width:94px;transform:none;transform-style:preserve-3d;transition:width .8s cubic-bezier(.22,1,.36,1)}
+.archive-book:nth-child(2){transform:none}
+.archive-book.is-open{width:318px;transform:none}
+.book-solid{position:absolute;left:var(--spine-width);top:0;width:var(--book-width);height:100%;transform:rotateY(-90deg);transform-origin:0 50%;transform-style:preserve-3d;transition:transform .8s cubic-bezier(.22,1,.36,1),left .8s cubic-bezier(.22,1,.36,1)}
+.is-open .book-solid{left:20px;transform:rotateY(-12deg)}
+.book-spine,.is-open .book-spine{left:calc(-1 * var(--spine-width));width:var(--spine-width);transform:rotateY(90deg);transform-origin:right center;backface-visibility:hidden;transition:filter .3s;border-radius:3px 0 0 3px;box-shadow:inset 2px 0 2px #ffffff25,inset -5px 0 7px #0003}
+.is-open .spine-title{font-size:25px}
+.book-cover,.is-open .book-cover{left:0;width:var(--book-width);transform:none;opacity:1;transition:none;backface-visibility:hidden;border-radius:0 3px 3px 0;box-shadow:inset 5px 0 9px #0002,8px 8px 18px #251c1830}
+.book-pages,.is-open .book-pages{left:0;top:4px;bottom:4px;width:calc(var(--book-width) + 4px);transform:translateZ(-3px);opacity:1;transition:none}
+.book-spine:focus:not(:focus-visible){outline:none}
+.future-volume{transform:none}
+@media(max-width:640px){.archive-book{--book-width:254px;--spine-width:76px}.archive-book.is-open{width:278px}.is-open .book-solid{left:16px}.is-open .spine-title{font-size:21px}}
+@media(prefers-reduced-motion:reduce){.book-solid{transition:none}}
+.shelf-books{perspective:none}.book-cover,.book-pages{visibility:hidden;transition:visibility 0s .8s}.is-open .book-cover,.is-open .book-pages{visibility:visible;transition:none}
+
+.book-select{position:absolute;inset:0;z-index:10;border:0;background:transparent;cursor:pointer}.book-select:focus-visible{outline:2px solid #b17c38;outline-offset:5px}.book-spine:focus-visible{outline:2px solid #b17c38;outline-offset:2px}@media(prefers-reduced-motion:reduce){.archive-book,.book-solid,.book-cover,.book-pages,.book-spine{transition:none}}

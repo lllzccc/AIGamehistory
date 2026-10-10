@@ -10,6 +10,11 @@ interface Book {
 }
 export default function Bookshelf({ books }: { books: Book[] }) {
   const [active, setActive] = useState<ChronicleId | null>(null);
+  useEffect(() => {
+    const close = (event: KeyboardEvent) => { if (event.key === 'Escape') setActive(null); };
+    window.addEventListener('keydown', close);
+    return () => window.removeEventListener('keydown', close);
+  }, []);
   const shelf = useRef<HTMLDivElement>(null);
   useEffect(() => {
     if (!active || !window.matchMedia('(max-width: 640px)').matches) return;
@@ -23,8 +28,10 @@ export default function Bookshelf({ books }: { books: Book[] }) {
         const open = active === book.id;
         return <article key={book.id} className={'archive-book ' + (open ? 'is-open' : '')}
           style={{ '--binding': book.color, '--foil': book.accent } as React.CSSProperties}>
+          {!open && <button type="button" className="book-select" aria-label={'展开' + book.title} aria-expanded={false} aria-controls={'volume-' + book.id} onClick={() => setActive(book.id)} />}
+          <div className="book-solid">
           <div className="book-pages" aria-hidden="true" />
-          <button type="button" className="book-spine" aria-expanded={open}
+          <button type="button" className="book-spine" tabIndex={open ? 0 : -1} aria-hidden={!open} aria-expanded={open}
             aria-controls={'volume-' + book.id} aria-label={(open ? '合上' : '展开') + book.title}
             onClick={() => setActive(open ? null : book.id)}>
             <span className="spine-edition">{book.edition}</span>
@@ -44,6 +51,7 @@ export default function Bookshelf({ books }: { books: Book[] }) {
             <p className="cover-description">{book.description}</p>
             <div className="cover-count">{book.companies} 家公司 · {book.products} 款作品</div>
             <a className="cover-read" href={withBase('/chronicle/' + book.id + '/')}>翻开这一卷 <span aria-hidden="true">↗</span></a>
+          </div>
           </div>
         </article>;
       })}
