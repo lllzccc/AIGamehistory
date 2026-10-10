@@ -1,0 +1,54 @@
+{
+  "name": "无尽冬日",
+  "aliases": [],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "centurygames",
+  "publisher": "centurygames",
+  "released": "2024-05-31",
+  "platforms": [
+    "Android",
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "国内Android App · 商店上线",
+  "significance": "以冰雪末日经营作为入口，延伸到联盟协作与领土战争。",
+  "cover": "/images/slg/wujin-dongri.jpg",
+  "keyArt": "/images/slg/wujin-dongri.jpg",
+  "sources": [
+    {
+      "title": "无尽冬日官方商店：国内Android上线及供应商",
+      "url": "https://www.taptap.cn/app/521534/all-info"
+    },
+    {
+      "title": "无尽冬日官网",
+      "url": "https://wjdr.cn/"
+    },
+    {
+      "title": "世纪华通投资者活动记录：国内点点产品",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-12-06/1221957566.PDF"
+    }
+  ],
+  "lifecycleNotes": [
+    {
+      "note": "采用TapTap Android商店2024-05-31上线日期，不代表微信小程序首发，也不等同海外Whiteout Survival。国内商店供应商为上海青笛科技有限公司；本卷按点点品牌聚合，法人之间的具体委托及股权关系待补。",
+      "sources": [
+        {
+          "title": "无尽冬日官方商店：国内Android上线及供应商",
+          "url": "https://www.taptap.cn/app/521534/all-info"
+        },
+        {
+          "title": "无尽冬日官网",
+          "url": "https://wjdr.cn/"
+        },
+        {
+          "title": "世纪华通投资者活动记录：国内点点产品",
+          "url": "https://static.cninfo.com.cn/finalpage/2024-12-06/1221957566.PDF"
+        }
+      ]
+    }
+  ],
+  "verified": true
+}

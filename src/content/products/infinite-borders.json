@@ -1,0 +1,56 @@
+{
+  "name": "率土之滨",
+  "aliases": [
+    "Infinite Borders"
+  ],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "netease",
+  "publisher": "netease",
+  "released": "2015-10-22",
+  "platforms": [
+    "Android",
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "国服 · 全面公测",
+  "significance": "以大地图资源争夺、同盟协作和赛季重置为核心的自研策略产品。",
+  "cover": "/images/slg/infinite-borders.jpg",
+  "keyArt": "/images/slg/infinite-borders.jpg",
+  "sources": [
+    {
+      "title": "官方公测新闻（游民转载）：2015年10月22日全面公测",
+      "url": "https://shouyou.gamersky.com/news/201510/670172.shtml"
+    },
+    {
+      "title": "率土之滨官方商店资料与当前版本",
+      "url": "https://www.taptap.cn/app/4682/all-info"
+    },
+    {
+      "title": "率土之滨官网",
+      "url": "https://stzb.163.com/"
+    }
+  ],
+  "lifecycleNotes": [
+    {
+      "note": "采用2015年官方全面公测公告口径；TapTap记录的2016-03-30是该渠道Android上线，不替代公测日。供应商杭州网易雷火，具体项目工作室和历任人员待查。",
+      "sources": [
+        {
+          "title": "官方公测新闻（游民转载）：2015年10月22日全面公测",
+          "url": "https://shouyou.gamersky.com/news/201510/670172.shtml"
+        },
+        {
+          "title": "率土之滨官方商店资料与当前版本",
+          "url": "https://www.taptap.cn/app/4682/all-info"
+        },
+        {
+          "title": "率土之滨官网",
+          "url": "https://stzb.163.com/"
+        }
+      ]
+    }
+  ],
+  "verified": true
+}

@@ -1,0 +1,48 @@
+{
+  "name": "万国觉醒",
+  "aliases": [
+    "Rise of Kingdoms"
+  ],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "legou",
+  "publisher": "lilith",
+  "released": "2018-09",
+  "platforms": [
+    "Android",
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "海外首发 · 官方月份",
+  "significance": "将多文明、自由行军与联盟战争结合，由成都乐狗研发、莉莉丝发行。",
+  "cover": "/images/slg/rise-of-kingdoms.jpg",
+  "keyArt": "/images/slg/rise-of-kingdoms.jpg",
+  "sources": [
+    {
+      "title": "乐狗官方：万国觉醒研发与2018年9月海外发行",
+      "url": "https://www.legougames.com/about/"
+    },
+    {
+      "title": "万国觉醒官方商店：研发方、发行方与国内Android日期",
+      "url": "https://www.taptap.cn/app/82921/all-info"
+    }
+  ],
+  "lifecycleNotes": [
+    {
+      "note": "乐狗官网记载2018年9月在全球142个国家和地区上线；国服回归为2020年9月，TapTap国内Android商店日期2020-09-22，PC商店2025-04-29，均不替代海外首发。",
+      "sources": [
+        {
+          "title": "乐狗官方：万国觉醒研发与2018年9月海外发行",
+          "url": "https://www.legougames.com/about/"
+        },
+        {
+          "title": "万国觉醒官方商店：研发方、发行方与国内Android日期",
+          "url": "https://www.taptap.cn/app/82921/all-info"
+        }
+      ]
+    }
+  ],
+  "verified": true
+}

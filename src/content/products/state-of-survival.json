@@ -38,7 +38,13 @@
     {
       "title": "FunPlus：State of Survival",
       "url": "https://funplus.com/games/state-of-survival/"
+    },
+    {
+      "title": "FunPlus官方产品页与宣传图",
+      "url": "https://funplus.com/games/state-of-survival/"
     }
   ],
-  "verified": true
+  "verified": true,
+  "cover": "/images/slg/state-of-survival.jpg",
+  "keyArt": "/images/slg/state-of-survival.jpg"
 }

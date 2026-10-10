@@ -1,0 +1,48 @@
+{
+  "name": "口袋奇兵",
+  "aliases": [
+    "Top War: Battle Game"
+  ],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "rivergame",
+  "publisher": "rivergame",
+  "released": "2020-11-24",
+  "platforms": [
+    "Android",
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "国内Android · 商店上线",
+  "significance": "将合成升级与基地建设、联盟战争结合，降低策略养成的上手门槛。",
+  "cover": "/images/slg/TopWar.jpg",
+  "keyArt": "/images/slg/TopWar.jpg",
+  "sources": [
+    {
+      "title": "江娱互动官方：团队始于2018年与Top War",
+      "url": "https://www.rivergame.net/ar/about.html"
+    },
+    {
+      "title": "口袋奇兵官方商店：2020年11月24日Android上线",
+      "url": "https://www.taptap.cn/app/203580/all-info"
+    }
+  ],
+  "lifecycleNotes": [
+    {
+      "note": "本条记录国内Android商店日期，不作为海外Top War首发日期；iOS与小程序日期另行核查。",
+      "sources": [
+        {
+          "title": "江娱互动官方：团队始于2018年与Top War",
+          "url": "https://www.rivergame.net/ar/about.html"
+        },
+        {
+          "title": "口袋奇兵官方商店：2020年11月24日Android上线",
+          "url": "https://www.taptap.cn/app/203580/all-info"
+        }
+      ]
+    }
+  ],
+  "verified": true
+}

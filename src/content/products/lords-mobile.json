@@ -40,7 +40,13 @@
     {
       "title": "IGG投资者关系：集团简介",
       "url": "https://investor.igg.com/"
+    },
+    {
+      "title": "官方发布宣传素材（TapTap产品页）",
+      "url": "https://www.taptap.cn/app/60187"
     }
   ],
-  "verified": true
+  "verified": true,
+  "cover": "/images/slg/lords-mobile.jpg",
+  "keyArt": "/images/slg/lords-mobile.jpg"
 }

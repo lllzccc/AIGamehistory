@@ -65,7 +65,7 @@ const stats = [
     </ul>
   </section>
 
-  {volume.id === 'female' && <CompanyRoster companies={companies} products={ds.products} />}
+  {(volume.id === 'female' || volume.id === 'slg') && <CompanyRoster companies={companies} products={ds.products} chronicle={volume.id} />}
 
   <section class="mx-auto max-w-6xl px-6 pt-16 pb-32 sm:px-10">
     <p class="mb-5 text-xs tracking-widest text-mist">时间线 · 从近到远</p>

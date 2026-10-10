@@ -1,0 +1,61 @@
+[
+  {
+    "id": "tap4fun",
+    "name": "tap4fun",
+    "kind": "公司",
+    "products": [
+      "Kingdom Guard",
+      "Kiss of War",
+      "Age of Apes"
+    ],
+    "note": "官方产品目录明确以SLG为核心；中文主体、完整沿革与项目团队待建档。",
+    "source": {
+      "title": "tap4fun官方产品／公司入口",
+      "url": "https://tap4fun.com/game/en"
+    },
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "id": "camelgames",
+    "name": "壳木游戏",
+    "kind": "公司",
+    "products": [
+      "旭日之城／Age of Origins",
+      "战火与秩序／War and Order"
+    ],
+    "note": "官方介绍及产品目录可核对，下一轮补齐公司主体、首发地区与财报。",
+    "source": {
+      "title": "壳木游戏官方产品／公司入口",
+      "url": "https://www.camelgame.cn/"
+    },
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "id": "37games",
+    "name": "37GAMES（三七发行品牌）",
+    "kind": "公司",
+    "products": [
+      "Puzzles & Survival"
+    ],
+    "note": "官网可确认发行产品；研发主体与集团关系必须单独核查，不据发行品牌推断自研。",
+    "source": {
+      "title": "37GAMES（三七发行品牌）官方产品／公司入口",
+      "url": "https://en.37games.com/"
+    },
+    "checkedAt": "2026-10-10"
+  },
+  {
+    "id": "yottagames",
+    "name": "Phantix Games／YottaGames",
+    "kind": "公司",
+    "products": [
+      "Mafia City"
+    ],
+    "note": "官方公司页与产品站提供品牌和产品线索；中文主体、品牌更名和研发归属待复核。",
+    "source": {
+      "title": "Phantix Games／YottaGames官方产品／公司入口",
+      "url": "https://www.yottagames.com/ja/article/about"
+    },
+    "checkedAt": "2026-10-10"
+  }
+]

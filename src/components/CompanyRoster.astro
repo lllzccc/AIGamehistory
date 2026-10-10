@@ -1,13 +1,17 @@
 ---
-import roster from '../content/company-roster/female.json';
+import femaleRoster from '../content/company-roster/female.json';
+import slgRoster from '../content/company-roster/slg.json';
 import { z } from 'astro/zod';
 import { sourceSchema } from '../lib/schema';
 import { withBase } from '../lib/paths';
 import type { Dataset } from '../lib/types';
-interface Props { companies: Dataset['companies']; products: Dataset['products']; }
-const { companies, products } = Astro.props;
-const candidates = z.array(z.object({ id:z.string(), name:z.string(), kind:z.enum(['公司','工作室']), products:z.array(z.string()).min(1), note:z.string(), source:sourceSchema, checkedAt:z.string() })).parse(roster);
-if (new Set(candidates.map(c => c.id)).size !== candidates.length || candidates.some(c => companies.some(company => company.id === c.id))) throw new Error('公司名录存在重复条目');
+interface Props { companies: Dataset['companies']; products: Dataset['products']; chronicle?: 'female' | 'slg'; }
+const { companies, products, chronicle = 'female' } = Astro.props;
+const roster = chronicle === 'slg' ? slgRoster : femaleRoster;
+const parsedCandidates = z.array(z.object({ id:z.string(), name:z.string(), kind:z.enum(['公司','工作室']), products:z.array(z.string()).min(1), note:z.string(), source:sourceSchema, checkedAt:z.string() })).parse(roster);
+if (new Set(parsedCandidates.map(c => c.id)).size !== parsedCandidates.length) throw new Error('公司名录存在重复条目');
+// Promote an entry automatically when its company archive joins this volume.
+const candidates = parsedCandidates.filter(c => !companies.some(company => company.id === c.id));
 const entries = [
  ...companies.map(c => ({ ...c, kind:'公司', stage:'archived', products:products.filter(p => p.developer===c.id || p.publisher===c.id).map(p=>p.name), note:c.tagline, source:c.sources[0] })),
  ...candidates.map(c => ({...c,stage:'listed'})),

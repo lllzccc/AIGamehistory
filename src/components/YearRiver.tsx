@@ -40,7 +40,7 @@ export default function YearRiver({ buckets, chronicle }: { buckets: YearBucket[
 
   const reveal = (delay = 0) =>
     reduceMotion
-      ? { initial: false as const }
+      ? { initial: false as const, animate: { opacity: 1, y: 0 }, transition: { duration: 0 } }
       : {
           initial: { opacity: 0, y: 20 },
           whileInView: { opacity: 1, y: 0 },

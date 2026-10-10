@@ -1,0 +1,46 @@
+{
+  "name": "三国志·战略版",
+  "aliases": [],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "lingxi",
+  "publisher": "lingxi",
+  "released": "2019-09-20",
+  "platforms": [
+    "Android",
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "国服 · 全平台上线公告",
+  "significance": "以三国题材、沙盘占地与同盟战争组成赛季制策略体验。",
+  "cover": "/images/slg/sanguozhi-strategy.jpg",
+  "keyArt": "/images/slg/sanguozhi-strategy.jpg",
+  "sources": [
+    {
+      "title": "三国志·战略版官方：2019年9月20日全平台上线",
+      "url": "https://sgz.ejoy.com/m/news/detail-4107.html"
+    },
+    {
+      "title": "三国志·战略版官方商店：灵犀研运与平台日期",
+      "url": "https://www.taptap.cn/app/139546/all-info"
+    }
+  ],
+  "lifecycleNotes": [
+    {
+      "note": "TapTap Android商店记为2019-09-19，官网全平台上线公告发布于9月20日；时间线采用后者。产品早于2020年灵犀品牌升级，不能把品牌升级日期当作项目成立日。",
+      "sources": [
+        {
+          "title": "三国志·战略版官方：2019年9月20日全平台上线",
+          "url": "https://sgz.ejoy.com/m/news/detail-4107.html"
+        },
+        {
+          "title": "三国志·战略版官方商店：灵犀研运与平台日期",
+          "url": "https://www.taptap.cn/app/139546/all-info"
+        }
+      ]
+    }
+  ],
+  "verified": true
+}

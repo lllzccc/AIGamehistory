@@ -40,7 +40,13 @@
     {
       "title": "FunPlus官方公司历程",
       "url": "https://funplus.com/about-funplus/"
+    },
+    {
+      "title": "FunPlus官方产品页与宣传图",
+      "url": "https://funplus.com/games/guns-of-glory/"
     }
   ],
-  "verified": true
+  "verified": true,
+  "cover": "/images/slg/guns-of-glory.jpg",
+  "keyArt": "/images/slg/guns-of-glory.jpg"
 }

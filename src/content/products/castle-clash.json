@@ -14,7 +14,7 @@
     "Android",
     "iOS"
   ],
-  "status": "unknown",
+  "status": "live",
   "versionLabel": "海外版本 · 官方历程口径",
   "significance": "融合基地建设、英雄培养与战斗，记录IGG在移动策略赛道的早期布局。",
   "lifecycleNotes": [
@@ -30,6 +30,15 @@
           "url": "https://investor.igg.com/"
         }
       ]
+    },
+    {
+      "note": "2026-10-10核查IGG官方Google Play仍提供安装与更新记录，本档案的在运营状态仅代表该海外Android版本；不推断国内或其他渠道状态。",
+      "sources": [
+        {
+          "title": "IGG官方Google Play：海外Android版本与公开截图",
+          "url": "https://play.google.com/store/apps/details?hl=en&id=com.igg.castleclash"
+        }
+      ]
     }
   ],
   "sources": [
@@ -40,7 +49,13 @@
     {
       "title": "IGG投资者关系：集团简介",
       "url": "https://investor.igg.com/"
+    },
+    {
+      "title": "IGG官方Google Play：海外Android版本与公开截图",
+      "url": "https://play.google.com/store/apps/details?hl=en&id=com.igg.castleclash"
     }
   ],
-  "verified": true
+  "verified": true,
+  "cover": "/images/slg/castle-clash.jpg",
+  "keyArt": "/images/slg/castle-clash.jpg"
 }

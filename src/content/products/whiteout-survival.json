@@ -1,0 +1,56 @@
+{
+  "name": "Whiteout Survival",
+  "aliases": [
+    "无尽冬日海外版"
+  ],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "centurygames",
+  "publisher": "centurygames",
+  "released": "2023-02-13",
+  "platforms": [
+    "Android",
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "海外 · 官方上线日期",
+  "significance": "冰雪生存、城镇经营与联盟战争相结合的全球策略产品。",
+  "cover": "/images/slg/whiteout-survival.jpg",
+  "keyArt": "/images/slg/whiteout-survival.jpg",
+  "sources": [
+    {
+      "title": "Century Games官方：Whiteout Survival于2023年2月13日上线",
+      "url": "https://www.centurygames.com/whiteout-survival-what-the-media-is-saying/"
+    },
+    {
+      "title": "点点互动官方：2010年成立与自研产品",
+      "url": "https://www.campfiregames.cn/aboutus/"
+    },
+    {
+      "title": "Whiteout Survival官方产品页",
+      "url": "https://www.centurygames.com/games/a/"
+    }
+  ],
+  "lifecycleNotes": [
+    {
+      "note": "官方媒体回顾明确记载2023-02-13上线。本条为海外版本；国内《无尽冬日》App另列，账号、发行主体与平台日期不混用。",
+      "sources": [
+        {
+          "title": "Century Games官方：Whiteout Survival于2023年2月13日上线",
+          "url": "https://www.centurygames.com/whiteout-survival-what-the-media-is-saying/"
+        },
+        {
+          "title": "点点互动官方：2010年成立与自研产品",
+          "url": "https://www.campfiregames.cn/aboutus/"
+        },
+        {
+          "title": "Whiteout Survival官方产品页",
+          "url": "https://www.centurygames.com/games/a/"
+        }
+      ]
+    }
+  ],
+  "verified": true
+}
