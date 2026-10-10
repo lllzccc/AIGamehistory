@@ -13,7 +13,7 @@
   ],
   "status": "live",
   "significance": "叠纸团队的首部作品，公司正式成立前一个月上线，被官方称为国内第一款主流换装手游，奠定了“暖暖”系列。",
-  "keyArt": "/images/papergames/nikki-up2u-world-traveller.jpg",
+  "keyArt": "/images/papergames/nikki-up2u-world-traveller-official-full.jpg",
   "revenue": [],
   "sources": [
     {
@@ -44,5 +44,6 @@
   "verified": false,
   "chronicles": [
     "female"
-  ]
+  ],
+  "artPosition": "center"
 }

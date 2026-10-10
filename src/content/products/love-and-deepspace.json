@@ -13,7 +13,7 @@
   ],
   "status": "live",
   "significance": "“恋与”系列第二作，以 3D 第一人称恋爱互动在全球走红，是首款在全球取得头部成绩的国产乙女游戏。",
-  "keyArt": "/images/papergames/love-and-deepspace.jpg",
+  "keyArt": "/images/papergames/love-and-deepspace-official-full.jpg",
   "revenue": [
     {
       "period": "2024",
@@ -57,5 +57,6 @@
   "verified": false,
   "chronicles": [
     "female"
-  ]
+  ],
+  "artPosition": "top"
 }

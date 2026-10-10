@@ -55,6 +55,7 @@ export const productSchema = z.object({
   significance: z.string().min(1),
   cover: z.string().optional(),
   keyArt: z.string().optional(),
+  artPosition: z.enum(['top', 'center', 'bottom', 'center 25%']).optional(),
   revenue: z.array(revenueEntrySchema).default([]),
   sources,
   verified: z.boolean().default(false),

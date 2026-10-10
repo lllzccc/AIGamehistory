@@ -15,7 +15,7 @@
   ],
   "status": "live",
   "significance": "“暖暖”系列第五作，以 UE5 打造的多平台开放世界换装冒险，标志叠纸进入主机与 PC 市场。",
-  "keyArt": "/images/papergames/infinity-nikki.jpg",
+  "keyArt": "/images/papergames/infinity-nikki-official-full.jpg",
   "revenue": [
     {
       "period": "2024",
@@ -43,5 +43,6 @@
   "verified": true,
   "chronicles": [
     "female"
-  ]
+  ],
+  "artPosition": "center"
 }

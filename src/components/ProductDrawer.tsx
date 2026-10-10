@@ -75,7 +75,7 @@ export default function ProductDrawer({ product, onClose }: Props) {
         exit={{ x: '100%' }}
         transition={{ type: 'tween', duration: 0.45, ease }}
       >
-        {art && <img src={art} alt="" className="aspect-[16/9] w-full object-cover object-top" />}
+        {art && <img src={art} style={{ objectPosition: product.artPosition ?? 'top' }} alt="" className="aspect-[16/9] w-full object-cover object-top" />}
         <div className="px-8 pt-8 pb-16 sm:px-10">
           <div className="flex items-start justify-between gap-6">
             <div>

@@ -13,7 +13,7 @@
   ],
   "status": "live",
   "significance": "“暖暖”系列第四作、叠纸首款 3D 手游，把换装游戏推进到次世代 3D 画面。",
-  "keyArt": "/images/papergames/shining-nikki.jpg",
+  "keyArt": "/images/papergames/shining-nikki-official-full.jpg",
   "revenue": [
     {
       "period": "2019",
@@ -45,5 +45,6 @@
   "verified": true,
   "chronicles": [
     "female"
-  ]
+  ],
+  "artPosition": "top"
 }

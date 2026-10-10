@@ -13,7 +13,7 @@
   ],
   "status": "live",
   "significance": "“恋与”系列首作，上线首月成为现象级产品，打开了国内乙女游戏市场。",
-  "keyArt": "/images/papergames/love-and-producer.jpg",
+  "keyArt": "/images/papergames/love-and-producer-official-full.jpg",
   "revenue": [
     {
       "period": "2018",
@@ -69,5 +69,6 @@
   "verified": false,
   "chronicles": [
     "female"
-  ]
+  ],
+  "artPosition": "top"
 }

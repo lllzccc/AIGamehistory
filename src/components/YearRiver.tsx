@@ -139,6 +139,7 @@ export default function YearRiver({ buckets }: { buckets: YearBucket[] }) {
                               {art ? (
                                 <img
                                   src={art}
+                                  style={{ objectPosition: p.artPosition ?? 'top' }}
                                   alt=""
                                   loading="lazy"
                                   className="h-full w-full object-cover object-top transition duration-700 ease-out motion-safe:group-hover:scale-[1.03]"

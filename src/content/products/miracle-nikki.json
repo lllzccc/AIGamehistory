@@ -14,7 +14,7 @@
   ],
   "status": "live",
   "significance": "“暖暖”系列第三作，由腾讯代理，全球注册用户过亿，使“暖暖”成为国内最具影响力的女性向游戏系列。",
-  "keyArt": "/images/papergames/miracle-nikki.jpg",
+  "keyArt": "/images/papergames/miracle-nikki-official-full.jpg",
   "revenue": [],
   "sources": [
     {
@@ -33,5 +33,6 @@
   "verified": true,
   "chronicles": [
     "female"
-  ]
+  ],
+  "artPosition": "center 25%"
 }
