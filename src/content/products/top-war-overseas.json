@@ -1,0 +1,45 @@
+{
+  "name": "Top War: Battle Game",
+  "aliases": [],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "rivergame",
+  "publisher": "rivergame",
+  "released": "2019-12-31",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "美国iOS商店发行记录",
+  "significance": "口袋奇兵的海外产品记录，单独保留地区与平台首发口径。",
+  "sources": [
+    {
+      "title": "Apple美国商店：产品与发行主体",
+      "url": "https://itunes.apple.com/lookup?id=1479198816&country=us"
+    },
+    {
+      "title": "江娱互动官方：研发发行与Top War",
+      "url": "https://www.rivergame.net/zh/about.html"
+    }
+  ],
+  "verified": true,
+  "cover": "/images/slg/TopWar.jpg",
+  "keyArt": "/images/slg/TopWar.jpg",
+  "lifecycleNotes": [
+    {
+      "note": "核查日期2026-10-11。Apple美国iOS元数据日期仅代表该地区平台记录，不推断Android或国内版本首发。",
+      "sources": [
+        {
+          "title": "Apple美国商店：产品与发行主体",
+          "url": "https://itunes.apple.com/lookup?id=1479198816&country=us"
+        },
+        {
+          "title": "江娱互动官方：研发发行与Top War",
+          "url": "https://www.rivergame.net/zh/about.html"
+        }
+      ]
+    }
+  ]
+}

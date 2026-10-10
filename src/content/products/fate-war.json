@@ -1,0 +1,46 @@
+{
+  "name": "Fate War",
+  "aliases": [],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "igg",
+  "publisher": "igg",
+  "released": "2025-08-05",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "status": "live",
+  "versionLabel": "海外全球上线 · App Store与Google Play",
+  "significance": "以部落建设、英雄与联盟战争为核心的幻想策略游戏。",
+  "sources": [
+    {
+      "title": "Apple美国商店：产品与发行主体",
+      "url": "https://itunes.apple.com/lookup?id=6737294814&country=us"
+    },
+    {
+      "title": "Fate War官方百服庆典：全球上线回顾",
+      "url": "https://fw.igg.com/event/celebration/100th_server/ajax.req.php?action=init&lang="
+    }
+  ],
+  "verified": true,
+  "cover": "/images/slg/fate-war.jpg",
+  "keyArt": "/images/slg/fate-war.jpg",
+  "lifecycleNotes": [
+    {
+      "note": "核查日期2026-10-11。官方百服庆典回顾明确2025-08-05全球上线App Store与Google Play；美国商店预载/元数据日期不替代这一全球上线日期。国内与PC版本待核查。",
+      "sources": [
+        {
+          "title": "Apple美国商店：产品与发行主体",
+          "url": "https://itunes.apple.com/lookup?id=6737294814&country=us"
+        },
+        {
+          "title": "Fate War官方百服庆典：全球上线回顾",
+          "url": "https://fw.igg.com/event/celebration/100th_server/ajax.req.php?action=init&lang="
+        }
+      ]
+    }
+  ]
+}
