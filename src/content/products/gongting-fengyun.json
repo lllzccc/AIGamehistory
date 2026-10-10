@@ -1,0 +1,45 @@
+{
+  "name": "宫廷风云（早期手游）",
+  "aliases": [],
+  "chronicles": [
+    "female"
+  ],
+  "genre": "other",
+  "developer": "youyi-shiguang",
+  "publisher": "youyi-shiguang",
+  "released": "2012-11",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "status": "unknown",
+  "versionLabel": "中国大陆 · 2012年移动版本",
+  "significance": "从网页转向手机的第一代宫廷手游产品。保留历史版本，避免与当前同名产品混用。",
+  "lifecycleNotes": [
+    {
+      "note": "投资公告给出2012年11月，招股书确认2012年推出。本站保留月份精度；当前同名App及小游戏是否为同一版本仍待核对，现状不推断为运营中。",
+      "sources": [
+        {
+          "title": "中电电机2016-01-27对外投资补充公告：宫廷风云2012年11月、宫廷Q传2014年1月上线",
+          "url": "https://static.cninfo.com.cn/finalpage/2016-01-27/1201944367.PDF"
+        },
+        {
+          "title": "友谊时光2019上市招股书：历史与自研产品",
+          "url": "https://www.friendtimes.net/res/ftnet/201909/06820-9026094-FRIENDTIMES.pdf"
+        }
+      ]
+    }
+  ],
+  "revenue": [],
+  "sources": [
+    {
+      "title": "中电电机2016-01-27对外投资补充公告：宫廷风云2012年11月、宫廷Q传2014年1月上线",
+      "url": "https://static.cninfo.com.cn/finalpage/2016-01-27/1201944367.PDF"
+    },
+    {
+      "title": "友谊时光2019上市招股书：历史与自研产品",
+      "url": "https://www.friendtimes.net/res/ftnet/201909/06820-9026094-FRIENDTIMES.pdf"
+    }
+  ],
+  "verified": false
+}

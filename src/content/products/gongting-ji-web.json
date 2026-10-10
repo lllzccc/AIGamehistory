@@ -1,0 +1,36 @@
+{
+  "name": "宫廷计（页游）",
+  "aliases": [],
+  "chronicles": [
+    "female"
+  ],
+  "genre": "other",
+  "developer": "youyi-shiguang",
+  "publisher": "youyi-shiguang",
+  "released": "2010-12",
+  "platforms": [
+    "网页浏览器"
+  ],
+  "status": "unknown",
+  "versionLabel": "中国大陆 · 2010年网页版本",
+  "significance": "公司的首款自研页游，开启古风女性向产品线；与2018年《宫廷计手游》分别建档。",
+  "lifecycleNotes": [
+    {
+      "note": "招股书确认2010年12月正式推出自研网页游戏；本轮未确认原页游停运日期。同名手游或海外在售页面不能证明此版本仍在运营。",
+      "sources": [
+        {
+          "title": "友谊时光2019上市招股书：历史与自研产品",
+          "url": "https://www.friendtimes.net/res/ftnet/201909/06820-9026094-FRIENDTIMES.pdf"
+        }
+      ]
+    }
+  ],
+  "revenue": [],
+  "sources": [
+    {
+      "title": "友谊时光2019上市招股书：历史与自研产品",
+      "url": "https://www.friendtimes.net/res/ftnet/201909/06820-9026094-FRIENDTIMES.pdf"
+    }
+  ],
+  "verified": false
+}

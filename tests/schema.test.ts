@@ -57,6 +57,12 @@ describe('productSchema', () => {
     expect(productSchema.safeParse({ ...valid, revenue: [revenue(period)] }).success).toBe(false);
   });
 
+  it('历史版本允许现状未知，并保存带来源的版本说明', () => {
+    const p = productSchema.parse({ ...valid, status: 'unknown', versionLabel: '早期APP', lifecycleNotes: [{ note: '同名小游戏关系待查', sources: [source] }] });
+    expect(p.status).toBe('unknown');
+    expect(productSchema.safeParse({ ...valid, lifecycleNotes: [{ note: '未确认', sources: [] }] }).success).toBe(false);
+  });
+
   it('流水默认为空数组', () => {
     expect(productSchema.parse(valid).revenue).toEqual([]);
   });

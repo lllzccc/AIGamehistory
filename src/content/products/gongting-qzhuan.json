@@ -1,0 +1,45 @@
+{
+  "name": "宫廷Q传（早期手游）",
+  "aliases": [],
+  "chronicles": [
+    "female"
+  ],
+  "genre": "other",
+  "developer": "youyi-shiguang",
+  "publisher": "youyi-shiguang",
+  "released": "2014-01",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "status": "unknown",
+  "versionLabel": "中国大陆 · 2014年移动版本",
+  "significance": "第二代宫廷手游，采用Q版卡牌养成；与《熹妃Q传》是不同产品。",
+  "lifecycleNotes": [
+    {
+      "note": "2016年投资公告记2014年1月上线；部分游戏门户记录2014年5月公测，未确认平台及阶段是否一致，首发采用公告月份。当前同名小游戏另待补档，不能套用旧手游的上线时间。",
+      "sources": [
+        {
+          "title": "中电电机2016-01-27对外投资补充公告：宫廷风云2012年11月、宫廷Q传2014年1月上线",
+          "url": "https://static.cninfo.com.cn/finalpage/2016-01-27/1201944367.PDF"
+        },
+        {
+          "title": "友谊时光2019上市招股书：历史与自研产品",
+          "url": "https://www.friendtimes.net/res/ftnet/201909/06820-9026094-FRIENDTIMES.pdf"
+        }
+      ]
+    }
+  ],
+  "revenue": [],
+  "sources": [
+    {
+      "title": "中电电机2016-01-27对外投资补充公告：宫廷风云2012年11月、宫廷Q传2014年1月上线",
+      "url": "https://static.cninfo.com.cn/finalpage/2016-01-27/1201944367.PDF"
+    },
+    {
+      "title": "友谊时光2019上市招股书：历史与自研产品",
+      "url": "https://www.friendtimes.net/res/ftnet/201909/06820-9026094-FRIENDTIMES.pdf"
+    }
+  ],
+  "verified": false
+}

@@ -93,6 +93,7 @@ export default function ProductDrawer({ product, onClose }: Props) {
               ×
             </button>
           </div>
+          {product.versionLabel && <p className="mt-3 text-xs tracking-wide text-mist">{product.versionLabel}</p>}
           {!product.verified && <span className="unverified mt-4">待核实</span>}
 
           <p className="mt-6 font-serif text-lg leading-relaxed text-ink-soft">{product.significance}</p>
@@ -127,6 +128,8 @@ export default function ProductDrawer({ product, onClose }: Props) {
             <dt className="text-mist">状态</dt>
             <dd className="text-ink">{productStatusLabel[product.status]}</dd>
           </dl>
+
+          {!!product.lifecycleNotes?.length && <section className="mt-10"><h3 className="font-serif text-lg text-ink">版本与日期说明</h3><ul className="mt-4 space-y-4">{product.lifecycleNotes.map((entry, i) => <li key={i}><p className="text-sm leading-relaxed text-ink-soft">{entry.note}</p><p className="mt-2 text-xs text-mist"><SourceLinks sources={entry.sources} /></p></li>)}</ul></section>}
 
           {product.credits.length > 0 && (
             <section className="mt-10">

@@ -1,0 +1,51 @@
+{
+  "name": "此生无白（仙侠手游）",
+  "aliases": [],
+  "chronicles": [
+    "female"
+  ],
+  "genre": "other",
+  "developer": "youyi-shiguang",
+  "publisher": "youyi-shiguang",
+  "released": "2021-04-28",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "status": "unknown",
+  "versionLabel": "中国大陆 · 2021年仙侠APP版本",
+  "significance": "面向女性玩家的国风仙缘社交手游，以原创仙侠剧本扩展古风恋爱题材；与后续同名小游戏区分。",
+  "lifecycleNotes": [
+    {
+      "note": "2021年4月28日为全平台公测，早期安卓测试不替代这一日期。本轮未找到原APP停服公告，暂不填写精确关服日。",
+      "sources": [
+        {
+          "title": "友谊时光2021-05-10官网新闻：此生无白4月28日推出",
+          "url": "https://www.friendtimes.cn/information/20210510/29071f956b016d1fdba7.html"
+        }
+      ]
+    },
+    {
+      "note": "DataEye后续观察已涉及同名小游戏，且展示都市职场题材；不能据同名或旧官网域名认定其与2021仙侠APP是同一版本。小游戏的首发日、内容继承与研发关系待官方证据补全。",
+      "sources": [
+        {
+          "title": "DataEye研究院2025产品观察（界面转载）：此生无白小游戏与原APP差异",
+          "url": "https://www.jiemian.com/article/13020546.html"
+        }
+      ]
+    }
+  ],
+  "revenue": [],
+  "sources": [
+    {
+      "title": "友谊时光2021-05-10官网新闻：此生无白4月28日推出",
+      "url": "https://www.friendtimes.cn/information/20210510/29071f956b016d1fdba7.html"
+    },
+    {
+      "title": "友谊时光2020-12-11官网：此生无白仙侠题材与原创剧本",
+      "url": "https://www.friendtimes.net/information/20201211/744a68c18da59a35c2b.html"
+    }
+  ],
+  "verified": false,
+  "keyArt": "/images/youyi-shiguang/cisheng-wubai.jpg"
+}

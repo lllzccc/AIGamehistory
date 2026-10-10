@@ -29,6 +29,7 @@ export const genreLabel: Record<Product['genre'], string> = {
 export const productStatusLabel: Record<Product['status'], string> = {
   live: '运营中',
   shutdown: '已停服',
+  unknown: '版本现状待核实',
 };
 
 export const timelineKindLabel: Record<TimelineKind, string> = {

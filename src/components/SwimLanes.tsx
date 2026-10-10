@@ -149,7 +149,7 @@ export default function SwimLanes({ lanes, endYear }: { lanes: CompareLane[]; en
                           fill="#9E3B4D"
                           fillOpacity={faded ? 0.28 : 0.55}
                           stroke="#9E3B4D"
-                          strokeDasharray={rev?.kind === 'estimate' ? '4 3' : undefined}
+                          strokeDasharray={product.status === 'unknown' || rev?.kind === 'estimate' ? '4 3' : undefined}
                           onPointerEnter={(e) => setTip({ kind: 'product', x: e.clientX, y: e.clientY, product })}
                           onPointerLeave={() => setTip(null)}
                         />
@@ -201,7 +201,7 @@ export default function SwimLanes({ lanes, endYear }: { lanes: CompareLane[]; en
 
 function ProductTip({ product, endYear }: { product: ProductCard; endYear: number }) {
   const rev = product.series.at(-1) ?? representativeRevenue(product);
-  const until = product.shutdown ? formatDate(product.shutdown) : `${endYear}年至今`;
+  const until = product.shutdown ? formatDate(product.shutdown) : product.status === 'unknown' ? '结束时间及现状待核实（虚线不代表持续运营）' : `${endYear}年至今`;
   return (
     <div>
       <p className="font-serif text-ink">《{product.name}》</p>

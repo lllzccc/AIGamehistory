@@ -22,6 +22,14 @@ import {
 import { makeDataset } from './fixtures';
 
 describe('checkIntegrity', () => {
+  it('历史版本现状未知时不要求编造停服日', () => {
+    const ds = makeDataset();
+    ds.products[0].status = 'unknown';
+    expect(checkIntegrity(ds)).toEqual([]);
+    ds.products[0].shutdown = '2020';
+    expect(checkIntegrity(ds).join('\n')).toContain('有停服日期但状态不是已停服');
+  });
+
   it('引用完整时无错误', () => {
     expect(checkIntegrity(makeDataset())).toEqual([]);
   });

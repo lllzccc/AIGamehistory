@@ -1,0 +1,47 @@
+{
+  "name": "精灵食肆",
+  "aliases": [],
+  "chronicles": [
+    "female"
+  ],
+  "genre": "other",
+  "developer": "youyi-shiguang",
+  "publisher": "youyi-shiguang",
+  "released": "2019-08-13",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "status": "shutdown",
+  "versionLabel": "中国大陆 · APP版本",
+  "significance": "妖怪美食经营与角色收集养成，拓展公司二次元产品线。国内APP已停服，海外版本需分别核对。",
+  "lifecycleNotes": [
+    {
+      "note": "官方公告分三步：2023年7月5日关闭充值与注册，9月5日14:00关闭服务器，9月12日14:00关闭官网及社群。停服采用服务器关闭日，不采用官网关闭日。",
+      "sources": [
+        {
+          "title": "精灵食肆官方停止运营公告：9月5日关服、9月12日关闭官网与社群",
+          "url": "https://www.taptap.cn/moment/425703300566876668"
+        }
+      ]
+    }
+  ],
+  "revenue": [],
+  "sources": [
+    {
+      "title": "精灵食肆官方公测公告（2019-08-13）",
+      "url": "https://www.taptap.cn/moment/15209120286114663"
+    },
+    {
+      "title": "精灵食肆官方停止运营公告：9月5日关服、9月12日关闭官网与社群",
+      "url": "https://www.taptap.cn/moment/425703300566876668"
+    },
+    {
+      "title": "友谊时光2019上市招股书：历史与自研产品",
+      "url": "https://www.friendtimes.net/res/ftnet/201909/06820-9026094-FRIENDTIMES.pdf"
+    }
+  ],
+  "verified": true,
+  "keyArt": "/images/youyi-shiguang/jingling-shisi.jpg",
+  "shutdown": "2023-09-05"
+}

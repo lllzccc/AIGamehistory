@@ -2,7 +2,7 @@ import { useCallback, useState } from 'react';
 import { AnimatePresence, motion, MotionConfig, useReducedMotion } from 'motion/react';
 import type { ProductCard } from '../lib/types';
 import { yearOf } from '../lib/dates';
-import { genreLabel } from '../lib/labels';
+import { genreLabel, productStatusLabel } from '../lib/labels';
 import ProductDrawer from './ProductDrawer';
 import Sparkline from './Sparkline';
 
@@ -47,9 +47,9 @@ export default function ProductShelf({ products }: { products: ProductCard[] }) 
                   <span className="absolute top-4 left-4 bg-paper/90 px-2 py-1 text-xs tracking-widest text-ink-soft">
                     {genreLabel[p.genre]}
                   </span>
-                  {p.status === 'shutdown' && (
+                  {p.status !== 'live' && (
                     <span className="absolute top-4 right-4 bg-ink/80 px-2 py-1 text-xs tracking-widest text-paper">
-                      已停服
+                      {productStatusLabel[p.status]}
                     </span>
                   )}
                 </span>
@@ -57,6 +57,7 @@ export default function ProductShelf({ products }: { products: ProductCard[] }) 
                   <span className="font-serif text-xl text-ink transition group-hover:text-rouge">{p.name}</span>
                   <span className="font-display text-lg text-mist">{yearOf(p.released)}</span>
                 </span>
+                {p.versionLabel && <span className="mt-2 block text-xs text-mist">{p.versionLabel}</span>}
                 <span className="mt-2 line-clamp-2 block text-sm leading-relaxed text-ink-soft">{p.significance}</span>
                 {!p.verified && <span className="unverified mt-3">待核实</span>}
                 {p.series.length >= 2 && (
