@@ -14,10 +14,12 @@ const entries = [
 ];
 ---
 <section id="company-roster" class="mx-auto mt-16 max-w-6xl px-6 sm:px-10" aria-labelledby="roster-title">
- <div class="border-t border-ink/15 pt-8">
-  <p class="text-xs tracking-[0.25em] text-rouge">公司与团队名录</p>
-  <h2 id="roster-title" class="mt-3 font-serif text-3xl">下一页，从这些名字开始</h2>
-  <p class="mt-4 max-w-2xl text-sm leading-7 text-ink-soft">已建档 {companies.length} 家 · 新列入 {candidates.length} 家公司与工作室。先确定名字与产品线索，再逐家补齐历史。包含历史项目与发行主体，名单持续补充。</p>
+ <details class="roster-disclosure border-t border-ink/15">
+  <summary class="roster-summary">
+   <div><p class="text-xs tracking-[0.25em] text-rouge">公司与团队名录</p><h2 id="roster-title" class="mt-2 font-serif text-2xl">已建档 {companies.length} 家 · 待建档 {candidates.length} 家</h2></div>
+   <span class="roster-toggle text-sm text-rouge"><span class="when-closed">展开名录</span><span class="when-open">收起名录</span><span class="roster-chevron" aria-hidden="true">⌄</span></span>
+  </summary>
+  <p class="max-w-2xl text-sm leading-7 text-ink-soft">先确定名字与产品线索，再逐家补齐历史。包含历史项目与发行主体，名单持续补充。</p>
   <div class="mt-6 flex flex-col gap-3 sm:flex-row">
    <label class="flex-1"><span class="sr-only">搜索公司或产品</span><input data-roster-search type="search" placeholder="搜索公司、团队或代表产品" class="w-full border border-ink/20 bg-transparent px-4 py-3 text-sm focus-visible:outline-2 focus-visible:outline-rouge" /></label>
    <label><span class="sr-only">收录进度</span><select data-roster-filter class="w-full border border-ink/20 bg-paper px-4 py-3 text-sm focus-visible:outline-2 focus-visible:outline-rouge"><option value="">全部名字</option><option value="listed">已列入 · 待建档</option><option value="archived">已有公司档案</option><option value="studio">工作室</option></select></label>
@@ -33,11 +35,13 @@ const entries = [
   </ul>
   <p data-roster-empty hidden class="py-8 text-sm text-ink-soft">没有找到这个名字，试试代表产品或清除筛选。</p>
   <p class="mt-5 text-xs leading-6 text-mist">名单核查：2026年10月10日。待建档条目尚未补齐成立年份、全量产品与人员，不计入上方时间轴和已建档统计；工作室不视为独立公司。</p>
- </div>
+  <button type="button" data-roster-close class="mt-6 border border-ink/20 px-5 py-3 text-sm text-rouge hover:border-rouge focus-visible:outline-2 focus-visible:outline-rouge">收起名录 ↑</button>
+ </details>
 </section>
 <script>
  function setupRoster(){
   const root=document.querySelector('#company-roster');if(!root || root.hasAttribute('data-ready'))return;root.setAttribute('data-ready','');
+  root.querySelector('[data-roster-close]')!.addEventListener('click',()=>{const disclosure=root.querySelector<HTMLDetailsElement>('details')!;disclosure.open=false;disclosure.querySelector('summary')!.focus({preventScroll:true});root.scrollIntoView({block:'start',behavior:'instant'});});
   const search=root.querySelector<HTMLInputElement>('[data-roster-search]')!;
   const filter=root.querySelector<HTMLSelectElement>('[data-roster-filter]')!;
   const rows=[...root.querySelectorAll<HTMLElement>('[data-roster-row]')];
@@ -47,6 +51,18 @@ const entries = [
  setupRoster();document.addEventListener('astro:page-load',setupRoster);
 </script>
 <style>
+ .roster-disclosure{scroll-margin-top:6rem;}
+ .roster-summary{display:flex;align-items:center;justify-content:space-between;gap:1.5rem;padding:1.75rem 0;cursor:pointer;list-style:none;}
+ .roster-summary::-webkit-details-marker{display:none;}
+ .roster-summary:focus-visible{outline:2px solid var(--color-rouge);outline-offset:5px;}
+ .roster-toggle{display:inline-flex;align-items:center;gap:.75rem;flex-shrink:0;}
+ .roster-chevron{font-size:1.25rem;}
+ .when-open{display:none;}
+ .roster-disclosure[open] .when-open{display:inline;}
+ .roster-disclosure[open] .when-closed{display:none;}
+ .roster-disclosure[open] .roster-chevron{transform:rotate(180deg);}
+ @media(max-width:639px){.roster-summary{align-items:flex-start;flex-direction:column;gap:1rem;}}
+
  .roster-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:2.5rem;}
  .roster-entry{min-width:0;display:flex;flex-direction:column;border-top:1px solid color-mix(in srgb,var(--color-ink) 15%,transparent);padding:1.5rem 0;}
  .roster-entry[hidden]{display:none;}
