@@ -101,3 +101,13 @@ npx astro build
 项目 `personnelResearch` 区分检索过但未确认与有资料；没有该字段表示待检索。岗位记录必须以实名/花名公开署名和明确项目关系为依据，集团副总裁不能自动视作项目制作人。
 
 匿名访谈、团队规模及无实名岗位记录使用产品teamEvidence（observedAt、kind、summary、sources），不创建虚构person。日期是来源所描述的公开记录日期；媒体转述标reported。招聘岗位未注明项目时，不挂到任何项目，不认定在招或缺编。待补岗位只是研究清单。
+
+## 公司深挖验收清单
+
+公司页统一展示五个方向；未填researchChecklist时显示“清单待核查”，不自动认定已有档案从未检索。实际进度维护在公司frontmatter的researchChecklist；旧research保留历史记录，不作为验收判定。
+
+items必须恰好覆盖history、catalog、lifecycle、talent、business。每项包含status（pending/partial/reviewed）、scope、checkedAt、examined（source与实际检查范围note）、gaps（question、status、nextStep、sources）。partial/reviewed须有日期与实际来源；存在pending缺口不能reviewed。
+
+缺口状态：pending尚未检索；not-found已查未找到；conflicting证据不足或冲突；unavailable来源失效；access-needed需访问条件或人工协助。找不到不等于事实不存在；已解决的缺口从gaps移出并在研究记录保留结论。候选产品必须建档或记处理理由。不得把仅检查了目录的财报写成全文已查。
+
+只有五项均reviewed，且supplementRounds最后两轮来自不同渠道、均未发现新增关键事实，页面才显示本轮深度收录。每轮写checkedAt、channel、note、foundKeyFacts、sources。发现新事实则继续追查，不能凭“查了两次”验收。统计方向验收数不是全网资料完整率。更新资料后要重新核对相关方向与缺口。

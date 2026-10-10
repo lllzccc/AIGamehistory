@@ -13,6 +13,43 @@ export const sourceSchema = z.object({
 
 const sources = z.array(sourceSchema).min(1, { error: '至少需要一个来源' });
 
+export const researchAreaSchema = z.enum(['history', 'catalog', 'lifecycle', 'talent', 'business']);
+export const researchGapSchema = z.object({
+  question: z.string().min(1),
+  status: z.enum(['pending', 'not-found', 'conflicting', 'unavailable', 'access-needed']),
+  nextStep: z.string().min(1),
+  sources: z.array(sourceSchema).default([]),
+});
+export const researchChecklistSchema = z.object({
+  items: z.array(z.object({
+    area: researchAreaSchema,
+    status: z.enum(['pending', 'partial', 'reviewed']),
+    checkedAt: partialDate.optional(),
+    scope: z.string().min(1),
+    examined: z.array(z.object({ source: sourceSchema, note: z.string().min(1) })).default([]),
+    gaps: z.array(researchGapSchema).default([]),
+  })).length(5),
+  supplementRounds: z.array(z.object({
+    checkedAt: partialDate,
+    channel: z.string().min(1),
+    note: z.string().min(1),
+    foundKeyFacts: z.boolean(),
+    sources: z.array(sourceSchema).min(1),
+  })).default([]),
+}).superRefine((checklist, ctx) => {
+  if (new Set(checklist.items.map(item => item.area)).size !== 5) {
+    ctx.addIssue({ code: 'custom', message: '验收清单必须覆盖五个不同方向', path: ['items'] });
+  }
+  checklist.items.forEach((item, i) => {
+    if (item.status !== 'pending' && (!item.checkedAt || !item.examined.length)) {
+      ctx.addIssue({ code: 'custom', message: '已检索方向需要核查日期和实际检查的来源', path: ['items', i] });
+    }
+    if (item.status === 'reviewed' && item.gaps.some(gap => gap.status === 'pending')) {
+      ctx.addIssue({ code: 'custom', message: '仍有未检索缺口的方向不能验收', path: ['items', i, 'status'] });
+    }
+  });
+});
+
 export const companySchema = z.object({
   name: z.string().min(1),
   aliases: z.array(z.string()).default([]),
@@ -25,6 +62,7 @@ export const companySchema = z.object({
   website: z.url().optional(),
   logo: z.string().optional(),
   cover: z.string().optional(),
+  researchChecklist: researchChecklistSchema.optional(),
   financials: z.array(z.object({
     period: z.string().regex(/^\d{4}(-H[12])?$/),
     revenueCNY: z.number().nonnegative(),
