@@ -1,0 +1,64 @@
+{
+  "name": "Kiss of War",
+  "aliases": [
+    "胜利之吻海外版"
+  ],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "tap4fun",
+  "publisher": "tap4fun",
+  "released": "2019-09",
+  "platforms": [
+    "Android",
+    "iOS"
+  ],
+  "status": "unknown",
+  "versionLabel": "海外上线月份·Google合作案例",
+  "significance": "军事题材城建和联盟策略作品。",
+  "sources": [
+    {
+      "title": "tap4fun官网：2008年成立、中文主体与自研产品",
+      "url": "https://www.tap4fun.com/"
+    },
+    {
+      "title": "tap4fun官方全部产品目录",
+      "url": "https://tap4fun.com/game/en"
+    },
+    {
+      "title": "Google与tap4fun联合案例：Kiss of War于2019年9月推出",
+      "url": "https://www.thinkwithgoogle.com/_qs/documents/10731/Experiment_How_tap4fun_reached_gamers_most_likely_to_play_and_pay_with_automat_lezjSTg.pdf"
+    },
+    {
+      "title": "官方宣传图（图源归档；签名链接省略临时参数）",
+      "url": "https://web-public.tap4fun.com/prod/20210121172006689e2070042-c9a8-4fe0-9f4d-18e01a4701f4"
+    }
+  ],
+  "verified": true,
+  "lifecycleNotes": [
+    {
+      "note": "Google合作案例记载2019年9月推出；商店的地区、平台上线批次仍待逐一复核，国内版本不混用。 核查日期：2026-10-11。",
+      "sources": [
+        {
+          "title": "tap4fun官网：2008年成立、中文主体与自研产品",
+          "url": "https://www.tap4fun.com/"
+        },
+        {
+          "title": "tap4fun官方全部产品目录",
+          "url": "https://tap4fun.com/game/en"
+        },
+        {
+          "title": "Google与tap4fun联合案例：Kiss of War于2019年9月推出",
+          "url": "https://www.thinkwithgoogle.com/_qs/documents/10731/Experiment_How_tap4fun_reached_gamers_most_likely_to_play_and_pay_with_automat_lezjSTg.pdf"
+        },
+        {
+          "title": "官方宣传图（图源归档；签名链接省略临时参数）",
+          "url": "https://web-public.tap4fun.com/prod/20210121172006689e2070042-c9a8-4fe0-9f4d-18e01a4701f4"
+        }
+      ]
+    }
+  ],
+  "cover": "/images/slg/kiss-of-war.jpg",
+  "keyArt": "/images/slg/kiss-of-war.jpg"
+}

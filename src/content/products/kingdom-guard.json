@@ -1,0 +1,72 @@
+{
+  "name": "Kingdom Guard: Tower Defense",
+  "aliases": [
+    "守卫与远征海外版"
+  ],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "tap4fun",
+  "publisher": "tap4fun",
+  "released": "2021-06-23",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "美国iOS商店发行记录",
+  "significance": "合成、塔防与联盟战争结合的策略产品。",
+  "sources": [
+    {
+      "title": "tap4fun官网：2008年成立、中文主体与自研产品",
+      "url": "https://www.tap4fun.com/"
+    },
+    {
+      "title": "tap4fun官方全部产品目录",
+      "url": "https://tap4fun.com/game/en"
+    },
+    {
+      "title": "Apple美国商店官方元数据：发行日期及卖方",
+      "url": "https://itunes.apple.com/lookup?id=1570095804&country=us"
+    },
+    {
+      "title": "官方宣传图（图源归档；签名链接省略临时参数）",
+      "url": "https://web-public.tap4fun.com/prod/202205311307055047c333104-004c-4c10-b628-e9fb5af75653"
+    }
+  ],
+  "verified": true,
+  "lifecycleNotes": [
+    {
+      "note": "Apple美国商店记录2021-06-23；这不等同所有地区Android首发日或国内版本日期。 核查日期：2026-10-11。",
+      "sources": [
+        {
+          "title": "tap4fun官网：2008年成立、中文主体与自研产品",
+          "url": "https://www.tap4fun.com/"
+        },
+        {
+          "title": "tap4fun官方全部产品目录",
+          "url": "https://tap4fun.com/game/en"
+        },
+        {
+          "title": "Apple美国商店官方元数据：发行日期及卖方",
+          "url": "https://itunes.apple.com/lookup?id=1570095804&country=us"
+        },
+        {
+          "title": "官方宣传图（图源归档；签名链接省略临时参数）",
+          "url": "https://web-public.tap4fun.com/prod/202205311307055047c333104-004c-4c10-b628-e9fb5af75653"
+        }
+      ]
+    },
+    {
+      "note": "核查日Apple美国商店可查询、仍提供产品页面；live仅表示本条美国iOS版本商店可用，不证明所有地区服务器状态。",
+      "sources": [
+        {
+          "title": "Apple美国商店官方元数据：发行日期及卖方",
+          "url": "https://itunes.apple.com/lookup?id=1570095804&country=us"
+        }
+      ]
+    }
+  ],
+  "cover": "/images/slg/kingdom-guard.jpg",
+  "keyArt": "/images/slg/kingdom-guard.jpg"
+}

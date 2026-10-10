@@ -1,0 +1,33 @@
+{
+  "name": "Amanda Deibert",
+  "aliases": [],
+  "bio": "FunPlus官方制作人访谈确认其参与DC: Dark Legion叙事编写。",
+  "roles": [
+    {
+      "company": "funplus",
+      "scope": "product",
+      "products": [
+        "dc-dark-legion"
+      ],
+      "title": "writer",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-11",
+      "sources": [
+        {
+          "title": "FunPlus官方制作人访谈：David Du与叙事编剧",
+          "url": "https://funplus.com/info/inside-dc-dark-legion-team-exclusive-insights/"
+        }
+      ],
+      "note": "外部叙事创作署名，项目按FunPlus归档；不据此确认其是公司雇员。观察日期非入职日期。",
+      "from": "2026-10-11"
+    }
+  ],
+  "sources": [
+    {
+      "title": "FunPlus官方制作人访谈：David Du与叙事编剧",
+      "url": "https://funplus.com/info/inside-dc-dark-legion-team-exclusive-insights/"
+    }
+  ],
+  "verified": true
+}

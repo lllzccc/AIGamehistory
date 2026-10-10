@@ -46,5 +46,18 @@
   ],
   "verified": true,
   "cover": "/images/slg/state-of-survival.jpg",
-  "keyArt": "/images/slg/state-of-survival.jpg"
+  "keyArt": "/images/slg/state-of-survival.jpg",
+  "teamEvidence": [
+    {
+      "observedAt": "2026-10-11",
+      "kind": "official",
+      "summary": "David Du在FunPlus官方访谈中称曾参与本项目；具体职务、起止时间和跨公司履历尚未核实，不据此挂制作人职务。",
+      "sources": [
+        {
+          "title": "FunPlus官方制作人访谈：David Du与叙事编剧",
+          "url": "https://funplus.com/info/inside-dc-dark-legion-team-exclusive-insights/"
+        }
+      ]
+    }
+  ]
 }

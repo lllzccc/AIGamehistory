@@ -1,0 +1,82 @@
+{
+  "name": "Age of Origins",
+  "aliases": [
+    "Age of Z Origins",
+    "旭日之城海外版"
+  ],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "camelgames",
+  "publisher": "camelgames",
+  "released": "2018-10-25",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "美国iOS商店发行记录",
+  "significance": "末日城建、塔防与联盟战争相结合的长线策略作品。",
+  "sources": [
+    {
+      "title": "Camel Games官方全部产品目录",
+      "url": "https://www.camelgames.com/games"
+    },
+    {
+      "title": "Apple美国商店官方元数据：发行日期及卖方",
+      "url": "https://itunes.apple.com/lookup?id=1376515087&country=us"
+    },
+    {
+      "title": "官方宣传图（图源归档；签名链接省略临时参数）",
+      "url": "https://webpic.camelgames.com/games/image-1660100977806.jpg"
+    },
+    {
+      "title": "Camel Games官网转载周年回顾：2018年9月上线口径",
+      "url": "https://www.camelgames.com/article/new9"
+    }
+  ],
+  "verified": true,
+  "lifecycleNotes": [
+    {
+      "note": "Apple美国商店记录2018-10-25。官网转载的周年回顾称2018年9月推出，可能对应其他地区/平台的早期发行；本条采用可核对的美国iOS日期，不宣称是全球首次发行。 核查日期：2026-10-11。",
+      "sources": [
+        {
+          "title": "Camel Games官方全部产品目录",
+          "url": "https://www.camelgames.com/games"
+        },
+        {
+          "title": "Apple美国商店官方元数据：发行日期及卖方",
+          "url": "https://itunes.apple.com/lookup?id=1376515087&country=us"
+        },
+        {
+          "title": "官方宣传图（图源归档；签名链接省略临时参数）",
+          "url": "https://webpic.camelgames.com/games/image-1660100977806.jpg"
+        },
+        {
+          "title": "Camel Games官网转载周年回顾：2018年9月上线口径",
+          "url": "https://www.camelgames.com/article/new9"
+        }
+      ]
+    },
+    {
+      "note": "核查日Apple美国商店可查询、仍提供产品页面；live仅表示本条美国iOS版本商店可用，不证明所有地区服务器状态。",
+      "sources": [
+        {
+          "title": "Apple美国商店官方元数据：发行日期及卖方",
+          "url": "https://itunes.apple.com/lookup?id=1376515087&country=us"
+        }
+      ]
+    },
+    {
+      "note": "2020年度官方问询回复披露本作营业收入分别为13.17亿元（Age of Z Origins）与10.02亿元（War and Order）；属于收入，不是充值流水，地区与版本合计不拆到本条iOS版本。",
+      "sources": [
+        {
+          "title": "神州泰岳2020年报问询回复：天津壳木和主要游戏收入",
+          "url": "https://static.cninfo.com.cn/finalpage/2021-06-07/1210182976.PDF"
+        }
+      ]
+    }
+  ],
+  "cover": "/images/slg/age-of-origins.jpg",
+  "keyArt": "/images/slg/age-of-origins.jpg"
+}

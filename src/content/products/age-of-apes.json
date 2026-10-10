@@ -1,0 +1,72 @@
+{
+  "name": "Age of Apes",
+  "aliases": [
+    "猿族时代海外版"
+  ],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "tap4fun",
+  "publisher": "tap4fun",
+  "released": "2020-09-29",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "美国iOS商店发行记录",
+  "significance": "以猿猴文明、氏族战争和火箭竞赛结合城建策略。",
+  "sources": [
+    {
+      "title": "tap4fun官网：2008年成立、中文主体与自研产品",
+      "url": "https://www.tap4fun.com/"
+    },
+    {
+      "title": "tap4fun官方全部产品目录",
+      "url": "https://tap4fun.com/game/en"
+    },
+    {
+      "title": "Apple美国商店官方元数据：发行日期及卖方",
+      "url": "https://itunes.apple.com/lookup?id=1475453887&country=us"
+    },
+    {
+      "title": "官方宣传图（图源归档；签名链接省略临时参数）",
+      "url": "https://web-public.tap4fun.com/prod/2021012117271680878f473d0-dd26-437c-9bad-a5ad3cf3161a"
+    }
+  ],
+  "verified": true,
+  "lifecycleNotes": [
+    {
+      "note": "Apple美国商店记录2020-09-29。本条为海外iOS版本；Android早期上线和国内《猿族时代》日期另待核对。 核查日期：2026-10-11。",
+      "sources": [
+        {
+          "title": "tap4fun官网：2008年成立、中文主体与自研产品",
+          "url": "https://www.tap4fun.com/"
+        },
+        {
+          "title": "tap4fun官方全部产品目录",
+          "url": "https://tap4fun.com/game/en"
+        },
+        {
+          "title": "Apple美国商店官方元数据：发行日期及卖方",
+          "url": "https://itunes.apple.com/lookup?id=1475453887&country=us"
+        },
+        {
+          "title": "官方宣传图（图源归档；签名链接省略临时参数）",
+          "url": "https://web-public.tap4fun.com/prod/2021012117271680878f473d0-dd26-437c-9bad-a5ad3cf3161a"
+        }
+      ]
+    },
+    {
+      "note": "核查日Apple美国商店可查询、仍提供产品页面；live仅表示本条美国iOS版本商店可用，不证明所有地区服务器状态。",
+      "sources": [
+        {
+          "title": "Apple美国商店官方元数据：发行日期及卖方",
+          "url": "https://itunes.apple.com/lookup?id=1475453887&country=us"
+        }
+      ]
+    }
+  ],
+  "cover": "/images/slg/age-of-apes.jpg",
+  "keyArt": "/images/slg/age-of-apes.jpg"
+}

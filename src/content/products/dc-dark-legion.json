@@ -1,0 +1,95 @@
+{
+  "name": "DC: Dark Legion",
+  "aliases": [],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "funplus",
+  "publisher": "funplus",
+  "released": "2025-03-14",
+  "platforms": [
+    "Android",
+    "iOS",
+    "PC"
+  ],
+  "status": "unknown",
+  "versionLabel": "全球上线·相邻策略作品",
+  "significance": "FunPlus产品线中的角色小队、基地建设与社交策略作品，作为传统SLG相邻方向收录。",
+  "sources": [
+    {
+      "title": "FunPlus官方：DC Dark Legion全球上线及制作人署名",
+      "url": "https://funplus.com/dc-dark-legion-global-launch-lead-the-league/"
+    },
+    {
+      "title": "DC官方：研发、发行方与上线日",
+      "url": "https://www.dc.com/games/dc-dark-legion-2025"
+    },
+    {
+      "title": "FunPlus官方制作人访谈：David Du与叙事编剧",
+      "url": "https://funplus.com/info/inside-dc-dark-legion-team-exclusive-insights/"
+    },
+    {
+      "title": "官方宣传图（图源归档；签名链接省略临时参数）",
+      "url": "https://funplus.com/wp-content/uploads/2025/03/DC_DarkLegion_GlobalLaunch_DownloadNow_FunPlus.jpg-min-1024x576.jpg"
+    }
+  ],
+  "verified": true,
+  "lifecycleNotes": [
+    {
+      "note": "本作属于相邻策略：制作人称其融合RPG和社交，且不能掠夺其他玩家基地；不要直接当作经典4X联盟攻城游戏。首发日为官方全球上线口径。 核查日期：2026-10-11。",
+      "sources": [
+        {
+          "title": "FunPlus官方：DC Dark Legion全球上线及制作人署名",
+          "url": "https://funplus.com/dc-dark-legion-global-launch-lead-the-league/"
+        },
+        {
+          "title": "DC官方：研发、发行方与上线日",
+          "url": "https://www.dc.com/games/dc-dark-legion-2025"
+        },
+        {
+          "title": "FunPlus官方制作人访谈：David Du与叙事编剧",
+          "url": "https://funplus.com/info/inside-dc-dark-legion-team-exclusive-insights/"
+        },
+        {
+          "title": "官方宣传图（图源归档；签名链接省略临时参数）",
+          "url": "https://funplus.com/wp-content/uploads/2025/03/DC_DarkLegion_GlobalLaunch_DownloadNow_FunPlus.jpg-min-1024x576.jpg"
+        }
+      ]
+    }
+  ],
+  "cover": "/images/slg/dc-dark-legion.jpg",
+  "keyArt": "/images/slg/dc-dark-legion.jpg",
+  "teamEvidence": [
+    {
+      "observedAt": "2026-10-11",
+      "kind": "official",
+      "summary": "官方确认制作人David Du，以及叙事编剧Christos Gage、Amanda Deibert；编剧署名不证明雇佣关系。",
+      "sources": [
+        {
+          "title": "FunPlus官方：DC Dark Legion全球上线及制作人署名",
+          "url": "https://funplus.com/dc-dark-legion-global-launch-lead-the-league/"
+        },
+        {
+          "title": "FunPlus官方制作人访谈：David Du与叙事编剧",
+          "url": "https://funplus.com/info/inside-dc-dark-legion-team-exclusive-insights/"
+        }
+      ]
+    }
+  ],
+  "personnelResearch": {
+    "status": "documented",
+    "checkedAt": "2026-10-11",
+    "note": "已核对上述三个角色署名；主策、核心美术、历任团队及劳动关系仍待查。",
+    "sources": [
+      {
+        "title": "FunPlus官方：DC Dark Legion全球上线及制作人署名",
+        "url": "https://funplus.com/dc-dark-legion-global-launch-lead-the-league/"
+      },
+      {
+        "title": "FunPlus官方制作人访谈：David Du与叙事编剧",
+        "url": "https://funplus.com/info/inside-dc-dark-legion-team-exclusive-insights/"
+      }
+    ]
+  }
+}
