@@ -1,0 +1,46 @@
+{
+  "name": "Guns of Glory",
+  "aliases": [
+    "火枪纪元"
+  ],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "funplus",
+  "publisher": "funplus",
+  "released": "2017",
+  "platforms": [
+    "Android",
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "海外版本 · 官方历程口径",
+  "significance": "KingsGroup研发的架空欧洲战争策略产品，结合基地经营与多人联盟。",
+  "lifecycleNotes": [
+    {
+      "note": "本档案采用官方海外上线时间，不代表中国大陆首发；各平台及地区日期后续分别补齐。",
+      "sources": [
+        {
+          "title": "FunPlus：Guns of Glory五周年及研发团队",
+          "url": "https://funplus.com/guns-of-glory-celebrates-fifth-anniversary-with-treasure-island-adventure/"
+        },
+        {
+          "title": "FunPlus官方公司历程",
+          "url": "https://funplus.com/about-funplus/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "FunPlus：Guns of Glory五周年及研发团队",
+      "url": "https://funplus.com/guns-of-glory-celebrates-fifth-anniversary-with-treasure-island-adventure/"
+    },
+    {
+      "title": "FunPlus官方公司历程",
+      "url": "https://funplus.com/about-funplus/"
+    }
+  ],
+  "verified": true
+}

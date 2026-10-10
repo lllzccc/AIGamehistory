@@ -1,0 +1,46 @@
+{
+  "name": "王国纪元",
+  "aliases": [
+    "Lords Mobile"
+  ],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "igg",
+  "publisher": "igg",
+  "released": "2016-03",
+  "platforms": [
+    "Android",
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "海外版本 · 官方历程口径",
+  "significance": "以城建、英雄养成和实时联盟战争结合的全球策略产品，是IGG的代表作之一。",
+  "lifecycleNotes": [
+    {
+      "note": "本档案采用官方海外上线时间，不代表中国大陆首发；各平台及地区日期后续分别补齐。",
+      "sources": [
+        {
+          "title": "IGG 2016年度业绩：产品上线月份",
+          "url": "https://img1.igg.com/9900/common_article/2018/12/13/591916874.pdf"
+        },
+        {
+          "title": "IGG投资者关系：集团简介",
+          "url": "https://investor.igg.com/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "IGG 2016年度业绩：产品上线月份",
+      "url": "https://img1.igg.com/9900/common_article/2018/12/13/591916874.pdf"
+    },
+    {
+      "title": "IGG投资者关系：集团简介",
+      "url": "https://investor.igg.com/"
+    }
+  ],
+  "verified": true
+}

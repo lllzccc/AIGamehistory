@@ -23,6 +23,7 @@ export const genreLabel: Record<Product['genre'], string> = {
   otome: '乙女',
   dressup: '换装',
   interactive: '互动叙事',
+  strategy: 'SLG策略',
   other: '其他',
 };
 

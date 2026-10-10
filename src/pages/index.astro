@@ -26,13 +26,14 @@ const books = chronicles.map(volume => {
       <span>已上架 {books.length} 卷 · 持续编目</span>
       <a href={withBase('/chronicle/female/')}>女性向卷</a>
       <a href={withBase('/chronicle/casual/')}>休闲卷</a>
+      <a href={withBase('/chronicle/slg/')}>SLG卷</a>
     </div>
   </section>
 </Base>
 <style>
   .library-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:32px;max-width:860px;margin:0 auto 12px}
   .library-intro{padding-bottom:12px}
-  .library-footnote{display:flex;gap:24px;align-items:center;max-width:860px;margin:22px auto 0;padding-top:22px;border-top:1px solid #1e1a1715;font-size:11px;color:var(--color-mist)}
+  .library-footnote{display:flex;flex-wrap:wrap;gap:24px;align-items:center;max-width:860px;margin:22px auto 0;padding-top:22px;border-top:1px solid #1e1a1715;font-size:11px;color:var(--color-mist)}
   .library-footnote span{margin-right:auto}.library-footnote a:hover{color:var(--color-rouge)}
   @media(max-width:640px){.library-heading{display:block;margin-bottom:20px}.library-intro{margin-top:12px}.library-footnote{gap:14px}}
 </style>

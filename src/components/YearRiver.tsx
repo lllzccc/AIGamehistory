@@ -26,7 +26,7 @@ function Group({ label, children }: { label: string; children: ReactNode }) {
   );
 }
 
-export default function YearRiver({ buckets }: { buckets: YearBucket[] }) {
+export default function YearRiver({ buckets, chronicle }: { buckets: YearBucket[]; chronicle?: string }) {
   const [genre, setGenre] = useState<GenreFilter>('all');
   const [openId, setOpenId] = useState<string | null>(null);
   const close = useCallback(() => setOpenId(null), []);
@@ -53,7 +53,7 @@ export default function YearRiver({ buckets }: { buckets: YearBucket[] }) {
       <div className="sticky top-0 z-30 -mx-6 border-b border-ink/10 bg-paper/90 px-6 backdrop-blur sm:-mx-10 sm:px-10">
         <div role="group" aria-label="按品类筛选" className="flex flex-wrap items-center gap-2 py-4 text-sm">
           <span className="mr-2 text-xs tracking-[0.3em] text-mist">品类</span>
-          {FILTERS.map((f) => (
+          {(chronicle === 'slg' ? [{ value: 'all' as const, label: '全部' }, { value: 'strategy' as const, label: 'SLG策略' }] : FILTERS).map((f) => (
             <button
               key={f.value}
               type="button"

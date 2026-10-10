@@ -1,0 +1,44 @@
+{
+  "name": "State of Survival",
+  "aliases": [],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "funplus",
+  "publisher": "funplus",
+  "released": "2019-06",
+  "platforms": [
+    "Android",
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "海外版本 · 官方历程口径",
+  "significance": "由KingsGroup推出的末日题材策略游戏，以基地经营、生存与联盟合作构建长期玩法。",
+  "lifecycleNotes": [
+    {
+      "note": "本档案采用官方海外上线时间，不代表中国大陆首发；各平台及地区日期后续分别补齐。",
+      "sources": [
+        {
+          "title": "FunPlus官方公司历程",
+          "url": "https://funplus.com/about-funplus/"
+        },
+        {
+          "title": "FunPlus：State of Survival",
+          "url": "https://funplus.com/games/state-of-survival/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "FunPlus官方公司历程",
+      "url": "https://funplus.com/about-funplus/"
+    },
+    {
+      "title": "FunPlus：State of Survival",
+      "url": "https://funplus.com/games/state-of-survival/"
+    }
+  ],
+  "verified": true
+}

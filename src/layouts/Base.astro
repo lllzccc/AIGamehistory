@@ -33,6 +33,7 @@ const path = Astro.url.pathname.slice(withBase('/').length - 1);
           <a href={withBase('/')} class:list={['transition hover:text-rouge', path === '/' && 'text-rouge']}>书架</a>
           <a href={withBase('/chronicle/female/')} class:list={['transition hover:text-rouge', path.startsWith('/chronicle/female') && 'text-rouge']}>女性向</a>
           <a href={withBase('/chronicle/casual/')} class:list={['transition hover:text-rouge', path.startsWith('/chronicle/casual') && 'text-rouge']}>休闲</a>
+          <a href={withBase('/chronicle/slg/')} class:list={['transition hover:text-rouge', path.startsWith('/chronicle/slg') && 'text-rouge']}>SLG</a>
           <a href={withBase('/compare')} class:list={['transition hover:text-rouge', path.startsWith('/compare') && 'text-rouge']}>对比</a>
         </nav>
       </div>

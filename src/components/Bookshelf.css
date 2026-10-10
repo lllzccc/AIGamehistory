@@ -53,3 +53,5 @@
 .shelf-books{perspective:none}.book-cover,.book-pages{visibility:hidden;transition:visibility 0s .8s}.is-open .book-cover,.is-open .book-pages{visibility:visible;transition:none}
 
 .book-select{position:absolute;inset:0;z-index:10;border:0;background:transparent;cursor:pointer}.book-select:focus-visible{outline:2px solid #b17c38;outline-offset:5px}.book-spine:focus-visible{outline:2px solid #b17c38;outline-offset:2px}@media(prefers-reduced-motion:reduce){.archive-book,.book-solid,.book-cover,.book-pages,.book-spine{transition:none}}
+
+.archive-book:nth-child(3){height:430px}.slg-map{position:absolute;inset:0;background:repeating-linear-gradient(0deg,transparent 0 21px,#e1c99c18 22px 23px),repeating-linear-gradient(90deg,transparent 0 21px,#e1c99c18 22px 23px);mask-image:linear-gradient(transparent,#000 20%,#000 80%,transparent)}.slg-fort{position:absolute;left:125px;top:10px;font-size:65px;color:var(--foil);opacity:.8}.slg-route{position:absolute;left:40px;right:40px;top:60px;border-top:1px dashed #e1c99c80;transform:rotate(-20deg)}@media(max-width:640px){.archive-book:nth-child(3){height:354px}.slg-fort{top:0;font-size:55px;left:108px}.slg-route{top:40px}}

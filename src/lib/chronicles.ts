@@ -3,6 +3,7 @@ import type { Dataset } from './types';
 export const chronicles = [
   { id: 'female', title: '女性向游戏编年史', shortTitle: '女性向', edition: '卷一', subtitle: '关于心动、想象与另一种人生', description: '从换装、乙女到宫廷恋爱，追踪公司、产品与创作它们的人。', color: '#703d4d', accent: '#e5cfa7' },
   { id: 'casual', title: '休闲游戏编年史', shortTitle: '休闲', edition: '卷二', subtitle: '小小的玩法，长长的故事', description: '从消除、合成到模拟经营，记录那些进入日常生活的游戏与公司。', color: '#365e60', accent: '#d8dcb3' },
+  { id: 'slg', title: 'SLG游戏编年史', shortTitle: 'SLG', edition: '卷三', subtitle: '关于疆域、联盟与长久的博弈', description: '从城建经营到联盟战争，记录策略游戏公司的产品、团队与全球征程。', color: '#514b35', accent: '#e1c99c' },
 ] as const;
 export type ChronicleId = typeof chronicles[number]['id'];
 

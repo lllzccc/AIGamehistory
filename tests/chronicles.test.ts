@@ -29,3 +29,16 @@ describe('编年史分卷', () => {
   expect(selectChronicle(ds, 'female').products).toHaveLength(3);
  });
 });
+
+describe('SLG第三卷', () => {
+ it('只收录显式归属SLG的产品及其公司，避免女性向默认值串卷', () => {
+  const ds = makeDataset();
+  ds.products[0].chronicles = ['slg'];
+  ds.products[0].genre = 'strategy';
+  const slg = selectChronicle(ds, 'slg');
+  expect(slg.products.map(p => p.id)).toEqual(['a-first']);
+  expect(slg.companies.map(c => c.id)).toEqual(['alpha']);
+  expect(slg.market).toEqual([]);
+  expect(selectChronicle(ds, 'female').products.map(p => p.id)).toEqual(['a-second', 'b-first']);
+ });
+});
