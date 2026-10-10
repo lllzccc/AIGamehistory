@@ -19,7 +19,13 @@ export default function Bookshelf({ books }: { books: Book[] }) {
   useEffect(() => {
     if (!active || !window.matchMedia('(max-width: 640px)').matches) return;
     const element = shelf.current?.querySelector<HTMLElement>('.is-open');
-    if (element && shelf.current) shelf.current.scrollTo({ left: element.offsetLeft - shelf.current.offsetLeft - 5, behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
+    const scroll = () => {
+      const container = shelf.current;
+      if (element && container) container.scrollTo({ left: container.scrollLeft + element.getBoundingClientRect().left - container.getBoundingClientRect().left - 5, behavior: 'instant' });
+    };
+    scroll();
+    const timer = window.setTimeout(scroll, 820);
+    return () => window.clearTimeout(timer);
   }, [active]);
   return <div className="archive-shelf" onKeyDown={e => { if (e.key === 'Escape') setActive(null); }}>
     <div className="shelf-light" aria-hidden="true" />
