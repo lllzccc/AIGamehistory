@@ -91,12 +91,12 @@ export default function YearRiver({ buckets }: { buckets: YearBucket[] }) {
               )}
               {b.founded.length > 0 && (
                 <Group label="新成立">
-                  <ul className="grid gap-4 sm:grid-cols-2">
+                  <ul className="grid grid-cols-[repeat(auto-fit,minmax(min(100%,18rem),1fr))] gap-4">
                     {b.founded.map((c, i) => (
                       <motion.li key={c.id} {...reveal(i * 0.06)}>
                         <a
                           href={withBase(`/company/${c.id}`)}
-                          className="group flex items-start gap-4 border border-ink/10 bg-paper-deep/40 p-5 transition hover:border-rouge/40 motion-safe:hover:-translate-y-0.5"
+                          className="company-record group flex h-60 items-start gap-4 border border-ink/10 bg-paper-deep/40 p-5 transition hover:border-rouge/40"
                         >
                           {c.logo ? (
                             <img src={c.logo} alt="" className="h-12 w-12 shrink-0 object-contain" />
@@ -105,15 +105,15 @@ export default function YearRiver({ buckets }: { buckets: YearBucket[] }) {
                               {c.name.slice(0, 1)}
                             </span>
                           )}
-                          <span className="min-w-0">
-                            <span className="block font-serif text-lg text-ink transition group-hover:text-rouge">
+                          <span className="flex h-full min-w-0 flex-1 flex-col">
+                            <span className="line-clamp-2 min-h-14 font-serif text-lg leading-7 text-ink transition group-hover:text-rouge">
                               {c.name}
                             </span>
-                            <span className="mt-1 block text-xs tracking-wide text-mist">
+                            <span className="mt-1 line-clamp-2 h-8 shrink-0 text-xs leading-4 tracking-wide text-mist">
                               {formatDate(c.founded)} · {companyKindLabel[c.kind]}
                             </span>
-                            <span className="mt-2 block text-sm leading-relaxed text-ink-soft">{c.tagline}</span>
-                            {!c.verified && <span className="unverified mt-2">待核实</span>}
+                            <span className="mt-2 line-clamp-3 h-[4.125rem] shrink-0 text-sm leading-[1.375rem] text-ink-soft">{c.tagline}</span>
+                            <span className="mt-auto block h-6">{!c.verified && <span className="unverified">待核实</span>}</span>
                           </span>
                         </a>
                       </motion.li>
