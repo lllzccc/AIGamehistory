@@ -1,0 +1,42 @@
+{
+  "name": "King of Avalon",
+  "aliases": [],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "funplus",
+  "publisher": "funplus",
+  "released": "2016",
+  "platforms": [
+    "Android",
+    "iOS"
+  ],
+  "status": "unknown",
+  "versionLabel": "海外发行年份",
+  "significance": "亚瑟王题材城建与联盟战争，是FunPlus早期移动策略代表作。",
+  "sources": [
+    {
+      "title": "FunPlus官方六周年回顾：2016年发行",
+      "url": "https://funplus.com/funplus-celebrates-king-of-avalons-6th-anniversary/"
+    },
+    {
+      "title": "官方宣传图",
+      "url": "https://funplus.com/wp-content/uploads/2021/05/p2-min.jpg"
+    }
+  ],
+  "lifecycleNotes": [
+    {
+      "note": "官方周年回顾确认2016年发行；具体首发日及地区批次仍待核对。KingsGroup团队与法人关系继续深挖。 核查日期：2026-10-11。",
+      "sources": [
+        {
+          "title": "FunPlus官方六周年回顾：2016年发行",
+          "url": "https://funplus.com/funplus-celebrates-king-of-avalons-6th-anniversary/"
+        }
+      ]
+    }
+  ],
+  "verified": true,
+  "cover": "/images/slg/king-of-avalon.jpg",
+  "keyArt": "/images/slg/king-of-avalon.jpg"
+}

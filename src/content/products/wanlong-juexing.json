@@ -1,0 +1,54 @@
+{
+  "name": "万龙觉醒",
+  "aliases": [],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "legou",
+  "publisher": "lilith",
+  "released": "2024-09-09",
+  "platforms": [
+    "Android"
+  ],
+  "status": "unknown",
+  "versionLabel": "国内Android商店发行记录",
+  "significance": "《Call of Dragons》国内版本，保留独立的平台日期与制作人署名。",
+  "sources": [
+    {
+      "title": "TapTap官方商店：万龙觉醒Android发行记录",
+      "url": "https://www.taptap.cn/app/238517/all-info"
+    },
+    {
+      "title": "官方宣传图",
+      "url": "https://img-tc.tapimg.com/market/images/392719236892a5af81174ad26d020487.jpg/_tap_screenshot.jpg"
+    }
+  ],
+  "lifecycleNotes": [
+    {
+      "note": "此日期为TapTap Android正式发行记录，不直接等同全部平台公测日；PC商店后续日期不作为首次上线。 核查日期：2026-10-11。",
+      "sources": [
+        {
+          "title": "TapTap官方商店：万龙觉醒Android发行记录",
+          "url": "https://www.taptap.cn/app/238517/all-info"
+        }
+      ]
+    }
+  ],
+  "verified": true,
+  "cover": "/images/slg/wanlong-juexing.jpg",
+  "keyArt": "/images/slg/wanlong-juexing.jpg",
+  "teamEvidence": [
+    {
+      "observedAt": "2026-10-11",
+      "kind": "official",
+      "summary": "官方开发者寄语署名制作人小福；任职时段与核心策划、美术名单仍待补充。",
+      "sources": [
+        {
+          "title": "万龙觉醒官方开发者寄语：制作人小福",
+          "url": "https://www.taptap.cn/app/238517"
+        }
+      ]
+    }
+  ]
+}

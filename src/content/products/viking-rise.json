@@ -1,0 +1,42 @@
+{
+  "name": "Viking Rise",
+  "aliases": [],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "igg",
+  "publisher": "igg",
+  "released": "2022-12",
+  "platforms": [
+    "Android",
+    "iOS"
+  ],
+  "status": "unknown",
+  "versionLabel": "海外早期发行·财报口径",
+  "significance": "维京题材城建与联盟战争产品。",
+  "sources": [
+    {
+      "title": "IGG 2023年中期报告：首次发行与全球推广时间",
+      "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2023/0905/2023090500870.pdf"
+    },
+    {
+      "title": "官方宣传图",
+      "url": "https://statics-global.igg.com/game/news/2025/02/06/023428_67a466046959c4296.jpg"
+    }
+  ],
+  "lifecycleNotes": [
+    {
+      "note": "2023年中报记载2022年12月发行，2023年4月启动全球推广。官方全球亮相公告所称2023年4月15日对应后续推广阶段。 核查日期：2026-10-11。",
+      "sources": [
+        {
+          "title": "IGG 2023年中期报告：首次发行与全球推广时间",
+          "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2023/0905/2023090500870.pdf"
+        }
+      ]
+    }
+  ],
+  "verified": true,
+  "cover": "/images/slg/viking-rise.jpg",
+  "keyArt": "/images/slg/viking-rise.jpg"
+}

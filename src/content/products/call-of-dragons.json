@@ -1,0 +1,43 @@
+{
+  "name": "Call of Dragons",
+  "aliases": [],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "legou",
+  "publisher": "lilith",
+  "released": "2023-03-28",
+  "platforms": [
+    "Android",
+    "iOS",
+    "PC"
+  ],
+  "status": "unknown",
+  "versionLabel": "海外全球上线",
+  "significance": "高幻想联盟战争作品，研发方乐狗与发行方莉莉丝分别建档。",
+  "sources": [
+    {
+      "title": "Farlight官方新闻稿：研发方、发行品牌与2023年3月28日全球上线",
+      "url": "https://www.globenewswire.com/en/news-release/2023/03/15/2627746/0/en/High-Fantasy-Lore-and-Strategy-Combat-Converge-in-Call-of-Dragons-Release-Date-and-New-Trailer-Revealed.html"
+    },
+    {
+      "title": "官方宣传图",
+      "url": "https://lilithimage.lilithcdn.com/allgames-official-web/samo/en/images/pc/home/feature_img1.webp"
+    }
+  ],
+  "lifecycleNotes": [
+    {
+      "note": "Farlight是莉莉丝全球发行品牌，不作为另一家自研公司。国内《万龙觉醒》另列版本。 核查日期：2026-10-11。",
+      "sources": [
+        {
+          "title": "Farlight官方新闻稿：研发方、发行品牌与2023年3月28日全球上线",
+          "url": "https://www.globenewswire.com/en/news-release/2023/03/15/2627746/0/en/High-Fantasy-Lore-and-Strategy-Combat-Converge-in-Call-of-Dragons-Release-Date-and-New-Trailer-Revealed.html"
+        }
+      ]
+    }
+  ],
+  "verified": true,
+  "cover": "/images/slg/call-of-dragons.jpg",
+  "keyArt": "/images/slg/call-of-dragons.jpg"
+}

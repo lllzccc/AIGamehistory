@@ -1,0 +1,42 @@
+{
+  "name": "Sea of Conquest: Pirate War",
+  "aliases": [],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "funplus",
+  "publisher": "funplus",
+  "released": "2024-01",
+  "platforms": [
+    "Android",
+    "iOS"
+  ],
+  "status": "unknown",
+  "versionLabel": "全球上线·官方历程",
+  "significance": "以海盗舰队和联盟航海战争拓展FunPlus策略产品线。",
+  "sources": [
+    {
+      "title": "FunPlus官方公司发展历程",
+      "url": "https://funplus.com/about-funplus/"
+    },
+    {
+      "title": "官方宣传图",
+      "url": "https://funplus.com/wp-content/uploads/2024/01/Clans.jpg"
+    }
+  ],
+  "lifecycleNotes": [
+    {
+      "note": "官方历程区分2023年10月部分欧洲地区早期上线与2024年1月全球上线；本条采用全球上线月份。 核查日期：2026-10-11。",
+      "sources": [
+        {
+          "title": "FunPlus官方公司发展历程",
+          "url": "https://funplus.com/about-funplus/"
+        }
+      ]
+    }
+  ],
+  "verified": true,
+  "cover": "/images/slg/sea-of-conquest.jpg",
+  "keyArt": "/images/slg/sea-of-conquest.jpg"
+}

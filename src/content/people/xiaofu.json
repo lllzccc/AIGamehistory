@@ -1,0 +1,33 @@
+{
+  "name": "小福",
+  "aliases": [],
+  "bio": "《万龙觉醒》官方开发者寄语中的制作人署名。公开页面使用别名，真实姓名、劳动关系及任期暂未核实。",
+  "roles": [
+    {
+      "company": "legou",
+      "scope": "product",
+      "products": [
+        "wanlong-juexing"
+      ],
+      "title": "producer",
+      "from": "2026-10-11",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-11",
+      "sources": [
+        {
+          "title": "万龙觉醒官方开发者寄语：制作人小福",
+          "url": "https://www.taptap.cn/app/238517"
+        }
+      ],
+      "note": "日期为本站观察官方署名的日期，非入职或任职起点；项目按研发方乐狗归档，不据此确认法律雇主。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "万龙觉醒官方开发者寄语：制作人小福",
+      "url": "https://www.taptap.cn/app/238517"
+    }
+  ],
+  "verified": true
+}

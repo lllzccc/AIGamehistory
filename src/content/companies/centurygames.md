@@ -18,6 +18,14 @@
     {
       "title": "世纪华通投资者活动记录：无尽冬日与点点产品",
       "url": "https://static.cninfo.com.cn/finalpage/2024-12-06/1221957566.PDF"
+    },
+    {
+      "title": "世纪华通2024年年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223382771.PDF"
+    },
+    {
+      "title": "世纪华通2025年半年度报告",
+      "url": "https://static.cninfo.com.cn/finalpage/2025-08-30/1224628793.PDF"
     }
   ],
   "website": "https://www.campfiregames.cn/aboutus/",
@@ -87,16 +95,32 @@
       },
       {
         "area": "business",
-        "status": "pending",
+        "status": "partial",
         "scope": "公司财务与产品流水分开记录",
-        "examined": [],
+        "examined": [
+          {
+            "source": {
+              "title": "世纪华通2024年年度报告",
+              "url": "https://static.cninfo.com.cn/finalpage/2025-04-29/1223382771.PDF"
+            },
+            "note": "核对官方财务报告；保留主体、币种、统计期间与约数。"
+          },
+          {
+            "source": {
+              "title": "世纪华通2025年半年度报告",
+              "url": "https://static.cninfo.com.cn/finalpage/2025-08-30/1224628793.PDF"
+            },
+            "note": "核对官方财务报告；保留主体、币种、统计期间与约数。"
+          }
+        ],
         "gaps": [
           {
             "question": "优先核对年报及投资者记录；估算需注明平台、地区与统计区间。",
             "status": "pending",
             "nextStep": "优先核对年报及投资者记录；估算需注明平台、地区与统计区间。"
           }
-        ]
+        ],
+        "checkedAt": "2026-10-11"
       }
     ],
     "supplementRounds": []
@@ -106,3 +130,16 @@
 官方关于我们将Century Games起点记为2010年，并明确Whiteout Survival为代表自研产品。本站按点点互动品牌聚合，北京为官网列示公司主体所在地，不表示所有团队办公地。本轮分别收录海外Whiteout Survival与国内《无尽冬日》App，商店供应商与品牌研发方分开说明。历史股权与其他法人关系待逐期核对。
 
 本轮为代表产品建档阶段，五个深挖方向的缺口保留在页末。人员和财务尚未完成专项检索，空白不代表没有公开资料。
+
+## 财务账页
+
+核查日期：2026-10-11。2024年年报经营回顾记载点点互动收入**约150亿元人民币**，为品牌经营口径，不作为北京单一法人收入。
+
+| 2025年上半年主体 | 营业收入（人民币） | 净利润（人民币） |
+| --- | ---: | ---: |
+| CENTURY GAMES PTE. LTD. | 8,760,014,900元 | 721,221,100元 |
+| 点点互动（北京）科技有限公司 | 4,174,847,900元 | 1,866,013,900元 |
+
+半年度报告主要子公司表以万元人民币列示，上表换算为元。两个主体可能存在内部交易，**不能简单相加当作点点集团合并收入**。以上均为公司收入与净利润，不是单款游戏流水。报告同时确认2025年上半年推出Kingshot，精确首发日期及国内版本另待查。
+
+[2024年报](https://static.cninfo.com.cn/finalpage/2025-04-29/1223382771.PDF) · [2025半年报，第19页主要子公司表](https://static.cninfo.com.cn/finalpage/2025-08-30/1224628793.PDF)
