@@ -75,7 +75,7 @@
       {
         "area": "catalog",
         "status": "partial",
-        "scope": "完整目录与研发发行关系",
+        "scope": "完整目录与研发发行关系 本轮补入Infinite Galaxy美国iOS版本。",
         "checkedAt": "2026-10-11",
         "examined": [
           {

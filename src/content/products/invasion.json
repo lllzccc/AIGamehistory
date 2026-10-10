@@ -1,0 +1,47 @@
+{
+  "name": "Invasion: Aerial Warfare",
+  "aliases": [
+    "Invasion: Modern Empire"
+  ],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "tap4fun",
+  "publisher": "tap4fun",
+  "released": "2015-02-26",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "美国iOS商店发行记录",
+  "significance": "现代军事基地建设、地图领地与联盟战争。",
+  "cover": "/images/slg/invasion.jpg",
+  "keyArt": "/images/slg/invasion.jpg",
+  "sources": [
+    {
+      "title": "Apple美国iOS官方元数据：日期与卖方",
+      "url": "https://itunes.apple.com/lookup?id=949785353&country=us"
+    },
+    {
+      "title": "公司官方产品资料",
+      "url": "https://invasion.tap4fun.com/"
+    }
+  ],
+  "verified": true,
+  "lifecycleNotes": [
+    {
+      "note": "核查日期2026-10-11。日期仅为美国iOS元数据记录；Android、全球推广与国内版本待查。公司按品牌聚合，海外卖方为TAP4FUN (HONGKONG) LIMITED，不是将其登记日期当作研发团队成立日期。",
+      "sources": [
+        {
+          "title": "Apple美国iOS官方元数据：日期与卖方",
+          "url": "https://itunes.apple.com/lookup?id=949785353&country=us"
+        },
+        {
+          "title": "公司官方产品资料",
+          "url": "https://invasion.tap4fun.com/"
+        }
+      ]
+    }
+  ]
+}

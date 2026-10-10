@@ -1,0 +1,53 @@
+{
+  "name": "Last Shelter: Survival",
+  "aliases": [],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "longchuang",
+  "publisher": "longchuang",
+  "released": "2018-02-19",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "美国iOS商店发行记录",
+  "significance": "末日基地建设、兵种训练与联盟领地战争。",
+  "cover": "/images/slg/last-shelter.jpg",
+  "keyArt": "/images/slg/last-shelter.jpg",
+  "sources": [
+    {
+      "title": "生存堡垒官方：龙创悦动公司简介与2015年1月团队起点",
+      "url": "https://apps.im30.net/lf/company.html"
+    },
+    {
+      "title": "IM30官网：产品目录与公司中文名称",
+      "url": "https://www.im30.net/en/"
+    },
+    {
+      "title": "Apple美国iOS官方元数据：日期与卖方",
+      "url": "https://itunes.apple.com/lookup?id=1342290011&country=us"
+    }
+  ],
+  "verified": true,
+  "lifecycleNotes": [
+    {
+      "note": "核查日期2026-10-11。日期仅为美国iOS商店记录；其他地区、Android与国内首发不据此推断。海外卖方为LONG TECH NETWORK LIMITED；研发与发行按官网IM30产品线品牌聚合，具体法律关系待核查。",
+      "sources": [
+        {
+          "title": "生存堡垒官方：龙创悦动公司简介与2015年1月团队起点",
+          "url": "https://apps.im30.net/lf/company.html"
+        },
+        {
+          "title": "IM30官网：产品目录与公司中文名称",
+          "url": "https://www.im30.net/en/"
+        },
+        {
+          "title": "Apple美国iOS官方元数据：日期与卖方",
+          "url": "https://itunes.apple.com/lookup?id=1342290011&country=us"
+        }
+      ]
+    }
+  ]
+}

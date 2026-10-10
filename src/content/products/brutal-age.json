@@ -1,0 +1,45 @@
+{
+  "name": "Brutal Age: Horde Invasion",
+  "aliases": [],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "tap4fun",
+  "publisher": "tap4fun",
+  "released": "2016-09-29",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "美国iOS商店发行记录",
+  "significance": "史前部落城建、领地扩张与联盟战争。",
+  "cover": "/images/slg/brutal-age.jpg",
+  "keyArt": "/images/slg/brutal-age.jpg",
+  "sources": [
+    {
+      "title": "Apple美国iOS官方元数据：日期与卖方",
+      "url": "https://itunes.apple.com/lookup?id=1156787368&country=us"
+    },
+    {
+      "title": "公司官方产品资料",
+      "url": "https://www.tap4fun.com/"
+    }
+  ],
+  "verified": true,
+  "lifecycleNotes": [
+    {
+      "note": "核查日期2026-10-11。日期仅为美国iOS元数据记录；Android、全球推广与国内版本待查。公司按品牌聚合，海外卖方为TAP4FUN (HONGKONG) LIMITED，不是将其登记日期当作研发团队成立日期。",
+      "sources": [
+        {
+          "title": "Apple美国iOS官方元数据：日期与卖方",
+          "url": "https://itunes.apple.com/lookup?id=1156787368&country=us"
+        },
+        {
+          "title": "公司官方产品资料",
+          "url": "https://www.tap4fun.com/"
+        }
+      ]
+    }
+  ]
+}

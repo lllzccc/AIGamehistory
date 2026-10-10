@@ -175,3 +175,17 @@ IGG官方历程记载集团于2006年成立，2009年在新加坡设立总部，
 | Viking Rise | 723,884,000 | 344,698,000 |
 
 [2025年报收入拆分](https://iis.quamnet.com/media/IRAnnouncement/799/EN_US/12118244-0.PDF)，[2026中期报告第09页](https://iis.quamnet.com/media/IRAnnouncement/799/EN_US/12329120-0.PDF)。新作Fate War、地区与平台细分以及人员任期仍未完成核查。
+
+
+## 官方流水观察
+
+核查日期：2026-10-11。保留官方 gross billing（充值流水）原口径港币，不能与上方财务确认收入相加，也不作全年外推。
+
+| 产品 | 统计期间 | 官方流水口径（港元） |
+| --- | --- | ---: |
+| Doomsday: Last Survivors | 2025年12月 | 月流水约130,000,000 |
+| Doomsday: Last Survivors | 2026年1月 | 月流水约130,000,000 |
+| Fate War | 2025年12月 | 月流水约30,000,000 |
+| Fate War | 2026年上半年 | 平均月流水超过18,000,000 |
+
+[IGG 2025全年官方业绩公告（脚注3、6）](https://statics.9458.com/game/9900/article/2026/03/25/041543_69c3a7bfdb4076266.pdf)，[IGG 2026中期官方业绩公告](https://statics.9458.com/game/9900/article/2026/08/13/063717_6a7dac6d4a73c9494.pdf)。平均月值与单月值不直接作涨跌比较；地区、平台及流水定义的进一步拆分待补。

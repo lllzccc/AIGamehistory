@@ -59,7 +59,7 @@
       {
         "area": "catalog",
         "status": "partial",
-        "scope": "完整目录与研发发行关系",
+        "scope": "完整目录与研发发行关系 本轮补入Brutal Age与Invasion美国iOS版本；当前官网六款目录中的Galaxy Legend仍待核对，旧作不视为穷尽。",
         "checkedAt": "2026-10-11",
         "examined": [
           {
