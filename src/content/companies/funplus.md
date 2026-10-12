@@ -35,6 +35,18 @@
     {
       "title": "世纪华通专项审计回复：点点合并日2018-01-16",
       "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=4965423&stockid=sz002602"
+    },
+    {
+      "title": "FunPlus官方全球上线：2025-10-21、成都研发与2024测试",
+      "url": "https://funplus.com/foundation-galactic-frontier-global-launch/"
+    },
+    {
+      "title": "FunPlus官方Tiles Survive上线月份与3000万下载里程碑",
+      "url": "https://funplus.com/info/tiles-survive-celebrates-30-million-player-download/"
+    },
+    {
+      "title": "Foundation官方社区播客：开发者及制作人访谈入口",
+      "url": "https://funplus.com/info/discovering-foundation-galactic-frontier-community-podcast/"
     }
   ],
   "website": "https://funplus.com/about-funplus/",
@@ -105,6 +117,13 @@
               "url": "https://campus.funplus.com.cn/about/"
             },
             "note": "核对官方历程年份分组、KingsGroup研发/点点历史发行及广州/上海工作室沿革。"
+          },
+          {
+            "source": {
+              "title": "FunPlus官方全球上线：2025-10-21、成都研发与2024测试",
+              "url": "https://funplus.com/foundation-galactic-frontier-global-launch/"
+            },
+            "note": "补Foundation与Tiles Survive产品，按美国iOS版本单列。"
           }
         ],
         "gaps": [
@@ -120,7 +139,7 @@
         "area": "lifecycle",
         "status": "partial",
         "scope": "地区和平台首发及运营",
-        "checkedAt": "2026-10-11",
+        "checkedAt": "2026-10-12",
         "examined": [
           {
             "source": {
@@ -128,6 +147,13 @@
               "url": "https://funplus.com/dc-dark-legion-global-launch-lead-the-league/"
             },
             "note": "全球上线日期和三平台。"
+          },
+          {
+            "source": {
+              "title": "FunPlus官方全球上线：2025-10-21、成都研发与2024测试",
+              "url": "https://funplus.com/foundation-galactic-frontier-global-launch/"
+            },
+            "note": "区分2024测试、2025-10-20美国iOS与10-21全球上线。"
           }
         ],
         "gaps": [
@@ -172,6 +198,13 @@
               "url": "https://funplus.com/funplus-leadership-team/"
             },
             "note": "核对集团领导公开署名，职务不挂项目。"
+          },
+          {
+            "source": {
+              "title": "Foundation官方社区播客：开发者及制作人访谈入口",
+              "url": "https://funplus.com/info/discovering-foundation-galactic-frontier-community-podcast/"
+            },
+            "note": "确认成都工作室，实名制作人仍待官方播客原视频署名。"
           }
         ],
         "gaps": [
@@ -185,9 +218,17 @@
       },
       {
         "area": "business",
-        "status": "pending",
+        "status": "partial",
         "scope": "收入、利润与充值流水",
-        "examined": [],
+        "examined": [
+          {
+            "source": {
+              "title": "FunPlus官方Tiles Survive上线月份与3000万下载里程碑",
+              "url": "https://funplus.com/info/tiles-survive-celebrates-30-million-player-download/"
+            },
+            "note": "3000万下载为非财务指标，不作为收入或去重用户。"
+          }
+        ],
         "gaps": [
           {
             "question": "继续核对全量原始资料。",
@@ -195,7 +236,8 @@
             "nextStep": "核对官网历史目录、公告、年报和公开访谈。",
             "sources": []
           }
-        ]
+        ],
+        "checkedAt": "2026-10-12"
       }
     ],
     "supplementRounds": []
@@ -219,3 +261,9 @@ FunPlus官网记载公司于2010年成立，目前总部位于瑞士，在多个
 官方领导页列Andy Zhong为CEO及联合创始人、Tao (Edge) Wu为Co-CTO、Alexandre Amancio为世界构建与IP策略高级副总裁。本站按2026年10月12日公开观察建档，未将他们推定为具体SLG制作人或主策，也未用观察日替代任职起点。
 
 [官方领导团队](https://funplus.com/funplus-leadership-team/)。
+
+## 新品与发行阶段
+
+核查日期：2026-10-12。Foundation: Galactic Frontier由成都工作室研发；2024年测试后，2025年10月21日宣布全球iOS、Android和PC上线。美国iOS记录为10月20日，产品条目采用地区商店日期，全球节点另记。Tiles Survive!美国iOS记录为2025年7月3日，官方回顾确认7月上线，并披露3000万下载；该指标不计入财务或去重用户数。
+
+[Foundation全球公告](https://funplus.com/foundation-galactic-frontier-global-launch/) · [Tiles Survive官方回顾](https://funplus.com/info/tiles-survive-celebrates-30-million-player-download/)。

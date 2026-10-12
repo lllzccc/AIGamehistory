@@ -1,0 +1,79 @@
+{
+  "name": "Foundation: Galactic Frontier",
+  "aliases": [],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "funplus",
+  "publisher": "funplus",
+  "released": "2025-10-20",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "美国iOS商店发行记录",
+  "significance": "成都工作室研发的科幻舰队、实时战斗与联盟争夺策略作品。",
+  "cover": "/images/slg/foundation-galactic-frontier.jpg",
+  "keyArt": "/images/slg/foundation-galactic-frontier.jpg",
+  "sources": [
+    {
+      "title": "FunPlus官方全球上线：2025-10-21、成都研发与2024测试",
+      "url": "https://funplus.com/foundation-galactic-frontier-global-launch/"
+    },
+    {
+      "title": "Apple美国iOS发行记录与卖方，核查2026-10-12",
+      "url": "https://itunes.apple.com/lookup?id=6737595599&country=us"
+    }
+  ],
+  "verified": true,
+  "gameplay": {
+    "core": "other",
+    "fusion": [],
+    "basis": "editorial",
+    "checkedAt": "2026-10-12",
+    "note": "按公开玩法作编辑归类；科幻舰队实时战争暂归其他，不仅因有联盟就认定ROK型。",
+    "sources": [
+      {
+        "title": "FunPlus官方全球上线：2025-10-21、成都研发与2024测试",
+        "url": "https://funplus.com/foundation-galactic-frontier-global-launch/"
+      },
+      {
+        "title": "Apple美国iOS发行记录与卖方，核查2026-10-12",
+        "url": "https://itunes.apple.com/lookup?id=6737595599&country=us"
+      }
+    ]
+  },
+  "lifecycleNotes": [
+    {
+      "note": "美国iOS releaseDate为2025-10-20，官方全球公告日期为2025-10-21（iOS/Android/PC）；2024年晚些时候的beta为此前测试，地区批次待核实。此条采用美国iOS版本日期，不把全球公告或beta当同一首发。 商店卖方FunPlus International AG，按集团品牌归档，不以卖方代替研发工作室。核查日期2026-10-12。",
+      "sources": [
+        {
+          "title": "FunPlus官方全球上线：2025-10-21、成都研发与2024测试",
+          "url": "https://funplus.com/foundation-galactic-frontier-global-launch/"
+        },
+        {
+          "title": "Apple美国iOS发行记录与卖方，核查2026-10-12",
+          "url": "https://itunes.apple.com/lookup?id=6737595599&country=us"
+        }
+      ]
+    }
+  ],
+  "teamEvidence": [
+    {
+      "observedAt": "2026-10-12",
+      "kind": "official",
+      "summary": "全球公告明确研发团队为FunPlus成都工作室；官方播客第二集有制作人访谈入口，文本未列实名，暂不创建实名制作人档案。",
+      "sources": [
+        {
+          "title": "FunPlus官方全球上线：2025-10-21、成都研发与2024测试",
+          "url": "https://funplus.com/foundation-galactic-frontier-global-launch/"
+        },
+        {
+          "title": "Foundation官方社区播客：开发者及制作人访谈入口",
+          "url": "https://funplus.com/info/discovering-foundation-galactic-frontier-community-podcast/"
+        }
+      ]
+    }
+  ]
+}

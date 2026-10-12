@@ -1,0 +1,64 @@
+{
+  "name": "Tiles Survive!",
+  "aliases": [],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "funplus",
+  "publisher": "funplus",
+  "released": "2025-07-03",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "美国iOS商店发行记录",
+  "significance": "幸存者工作分配、生产与地块探索结合避难所发展和联盟协作的策略作品。",
+  "cover": "/images/slg/tiles-survive.jpg",
+  "keyArt": "/images/slg/tiles-survive.jpg",
+  "sources": [
+    {
+      "title": "FunPlus官方Tiles Survive上线月份与3000万下载里程碑",
+      "url": "https://funplus.com/info/tiles-survive-celebrates-30-million-player-download/"
+    },
+    {
+      "title": "Apple美国iOS发行记录与卖方，核查2026-10-12",
+      "url": "https://itunes.apple.com/lookup?id=6738109752&country=us"
+    }
+  ],
+  "verified": true,
+  "gameplay": {
+    "core": "cok-like",
+    "fusion": [
+      "simulation"
+    ],
+    "basis": "editorial",
+    "checkedAt": "2026-10-12",
+    "note": "按避难所城建、英雄与联盟的公开描述归COK型，并标经营；不把题材作为玩法分类。",
+    "sources": [
+      {
+        "title": "FunPlus官方Tiles Survive上线月份与3000万下载里程碑",
+        "url": "https://funplus.com/info/tiles-survive-celebrates-30-million-player-download/"
+      },
+      {
+        "title": "Apple美国iOS发行记录与卖方，核查2026-10-12",
+        "url": "https://itunes.apple.com/lookup?id=6738109752&country=us"
+      }
+    ]
+  },
+  "lifecycleNotes": [
+    {
+      "note": "美国iOS releaseDate为2025-07-03，官方回顾称2025年7月上线；Android版本存在，地区/平台精确日期待补。官方3000万downloads为下载里程碑，不代表去重用户、活跃用户或财务流水，准确突破日期待核对。 商店卖方FunPlus International AG，按集团品牌归档，不以卖方代替研发工作室。核查日期2026-10-12。",
+      "sources": [
+        {
+          "title": "FunPlus官方Tiles Survive上线月份与3000万下载里程碑",
+          "url": "https://funplus.com/info/tiles-survive-celebrates-30-million-player-download/"
+        },
+        {
+          "title": "Apple美国iOS发行记录与卖方，核查2026-10-12",
+          "url": "https://itunes.apple.com/lookup?id=6738109752&country=us"
+        }
+      ]
+    }
+  ]
+}

@@ -19,3 +19,7 @@ Lordrush提交269b937，构建/类型/100测试通过。Pages run38232937515的b
 后续核验：run38232937515最终success，重新打开线上版本后1440/390 Lordrush详情、官方图片解码、公司页检查通过。继续FunPlus官方历史分组及新品归档。
 
 FunPlus本批：原始HTML含const years与timeline__slide顺序，可核对年份组。新增3个集团官网职业署名、2条上海/广州工作室节点，补火枪2017点点历史发行。官网2016收购与公告2018合并、KingsGroup2014成立与2020四周年的差异留conflicting，不根据周年猜日期。原始临时证据.local-checks/funplus-campus.html与funplus-history-extracted.json。下一步Foundation/Tiles Survive等未收录目录、KingsGroup实名项目策划与美术。
+
+下一批原始新品证据：Foundation全球上线官方公告 https://funplus.com/foundation-galactic-frontier-global-launch/ 明确2025-10-21 iOS/Android/PC；此前2024试运营不是全球首发。Tiles Survive官方 https://funplus.com/info/tiles-survive-celebrates-30-million-player-download/ 称2025-07上线、不到一年3000万下载；不把下载写成用户数/流水。新官方about页面 https://funplus.com/about-funplus/ 有更多新品历程，国内招聘页内容可能滞后。
+
+3650d10 FunPlus历史/3领导/2工作室批次已Pages成功，1440/390线上核验通过。当前补Foundation和Tiles两个美国iOS版本与官方截图、Foundation全球上线节点与成都工作室线索。原始Apple6737595599=2025-10-20、6738109752=2025-07-03；Foundation全球公告10-21与2024beta分别记录。官方HTML直接请求403，web原文可读，图片采用Apple官方截图。Tiles3000万不落具体时间线日期（原文未给准确突破日）。下一步官方Foundation播客第2集制作人署名、Misty Continent、乐狗团队/版本。
