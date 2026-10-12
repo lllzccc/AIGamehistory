@@ -49,7 +49,7 @@ const stats = [
     </div>
   </section>
 
-  <p class="mx-auto max-w-6xl px-6 pb-8 text-xs text-mist sm:px-10">{volume.id === "slg" ? "SLG卷首批编目：以城建、联盟战争与全球发行产品为起点，逐家公司补齐发展史。" : volume.id === "casual" ? "休闲卷首批编目：以开心消消乐为起点，后续逐家公司补充。" : "收录范围包含宫廷恋爱及相邻的官斗、历史养成产品。"}</p>
+  <p class="mx-auto max-w-6xl px-6 pb-8 text-xs text-mist sm:px-10">{volume.id === "slg" ? "SLG卷首批编目：以城建、联盟战争与全球发行产品为起点，逐家公司补齐发展史。" : volume.id === "casual" ? "收录消除、合成、养成与休闲塔防产品；各条目注明平台及地区，上线时间以所列版本为准。" : "收录范围包含宫廷恋爱及相邻的官斗、历史养成产品。"}</p>
   <section class="mx-auto max-w-6xl px-6 pb-14 sm:px-10">
     <HeatStrip years={buckets.map((b) => ({ year: b.year, count: bucketSize(b) }))} market={marketSeries(ds)} />
   </section>

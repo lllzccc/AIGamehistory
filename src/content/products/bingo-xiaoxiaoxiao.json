@@ -1,0 +1,76 @@
+{
+  "name": "宾果消消消",
+  "aliases": [],
+  "chronicles": [
+    "casual"
+  ],
+  "genre": "other",
+  "developer": "microfun",
+  "publisher": "microfun",
+  "released": "2014-08",
+  "platforms": [
+    "Android",
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "国内移动版，招股书正式上线月份",
+  "significance": "从三消闯关扩展到建造与场景装饰的长线产品，是柠檬微趣早期代表作。",
+  "lifecycleNotes": [
+    {
+      "note": "正式上线月份采用申报稿印刷页86；封测内测不作为正式上线。海外Jellipop Match的商店版本与发行时间另行核对，不将国内日期套用海外。",
+      "sources": [
+        {
+          "title": "柠檬微趣2020年招股说明书申报稿（印刷页44、50、86）",
+          "url": "https://pdf.dfcfw.com/pdf/H2_AN202009251417344038_1.pdf"
+        },
+        {
+          "title": "宾果消消消官方TapTap商店",
+          "url": "https://www.taptap.cn/app/11983"
+        },
+        {
+          "title": "宾果消消消官方App Store（cn）",
+          "url": "https://apps.apple.com/cn/app/id897447840"
+        }
+      ]
+    }
+  ],
+  "gameplay": {
+    "fusion": [
+      "match-3",
+      "simulation"
+    ],
+    "basis": "editorial",
+    "checkedAt": "2026-10-12",
+    "note": "按官方产品说明整理玩法，标签不代表研发传承关系或全部历史版本。",
+    "sources": [
+      {
+        "title": "柠檬微趣2020年招股说明书申报稿（印刷页44、50、86）",
+        "url": "https://pdf.dfcfw.com/pdf/H2_AN202009251417344038_1.pdf"
+      },
+      {
+        "title": "宾果消消消官方TapTap商店",
+        "url": "https://www.taptap.cn/app/11983"
+      },
+      {
+        "title": "宾果消消消官方App Store（cn）",
+        "url": "https://apps.apple.com/cn/app/id897447840"
+      }
+    ]
+  },
+  "revenue": [],
+  "sources": [
+    {
+      "title": "柠檬微趣2020年招股说明书申报稿（印刷页44、50、86）",
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202009251417344038_1.pdf"
+    },
+    {
+      "title": "宾果消消消官方TapTap商店",
+      "url": "https://www.taptap.cn/app/11983"
+    },
+    {
+      "title": "宾果消消消官方App Store（cn）",
+      "url": "https://apps.apple.com/cn/app/id897447840"
+    }
+  ],
+  "verified": false
+}

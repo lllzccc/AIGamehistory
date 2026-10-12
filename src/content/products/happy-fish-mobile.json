@@ -1,0 +1,74 @@
+{
+  "name": "开心水族箱",
+  "aliases": [],
+  "chronicles": [
+    "casual"
+  ],
+  "genre": "other",
+  "developer": "happyelements",
+  "publisher": "happyelements",
+  "released": "2011-10-25",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "台湾地区 iOS 移动版",
+  "significance": "以养鱼、收集与水族箱装饰为主的长线休闲作品，补入乐元素由社交游戏走向移动端的产品脉络。",
+  "lifecycleNotes": [
+    {
+      "note": "本档采用台湾App Store应用459688716的releaseDate；当前卖方为Eureka Creation Limited，按乐元素品牌关联公司，不将卖方法人等同北京研发主体。TapTap的2020-02-26是另一个商店记录；2009年Facebook网页版本、Android与大陆iOS首发另待核实。",
+      "sources": [
+        {
+          "title": "开心水族箱官方App Store（tw）",
+          "url": "https://apps.apple.com/tw/app/id459688716"
+        },
+        {
+          "title": "Apple官方接口：开心水族箱 releaseDate（tw，核查2026-10-12）",
+          "url": "https://itunes.apple.com/lookup?id=459688716&country=tw"
+        },
+        {
+          "title": "开心水族箱官方TapTap商店",
+          "url": "https://www.taptap.cn/app/171068"
+        }
+      ]
+    }
+  ],
+  "gameplay": {
+    "fusion": [
+      "simulation"
+    ],
+    "basis": "editorial",
+    "checkedAt": "2026-10-12",
+    "note": "按官方产品说明整理玩法，标签不代表研发传承关系或全部历史版本。",
+    "sources": [
+      {
+        "title": "开心水族箱官方App Store（tw）",
+        "url": "https://apps.apple.com/tw/app/id459688716"
+      },
+      {
+        "title": "Apple官方接口：开心水族箱 releaseDate（tw，核查2026-10-12）",
+        "url": "https://itunes.apple.com/lookup?id=459688716&country=tw"
+      },
+      {
+        "title": "开心水族箱官方TapTap商店",
+        "url": "https://www.taptap.cn/app/171068"
+      }
+    ]
+  },
+  "revenue": [],
+  "sources": [
+    {
+      "title": "开心水族箱官方App Store（tw）",
+      "url": "https://apps.apple.com/tw/app/id459688716"
+    },
+    {
+      "title": "Apple官方接口：开心水族箱 releaseDate（tw，核查2026-10-12）",
+      "url": "https://itunes.apple.com/lookup?id=459688716&country=tw"
+    },
+    {
+      "title": "开心水族箱官方TapTap商店",
+      "url": "https://www.taptap.cn/app/171068"
+    }
+  ],
+  "verified": false
+}

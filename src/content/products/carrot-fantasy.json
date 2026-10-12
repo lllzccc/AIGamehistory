@@ -1,0 +1,75 @@
+{
+  "name": "保卫萝卜",
+  "aliases": [],
+  "chronicles": [
+    "casual"
+  ],
+  "genre": "other",
+  "developer": "feiyu",
+  "publisher": "feiyu",
+  "released": "2012-07",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "status": "live",
+  "versionLabel": "初代移动版，官网历史上线月份",
+  "significance": "以布置炮塔守护萝卜为核心的休闲塔防，原由凯罗天下推出，后随团队合并纳入飞鱼科技。",
+  "lifecycleNotes": [
+    {
+      "note": "采用飞鱼官网2012年7月上线记录；当时研发团队为凯罗天下，飞鱼集团在2014年形成，不据当前集团id倒推当年法人名称。各平台首发日仍待核对。",
+      "sources": [
+        {
+          "title": "飞鱼科技官网：集团发展历程",
+          "url": "https://feiyu.com/about.html"
+        },
+        {
+          "title": "保卫萝卜官方TapTap商店",
+          "url": "https://www.taptap.cn/app/27902"
+        },
+        {
+          "title": "陈剑瑜访谈：初代保卫萝卜的角色创作（2016-02-15）",
+          "url": "https://feiyu.com/news/14-109.html"
+        }
+      ]
+    }
+  ],
+  "gameplay": {
+    "fusion": [
+      "tower-defense"
+    ],
+    "basis": "editorial",
+    "checkedAt": "2026-10-12",
+    "note": "按官方产品说明整理玩法，标签不代表研发传承关系或全部历史版本。",
+    "sources": [
+      {
+        "title": "飞鱼科技官网：集团发展历程",
+        "url": "https://feiyu.com/about.html"
+      },
+      {
+        "title": "保卫萝卜官方TapTap商店",
+        "url": "https://www.taptap.cn/app/27902"
+      },
+      {
+        "title": "陈剑瑜访谈：初代保卫萝卜的角色创作（2016-02-15）",
+        "url": "https://feiyu.com/news/14-109.html"
+      }
+    ]
+  },
+  "revenue": [],
+  "sources": [
+    {
+      "title": "飞鱼科技官网：集团发展历程",
+      "url": "https://feiyu.com/about.html"
+    },
+    {
+      "title": "保卫萝卜官方TapTap商店",
+      "url": "https://www.taptap.cn/app/27902"
+    },
+    {
+      "title": "陈剑瑜访谈：初代保卫萝卜的角色创作（2016-02-15）",
+      "url": "https://feiyu.com/news/14-109.html"
+    }
+  ],
+  "verified": false
+}

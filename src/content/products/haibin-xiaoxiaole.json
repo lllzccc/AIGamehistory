@@ -1,0 +1,63 @@
+{
+  "name": "海滨消消乐",
+  "aliases": [],
+  "chronicles": [
+    "casual"
+  ],
+  "genre": "other",
+  "developer": "happyelements",
+  "publisher": "happyelements",
+  "released": "2017-05-03",
+  "platforms": [
+    "Android",
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "TapTap Android 商店上线口径",
+  "significance": "《开心消消乐》的姊妹篇，以海滨场景承载关卡消除；当前官方运营主体为上海乐元素。",
+  "lifecycleNotes": [
+    {
+      "note": "采用官方入驻TapTap所列上线日期，不认定为全球或所有平台首发。商店署名上海乐元素网络科技发展有限公司，按共享乐元素品牌归档；早期iOS版本、旧名《消消乐海滨假日》和H5版需独立核对。",
+      "sources": [
+        {
+          "title": "海滨消消乐官方TapTap：上线日期与上海乐元素署名",
+          "url": "https://www.taptap.cn/app/35544"
+        },
+        {
+          "title": "上海乐元素官网：海滨消消乐与假日乐消消",
+          "url": "https://www.happyelements-sh.com/"
+        }
+      ]
+    }
+  ],
+  "gameplay": {
+    "fusion": [
+      "match-3"
+    ],
+    "basis": "editorial",
+    "checkedAt": "2026-10-12",
+    "note": "按官方产品说明整理玩法，标签不代表研发传承关系或全部历史版本。",
+    "sources": [
+      {
+        "title": "海滨消消乐官方TapTap：上线日期与上海乐元素署名",
+        "url": "https://www.taptap.cn/app/35544"
+      },
+      {
+        "title": "上海乐元素官网：海滨消消乐与假日乐消消",
+        "url": "https://www.happyelements-sh.com/"
+      }
+    ]
+  },
+  "revenue": [],
+  "sources": [
+    {
+      "title": "海滨消消乐官方TapTap：上线日期与上海乐元素署名",
+      "url": "https://www.taptap.cn/app/35544"
+    },
+    {
+      "title": "上海乐元素官网：海滨消消乐与假日乐消消",
+      "url": "https://www.happyelements-sh.com/"
+    }
+  ],
+  "verified": false
+}

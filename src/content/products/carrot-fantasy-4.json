@@ -1,0 +1,75 @@
+{
+  "name": "保卫萝卜4",
+  "aliases": [],
+  "chronicles": [
+    "casual"
+  ],
+  "genre": "other",
+  "developer": "feiyu",
+  "publisher": "feiyu",
+  "released": "2022-06-30",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "status": "live",
+  "versionLabel": "国内移动版正式公测",
+  "significance": "以炮塔搭配与影视主题关卡延续系列休闲塔防玩法，加入呆兔养成与装饰。",
+  "lifecycleNotes": [
+    {
+      "note": "正式上线采用中期业绩公告与官方公测公告；3月、5月测试不作为正式首发。国内小游戏及海外版需另建生命周期记录。",
+      "sources": [
+        {
+          "title": "飞鱼科技2022年中期业绩公告：保卫萝卜4正式上线",
+          "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0830/2022083000861_c.pdf"
+        },
+        {
+          "title": "保卫萝卜4官方TapTap公测公告：2022年6月30日",
+          "url": "https://www.taptap.cn/app/232578/topic?type=official"
+        },
+        {
+          "title": "保卫萝卜4官方App Store（cn）",
+          "url": "https://apps.apple.com/cn/app/id1123876959"
+        }
+      ]
+    }
+  ],
+  "gameplay": {
+    "fusion": [
+      "tower-defense"
+    ],
+    "basis": "editorial",
+    "checkedAt": "2026-10-12",
+    "note": "按官方产品说明整理玩法，标签不代表研发传承关系或全部历史版本。",
+    "sources": [
+      {
+        "title": "飞鱼科技2022年中期业绩公告：保卫萝卜4正式上线",
+        "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0830/2022083000861_c.pdf"
+      },
+      {
+        "title": "保卫萝卜4官方TapTap公测公告：2022年6月30日",
+        "url": "https://www.taptap.cn/app/232578/topic?type=official"
+      },
+      {
+        "title": "保卫萝卜4官方App Store（cn）",
+        "url": "https://apps.apple.com/cn/app/id1123876959"
+      }
+    ]
+  },
+  "revenue": [],
+  "sources": [
+    {
+      "title": "飞鱼科技2022年中期业绩公告：保卫萝卜4正式上线",
+      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2022/0830/2022083000861_c.pdf"
+    },
+    {
+      "title": "保卫萝卜4官方TapTap公测公告：2022年6月30日",
+      "url": "https://www.taptap.cn/app/232578/topic?type=official"
+    },
+    {
+      "title": "保卫萝卜4官方App Store（cn）",
+      "url": "https://apps.apple.com/cn/app/id1123876959"
+    }
+  ],
+  "verified": false
+}

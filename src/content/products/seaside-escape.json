@@ -1,0 +1,75 @@
+{
+  "name": "Seaside Escape: Merge & Story",
+  "aliases": [],
+  "chronicles": [
+    "casual"
+  ],
+  "genre": "other",
+  "developer": "microfun",
+  "publisher": "microfun",
+  "released": "2022-11-24",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "美国 App Store iOS 版",
+  "significance": "将物品合成与海滨小镇重建、角色故事结合的休闲产品。",
+  "lifecycleNotes": [
+    {
+      "note": "采用美国App Store对应应用的Apple接口releaseDate。商店卖方为Microfun Limited，按柠檬微趣品牌聚合；Android、国内同题材产品及其他地区首发另待核实，不把此日期称为全球首发。",
+      "sources": [
+        {
+          "title": "Seaside Escape: Merge & Story官方App Store（us）",
+          "url": "https://apps.apple.com/us/app/id6443755785"
+        },
+        {
+          "title": "Apple官方接口：Seaside Escape: Merge & Story releaseDate（us，核查2026-10-12）",
+          "url": "https://itunes.apple.com/lookup?id=6443755785&country=us"
+        },
+        {
+          "title": "柠檬微趣官网：休闲产品与公司品牌",
+          "url": "https://www.microfun.cn/"
+        }
+      ]
+    }
+  ],
+  "gameplay": {
+    "fusion": [
+      "merge",
+      "simulation"
+    ],
+    "basis": "editorial",
+    "checkedAt": "2026-10-12",
+    "note": "按官方产品说明整理玩法，标签不代表研发传承关系或全部历史版本。",
+    "sources": [
+      {
+        "title": "Seaside Escape: Merge & Story官方App Store（us）",
+        "url": "https://apps.apple.com/us/app/id6443755785"
+      },
+      {
+        "title": "Apple官方接口：Seaside Escape: Merge & Story releaseDate（us，核查2026-10-12）",
+        "url": "https://itunes.apple.com/lookup?id=6443755785&country=us"
+      },
+      {
+        "title": "柠檬微趣官网：休闲产品与公司品牌",
+        "url": "https://www.microfun.cn/"
+      }
+    ]
+  },
+  "revenue": [],
+  "sources": [
+    {
+      "title": "Seaside Escape: Merge & Story官方App Store（us）",
+      "url": "https://apps.apple.com/us/app/id6443755785"
+    },
+    {
+      "title": "Apple官方接口：Seaside Escape: Merge & Story releaseDate（us，核查2026-10-12）",
+      "url": "https://itunes.apple.com/lookup?id=6443755785&country=us"
+    },
+    {
+      "title": "柠檬微趣官网：休闲产品与公司品牌",
+      "url": "https://www.microfun.cn/"
+    }
+  ],
+  "verified": false
+}

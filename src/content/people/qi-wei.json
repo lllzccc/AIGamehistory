@@ -1,0 +1,50 @@
+{
+  "name": "齐伟",
+  "aliases": [],
+  "bio": "柠檬微趣创始人。2020年申报稿记其2008年8月创办前身公司，并记载当时担任董事长、总经理；当前职务尚待独立核实。",
+  "roles": [
+    {
+      "company": "microfun",
+      "scope": "company",
+      "products": [],
+      "title": "founder",
+      "titleNote": "创始人",
+      "from": "2008-08",
+      "status": "unknown",
+      "dateBasis": "employment",
+      "checkedAt": "2026-10-12",
+      "sources": [
+        {
+          "title": "柠檬微趣2020年招股说明书申报稿（印刷页44、50、86）",
+          "url": "https://pdf.dfcfw.com/pdf/H2_AN202009251417344038_1.pdf"
+        }
+      ],
+      "note": "所列时间为公开记录或来源记载的历史起点，不据历史采访确认当前在任。"
+    },
+    {
+      "company": "microfun",
+      "scope": "company",
+      "products": [],
+      "title": "chair",
+      "titleNote": "董事长、总经理（2020年申报记录）",
+      "from": "2020-09-25",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-12",
+      "sources": [
+        {
+          "title": "柠檬微趣2020年招股说明书申报稿（印刷页44、50、86）",
+          "url": "https://pdf.dfcfw.com/pdf/H2_AN202009251417344038_1.pdf"
+        }
+      ],
+      "note": "所列时间为公开记录或来源记载的历史起点，不据历史采访确认当前在任。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "柠檬微趣2020年招股说明书申报稿（印刷页44、50、86）",
+      "url": "https://pdf.dfcfw.com/pdf/H2_AN202009251417344038_1.pdf"
+    }
+  ],
+  "verified": false
+}

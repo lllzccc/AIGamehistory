@@ -1,0 +1,58 @@
+{
+  "name": "陈剑瑜",
+  "aliases": [
+    "小鱼"
+  ],
+  "bio": "凯罗天下与保卫萝卜产品线的历史关键人物。2016年公开访谈以飞鱼科技总裁身份介绍初代角色创作思路，核心策划和其他续作署名仍待核对。",
+  "roles": [
+    {
+      "company": "feiyu",
+      "scope": "company",
+      "products": [],
+      "title": "president",
+      "titleNote": "总裁（2016年公开采访）",
+      "from": "2016-02-15",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-12",
+      "sources": [
+        {
+          "title": "陈剑瑜访谈：初代保卫萝卜的角色创作（2016-02-15）",
+          "url": "https://feiyu.com/news/14-109.html"
+        }
+      ],
+      "note": "所列时间为公开记录或来源记载的历史起点，不据历史采访确认当前在任。"
+    },
+    {
+      "company": "feiyu",
+      "scope": "product",
+      "products": [
+        "carrot-fantasy"
+      ],
+      "title": "other",
+      "titleNote": "初代角色创作（采访自述）",
+      "from": "2016-02-15",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-12",
+      "sources": [
+        {
+          "title": "陈剑瑜访谈：初代保卫萝卜的角色创作（2016-02-15）",
+          "url": "https://feiyu.com/news/14-109.html"
+        }
+      ],
+      "note": "所列时间为公开记录或来源记载的历史起点，不据历史采访确认当前在任。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "陈剑瑜访谈：初代保卫萝卜的角色创作（2016-02-15）",
+      "url": "https://feiyu.com/news/14-109.html"
+    },
+    {
+      "title": "飞鱼官网转载触乐专访陈剑瑜：《保卫萝卜》这四年（2016-05-31）",
+      "url": "https://www.feiyu.com/news/14-131.html"
+    }
+  ],
+  "verified": false
+}

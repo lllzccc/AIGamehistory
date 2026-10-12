@@ -1,0 +1,63 @@
+{
+  "name": "保卫萝卜2",
+  "aliases": [],
+  "chronicles": [
+    "casual"
+  ],
+  "genre": "other",
+  "developer": "feiyu",
+  "publisher": "feiyu",
+  "released": "2013-11",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "status": "live",
+  "versionLabel": "极地冒险移动版，官网历史上线月份",
+  "significance": "延续初代炮塔布置与关卡挑战的休闲塔防续作。",
+  "lifecycleNotes": [
+    {
+      "note": "采用官网记载凯罗天下2013年11月推出续作的月份；官网记2013年12月与光环合并。当前商店分发日期不替代历史首发，平台与地区仍待拆分。",
+      "sources": [
+        {
+          "title": "飞鱼科技官网：集团发展历程",
+          "url": "https://feiyu.com/about.html"
+        },
+        {
+          "title": "保卫萝卜2官方TapTap商店",
+          "url": "https://www.taptap.cn/app/18411"
+        }
+      ]
+    }
+  ],
+  "gameplay": {
+    "fusion": [
+      "tower-defense"
+    ],
+    "basis": "editorial",
+    "checkedAt": "2026-10-12",
+    "note": "按官方产品说明整理玩法，标签不代表研发传承关系或全部历史版本。",
+    "sources": [
+      {
+        "title": "飞鱼科技官网：集团发展历程",
+        "url": "https://feiyu.com/about.html"
+      },
+      {
+        "title": "保卫萝卜2官方TapTap商店",
+        "url": "https://www.taptap.cn/app/18411"
+      }
+    ]
+  },
+  "revenue": [],
+  "sources": [
+    {
+      "title": "飞鱼科技官网：集团发展历程",
+      "url": "https://feiyu.com/about.html"
+    },
+    {
+      "title": "保卫萝卜2官方TapTap商店",
+      "url": "https://www.taptap.cn/app/18411"
+    }
+  ],
+  "verified": false
+}

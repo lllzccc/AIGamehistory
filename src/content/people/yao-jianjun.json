@@ -1,0 +1,34 @@
+{
+  "name": "姚剑军",
+  "aliases": [
+    "阿飞"
+  ],
+  "bio": "飞鱼科技公司层面的历史关键人物。2014年上市后采访称其CEO；本轮未用历史报道确认当前职务，也未将其列为萝卜项目制作人。",
+  "roles": [
+    {
+      "company": "feiyu",
+      "scope": "company",
+      "products": [],
+      "title": "ceo",
+      "titleNote": "CEO（2014年公开采访）",
+      "from": "2014-12-19",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-12",
+      "sources": [
+        {
+          "title": "飞鱼官网转载专访姚剑军：产品基因、发行与上市（2014-12-19）",
+          "url": "https://feiyu.com/news/14-45.html"
+        }
+      ],
+      "note": "所列时间为公开记录或来源记载的历史起点，不据历史采访确认当前在任。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "飞鱼官网转载专访姚剑军：产品基因、发行与上市（2014-12-19）",
+      "url": "https://feiyu.com/news/14-45.html"
+    }
+  ],
+  "verified": false
+}

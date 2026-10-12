@@ -1,0 +1,43 @@
+{
+  "checkedAt": "2026-10-12",
+  "applications": [
+    {
+      "trackId": 459688716,
+      "trackName": "開心水族箱",
+      "sellerName": "Eureka Creation Limited",
+      "releaseDate": "2011-10-25T07:01:57Z",
+      "trackViewUrl": "https://apps.apple.com/tw/app/%E9%96%8B%E5%BF%83%E6%B0%B4%E6%97%8F%E7%AE%B1/id459688716?uo=4",
+      "country": "tw",
+      "source": "https://itunes.apple.com/lookup?id=459688716&country=tw"
+    },
+    {
+      "trackId": 1564248355,
+      "trackName": "Merge Fables®",
+      "sellerName": "Microfun Limited",
+      "releaseDate": "2021-04-30T07:00:00Z",
+      "trackViewUrl": "https://apps.apple.com/us/app/merge-fables/id1564248355?uo=4",
+      "country": "us",
+      "source": "https://itunes.apple.com/lookup?id=1564248355&country=us"
+    },
+    {
+      "trackId": 1623318294,
+      "trackName": "Gossip Harbor®: Merge & Story",
+      "sellerName": "Microfun Limited",
+      "releaseDate": "2022-07-07T07:00:00Z",
+      "trackViewUrl": "https://apps.apple.com/us/app/gossip-harbor-merge-story/id1623318294?uo=4",
+      "country": "us",
+      "source": "https://itunes.apple.com/lookup?id=1623318294&country=us"
+    },
+    {
+      "trackId": 6443755785,
+      "trackName": "Seaside Escape®: Merge & Story",
+      "sellerName": "Microfun Limited",
+      "releaseDate": "2022-11-24T08:00:00Z",
+      "trackViewUrl": "https://apps.apple.com/us/app/seaside-escape-merge-story/id6443755785?uo=4",
+      "country": "us",
+      "source": "https://itunes.apple.com/lookup?id=6443755785&country=us"
+    }
+  ],
+  "note": "直接查询对应地区应用的选定字段；releaseDate不代表全平台全球首发。",
+  "channel": "Apple iTunes Lookup API"
+}
