@@ -1,0 +1,46 @@
+{
+  "name": "Conquerors 2: Glory of Sultans",
+  "aliases": [],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "igg",
+  "publisher": "igg",
+  "released": "2019-09-19",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "美国iOS版本",
+  "significance": "阿拉伯帝国题材续作，城建、联盟战争及王朝养成；与一代保留独立商店档案。",
+  "sources": [
+    {
+      "title": "Apple美国商店：Conquerors 2独立产品及发行主体",
+      "url": "https://apps.apple.com/us/app/conquerors-2-glory-of-sultans/id1470355922"
+    }
+  ],
+  "verified": true,
+  "cover": "/images/slg/conquerors2.jpg",
+  "keyArt": "/images/slg/conquerors2.jpg",
+  "lifecycleNotes": [
+    {
+      "note": "Apple美国iOS原始releaseDate为2019-09-19，独立应用id1470355922，卖方IGG SINGAPORE PTE. LTD.；该日期不代表全球或Android最早上线，具体研发工作室尚未确认。核查2026-10-12。",
+      "sources": [
+        {
+          "title": "Apple美国商店：Conquerors 2独立产品及发行主体",
+          "url": "https://apps.apple.com/us/app/conquerors-2-glory-of-sultans/id1470355922"
+        }
+      ]
+    },
+    {
+      "note": "官方商店描述实时调整部队阵形与行军路线，以及城建、科技、采集、联盟与子嗣养成。只记录玩法，不据此将整个项目强行划入ROK型；没有实名制作人证据。核查2026-10-12。",
+      "sources": [
+        {
+          "title": "Apple美国商店：Conquerors 2独立产品及发行主体",
+          "url": "https://apps.apple.com/us/app/conquerors-2-glory-of-sultans/id1470355922"
+        }
+      ]
+    }
+  ]
+}

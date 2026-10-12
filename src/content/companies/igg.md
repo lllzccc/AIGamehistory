@@ -51,6 +51,10 @@
     {
       "title": "Conquerors官网：移动平台入口",
       "url": "https://cq.igg.com/"
+    },
+    {
+      "title": "Apple美国商店：Conquerors 2独立产品及发行主体",
+      "url": "https://apps.apple.com/us/app/conquerors-2-glory-of-sultans/id1470355922"
     }
   ],
   "website": "https://investor.igg.com/milestone.php?lang=1",
@@ -88,6 +92,13 @@
               "url": "https://statics.igg.com/investor/webcasts/IGG_2019_Annual_Results_PPT-_v5-Eng-0316.pdf"
             },
             "note": "补Conquerors: Golden Age美国2017-07-26及旧名Clash of Crowns；具体研发工作室、改名日期和其他地区首发仍待查。"
+          },
+          {
+            "source": {
+              "title": "Apple美国商店：Conquerors 2独立产品及发行主体",
+              "url": "https://apps.apple.com/us/app/conquerors-2-glory-of-sultans/id1470355922"
+            },
+            "note": "续作Conquerors2独立美国iOS应用2019-09-19，未将其并成一代改名；其他地区/Android首发及工作室待查。"
           }
         ],
         "gaps": [
@@ -231,3 +242,6 @@ IGG官方历程记载集团于2006年成立，2009年在新加坡设立总部，
 
 
 Conquerors: Golden Age现已收录美国iOS版本（2017年7月26日），官方业绩资料确认历史名称Conquerors: Clash of Crowns。改名时间及具体研发团队未确认，保留缺口。核查2026年10月12日。
+
+
+Conquerors 2: Glory of Sultans现按独立商店应用收录美国iOS2019年9月19日版本，避免与一代的历史改名合并。具体研发团队、地区扩展及Android最早首发仍待查。核查2026年10月12日。

@@ -65,3 +65,9 @@ Mobile Royale批0ef639a：类型/100测试/68页构建通过，Pages38240428396�
 0ef639a最终核验：Pages38240428396 success，1440/390 Mobile Royale新产品抽屉、美国日期、官方图像解码、IGG公司收录说明均通过。继续Conquerors地区版本建档。
 
 新增Conquerors美国iOS2017-07-26官方截图、2019PDF旧名及历史统计（注册1200万/MAU40万/收入占比约2%），不反算精确产品收入。待验证提交发布。下一步Conquerors2地区版本，冻结战争FrozenWar及项目工作人员原始访谈。
+
+30e6864 Conquerors批类型/100测试/68页构建通过，Pages38240790005进行中，gh watch session22846。下一批Conquerors2 Apple1470355922美国2019-09-19官方原始记录已存.local-checks/conquerors2-apple.json；FrozenWar官方2024业绩演示有新品说明，但不要拿三方release日期先落。
+
+30e6864最终Pages38240790005 success，1440/390 Conquerors新抽屉、2017-07-26日期、官方图解码、公司页产品说明交互通过。下轮Conquerors2建档，历史续作不要将2代在商店宣传in this version当1代仅改名。
+
+Conquerors2美国iOS独立产品2019-09-19建档官方图。实时阵形/路线不直接硬判ROK，团队实名待查。当前5小时已用94%，完成本批验证发布后继续按额度推进，禁止等重置券/额度回满续跑。
