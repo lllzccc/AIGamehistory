@@ -55,6 +55,10 @@
     {
       "title": "Apple美国商店：Conquerors 2独立产品及发行主体",
       "url": "https://apps.apple.com/us/app/conquerors-2-glory-of-sultans/id1470355922"
+    },
+    {
+      "title": "IGG2024年度业绩演示：Frozen War策略新品（2025年3月披露）",
+      "url": "https://statics-global.igg.com/investor/webcasts/2025/03/28/2024%20Annual%20Results%20PPT-Eng.pdf"
     }
   ],
   "website": "https://investor.igg.com/milestone.php?lang=1",
@@ -99,6 +103,13 @@
               "url": "https://apps.apple.com/us/app/conquerors-2-glory-of-sultans/id1470355922"
             },
             "note": "续作Conquerors2独立美国iOS应用2019-09-19，未将其并成一代改名；其他地区/Android首发及工作室待查。"
+          },
+          {
+            "source": {
+              "title": "IGG2024年度业绩演示：Frozen War策略新品（2025年3月披露）",
+              "url": "https://statics-global.igg.com/investor/webcasts/2025/03/28/2024%20Annual%20Results%20PPT-Eng.pdf"
+            },
+            "note": "已读业绩演示第10及21–23页：Frozen War列为已推出寒冷末日SLG新品，但未给首发地区平台日；Apple美国6738370929当前lookup返回0，不等同停服。"
           }
         ],
         "gaps": [
@@ -106,6 +117,17 @@
             "question": "继续逐项核对原始资料。",
             "status": "pending",
             "nextStep": "补齐来源、版本与日期后再验收。"
+          },
+          {
+            "question": "Frozen War首发版本与当前运营状态",
+            "status": "pending",
+            "nextStep": "核官方历史商店、公告及地区版本；不使用相似名称Frost War替代，第三方下架日期有差异，不推断停服。",
+            "sources": [
+              {
+                "title": "IGG2024年度业绩演示：Frozen War策略新品（2025年3月披露）",
+                "url": "https://statics-global.igg.com/investor/webcasts/2025/03/28/2024%20Annual%20Results%20PPT-Eng.pdf"
+              }
+            ]
           }
         ],
         "checkedAt": "2026-10-12"
@@ -245,3 +267,8 @@ Conquerors: Golden Age现已收录美国iOS版本（2017年7月26日），官方
 
 
 Conquerors 2: Glory of Sultans现按独立商店应用收录美国iOS2019年9月19日版本，避免与一代的历史改名合并。具体研发团队、地区扩展及Android最早首发仍待查。核查2026年10月12日。
+
+
+### 待补历史新品：Frozen War
+
+IGG于2025年3月披露的2024年度业绩演示，将Frozen War列为已推出的寒冷末日题材SLG，并展示游戏画面。资料没有给出准确首发地区、平台和日期，暂列产品目录线索，不造时间线节点。2026年10月12日核查美国Apple查询接口未返回该历史应用，不能据此判断全球下架或停服；具体研发团队、版本历史与运营状态仍待补。

@@ -71,3 +71,9 @@ Mobile Royale批0ef639a：类型/100测试/68页构建通过，Pages38240428396�
 30e6864最终Pages38240790005 success，1440/390 Conquerors新抽屉、2017-07-26日期、官方图解码、公司页产品说明交互通过。下轮Conquerors2建档，历史续作不要将2代在商店宣传in this version当1代仅改名。
 
 Conquerors2美国iOS独立产品2019-09-19建档官方图。实时阵形/路线不直接硬判ROK，团队实名待查。当前5小时已用94%，完成本批验证发布后继续按额度推进，禁止等重置券/额度回满续跑。
+
+续作批8c16b49 Pages38241156711进行中，watch session7612，成功后运行conquerors2-check.cjs。FrozenWar线索Apple6738370929、Google com.igg.android.frozenwar；三方两站下架日期分别2026-05-05/05-13，不足证明停服。需官方确认，不把改名相似Frost War/Volcano Force混入IGG。
+
+8c16b49续作批Pages38241156711 success，1440/390新增产品日期图像抽屉和IGG公司页核验通过。FrozenWar美国Apple当前lookup结果0，只说明此地区接口未返回，不作停服结论。下一轮官方2024业绩资料及其他地区/官方公告核查。
+
+FrozenWar官方2024业绩演示已读第10/21–23页，补公司目录线索及缺口，不虚构首发日期，不因美国lookup0判停服。额度97%仍可用；本轮资料只公司正文，后续检查发布。
