@@ -31,6 +31,18 @@
     {
       "title": "IGG 2026中期报告：收入拆分（未经审计）",
       "url": "https://iis.quamnet.com/media/IRAnnouncement/799/EN_US/12329120-0.PDF"
+    },
+    {
+      "title": "Apple美国商店：Mobile Royale地区版本",
+      "url": "https://apps.apple.com/us/app/mobile-royale-kingdom-defense/id1442047697"
+    },
+    {
+      "title": "IGG2019业绩演示第10页：2018年12月发行及2019统计",
+      "url": "https://statics.igg.com/investor/webcasts/IGG_2019_Annual_Results_PPT-_v5-Eng-0316.pdf"
+    },
+    {
+      "title": "IGG2019-01-15欧洲推广官方新闻稿",
+      "url": "https://www.prnewswire.co.uk/news-releases/top-mobile-game-developer-igg-launches-mobile-royale-to-hit-the-european-market-816624244.html"
     }
   ],
   "website": "https://investor.igg.com/milestone.php?lang=1",
@@ -54,14 +66,23 @@
         "area": "catalog",
         "status": "pending",
         "scope": "完整产品目录",
-        "examined": [],
+        "examined": [
+          {
+            "source": {
+              "title": "IGG2019业绩演示第10页：2018年12月发行及2019统计",
+              "url": "https://statics.igg.com/investor/webcasts/IGG_2019_Annual_Results_PPT-_v5-Eng-0316.pdf"
+            },
+            "note": "补Mobile Royale目录，Apple美国2019-01-14与2018-12未列地区发行、2019-01-15欧洲推广分开。Conquerors: Golden Age及其旧名仍待后续逐项建档。"
+          }
+        ],
         "gaps": [
           {
             "question": "继续逐项核对原始资料。",
             "status": "pending",
             "nextStep": "补齐来源、版本与日期后再验收。"
           }
-        ]
+        ],
+        "checkedAt": "2026-10-12"
       },
       {
         "area": "lifecycle",
@@ -189,3 +210,6 @@ IGG官方历程记载集团于2006年成立，2009年在新加坡设立总部，
 | Fate War | 2026年上半年 | 平均月流水超过18,000,000 |
 
 [IGG 2025全年官方业绩公告（脚注3、6）](https://statics.9458.com/game/9900/article/2026/03/25/041543_69c3a7bfdb4076266.pdf)，[IGG 2026中期官方业绩公告](https://statics.9458.com/game/9900/article/2026/08/13/063717_6a7dac6d4a73c9494.pdf)。平均月值与单月值不直接作涨跌比较；地区、平台及流水定义的进一步拆分待补。
+
+
+已补Mobile Royale美国iOS版本。官方2019业绩资料记载2018年12月推出，美国iOS原始记录为2019年1月14日，欧洲推广稿为1月15日；地区与推广阶段分开，具体研发工作室及其他平台最早版本待补。核查2026年10月12日。

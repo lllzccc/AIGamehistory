@@ -1,0 +1,69 @@
+{
+  "name": "Mobile Royale: Kingdom Defense",
+  "aliases": [
+    "Mobile Royale"
+  ],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "igg",
+  "publisher": "igg",
+  "released": "2019-01-14",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "美国iOS版本",
+  "significance": "奇幻城建、英雄养成与联盟战争；早期发行和欧洲推广分地区记录。",
+  "sources": [
+    {
+      "title": "Apple美国商店：Mobile Royale地区版本",
+      "url": "https://apps.apple.com/us/app/mobile-royale-kingdom-defense/id1442047697"
+    },
+    {
+      "title": "IGG2019业绩演示第10页：2018年12月发行及2019统计",
+      "url": "https://statics.igg.com/investor/webcasts/IGG_2019_Annual_Results_PPT-_v5-Eng-0316.pdf"
+    },
+    {
+      "title": "IGG2019-01-15欧洲推广官方新闻稿",
+      "url": "https://www.prnewswire.co.uk/news-releases/top-mobile-game-developer-igg-launches-mobile-royale-to-hit-the-european-market-816624244.html"
+    }
+  ],
+  "verified": true,
+  "cover": "/images/slg/mobile-royale.jpg",
+  "keyArt": "/images/slg/mobile-royale.jpg",
+  "lifecycleNotes": [
+    {
+      "note": "Apple美国iOS原始releaseDate为2019-01-14，卖方IGG SINGAPORE PTE. LTD.；集团品牌归档，不确定具体研发工作室。核查2026-10-12。",
+      "sources": [
+        {
+          "title": "Apple美国商店：Mobile Royale地区版本",
+          "url": "https://apps.apple.com/us/app/mobile-royale-kingdom-defense/id1442047697"
+        }
+      ]
+    },
+    {
+      "note": "IGG2019业绩演示记载2018年12月推出，未列该时间点的地区与平台；2019-01-15官方欧洲推广稿说明已在App Store及Google Play提供下载。三种范围保留，不将推广公告日写成最早全球上线。核查2026-10-12。",
+      "sources": [
+        {
+          "title": "IGG2019业绩演示第10页：2018年12月发行及2019统计",
+          "url": "https://statics.igg.com/investor/webcasts/IGG_2019_Annual_Results_PPT-_v5-Eng-0316.pdf"
+        },
+        {
+          "title": "IGG2019-01-15欧洲推广官方新闻稿",
+          "url": "https://www.prnewswire.co.uk/news-releases/top-mobile-game-developer-igg-launches-mobile-royale-to-hit-the-european-market-816624244.html"
+        }
+      ]
+    },
+    {
+      "note": "2019业绩演示第10页列截至2019-12-31注册用户690万、MAU18万、集团收入占比约3%；不是当前活跃规模，不以约数占比反算精确产品收入。核查2026-10-12。",
+      "sources": [
+        {
+          "title": "IGG2019业绩演示第10页：2018年12月发行及2019统计",
+          "url": "https://statics.igg.com/investor/webcasts/IGG_2019_Annual_Results_PPT-_v5-Eng-0316.pdf"
+        }
+      ]
+    }
+  ]
+}
