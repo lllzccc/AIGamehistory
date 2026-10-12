@@ -23,3 +23,7 @@ FunPlus本批：原始HTML含const years与timeline__slide顺序，可核对年�
 下一批原始新品证据：Foundation全球上线官方公告 https://funplus.com/foundation-galactic-frontier-global-launch/ 明确2025-10-21 iOS/Android/PC；此前2024试运营不是全球首发。Tiles Survive官方 https://funplus.com/info/tiles-survive-celebrates-30-million-player-download/ 称2025-07上线、不到一年3000万下载；不把下载写成用户数/流水。新官方about页面 https://funplus.com/about-funplus/ 有更多新品历程，国内招聘页内容可能滞后。
 
 3650d10 FunPlus历史/3领导/2工作室批次已Pages成功，1440/390线上核验通过。当前补Foundation和Tiles两个美国iOS版本与官方截图、Foundation全球上线节点与成都工作室线索。原始Apple6737595599=2025-10-20、6738109752=2025-07-03；Foundation全球公告10-21与2024beta分别记录。官方HTML直接请求403，web原文可读，图片采用Apple官方截图。Tiles3000万不落具体时间线日期（原文未给准确突破日）。下一步官方Foundation播客第2集制作人署名、Misty Continent、乐狗团队/版本。
+
+本批b87ee03，Pages run38234301557成功；1440/390两新品抽屉、图片解码、成都团队与日期说明、公司页检查通过。Foundation官方播客第2集 https://www.youtube.com/watch?v=egJ5nk09FFM 当前web仅返回YouTube外壳，尚未得到实名署名；不猜人名。Misty Continent Appleid1633960431可用作下一批原始日期检索。
+
+乐狗补充：官方TapTap信 https://www.taptap.cn/moment/60312508744859695 显示修改日2023-05-30，不能作为首发日。新增大河别名/历史CEO侯柯（公司账号2021-04-04转载 https://maimai.cn/article/detail?efid=ScWWyzqsIo-QF_0Mcxa0_A&fid=1610147207）；总流水10亿美元说法未明确累计区间和平台地区，不入年度图。五方向查阅范围更新。Misty原始Apple已存.local-checks/misty-apple.json待下一批归档。

@@ -1,0 +1,33 @@
+{
+  "name": "大河",
+  "aliases": [],
+  "bio": "《万国觉醒》官方制作人署名，公开使用别名，真实姓名及当前任职状态尚未核实。",
+  "roles": [
+    {
+      "company": "legou",
+      "scope": "product",
+      "products": [
+        "rise-of-kingdoms"
+      ],
+      "title": "producer",
+      "from": "2023-05-30",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-12",
+      "sources": [
+        {
+          "title": "莉莉丝官方开发者信：万国觉醒制作人大河（页面修改于2023-05-30）",
+          "url": "https://www.taptap.cn/moment/60312508744859695"
+        }
+      ],
+      "note": "日期取页面显示的修改日，仅证明公开职业署名，不是入职日；原文谈国服公测首周，不能把修改日当信件首发日。项目按研发方乐狗归档，法律雇主未确认。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "莉莉丝官方开发者信：万国觉醒制作人大河（页面修改于2023-05-30）",
+      "url": "https://www.taptap.cn/moment/60312508744859695"
+    }
+  ],
+  "verified": true
+}

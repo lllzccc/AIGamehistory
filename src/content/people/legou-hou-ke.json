@@ -1,0 +1,31 @@
+{
+  "name": "侯柯",
+  "aliases": [],
+  "bio": "2021年公司账号转载的访谈将侯柯称为乐狗游戏CEO；这是历史职业资料，当前任期与股权身份待核实。",
+  "roles": [
+    {
+      "company": "legou",
+      "scope": "company",
+      "products": [],
+      "title": "ceo",
+      "from": "2021-04-04",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-12",
+      "sources": [
+        {
+          "title": "乐狗公司账号转载侯柯访谈，2021-04-04",
+          "url": "https://maimai.cn/article/detail?efid=ScWWyzqsIo-QF_0Mcxa0_A&fid=1610147207"
+        }
+      ],
+      "note": "日期为公司账号转载访谈的公开观察日，不代表任职开始；没有据此推断创始人身份或2026年仍在职。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "乐狗公司账号转载侯柯访谈，2021-04-04",
+      "url": "https://maimai.cn/article/detail?efid=ScWWyzqsIo-QF_0Mcxa0_A&fid=1610147207"
+    }
+  ],
+  "verified": true
+}

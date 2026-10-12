@@ -42,6 +42,15 @@
           "url": "https://www.taptap.cn/app/82921/all-info"
         }
       ]
+    },
+    {
+      "note": "公司账号2021-04-04转载访谈称，CEO侯柯透露游戏总流水在2020年已超过10亿美元。原文未明确累计起点、平台与地区覆盖；保留历史访谈原口径，不作为2020年年度收入或乐狗公司营收。核查2026-10-12。",
+      "sources": [
+        {
+          "title": "乐狗公司账号转载侯柯访谈，2021-04-04",
+          "url": "https://maimai.cn/article/detail?efid=ScWWyzqsIo-QF_0Mcxa0_A&fid=1610147207"
+        }
+      ]
     }
   ],
   "verified": true,
@@ -55,6 +64,30 @@
       {
         "title": "官方玩法描述",
         "url": "https://apps.apple.com/us/app/rise-of-kingdoms/id1354260888"
+      }
+    ]
+  },
+  "teamEvidence": [
+    {
+      "observedAt": "2023-05-30",
+      "kind": "official",
+      "summary": "官方开发者信由制作人大河署名。页面显示修改日2023-05-30，原始发表时间未确认；真实姓名与当前任期未核实。核查2026-10-12。",
+      "sources": [
+        {
+          "title": "莉莉丝官方开发者信：万国觉醒制作人大河（页面修改于2023-05-30）",
+          "url": "https://www.taptap.cn/moment/60312508744859695"
+        }
+      ]
+    }
+  ],
+  "personnelResearch": {
+    "status": "documented",
+    "checkedAt": "2026-10-12",
+    "note": "已确认制作人公开别名；主策、核心策划、美术及历任变动仍未找到可核验署名。",
+    "sources": [
+      {
+        "title": "莉莉丝官方开发者信：万国觉醒制作人大河（页面修改于2023-05-30）",
+        "url": "https://www.taptap.cn/moment/60312508744859695"
       }
     ]
   }
