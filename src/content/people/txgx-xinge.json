@@ -1,0 +1,34 @@
+{
+  "name": "心哥",
+  "aliases": [],
+  "bio": "《三国：天下归心》制作人在官方商店使用的公开项目署名；实名尚未确认，不与其他同名人员合并。",
+  "verified": true,
+  "sources": [
+    {
+      "title": "三国天下归心官方商店：制作人署名与发行供应商",
+      "url": "https://www.taptap.cn/app/759941"
+    }
+  ],
+  "roles": [
+    {
+      "company": "kingnet",
+      "scope": "product",
+      "products": [
+        "sanguo-tianxia-guixin"
+      ],
+      "title": "producer",
+      "titleNote": "官方项目称呼，实名待核实",
+      "from": "2026-10-12",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-12",
+      "sources": [
+        {
+          "title": "三国天下归心官方商店：制作人署名与发行供应商",
+          "url": "https://www.taptap.cn/app/759941"
+        }
+      ],
+      "note": "日期为本次公开页面观察，不代表入职日期；具体研发子公司与是否仍在任待补证。"
+    }
+  ]
+}

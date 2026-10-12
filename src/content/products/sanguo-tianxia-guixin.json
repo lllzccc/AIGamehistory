@@ -1,0 +1,63 @@
+{
+  "name": "三国：天下归心",
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "kingnet",
+  "publisher": "上饶越昶网络科技有限公司",
+  "released": "2026-04-16",
+  "platforms": [
+    "PC",
+    "Android",
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "中国大陆正式公测",
+  "significance": "恺英自研国战SLG，采用回合战斗，强调跨服对抗和交易自由；具体研发子公司待补证。",
+  "sources": [
+    {
+      "title": "官方全平台公测公告",
+      "url": "https://www.taptap.cn/moment/777577636401512967"
+    },
+    {
+      "title": "三国天下归心官方商店：制作人署名与发行供应商",
+      "url": "https://www.taptap.cn/app/759941"
+    },
+    {
+      "title": "恺英2024年6月投资者交流：本作自研SLG（第4页）",
+      "url": "https://static.cninfo.com.cn/finalpage/2024-06-19/1220401818.PDF"
+    }
+  ],
+  "verified": true,
+  "cover": "/images/slg/sanguo-tianxia-guixin.jpg",
+  "keyArt": "/images/slg/sanguo-tianxia-guixin.jpg",
+  "lifecycleNotes": [
+    {
+      "note": "核查日期2026-10-12。公测日期依据官方公告；不将早期删档或付费测试当正式上线。其他地区版本、累计流水和历史停服尚待检索。",
+      "sources": [
+        {
+          "title": "官方全平台公测公告",
+          "url": "https://www.taptap.cn/moment/777577636401512967"
+        },
+        {
+          "title": "三国天下归心官方商店：制作人署名与发行供应商",
+          "url": "https://www.taptap.cn/app/759941"
+        }
+      ]
+    }
+  ],
+  "teamEvidence": [
+    {
+      "observedAt": "2026-10-12",
+      "kind": "official",
+      "summary": "官方商店开发者寄语由制作人“心哥”署名；这是公开项目称呼，实名未确认。",
+      "sources": [
+        {
+          "title": "三国天下归心官方商店：制作人署名与发行供应商",
+          "url": "https://www.taptap.cn/app/759941"
+        }
+      ]
+    }
+  ]
+}

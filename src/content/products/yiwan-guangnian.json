@@ -1,0 +1,58 @@
+{
+  "name": "亿万光年",
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "unknown-matrix",
+  "publisher": "木叶村数字科技（北京）有限公司",
+  "released": "2026-04-08",
+  "platforms": [
+    "Android",
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "中国大陆正式公测",
+  "significance": "以星舰编队、实时走位与战术武器为特色的科幻星战策略游戏。",
+  "sources": [
+    {
+      "title": "官方公测FAQ：2026年4月8日10点开服",
+      "url": "https://www.taptap.cn/moment/789193342314348614"
+    },
+    {
+      "title": "亿万光年官方商店：研发与发行分别署名",
+      "url": "https://www.taptap.cn/app/220456"
+    }
+  ],
+  "verified": true,
+  "cover": "/images/slg/yiwan-guangnian.jpg",
+  "keyArt": "/images/slg/yiwan-guangnian.jpg",
+  "lifecycleNotes": [
+    {
+      "note": "核查日期2026-10-12。公测日期依据官方公告；不将早期删档或付费测试当正式上线。其他地区版本、累计流水和历史停服尚待检索。",
+      "sources": [
+        {
+          "title": "官方公测FAQ：2026年4月8日10点开服",
+          "url": "https://www.taptap.cn/moment/789193342314348614"
+        },
+        {
+          "title": "亿万光年官方商店：研发与发行分别署名",
+          "url": "https://www.taptap.cn/app/220456"
+        }
+      ]
+    }
+  ],
+  "gameplay": {
+    "core": "other",
+    "fusion": [],
+    "basis": "editorial",
+    "checkedAt": "2026-10-12",
+    "note": "官方介绍强调星舰微操与RTS战斗；本轮未证实完整COK/ROK或赛季地块框架，暂单列其他策略体系。本站整理，非官方分类。",
+    "sources": [
+      {
+        "title": "亿万光年官方商店：研发与发行分别署名",
+        "url": "https://www.taptap.cn/app/220456"
+      }
+    ]
+  }
+}

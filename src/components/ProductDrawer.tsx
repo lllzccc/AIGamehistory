@@ -135,6 +135,8 @@ export default function ProductDrawer({ product, onClose }: Props) {
 
           {!!product.lifecycleNotes?.length && <section className="mt-10"><h3 className="font-serif text-lg text-ink">版本与日期说明</h3><ul className="mt-4 space-y-4">{product.lifecycleNotes.map((entry, i) => <li key={i}><p className="text-sm leading-relaxed text-ink-soft">{entry.note}</p><p className="mt-2 text-xs text-mist"><SourceLinks sources={entry.sources} /></p></li>)}</ul></section>}
 
+          {!!product.teamEvidence?.length && <section className="mt-10"><h3 className="font-serif text-lg text-ink">团队公开线索</h3><ul className="mt-4 space-y-4">{product.teamEvidence.map((entry, i) => <li key={i}><p className="text-sm leading-relaxed text-ink-soft">{entry.summary}</p><p className="mt-2 text-xs text-mist">{entry.kind === 'official' ? '官方资料' : '公开报道'} · 核查 {entry.observedAt} · <SourceLinks sources={entry.sources} /></p></li>)}</ul></section>}
+
           {product.credits.length > 0 && (
             <section className="mt-10">
               <h3 className="font-serif text-lg text-ink">主创</h3>

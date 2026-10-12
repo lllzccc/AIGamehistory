@@ -1,0 +1,86 @@
+{
+  "name": "Ant Legion",
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "eyu",
+  "publisher": "37GAMES（三七互娱海外发行品牌）",
+  "released": "2022-01-13",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "美国iOS商店发行记录",
+  "significance": "以蚁巢建设、蚁兵养成、资源争夺和联盟协作为核心的昆虫题材策略游戏。",
+  "cover": "/images/slg/ant-legion.jpg",
+  "keyArt": "/images/slg/ant-legion.jpg",
+  "sources": [
+    {
+      "title": "易娱官方产品目录",
+      "url": "https://www.eyugame.com/product"
+    },
+    {
+      "title": "易娱官方历程与自研工作室",
+      "url": "https://www.eyugame.com/p/about"
+    },
+    {
+      "title": "三七官网：37GAMES海外发行品牌",
+      "url": "https://www.37wan.net/brand.html?active=1"
+    },
+    {
+      "title": "Apple美国iOS元数据：首发日期与卖方",
+      "url": "https://itunes.apple.com/lookup?id=1584078447&country=us"
+    },
+    {
+      "title": "官方商店玩法与宣传图",
+      "url": "https://apps.apple.com/us/app/id1584078447"
+    }
+  ],
+  "verified": true,
+  "gameplay": {
+    "core": "cok-like",
+    "fusion": [],
+    "basis": "editorial",
+    "checkedAt": "2026-10-12",
+    "note": "依据官方的基地建设、部队养成及玩家间资源/领土竞争描述，本站整理为COK-like。融合玩法按商店明确描述记录，不代表官方谱系或研发传承。",
+    "sources": [
+      {
+        "title": "易娱官方产品目录",
+        "url": "https://www.eyugame.com/product"
+      },
+      {
+        "title": "官方商店玩法与宣传图",
+        "url": "https://apps.apple.com/us/app/id1584078447"
+      }
+    ]
+  },
+  "lifecycleNotes": [
+    {
+      "note": "核查日期2026-10-12。此日期仅代表美国iOS记录，不等同Android、全球或国内首发。商店卖方为BUILDING-BLOCKS NETWORK TECHNOLOGY CO.,LIMITED；不把商店卖方直接当研发团队，具体法人股权关系待补。",
+      "sources": [
+        {
+          "title": "Apple美国iOS元数据：首发日期与卖方",
+          "url": "https://itunes.apple.com/lookup?id=1584078447&country=us"
+        },
+        {
+          "title": "三七官网：37GAMES海外发行品牌",
+          "url": "https://www.37wan.net/brand.html?active=1"
+        }
+      ]
+    }
+  ],
+  "teamEvidence": [
+    {
+      "observedAt": "2026-10-12",
+      "kind": "official",
+      "summary": "易娱官网明确将本作列为易游工作室自研作品，实名主创尚待检索。",
+      "sources": [
+        {
+          "title": "易娱官方历程与自研工作室",
+          "url": "https://www.eyugame.com/p/about"
+        }
+      ]
+    }
+  ]
+}
