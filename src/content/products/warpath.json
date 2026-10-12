@@ -1,6 +1,8 @@
 {
   "name": "Warpath: Ace Shooter",
-  "aliases": [],
+  "aliases": [
+    "战火勋章"
+  ],
   "chronicles": [
     "slg"
   ],
@@ -41,5 +43,44 @@
         }
       ]
     }
-  ]
+  ],
+  "teamEvidence": [
+    {
+      "observedAt": "2021-11-18",
+      "kind": "reported",
+      "summary": "游戏葡萄的本人访谈记载袁帅担任Warpath制作人，为历史署名，未核对当前任期。",
+      "sources": [
+        {
+          "title": "游戏葡萄采访袁帅，TapTap作者账号页面修改于2021-11-18",
+          "url": "https://www.taptap.cn/topic/19641656"
+        }
+      ]
+    },
+    {
+      "observedAt": "2026-10-12",
+      "kind": "official",
+      "summary": "国内战火勋章官方开发者寄语署名制作人小庄。没有证据确认与袁帅的职责分工、交接日期或是否同时任职。",
+      "sources": [
+        {
+          "title": "战火勋章官方开发者寄语：制作人小庄，核查2026-10-12",
+          "url": "https://www.taptap.cn/app/211067"
+        }
+      ]
+    }
+  ],
+  "personnelResearch": {
+    "status": "documented",
+    "checkedAt": "2026-10-12",
+    "note": "已收两条不同时点与来源的制作人职业署名，真实任期、主策和核心美术仍待核查。",
+    "sources": [
+      {
+        "title": "游戏葡萄采访袁帅，TapTap作者账号页面修改于2021-11-18",
+        "url": "https://www.taptap.cn/topic/19641656"
+      },
+      {
+        "title": "战火勋章官方开发者寄语：制作人小庄，核查2026-10-12",
+        "url": "https://www.taptap.cn/app/211067"
+      }
+    ]
+  }
 }

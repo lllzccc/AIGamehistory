@@ -1,0 +1,54 @@
+{
+  "name": "袁帅",
+  "aliases": [],
+  "bio": "莉莉丝联合创始人；2021年游戏葡萄采访记载其担任剑与家园、Warpath制作人。2025年访谈讨论独立游戏投资，不据此判断其离开研发或更换职位。",
+  "roles": [
+    {
+      "company": "lilith",
+      "scope": "company",
+      "products": [],
+      "title": "founder",
+      "from": "2021-11-18",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-12",
+      "sources": [
+        {
+          "title": "游戏葡萄采访袁帅，TapTap作者账号页面修改于2021-11-18",
+          "url": "https://www.taptap.cn/topic/19641656"
+        }
+      ],
+      "note": "公开采访观察日，不是公司成立日；2013年共同创业另见采访正文。"
+    },
+    {
+      "company": "lilith",
+      "scope": "product",
+      "products": [
+        "warpath"
+      ],
+      "title": "producer",
+      "from": "2021-11-18",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-12",
+      "sources": [
+        {
+          "title": "游戏葡萄采访袁帅，TapTap作者账号页面修改于2021-11-18",
+          "url": "https://www.taptap.cn/topic/19641656"
+        }
+      ],
+      "note": "历史制作人署名；任期起止、与小庄的职责分工和交接时间均未确认，不推断离职。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "游戏葡萄采访袁帅，TapTap作者账号页面修改于2021-11-18",
+      "url": "https://www.taptap.cn/topic/19641656"
+    },
+    {
+      "title": "游戏葡萄2025-06-20袁帅访谈，36氪授权转载",
+      "url": "https://www.36kr.com/p/3344604472230793"
+    }
+  ],
+  "verified": true
+}

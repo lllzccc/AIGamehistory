@@ -1,0 +1,33 @@
+{
+  "name": "小庄",
+  "aliases": [],
+  "bio": "战火勋章官方开发者寄语中的制作人别名，真实姓名、法律雇主与当前任期尚未核实。",
+  "roles": [
+    {
+      "company": "lilith",
+      "scope": "product",
+      "products": [
+        "warpath"
+      ],
+      "title": "producer",
+      "from": "2026-10-12",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-12",
+      "sources": [
+        {
+          "title": "战火勋章官方开发者寄语：制作人小庄，核查2026-10-12",
+          "url": "https://www.taptap.cn/app/211067"
+        }
+      ],
+      "note": "日期为本次观察官方署名，不是入职日。与海外Warpath按同一产品关联；不据此判断接任袁帅或两人并任。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "战火勋章官方开发者寄语：制作人小庄，核查2026-10-12",
+      "url": "https://www.taptap.cn/app/211067"
+    }
+  ],
+  "verified": true
+}
