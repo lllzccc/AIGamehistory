@@ -1,0 +1,69 @@
+{
+  "name": "Lordrush",
+  "aliases": [],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "centurygames",
+  "publisher": "centurygames",
+  "released": "2026-07-19",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "美国iOS商店发行记录",
+  "significance": "中世纪堡垒城建与塔防结合联盟战争；暂按Century Games品牌线索归档，具体研发工作室待核实。",
+  "cover": "/images/slg/lordrush.jpg",
+  "keyArt": "/images/slg/lordrush.jpg",
+  "sources": [
+    {
+      "title": "Apple美国官方发行元数据，核查2026-10-12",
+      "url": "https://itunes.apple.com/lookup?id=6759788962&country=us"
+    },
+    {
+      "title": "Lordrush官方站与版权主体",
+      "url": "https://lordrush.centurygames.com/"
+    },
+    {
+      "title": "Google Play官方玩法与发行署名",
+      "url": "https://play.google.com/store/apps/details?gl=us&id=com.s01.global"
+    }
+  ],
+  "verified": false,
+  "gameplay": {
+    "core": "cok-like",
+    "fusion": [
+      "tower-defense",
+      "simulation"
+    ],
+    "basis": "editorial",
+    "checkedAt": "2026-10-12",
+    "note": "按商店说明的城建、资源、领主和联盟战争归类COK型，并标记塔防与居民经营；不是官方流派名称。",
+    "sources": [
+      {
+        "title": "Google Play官方玩法与发行署名",
+        "url": "https://play.google.com/store/apps/details?gl=us&id=com.s01.global"
+      }
+    ]
+  },
+  "lifecycleNotes": [
+    {
+      "note": "核查日期2026-10-12。美国iOS releaseDate为2026-07-19；不等于Android或全球首次上线。Google Play确认Android版本存在，首次发行日待查。官网版权与商店卖方为Century Games Innovation Pte. Ltd.；它证明品牌与发行主体，不足以确定具体自研工作室，也未证明与Kingshot为同一产品。",
+      "sources": [
+        {
+          "title": "Apple美国官方发行元数据，核查2026-10-12",
+          "url": "https://itunes.apple.com/lookup?id=6759788962&country=us"
+        },
+        {
+          "title": "Lordrush官方站与版权主体",
+          "url": "https://lordrush.centurygames.com/"
+        },
+        {
+          "title": "Google Play官方玩法与发行署名",
+          "url": "https://play.google.com/store/apps/details?gl=us&id=com.s01.global"
+        }
+      ]
+    }
+  ]
+}

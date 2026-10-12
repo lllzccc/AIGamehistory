@@ -30,6 +30,18 @@
     {
       "title": "世纪华通专项审计回复：点点北京与DIH于2018-01-16合并、股权100%",
       "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=4965423&stockid=sz002602"
+    },
+    {
+      "title": "Apple美国官方发行元数据，核查2026-10-12",
+      "url": "https://itunes.apple.com/lookup?id=6759788962&country=us"
+    },
+    {
+      "title": "Lordrush官方站与版权主体",
+      "url": "https://lordrush.centurygames.com/"
+    },
+    {
+      "title": "Google Play官方玩法与发行署名",
+      "url": "https://play.google.com/store/apps/details?gl=us&id=com.s01.global"
     }
   ],
   "website": "https://www.campfiregames.cn/aboutus/",
@@ -67,16 +79,30 @@
       },
       {
         "area": "catalog",
-        "status": "pending",
+        "status": "partial",
         "scope": "本轮代表产品与研发／发行关系",
-        "examined": [],
+        "examined": [
+          {
+            "source": {
+              "title": "Lordrush官方站与版权主体",
+              "url": "https://lordrush.centurygames.com/"
+            },
+            "note": "发现Lordrush官方品牌与发行主体，补美国iOS2026-07-19版本；不推定具体自研工作室。"
+          }
+        ],
         "gaps": [
           {
             "question": "核对官网全量目录、历史下架产品及发行地区。",
             "status": "pending",
             "nextStep": "核对官网全量目录、历史下架产品及发行地区。"
+          },
+          {
+            "question": "Lordrush具体研发工作室、Android首次发行及各地区测试阶段",
+            "status": "pending",
+            "nextStep": "继续核对制作团队公开资料及官方上线公告。"
           }
-        ]
+        ],
+        "checkedAt": "2026-10-12"
       },
       {
         "area": "lifecycle",
@@ -160,3 +186,9 @@
 核查日期：2026-10-12。世纪华通专项审计回复列点点北京与DianDian Interactive Holding（DIH）合并日均为2018年1月16日，股权取得比例均100%。取得成本分别为1亿元和约68.2533亿元人民币（原表万元换算），两者是不同主体，不将合计金额当作北京单一公司的收购价。此为历史交易记录，最新北京、开曼、新加坡控制链仍待逐期核对。
 
 [上市公告中的专项审计回复与取得成本表](https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=4965423&stockid=sz002602)。
+
+## 2026年产品目录补充
+
+核查日期：2026-10-12。Lordrush美国iOS发行记录为2026年7月19日，另有Android版本。官网版权与商店卖方署名Century Games Innovation Pte. Ltd.。按品牌线索单独建档，具体研发工作室与全球首发仍待核实，不凭玩法相似将其合并为Kingshot版本。
+
+[官方站](https://lordrush.centurygames.com/) · [Apple美国发行记录](https://itunes.apple.com/lookup?id=6759788962&country=us)。
