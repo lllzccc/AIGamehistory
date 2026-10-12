@@ -1,0 +1,34 @@
+{
+  "name": "黄书炜",
+  "aliases": [
+    "Edwin"
+  ],
+  "bio": "2020年访谈列为IGG全球运营高级总监，谈及王国纪元发行、本地化与长线运营。当前任职及研发职责未确认。",
+  "roles": [
+    {
+      "company": "igg",
+      "scope": "company",
+      "products": [],
+      "title": "other",
+      "titleNote": "全球运营高级总监（历史公开职务）",
+      "from": "2020-12-07",
+      "dateBasis": "public-observation",
+      "status": "unknown",
+      "checkedAt": "2026-10-12",
+      "note": "日期为转载发布日，非入职日。已读转载全文，公众号原文暂不可读，不认定当前在职或研发负责人。",
+      "sources": [
+        {
+          "title": "出海独联体访谈（GameRes转载，2020-12-07）",
+          "url": "https://www.gameres.com/877737.html"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "出海独联体访谈（GameRes转载，2020-12-07）",
+      "url": "https://www.gameres.com/877737.html"
+    }
+  ],
+  "verified": true
+}
