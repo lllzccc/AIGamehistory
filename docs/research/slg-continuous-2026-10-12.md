@@ -39,3 +39,6 @@ Misty Continent本批：Apple1633960431美国iOS2022-08-02、FunPlus Internation
 82e3f69部署38237205566已成功，1440/390国内日期和策划署名检查通过。下一步剑与家园：Apple美国id1131944535，官网历史新闻 https://aoc.lilith.com/detail/news/19 ，核对地区首发，产品尚未建档；不要将官网下载落地页计数当可靠用户量。
 
 剑与家园本批：Apple1131944535美国2017-06-06，官方news19预告2017-04-13国内Android删档测试，官方公众号jianyujiayuan历史身份已由官网确认（当前有效性待查）；制作人袁帅关联。玩法暂other，未用实时战斗直接推ROK自由行军。本地官方高清图。
+ea9bb3d剑与家园批：Pages38237550546成功，1440/390产品详情、图片与公司公众号历史身份检查通过；类型/100测试/构建已通过。下批江娱Top Heroes官网 https://www.topheroes.com/ 与Top War主体沿革；现有rivergame正文称其他产品待补，核对后更新旧研究范围，不重复增加已有版本。
+
+江娱本批：TopHeroes Apple6450953550美国2024-01-31卖方River Game HK Limited；招聘2023推出未给平台，保留差异。董文强2022-09-14主办方课程公司职務，非项目主创。官网topheroes网页工具标题误作Last War，不采用外壳判公司。

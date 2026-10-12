@@ -1,0 +1,61 @@
+{
+  "name": "Top Heroes: Kingdom Saga",
+  "aliases": [
+    "TopHeroes",
+    "王国之歌"
+  ],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "rivergame",
+  "publisher": "rivergame",
+  "released": "2024-01-31",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "美国iOS商店发行记录",
+  "significance": "英雄冒险与领地建设、公会联盟战争结合的江娱策略产品。",
+  "cover": "/images/slg/top-heroes.jpg",
+  "keyArt": "/images/slg/top-heroes.jpg",
+  "sources": [
+    {
+      "title": "江娱2026-06-18单位招聘介绍，中央民族大学就业网",
+      "url": "https://career.muc.edu.cn/front/zpxx.jspa?channelId=764&tid=31746"
+    },
+    {
+      "title": "Apple美国iOS元数据，核查2026-10-12",
+      "url": "https://itunes.apple.com/lookup?id=6450953550&country=us"
+    }
+  ],
+  "verified": true,
+  "gameplay": {
+    "core": "cok-like",
+    "fusion": [],
+    "basis": "editorial",
+    "checkedAt": "2026-10-12",
+    "note": "按官方商店领地城建、资源扩张与联盟战争描述归COK型；英雄RPG入口保留说明，现有融合标签不足以完整表达，未把RPG误作射击或卡牌。",
+    "sources": [
+      {
+        "title": "Apple美国iOS元数据，核查2026-10-12",
+        "url": "https://itunes.apple.com/lookup?id=6450953550&country=us"
+      }
+    ]
+  },
+  "lifecycleNotes": [
+    {
+      "note": "美国iOS商店记录2024-01-31；公司招聘自述称2023年推出，地区/平台及测试口径未明，保留差异，不用招聘年份替代该商店日期。卖方River Game HK Limited，不与北京研发法人直接画等号；具体工作室、Android首发与国内王国之歌版本待补。核查2026-10-12。",
+      "sources": [
+        {
+          "title": "江娱2026-06-18单位招聘介绍，中央民族大学就业网",
+          "url": "https://career.muc.edu.cn/front/zpxx.jspa?channelId=764&tid=31746"
+        },
+        {
+          "title": "Apple美国iOS元数据，核查2026-10-12",
+          "url": "https://itunes.apple.com/lookup?id=6450953550&country=us"
+        }
+      ]
+    }
+  ]
+}

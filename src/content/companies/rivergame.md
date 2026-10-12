@@ -18,6 +18,14 @@
     {
       "title": "口袋奇兵官方商店资料：供应商主体",
       "url": "https://www.taptap.cn/app/203580/all-info"
+    },
+    {
+      "title": "江娱2026-06-18单位招聘介绍，中央民族大学就业网",
+      "url": "https://career.muc.edu.cn/front/zpxx.jspa?channelId=764&tid=31746"
+    },
+    {
+      "title": "数数科技2022-09-14课程：董文强，江娱数据平台负责人",
+      "url": "https://www.thinkingdata.cn/thinking/course/4737.html"
     }
   ],
   "website": "https://www.rivergame.net/ar/about.html",
@@ -35,6 +43,13 @@
               "url": "https://www.rivergame.net/ar/about.html"
             },
             "note": "核对业务或品牌起点与本轮档案范围。"
+          },
+          {
+            "source": {
+              "title": "江娱2026-06-18单位招聘介绍，中央民族大学就业网",
+              "url": "https://career.muc.edu.cn/front/zpxx.jspa?channelId=764&tid=31746"
+            },
+            "note": "查公司招聘自述2018年成立与两款产品；Top Heroes商店日期单列，数据平台负责人仅记历史公司职务。"
           }
         ],
         "gaps": [
@@ -44,46 +59,73 @@
             "nextStep": "继续核对登记资料、股权转折及办公地点变化。"
           }
         ],
-        "checkedAt": "2026-10-10"
+        "checkedAt": "2026-10-12"
       },
       {
         "area": "catalog",
-        "status": "pending",
+        "status": "partial",
         "scope": "本轮代表产品与研发／发行关系",
-        "examined": [],
+        "examined": [
+          {
+            "source": {
+              "title": "江娱2026-06-18单位招聘介绍，中央民族大学就业网",
+              "url": "https://career.muc.edu.cn/front/zpxx.jspa?channelId=764&tid=31746"
+            },
+            "note": "查公司招聘自述2018年成立与两款产品；Top Heroes商店日期单列，数据平台负责人仅记历史公司职务。"
+          }
+        ],
         "gaps": [
           {
             "question": "核对官网全量目录、历史下架产品及发行地区。",
             "status": "pending",
             "nextStep": "核对官网全量目录、历史下架产品及发行地区。"
           }
-        ]
+        ],
+        "checkedAt": "2026-10-12"
       },
       {
         "area": "lifecycle",
-        "status": "pending",
+        "status": "partial",
         "scope": "首发口径、地区版本与运营状态",
-        "examined": [],
+        "examined": [
+          {
+            "source": {
+              "title": "江娱2026-06-18单位招聘介绍，中央民族大学就业网",
+              "url": "https://career.muc.edu.cn/front/zpxx.jspa?channelId=764&tid=31746"
+            },
+            "note": "查公司招聘自述2018年成立与两款产品；Top Heroes商店日期单列，数据平台负责人仅记历史公司职务。"
+          }
+        ],
         "gaps": [
           {
             "question": "继续补齐各地区、各平台开服与停服公告。",
             "status": "pending",
             "nextStep": "继续补齐各地区、各平台开服与停服公告。"
           }
-        ]
+        ],
+        "checkedAt": "2026-10-12"
       },
       {
         "area": "talent",
-        "status": "pending",
+        "status": "partial",
         "scope": "按项目收录制作人、主策、美术与历任角色",
-        "examined": [],
+        "examined": [
+          {
+            "source": {
+              "title": "数数科技2022-09-14课程：董文强，江娱数据平台负责人",
+              "url": "https://www.thinkingdata.cn/thinking/course/4737.html"
+            },
+            "note": "查公司招聘自述2018年成立与两款产品；Top Heroes商店日期单列，数据平台负责人仅记历史公司职务。"
+          }
+        ],
         "gaps": [
           {
             "question": "检索官方署名、制作人访谈和公开履历，逐条注明任职时段。",
             "status": "pending",
             "nextStep": "检索官方署名、制作人访谈和公开履历，逐条注明任职时段。"
           }
-        ]
+        ],
+        "checkedAt": "2026-10-12"
       },
       {
         "area": "business",
@@ -103,6 +145,9 @@
   }
 }
 ---
-官方介绍以2018年作为团队起点。国内《口袋奇兵》的商店供应商为北京江娱互动科技有限公司；此日期尚未拆分品牌创办与工商登记。首轮收录国内Android商店版本，海外Top War首发与其他产品待补。
+官方介绍以2018年作为团队起点。国内《口袋奇兵》的商店供应商为北京江娱互动科技有限公司；此日期尚未拆分品牌创办与工商登记。已列国内口袋奇兵、海外Top War和Top Heroes地区版本；其他地区、历史下架产品与股权仍待补。
 
-本轮为代表产品建档阶段，五个深挖方向的缺口保留在页末。人员和财务尚未完成专项检索，空白不代表没有公开资料。
+本轮为代表产品建档阶段，五个深挖方向的缺口保留在页末。人员已查数据大会公开职务，产品主创和财务仍待专项核对，空白不代表没有公开资料。
+
+
+公司2026年招聘介绍列TopHeroes／王国之歌为2023年推出，具体平台未说明，本站按美国iOS原始记录另列。历史数据平台负责人董文强有2022年大会主办方署名，不推定当前在职或绑定具体研发项目。核查2026-10-12。

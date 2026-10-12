@@ -1,0 +1,32 @@
+{
+  "name": "董文强",
+  "aliases": [],
+  "bio": "2022年游戏数据驱动大会讲者，主办方公开列为江娱互动数据平台负责人；不据此认定为某款游戏主策或制作人。",
+  "roles": [
+    {
+      "company": "rivergame",
+      "scope": "company",
+      "products": [],
+      "title": "other",
+      "titleNote": "数据平台负责人",
+      "from": "2022-09-14",
+      "dateBasis": "public-observation",
+      "status": "unknown",
+      "checkedAt": "2026-10-12",
+      "note": "日期为课程发布日，非入职日；当前任职与具体项目归属尚未核实。",
+      "sources": [
+        {
+          "title": "数数科技2022-09-14课程：董文强，江娱数据平台负责人",
+          "url": "https://www.thinkingdata.cn/thinking/course/4737.html"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "数数科技2022-09-14课程：董文强，江娱数据平台负责人",
+      "url": "https://www.thinkingdata.cn/thinking/course/4737.html"
+    }
+  ],
+  "verified": true
+}
