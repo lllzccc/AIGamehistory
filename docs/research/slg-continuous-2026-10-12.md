@@ -13,3 +13,9 @@
 待落地点点主体证据：世纪华通专项审计回复 https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=4965423&stockid=sz002602 表格列点点北京与DIH合并日均2018.1.16、股权100%，取得成本万元分别10000和682533.26；两主体不能混成北京单法人收购价。2018年报 https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?CompanyCode=80176445&gather=1&id=5309778 可交叉核对。下一轮读取整表并写history清单、主体说明和收购事件。
 
 上一批已落地：a188150易娱早期百亿披露、bc48165点点历史主体收购；Pages与1440/390线上检查通过。当前批发现Lordrush，Apple美国id6759788962原始releaseDate2026-07-19，卖方Century Games Innovation，Google包com.s01.global；具体研发团队不明，verified=false。补本地官方截图、COK+塔防/经营编辑分类。FunPlus招聘官方历程 https://campus.funplus.com.cn/about/ 可补KingsGroup与点点历史发行边界，下一批仔细核对页面年份分组（web文本未列出年份，禁止猜）。
+
+Lordrush提交269b937，构建/类型/100测试通过。Pages run38232937515的build已成功，deploy仍in_progress（job114756715049）；gh watch exec session82517仍活跃。线上浏览器提前打开旧页面，Lordrush按钮等待超时；应等同一部署完成后重新检查，禁止当作交互通过或重启部署。核验脚本.local-checks/lordrush-check.cjs，CHRONICLE_BASE=https://lllzccc.github.io/AIGamehistory/。
+
+后续核验：run38232937515最终success，重新打开线上版本后1440/390 Lordrush详情、官方图片解码、公司页检查通过。继续FunPlus官方历史分组及新品归档。
+
+FunPlus本批：原始HTML含const years与timeline__slide顺序，可核对年份组。新增3个集团官网职业署名、2条上海/广州工作室节点，补火枪2017点点历史发行。官网2016收购与公告2018合并、KingsGroup2014成立与2020四周年的差异留conflicting，不根据周年猜日期。原始临时证据.local-checks/funplus-campus.html与funplus-history-extracted.json。下一步Foundation/Tiles Survive等未收录目录、KingsGroup实名项目策划与美术。

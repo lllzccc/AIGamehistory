@@ -30,6 +30,15 @@
           "url": "https://funplus.com/about-funplus/"
         }
       ]
+    },
+    {
+      "note": "官方招聘历程2017年组记载9月KingsGroup研发《火枪纪元》、由点点互动发行。作为历史研发/发行关系记录，当前publisher为FunPlus品牌；不把历史发行商当研发工作室，具体地区/平台首次日期仍待查。核查日期2026-10-12。",
+      "sources": [
+        {
+          "title": "FunPlus官方招聘历程：工作室、历史发行与年份分组",
+          "url": "https://campus.funplus.com.cn/about/"
+        }
+      ]
     }
   ],
   "sources": [
@@ -44,6 +53,10 @@
     {
       "title": "FunPlus官方产品页与宣传图",
       "url": "https://funplus.com/games/guns-of-glory/"
+    },
+    {
+      "title": "FunPlus官方招聘历程：工作室、历史发行与年份分组",
+      "url": "https://campus.funplus.com.cn/about/"
     }
   ],
   "verified": true,

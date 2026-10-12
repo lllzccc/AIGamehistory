@@ -1,0 +1,32 @@
+{
+  "name": "Alexandre Amancio",
+  "aliases": [],
+  "bio": "官方领导团队页面公开署名。当前按集团公司职务记录，不自动关联任何SLG项目；中文姓名、入职日期与具体法律雇主未核实。",
+  "roles": [
+    {
+      "company": "funplus",
+      "scope": "company",
+      "products": [],
+      "title": "other",
+      "titleNote": "SVP World-Building & IP Strategy／世界构建与IP策略高级副总裁",
+      "from": "2026-10-12",
+      "status": "active",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-12",
+      "sources": [
+        {
+          "title": "FunPlus官方领导团队，核查2026-10-12",
+          "url": "https://funplus.com/funplus-leadership-team/"
+        }
+      ],
+      "note": "from为官网职务观察日，不是入职日期；在任仅按本次官方页面署名确认。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "FunPlus官方领导团队，核查2026-10-12",
+      "url": "https://funplus.com/funplus-leadership-team/"
+    }
+  ],
+  "verified": true
+}
