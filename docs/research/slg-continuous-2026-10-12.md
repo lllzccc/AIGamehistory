@@ -59,3 +59,9 @@ ea9bb3d剑与家园批：Pages38237550546成功，1440/390产品详情、图片�
 62822bc早期增资/财务批：Pages38239837602 success，1440/390正文2019营收金额及未经审计说明、产品详情与图片、无横溢核验通过，类型100测试68页构建通过。证券报2022-12-21 B018 PDF搜索摘要含江娱，但实际web提取873行中find江娱无结果，原版视觉/完整下载尚需验证；不把摘要说成已读原版。下一批可改查2022年报HTML镜像完成事实或转其他重点公司，避免在同一不可读PDF反复消耗。
 
 转IGG目录：新增Mobile Royale Apple美国1442047697=2019-01-14及官方商店图；2019业绩PDF原文第10页2018-12未列地区，官方2019-01-15欧洲稿推广，两种不混。历史注册690万/MAU18万/收入占比3%留历史注释不算精确收入。待类型测试构建、提交Pages与1440/390新产品检查。下一产品Conquerors: Golden Age旧名Clash of Crowns，2017-07官方发行口径待查具体地区。
+
+Mobile Royale批0ef639a：类型/100测试/68页构建通过，Pages38240428396进行中，gh watch session51927；成功后执行.local-checks/mobile-royale-check.cjs。下一款Conquerors Apple1149631667美国2017-07-26、IGG SINGAPORE已存conquerors-apple.json，官方2019PDF旧名Conquerors: Clash of Crowns支持别名但改名日未确认。MobileRoyale欧洲新闻稿署名Enric Cabestany General Manager Europe，可作历史公司角色，非制作人。
+
+0ef639a最终核验：Pages38240428396 success，1440/390 Mobile Royale新产品抽屉、美国日期、官方图像解码、IGG公司收录说明均通过。继续Conquerors地区版本建档。
+
+新增Conquerors美国iOS2017-07-26官方截图、2019PDF旧名及历史统计（注册1200万/MAU40万/收入占比约2%），不反算精确产品收入。待验证提交发布。下一步Conquerors2地区版本，冻结战争FrozenWar及项目工作人员原始访谈。

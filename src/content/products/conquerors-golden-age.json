@@ -1,0 +1,65 @@
+{
+  "name": "Conquerors: Golden Age",
+  "aliases": [
+    "Conquerors: Clash of Crowns"
+  ],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "igg",
+  "publisher": "igg",
+  "released": "2017-07-26",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "美国iOS版本",
+  "significance": "阿拉伯文明题材，结合城建、英雄与联盟战争；官方保留历史产品名称。",
+  "sources": [
+    {
+      "title": "Apple美国商店：Conquerors地区版本",
+      "url": "https://apps.apple.com/us/app/conquerors-golden-age/id1149631667"
+    },
+    {
+      "title": "IGG2019业绩演示第10页：2017年7月推出及历史名称",
+      "url": "https://statics.igg.com/investor/webcasts/IGG_2019_Annual_Results_PPT-_v5-Eng-0316.pdf"
+    },
+    {
+      "title": "Conquerors官网：移动平台入口",
+      "url": "https://cq.igg.com/"
+    }
+  ],
+  "verified": true,
+  "cover": "/images/slg/conquerors-golden-age.jpg",
+  "keyArt": "/images/slg/conquerors-golden-age.jpg",
+  "lifecycleNotes": [
+    {
+      "note": "Apple美国iOS原始releaseDate为2017-07-26，卖方IGG SINGAPORE PTE. LTD.；IGG集团品牌归档，具体研发工作室与其他地区最早首发仍待核查。核查2026-10-12。",
+      "sources": [
+        {
+          "title": "Apple美国商店：Conquerors地区版本",
+          "url": "https://apps.apple.com/us/app/conquerors-golden-age/id1149631667"
+        }
+      ]
+    },
+    {
+      "note": "IGG2019业绩演示记载2017年7月推出，原名Conquerors: Clash of Crowns；未给出改名日期，不另造上线或改名节点。核查2026-10-12。",
+      "sources": [
+        {
+          "title": "IGG2019业绩演示第10页：2017年7月推出及历史名称",
+          "url": "https://statics.igg.com/investor/webcasts/IGG_2019_Annual_Results_PPT-_v5-Eng-0316.pdf"
+        }
+      ]
+    },
+    {
+      "note": "IGG2019业绩演示列截至2019-12-31注册用户1200万、MAU40万、集团收入占比约2%；仅为历史统计，注册用户不等于活跃用户，约数占比不反算精确营收。核查2026-10-12。",
+      "sources": [
+        {
+          "title": "IGG2019业绩演示第10页：2017年7月推出及历史名称",
+          "url": "https://statics.igg.com/investor/webcasts/IGG_2019_Annual_Results_PPT-_v5-Eng-0316.pdf"
+        }
+      ]
+    }
+  ]
+}
