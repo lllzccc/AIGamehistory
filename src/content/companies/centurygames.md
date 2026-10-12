@@ -26,6 +26,10 @@
     {
       "title": "世纪华通2025年半年度报告",
       "url": "https://static.cninfo.com.cn/finalpage/2025-08-30/1224628793.PDF"
+    },
+    {
+      "title": "世纪华通专项审计回复：点点北京与DIH于2018-01-16合并、股权100%",
+      "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=4965423&stockid=sz002602"
     }
   ],
   "website": "https://www.campfiregames.cn/aboutus/",
@@ -35,7 +39,7 @@
       {
         "area": "history",
         "status": "partial",
-        "scope": "品牌、公司主体与成立时间",
+        "scope": "品牌2010起点与2018点点北京/DIH分别收购，最新控制链仍待核对",
         "examined": [
           {
             "source": {
@@ -43,16 +47,23 @@
               "url": "https://www.campfiregames.cn/aboutus/"
             },
             "note": "核对业务或品牌起点与本轮档案范围。"
+          },
+          {
+            "source": {
+              "title": "世纪华通专项审计回复：点点北京与DIH于2018-01-16合并、股权100%",
+              "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=4965423&stockid=sz002602"
+            },
+            "note": "表格明确两主体合并日均2018-01-16、股权100%；原表取得成本单位万元。"
           }
         ],
         "gaps": [
           {
-            "question": "继续核对登记资料、股权转折及办公地点变化。",
+            "question": "北京、开曼、新加坡主体的最新控制链及历次变更",
             "status": "pending",
-            "nextStep": "继续核对登记资料、股权转折及办公地点变化。"
+            "nextStep": "逐年对照上市公司年报股权结构与法人登记，区分品牌和单一法人。"
           }
         ],
-        "checkedAt": "2026-10-10"
+        "checkedAt": "2026-10-12"
       },
       {
         "area": "catalog",
@@ -143,3 +154,9 @@
 半年度报告主要子公司表以万元人民币列示，上表换算为元。两个主体可能存在内部交易，**不能简单相加当作点点集团合并收入**。以上均为公司收入与净利润，不是单款游戏流水。报告同时确认2025年上半年推出Kingshot，精确首发日期及国内版本另待查。
 
 [2024年报](https://static.cninfo.com.cn/finalpage/2025-04-29/1223382771.PDF) · [2025半年报，第19页主要子公司表](https://static.cninfo.com.cn/finalpage/2025-08-30/1224628793.PDF)
+
+## 收购与主体沿革
+
+核查日期：2026-10-12。世纪华通专项审计回复列点点北京与DianDian Interactive Holding（DIH）合并日均为2018年1月16日，股权取得比例均100%。取得成本分别为1亿元和约68.2533亿元人民币（原表万元换算），两者是不同主体，不将合计金额当作北京单一公司的收购价。此为历史交易记录，最新北京、开曼、新加坡控制链仍待逐期核对。
+
+[上市公告中的专项审计回复与取得成本表](https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=4965423&stockid=sz002602)。

@@ -9,3 +9,5 @@
 接下来：日本原始新闻与Android地区日期 → 易娱剩余主体/团队证据 → 点点互动、乐狗、莉莉丝、江娱、IGG、FunPlus五方向逐公司补齐。每批验证与发布后记录提交及部署。
 
 第二轮证据落地：2024-01-25易娱官方文章披露P&S累计超100亿元，已新增披露节点和产品/公司说明（不收文章奖项）。日本官网当前正文不含2020年记录，未将当前官网当原始上线证明。IGG2025/2026财务与流水先前已有档案，避免重复追加；下一批重点点点股权及项目团队。
+
+待落地点点主体证据：世纪华通专项审计回复 https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=4965423&stockid=sz002602 表格列点点北京与DIH合并日均2018.1.16、股权100%，取得成本万元分别10000和682533.26；两主体不能混成北京单法人收购价。2018年报 https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?CompanyCode=80176445&gather=1&id=5309778 可交叉核对。下一轮读取整表并写history清单、主体说明和收购事件。
