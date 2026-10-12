@@ -1,0 +1,59 @@
+{
+  "name": "谜题大陆",
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "eyu",
+  "publisher": "三七互娱（上海）科技有限公司",
+  "released": "2021-12-28",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "中国大陆iOS商店发行记录",
+  "significance": "易娱著作权产品的国内三消策略版本，官网区分广州易娱著作权与上海易娱出版主体。",
+  "cover": "/images/slg/mystery-land.jpg",
+  "keyArt": "/images/slg/mystery-land.jpg",
+  "sources": [
+    {
+      "title": "谜题大陆官网页脚：著作权人广州易娱、出版上海易娱",
+      "url": "https://37.com.cn/mtdl/index"
+    },
+    {
+      "title": "Apple中国iOS：谜题大陆版本日期与卖方",
+      "url": "https://itunes.apple.com/lookup?id=1600466385&country=cn"
+    }
+  ],
+  "verified": false,
+  "gameplay": {
+    "core": "cok-like",
+    "fusion": [
+      "match-3"
+    ],
+    "basis": "editorial",
+    "checkedAt": "2026-10-12",
+    "note": "官方商店描述消除战斗、英雄、家园、部队和野外资源探索，按公开玩法归类。未确认与海外Puzzles & Conquest的版本对应关系，暂不合并产品。",
+    "sources": [
+      {
+        "title": "Apple官方中国商店玩法说明",
+        "url": "https://apps.apple.com/cn/app/id1600466385"
+      }
+    ]
+  },
+  "lifecycleNotes": [
+    {
+      "note": "核查日期2026-10-12。中国iOSreleaseDate为2021-12-28，不等于Android或全平台公测。卖方Wuhu Ruihu Network Technology Co.,Ltd.，官网运营主体三七互娱（上海）科技有限公司、著作权人广州易娱、出版服务单位上海易娱分别记录；不将出版或商店卖方当研发团队。与海外产品版本对应待核实。 目前按易娱著作权线索归档，实际研发工作室尚待直接证据确认。",
+      "sources": [
+        {
+          "title": "谜题大陆官网页脚：著作权人广州易娱、出版上海易娱",
+          "url": "https://37.com.cn/mtdl/index"
+        },
+        {
+          "title": "Apple中国iOS：谜题大陆版本日期与卖方",
+          "url": "https://itunes.apple.com/lookup?id=1600466385&country=cn"
+        }
+      ]
+    }
+  ]
+}

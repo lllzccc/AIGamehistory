@@ -35,6 +35,10 @@
     {
       "title": "官方商店玩法与宣传图",
       "url": "https://apps.apple.com/us/app/id1584078447"
+    },
+    {
+      "title": "易娱官网：历程与工作室，核查2026-10-12",
+      "url": "https://www.eyugame.com/p/about"
     }
   ],
   "verified": true,
@@ -66,6 +70,15 @@
         {
           "title": "三七官网：37GAMES海外发行品牌",
           "url": "https://www.37wan.net/brand.html?active=1"
+        }
+      ]
+    },
+    {
+      "note": "官网历程记载本作2021年上线，但未说明地区、平台、测试/正式阶段。保留美国iOS2022-01-13作为该版本日期；全球首次上线仍待专门核查 核查日期：2026-10-12。",
+      "sources": [
+        {
+          "title": "易娱官网：历程与工作室，核查2026-10-12",
+          "url": "https://www.eyugame.com/p/about"
         }
       ]
     }

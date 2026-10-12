@@ -1,0 +1,31 @@
+{
+  "name": "陈浩熙",
+  "bio": "2014年游戏行业大会公告将其列为易娱创始人及总经理；属于历史公开职业资料，未确认2026年职务。",
+  "sources": [
+    {
+      "title": "2014年行业大会公告：易娱创始人及总经理陈浩熙",
+      "url": "https://games.sina.com.cn/w/n/2014-02-10/1802762482.shtml"
+    }
+  ],
+  "verified": true,
+  "roles": [
+    {
+      "company": "eyu",
+      "scope": "company",
+      "products": [],
+      "title": "founder",
+      "titleNote": "公开公告同时称总经理；当前职务待核实",
+      "from": "2014-02-10",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-12",
+      "sources": [
+        {
+          "title": "2014年行业大会公告：易娱创始人及总经理陈浩熙",
+          "url": "https://games.sina.com.cn/w/n/2014-02-10/1802762482.shtml"
+        }
+      ],
+      "note": "时间是公开资料观察日期，不代表实际入职起点；本轮未确认现在仍在任或具体离任日。"
+    }
+  ]
+}

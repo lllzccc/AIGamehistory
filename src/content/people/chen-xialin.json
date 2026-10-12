@@ -1,0 +1,39 @@
+{
+  "name": "陈夏璘",
+  "bio": "2020年本人访谈确认离开三七后加入易娱并组建火凤凰工作室，方向为RPG。未据此将其挂到Puzzles或Last Asylum项目；近年回归三七的报道仍待原始公开记录核实。",
+  "sources": [
+    {
+      "title": "2020-09-07陈夏璘本人访谈：加入易娱与组建火凤凰",
+      "url": "https://www.gameres.com/873813.html"
+    },
+    {
+      "title": "易娱官网：历程与工作室，核查2026-10-12",
+      "url": "https://www.eyugame.com/p/about"
+    }
+  ],
+  "verified": true,
+  "roles": [
+    {
+      "company": "eyu",
+      "scope": "company",
+      "products": [],
+      "title": "other",
+      "titleNote": "火凤凰工作室负责人／制作人（历史访谈）",
+      "from": "2020-09-07",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-12",
+      "sources": [
+        {
+          "title": "2020-09-07陈夏璘本人访谈：加入易娱与组建火凤凰",
+          "url": "https://www.gameres.com/873813.html"
+        },
+        {
+          "title": "易娱官网：历程与工作室，核查2026-10-12",
+          "url": "https://www.eyugame.com/p/about"
+        }
+      ],
+      "note": "时间是公开资料观察日期，不代表实际入职起点；本轮未确认现在仍在任或具体离任日。"
+    }
+  ]
+}

@@ -34,6 +34,18 @@
     {
       "title": "Apple美国iOS：发行元数据与卖方",
       "url": "https://itunes.apple.com/lookup?id=1517980891&country=us"
+    },
+    {
+      "title": "2020年12月15日发行新闻：37GAMES公布日本iOS/Android上线",
+      "url": "https://www.gamer.ne.jp/news/202012150060"
+    },
+    {
+      "title": "Sensor Tower原报告：2020年12月日本发行及2022年市场表现",
+      "url": "https://sensortower.com/ja/blog/puzzles-and-survival-2022-in-japan"
+    },
+    {
+      "title": "三七2025年报第12页：Puzzles累计流水与用户",
+      "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-04-17/4e62244e-21da-48c9-ae81-c7222b81a25e.PDF"
     }
   ],
   "verified": true,
@@ -67,6 +79,37 @@
         {
           "title": "三七互娱官方：37GAMES为海外发行品牌",
           "url": "https://www.37wan.net/brand.html?active=1"
+        }
+      ]
+    },
+    {
+      "note": "日本地区iOS/Android于2020-12-15上线，Sensor Tower原报告亦确认2020年12月发行。与美国iOS2020-08-21区分，未另计一款独立产品 核查日期：2026-10-12。",
+      "sources": [
+        {
+          "title": "2020年12月15日发行新闻：37GAMES公布日本iOS/Android上线",
+          "url": "https://www.gamer.ne.jp/news/202012150060"
+        },
+        {
+          "title": "Sensor Tower原报告：2020年12月日本发行及2022年市场表现",
+          "url": "https://sensortower.com/ja/blog/puzzles-and-survival-2022-in-japan"
+        }
+      ]
+    },
+    {
+      "note": "商业口径：三七2025年报披露截至2025年底全球累计流水超过150亿元、累计用户超过7000万。这是累计产品数据，不写入年度流水曲线，不等于易娱公司营收。平台覆盖与税费细项尚未披露 核查日期：2026-10-12。",
+      "sources": [
+        {
+          "title": "三七2025年报第12页：Puzzles累计流水与用户",
+          "url": "https://disc.static.szse.cn/disc/disk03/finalpage/2026-04-17/4e62244e-21da-48c9-ae81-c7222b81a25e.PDF"
+        }
+      ]
+    },
+    {
+      "note": "市场观察：Sensor Tower于2023年1月报告称2022年日本成为本作最大收入市场，2022年日本月均收入超过2000万美元。属于第三方商店收入估算，未按汇率折算成人民币，也未混入官方全平台流水；地区及年份仅限报告范围 核查日期：2026-10-12。",
+      "sources": [
+        {
+          "title": "Sensor Tower原报告：2020年12月日本发行及2022年市场表现",
+          "url": "https://sensortower.com/ja/blog/puzzles-and-survival-2022-in-japan"
         }
       ]
     }

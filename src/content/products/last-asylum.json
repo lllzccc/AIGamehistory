@@ -39,6 +39,18 @@
     {
       "title": "三七2026半年度报告：Last Asylum商业表现（第11页）",
       "url": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-08-26/e853ef53-7bbf-43b7-8103-71b6948fbbf2.PDF"
+    },
+    {
+      "title": "Google Play官方Last Asylum：Android发行品牌与版本",
+      "url": "https://play.google.com/store/apps/details?hl=en_US&id=com.phs.global"
+    },
+    {
+      "title": "Sensor Tower原报告：2026年3月全球手游增长榜",
+      "url": "https://sensortower.com/ja/blog/top-10-worldwide-mobile-games-by-revenue-and-downloads-in-march-2026-JP"
+    },
+    {
+      "title": "易娱官网：历程与工作室，核查2026-10-12",
+      "url": "https://www.eyugame.com/p/about"
     }
   ],
   "verified": true,
@@ -82,6 +94,28 @@
         {
           "title": "三七2026半年度报告：Last Asylum商业表现（第11页）",
           "url": "https://disc.static.szse.cn/download/disc/disk03/finalpage/2026-08-26/e853ef53-7bbf-43b7-8103-71b6948fbbf2.PDF"
+        }
+      ]
+    },
+    {
+      "note": "Android现存版本：Google Play官方条目署名37GAMES GLOBAL，包名com.phs.global；本轮仅核实现存Android产品与商店描述，尚未取得该平台正式首发日期，未将iOS日期套用于Android 核查日期：2026-10-12。",
+      "sources": [
+        {
+          "title": "Google Play官方Last Asylum：Android发行品牌与版本",
+          "url": "https://play.google.com/store/apps/details?hl=en_US&id=com.phs.global"
+        }
+      ]
+    },
+    {
+      "note": "商业观察补原始来源：Sensor Tower2026年3月报告将本作列在全球手游收入增长榜第8名。这是增长排名，不是收入总榜排名，不由此推算流水。官网另称2026年“上线即破亿”，缺少统计周期、币种及平台说明，暂不转换成金额记录 核查日期：2026-10-12。",
+      "sources": [
+        {
+          "title": "Sensor Tower原报告：2026年3月全球手游增长榜",
+          "url": "https://sensortower.com/ja/blog/top-10-worldwide-mobile-games-by-revenue-and-downloads-in-march-2026-JP"
+        },
+        {
+          "title": "易娱官网：历程与工作室，核查2026-10-12",
+          "url": "https://www.eyugame.com/p/about"
         }
       ]
     }
