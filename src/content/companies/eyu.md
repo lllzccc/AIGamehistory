@@ -60,6 +60,10 @@
     {
       "title": "Google Play官方Last Asylum：Android发行品牌与版本",
       "url": "https://play.google.com/store/apps/details?hl=en_US&id=com.phs.global"
+    },
+    {
+      "title": "易娱2024-01-25官方动态：Puzzles累计流水超百亿元",
+      "url": "https://www.eyugame.com/yiyudongtai/202"
     }
   ],
   "verified": true,
@@ -305,6 +309,13 @@
               "url": "https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=7195648&stockid=002555"
             },
             "note": "本轮检查本方向事实与统计范围；详情及保留缺口见正文/产品。"
+          },
+          {
+            "source": {
+              "title": "易娱2024-01-25官方动态：Puzzles累计流水超百亿元",
+              "url": "https://www.eyugame.com/yiyudongtai/202"
+            },
+            "note": "核对2024-01-25披露的百亿累计值；具体突破日期与统计范围仍未披露。"
           }
         ],
         "gaps": [
@@ -431,3 +442,5 @@ Last Asylum在Sensor Tower原始2026年3月报告中列全球手游收入增长�
 2014年大会公告公开称陈浩熙为创始人及总经理；2020年陈夏璘本人访谈确认加入易娱并组建火凤凰。本轮仅录历史职业观察，两人的2026年职务未确认。SLG项目实名主策、美术和人员流动未找到可核实证据，清单明确保留继续检索方向。
 
 本轮关键证据：[2020年股权投资表](https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=7195648&stockid=002555)、[2025年报累计流水](https://disc.static.szse.cn/disc/disk03/finalpage/2026-04-17/4e62244e-21da-48c9-ae81-c7222b81a25e.PDF)、[日本市场估算](https://sensortower.com/ja/blog/puzzles-and-survival-2022-in-japan)、[陈夏璘本人访谈](https://www.gameres.com/873813.html)。
+
+更早的累计节点：[2024年1月25日官方文章](https://www.eyugame.com/yiyudongtai/202)已称Puzzles & Survival累计流水超过百亿元。时间线采用披露日，实际突破日期尚未说明。
