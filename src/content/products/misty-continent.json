@@ -1,0 +1,64 @@
+{
+  "name": "Misty Continent",
+  "aliases": [
+    "Misty Continent: Cursed Island"
+  ],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "funplus",
+  "publisher": "funplus",
+  "released": "2022-08-02",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "美国iOS商店发行记录",
+  "significance": "以诅咒岛探索、城堡建设、古代神器与联盟协作为核心的策略作品。",
+  "cover": "/images/slg/misty-continent.jpg",
+  "keyArt": "/images/slg/misty-continent.jpg",
+  "sources": [
+    {
+      "title": "FunPlus官方产品页，核查2026-10-12",
+      "url": "https://funplus.com/games/misty-continent/"
+    },
+    {
+      "title": "Apple美国iOS发行记录及卖方，核查2026-10-12",
+      "url": "https://itunes.apple.com/lookup?id=1633960431&country=us"
+    }
+  ],
+  "verified": true,
+  "gameplay": {
+    "core": "cok-like",
+    "fusion": [],
+    "basis": "editorial",
+    "checkedAt": "2026-10-12",
+    "note": "按官方据点建设与联盟策略描述归COK型；岛屿题材不作为玩法分类，未确认自由行军。",
+    "sources": [
+      {
+        "title": "FunPlus官方产品页，核查2026-10-12",
+        "url": "https://funplus.com/games/misty-continent/"
+      },
+      {
+        "title": "Apple美国iOS发行记录及卖方，核查2026-10-12",
+        "url": "https://itunes.apple.com/lookup?id=1633960431&country=us"
+      }
+    ]
+  },
+  "lifecycleNotes": [
+    {
+      "note": "美国iOS发行记录为2022-08-02，仅代表该地区平台版本，不作为全球首次测试日期。商店卖方为FunPlus International AG；官网按FunPlus品牌展示，具体研发工作室及Android首发日期仍待补。核查2026-10-12。",
+      "sources": [
+        {
+          "title": "FunPlus官方产品页，核查2026-10-12",
+          "url": "https://funplus.com/games/misty-continent/"
+        },
+        {
+          "title": "Apple美国iOS发行记录及卖方，核查2026-10-12",
+          "url": "https://itunes.apple.com/lookup?id=1633960431&country=us"
+        }
+      ]
+    }
+  ]
+}

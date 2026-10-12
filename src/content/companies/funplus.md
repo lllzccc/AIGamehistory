@@ -124,6 +124,13 @@
               "url": "https://funplus.com/foundation-galactic-frontier-global-launch/"
             },
             "note": "补Foundation与Tiles Survive产品，按美国iOS版本单列。"
+          },
+          {
+            "source": {
+              "title": "FunPlus官方产品页，核查2026-10-12",
+              "url": "https://funplus.com/games/misty-continent/"
+            },
+            "note": "补Misty Continent官网与美国iOS2022-08-02记录；全球/Android首发及具体工作室待核。"
           }
         ],
         "gaps": [
@@ -154,6 +161,13 @@
               "url": "https://funplus.com/foundation-galactic-frontier-global-launch/"
             },
             "note": "区分2024测试、2025-10-20美国iOS与10-21全球上线。"
+          },
+          {
+            "source": {
+              "title": "FunPlus官方产品页，核查2026-10-12",
+              "url": "https://funplus.com/games/misty-continent/"
+            },
+            "note": "补Misty Continent官网与美国iOS2022-08-02记录；全球/Android首发及具体工作室待核。"
           }
         ],
         "gaps": [
@@ -267,3 +281,6 @@ FunPlus官网记载公司于2010年成立，目前总部位于瑞士，在多个
 核查日期：2026-10-12。Foundation: Galactic Frontier由成都工作室研发；2024年测试后，2025年10月21日宣布全球iOS、Android和PC上线。美国iOS记录为10月20日，产品条目采用地区商店日期，全球节点另记。Tiles Survive!美国iOS记录为2025年7月3日，官方回顾确认7月上线，并披露3000万下载；该指标不计入财务或去重用户数。
 
 [Foundation全球公告](https://funplus.com/foundation-galactic-frontier-global-launch/) · [Tiles Survive官方回顾](https://funplus.com/info/tiles-survive-celebrates-30-million-player-download/)。
+
+
+Misty Continent已按美国iOS版本建档（2022-08-02），官网确认城堡建设、神器与联盟玩法；具体研发工作室与全球首测日期尚未确认。核查2026-10-12。

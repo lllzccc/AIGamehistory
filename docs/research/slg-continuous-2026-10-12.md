@@ -27,3 +27,6 @@ FunPlus本批：原始HTML含const years与timeline__slide顺序，可核对年�
 本批b87ee03，Pages run38234301557成功；1440/390两新品抽屉、图片解码、成都团队与日期说明、公司页检查通过。Foundation官方播客第2集 https://www.youtube.com/watch?v=egJ5nk09FFM 当前web仅返回YouTube外壳，尚未得到实名署名；不猜人名。Misty Continent Appleid1633960431可用作下一批原始日期检索。
 
 乐狗补充：官方TapTap信 https://www.taptap.cn/moment/60312508744859695 显示修改日2023-05-30，不能作为首发日。新增大河别名/历史CEO侯柯（公司账号2021-04-04转载 https://maimai.cn/article/detail?efid=ScWWyzqsIo-QF_0Mcxa0_A&fid=1610147207）；总流水10亿美元说法未明确累计区间和平台地区，不入年度图。五方向查阅范围更新。Misty原始Apple已存.local-checks/misty-apple.json待下一批归档。
+乐狗批735b3dc：类型零错误、100测试、64页构建通过；Pages38235256510成功，线上1440/390人才地图及产品流水口径交互核验通过。下批Misty Continent及乐狗原始访谈/版本深挖，当前五小时额度已用48%，继续目标。
+
+Misty Continent本批：Apple1633960431美国iOS2022-08-02、FunPlus International AG，FunPlus官网确认据点/神器/联盟；本地官方截图，COK型。具体工作室及全球首测/Android首发保留缺口。公众号GitHub方案核查已落059fb28，历史回补限制见独立文档，不误认已接全量。
