@@ -1,0 +1,42 @@
+{
+  "name": "小丁",
+  "aliases": [],
+  "bio": "战火勋章官方测试说明与军备视频中公开称呼的策划别名。不能据此认定主策或核心策划，真实姓名和任期未核实。",
+  "roles": [
+    {
+      "company": "lilith",
+      "scope": "product",
+      "products": [
+        "warpath"
+      ],
+      "title": "other",
+      "titleNote": "策划（公开别名，级别未确认）",
+      "from": "2023-02-23",
+      "dateBasis": "public-observation",
+      "status": "unknown",
+      "checkedAt": "2026-10-12",
+      "note": "日期是官方视频公开署名观察日，不是入职日；未证实当前在职或法律雇主。",
+      "sources": [
+        {
+          "title": "战火勋章官方2023-02-23二月测试视频",
+          "url": "https://www.taptap.cn/moment/377902035049121283"
+        },
+        {
+          "title": "战火勋章官方2023-03-13策划小丁测试说明",
+          "url": "https://www.taptap.cn/moment/384459897879661816"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "战火勋章官方2023-02-23二月测试视频",
+      "url": "https://www.taptap.cn/moment/377902035049121283"
+    },
+    {
+      "title": "战火勋章官方2023-03-13策划小丁测试说明",
+      "url": "https://www.taptap.cn/moment/384459897879661816"
+    }
+  ],
+  "verified": true
+}
