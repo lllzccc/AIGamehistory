@@ -41,5 +41,20 @@
         }
       ]
     }
-  ]
+  ],
+  "gameplay": {
+    "core": "cok-like",
+    "fusion": [
+      "shooting"
+    ],
+    "basis": "editorial",
+    "checkedAt": "2026-10-12",
+    "note": "官网明确4X、城建、联盟战争与弹道射击解谜。 本站根据公开描述整理，未据此推断开发继承关系；标签对应核查日玩法，历史版本差异待补。",
+    "sources": [
+      {
+        "title": "官方玩法描述",
+        "url": "https://funplus.com/games/stormshot_isle_of_adventure/"
+      }
+    ]
+  }
 }

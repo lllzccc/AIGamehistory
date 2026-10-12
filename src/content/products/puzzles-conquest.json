@@ -1,0 +1,73 @@
+{
+  "name": "Puzzles & Conquest",
+  "aliases": [],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "eyu",
+  "publisher": "37GAMES（三七互娱海外发行品牌）",
+  "released": "2019-12-20",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "美国iOS商店发行记录",
+  "significance": "以三消战斗连接英雄养成、基地建设与联盟战争的策略作品。",
+  "cover": "/images/slg/puzzles-conquest.jpg",
+  "keyArt": "/images/slg/puzzles-conquest.jpg",
+  "sources": [
+    {
+      "title": "易娱官网：2010年成立、发展历程与自研工作室",
+      "url": "https://www.eyugame.com/p/about"
+    },
+    {
+      "title": "易娱官方产品目录与玩法描述",
+      "url": "https://www.eyugame.com/product"
+    },
+    {
+      "title": "三七互娱官方：37GAMES为海外发行品牌",
+      "url": "https://www.37wan.net/brand.html?active=1"
+    },
+    {
+      "title": "Apple美国iOS：发行元数据与卖方",
+      "url": "https://itunes.apple.com/lookup?id=1485209615&country=us"
+    }
+  ],
+  "verified": true,
+  "gameplay": {
+    "core": "cok-like",
+    "fusion": [
+      "match-3",
+      "card"
+    ],
+    "basis": "editorial",
+    "checkedAt": "2026-10-12",
+    "note": "依据官网描述的基地/城堡经营、英雄军队及玩家联合对抗，本站归入COK-like城建行军框架；三消与卡牌为明确融合玩法。属于玩法整理，不是官方谱系或代码继承关系。",
+    "sources": [
+      {
+        "title": "易娱官方产品目录与玩法描述",
+        "url": "https://www.eyugame.com/product"
+      },
+      {
+        "title": "官方美国商店玩法说明",
+        "url": "https://apps.apple.com/us/app/id1485209615"
+      }
+    ]
+  },
+  "lifecycleNotes": [
+    {
+      "note": "核查日期2026-10-12。美国iOS记录不代表Android、全球或国内首发；卖方为BUILDING-BLOCKS NETWORK TECHNOLOGY CO.,LIMITED，与研发易娱、发行品牌37GAMES分别记录，法人股权关系待补。",
+      "sources": [
+        {
+          "title": "Apple美国iOS：发行元数据与卖方",
+          "url": "https://itunes.apple.com/lookup?id=1485209615&country=us"
+        },
+        {
+          "title": "三七互娱官方：37GAMES为海外发行品牌",
+          "url": "https://www.37wan.net/brand.html?active=1"
+        }
+      ]
+    }
+  ]
+}

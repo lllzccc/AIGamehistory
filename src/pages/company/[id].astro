@@ -10,6 +10,7 @@ import TalentMap from '../../components/TalentMap.astro';
 import SectionTitle from '../../components/SectionTitle.astro';
 import SourceList from '../../components/SourceList';
 import CompanyTimeline from '../../components/CompanyTimeline';
+import { coreGameplayLabels, fusionGameplayLabels } from '../../lib/gameplay';
 import ProductShelf from '../../components/ProductShelf';
 import { loadDataset } from '../../lib/load';
 import { displayCompanyName, getCompanyView, toProductCards } from '../../lib/data';
@@ -27,6 +28,7 @@ const ds = await loadDataset();
 const view = getCompanyView(ds, entry.id);
 const { company } = view;
 const cards = toProductCards(ds, view.products);
+const gameplayLabels = [...new Set(view.products.flatMap(p => p.gameplay ? [...(p.gameplay.core ? [coreGameplayLabels[p.gameplay.core]] : []), ...p.gameplay.fusion.map(f => fusionGameplayLabels[f])] : []))];
 const cover = company.cover ?? view.products.find((p) => p.keyArt)?.keyArt;
 const parentName = company.parent ? displayCompanyName(ds, company.parent) : undefined;
 const endYear = new Date().getFullYear();
@@ -55,6 +57,7 @@ const notesIndex = pad(section);
 
   <section id="works" class="mx-auto max-w-6xl px-6 py-24 sm:px-10">
     <SectionTitle index="02" title="作品" note={`${cards.length} 款`} />
+    {gameplayLabels.length > 0 && <p class="mt-6 text-sm leading-relaxed text-ink-soft"><span class="mr-3 text-mist">已收录作品覆盖</span>{gameplayLabels.join(" · ")}</p>}
     <div class="mt-12">
       <ProductShelf client:visible products={cards} />
     </div>

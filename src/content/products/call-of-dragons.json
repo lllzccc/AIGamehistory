@@ -39,5 +39,18 @@
   ],
   "verified": true,
   "cover": "/images/slg/call-of-dragons.jpg",
-  "keyArt": "/images/slg/call-of-dragons.jpg"
+  "keyArt": "/images/slg/call-of-dragons.jpg",
+  "gameplay": {
+    "core": "rok-like",
+    "fusion": [],
+    "basis": "editorial",
+    "checkedAt": "2026-10-12",
+    "note": "官方上线新闻描述大地图上的实时策略战斗、英雄即时技能与地形及飞行军团，按操作特征归入ROK-like；自由行军细节仍待补充专门依据。本站整理，不代表官方分类或研发传承关系；历史版本差异待补。",
+    "sources": [
+      {
+        "title": "官方玩法描述",
+        "url": "https://www.globenewswire.com/en/news-release/2023/03/15/2627746/0/en/High-Fantasy-Lore-and-Strategy-Combat-Converge-in-Call-of-Dragons-Release-Date-and-New-Trailer-Revealed.html"
+      }
+    ]
+  }
 }

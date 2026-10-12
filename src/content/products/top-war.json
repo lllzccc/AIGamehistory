@@ -44,5 +44,20 @@
       ]
     }
   ],
-  "verified": true
+  "verified": true,
+  "gameplay": {
+    "core": "cok-like",
+    "fusion": [
+      "merge"
+    ],
+    "basis": "editorial",
+    "checkedAt": "2026-10-12",
+    "note": "官方商店描述合成升级、基地和联盟作战。 本站根据公开描述整理，未据此推断开发继承关系；标签对应核查日玩法，历史版本差异待补。",
+    "sources": [
+      {
+        "title": "官方玩法描述",
+        "url": "https://www.taptap.cn/app/203580/all-info"
+      }
+    ]
+  }
 }

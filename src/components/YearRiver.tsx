@@ -6,6 +6,8 @@ import { bucketSize, filterBucket } from '../lib/data';
 import { formatDate } from '../lib/dates';
 import { companyKindLabel, genreLabel, timelineKindLabel } from '../lib/labels';
 import ProductDrawer from './ProductDrawer';
+import GameplayTags from './GameplayTags';
+import {coreGameplayLabels, fusionGameplayLabels, filterGameplayBuckets, type CoreFilter, type FusionFilter} from '../lib/gameplay';
 import SourceLinks from './SourceLinks';
 
 const FILTERS: { value: GenreFilter; label: string }[] = [
@@ -27,12 +29,16 @@ function Group({ label, children }: { label: string; children: ReactNode }) {
 }
 
 export default function YearRiver({ buckets, chronicle }: { buckets: YearBucket[]; chronicle?: string }) {
+  const [core, setCore] = useState<CoreFilter>('all');
+  const [fusion, setFusion] = useState<FusionFilter>('all');
   const [genre, setGenre] = useState<GenreFilter>('all');
   const [openId, setOpenId] = useState<string | null>(null);
   const close = useCallback(() => setOpenId(null), []);
   const reduceMotion = useReducedMotion();
 
-  const visible = useMemo(() => buckets.map((b) => filterBucket(b, genre)), [buckets, genre]);
+  const visible = useMemo(() => chronicle === 'slg' ? filterGameplayBuckets(buckets, core, fusion) : buckets.map((b) => filterBucket(b, genre)), [buckets, genre, chronicle, core, fusion]);
+  const filteredCount = visible.reduce((n,b) => n + b.launches.length, 0);
+  const fusionOptions = Object.entries(fusionGameplayLabels).filter(([tag]) => buckets.some(b => b.launches.some(p => p.gameplay?.fusion.includes(tag as Exclude<FusionFilter, 'all'>))));
   const open = useMemo(
     () => buckets.flatMap((b) => b.launches).find((p) => p.id === openId),
     [buckets, openId],
@@ -51,9 +57,17 @@ export default function YearRiver({ buckets, chronicle }: { buckets: YearBucket[
   return (
     <MotionConfig reducedMotion="user">
       <div className="sticky top-0 z-30 -mx-6 border-b border-ink/10 bg-paper/90 px-6 backdrop-blur sm:-mx-10 sm:px-10">
-        <div role="group" aria-label="按品类筛选" className="flex flex-wrap items-center gap-2 py-4 text-sm">
+        {chronicle === 'slg' ? <div className="py-4">
+          <div className="flex flex-wrap items-end gap-3">
+            <label className="min-w-[140px] flex-1 sm:min-w-0 sm:flex-none"><span className="mb-1 block text-xs tracking-wide text-mist">核心玩法</span><select aria-label="核心玩法" value={core} onChange={e => setCore(e.target.value as CoreFilter)} className="w-full min-w-0 border border-ink/15 bg-paper px-3 py-2 text-sm text-ink sm:w-56"><option value="all">全部体系</option>{Object.entries(coreGameplayLabels).map(([value,label]) => <option key={value} value={value}>{label}</option>)}<option value="unclassified">待分类</option></select></label>
+            <label className="min-w-[140px] flex-1 sm:min-w-0 sm:flex-none"><span className="mb-1 block text-xs tracking-wide text-mist">融合玩法</span><select aria-label="融合玩法" value={fusion} onChange={e => setFusion(e.target.value as FusionFilter)} className="w-full min-w-0 border border-ink/15 bg-paper px-3 py-2 text-sm text-ink sm:w-40"><option value="all">全部融合玩法</option>{fusionOptions.map(([value,label]) => <option key={value} value={value}>{label}</option>)}</select></label>
+            <span role="status" className="text-xs text-mist">{filteredCount} 条产品版本</span>
+            {(core !== 'all' || fusion !== 'all') && <button type="button" onClick={() => {setCore('all');setFusion('all');}} className="py-2 text-xs text-rouge underline underline-offset-4">清除筛选</button>}
+          </div>
+          <details className="mt-3 text-xs leading-relaxed text-ink-soft"><summary className="cursor-pointer text-mist">分类口径</summary><p className="mt-2 max-w-3xl">COK-like侧重城建、行军与联盟战争；ROK-like侧重开放地图中的自由行军与即时操作；赛季地块侧重占地、赛季与领土争夺。融合玩法单独标注，可与核心玩法组合筛选。这是本站依据公开玩法描述作的整理，不是官方分类或研发传承关系；依据与核查日期见产品详情，未确认的保留待分类。</p></details>
+        </div> : (        <div role="group" aria-label="按品类筛选" className="flex flex-wrap items-center gap-2 py-4 text-sm">
           <span className="mr-2 text-xs tracking-[0.3em] text-mist">品类</span>
-          {(chronicle === 'slg' ? [{ value: 'all' as const, label: '全部' }, { value: 'strategy' as const, label: 'SLG策略' }] : FILTERS).map((f) => (
+          {FILTERS.map((f) => (
             <button
               key={f.value}
               type="button"
@@ -68,11 +82,11 @@ export default function YearRiver({ buckets, chronicle }: { buckets: YearBucket[
               {f.label}
             </button>
           ))}
-        </div>
+        </div>) }
       </div>
 
       {visible.length === 0 ? (
-        <p className="py-24 text-center font-serif text-lg text-ink-soft">这个品类暂时还没有收录内容。</p>
+        <p className="py-24 text-center font-serif text-lg text-ink-soft">没有符合当前筛选的记录，请调整或清除筛选。</p>
       ) : (
         visible.map((b) => (
           <section
@@ -163,6 +177,7 @@ export default function YearRiver({ buckets, chronicle }: { buckets: YearBucket[
                               研发 {p.developerName}
                               {p.publisherName !== p.developerName && ` · 发行 ${p.publisherName}`}
                             </span>
+                            <GameplayTags product={p} />
                             {!p.verified && <span className="unverified mt-2">待核实</span>}
                           </button>
                         </motion.li>

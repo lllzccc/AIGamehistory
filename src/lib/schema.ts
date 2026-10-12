@@ -92,7 +92,17 @@ export const revenueEntrySchema = z.object({
   source: sourceSchema,
 });
 
+export const gameplaySchema = z.object({
+  core: z.enum(['cok-like', 'rok-like', 'seasonal', 'other']).optional(),
+  fusion: z.array(z.enum(['merge', 'match-3', 'tower-defense', 'shooting', 'simulation', 'card'])),
+  basis: z.literal('editorial'),
+  checkedAt: partialDate,
+  note: z.string().min(1),
+  sources: z.array(sourceSchema).min(1),
+});
+
 export const productSchema = z.object({
+  gameplay: gameplaySchema.optional(),
   chronicles: z.array(z.enum(['female', 'casual', 'slg'])).min(1).optional(),
   name: z.string().min(1),
   aliases: z.array(z.string()).default([]),

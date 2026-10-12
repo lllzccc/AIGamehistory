@@ -1,3 +1,4 @@
+import GameplayTags from './GameplayTags';
 import { withBase } from '../lib/paths';
 import { useEffect, useRef } from 'react';
 import { motion } from 'motion/react';
@@ -93,6 +94,7 @@ export default function ProductDrawer({ product, onClose }: Props) {
               ×
             </button>
           </div>
+          <GameplayTags product={product} />
           {product.versionLabel && <p className="mt-3 text-xs tracking-wide text-mist">{product.versionLabel}</p>}
           {!product.verified && <span className="unverified mt-4">待核实</span>}
 
@@ -128,6 +130,8 @@ export default function ProductDrawer({ product, onClose }: Props) {
             <dt className="text-mist">状态</dt>
             <dd className="text-ink">{productStatusLabel[product.status]}</dd>
           </dl>
+
+          {product.gameplay && <section className="mt-8 border-t border-ink/10 pt-6"><h3 className="font-serif text-lg text-ink">玩法归类依据</h3><p className="mt-3 text-sm leading-relaxed text-ink-soft">{product.gameplay.note}</p><p className="mt-2 text-xs text-mist">本站整理 · 核查 {product.gameplay.checkedAt}</p><div className="mt-3"><SourceLinks sources={product.gameplay.sources} /></div></section>}
 
           {!!product.lifecycleNotes?.length && <section className="mt-10"><h3 className="font-serif text-lg text-ink">版本与日期说明</h3><ul className="mt-4 space-y-4">{product.lifecycleNotes.map((entry, i) => <li key={i}><p className="text-sm leading-relaxed text-ink-soft">{entry.note}</p><p className="mt-2 text-xs text-mist"><SourceLinks sources={entry.sources} /></p></li>)}</ul></section>}
 

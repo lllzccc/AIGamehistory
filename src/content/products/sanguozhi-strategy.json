@@ -42,5 +42,18 @@
       ]
     }
   ],
-  "verified": true
+  "verified": true,
+  "gameplay": {
+    "core": "seasonal",
+    "fusion": [],
+    "basis": "editorial",
+    "checkedAt": "2026-10-12",
+    "note": "官方同盟攻略描述相邻地块占领、铺路与S1—S3及PK赛季的城池争夺，按玩法特征归为赛季地块体系。本站整理，不代表官方分类或研发传承关系；历史版本差异待补。",
+    "sources": [
+      {
+        "title": "官方社区：占地规则与赛季霸业",
+        "url": "https://community.lingxigames.com/m/s1/strategy_detail/6347"
+      }
+    ]
+  }
 }

@@ -1,3 +1,4 @@
+import GameplayTags from './GameplayTags';
 import { useCallback, useState } from 'react';
 import { AnimatePresence, motion, MotionConfig, useReducedMotion } from 'motion/react';
 import type { ProductCard } from '../lib/types';
@@ -57,6 +58,7 @@ export default function ProductShelf({ products }: { products: ProductCard[] }) 
                   <span className="font-serif text-xl text-ink transition group-hover:text-rouge">{p.name}</span>
                   <span className="font-display text-lg text-mist">{yearOf(p.released)}</span>
                 </span>
+                <GameplayTags product={p} />
                 {p.versionLabel && <span className="mt-2 block text-xs text-mist">{p.versionLabel}</span>}
                 <span className="mt-2 line-clamp-2 block text-sm leading-relaxed text-ink-soft">{p.significance}</span>
                 {!p.verified && <span className="unverified mt-3">待核实</span>}

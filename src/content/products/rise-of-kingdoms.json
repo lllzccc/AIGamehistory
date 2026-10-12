@@ -44,5 +44,18 @@
       ]
     }
   ],
-  "verified": true
+  "verified": true,
+  "gameplay": {
+    "core": "rok-like",
+    "fusion": [],
+    "basis": "editorial",
+    "checkedAt": "2026-10-12",
+    "note": "官方商店描述无缝世界地图、实时战斗和可随时下达新命令的自由行军。 本站根据公开描述整理，未据此推断开发继承关系；标签对应核查日玩法，历史版本差异待补。",
+    "sources": [
+      {
+        "title": "官方玩法描述",
+        "url": "https://apps.apple.com/us/app/rise-of-kingdoms/id1354260888"
+      }
+    ]
+  }
 }

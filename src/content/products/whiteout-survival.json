@@ -52,5 +52,20 @@
       ]
     }
   ],
-  "verified": true
+  "verified": true,
+  "gameplay": {
+    "core": "cok-like",
+    "fusion": [
+      "simulation"
+    ],
+    "basis": "editorial",
+    "checkedAt": "2026-10-12",
+    "note": "官方产品页介绍寒冬生存、城镇与资源管理和联盟战争。 本站根据公开描述整理，未据此推断开发继承关系；标签对应核查日玩法，历史版本差异待补。",
+    "sources": [
+      {
+        "title": "官方玩法描述",
+        "url": "https://www.centurygames.com/games/a/"
+      }
+    ]
+  }
 }
