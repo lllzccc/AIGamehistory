@@ -60,16 +60,25 @@
       },
       {
         "area": "catalog",
-        "status": "pending",
+        "status": "partial",
         "scope": "本轮代表产品与研发／发行关系",
-        "examined": [],
+        "examined": [
+          {
+            "source": {
+              "title": "剑与家园官方2017-04-12国内Android删档测试预告及官方微信号",
+              "url": "https://aoc.lilith.com/detail/news/19"
+            },
+            "note": "补第二款自研手游剑与家园，核对Android测试预告与美国iOS发行记录；不是第二款SLG。"
+          }
+        ],
         "gaps": [
           {
             "question": "核对官网全量目录、历史下架产品及发行地区。",
             "status": "pending",
             "nextStep": "核对官网全量目录、历史下架产品及发行地区。"
           }
-        ]
+        ],
+        "checkedAt": "2026-10-12"
       },
       {
         "area": "lifecycle",
@@ -82,6 +91,13 @@
               "url": "https://www.taptap.cn/moment/398137275629699857"
             },
             "note": "已查国内测试/2023-04-20公测及策划小丁的官方别名，海外各平台和任期仍待补。"
+          },
+          {
+            "source": {
+              "title": "剑与家园官方2017-04-12国内Android删档测试预告及官方微信号",
+              "url": "https://aoc.lilith.com/detail/news/19"
+            },
+            "note": "补第二款自研手游剑与家园，核对Android测试预告与美国iOS发行记录；不是第二款SLG。"
           }
         ],
         "gaps": [
@@ -189,3 +205,6 @@
 
 
 战火勋章国内经历2023年2月测试、3月第二次删档测试及4月20日公测；官方测试说明署名策划小丁，未给职级，不记为主策。核查2026-10-12。
+
+
+剑与家园已建档：美国iOS2017-06-06，国内Android测试预告另列；官网称第二款自研手游，不能写为第二款SLG。2017年官网公开官方微信号jianyujiayuan，当前账号是否仍有效待查。核查2026-10-12。

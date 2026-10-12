@@ -1,0 +1,93 @@
+{
+  "name": "剑与家园",
+  "aliases": [
+    "Art of Conquest",
+    "Art of Conquest : Airships"
+  ],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "lilith",
+  "publisher": "lilith",
+  "released": "2017-06-06",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "美国iOS商店发行记录",
+  "significance": "奇幻种族、英雄技能与实时布阵结合大地图探索和公会攻城的策略作品。",
+  "cover": "/images/slg/art-of-conquest.jpg",
+  "keyArt": "/images/slg/art-of-conquest.jpg",
+  "sources": [
+    {
+      "title": "剑与家园官方2017-04-12国内Android删档测试预告及官方微信号",
+      "url": "https://aoc.lilith.com/detail/news/19"
+    },
+    {
+      "title": "Apple美国iOS发行元数据，核查2026-10-12",
+      "url": "https://itunes.apple.com/lookup?id=1131944535&country=us"
+    },
+    {
+      "title": "游戏葡萄袁帅本人采访，2021-11-18修改页",
+      "url": "https://www.taptap.cn/topic/19641656"
+    }
+  ],
+  "verified": true,
+  "gameplay": {
+    "core": "other",
+    "fusion": [],
+    "basis": "editorial",
+    "checkedAt": "2026-10-12",
+    "note": "官方描述实时布阵、英雄手动技能和公会攻城；尚未核实联盟大地图行军细节，暂不强行归COK/ROK型。",
+    "sources": [
+      {
+        "title": "剑与家园官方2017-04-12国内Android删档测试预告及官方微信号",
+        "url": "https://aoc.lilith.com/detail/news/19"
+      },
+      {
+        "title": "Apple美国iOS发行元数据，核查2026-10-12",
+        "url": "https://itunes.apple.com/lookup?id=1131944535&country=us"
+      }
+    ]
+  },
+  "lifecycleNotes": [
+    {
+      "note": "美国iOS发行记录2017-06-06。官网2017-04-12预告国内Android精英删档测试于4月13日12:00开启；预告不等于正式公测或实际测试成功。国内正式公测及其他地区首发待补，当前商店Airships副标题不据此另建新游戏。核查2026-10-12。",
+      "sources": [
+        {
+          "title": "剑与家园官方2017-04-12国内Android删档测试预告及官方微信号",
+          "url": "https://aoc.lilith.com/detail/news/19"
+        },
+        {
+          "title": "Apple美国iOS发行元数据，核查2026-10-12",
+          "url": "https://itunes.apple.com/lookup?id=1131944535&country=us"
+        }
+      ]
+    }
+  ],
+  "teamEvidence": [
+    {
+      "observedAt": "2021-11-18",
+      "kind": "reported",
+      "summary": "袁帅本人访谈记载担任剑与家园制作人；日期取页面修改日，不是任职起点，当前任期未核实。",
+      "sources": [
+        {
+          "title": "游戏葡萄袁帅本人采访，2021-11-18修改页",
+          "url": "https://www.taptap.cn/topic/19641656"
+        }
+      ]
+    }
+  ],
+  "personnelResearch": {
+    "status": "documented",
+    "checkedAt": "2026-10-12",
+    "note": "制作人袁帅有公开采访，主策、核心美术和具体团队流动仍待查。",
+    "sources": [
+      {
+        "title": "游戏葡萄袁帅本人采访，2021-11-18修改页",
+        "url": "https://www.taptap.cn/topic/19641656"
+      }
+    ]
+  }
+}
