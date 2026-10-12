@@ -26,6 +26,14 @@
     {
       "title": "数数科技2022-09-14课程：董文强，江娱数据平台负责人",
       "url": "https://www.thinkingdata.cn/thinking/course/4737.html"
+    },
+    {
+      "title": "北京市文化局2018-11-21江娱设立经营性互联网文化单位许可公示",
+      "url": "https://banshi.whlyj.beijing.gov.cn/cms/web/whj/content.jsp?id=5063179706760501"
+    },
+    {
+      "title": "江娱官网隐私条款：2026-05-12北京运营主体署名",
+      "url": "https://www.rivergame.net/zh/include/footer/privacy_policy.html"
     }
   ],
   "website": "https://www.rivergame.net/ar/about.html",
@@ -50,6 +58,20 @@
               "url": "https://career.muc.edu.cn/front/zpxx.jspa?channelId=764&tid=31746"
             },
             "note": "查公司招聘自述2018年成立与两款产品；Top Heroes商店日期单列，数据平台负责人仅记历史公司职务。"
+          },
+          {
+            "source": {
+              "title": "北京市文化局2018-11-21江娱设立经营性互联网文化单位许可公示",
+              "url": "https://banshi.whlyj.beijing.gov.cn/cms/web/whj/content.jsp?id=5063179706760501"
+            },
+            "note": "政府公示确认2018-11-21北京江娱互动科技有限公司获准设立经营性互联网文化单位；这是许可日期，不是成立日期，也不能证明当前许可有效或股权。"
+          },
+          {
+            "source": {
+              "title": "江娱官网隐私条款：2026-05-12北京运营主体署名",
+              "url": "https://www.rivergame.net/zh/include/footer/privacy_policy.html"
+            },
+            "note": "现行官网条款署名北京江娱互动科技有限公司，更新时间2026-05-12；仅支持该官网条款运营主体，不等同所有海外产品卖方或证明集团股权。"
           }
         ],
         "gaps": [
@@ -151,3 +173,8 @@
 
 
 公司2026年招聘介绍列TopHeroes／王国之歌为2023年推出，具体平台未说明，本站按美国iOS原始记录另列。历史数据平台负责人董文强有2022年大会主办方署名，不推定当前在职或绑定具体研发项目。核查2026-10-12。
+
+
+截至2026年10月12日核查，北京市文化局2018年11月21日的许可公示明确列出北京江娱互动科技有限公司，批准其设立经营性互联网文化单位。此记录补充北京法人早期经营证据；许可日不替代公司成立日，也不证明当前许可有效。海外商店卖方 River Game HK Limited 与北京法人的股权关系仍须逐项核对。
+
+官网2026年5月12日更新的游戏隐私条款署名北京江娱互动科技有限公司，补充北京主体的现行公开署名证据。该条款不用于推断所有海外游戏的签约主体或集团股权。

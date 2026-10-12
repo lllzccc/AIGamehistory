@@ -42,3 +42,8 @@ Misty Continent本批：Apple1633960431美国iOS2022-08-02、FunPlus Internation
 ea9bb3d剑与家园批：Pages38237550546成功，1440/390产品详情、图片与公司公众号历史身份检查通过；类型/100测试/构建已通过。下批江娱Top Heroes官网 https://www.topheroes.com/ 与Top War主体沿革；现有rivergame正文称其他产品待补，核对后更新旧研究范围，不重复增加已有版本。
 
 江娱本批：TopHeroes Apple6450953550美国2024-01-31卖方River Game HK Limited；招聘2023推出未给平台，保留差异。董文强2022-09-14主办方课程公司职務，非项目主创。官网topheroes网页工具标题误作Last War，不采用外壳判公司。
+9f08f81江娱批Pages38238107579成功，1440/390产品图与公司历史负责人核验通过。类型/100测试/68页构建通过。下一步江娱许可证 https://www.rivergame.net/zh/res/img/inc/icp.pdf 可核法人；SensorTower搜索返回AI Insights地区周收入，不适合作全球累计2亿美元原证，不直接落年度财务。
+
+江娱主体补查：北京市文化局官方2018-11-21许可公示已读取并写公司history范围，不当成立日/现行许可证。官网ICP扫描PDF未成功读取图像，不作已核实；智明星通2021-004更正公告检索出现香港全资子公司Rivergame Limited线索，正文仍需下载核对，且不可直接等同Apple卖方River Game HK Limited。下一步验证当前公司页并提交发布这批主体证据。
+
+补官网2026-05-12隐私条款北京主体署名。更正公告web超时、直接HTTPS连接重置，未落股权事实；后续可换交易所原件。类型/100测试/68页构建已通过，新增来源为同结构文本，准备单独提交主体资料。
