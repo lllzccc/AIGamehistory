@@ -26,3 +26,5 @@
 - GameRes https://www.gameres.com/890453.html 保留微信 https://mp.weixin.qq.com/s/2UzImtqiQxhhuZ9Ly_y8dQ ，有莉莉丝策略产品线线索；原文读取失败。
 
 两篇进入 wechat-source-queue.json，不直接修改人员或财务档案。下一轮优先重点公司的官方账号身份与历史产品/研发访谈链接，检索范围写公司页末的examined和gaps。
+
+GitHub方案已另核查：[选型与已失效接口说明](wechat-github-evaluation-2026-10-12.md)。WeRSS作为订阅候选，公众号历史回补仍需独立验收。
