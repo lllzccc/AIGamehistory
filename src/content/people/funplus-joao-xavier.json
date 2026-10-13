@@ -1,0 +1,36 @@
+{
+  "name": "João Xavier",
+  "aliases": [],
+  "bio": "Studio Ellipsis技术总监；负责游戏架构与研发流程，未确认具体FunPlus产品分工。当前任职及实际任期待查。",
+  "roles": [
+    {
+      "company": "funplus",
+      "scope": "company",
+      "products": [],
+      "title": "other",
+      "titleNote": "Studio Ellipsis技术总监；负责游戏架构与研发流程，未确认具体FunPlus产品分工",
+      "from": "2026-10-13",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-13",
+      "note": "日期为公开观察或任命公告日，不等同入职日；不默认关联SLG项目。",
+      "sources": [
+        {
+          "title": "FunPlus官方具名访谈／任命：João Xavier",
+          "url": "https://funplus.com/people/funpeople-joao-xavier-technical-director-at-studio-ellipsis/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "FunPlus官方具名访谈／任命：João Xavier",
+      "url": "https://funplus.com/people/funpeople-joao-xavier-technical-director-at-studio-ellipsis/"
+    },
+    {
+      "title": "Nordic Game 2026主办方技术总监履历",
+      "url": "https://nordicgame.com/speaker/joao-xavier/"
+    }
+  ],
+  "verified": true
+}

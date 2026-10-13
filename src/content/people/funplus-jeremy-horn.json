@@ -1,0 +1,32 @@
+{
+  "name": "Jeremy Horn",
+  "aliases": [],
+  "bio": "副总裁兼创新负责人；历史任命，不等同具体产品制作人。当前任职及实际任期待查。",
+  "roles": [
+    {
+      "company": "funplus",
+      "scope": "company",
+      "products": [],
+      "title": "other",
+      "titleNote": "副总裁兼创新负责人；历史任命，不等同具体产品制作人",
+      "from": "2022-02-08",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-13",
+      "note": "日期为公开观察或任命公告日，不等同入职日；不默认关联SLG项目。",
+      "sources": [
+        {
+          "title": "FunPlus官方具名访谈／任命：Jeremy Horn",
+          "url": "https://funplus.com/funplus-appoints-jeremy-horn-as-vp-and-head-of-innovation/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "FunPlus官方具名访谈／任命：Jeremy Horn",
+      "url": "https://funplus.com/funplus-appoints-jeremy-horn-as-vp-and-head-of-innovation/"
+    }
+  ],
+  "verified": true
+}
