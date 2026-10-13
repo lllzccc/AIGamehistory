@@ -59,5 +59,18 @@
         "url": "https://www.taptap.cn/app/203580/all-info"
       }
     ]
-  }
+  },
+  "teamEvidence": [
+    {
+      "observedAt": "2026-07-10",
+      "kind": "reported",
+      "summary": "游戏新知内容转载称冯其武曾任本作主策，现已创业；待本人或原公司交叉确认，实际任期未知。",
+      "sources": [
+        {
+          "title": "游戏新知2026-07-10公众号内容，36氪授权发布、华盛通可读转载：冯其武历史主策经历",
+          "url": "https://www.hstong.com/news/detail/26071020450487226"
+        }
+      ]
+    }
+  ]
 }

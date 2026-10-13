@@ -1,0 +1,38 @@
+{
+  "name": "冯其武",
+  "aliases": [],
+  "bio": "游戏新知公众号内容的可读转载称其曾在江娱任《口袋奇兵》主策，后创业多巴幻境。尚缺本人/原公司确认与精确任期；不与房地产行业同名人士合并。",
+  "roles": [
+    {
+      "company": "rivergame",
+      "scope": "product",
+      "products": [
+        "top-war",
+        "top-war-overseas"
+      ],
+      "title": "lead-designer",
+      "titleNote": "《口袋奇兵》历史主策（媒体报道，待进一步确认）",
+      "from": "2026-07-10",
+      "status": "departed",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-13",
+      "specialties": [
+        "strategy"
+      ],
+      "note": "这是报道观察日，不是入职或离职日期；离开创业仅据媒体报道，未取得本人确认。",
+      "sources": [
+        {
+          "title": "游戏新知2026-07-10公众号内容，36氪授权发布、华盛通可读转载：冯其武历史主策经历",
+          "url": "https://www.hstong.com/news/detail/26071020450487226"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "游戏新知2026-07-10公众号内容，36氪授权发布、华盛通可读转载：冯其武历史主策经历",
+      "url": "https://www.hstong.com/news/detail/26071020450487226"
+    }
+  ],
+  "verified": false
+}
