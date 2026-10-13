@@ -1,0 +1,32 @@
+{
+  "name": "Josh Burns",
+  "aliases": [],
+  "bio": "FunPlus在2022-03-17公告其出任北美商务拓展高级总监，负责平台与IP合作。此前创办DigitalDevConnect，曾任6waves美国团队及EA Pogo产品管理岗位；公告未给这些旧职的准确任期。",
+  "roles": [
+    {
+      "company": "funplus",
+      "scope": "company",
+      "products": [],
+      "title": "other",
+      "titleNote": "北美商务拓展高级总监",
+      "from": "2022-03-17",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        {
+          "title": "FunPlus官方2022-03-17：Josh Burns北美商务拓展任命",
+          "url": "https://funplus.com/funplus-appoints-josh-burns-as-sr-director-business-development-for-the-north-american-market-2/"
+        }
+      ],
+      "note": "日期为任命公告日，不等同实际入职日；当前状态、离任日未核实。平台与IP合作，不等同游戏研发制作人。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "FunPlus官方2022-03-17：Josh Burns北美商务拓展任命",
+      "url": "https://funplus.com/funplus-appoints-josh-burns-as-sr-director-business-development-for-the-north-american-market-2/"
+    }
+  ],
+  "verified": true
+}

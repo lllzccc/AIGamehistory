@@ -9,7 +9,7 @@
       "products": [],
       "title": "other",
       "titleNote": "商务拓展副总裁",
-      "from": "2026-10-13",
+      "from": "2022-03-17",
       "status": "unknown",
       "dateBasis": "public-observation",
       "checkedAt": "2026-10-13",
@@ -17,15 +17,23 @@
         {
           "title": "FunPlus官方领导团队（正文读取，核查2026-10-13）",
           "url": "https://funplus.com/funplus-leadership-team/"
+        },
+        {
+          "title": "FunPlus官方2022-03-17：Josh Burns北美商务拓展任命",
+          "url": "https://funplus.com/funplus-appoints-josh-burns-as-sr-director-business-development-for-the-north-american-market-2/"
         }
       ],
-      "note": "日期为官方页面观察日，不是入职日；实际任期及人员流动未查明。"
+      "note": "2022任命公告已以商务拓展副总裁署名，2026领导页仍列此职；分别为历史及本次观察证据，不等同准确入职日，连续任期未核实。"
     }
   ],
   "sources": [
     {
       "title": "FunPlus官方领导团队（正文读取，核查2026-10-13）",
       "url": "https://funplus.com/funplus-leadership-team/"
+    },
+    {
+      "title": "FunPlus官方2022-03-17：Josh Burns北美商务拓展任命",
+      "url": "https://funplus.com/funplus-appoints-josh-burns-as-sr-director-business-development-for-the-north-american-market-2/"
     }
   ],
   "verified": true

@@ -567,6 +567,13 @@
               "url": "https://funplus.com/funplus-leadership-team/"
             },
             "note": "补CFO Terry Lin、西方市场法律负责人Dianne Schepers、商务拓展副总裁Bob Slinn。公司级职责，不挂具体产品；任期未知。"
+          },
+          {
+            "source": {
+              "title": "FunPlus官方2022-03-17：Josh Burns北美商务拓展任命",
+              "url": "https://funplus.com/funplus-appoints-josh-burns-as-sr-director-business-development-for-the-north-american-market-2/"
+            },
+            "note": "补Josh Burns2022北美商务拓展任命及Bob Slinn同年副总裁署名；均不关联单款游戏。"
           }
         ],
         "gaps": [
@@ -765,3 +772,6 @@ Sensor Tower 2018年9月原文估算Guns of Glory上线首年全球玩家支出�
 
 
 2026-10-13官方领导团队续核：补Terry Lin（CFO）、Dianne Schepers（西方市场副总裁兼总法律顾问）、Bob Slinn（商务拓展副总裁）。均为公司级职务，观察日不是入职日，不能据此判断其参与SLG研发。Puzala与Dino War历史产品仍在核对，尤其不混入2025年另一个开发者的同名Dino War: Survival。
+
+
+官方2022-03-17任命公告补Josh Burns北美商务拓展高级总监，负责平台与IP合作；同文确认Bob Slinn当时已任商务拓展副总裁。北美发行合作与具体游戏研发岗位分开，历史公告不能作为当前在职证明。
