@@ -26,6 +26,10 @@
     {
       "title": "Lilith官方Warpath商店",
       "url": "https://store.lilith.com/warpath/global"
+    },
+    {
+      "title": "莉莉丝官方Warpath PC FAQ：存在PC客户端与实时语音",
+      "url": "https://events-warpath.lilith.com/pcfq-en/"
     }
   ],
   "verified": true,
@@ -57,6 +61,19 @@
         {
           "title": "战火勋章官方2023-02-23二月测试视频",
           "url": "https://www.taptap.cn/moment/377902035049121283"
+        }
+      ]
+    },
+    {
+      "note": "核查2026-10-13。官方PC FAQ确认Windows客户端与实时语音功能，但未给PC首发日期，不将美国iOS日期2021-03-15套用于PC。2020-11-10 Android beta新闻稿检索可见，原页403，仍待原始发布记录补证。",
+      "sources": [
+        {
+          "title": "莉莉丝官方Warpath PC FAQ：存在PC客户端与实时语音",
+          "url": "https://events-warpath.lilith.com/pcfq-en/"
+        },
+        {
+          "title": "莉莉丝Android beta新闻稿转载，搜索正文可读、原页本轮403",
+          "url": "https://thegg.net/press-releases/the-ww2-rts-warpath-is-now-available-as-a-free-beta-download-on-google-play/"
         }
       ]
     }

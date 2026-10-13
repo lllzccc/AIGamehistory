@@ -30,6 +30,10 @@
     {
       "title": "游戏葡萄2025-06-20袁帅访谈，36氪授权转载",
       "url": "https://www.36kr.com/p/3344604472230793"
+    },
+    {
+      "title": "莉莉丝官方Warpath PC FAQ：存在PC客户端与实时语音",
+      "url": "https://events-warpath.lilith.com/pcfq-en/"
     }
   ],
   "website": "https://jobs.lilith.com/index.html",
@@ -98,6 +102,13 @@
               "url": "https://aoc.lilith.com/detail/news/19"
             },
             "note": "补第二款自研手游剑与家园，核对Android测试预告与美国iOS发行记录；不是第二款SLG。"
+          },
+          {
+            "source": {
+              "title": "莉莉丝官方Warpath PC FAQ：存在PC客户端与实时语音",
+              "url": "https://events-warpath.lilith.com/pcfq-en/"
+            },
+            "note": "确认PC客户端，不取得PC首发日；Android历史beta新闻原页403。"
           }
         ],
         "gaps": [
@@ -208,3 +219,6 @@
 
 
 剑与家园已建档：美国iOS2017-06-06，国内Android测试预告另列；官网称第二款自研手游，不能写为第二款SLG。2017年官网公开官方微信号jianyujiayuan，当前账号是否仍有效待查。核查2026-10-12。
+
+
+2026-10-13夜间续查：Warpath官方PC FAQ确认客户端及实时语音；PC首发日仍空缺，不沿用美国iOS日期。2020年Android beta新闻稿原页403，检索缓存保留待补证。项目人员检索暂未形成可可靠新增的实名主策/主美。
