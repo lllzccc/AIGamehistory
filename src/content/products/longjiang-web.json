@@ -1,0 +1,110 @@
+{
+  "name": "龙将",
+  "aliases": [],
+  "chronicles": [],
+  "genre": "rpg",
+  "developer": "eyu",
+  "publisher": "37wan（历史平台运营）",
+  "released": "2011-11-29",
+  "platforms": [
+    "网页"
+  ],
+  "status": "unknown",
+  "versionLabel": "历史中国网页RPG版本",
+  "significance": "易娱早期网页RPG，进入公司跨品类目录，具体内部团队与现状待核。",
+  "sources": [
+    {
+      "title": "易娱官方历程：早期网页游戏，核查2026-10-14",
+      "url": "https://www.eyugame.com/p/about"
+    },
+    {
+      "title": "飞鱼2014招股书第101/102页引艾瑞：早期研发主体、上线月份、年度充值流水估算",
+      "url": "https://www.hkexnews.hk/listedco/listconews/SEHK/2014/1125/LTN20141125006_C.pdf"
+    },
+    {
+      "title": "广州南方学院企业招聘简介：上海易娱广州分公司（原广州九娱）；发布时间未明，核查2026-10-14",
+      "url": "https://cddc.nfu.edu.cn/index.php/web/index/company-info?id=2596"
+    },
+    {
+      "title": "37官方2012-11-22周年公告：2011封测与正式服",
+      "url": "https://www.37.com/activity/2012/1122/13823.html"
+    }
+  ],
+  "verified": true,
+  "lifecycleNotes": [
+    {
+      "note": "核查2026-10-14。37官方公告记载2011-11-23封测、11-29首个正式服。招股书研发商列广州九娱；易娱现官网纳入自身历程，历史企业简介称前身广州九娱。按品牌历史聚合，不认定不同法人直接更名或股权承继。",
+      "sources": [
+        {
+          "title": "易娱官方历程：早期网页游戏，核查2026-10-14",
+          "url": "https://www.eyugame.com/p/about"
+        },
+        {
+          "title": "飞鱼2014招股书第101/102页引艾瑞：早期研发主体、上线月份、年度充值流水估算",
+          "url": "https://www.hkexnews.hk/listedco/listconews/SEHK/2014/1125/LTN20141125006_C.pdf"
+        },
+        {
+          "title": "广州南方学院企业招聘简介：上海易娱广州分公司（原广州九娱）；发布时间未明，核查2026-10-14",
+          "url": "https://cddc.nfu.edu.cn/index.php/web/index/company-info?id=2596"
+        },
+        {
+          "title": "37官方2012-11-22周年公告：2011封测与正式服",
+          "url": "https://www.37.com/activity/2012/1122/13823.html"
+        }
+      ]
+    },
+    {
+      "note": "未取得全平台停服证据；历史运营页面仍存在不等于服务仍可用。同名手机/Steam作品不自动合并。实名制作人、主策、主美与任期未确认。",
+      "sources": [
+        {
+          "title": "易娱官方历程：早期网页游戏，核查2026-10-14",
+          "url": "https://www.eyugame.com/p/about"
+        }
+      ]
+    },
+    {
+      "note": "飞鱼2014招股书转述艾瑞估算：2012年中国本作充值流水超过4亿元人民币。保留大于号，属于第三方历史年度充值估算，不是易娱确认收入、利润或全球累计流水；原始艾瑞报告方法与平台拆分待查。",
+      "sources": [
+        {
+          "title": "飞鱼2014招股书第101/102页引艾瑞：早期研发主体、上线月份、年度充值流水估算",
+          "url": "https://www.hkexnews.hk/listedco/listconews/SEHK/2014/1125/LTN20141125006_C.pdf"
+        }
+      ]
+    }
+  ],
+  "personnelResearch": {
+    "status": "searched-unconfirmed",
+    "checkedAt": "2026-10-14",
+    "note": "官方历程、历史发行公告/招股书及企业简介未列可核实的实名项目核心岗位，不关联后来RPG或SLG制作人。",
+    "sources": [
+      {
+        "title": "易娱官方历程：早期网页游戏，核查2026-10-14",
+        "url": "https://www.eyugame.com/p/about"
+      },
+      {
+        "title": "飞鱼2014招股书第101/102页引艾瑞：早期研发主体、上线月份、年度充值流水估算",
+        "url": "https://www.hkexnews.hk/listedco/listconews/SEHK/2014/1125/LTN20141125006_C.pdf"
+      },
+      {
+        "title": "广州南方学院企业招聘简介：上海易娱广州分公司（原广州九娱）；发布时间未明，核查2026-10-14",
+        "url": "https://cddc.nfu.edu.cn/index.php/web/index/company-info?id=2596"
+      },
+      {
+        "title": "37官方2012-11-22周年公告：2011封测与正式服",
+        "url": "https://www.37.com/activity/2012/1122/13823.html"
+      }
+    ]
+  },
+  "revenue": [
+    {
+      "period": "2012",
+      "amountCNY": 400000000,
+      "kind": "estimate",
+      "lowerBound": true,
+      "source": {
+        "title": "飞鱼2014招股书第101/102页引艾瑞：早期研发主体、上线月份、年度充值流水估算",
+        "url": "https://www.hkexnews.hk/listedco/listconews/SEHK/2014/1125/LTN20141125006_C.pdf"
+      }
+    }
+  ]
+}

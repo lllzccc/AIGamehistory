@@ -1,0 +1,113 @@
+{
+  "name": "勇者之塔",
+  "aliases": [
+    "Brave Tower"
+  ],
+  "chronicles": [],
+  "genre": "rpg",
+  "developer": "eyu",
+  "publisher": "历史各地区发行主体待核",
+  "released": "2012-09",
+  "platforms": [
+    "网页"
+  ],
+  "status": "unknown",
+  "versionLabel": "历史中国网页RPG版本",
+  "significance": "易娱早期网页RPG，进入公司跨品类目录，具体内部团队与现状待核。",
+  "sources": [
+    {
+      "title": "易娱官方历程：早期网页游戏，核查2026-10-14",
+      "url": "https://www.eyugame.com/p/about"
+    },
+    {
+      "title": "飞鱼2014招股书第101/102页引艾瑞：早期研发主体、上线月份、年度充值流水估算",
+      "url": "https://www.hkexnews.hk/listedco/listconews/SEHK/2014/1125/LTN20141125006_C.pdf"
+    },
+    {
+      "title": "广州南方学院企业招聘简介：上海易娱广州分公司（原广州九娱）；发布时间未明，核查2026-10-14",
+      "url": "https://cddc.nfu.edu.cn/index.php/web/index/company-info?id=2596"
+    },
+    {
+      "title": "G妹官方2016-02-24停运公告：本平台2016-03-15关服",
+      "url": "https://www.gm99.com/article/36478"
+    }
+  ],
+  "verified": true,
+  "lifecycleNotes": [
+    {
+      "note": "核查2026-10-14。易娱官网记2012年上线；飞鱼招股书引艾瑞表记2012年9月，研发商上海易娱。精确首发日、正式/测试阶段及各地区发行方待原始公告，不采纳百科的9月25日为已核实日期。",
+      "sources": [
+        {
+          "title": "易娱官方历程：早期网页游戏，核查2026-10-14",
+          "url": "https://www.eyugame.com/p/about"
+        },
+        {
+          "title": "飞鱼2014招股书第101/102页引艾瑞：早期研发主体、上线月份、年度充值流水估算",
+          "url": "https://www.hkexnews.hk/listedco/listconews/SEHK/2014/1125/LTN20141125006_C.pdf"
+        },
+        {
+          "title": "广州南方学院企业招聘简介：上海易娱广州分公司（原广州九娱）；发布时间未明，核查2026-10-14",
+          "url": "https://cddc.nfu.edu.cn/index.php/web/index/company-info?id=2596"
+        }
+      ]
+    },
+    {
+      "note": "未取得全平台停服证据；历史运营页面仍存在不等于服务仍可用。同名手机/Steam作品不自动合并。实名制作人、主策、主美与任期未确认。",
+      "sources": [
+        {
+          "title": "易娱官方历程：早期网页游戏，核查2026-10-14",
+          "url": "https://www.eyugame.com/p/about"
+        }
+      ]
+    },
+    {
+      "note": "飞鱼2014招股书转述艾瑞估算：2013年中国本作充值流水超过3亿元人民币。保留大于号，属于第三方历史年度充值估算，不是易娱确认收入、利润或全球累计流水；原始艾瑞报告方法与平台拆分待查。",
+      "sources": [
+        {
+          "title": "飞鱼2014招股书第101/102页引艾瑞：早期研发主体、上线月份、年度充值流水估算",
+          "url": "https://www.hkexnews.hk/listedco/listconews/SEHK/2014/1125/LTN20141125006_C.pdf"
+        }
+      ]
+    },
+    {
+      "note": "核查2026-10-14。G妹平台原公告安排2016-03-15 00:00关闭服务，并记2015-12-31已停止充值/新用户注册。仅证明G妹地区平台版本的停运安排，不将中国历史版本状态或全球产品统一设为停服；该地区最早开服仍待查。",
+      "sources": [
+        {
+          "title": "G妹官方2016-02-24停运公告：本平台2016-03-15关服",
+          "url": "https://www.gm99.com/article/36478"
+        }
+      ]
+    }
+  ],
+  "personnelResearch": {
+    "status": "searched-unconfirmed",
+    "checkedAt": "2026-10-14",
+    "note": "官方历程、历史发行公告/招股书及企业简介未列可核实的实名项目核心岗位，不关联后来RPG或SLG制作人。",
+    "sources": [
+      {
+        "title": "易娱官方历程：早期网页游戏，核查2026-10-14",
+        "url": "https://www.eyugame.com/p/about"
+      },
+      {
+        "title": "飞鱼2014招股书第101/102页引艾瑞：早期研发主体、上线月份、年度充值流水估算",
+        "url": "https://www.hkexnews.hk/listedco/listconews/SEHK/2014/1125/LTN20141125006_C.pdf"
+      },
+      {
+        "title": "广州南方学院企业招聘简介：上海易娱广州分公司（原广州九娱）；发布时间未明，核查2026-10-14",
+        "url": "https://cddc.nfu.edu.cn/index.php/web/index/company-info?id=2596"
+      }
+    ]
+  },
+  "revenue": [
+    {
+      "period": "2013",
+      "amountCNY": 300000000,
+      "kind": "estimate",
+      "lowerBound": true,
+      "source": {
+        "title": "飞鱼2014招股书第101/102页引艾瑞：早期研发主体、上线月份、年度充值流水估算",
+        "url": "https://www.hkexnews.hk/listedco/listconews/SEHK/2014/1125/LTN20141125006_C.pdf"
+      }
+    }
+  ]
+}
