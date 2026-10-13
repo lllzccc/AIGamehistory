@@ -1,0 +1,50 @@
+{
+  "name": "董瑞豹",
+  "aliases": [
+    "Michael Tong"
+  ],
+  "bio": "FunPlus在2021年7月公告任命其为首席战略官。2024年游戏葡萄报道其已离开FunPlus及趣加互娱，投入Xterio；Xterio官方团队页也列其为CEO及前FunPlus首席战略官。实际离任日期未知。属于公司战略职务，不据此推定单款SLG制作人。",
+  "roles": [
+    {
+      "company": "funplus",
+      "scope": "company",
+      "products": [],
+      "title": "other",
+      "titleNote": "首席战略官（CSO）",
+      "from": "2021-07-08",
+      "status": "departed",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-14",
+      "sources": [
+        {
+          "title": "FunPlus发布的2021-07-08任命公告：董瑞豹首席战略官",
+          "url": "https://www.prnasia.com/story/325131-1.shtml"
+        },
+        {
+          "title": "游戏葡萄公众号原文2024-12-23：董瑞豹已离职创业（正文已读）",
+          "url": "https://mp.weixin.qq.com/s/IxUCBQ84w0QR2sT8M4vDHg"
+        },
+        {
+          "title": "Xterio官方白皮书团队：Michael Tong为CEO、前FunPlus CSO",
+          "url": "https://docs.xter.io/team/team-members"
+        }
+      ],
+      "note": "起点为任命公告观察日；2024-12-23媒体原文报道已离职，后续Xterio官方列former FunPlus CSO，未公开准确离任日。趣加互娱CEO是另一实体的职务，不与集团CEO混为一谈。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "FunPlus发布的2021-07-08任命公告：董瑞豹首席战略官",
+      "url": "https://www.prnasia.com/story/325131-1.shtml"
+    },
+    {
+      "title": "游戏葡萄公众号原文2024-12-23：董瑞豹已离职创业（正文已读）",
+      "url": "https://mp.weixin.qq.com/s/IxUCBQ84w0QR2sT8M4vDHg"
+    },
+    {
+      "title": "Xterio官方白皮书团队：Michael Tong为CEO、前FunPlus CSO",
+      "url": "https://docs.xter.io/team/team-members"
+    }
+  ],
+  "verified": true
+}

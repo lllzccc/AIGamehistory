@@ -1,0 +1,40 @@
+{
+  "company": "funplus",
+  "method": "knowledge fetchPublicPage; read-only, no login or AI",
+  "results": [
+    {
+      "id": "puzala-tests-2022",
+      "originalUrl": "https://mp.weixin.qq.com/s/IoE7vSagYepGBYFTMesgaQ",
+      "checkedAt": "2026-10-13T16:28:41.939Z",
+      "factVerification": "reviewed; integrated qualified facts and pending catalog into company/product/person records",
+      "readStatus": "original-article-body-read",
+      "title": "一家大厂2个月内连测10款新品，出海赛道要卷上天了",
+      "accountName": "游戏葡萄",
+      "byline": "爱游戏的葡萄君",
+      "publishedAtRaw": "1660749110",
+      "publishedAt": "2022-08-17T15:11:50.000Z",
+      "publishedAtBasis": "article HTML ct Unix timestamp; cross-check on review",
+      "bodyCharacters": 3916,
+      "contentSha256": "d591686c62ffe34af5166f949891548a80100432e07052a814e1d2528a4f47f5",
+      "finalUrl": "https://mp.weixin.qq.com/s/IoE7vSagYepGBYFTMesgaQ",
+      "checkedAtBeijingDate": "2026-10-14"
+    },
+    {
+      "id": "dong-departure",
+      "originalUrl": "https://mp.weixin.qq.com/s/IxUCBQ84w0QR2sT8M4vDHg",
+      "checkedAt": "2026-10-13T16:28:43.518Z",
+      "factVerification": "reviewed; integrated qualified facts and pending catalog into company/product/person records",
+      "readStatus": "original-article-body-read",
+      "title": "趣加互娱CEO已离职创业：曾任网易COO，FunPlus创始人送祝福",
+      "accountName": "游戏葡萄",
+      "byline": "游戏葡萄君",
+      "publishedAtRaw": "1734963156",
+      "publishedAt": "2024-12-23T14:12:36.000Z",
+      "publishedAtBasis": "article HTML ct Unix timestamp; cross-check on review",
+      "bodyCharacters": 1671,
+      "contentSha256": "fd8932b705698f98a38246ea1e5efab68887faf9bd38d9722a628384c38a89c9",
+      "finalUrl": "https://mp.weixin.qq.com/s/IxUCBQ84w0QR2sT8M4vDHg",
+      "checkedAtBeijingDate": "2026-10-14"
+    }
+  ]
+}

@@ -34,3 +34,6 @@
 23:30续轮：官方领导团队正文补3名公司级负责人Terry Lin/Dianne Schepers/Bob Slinn；不映射产品、不造入职日。Dino War发现2025同名但不同开发者，排除；2018媒体公告为测试/预约，不能当正式首发。Cooking Battle亦有多个不相关同名游戏，原包名com.gmaker.cooking.global，首发/停服证据仍待补。Puzala史料网页无年份文本分组，先不造成立事件。下一批查上述原商店及公众号原文。核查官方来源https://funplus.com/funplus-leadership-team/ 。今晚净新增已核实人物6、待确认1，产品版本6、事件2、商业金额4、图片4。
 
 23:30第二批：官方2022-03-17任命原文补Josh Burns及Bob Slinn历史署名。累计已核实人物7、待确认1；公司级北美平台/IP合作，不称研发制作人。来源https://funplus.com/funplus-appoints-josh-burns-as-sr-director-business-development-for-the-north-american-market-2/ 。
+
+
+00:30续轮（2026-10-14）：游戏葡萄2篇微信原文已读，账号/ct/3916与1671字正文人工核对。2022-08-17测试盘点增加11名称候选台账，绝非11新产品；Call of Antia、SoS补变体线索。董瑞豹2021任命与Xterio官方former交叉确认历史已离任，不造2024-12-23为离任日。新增1已核实名人物；累计8已核实、1待确认，产品版本仍6、事件2、商业金额4、图片4。原文链接及公告见公司页。

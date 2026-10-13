@@ -143,6 +143,22 @@
     {
       "title": "USPTO公开2019诉讼材料及商标记录：Z DAY HEARTS OF HEROES与KingsGroup Holdings",
       "url": "https://ttabvue.uspto.gov/ttabvue/ttabvue-92072041-CAN-1.pdf"
+    },
+    {
+      "title": "游戏葡萄公众号原文2022-08-17：FunPlus测试产品盘点（正文已读）",
+      "url": "https://mp.weixin.qq.com/s/IoE7vSagYepGBYFTMesgaQ"
+    },
+    {
+      "title": "游戏葡萄公众号原文2024-12-23：董瑞豹已离职创业（正文已读）",
+      "url": "https://mp.weixin.qq.com/s/IxUCBQ84w0QR2sT8M4vDHg"
+    },
+    {
+      "title": "FunPlus发布的2021-07-08任命公告：董瑞豹首席战略官",
+      "url": "https://www.prnasia.com/story/325131-1.shtml"
+    },
+    {
+      "title": "Xterio官方白皮书团队：Michael Tong为CEO、前FunPlus CSO",
+      "url": "https://docs.xter.io/team/team-members"
     }
   ],
   "website": "https://funplus.com/about-funplus/",
@@ -240,7 +256,7 @@
         "area": "catalog",
         "status": "partial",
         "scope": "策略目录与伊莫两平台版本；Nightholme待上线；续补Call of Antia三消RPG、归龙潮ARPG、Tiles具名制作人与海外工作室历史任命",
-        "checkedAt": "2026-10-13",
+        "checkedAt": "2026-10-14",
         "examined": [
           {
             "source": {
@@ -325,6 +341,13 @@
               "url": "https://ttabvue.uspto.gov/ttabvue/ttabvue-92072041-CAN-1.pdf"
             },
             "note": "补Z Day历史持有人KingsGroup Holdings开曼法人；不证明FunPlus持股比例。"
+          },
+          {
+            "source": {
+              "title": "游戏葡萄公众号原文2022-08-17：FunPlus测试产品盘点（正文已读）",
+              "url": "https://mp.weixin.qq.com/s/IoE7vSagYepGBYFTMesgaQ"
+            },
+            "note": "原文完整读取，补历史测试名称待核目录；开发者账户不是实际自研工作室证明，变体包不作独立成功产品。"
           }
         ],
         "gaps": [
@@ -333,6 +356,17 @@
             "status": "pending",
             "nextStep": "查Family Farm等历史业务拆分与当前目录",
             "sources": []
+          },
+          {
+            "question": "2022年测试项目的独立身份、真实研发工作室与首发/停服日期",
+            "status": "pending",
+            "nextStep": "按包名、商店ID、官方公告逐项核对；Bane of Mankind/Survive the Swarms可能是版本变体，暂不拆成独立产品。",
+            "sources": [
+              {
+                "title": "游戏葡萄公众号原文2022-08-17：FunPlus测试产品盘点（正文已读）",
+                "url": "https://mp.weixin.qq.com/s/IoE7vSagYepGBYFTMesgaQ"
+              }
+            ]
           }
         ]
       },
@@ -426,7 +460,7 @@
         "area": "talent",
         "status": "partial",
         "scope": "伊莫前生态策划彭杰、集团CBO与Ellipsis动画总监；续补Call of Antia三消RPG、归龙潮ARPG、Tiles具名制作人与海外工作室历史任命",
-        "checkedAt": "2026-10-13",
+        "checkedAt": "2026-10-14",
         "examined": [
           {
             "source": {
@@ -574,6 +608,13 @@
               "url": "https://funplus.com/funplus-appoints-josh-burns-as-sr-director-business-development-for-the-north-american-market-2/"
             },
             "note": "补Josh Burns2022北美商务拓展任命及Bob Slinn同年副总裁署名；均不关联单款游戏。"
+          },
+          {
+            "source": {
+              "title": "游戏葡萄公众号原文2024-12-23：董瑞豹已离职创业（正文已读）",
+              "url": "https://mp.weixin.qq.com/s/IxUCBQ84w0QR2sT8M4vDHg"
+            },
+            "note": "原文完整读取，报道董瑞豹已离职；与任命公告/Xterio官方former交叉，不造离任日期。"
           }
         ],
         "gaps": [
@@ -663,6 +704,30 @@
           {
             "title": "FunPlus官方2026半年回顾：Tiles收入占比",
             "url": "https://funplus.com/info/six-months-in-2026-with-funplus-cbo/"
+          }
+        ]
+      },
+      {
+        "checkedAt": "2026-10-14",
+        "channel": "微信公众号原文/企业任命公告/官方白皮书",
+        "note": "游戏葡萄2篇原文完整读取：3916/1671字；新增董瑞豹历史战略职务及离职证据，11个测试名称作为候选台账，不造正式发行日。",
+        "foundKeyFacts": true,
+        "sources": [
+          {
+            "title": "游戏葡萄公众号原文2022-08-17：FunPlus测试产品盘点（正文已读）",
+            "url": "https://mp.weixin.qq.com/s/IoE7vSagYepGBYFTMesgaQ"
+          },
+          {
+            "title": "游戏葡萄公众号原文2024-12-23：董瑞豹已离职创业（正文已读）",
+            "url": "https://mp.weixin.qq.com/s/IxUCBQ84w0QR2sT8M4vDHg"
+          },
+          {
+            "title": "FunPlus发布的2021-07-08任命公告：董瑞豹首席战略官",
+            "url": "https://www.prnasia.com/story/325131-1.shtml"
+          },
+          {
+            "title": "Xterio官方白皮书团队：Michael Tong为CEO、前FunPlus CSO",
+            "url": "https://docs.xter.io/team/team-members"
           }
         ]
       }
@@ -775,3 +840,28 @@ Sensor Tower 2018年9月原文估算Guns of Glory上线首年全球玩家支出�
 
 
 官方2022-03-17任命公告补Josh Burns北美商务拓展高级总监，负责平台与IP合作；同文确认Bob Slinn当时已任商务拓展副总裁。北美发行合作与具体游戏研发岗位分开，历史公告不能作为当前在职证明。
+
+
+## 公众号补证：历史测试项目与人员流动（2026-10-14核查）
+
+游戏葡萄2022-08-17原文列出以下测试名称。以下是待核目录，不计为11款独立已发行游戏；发行账户、内部研发团队、正式上线与测试分别核查。
+
+| 历史名称 | 下一步核查 |
+| --- | --- |
+| Superstar Maker: Match 3 Game | 三消与装扮；商店ID、实际研发团队 |
+| Entropy 2099 | 科幻策略；地区测试与后续名称 |
+| Demon Slayer: Hunt | ARPG与策略融合；包名、实际研发团队 |
+| Call of Antia: Fusion Master | 是否既有Call of Antia的测试包体 |
+| World of Dragons | 同名产品区分、策略/RPG比例 |
+| Bane of Mankind | 原文作者打开包体见State of Survival，独立性待核 |
+| Survive the Swarms | 与Bane/State of Survival版本关系待核 |
+| Misty Continent | 已有档案；历史测试与正式发行阶段 |
+| Tides of Treasure | 海盗经营与策略；独立身份、后续去向 |
+| Wilderness Fantasy | 当时报道下架；不等同正式停服证明 |
+| Zombie Boss | 卡牌对战；不因少量城建就强归传统SLG |
+
+文章据商店账户将多数名称关联Puzala，但账户只能作为检索线索，不足以确认其全部自研。首发日和现状未核清的项目先留在此台账，避免制造时间线。
+
+[游戏葡萄原文](https://mp.weixin.qq.com/s/IoE7vSagYepGBYFTMesgaQ)完整正文已读取。
+
+董瑞豹（Michael Tong）的2021首席战略官任命由FunPlus发布公告确认；游戏葡萄2024-12-23原文报道其已离职，Xterio官方白皮书亦列其为CEO及前FunPlus CSO。只确认历史职务与已离任，准确离任日仍未知；趣加互娱CEO不等同集团CEO，亦不推定任何游戏制作人职责。
