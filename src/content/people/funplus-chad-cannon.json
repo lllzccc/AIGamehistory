@@ -1,0 +1,37 @@
+{
+  "name": "Chad Cannon",
+  "aliases": [],
+  "bio": "FunPlus官方列为与张志伟合作Stormshot配乐的作曲家。按外部项目合作归档，不证明FunPlus劳动关系或在职状态。",
+  "roles": [
+    {
+      "company": "funplus",
+      "scope": "product",
+      "products": [
+        "stormshot"
+      ],
+      "title": "music",
+      "titleNote": "外部配乐合作作曲家",
+      "from": "2026-10-13",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-13",
+      "note": "日期为本次观察日，不等于入职或合作起始日；未取得雇佣关系，不映射游戏制作人。",
+      "specialties": [
+        "strategy"
+      ],
+      "sources": [
+        {
+          "title": "FunPlus官方：Zhang Zhiwei与Chad Cannon合作Stormshot音乐",
+          "url": "https://funplus.com/info/our-commitment-to-immersive-gaming-experiences/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "FunPlus官方：Zhang Zhiwei与Chad Cannon合作Stormshot音乐",
+      "url": "https://funplus.com/info/our-commitment-to-immersive-gaming-experiences/"
+    }
+  ],
+  "verified": true
+}

@@ -42,6 +42,14 @@
     {
       "title": "Google Play官方玩法与发行署名",
       "url": "https://play.google.com/store/apps/details?gl=us&id=com.s01.global"
+    },
+    {
+      "title": "FunPlus官方招聘历史年份分组：2010VZ、2011Facebook、2012手游",
+      "url": "https://campus.funplus.com.cn/about/"
+    },
+    {
+      "title": "FunPlus官方历程：各次上线月份",
+      "url": "https://funplus.com/about-funplus/"
     }
   ],
   "website": "https://www.campfiregames.cn/aboutus/",
@@ -88,6 +96,13 @@
               "url": "https://lordrush.centurygames.com/"
             },
             "note": "发现Lordrush官方品牌与发行主体，补美国iOS2026-07-19版本；不推定具体自研工作室。"
+          },
+          {
+            "source": {
+              "title": "FunPlus官方招聘历史年份分组：2010VZ、2011Facebook、2012手游",
+              "url": "https://campus.funplus.com.cn/about/"
+            },
+            "note": "补早期Family Farm与Family Farm Seaside，当前Century产品页交叉核对；历史主体不等于当前集团归属。"
           }
         ],
         "gaps": [
@@ -192,3 +207,6 @@
 核查日期：2026-10-12。Lordrush美国iOS发行记录为2026年7月19日，另有Android版本。官网版权与商店卖方署名Century Games Innovation Pte. Ltd.。按品牌线索单独建档，具体研发工作室与全球首发仍待核实，不凭玩法相似将其合并为Kingshot版本。
 
 [官方站](https://lordrush.centurygames.com/) · [Apple美国发行记录](https://itunes.apple.com/lookup?id=6759788962&country=us)。
+
+
+2026-10-13夜间补早期休闲目录：Family Farm德国VZ首发2010-10、Facebook扩展2011-06；Family Farm Seaside官网历史列2012-11上线App Store。早期FunPlus点点团队研发与当前Century Games目录归属分开，不把当前运营归给FunPlus。Android首发及逐产品权利交割待查。

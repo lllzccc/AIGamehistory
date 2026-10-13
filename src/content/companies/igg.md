@@ -59,6 +59,14 @@
     {
       "title": "IGG2024年度业绩演示：Frozen War策略新品（2025年3月披露）",
       "url": "https://statics-global.igg.com/investor/webcasts/2025/03/28/2024%20Annual%20Results%20PPT-Eng.pdf"
+    },
+    {
+      "title": "Apple以色列Frozen War历史商店正文：应用6738370929与卖方IGG Singapore；搜索缓存可读",
+      "url": "https://apps.apple.com/il/app/frozen-war/id6738370929"
+    },
+    {
+      "title": "IGG官方Frozen War预注册页",
+      "url": "https://sk.igg.com/pre_register_site/"
     }
   ],
   "website": "https://investor.igg.com/milestone.php?lang=1",
@@ -117,6 +125,20 @@
               "url": "https://apps.apple.com/us/app/clash-of-lords-2-guild-castle/id867427452"
             },
             "note": "补美国iOS2014-05-14及官方截图；Android首次日期未确认。"
+          },
+          {
+            "source": {
+              "title": "Apple以色列Frozen War历史商店正文：应用6738370929与卖方IGG Singapore；搜索缓存可读",
+              "url": "https://apps.apple.com/il/app/frozen-war/id6738370929"
+            },
+            "note": "历史商店搜索正文可读；本轮il/sg/gb/ca API均0结果，原URL直读跳转首页，不宣称当前在售。"
+          },
+          {
+            "source": {
+              "title": "IGG官方Frozen War预注册页",
+              "url": "https://sk.igg.com/pre_register_site/"
+            },
+            "note": "官方预注册页保留，缺日期，不能据此推定未上线或当前运营。"
           }
         ],
         "gaps": [
@@ -143,7 +165,22 @@
         "area": "lifecycle",
         "status": "pending",
         "scope": "地区与平台生命周期",
-        "examined": [],
+        "examined": [
+          {
+            "source": {
+              "title": "Apple以色列Frozen War历史商店正文：应用6738370929与卖方IGG Singapore；搜索缓存可读",
+              "url": "https://apps.apple.com/il/app/frozen-war/id6738370929"
+            },
+            "note": "历史商店搜索正文可读；本轮il/sg/gb/ca API均0结果，原URL直读跳转首页，不宣称当前在售。"
+          },
+          {
+            "source": {
+              "title": "IGG官方Frozen War预注册页",
+              "url": "https://sk.igg.com/pre_register_site/"
+            },
+            "note": "官方预注册页保留，缺日期，不能据此推定未上线或当前运营。"
+          }
+        ],
         "gaps": [
           {
             "question": "继续逐项核对原始资料。",
@@ -292,7 +329,7 @@ Conquerors 2: Glory of Sultans现按独立商店应用收录美国iOS2019年9月
 
 ### 待补历史新品：Frozen War
 
-IGG于2025年3月披露的2024年度业绩演示，将Frozen War列为已推出的寒冷末日题材SLG，并展示游戏画面。资料没有给出准确首发地区、平台和日期，暂列产品目录线索，不造时间线节点。2026年10月12日核查美国Apple查询接口未返回该历史应用，不能据此判断全球下架或停服；具体研发团队、版本历史与运营状态仍待补。
+IGG于2025年3月披露的2024年度业绩演示，将Frozen War列为寒冷末日题材SLG产品展示（展示本身不证明正式推出），并展示游戏画面。资料没有给出准确首发地区、平台和日期，暂列产品目录线索，不造时间线节点。2026年10月12日核查美国Apple查询接口未返回该历史应用，不能据此判断全球下架或停服；具体研发团队、版本历史与运营状态仍待补。
 
 
 ### 历史运营团队线索
@@ -303,3 +340,8 @@ IGG于2025年3月披露的2024年度业绩演示，将Frozen War列为已推出�
 
 
 Clash of Lords 2已补美国iOS2014年5月14日版本与官方商店截图，Android最早首发、具体研发工作室与主创待查。2019年1月15日IGG官方Mobile Royale推广稿列Enric Cabestany为欧洲总经理，按历史地区管理职务建档，不认定当前在任或研发职责。核查2026年10月13日。
+
+
+## Frozen War再核查（2026-10-13）
+
+找到历史Apple应用ID6738370929、卖方IGG SINGAPORE PTE. LTD.以及Android包名com.igg.android.frozenwar。以色列商店搜索缓存正文可读，但本轮Apple il/sg/gb/ca查询均无结果，原URL直读跳转首页；Google Play包名页404。官方预注册页仍可读，但缺时间。地区首发、下架范围、停服日期仍不能确定，不造发布或停服节点。修正此前将业绩演示的产品展示写作已推出的过强表述。

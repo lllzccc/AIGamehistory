@@ -1,9 +1,11 @@
 {
-  "name": "Zhang Zhiwei",
+  "name": "张志伟",
   "aliases": [
-    "Gary"
+    "Gary",
+    "Zhang Zhiwei",
+    "Zhiwei Zhang"
   ],
-  "bio": "FunPlus官方音乐创作访谈署名的音频设计师、作曲者，明确涉及阿瓦隆之王、State of Survival及火枪纪元；中文姓名用字未核实。",
+  "bio": "FunPlus音频设计师、作曲者，官方确认Gary即Zhang Zhiwei；手游那点事具名演讲转载补中文姓名张志伟。既有三款策略产品之外，官方另确认Stormshot音乐合作及Sea of Conquest音频创作。不将音乐制作人当游戏制作人。",
   "roles": [
     {
       "company": "funplus",
@@ -43,6 +45,30 @@
           "url": "https://funplus.com/people/funpeople-gary-audio-director/"
         }
       ]
+    },
+    {
+      "company": "funplus",
+      "scope": "product",
+      "products": [
+        "stormshot",
+        "sea-of-conquest"
+      ],
+      "title": "music",
+      "titleNote": "音频与配乐创作；Stormshot与外部作曲家合作",
+      "from": "2026-10-13",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-13",
+      "note": "官方原文具名确认职责；日期为核查观察日，实际任期及具体单曲完整分工待查。",
+      "specialties": [
+        "strategy"
+      ],
+      "sources": [
+        {
+          "title": "FunPlus官方：Zhang Zhiwei与Chad Cannon合作Stormshot音乐",
+          "url": "https://funplus.com/info/our-commitment-to-immersive-gaming-experiences/"
+        }
+      ]
     }
   ],
   "sources": [
@@ -53,6 +79,14 @@
     {
       "title": "FunPlus官方人物访谈：Gary自述即Zhang Zhiwei，Audio Director",
       "url": "https://funplus.com/people/funpeople-gary-audio-director/"
+    },
+    {
+      "title": "FunPlus官方：Zhang Zhiwei与Chad Cannon合作Stormshot音乐",
+      "url": "https://funplus.com/info/our-commitment-to-immersive-gaming-experiences/"
+    },
+    {
+      "title": "手游那点事2022-04-21具名演讲，扬帆出海可读转载：张志伟音频设计",
+      "url": "https://www.yfchuhai.com/article/6197.html"
     }
   ],
   "verified": true

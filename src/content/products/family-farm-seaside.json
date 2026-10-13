@@ -1,0 +1,53 @@
+{
+  "name": "Family Farm Seaside（天天农场）",
+  "aliases": [],
+  "chronicles": [
+    "casual"
+  ],
+  "genre": "other",
+  "developer": "funplus",
+  "publisher": "centurygames",
+  "released": "2012-11",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "官方历程App Store首发月份",
+  "significance": "农场经营与社交互动作品，早期由FunPlus旗下点点团队开发，当前Century Games目录收录；历史归属不表示仍由FunPlus研发运营。",
+  "cover": "/images/family-farm-seaside-official.png",
+  "keyArt": "/images/family-farm-seaside-official.png",
+  "sources": [
+    {
+      "title": "FunPlus官方招聘历史年份分组：2010VZ、2011Facebook、2012手游",
+      "url": "https://campus.funplus.com.cn/about/"
+    },
+    {
+      "title": "FunPlus官方历程：各次上线月份",
+      "url": "https://funplus.com/about-funplus/"
+    },
+    {
+      "title": "Century Games当前产品官网：Family Farm Seaside（天天农场）",
+      "url": "https://www.centurygames.com/games/family-farm-seaside/"
+    }
+  ],
+  "verified": true,
+  "lifecycleNotes": [
+    {
+      "note": "核查2026-10-13。发行字段列当前Century Games品牌；首发日期来自早期FunPlus历史，历史研发团队为点点。未核实逐次资产交割的产品权利清单或具体法人。官网2026年更新活动显示仍运营；Android各地区最早首发待查，不沿用iOS日期。",
+      "sources": [
+        {
+          "title": "FunPlus官方招聘历史年份分组：2010VZ、2011Facebook、2012手游",
+          "url": "https://campus.funplus.com.cn/about/"
+        },
+        {
+          "title": "FunPlus官方历程：各次上线月份",
+          "url": "https://funplus.com/about-funplus/"
+        },
+        {
+          "title": "Century Games当前产品官网：Family Farm Seaside（天天农场）",
+          "url": "https://www.centurygames.com/games/family-farm-seaside/"
+        }
+      ]
+    }
+  ]
+}

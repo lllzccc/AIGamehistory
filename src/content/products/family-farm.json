@@ -1,0 +1,54 @@
+{
+  "name": "Family Farm（家庭农场）",
+  "aliases": [],
+  "chronicles": [
+    "casual"
+  ],
+  "genre": "other",
+  "developer": "funplus",
+  "publisher": "centurygames",
+  "released": "2010-10",
+  "platforms": [
+    "Web／VZ（历史首发）",
+    "Facebook（2011年扩展）"
+  ],
+  "status": "unknown",
+  "versionLabel": "德国VZ历史首发",
+  "significance": "农场经营与社交互动作品，早期由FunPlus旗下点点团队开发，当前Century Games目录收录；历史归属不表示仍由FunPlus研发运营。",
+  "cover": "/images/family-farm-official.png",
+  "keyArt": "/images/family-farm-official.png",
+  "sources": [
+    {
+      "title": "FunPlus官方招聘历史年份分组：2010VZ、2011Facebook、2012手游",
+      "url": "https://campus.funplus.com.cn/about/"
+    },
+    {
+      "title": "FunPlus官方历程：各次上线月份",
+      "url": "https://funplus.com/about-funplus/"
+    },
+    {
+      "title": "Century Games当前产品官网：Family Farm（家庭农场）",
+      "url": "https://www.centurygames.com/games/family-farm/"
+    }
+  ],
+  "verified": true,
+  "lifecycleNotes": [
+    {
+      "note": "核查2026-10-13。发行字段列当前Century Games品牌；首发日期来自早期FunPlus历史，历史研发团队为点点。未核实逐次资产交割的产品权利清单或具体法人。2011-06另扩展Facebook；VZ历史版本当前状态未知，现产品官网不能证明VZ仍运营。",
+      "sources": [
+        {
+          "title": "FunPlus官方招聘历史年份分组：2010VZ、2011Facebook、2012手游",
+          "url": "https://campus.funplus.com.cn/about/"
+        },
+        {
+          "title": "FunPlus官方历程：各次上线月份",
+          "url": "https://funplus.com/about-funplus/"
+        },
+        {
+          "title": "Century Games当前产品官网：Family Farm（家庭农场）",
+          "url": "https://www.centurygames.com/games/family-farm/"
+        }
+      ]
+    }
+  ]
+}

@@ -111,6 +111,22 @@
     {
       "title": "FunPlus官网PC公告：页面日期2023-05-22",
       "url": "https://funplus.com/king-of-avalon-adds-pc-to-roster-of-gaming-platforms/"
+    },
+    {
+      "title": "FunPlus官方：Zhang Zhiwei与Chad Cannon合作Stormshot音乐",
+      "url": "https://funplus.com/info/our-commitment-to-immersive-gaming-experiences/"
+    },
+    {
+      "title": "手游那点事2022-04-21具名演讲，扬帆出海可读转载：张志伟音频设计",
+      "url": "https://www.yfchuhai.com/article/6197.html"
+    },
+    {
+      "title": "FunPlus官方招聘历史年份分组：2010VZ、2011Facebook、2012手游",
+      "url": "https://campus.funplus.com.cn/about/"
+    },
+    {
+      "title": "FunPlus官方历程：各次上线月份",
+      "url": "https://funplus.com/about-funplus/"
     }
   ],
   "website": "https://funplus.com/about-funplus/",
@@ -258,6 +274,13 @@
               "url": "https://mp.weixin.qq.com/s/cXIjMfI8M9rDTBX7uKC9Aw"
             },
             "note": "2026-10-13续查：原文已读；具名职责、地区发行及正式运营/陪伴服分别记录。"
+          },
+          {
+            "source": {
+              "title": "FunPlus官方招聘历史年份分组：2010VZ、2011Facebook、2012手游",
+              "url": "https://campus.funplus.com.cn/about/"
+            },
+            "note": "补早期Family Farm与Family Farm Seaside，当前Century产品页交叉核对；历史主体不等于当前集团归属。"
           }
         ],
         "gaps": [
@@ -479,6 +502,20 @@
               "url": "https://www.chuapp.com/mobile/285487.html"
             },
             "note": "刘宇宁具名采访、离职转载及Karma历史官网交叉检索。"
+          },
+          {
+            "source": {
+              "title": "FunPlus官方：Zhang Zhiwei与Chad Cannon合作Stormshot音乐",
+              "url": "https://funplus.com/info/our-commitment-to-immersive-gaming-experiences/"
+            },
+            "note": "补Stormshot外部配乐合作、Sea of Conquest音频创作。"
+          },
+          {
+            "source": {
+              "title": "手游那点事2022-04-21具名演讲，扬帆出海可读转载：张志伟音频设计",
+              "url": "https://www.yfchuhai.com/article/6197.html"
+            },
+            "note": "具名演讲转载补中文张志伟，与官方英语职责和作品交叉核对；未声称读取公众号原文。"
           }
         ],
         "gaps": [
@@ -634,3 +671,10 @@ FunPlus 2014-08-19新闻稿宣布拟向中技控股出售DianDian，金额最高
 2018触乐具名采访补刘宇宁的KingsGroup COO和两款SLG经历，后续访谈称已离开创业。Karma官网历史检索文本支持制作人署名，当前直接访问只有网页空壳；不采用其异常的英文累计金额。公众号旧访谈已删除，不能声称本次读到原文。另补Edge公司级技术职责；Fio官方2D美术访谈讲的是社区内容创作，不将其提升为游戏主美。
 
 阿瓦隆Windows版官网历程列2023年3月，独立公告页面显示5月22日，首发日仍待查。
+
+
+2026-10-13续轮：官方音乐开发文章明确张志伟参与Stormshot及Sea of Conquest音频创作，Stormshot外部合作作曲家为Chad Cannon。手游那点事具名演讲的扬帆转载补中文姓名；公众号原文未取得，不另造已读状态。Chad仅记录项目音乐合作，不推定FunPlus雇员。
+
+
+2026-10-13夜间补早期休闲目录：Family Farm德国VZ首发2010-10、Facebook扩展2011-06；Family Farm Seaside官网历史列2012-11上线App Store。早期FunPlus点点团队研发与当前Century Games目录归属分开，不把当前运营归给FunPlus。Android首发及逐产品权利交割待查。
+官网领导名单确认Edge即Tao (Edge) Wu，合并重复人物档案，不重复计算人员数量。

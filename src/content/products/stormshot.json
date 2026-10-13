@@ -56,5 +56,18 @@
         "url": "https://funplus.com/games/stormshot_isle_of_adventure/"
       }
     ]
-  }
+  },
+  "teamEvidence": [
+    {
+      "observedAt": "2026-10-13",
+      "kind": "official",
+      "summary": "官方明确张志伟与外部作曲家Chad Cannon合作配乐，维也纳录音；不证明后者为公司员工。",
+      "sources": [
+        {
+          "title": "FunPlus官方：Zhang Zhiwei与Chad Cannon合作Stormshot音乐",
+          "url": "https://funplus.com/info/our-commitment-to-immersive-gaming-experiences/"
+        }
+      ]
+    }
+  ]
 }
