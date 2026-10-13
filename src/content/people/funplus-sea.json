@@ -1,0 +1,45 @@
+{
+  "name": "Sea",
+  "aliases": [],
+  "bio": "本人作品集明确为FunPlus的Foundation项目设计飞船礼包插画；这是具体美术贡献，不等同游戏主美。姓名按公开职业作品集署名保留，中文法定姓名未核实。",
+  "roles": [
+    {
+      "company": "funplus",
+      "scope": "product",
+      "products": [
+        "foundation-galactic-frontier"
+      ],
+      "title": "other",
+      "titleNote": "飞船礼包插画设计",
+      "from": "2026-10-14",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-14",
+      "status": "unknown",
+      "specialties": [
+        "strategy"
+      ],
+      "note": "本人作品集明确为FunPlus的Foundation项目设计飞船礼包插画；这是具体美术贡献，不等同游戏主美。 日期为本次作品集观察日；实际参与任期、当前在职及内部雇员/外部合作关系未确认，按项目贡献关联FunPlus，不据此认定雇佣。",
+      "sources": [
+        {
+          "title": "Sea本人作品集：Foundation飞船礼包插画设计与团队合作",
+          "url": "https://user-667325.artstation.com/projects/xdz3l2"
+        },
+        {
+          "title": "Hua Lu本人作品集：Foundation项目美术总监与团队致谢",
+          "url": "https://hualu.artstation.com/projects/BammmA"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Sea本人作品集：Foundation飞船礼包插画设计与团队合作",
+      "url": "https://user-667325.artstation.com/projects/xdz3l2"
+    },
+    {
+      "title": "Hua Lu本人作品集：Foundation项目美术总监与团队致谢",
+      "url": "https://hualu.artstation.com/projects/BammmA"
+    }
+  ],
+  "verified": true
+}

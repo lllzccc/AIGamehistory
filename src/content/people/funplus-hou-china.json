@@ -1,0 +1,45 @@
+{
+  "name": "Hou China",
+  "aliases": [],
+  "bio": "本人角色设计作品说明参与项目早期探索，并列Hualu为美术总监；不据此提升为核心美术负责人。姓名按公开职业作品集署名保留，中文法定姓名未核实。",
+  "roles": [
+    {
+      "company": "funplus",
+      "scope": "product",
+      "products": [
+        "foundation-galactic-frontier"
+      ],
+      "title": "other",
+      "titleNote": "早期角色概念设计",
+      "from": "2026-10-14",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-14",
+      "status": "unknown",
+      "specialties": [
+        "strategy"
+      ],
+      "note": "本人角色设计作品说明参与项目早期探索，并列Hualu为美术总监；不据此提升为核心美术负责人。 日期为本次作品集观察日；实际参与任期、当前在职及内部雇员/外部合作关系未确认，按项目贡献关联FunPlus，不据此认定雇佣。",
+      "sources": [
+        {
+          "title": "Hou China本人作品集：Foundation早期角色探索、美术总监Hualu",
+          "url": "https://chinahou.artstation.com/projects/Wd2X9X"
+        },
+        {
+          "title": "Hua Lu本人作品集：Foundation项目美术总监与团队致谢",
+          "url": "https://hualu.artstation.com/projects/BammmA"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hou China本人作品集：Foundation早期角色探索、美术总监Hualu",
+      "url": "https://chinahou.artstation.com/projects/Wd2X9X"
+    },
+    {
+      "title": "Hua Lu本人作品集：Foundation项目美术总监与团队致谢",
+      "url": "https://hualu.artstation.com/projects/BammmA"
+    }
+  ],
+  "verified": true
+}

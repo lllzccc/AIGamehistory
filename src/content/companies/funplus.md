@@ -652,6 +652,27 @@
               "url": "https://store.steampowered.com/app/2806410/Project_Entropy/"
             },
             "note": "Steam具名开发发行法人可核，未找到Project Entropy制作人/主策/主美实名。"
+          },
+          {
+            "source": {
+              "title": "Hua Lu本人作品集：Foundation项目美术总监与团队致谢",
+              "url": "https://hualu.artstation.com/projects/BammmA"
+            },
+            "note": "读取本人项目作品说明，核对具体美术贡献；雇佣/任期未知。"
+          },
+          {
+            "source": {
+              "title": "Hou China本人作品集：Foundation早期角色探索、美术总监Hualu",
+              "url": "https://chinahou.artstation.com/projects/Wd2X9X"
+            },
+            "note": "读取本人项目作品说明，核对具体美术贡献；雇佣/任期未知。"
+          },
+          {
+            "source": {
+              "title": "Sea本人作品集：Foundation飞船礼包插画设计与团队合作",
+              "url": "https://user-667325.artstation.com/projects/xdz3l2"
+            },
+            "note": "读取本人项目作品说明，核对具体美术贡献；雇佣/任期未知。"
           }
         ],
         "gaps": [
@@ -907,3 +928,8 @@ Sensor Tower 2018年9月原文估算Guns of Glory上线首年全球玩家支出�
 ## Project Entropy：分平台记录（核查2026-10-14）
 
 补科幻4X策略《Project Entropy》的美国iOS（2023-12-06）与Steam Windows（2024-04-16）版本。Steam将FunPlus International AG列为开发商和发行商。Android现行商店、官方历史站的2022-12更新公告也已读取；这些证据不等同全球正式首发，Android首发日仍待查。内部具体研发工作室、主策/主美及与Entropy 2099测试名称的正式沿革未确认，保留缺口。
+
+
+## Foundation项目美术署名（核查2026-10-14）
+
+Hua Lu本人作品集自述带领项目美术团队，Hou China的早期角色设计作品亦将其署名为Art Director；Sea作品说明负责飞船礼包插画。三位按具体项目职责进入人才地图。公开职业署名不等同法定姓名，作品贡献不等同内部雇佣或当前在职；实际任期、制作人和主策仍待查，其他致谢名单也不直接作岗位证明。

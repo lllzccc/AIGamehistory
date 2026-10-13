@@ -24,6 +24,18 @@
     {
       "title": "Apple美国iOS发行记录与卖方，核查2026-10-12",
       "url": "https://itunes.apple.com/lookup?id=6737595599&country=us"
+    },
+    {
+      "title": "Hua Lu本人作品集：Foundation项目美术总监与团队致谢",
+      "url": "https://hualu.artstation.com/projects/BammmA"
+    },
+    {
+      "title": "Hou China本人作品集：Foundation早期角色探索、美术总监Hualu",
+      "url": "https://chinahou.artstation.com/projects/Wd2X9X"
+    },
+    {
+      "title": "Sea本人作品集：Foundation飞船礼包插画设计与团队合作",
+      "url": "https://user-667325.artstation.com/projects/xdz3l2"
     }
   ],
   "verified": true,
@@ -74,6 +86,44 @@
           "url": "https://funplus.com/info/discovering-foundation-galactic-frontier-community-podcast/"
         }
       ]
+    },
+    {
+      "observedAt": "2026-10-14",
+      "kind": "reported",
+      "summary": "本人职业作品集补Hua Lu美术总监、Hou China早期角色探索、Sea飞船礼包插画。Hua Lu与Hou China的Art Director署名交叉一致；只记录已公开项目职责，不认定全部为FunPlus内部在职员工。",
+      "sources": [
+        {
+          "title": "Hua Lu本人作品集：Foundation项目美术总监与团队致谢",
+          "url": "https://hualu.artstation.com/projects/BammmA"
+        },
+        {
+          "title": "Hou China本人作品集：Foundation早期角色探索、美术总监Hualu",
+          "url": "https://chinahou.artstation.com/projects/Wd2X9X"
+        },
+        {
+          "title": "Sea本人作品集：Foundation飞船礼包插画设计与团队合作",
+          "url": "https://user-667325.artstation.com/projects/xdz3l2"
+        }
+      ]
     }
-  ]
+  ],
+  "personnelResearch": {
+    "status": "documented",
+    "checkedAt": "2026-10-14",
+    "note": "已找到项目美术总监及两位具体美术贡献者的本人作品；制作人、主策、实际任期与雇佣关系仍待核。其他致谢对象未逐项确认岗位，不自动建档。",
+    "sources": [
+      {
+        "title": "Hua Lu本人作品集：Foundation项目美术总监与团队致谢",
+        "url": "https://hualu.artstation.com/projects/BammmA"
+      },
+      {
+        "title": "Hou China本人作品集：Foundation早期角色探索、美术总监Hualu",
+        "url": "https://chinahou.artstation.com/projects/Wd2X9X"
+      },
+      {
+        "title": "Sea本人作品集：Foundation飞船礼包插画设计与团队合作",
+        "url": "https://user-667325.artstation.com/projects/xdz3l2"
+      }
+    ]
+  }
 }

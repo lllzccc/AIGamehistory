@@ -1,0 +1,45 @@
+{
+  "name": "Hua Lu",
+  "aliases": [],
+  "bio": "本人作品集自述以美术总监身份带领团队约三年，Hou China的项目作品也署名Hualu为美术总监；不从三年倒推入职日。姓名按公开职业作品集署名保留，中文法定姓名未核实。",
+  "roles": [
+    {
+      "company": "funplus",
+      "scope": "product",
+      "products": [
+        "foundation-galactic-frontier"
+      ],
+      "title": "lead-artist",
+      "titleNote": "项目美术总监（Art Director）",
+      "from": "2026-10-14",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-14",
+      "status": "unknown",
+      "specialties": [
+        "strategy"
+      ],
+      "note": "本人作品集自述以美术总监身份带领团队约三年，Hou China的项目作品也署名Hualu为美术总监；不从三年倒推入职日。 日期为本次作品集观察日；实际参与任期、当前在职及内部雇员/外部合作关系未确认，按项目贡献关联FunPlus，不据此认定雇佣。",
+      "sources": [
+        {
+          "title": "Hua Lu本人作品集：Foundation项目美术总监与团队致谢",
+          "url": "https://hualu.artstation.com/projects/BammmA"
+        },
+        {
+          "title": "Hou China本人作品集：Foundation早期角色探索、美术总监Hualu",
+          "url": "https://chinahou.artstation.com/projects/Wd2X9X"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hua Lu本人作品集：Foundation项目美术总监与团队致谢",
+      "url": "https://hualu.artstation.com/projects/BammmA"
+    },
+    {
+      "title": "Hou China本人作品集：Foundation早期角色探索、美术总监Hualu",
+      "url": "https://chinahou.artstation.com/projects/Wd2X9X"
+    }
+  ],
+  "verified": true
+}
