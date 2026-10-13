@@ -1,0 +1,61 @@
+{
+  "name": "Happy Acres",
+  "aliases": [],
+  "chronicles": [
+    "casual"
+  ],
+  "genre": "other",
+  "developer": "funplus",
+  "publisher": "centurygames",
+  "released": "2014-06",
+  "platforms": [
+    "Web／Facebook"
+  ],
+  "status": "unknown",
+  "versionLabel": "FunPlus官方历史上线月份；当前目录主体另说明",
+  "significance": "历史点点团队研发的社交模拟经营作品，属于FunPlus早期休闲目录；后续Century Games产品/支持资料与历史归属分别保留。",
+  "sources": [
+    {
+      "title": "FunPlus官方招聘历程年份分组：Royal Story 2012、Happy Acres 2014",
+      "url": "https://campus.funplus.com.cn/about/"
+    },
+    {
+      "title": "FunPlus官方历程：Royal Story十二月、Happy Acres六月",
+      "url": "https://funplus.com/about-funplus/"
+    },
+    {
+      "title": "长江证券2016-10-01重组核查意见：点点分工、产品及跨年收入",
+      "url": "https://disc.static.szse.cn/disc/disk01/finalpage/2016-10-01/0ba4da5e-8bae-4244-98fd-b9a85ff66f45.PDF"
+    },
+    {
+      "title": "Century Games当前Happy Acres官方产品页",
+      "url": "https://www.centurygames.com/games/happy-acres/"
+    }
+  ],
+  "verified": true,
+  "lifecycleNotes": [
+    {
+      "note": "核查2026-10-13。官方历程列2014年6月作为第三款网页游戏上线；当前Century Games产品目录存在，但各地区首发日与现服务器状态未核验。 发行字段关联Century Games目录，不表示其在早期月份已持有资产；逐产品权利交割及具体法人仍待查。",
+      "sources": [
+        {
+          "title": "FunPlus官方招聘历程年份分组：Royal Story 2012、Happy Acres 2014",
+          "url": "https://campus.funplus.com.cn/about/"
+        },
+        {
+          "title": "FunPlus官方历程：Royal Story十二月、Happy Acres六月",
+          "url": "https://funplus.com/about-funplus/"
+        },
+        {
+          "title": "长江证券2016-10-01重组核查意见：点点分工、产品及跨年收入",
+          "url": "https://disc.static.szse.cn/disc/disk01/finalpage/2016-10-01/0ba4da5e-8bae-4244-98fd-b9a85ff66f45.PDF"
+        },
+        {
+          "title": "Century Games当前Happy Acres官方产品页",
+          "url": "https://www.centurygames.com/games/happy-acres/"
+        }
+      ]
+    }
+  ],
+  "cover": "/images/happy-acres-official.jpg",
+  "keyArt": "/images/happy-acres-official.jpg"
+}

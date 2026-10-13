@@ -50,6 +50,10 @@
     {
       "title": "FunPlus官方历程：各次上线月份",
       "url": "https://funplus.com/about-funplus/"
+    },
+    {
+      "title": "长江证券2016-10-01重组核查意见：点点分工、产品及跨年收入",
+      "url": "https://disc.static.szse.cn/disc/disk01/finalpage/2016-10-01/0ba4da5e-8bae-4244-98fd-b9a85ff66f45.PDF"
     }
   ],
   "website": "https://www.campfiregames.cn/aboutus/",
@@ -74,6 +78,13 @@
               "url": "https://vip.stock.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=4965423&stockid=sz002602"
             },
             "note": "表格明确两主体合并日均2018-01-16、股权100%；原表取得成本单位万元。"
+          },
+          {
+            "source": {
+              "title": "长江证券2016-10-01重组核查意见：点点分工、产品及跨年收入",
+              "url": "https://disc.static.szse.cn/disc/disk01/finalpage/2016-10-01/0ba4da5e-8bae-4244-98fd-b9a85ff66f45.PDF"
+            },
+            "note": "正文已读：点点开曼/北京职责、四款自研社交游戏与2014—2016H1收入范围，不等同当前集团营收。"
           }
         ],
         "gaps": [
@@ -103,6 +114,13 @@
               "url": "https://campus.funplus.com.cn/about/"
             },
             "note": "补早期Family Farm与Family Farm Seaside，当前Century产品页交叉核对；历史主体不等于当前集团归属。"
+          },
+          {
+            "source": {
+              "title": "长江证券2016-10-01重组核查意见：点点分工、产品及跨年收入",
+              "url": "https://disc.static.szse.cn/disc/disk01/finalpage/2016-10-01/0ba4da5e-8bae-4244-98fd-b9a85ff66f45.PDF"
+            },
+            "note": "正文已读：点点开曼/北京职责、四款自研社交游戏与2014—2016H1收入范围，不等同当前集团营收。"
           }
         ],
         "gaps": [
@@ -163,6 +181,13 @@
               "url": "https://static.cninfo.com.cn/finalpage/2025-08-30/1224628793.PDF"
             },
             "note": "核对官方财务报告；保留主体、币种、统计期间与约数。"
+          },
+          {
+            "source": {
+              "title": "长江证券2016-10-01重组核查意见：点点分工、产品及跨年收入",
+              "url": "https://disc.static.szse.cn/disc/disk01/finalpage/2016-10-01/0ba4da5e-8bae-4244-98fd-b9a85ff66f45.PDF"
+            },
+            "note": "正文已读：点点开曼/北京职责、四款自研社交游戏与2014—2016H1收入范围，不等同当前集团营收。"
           }
         ],
         "gaps": [
@@ -210,3 +235,14 @@
 
 
 2026-10-13夜间补早期休闲目录：Family Farm德国VZ首发2010-10、Facebook扩展2011-06；Family Farm Seaside官网历史列2012-11上线App Store。早期FunPlus点点团队研发与当前Century Games目录归属分开，不把当前运营归给FunPlus。Android首发及逐产品权利交割待查。
+
+
+## 早期点点分工与跨年收入（核查2026-10-13）
+
+长江证券2016重组核查意见明确：当时点点开曼承担立项决策、创意设计、运营策略与发行推广，北京承担技术实施、美工和客服支持。这是历史工作分工，不推定当前组织结构或项目成员身份。
+
+2014年至2016年6月，文件披露点点主营业务收入合计19,659.03万美元（约1.9659亿美元）；Family Farm、Family Farm Seaside、Happy Acres、Royal Story四款自研游戏合计16,090.93万美元（约1.6091亿美元），占81.85%。这是跨年、特定资产范围的收入，不是单年营收、集团合并收入或玩家充值流水。文件核查时还区分联营平台结算与充值金额，不能混用。
+
+补入Royal Story及Happy Acres历史目录。皇家故事官网2012-12与交易文件2013年初全球发布存在日期口径差异；Family Farm也有VZ2010与交易文件德法2011的差异，分别保留，继续查地区/平台阶段。
+
+[原始重组核查意见](https://disc.static.szse.cn/disc/disk01/finalpage/2016-10-01/0ba4da5e-8bae-4244-98fd-b9a85ff66f45.PDF)。

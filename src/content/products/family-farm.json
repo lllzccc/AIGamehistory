@@ -29,6 +29,10 @@
     {
       "title": "Century Games当前产品官网：Family Farm（家庭农场）",
       "url": "https://www.centurygames.com/games/family-farm/"
+    },
+    {
+      "title": "长江证券2016-10-01重组核查意见：点点分工、产品及跨年收入",
+      "url": "https://disc.static.szse.cn/disc/disk01/finalpage/2016-10-01/0ba4da5e-8bae-4244-98fd-b9a85ff66f45.PDF"
     }
   ],
   "verified": true,
@@ -47,6 +51,15 @@
         {
           "title": "Century Games当前产品官网：Family Farm（家庭农场）",
           "url": "https://www.centurygames.com/games/family-farm/"
+        }
+      ]
+    },
+    {
+      "note": "核查2026-10-13。交易文件称2011年德国与法国首次发行，官网另记2010年德国VZ上线。平台/地区口径未完全解释，保留两条来源，不替换已记录VZ历史。",
+      "sources": [
+        {
+          "title": "长江证券2016-10-01重组核查意见：点点分工、产品及跨年收入",
+          "url": "https://disc.static.szse.cn/disc/disk01/finalpage/2016-10-01/0ba4da5e-8bae-4244-98fd-b9a85ff66f45.PDF"
         }
       ]
     }

@@ -1,0 +1,47 @@
+{
+  "name": "Z Day: Hearts of Heroes",
+  "aliases": [
+    "Z Day"
+  ],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "funplus",
+  "publisher": "FunPlus International AG",
+  "released": "2018-08-07",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "美国iOS商店发行记录",
+  "significance": "架空二战背景的基地发展与联盟战争策略产品。按FunPlus品牌聚合，实际研发工作室与项目主创仍待核对。",
+  "cover": "/images/z-day-official.jpg",
+  "keyArt": "/images/z-day-official.jpg",
+  "sources": [
+    {
+      "title": "Apple美国官方Z Day元数据：2018-08-07、FunPlus International AG",
+      "url": "https://itunes.apple.com/lookup?id=1374225046&country=us"
+    },
+    {
+      "title": "USPTO公开2019诉讼材料及商标记录：Z DAY HEARTS OF HEROES与KingsGroup Holdings",
+      "url": "https://ttabvue.uspto.gov/ttabvue/ttabvue-92072041-CAN-1.pdf"
+    }
+  ],
+  "verified": true,
+  "lifecycleNotes": [
+    {
+      "note": "核查2026-10-13。美国iOS API实际返回2018-08-07，未套用于Android。2019公开商标材料记录KingsGroup Holdings为开曼法人及Z DAY HEARTS OF HEROES持有人，自述首次商业使用2018-06-26；商标使用日不是各平台发行日，也不证明股权或实际研发团队。",
+      "sources": [
+        {
+          "title": "Apple美国官方Z Day元数据：2018-08-07、FunPlus International AG",
+          "url": "https://itunes.apple.com/lookup?id=1374225046&country=us"
+        },
+        {
+          "title": "USPTO公开2019诉讼材料及商标记录：Z DAY HEARTS OF HEROES与KingsGroup Holdings",
+          "url": "https://ttabvue.uspto.gov/ttabvue/ttabvue-92072041-CAN-1.pdf"
+        }
+      ]
+    }
+  ]
+}

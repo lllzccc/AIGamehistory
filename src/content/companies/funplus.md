@@ -131,6 +131,18 @@
     {
       "title": "Sensor Tower原始2018年9月文章（含修订说明）：Guns of Glory首年估算",
       "url": "https://sensortower.com/blog/guns-of-glory-revenue"
+    },
+    {
+      "title": "长江证券2016-10-01重组核查意见：点点分工、产品及跨年收入",
+      "url": "https://disc.static.szse.cn/disc/disk01/finalpage/2016-10-01/0ba4da5e-8bae-4244-98fd-b9a85ff66f45.PDF"
+    },
+    {
+      "title": "Apple美国官方Z Day元数据：2018-08-07、FunPlus International AG",
+      "url": "https://itunes.apple.com/lookup?id=1374225046&country=us"
+    },
+    {
+      "title": "USPTO公开2019诉讼材料及商标记录：Z DAY HEARTS OF HEROES与KingsGroup Holdings",
+      "url": "https://ttabvue.uspto.gov/ttabvue/ttabvue-92072041-CAN-1.pdf"
     }
   ],
   "website": "https://funplus.com/about-funplus/",
@@ -184,6 +196,20 @@
               "url": "https://epaper.stcn.com/paper/zqsb/page/1/2015-09/23/B074/20150923B074_pdf.pdf"
             },
             "note": "原PDF正文成功读取，确认2015-08-15终止。"
+          },
+          {
+            "source": {
+              "title": "长江证券2016-10-01重组核查意见：点点分工、产品及跨年收入",
+              "url": "https://disc.static.szse.cn/disc/disk01/finalpage/2016-10-01/0ba4da5e-8bae-4244-98fd-b9a85ff66f45.PDF"
+            },
+            "note": "正文已读：点点开曼/北京职责、四款自研社交游戏与2014—2016H1收入范围，不等同当前集团营收。"
+          },
+          {
+            "source": {
+              "title": "USPTO公开2019诉讼材料及商标记录：Z DAY HEARTS OF HEROES与KingsGroup Holdings",
+              "url": "https://ttabvue.uspto.gov/ttabvue/ttabvue-92072041-CAN-1.pdf"
+            },
+            "note": "补Z Day历史持有人KingsGroup Holdings开曼法人；不证明FunPlus持股比例。"
           }
         ],
         "gaps": [
@@ -285,6 +311,20 @@
               "url": "https://campus.funplus.com.cn/about/"
             },
             "note": "补早期Family Farm与Family Farm Seaside，当前Century产品页交叉核对；历史主体不等于当前集团归属。"
+          },
+          {
+            "source": {
+              "title": "长江证券2016-10-01重组核查意见：点点分工、产品及跨年收入",
+              "url": "https://disc.static.szse.cn/disc/disk01/finalpage/2016-10-01/0ba4da5e-8bae-4244-98fd-b9a85ff66f45.PDF"
+            },
+            "note": "正文已读：点点开曼/北京职责、四款自研社交游戏与2014—2016H1收入范围，不等同当前集团营收。"
+          },
+          {
+            "source": {
+              "title": "USPTO公开2019诉讼材料及商标记录：Z DAY HEARTS OF HEROES与KingsGroup Holdings",
+              "url": "https://ttabvue.uspto.gov/ttabvue/ttabvue-92072041-CAN-1.pdf"
+            },
+            "note": "补Z Day历史持有人KingsGroup Holdings开曼法人；不证明FunPlus持股比例。"
           }
         ],
         "gaps": [
@@ -571,6 +611,13 @@
               "url": "https://sensortower.com/blog/guns-of-glory-revenue"
             },
             "note": "取得首年累计全球玩家支出估算2.15亿美元；原文附修订，月度值2700万，不沿用旧转载5400万。累计/单月不塞年度财务表。"
+          },
+          {
+            "source": {
+              "title": "长江证券2016-10-01重组核查意见：点点分工、产品及跨年收入",
+              "url": "https://disc.static.szse.cn/disc/disk01/finalpage/2016-10-01/0ba4da5e-8bae-4244-98fd-b9a85ff66f45.PDF"
+            },
+            "note": "正文已读：点点开曼/北京职责、四款自研社交游戏与2014—2016H1收入范围，不等同当前集团营收。"
           }
         ],
         "gaps": [
@@ -694,3 +741,17 @@ FunPlus 2014-08-19新闻稿宣布拟向中技控股出售DianDian，金额最高
 ## 历史商业数据：先看原始修订（2026-10-13）
 
 Sensor Tower 2018年9月原文估算Guns of Glory上线首年全球玩家支出超过2.15亿美元，原文修订后的8月单月值约2700万美元。早期媒体转载仍写5400万美元，不沿用。均为第三方商店估算，不是FunPlus审计营收，也不能当自然年收入；首年累计值单独说明。原始出处：https://sensortower.com/blog/guns-of-glory-revenue 。
+
+
+## 早期点点分工与跨年收入（核查2026-10-13）
+
+长江证券2016重组核查意见明确：当时点点开曼承担立项决策、创意设计、运营策略与发行推广，北京承担技术实施、美工和客服支持。这是历史工作分工，不推定当前组织结构或项目成员身份。
+
+2014年至2016年6月，文件披露点点主营业务收入合计19,659.03万美元（约1.9659亿美元）；Family Farm、Family Farm Seaside、Happy Acres、Royal Story四款自研游戏合计16,090.93万美元（约1.6091亿美元），占81.85%。这是跨年、特定资产范围的收入，不是单年营收、集团合并收入或玩家充值流水。文件核查时还区分联营平台结算与充值金额，不能混用。
+
+补入Royal Story及Happy Acres历史目录。皇家故事官网2012-12与交易文件2013年初全球发布存在日期口径差异；Family Farm也有VZ2010与交易文件德法2011的差异，分别保留，继续查地区/平台阶段。
+
+[原始重组核查意见](https://disc.static.szse.cn/disc/disk01/finalpage/2016-10-01/0ba4da5e-8bae-4244-98fd-b9a85ff66f45.PDF)。
+
+
+补录历史SLG Z Day：Apple美国iOS记录2018-08-07。公开USPTO材料补KingsGroup Holdings历史持有人身份，首次商业使用2018-06-26与平台发行日分开；不据商标推股权或制作人。核查2026-10-13。
