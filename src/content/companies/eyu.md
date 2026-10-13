@@ -10,7 +10,7 @@
   "headquarters": "上海（官网登记地址）",
   "kind": "independent",
   "status": "active",
-  "tagline": "以三消与SLG融合形成产品线，易游工作室研发《Puzzles & Survival》等作品",
+  "tagline": "跨SLG、RPG/MMORPG与休闲游戏研发，代表作包括《Puzzles & Survival》《凡人修仙传：人界篇》",
   "website": "https://www.eyugame.com/",
   "sources": [
     {
@@ -64,6 +64,10 @@
     {
       "title": "易娱2024-01-25官方动态：Puzzles累计流水超百亿元",
       "url": "https://www.eyugame.com/yiyudongtai/202"
+    },
+    {
+      "title": "2023-05-31游戏日报报道（金羊网转载）：陈夏璘制作凡人修仙传人界篇",
+      "url": "https://news.ycwb.com/2023-05/31/content_51981062.htm"
     }
   ],
   "verified": true,
@@ -109,7 +113,7 @@
       {
         "area": "catalog",
         "status": "partial",
-        "scope": "官网六款SLG及国内谜题大陆均已建iOS记录；MMORPG/音乐留在背景，不混入SLG",
+        "scope": "已建SLG系列及凡人修仙传人界篇RPG档案；公司目录跨品类，分卷仅筛选对应作品",
         "checkedAt": "2026-10-12",
         "examined": [
           {
@@ -407,7 +411,7 @@
 
 官网记载2015年进入全球SLG研发，2019年推出《Puzzles & Conquest》。易游工作室始于2011年，官网明确将《Puzzles & Survival》与《Ant Legion》列为其自研作品。工作室署名先进入产品团队证据，不虚构实名制作人。
 
-当前官方目录还包括《Last Asylum: Plague》《Puzzles & Chaos》《Primal Conquest: Dino Era》《Ant Legion》；本轮六款SLG均已建立美国iOS版本记录，其他地区与平台版本继续补查。非SLG作品保留在公司历史，未混入本卷产品时间线。
+当前官方目录还包括《Last Asylum: Plague》《Puzzles & Chaos》《Primal Conquest: Dino Era》《Ant Legion》；本轮六款SLG均已建立美国iOS版本记录，其他地区与平台版本继续补查。公司档案同时收录RPG作品《凡人修仙传：人界篇》及其项目人才；SLG卷按作品筛选，不给公司及所有员工贴单一品类标签。
 
 ## 商业观察
 
@@ -437,10 +441,15 @@ Last Asylum在Sensor Tower原始2026年3月报告中列全球手游收入增长�
 
 ## 工作室与公开职业资料
 
-易游工作室与Puzzles & Survival、Ant Legion的关联已有官网证据；龙魂工作室2019年成立、深耕SLG，但具体产品仍待查。火凤凰工作室2020年成立、方向为MMORPG，不能凭陈夏璘加入易娱就认定他制作过上述SLG。
+易游工作室与Puzzles & Survival、Ant Legion的关联已有官网证据；龙魂工作室2019年成立、深耕SLG，但具体产品仍待查。火凤凰工作室2020年成立、方向为MMORPG；陈夏璘对应《凡人修仙传：人界篇》RPG项目制作人，按具体项目展示。
 
 2014年大会公告公开称陈浩熙为创始人及总经理；2020年陈夏璘本人访谈确认加入易娱并组建火凤凰。本轮仅录历史职业观察，两人的2026年职务未确认。SLG项目实名主策、美术和人员流动未找到可核实证据，清单明确保留继续检索方向。
 
 本轮关键证据：[2020年股权投资表](https://money.finance.sina.com.cn/corp/view/vCB_AllBulletinDetail.php?id=7195648&stockid=002555)、[2025年报累计流水](https://disc.static.szse.cn/disc/disk03/finalpage/2026-04-17/4e62244e-21da-48c9-ae81-c7222b81a25e.PDF)、[日本市场估算](https://sensortower.com/ja/blog/puzzles-and-survival-2022-in-japan)、[陈夏璘本人访谈](https://www.gameres.com/873813.html)。
 
 更早的累计节点：[2024年1月25日官方文章](https://www.eyugame.com/yiyudongtai/202)已称Puzzles & Survival累计流水超过百亿元。时间线采用披露日，实际突破日期尚未说明。
+
+
+## RPG项目与公司全貌
+
+核查2026-10-13。易娱官网将《凡人修仙传：人界篇》列为3DMMORPG；官方公测FAQ记载2023年5月24日开放公测。2023年5月31日游戏日报报道（金羊网转载）明确陈夏璘为本作制作人。该作品与人员关系进入公司完整档案和项目人才地图，不归入现有SLG、女性向或休闲卷。公司出现在哪一卷，由相应作品决定；人员专业方向由项目与岗位决定。

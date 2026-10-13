@@ -1,6 +1,6 @@
 {
   "name": "陈夏璘",
-  "bio": "2020年本人访谈确认离开三七后加入易娱并组建火凤凰工作室，方向为RPG。未据此将其挂到Puzzles或Last Asylum项目；近年回归三七的报道仍待原始公开记录核实。",
+  "bio": "RPG/MMORPG制作人，2020年加入易娱并组建火凤凰工作室；2023年报道明确其制作《凡人修仙传：人界篇》。职业与项目关系按对应作品记录。",
   "sources": [
     {
       "title": "2020-09-07陈夏璘本人访谈：加入易娱与组建火凤凰",
@@ -9,6 +9,10 @@
     {
       "title": "易娱官网：历程与工作室，核查2026-10-12",
       "url": "https://www.eyugame.com/p/about"
+    },
+    {
+      "title": "2023-05-31游戏日报报道（金羊网转载）：陈夏璘制作凡人修仙传人界篇",
+      "url": "https://news.ycwb.com/2023-05/31/content_51981062.htm"
     }
   ],
   "verified": true,
@@ -33,7 +37,32 @@
           "url": "https://www.eyugame.com/p/about"
         }
       ],
-      "note": "时间是公开资料观察日期，不代表实际入职起点；本轮未确认现在仍在任或具体离任日。"
+      "note": "时间是公开资料观察日期，不代表实际入职起点；本轮未确认现在仍在任或具体离任日。",
+      "specialties": [
+        "rpg"
+      ]
+    },
+    {
+      "company": "eyu",
+      "scope": "product",
+      "products": [
+        "fanren-renjiepian"
+      ],
+      "title": "producer",
+      "from": "2023-05-31",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        {
+          "title": "2023-05-31游戏日报报道（金羊网转载）：陈夏璘制作凡人修仙传人界篇",
+          "url": "https://news.ycwb.com/2023-05/31/content_51981062.htm"
+        }
+      ],
+      "note": "2023年具名报道确认项目制作人；日期为报道观察日期。",
+      "specialties": [
+        "rpg"
+      ]
     }
   ]
 }

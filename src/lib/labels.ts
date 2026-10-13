@@ -24,6 +24,7 @@ export const genreLabel: Record<Product['genre'], string> = {
   dressup: '换装',
   interactive: '互动叙事',
   strategy: 'SLG策略',
+  rpg: 'RPG角色扮演',
   other: '其他',
 };
 

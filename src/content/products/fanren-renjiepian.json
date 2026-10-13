@@ -1,0 +1,43 @@
+{
+  "name": "凡人修仙传：人界篇",
+  "chronicles": [],
+  "genre": "rpg",
+  "developer": "eyu",
+  "publisher": "三七互娱",
+  "released": "2023-05-24",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "status": "unknown",
+  "versionLabel": "中国大陆公测版本 · MMORPG",
+  "significance": "正版IP授权的3D国风修仙MMORPG；易娱跨品类研发代表作。",
+  "sources": [
+    {
+      "title": "易娱官方目录：凡人修仙传人界篇为3DMMORPG",
+      "url": "https://www.eyugame.com/product"
+    },
+    {
+      "title": "产品官方首发FAQ：2023-05-24全平台公测",
+      "url": "https://www.taptap.cn/moment/410051004562673522"
+    },
+    {
+      "title": "2023-05-31游戏日报报道（金羊网转载）：陈夏璘制作凡人修仙传人界篇",
+      "url": "https://news.ycwb.com/2023-05/31/content_51981062.htm"
+    }
+  ],
+  "verified": true,
+  "teamEvidence": [
+    {
+      "observedAt": "2023-05-31",
+      "kind": "reported",
+      "summary": "游戏日报报道明确称陈夏璘为本作制作人，项目按RPG/MMORPG归档。",
+      "sources": [
+        {
+          "title": "2023-05-31游戏日报报道（金羊网转载）：陈夏璘制作凡人修仙传人界篇",
+          "url": "https://news.ycwb.com/2023-05/31/content_51981062.htm"
+        }
+      ]
+    }
+  ]
+}

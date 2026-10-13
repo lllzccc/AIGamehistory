@@ -14,7 +14,7 @@ export function selectChronicle(ds: Dataset, id: ChronicleId): Dataset {
   const companies = ds.companies.filter(c => companyIds.has(c.id));
   const people = ds.people.map(p => ({
     ...p,
-    roles: p.roles.filter(r => companyIds.has(r.company) && (r.scope === 'company' || r.products.some(id => productIds.has(id))))
+    roles: p.roles.filter(r => companyIds.has(r.company) && ((r.scope === 'company' && (!r.specialties?.length || products.some(p => (p.developer === r.company || p.publisher === r.company) && r.specialties!.includes(p.genre)))) || (r.scope === 'product' && r.products.some(id => productIds.has(id)))))
       .map(r => ({ ...r, products: r.products.filter(id => productIds.has(id)) })),
   })).filter(p => p.roles.length > 0);
   const events = ds.events.filter(e => e.companies.some(id => companyIds.has(id)) && (!e.products.length || e.products.some(id => productIds.has(id))))
