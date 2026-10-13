@@ -1,0 +1,38 @@
+{
+  "name": "彭杰",
+  "aliases": [],
+  "bio": "主办方履历确认其曾在趣加任策划主管，负责伊莫大世界生态，后创业游心雕龙。按RPG项目历史成员归档，不提升为全项目主策。",
+  "roles": [
+    {
+      "company": "funplus",
+      "scope": "product",
+      "products": [
+        "aniimo",
+        "aniimo-mobile"
+      ],
+      "title": "core-designer",
+      "titleNote": "策划主管／大世界生态负责人",
+      "from": "2025-07-25",
+      "status": "departed",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        {
+          "title": "AICon主办方2025-07-25履历：彭杰曾负责伊莫生态",
+          "url": "https://www.infoq.cn/article/uphzggkmqgv5hbpoq8wb"
+        }
+      ],
+      "note": "日期为公开资料观察日，不等同入职日；未公开实际任期。",
+      "specialties": [
+        "rpg"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "AICon主办方2025-07-25履历：彭杰曾负责伊莫生态",
+      "url": "https://www.infoq.cn/article/uphzggkmqgv5hbpoq8wb"
+    }
+  ],
+  "verified": true
+}

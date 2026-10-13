@@ -28,6 +28,19 @@
           "url": "https://funplus.com/games/state-of-survival/"
         }
       ]
+    },
+    {
+      "note": "日本本地化移动版2021-08-26上线已另建档。官方2022-09-07稿宣布全球PC版上线，当时仅支持全球服账号，日本、台湾、韩国、越南版本账号未支持跨端；核查2026-10-13。",
+      "sources": [
+        {
+          "title": "发行商2022-09-07公告：日本首发及全球PC版",
+          "url": "https://prtimes.jp/main/html/rd/p/000000006.000083654.html"
+        },
+        {
+          "title": "游戏新知公众号原文2021-10-25：SOS日本本地化",
+          "url": "https://mp.weixin.qq.com/s/o2BLYy1WIphUWjlky8W5Ww"
+        }
+      ]
     }
   ],
   "sources": [
@@ -42,6 +55,14 @@
     {
       "title": "FunPlus官方产品页与宣传图",
       "url": "https://funplus.com/games/state-of-survival/"
+    },
+    {
+      "title": "发行商2022-09-07公告：日本首发及全球PC版",
+      "url": "https://prtimes.jp/main/html/rd/p/000000006.000083654.html"
+    },
+    {
+      "title": "游戏新知公众号原文2021-10-25：SOS日本本地化",
+      "url": "https://mp.weixin.qq.com/s/o2BLYy1WIphUWjlky8W5Ww"
     }
   ],
   "verified": true,

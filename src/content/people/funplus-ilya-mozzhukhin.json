@@ -1,0 +1,32 @@
+{
+  "name": "Ilya Mozzhukhin",
+  "aliases": [],
+  "bio": "官方访谈自述为里斯本Studio Ellipsis动画总监，负责动画流程和团队；具体游戏署名不明。",
+  "roles": [
+    {
+      "company": "funplus",
+      "scope": "company",
+      "products": [],
+      "title": "other",
+      "titleNote": "动画总监（Studio Ellipsis，里斯本）",
+      "from": "2026-10-13",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        {
+          "title": "FunPlus官方：Ilya Mozzhukhin任Ellipsis动画总监",
+          "url": "https://funplus.com/people/funpeople-ilya-mozzhukhin-animation-director/"
+        }
+      ],
+      "note": "日期为公开资料观察日，不等同入职日；未公开实际任期。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "FunPlus官方：Ilya Mozzhukhin任Ellipsis动画总监",
+      "url": "https://funplus.com/people/funpeople-ilya-mozzhukhin-animation-director/"
+    }
+  ],
+  "verified": true
+}

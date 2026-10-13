@@ -1,0 +1,40 @@
+{
+  "name": "Chris Petrovic",
+  "aliases": [],
+  "bio": "FunPlus官方领导页和2026半年访谈列首席商务官；属于集团商务角色。",
+  "roles": [
+    {
+      "company": "funplus",
+      "scope": "company",
+      "products": [],
+      "title": "other",
+      "titleNote": "首席商务官（CBO）",
+      "from": "2026-10-13",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        {
+          "title": "FunPlus官方领导页：Chris Petrovic首席商务官",
+          "url": "https://funplus.com/funplus-leadership-team/"
+        },
+        {
+          "title": "FunPlus官方2026半年回顾：Tiles收入占比",
+          "url": "https://funplus.com/info/six-months-in-2026-with-funplus-cbo/"
+        }
+      ],
+      "note": "日期为公开资料观察日，不等同入职日；未公开实际任期。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "FunPlus官方领导页：Chris Petrovic首席商务官",
+      "url": "https://funplus.com/funplus-leadership-team/"
+    },
+    {
+      "title": "FunPlus官方2026半年回顾：Tiles收入占比",
+      "url": "https://funplus.com/info/six-months-in-2026-with-funplus-cbo/"
+    }
+  ],
+  "verified": true
+}

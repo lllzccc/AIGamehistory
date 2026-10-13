@@ -24,6 +24,10 @@
     {
       "title": "Apple美国iOS发行记录与卖方，核查2026-10-12",
       "url": "https://itunes.apple.com/lookup?id=6738109752&country=us"
+    },
+    {
+      "title": "FunPlus官方2026半年回顾：Tiles收入占比",
+      "url": "https://funplus.com/info/six-months-in-2026-with-funplus-cbo/"
     }
   ],
   "verified": true,
@@ -57,6 +61,15 @@
         {
           "title": "Apple美国iOS发行记录与卖方，核查2026-10-12",
           "url": "https://itunes.apple.com/lookup?id=6738109752&country=us"
+        }
+      ]
+    },
+    {
+      "note": "官方2026上半年回顾称本作约占公司每日收入三分之一，是当时最高收入产品。核查2026-10-13；绝对金额、平台范围与净收入/流水口径未给出，不推算年营收。",
+      "sources": [
+        {
+          "title": "FunPlus官方2026半年回顾：Tiles收入占比",
+          "url": "https://funplus.com/info/six-months-in-2026-with-funplus-cbo/"
         }
       ]
     }

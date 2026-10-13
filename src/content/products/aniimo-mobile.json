@@ -1,0 +1,79 @@
+{
+  "name": "伊莫（Aniimo）移动版",
+  "aliases": [
+    "Aniimo",
+    "伊莫"
+  ],
+  "chronicles": [],
+  "genre": "rpg",
+  "developer": "funplus",
+  "publisher": "Pawprint Studio（FunPlus支持的研发与发行品牌）",
+  "released": "2026-09-23",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "status": "live",
+  "versionLabel": "官方移动端版本",
+  "significance": "爪印工作室研发发行的开放世界捉宠RPG，以联结、探索与合作为特色；按FunPlus品牌聚合，不等同集团直接研发。",
+  "cover": "/images/aniimo-official.webp",
+  "keyArt": "/images/aniimo-official.webp",
+  "sources": [
+    {
+      "title": "FunPlus官方伊莫目录：爪印研发与发行、移动端2026-09-23上线",
+      "url": "https://funplus.com/games/aniimo/"
+    },
+    {
+      "title": "FunPlus官方：伊莫移动端上线及跨平台互通",
+      "url": "https://funplus.com/aniimo-launches-on-mobile-for-ios-and-android/"
+    },
+    {
+      "title": "AICon主办方2025-07-25履历：彭杰曾负责伊莫大世界生态",
+      "url": "https://www.infoq.cn/article/uphzggkmqgv5hbpoq8wb"
+    }
+  ],
+  "verified": true,
+  "lifecycleNotes": [
+    {
+      "note": "核查2026-10-13。官方PC/主机公告日期2026-09-16，Steam商店显示2026-09-15，分别保留范围不强行统一；移动端官方目录确认2026-09-23上线。公告未证明各地同步到秒。",
+      "sources": [
+        {
+          "title": "FunPlus官方：伊莫2026-09-16 PC及主机上线",
+          "url": "https://funplus.com/aniimo-is-available-now/"
+        },
+        {
+          "title": "FunPlus官方伊莫目录：爪印研发与发行、移动端2026-09-23上线",
+          "url": "https://funplus.com/games/aniimo/"
+        },
+        {
+          "title": "Steam官方：伊莫研发发行Pawprint Studio，商店日期2026-09-15",
+          "url": "https://store.steampowered.com/app/4126040/Aniimo/"
+        }
+      ]
+    }
+  ],
+  "teamEvidence": [
+    {
+      "observedAt": "2026-10-13",
+      "kind": "official",
+      "summary": "官方列Pawprint Studio为FunPlus支持的研发工作室与发行品牌，未披露控股比例。",
+      "sources": [
+        {
+          "title": "FunPlus官方伊莫目录：爪印研发与发行、移动端2026-09-23上线",
+          "url": "https://funplus.com/games/aniimo/"
+        }
+      ]
+    },
+    {
+      "observedAt": "2025-07-25",
+      "kind": "reported",
+      "summary": "AICon主办方履历列彭杰为曾负责本作大世界生态的策划主管，已离开趣加创业；实际入离职日期待查。",
+      "sources": [
+        {
+          "title": "AICon主办方2025-07-25履历：彭杰曾负责伊莫大世界生态",
+          "url": "https://www.infoq.cn/article/uphzggkmqgv5hbpoq8wb"
+        }
+      ]
+    }
+  ]
+}

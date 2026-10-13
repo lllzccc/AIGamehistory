@@ -1,0 +1,49 @@
+{
+  "name": "State of Survival（日本本地化版）",
+  "aliases": [
+    "ステート・オブ・サバイバル",
+    "ステサバ"
+  ],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "funplus",
+  "publisher": "FunPlus International AG",
+  "released": "2021-08-26",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "status": "unknown",
+  "versionLabel": "日本本地化移动版本",
+  "significance": "日本本地化版本，加入日本角色、声优与活动；与国际版区域停运分别记录。",
+  "sources": [
+    {
+      "title": "发行商2022-09-07公告：日本首发及全球PC版",
+      "url": "https://prtimes.jp/main/html/rd/p/000000006.000083654.html"
+    },
+    {
+      "title": "游戏新知公众号原文2021-10-25：SOS日本本地化",
+      "url": "https://mp.weixin.qq.com/s/o2BLYy1WIphUWjlky8W5Ww"
+    }
+  ],
+  "verified": true,
+  "lifecycleNotes": [
+    {
+      "note": "核查2026-10-13。官方确认日本2021-08-26上线；公众号所述国际版2021年6月下旬在日本停运为区域版本停运，具体日未给出。当前日版状态待核实。",
+      "sources": [
+        {
+          "title": "发行商2022-09-07公告：日本首发及全球PC版",
+          "url": "https://prtimes.jp/main/html/rd/p/000000006.000083654.html"
+        },
+        {
+          "title": "游戏新知公众号原文2021-10-25：SOS日本本地化",
+          "url": "https://mp.weixin.qq.com/s/o2BLYy1WIphUWjlky8W5Ww"
+        }
+      ]
+    }
+  ],
+  "cover": "/images/slg/state-of-survival.jpg",
+  "keyArt": "/images/slg/state-of-survival.jpg"
+}
