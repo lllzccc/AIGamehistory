@@ -1,0 +1,15 @@
+---
+import Base from '../layouts/Base.astro';
+import MappingProgress from '../components/MappingProgress';
+import {loadDataset} from '../lib/load';
+import {buildMappingRows} from '../lib/mappingProgress';
+import type {MappingRoster} from '../lib/mappingProgress';
+import plan from '../data/mapping-plan.json';
+const ds=await loadDataset();
+const files=import.meta.glob('../content/company-roster/*.json',{eager:true,import:'default'});
+const rosters=Object.fromEntries(Object.entries(files).map(([path,rows])=>[path.split('/').at(-1)!.replace('.json',''),rows])) as Record<string,MappingRoster[]>;
+const rows=buildMappingRows(ds,rosters,plan);
+---
+<Base title="公司 Mapping · 计划与进度" description="各卷公司研究范围、证据缺口与可调整的研究顺序">
+ <MappingProgress rows={rows} plan={plan} client:load />
+</Base>
