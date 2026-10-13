@@ -1,0 +1,127 @@
+{
+  "name": "Project Entropy",
+  "aliases": [],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "funplus",
+  "publisher": "FunPlus International AG",
+  "released": "2024-04-16",
+  "platforms": [
+    "Windows"
+  ],
+  "status": "live",
+  "versionLabel": "Steam Windows版本",
+  "significance": "科幻4X策略与英雄舰队养成结合，包含地图领土争夺、实时联盟战和赛季内容；内部实际研发工作室与核心岗位实名仍待查。",
+  "cover": "/images/slg/project-entropy-official.jpg",
+  "keyArt": "/images/slg/project-entropy-official.jpg",
+  "sources": [
+    {
+      "title": "Project Entropy官方Steam商店：2024-04-16 Windows发行、研发发行署名",
+      "url": "https://store.steampowered.com/app/2806410/Project_Entropy/"
+    },
+    {
+      "title": "Google Play官方Project Entropy：com.entropy.global与FunPlus International AG",
+      "url": "https://play.google.com/store/apps/details?id=com.entropy.global&hl=en&gl=US"
+    },
+    {
+      "title": "Project Entropy官方历史站：2022-12版本公告与FunPlus版权",
+      "url": "https://entropy-store-release.kingsgroup.cn/"
+    }
+  ],
+  "verified": true,
+  "gameplay": {
+    "core": "other",
+    "fusion": [],
+    "basis": "editorial",
+    "checkedAt": "2026-10-14",
+    "note": "按官方地图征服、联盟实时战及赛季内容描述归科幻4X；未核对自由行军与赛季重置机制，暂不强归COK/ROK。",
+    "sources": [
+      {
+        "title": "Google Play官方Project Entropy：com.entropy.global与FunPlus International AG",
+        "url": "https://play.google.com/store/apps/details?id=com.entropy.global&hl=en&gl=US"
+      },
+      {
+        "title": "Project Entropy官方Steam商店：2024-04-16 Windows发行、研发发行署名",
+        "url": "https://store.steampowered.com/app/2806410/Project_Entropy/"
+      }
+    ]
+  },
+  "lifecycleNotes": [
+    {
+      "note": "核查2026-10-14。美国iOS商店记录2023-12-06，Steam Windows记录2024-04-16；分别建档，不作为全球最早首发。官方历史站已有2022-12版本公告，仅证明此前公开版本更新。Android现行包名com.entropy.global及2026-09-24更新可读，Android准确首发仍未知。",
+      "sources": [
+        {
+          "title": "Apple美国Project Entropy原始发行记录及卖方，核查2026-10-14",
+          "url": "https://itunes.apple.com/lookup?id=6443792064&country=us"
+        },
+        {
+          "title": "Project Entropy官方Steam商店：2024-04-16 Windows发行、研发发行署名",
+          "url": "https://store.steampowered.com/app/2806410/Project_Entropy/"
+        },
+        {
+          "title": "Google Play官方Project Entropy：com.entropy.global与FunPlus International AG",
+          "url": "https://play.google.com/store/apps/details?id=com.entropy.global&hl=en&gl=US"
+        },
+        {
+          "title": "Project Entropy官方历史站：2022-12版本公告与FunPlus版权",
+          "url": "https://entropy-store-release.kingsgroup.cn/"
+        }
+      ]
+    },
+    {
+      "note": "2022公众号出现Entropy 2099测试名称；其与当前Project Entropy的正式更名/包体沿革仍待官方说明，暂不据名称相近自动合并。",
+      "sources": [
+        {
+          "title": "游戏葡萄2022-08-17原文：Entropy 2099测试名称（正文已读）",
+          "url": "https://mp.weixin.qq.com/s/IoE7vSagYepGBYFTMesgaQ"
+        },
+        {
+          "title": "Project Entropy官方历史站：2022-12版本公告与FunPlus版权",
+          "url": "https://entropy-store-release.kingsgroup.cn/"
+        }
+      ]
+    }
+  ],
+  "teamEvidence": [
+    {
+      "observedAt": "2026-10-14",
+      "kind": "official",
+      "summary": "Steam同时列FunPlus International AG为开发商与发行商；官网版权和移动商店卖方一致。产品按FunPlus品牌归档，未据商店账户确定内部工作室或项目负责人。",
+      "sources": [
+        {
+          "title": "Project Entropy官方Steam商店：2024-04-16 Windows发行、研发发行署名",
+          "url": "https://store.steampowered.com/app/2806410/Project_Entropy/"
+        },
+        {
+          "title": "Apple美国Project Entropy原始发行记录及卖方，核查2026-10-14",
+          "url": "https://itunes.apple.com/lookup?id=6443792064&country=us"
+        },
+        {
+          "title": "Project Entropy官方历史站：2022-12版本公告与FunPlus版权",
+          "url": "https://entropy-store-release.kingsgroup.cn/"
+        }
+      ]
+    }
+  ],
+  "personnelResearch": {
+    "status": "searched-unconfirmed",
+    "checkedAt": "2026-10-14",
+    "note": "查官方站、商店、公众号历史测试报道及产品/团队关键词，未找到能确认的制作人、主策或主美实名。",
+    "sources": [
+      {
+        "title": "Project Entropy官方历史站：2022-12版本公告与FunPlus版权",
+        "url": "https://entropy-store-release.kingsgroup.cn/"
+      },
+      {
+        "title": "Project Entropy官方Steam商店：2024-04-16 Windows发行、研发发行署名",
+        "url": "https://store.steampowered.com/app/2806410/Project_Entropy/"
+      },
+      {
+        "title": "游戏葡萄2022-08-17原文：Entropy 2099测试名称（正文已读）",
+        "url": "https://mp.weixin.qq.com/s/IoE7vSagYepGBYFTMesgaQ"
+      }
+    ]
+  }
+}

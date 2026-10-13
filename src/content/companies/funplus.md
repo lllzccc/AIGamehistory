@@ -159,6 +159,22 @@
     {
       "title": "Xterio官方白皮书团队：Michael Tong为CEO、前FunPlus CSO",
       "url": "https://docs.xter.io/team/team-members"
+    },
+    {
+      "title": "Apple美国Project Entropy原始发行记录及卖方，核查2026-10-14",
+      "url": "https://itunes.apple.com/lookup?id=6443792064&country=us"
+    },
+    {
+      "title": "Project Entropy官方Steam商店：2024-04-16 Windows发行、研发发行署名",
+      "url": "https://store.steampowered.com/app/2806410/Project_Entropy/"
+    },
+    {
+      "title": "Google Play官方Project Entropy：com.entropy.global与FunPlus International AG",
+      "url": "https://play.google.com/store/apps/details?id=com.entropy.global&hl=en&gl=US"
+    },
+    {
+      "title": "Project Entropy官方历史站：2022-12版本公告与FunPlus版权",
+      "url": "https://entropy-store-release.kingsgroup.cn/"
     }
   ],
   "website": "https://funplus.com/about-funplus/",
@@ -348,6 +364,13 @@
               "url": "https://mp.weixin.qq.com/s/IoE7vSagYepGBYFTMesgaQ"
             },
             "note": "原文完整读取，补历史测试名称待核目录；开发者账户不是实际自研工作室证明，变体包不作独立成功产品。"
+          },
+          {
+            "source": {
+              "title": "Project Entropy官方Steam商店：2024-04-16 Windows发行、研发发行署名",
+              "url": "https://store.steampowered.com/app/2806410/Project_Entropy/"
+            },
+            "note": "补Project Entropy美国iOS、Steam Windows两平台；内部工作室及Entropy 2099沿革待核。"
           }
         ],
         "gaps": [
@@ -374,7 +397,7 @@
         "area": "lifecycle",
         "status": "partial",
         "scope": "伊莫两阶段、SOS日本移动版与全球PC版、Foundation二赛季；续补Call of Antia三消RPG、归龙潮ARPG、Tiles具名制作人与海外工作室历史任命",
-        "checkedAt": "2026-10-13",
+        "checkedAt": "2026-10-14",
         "examined": [
           {
             "source": {
@@ -445,6 +468,13 @@
               "url": "https://funplus.com/king-of-avalon-adds-pc-to-roster-of-gaming-platforms/"
             },
             "note": "PC首发月份与独立公告页面日期不一致，不强制统一。"
+          },
+          {
+            "source": {
+              "title": "Project Entropy官方Steam商店：2024-04-16 Windows发行、研发发行署名",
+              "url": "https://store.steampowered.com/app/2806410/Project_Entropy/"
+            },
+            "note": "移动商店2023-12-06、Steam2024-04-16、2022-12历史版本公告分别记录。"
           }
         ],
         "gaps": [
@@ -615,6 +645,13 @@
               "url": "https://mp.weixin.qq.com/s/IxUCBQ84w0QR2sT8M4vDHg"
             },
             "note": "原文完整读取，报道董瑞豹已离职；与任命公告/Xterio官方former交叉，不造离任日期。"
+          },
+          {
+            "source": {
+              "title": "Project Entropy官方Steam商店：2024-04-16 Windows发行、研发发行署名",
+              "url": "https://store.steampowered.com/app/2806410/Project_Entropy/"
+            },
+            "note": "Steam具名开发发行法人可核，未找到Project Entropy制作人/主策/主美实名。"
           }
         ],
         "gaps": [
@@ -865,3 +902,8 @@ Sensor Tower 2018年9月原文估算Guns of Glory上线首年全球玩家支出�
 [游戏葡萄原文](https://mp.weixin.qq.com/s/IoE7vSagYepGBYFTMesgaQ)完整正文已读取。
 
 董瑞豹（Michael Tong）的2021首席战略官任命由FunPlus发布公告确认；游戏葡萄2024-12-23原文报道其已离职，Xterio官方白皮书亦列其为CEO及前FunPlus CSO。只确认历史职务与已离任，准确离任日仍未知；趣加互娱CEO不等同集团CEO，亦不推定任何游戏制作人职责。
+
+
+## Project Entropy：分平台记录（核查2026-10-14）
+
+补科幻4X策略《Project Entropy》的美国iOS（2023-12-06）与Steam Windows（2024-04-16）版本。Steam将FunPlus International AG列为开发商和发行商。Android现行商店、官方历史站的2022-12更新公告也已读取；这些证据不等同全球正式首发，Android首发日仍待查。内部具体研发工作室、主策/主美及与Entropy 2099测试名称的正式沿革未确认，保留缺口。
