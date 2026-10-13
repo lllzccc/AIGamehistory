@@ -80,6 +80,14 @@
     {
       "title": "Sensor Tower原始2018-11报告：Dream Piano Tiles 2018 iOS发行月份",
       "url": "https://sensortower.com/blog/october-2018-most-downloaded-chinese-games-outside-china-cn"
+    },
+    {
+      "title": "国家新闻出版署2014-09-30：天天爱西游出版/运营为上海易娱",
+      "url": "https://www.nppa.gov.cn/bsfw/jggs/yxspjg/gcwlyxspxx/201409/t20140930_4838.html"
+    },
+    {
+      "title": "GameRes2013-12-06历史公测稿：11月21日App Store、金山iOS独代",
+      "url": "https://www.gameres.com/236048.html"
     }
   ],
   "verified": true,
@@ -89,7 +97,7 @@
         "area": "history",
         "status": "partial",
         "scope": "品牌2010起点、工作室历史、2020投资10%与沪穗职能；不将历史股权当最新股权",
-        "checkedAt": "2026-10-12",
+        "checkedAt": "2026-10-14",
         "examined": [
           {
             "source": {
@@ -111,6 +119,13 @@
               "url": "https://37.com.cn/mtdl/index"
             },
             "note": "本轮检查本方向事实与统计范围；详情及保留缺口见正文/产品。"
+          },
+          {
+            "source": {
+              "title": "国家新闻出版署2014-09-30：天天爱西游出版/运营为上海易娱",
+              "url": "https://www.nppa.gov.cn/bsfw/jggs/yxspjg/gcwlyxspxx/201409/t20140930_4838.html"
+            },
+            "note": "国家出版署确认上海易娱历史出版/运营主体，金山网络是iOS代理职责。"
           }
         ],
         "gaps": [
@@ -155,6 +170,13 @@
               "url": "https://www.eyugame.com/p/about"
             },
             "note": "补Dream Piano与Tap Tap Music音乐休闲目录及千源工作室关联。"
+          },
+          {
+            "source": {
+              "title": "GameRes2013-12-06历史公测稿：11月21日App Store、金山iOS独代",
+              "url": "https://www.gameres.com/236048.html"
+            },
+            "note": "补天天爱西游历史iOS，卡牌品类不强归SLG/休闲。"
           }
         ],
         "gaps": [
@@ -213,6 +235,13 @@
               "url": "https://www.eyugame.com/p/about"
             },
             "note": "Dream Piano集团2017历史与美国iOS2018发行分开；Tap Tap Music美国iOS2018-11-28，现状未知。"
+          },
+          {
+            "source": {
+              "title": "GameRes2013-12-06历史公测稿：11月21日App Store、金山iOS独代",
+              "url": "https://www.gameres.com/236048.html"
+            },
+            "note": "2013-11-21上架、12月6日公测、2014-09-30审批分开；旧AppID查询0不推停服。"
           }
         ],
         "gaps": [
@@ -512,3 +541,8 @@ Last Asylum在Sensor Tower原始2026年3月报告中列全球手游收入增长�
 千源工作室2016年成立，官网将Dream Piano、Tap Tap Music列为代表作。补两款美国iOS记录：2018-08-25与2018-11-28，进入休闲卷及公司完整目录。Dream Piano官网2017全球历史与2018 iOS记录存在阶段差异，地区/包体沿革待查。商店可查不等同当前持续维护或服务器可用，状态保留未知；项目人员未具名，不将陈夏璘的凡人修仙职责投射到这两款作品。
 
 官网历史还列龙将（2011网页）、勇者之塔（2012网页）、天天爱西游（2013移动端），需继续查各平台首发、研发发行主体和停服。金麟工作室2021年7月成立，官网称其帝国与魔法于2023年9月上线；与国内代理/小游戏及海外名称的对应关系仍待核，不凭同名直接合并。
+
+
+## 天天爱西游：研发、代理与审批（核查2026-10-14）
+
+补2013-11-21中国iOS上架记录；历史推广稿另列12月6日公测。易娱官网确认自研；金山网络当时独代iOS，2014-09-30审批表的出版、运营单位则为上海易娱。职责与日期分开，不拿审批日当首发，不把代理关系当研发。历史AppID本次查询无记录，未取得全平台停服公告，状态未知。

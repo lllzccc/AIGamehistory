@@ -1,0 +1,71 @@
+{
+  "name": "天天爱西游",
+  "aliases": [],
+  "chronicles": [],
+  "genre": "other",
+  "developer": "eyu",
+  "publisher": "金山网络（历史iOS独家代理）",
+  "released": "2013-11-21",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "unknown",
+  "versionLabel": "历史中国iOS上架 · 卡牌手游",
+  "significance": "易娱早期自研西游卡牌手游，金山网络独代iOS；进入公司跨品类目录，内部团队与具体角色待查。",
+  "sources": [
+    {
+      "title": "易娱官网历程：2013首款自研移动产品天天爱西游，核查2026-10-14",
+      "url": "https://www.eyugame.com/p/about"
+    },
+    {
+      "title": "国家新闻出版署2014-09-30：天天爱西游出版/运营为上海易娱",
+      "url": "https://www.nppa.gov.cn/bsfw/jggs/yxspjg/gcwlyxspxx/201409/t20140930_4838.html"
+    },
+    {
+      "title": "GameRes2013-12-06历史公测稿：11月21日App Store、金山iOS独代",
+      "url": "https://www.gameres.com/236048.html"
+    }
+  ],
+  "verified": true,
+  "lifecycleNotes": [
+    {
+      "note": "核查2026-10-14。历史公测稿记载2013-11-21登陆App Store、12月6日公测；新闻出版署2014-09-30批准移动版，出版/运营单位均为上海易娱。审批时间不是首发日，监管运营单位与历史iOS发行代理也是不同职责。",
+      "sources": [
+        {
+          "title": "国家新闻出版署2014-09-30：天天爱西游出版/运营为上海易娱",
+          "url": "https://www.nppa.gov.cn/bsfw/jggs/yxspjg/gcwlyxspxx/201409/t20140930_4838.html"
+        },
+        {
+          "title": "GameRes2013-12-06历史公测稿：11月21日App Store、金山iOS独代",
+          "url": "https://www.gameres.com/236048.html"
+        }
+      ]
+    },
+    {
+      "note": "旧稿所链AppleID651952567本次中国查询返回0，不等同全部平台停服证明。当前运营状态、Android最早首发、具体研发工作室与具名制作人未确认。历史推广稿配图不作为当前官方素材。",
+      "sources": [
+        {
+          "title": "GameRes2013-12-06历史公测稿：11月21日App Store、金山iOS独代",
+          "url": "https://www.gameres.com/236048.html"
+        }
+      ]
+    }
+  ],
+  "personnelResearch": {
+    "status": "searched-unconfirmed",
+    "checkedAt": "2026-10-14",
+    "note": "官网与历史公测资料未列制作人/主策/主美实名；不因陈夏璘后来加入易娱就关联该2013项目。",
+    "sources": [
+      {
+        "title": "易娱官网历程：2013首款自研移动产品天天爱西游，核查2026-10-14",
+        "url": "https://www.eyugame.com/p/about"
+      },
+      {
+        "title": "GameRes2013-12-06历史公测稿：11月21日App Store、金山iOS独代",
+        "url": "https://www.gameres.com/236048.html"
+      }
+    ]
+  },
+  "cover": "/images/tiantian-xiyou-historical.jpg",
+  "keyArt": "/images/tiantian-xiyou-historical.jpg"
+}
