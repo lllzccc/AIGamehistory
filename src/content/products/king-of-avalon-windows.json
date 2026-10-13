@@ -1,0 +1,45 @@
+{
+  "name": "King of Avalon（Windows）",
+  "aliases": [],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "funplus",
+  "publisher": "funplus",
+  "released": "2023-03",
+  "platforms": [
+    "Windows"
+  ],
+  "status": "unknown",
+  "versionLabel": "官方历程的PC上线月份",
+  "significance": "亚瑟王题材城建与联盟战争，是FunPlus早期移动策略代表作。",
+  "sources": [
+    {
+      "title": "FunPlus官网PC公告：页面日期2023-05-22",
+      "url": "https://funplus.com/king-of-avalon-adds-pc-to-roster-of-gaming-platforms/"
+    },
+    {
+      "title": "FunPlus官方历程：PC上线列2023年3月",
+      "url": "https://funplus.com/about-funplus/"
+    }
+  ],
+  "lifecycleNotes": [
+    {
+      "note": "核查2026-10-13。官网历程将PC上线放在2023年3月；独立PC公告页面日期却为2023-05-22。分别保留上线月份和页面日期，未确认具体首发日、地区及当前可用性。",
+      "sources": [
+        {
+          "title": "FunPlus官网PC公告：页面日期2023-05-22",
+          "url": "https://funplus.com/king-of-avalon-adds-pc-to-roster-of-gaming-platforms/"
+        },
+        {
+          "title": "FunPlus官方历程：PC上线列2023年3月",
+          "url": "https://funplus.com/about-funplus/"
+        }
+      ]
+    }
+  ],
+  "verified": true,
+  "cover": "/images/slg/king-of-avalon.jpg",
+  "keyArt": "/images/slg/king-of-avalon.jpg"
+}

@@ -1,0 +1,23 @@
+{
+  "company": "funplus",
+  "method": "knowledge fetchPublicPage; read-only, no login or AI",
+  "results": [
+    {
+      "id": "liuyuning-2019",
+      "originalUrl": "https://mp.weixin.qq.com/s/PIahfyVX9Cmlhypin_90Ng",
+      "checkedAt": "2026-10-13T12:34:52.994Z",
+      "factVerification": "original-unavailable",
+      "readStatus": "deleted-no-article-body",
+      "title": "https://mp.weixin.qq.com/s/PIahfyVX9Cmlhypin_90Ng",
+      "accountName": "",
+      "byline": "",
+      "publishedAtRaw": null,
+      "publishedAt": null,
+      "publishedAtBasis": "not found",
+      "bodyCharacters": 97,
+      "contentSha256": "428406f64fa115b27687647f3f95634e6c4c700568dd82652cc5a6dc51fec207",
+      "finalUrl": "https://mp.weixin.qq.com/s/PIahfyVX9Cmlhypin_90Ng",
+      "reviewNote": "97字为发布者已删除状态页；不能视为原文。转载单独使用。"
+    }
+  ]
+}

@@ -95,6 +95,22 @@
     {
       "title": "游戏新知公众号：工作室关闭报道及归龙潮团队",
       "url": "https://mp.weixin.qq.com/s/cXIjMfI8M9rDTBX7uKC9Aw"
+    },
+    {
+      "title": "FunPlus官方2014-08-19：拟出售DianDian协议，仍待审批",
+      "url": "https://www.globenewswire.com/news-release/2014/08/19/899764/0/en/FunPlus-Group-Sells-Wholly-Owned-Gaming-Subsidiary.html"
+    },
+    {
+      "title": "中技控股2015-09-23上市公告：8月15日终止点点合作",
+      "url": "https://epaper.stcn.com/paper/zqsb/page/1/2015-09/23/B074/20150923B074_pdf.pdf"
+    },
+    {
+      "title": "触乐2018-06-27：KingsGroup COO刘宇宁具名长访谈",
+      "url": "https://www.chuapp.com/mobile/285487.html"
+    },
+    {
+      "title": "FunPlus官网PC公告：页面日期2023-05-22",
+      "url": "https://funplus.com/king-of-avalon-adds-pc-to-roster-of-gaming-platforms/"
     }
   ],
   "website": "https://funplus.com/about-funplus/",
@@ -134,6 +150,20 @@
               "url": "https://funplus.com/ourstudios/studio-ellipsis/"
             },
             "note": "本轮核对；范围与来源性质见正文及产品条目。"
+          },
+          {
+            "source": {
+              "title": "FunPlus官方2014-08-19：拟出售DianDian协议，仍待审批",
+              "url": "https://www.globenewswire.com/news-release/2014/08/19/899764/0/en/FunPlus-Group-Sells-Wholly-Owned-Gaming-Subsidiary.html"
+            },
+            "note": "2014协议待批，不是已交割。"
+          },
+          {
+            "source": {
+              "title": "中技控股2015-09-23上市公告：8月15日终止点点合作",
+              "url": "https://epaper.stcn.com/paper/zqsb/page/1/2015-09/23/B074/20150923B074_pdf.pdf"
+            },
+            "note": "原PDF正文成功读取，确认2015-08-15终止。"
           }
         ],
         "gaps": [
@@ -307,6 +337,13 @@
               "url": "https://mp.weixin.qq.com/s/cXIjMfI8M9rDTBX7uKC9Aw"
             },
             "note": "2026-10-13续查：原文已读；具名职责、地区发行及正式运营/陪伴服分别记录。"
+          },
+          {
+            "source": {
+              "title": "FunPlus官网PC公告：页面日期2023-05-22",
+              "url": "https://funplus.com/king-of-avalon-adds-pc-to-roster-of-gaming-platforms/"
+            },
+            "note": "PC首发月份与独立公告页面日期不一致，不强制统一。"
           }
         ],
         "gaps": [
@@ -435,6 +472,13 @@
               "url": "https://mp.weixin.qq.com/s/cXIjMfI8M9rDTBX7uKC9Aw"
             },
             "note": "2026-10-13续查：原文已读；具名职责、地区发行及正式运营/陪伴服分别记录。"
+          },
+          {
+            "source": {
+              "title": "触乐2018-06-27：KingsGroup COO刘宇宁具名长访谈",
+              "url": "https://www.chuapp.com/mobile/285487.html"
+            },
+            "note": "刘宇宁具名采访、离职转载及Karma历史官网交叉检索。"
           }
         ],
         "gaps": [
@@ -581,3 +625,12 @@ Misty Continent已按美国iOS版本建档（2022-08-02），官网确认城堡�
 Imagendary官方2022年任命补Jason Hayes音频总监、Matt Cordner高级技术美术、Ryan Pollreisz工作室经理及Wei Wang创意管理职务；不默认关联某个SLG。2024-12-30游戏新知公众号已读，报道工作室关闭引用外部艺术家陈述，具体关闭日期仍缺官方确认。2022人才原文超过导入器5MB限制，使用10MB上限的独立读取取得正文，未修改导入器限制。
 
 巴塞罗那补Felipe Mata产品副总裁；Enric Cabestany与既有IGG档案合并，记录2019年IGG和2023年FunPlus公开职务，实际转职日期未知。当前任职、工作室法人与股权、项目主策及主美仍是下一轮缺口。
+
+
+## 夜间续查：历史交易与人员（2026-10-13）
+
+FunPlus 2014-08-19新闻稿宣布拟向中技控股出售DianDian，金额最高9.6亿美元且待审批。中技控股2015-09-23上市公告正文确认，2015-08-15双方因条款未达一致而终止合作。这笔失败的协议与后来的世纪华通交易分开，不能拿拟价作已实现收入。
+
+2018触乐具名采访补刘宇宁的KingsGroup COO和两款SLG经历，后续访谈称已离开创业。Karma官网历史检索文本支持制作人署名，当前直接访问只有网页空壳；不采用其异常的英文累计金额。公众号旧访谈已删除，不能声称本次读到原文。另补Edge公司级技术职责；Fio官方2D美术访谈讲的是社区内容创作，不将其提升为游戏主美。
+
+阿瓦隆Windows版官网历程列2023年3月，独立公告页面显示5月22日，首发日仍待查。

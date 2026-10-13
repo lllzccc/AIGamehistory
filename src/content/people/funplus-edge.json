@@ -1,0 +1,32 @@
+{
+  "name": "Edge",
+  "aliases": [],
+  "bio": "官方具名访谈确认FunPlus联合技术负责人，涉及研发、营销及运营技术。未确认全名和具体产品职责。",
+  "roles": [
+    {
+      "company": "funplus",
+      "scope": "company",
+      "products": [],
+      "title": "other",
+      "titleNote": "Co-CTO／联合技术负责人",
+      "from": "2026-10-13",
+      "dateBasis": "public-observation",
+      "status": "unknown",
+      "checkedAt": "2026-10-13",
+      "note": "原文发布日期未取得，使用本轮观察日；不是任职开始日，不默认关联某个SLG。",
+      "sources": [
+        {
+          "title": "FunPlus官方Edge访谈",
+          "url": "https://funplus.com/people/funpeople-edge-co-cto-funplus/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "FunPlus官方Edge访谈",
+      "url": "https://funplus.com/people/funpeople-edge-co-cto-funplus/"
+    }
+  ],
+  "verified": true
+}

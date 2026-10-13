@@ -1,0 +1,56 @@
+{
+  "name": "刘宇宁",
+  "aliases": [
+    "Yu-Ning Liu"
+  ],
+  "bio": "2018年触乐具名采访确认KingsGroup COO及两款SLG项目经历；后续采访确认离开创业。实际离职日未确认。Karma历史官网检索正文称其为COO兼制作人，当前直读仅网页空壳；不采用英文页异常的累计金额。",
+  "roles": [
+    {
+      "company": "funplus",
+      "scope": "product",
+      "products": [
+        "king-of-avalon",
+        "guns-of-glory"
+      ],
+      "title": "producer",
+      "titleNote": "KingsGroup历史COO／制作人",
+      "from": "2018-06-27",
+      "status": "departed",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-13",
+      "specialties": [
+        "strategy"
+      ],
+      "note": "日期为具名采访观察日，不是入职日；后续采访称离职创业，具体日期待查，不推定现任。",
+      "sources": [
+        {
+          "title": "触乐2018-06-27：KingsGroup COO刘宇宁具名长访谈",
+          "url": "https://www.chuapp.com/mobile/285487.html"
+        },
+        {
+          "title": "GameRes2019转载游戏龙虎报：刘宇宁离职创业与三消RPG访谈",
+          "url": "https://www.gameres.com/854789.html"
+        },
+        {
+          "title": "Karma官网历史履历：Yu-Ning Liu曾为KingsGroup COO与制作人（检索缓存可读，当前直读空壳）",
+          "url": "https://www.karmasgame.com/about"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "触乐2018-06-27：KingsGroup COO刘宇宁具名长访谈",
+      "url": "https://www.chuapp.com/mobile/285487.html"
+    },
+    {
+      "title": "GameRes2019转载游戏龙虎报：刘宇宁离职创业与三消RPG访谈",
+      "url": "https://www.gameres.com/854789.html"
+    },
+    {
+      "title": "Karma官网历史履历：Yu-Ning Liu曾为KingsGroup COO与制作人（检索缓存可读，当前直读空壳）",
+      "url": "https://www.karmasgame.com/about"
+    }
+  ],
+  "verified": true
+}
