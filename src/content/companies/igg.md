@@ -110,6 +110,13 @@
               "url": "https://statics-global.igg.com/investor/webcasts/2025/03/28/2024%20Annual%20Results%20PPT-Eng.pdf"
             },
             "note": "已读业绩演示第10及21–23页：Frozen War列为已推出寒冷末日SLG新品，但未给首发地区平台日；Apple美国6738370929当前lookup返回0，不等同停服。"
+          },
+          {
+            "source": {
+              "title": "Apple美国商店：Clash of Lords 2地区版本及发行主体",
+              "url": "https://apps.apple.com/us/app/clash-of-lords-2-guild-castle/id867427452"
+            },
+            "note": "补美国iOS2014-05-14及官方截图；Android首次日期未确认。"
           }
         ],
         "gaps": [
@@ -130,7 +137,7 @@
             ]
           }
         ],
-        "checkedAt": "2026-10-12"
+        "checkedAt": "2026-10-13"
       },
       {
         "area": "lifecycle",
@@ -148,7 +155,7 @@
       {
         "area": "talent",
         "status": "partial",
-        "scope": "已核对官网公司管理层；项目制作人、主策、美术与流动仍未找到可靠署名。",
+        "scope": "已查官网高管、2020运营访谈与2019欧洲官方稿；历史运营/地区负责人已建档，研发主创与任期仍待查。",
         "examined": [
           {
             "source": {
@@ -156,6 +163,20 @@
               "url": "https://investor.igg.com/corporate_governance.php?lang=2"
             },
             "note": "按公开职业资料核查角色；不以署名日期推断任职起点，不联系人员。"
+          },
+          {
+            "source": {
+              "title": "IGG官方Mobile Royale欧洲推广新闻稿（2019-01-15）",
+              "url": "https://www.prnewswire.co.uk/news-releases/top-mobile-game-developer-igg-launches-mobile-royale-to-hit-the-european-market-816624244.html"
+            },
+            "note": "官方稿确认Enric Cabestany当时为欧洲总经理，不作研发制作人。"
+          },
+          {
+            "source": {
+              "title": "出海独联体2020访谈（GameRes转载）",
+              "url": "https://www.gameres.com/877737.html"
+            },
+            "note": "确认黄书炜历史运营职务；公众号原文仍不可读。"
           }
         ],
         "gaps": [
@@ -165,7 +186,7 @@
             "nextStep": "补齐来源、版本与日期后再验收。"
           }
         ],
-        "checkedAt": "2026-10-11"
+        "checkedAt": "2026-10-13"
       },
       {
         "area": "business",
@@ -279,3 +300,6 @@ IGG于2025年3月披露的2024年度业绩演示，将Frozen War列为已推出�
 2020年12月7日刊登的出海独联体访谈，列黄书炜（Edwin）为IGG全球运营高级总监，讨论王国纪元发行、本地化与长线运营。提及阿语、西语、葡语团队及广告、素材、研发、项目、数据组协作，没有列出成员姓名。历史职务不证明当前在任，也不能写成制作人。
 
 [已读GameRes转载访谈](https://www.gameres.com/877737.html)，[公众号原文（暂不可读）](https://mp.weixin.qq.com/s/DahZSHwpiQEsLtvPRK1wjg)。核查2026年10月12日，原文账号及原始发布时间待确认。
+
+
+Clash of Lords 2已补美国iOS2014年5月14日版本与官方商店截图，Android最早首发、具体研发工作室与主创待查。2019年1月15日IGG官方Mobile Royale推广稿列Enric Cabestany为欧洲总经理，按历史地区管理职务建档，不认定当前在任或研发职责。核查2026年10月13日。

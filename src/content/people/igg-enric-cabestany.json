@@ -1,0 +1,32 @@
+{
+  "name": "Enric Cabestany",
+  "aliases": [],
+  "bio": "IGG于2019年发布的Mobile Royale推广稿列为欧洲总经理。历史地区管理职务，非已确认的研发主创。",
+  "roles": [
+    {
+      "company": "igg",
+      "scope": "company",
+      "products": [],
+      "title": "other",
+      "titleNote": "欧洲总经理（历史公开职务）",
+      "from": "2019-01-15",
+      "dateBasis": "public-observation",
+      "status": "unknown",
+      "checkedAt": "2026-10-13",
+      "note": "日期为官方稿发布日，不是入职日。没有确认当前任职、离职时间或制作人职责。",
+      "sources": [
+        {
+          "title": "IGG官方Mobile Royale欧洲推广新闻稿（2019-01-15）",
+          "url": "https://www.prnewswire.co.uk/news-releases/top-mobile-game-developer-igg-launches-mobile-royale-to-hit-the-european-market-816624244.html"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "IGG官方Mobile Royale欧洲推广新闻稿（2019-01-15）",
+      "url": "https://www.prnewswire.co.uk/news-releases/top-mobile-game-developer-igg-launches-mobile-royale-to-hit-the-european-market-816624244.html"
+    }
+  ],
+  "verified": true
+}

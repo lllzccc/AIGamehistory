@@ -1,0 +1,48 @@
+{
+  "name": "Clash of Lords 2: Guild Castle",
+  "aliases": [
+    "Clash of Lords 2"
+  ],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "igg",
+  "publisher": "igg",
+  "released": "2014-05-14",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "美国iOS版本",
+  "significance": "英雄技能、佣兵搭配与基地攻防结合的策略产品，保留独立于王国纪元的历史产品线。",
+  "sources": [
+    {
+      "title": "Apple美国商店：Clash of Lords 2地区版本及发行主体",
+      "url": "https://apps.apple.com/us/app/clash-of-lords-2-guild-castle/id867427452"
+    }
+  ],
+  "verified": true,
+  "cover": "/images/slg/clash-of-lords2.jpg",
+  "keyArt": "/images/slg/clash-of-lords2.jpg",
+  "lifecycleNotes": [
+    {
+      "note": "Apple美国接口原始releaseDate为2014-05-14，卖方IGG SINGAPORE PTE. LTD.；不代表Android或全球首次发行。具体研发工作室和主创待查。核查2026-10-13。",
+      "sources": [
+        {
+          "title": "Apple美国商店：Clash of Lords 2地区版本及发行主体",
+          "url": "https://apps.apple.com/us/app/clash-of-lords-2-guild-castle/id867427452"
+        }
+      ]
+    },
+    {
+      "note": "商店介绍英雄即时技能、佣兵、基地建设防御、公会及多种PvE/PvP模式；不将基地攻防产品仅因策略标签硬归COK或ROK型。核查2026-10-13。",
+      "sources": [
+        {
+          "title": "Apple美国商店：Clash of Lords 2地区版本及发行主体",
+          "url": "https://apps.apple.com/us/app/clash-of-lords-2-guild-castle/id867427452"
+        }
+      ]
+    }
+  ]
+}
