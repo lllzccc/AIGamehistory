@@ -127,6 +127,10 @@
     {
       "title": "FunPlus官方历程：各次上线月份",
       "url": "https://funplus.com/about-funplus/"
+    },
+    {
+      "title": "Sensor Tower原始2018年9月文章（含修订说明）：Guns of Glory首年估算",
+      "url": "https://sensortower.com/blog/guns-of-glory-revenue"
     }
   ],
   "website": "https://funplus.com/about-funplus/",
@@ -560,6 +564,13 @@
               "url": "https://funplus.com/info/six-months-in-2026-with-funplus-cbo/"
             },
             "note": "本轮核对；范围与来源性质见正文及产品条目。"
+          },
+          {
+            "source": {
+              "title": "Sensor Tower原始2018年9月文章（含修订说明）：Guns of Glory首年估算",
+              "url": "https://sensortower.com/blog/guns-of-glory-revenue"
+            },
+            "note": "取得首年累计全球玩家支出估算2.15亿美元；原文附修订，月度值2700万，不沿用旧转载5400万。累计/单月不塞年度财务表。"
           }
         ],
         "gaps": [
@@ -678,3 +689,8 @@ FunPlus 2014-08-19新闻稿宣布拟向中技控股出售DianDian，金额最高
 
 2026-10-13夜间补早期休闲目录：Family Farm德国VZ首发2010-10、Facebook扩展2011-06；Family Farm Seaside官网历史列2012-11上线App Store。早期FunPlus点点团队研发与当前Century Games目录归属分开，不把当前运营归给FunPlus。Android首发及逐产品权利交割待查。
 官网领导名单确认Edge即Tao (Edge) Wu，合并重复人物档案，不重复计算人员数量。
+
+
+## 历史商业数据：先看原始修订（2026-10-13）
+
+Sensor Tower 2018年9月原文估算Guns of Glory上线首年全球玩家支出超过2.15亿美元，原文修订后的8月单月值约2700万美元。早期媒体转载仍写5400万美元，不沿用。均为第三方商店估算，不是FunPlus审计营收，也不能当自然年收入；首年累计值单独说明。原始出处：https://sensortower.com/blog/guns-of-glory-revenue 。

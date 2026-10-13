@@ -39,6 +39,15 @@
           "url": "https://campus.funplus.com.cn/about/"
         }
       ]
+    },
+    {
+      "note": "商业观察，核查2026-10-13：Sensor Tower 2018年9月原文估算本作上线首年全球玩家支出超过2.15亿美元；美国占43%、约9200万美元。属于第三方商店估算，不是FunPlus审计营收或2018自然年收入；原文未另列净分成、税费或全平台口径。原文修订后的2018年8月单月值约2700万美元，不能沿用早期转载的5400万美元。",
+      "sources": [
+        {
+          "title": "Sensor Tower原始2018年9月文章（含修订说明）：Guns of Glory首年估算",
+          "url": "https://sensortower.com/blog/guns-of-glory-revenue"
+        }
+      ]
     }
   ],
   "sources": [
@@ -57,6 +66,10 @@
     {
       "title": "FunPlus官方招聘历程：工作室、历史发行与年份分组",
       "url": "https://campus.funplus.com.cn/about/"
+    },
+    {
+      "title": "Sensor Tower原始2018年9月文章（含修订说明）：Guns of Glory首年估算",
+      "url": "https://sensortower.com/blog/guns-of-glory-revenue"
     }
   ],
   "verified": true,
