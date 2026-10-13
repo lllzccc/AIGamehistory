@@ -1,0 +1,36 @@
+{
+  "name": "JohnnyD",
+  "bio": "公开职业署名JohnnyD。本人作品集自述参与Call of Antia项目并展示项目美术，未列准确岗位、任期或雇佣形式；不将其推定为主美，中文法定姓名待核。",
+  "sources": [
+    {
+      "title": "JohnnyD本人ArtStation：Call of Antia项目作品与参与自述，核查2026-10-14",
+      "url": "https://johnnyzzz.artstation.com/projects/6bVVyV"
+    }
+  ],
+  "verified": true,
+  "roles": [
+    {
+      "company": "funplus",
+      "scope": "product",
+      "products": [
+        "call-of-antia"
+      ],
+      "title": "other",
+      "titleNote": "项目美术贡献（本人作品集；具体岗位待核）",
+      "specialties": [
+        "rpg"
+      ],
+      "from": "2026-10-14",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-14",
+      "status": "unknown",
+      "sources": [
+        {
+          "title": "JohnnyD本人ArtStation：Call of Antia项目作品与参与自述，核查2026-10-14",
+          "url": "https://johnnyzzz.artstation.com/projects/6bVVyV"
+        }
+      ],
+      "note": "日期为本轮读取职业作品集的观察日，不是入职/贡献日期；历史Present表述不等于当前在职，内部/外包关系及核心岗位未确认。"
+    }
+  ]
+}

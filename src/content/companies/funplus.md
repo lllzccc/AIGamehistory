@@ -183,6 +183,14 @@
     {
       "title": "FunPlus官网周年动画访谈：中国研发与巴塞罗那发行/创意团队，核查2026-10-14",
       "url": "https://funplus.com/info/coa-anime-video/"
+    },
+    {
+      "title": "JohnnyD本人ArtStation：Call of Antia项目作品与参与自述，核查2026-10-14",
+      "url": "https://johnnyzzz.artstation.com/projects/6bVVyV"
+    },
+    {
+      "title": "Grafit Studio本人工作室作品集：Call of Antia Splash art及商店ID，核查2026-10-14",
+      "url": "https://grafit.artstation.com/projects/r95V3E"
     }
   ],
   "website": "https://funplus.com/about-funplus/",
@@ -716,6 +724,13 @@
               "url": "https://www.pocketgamer.biz/making-call-of-antia/"
             },
             "note": "Call of Antia产品总监本人：2019研发、2020Q1技术测试、2021-08-20软启动，地区未明；不推定SLG职责或当前任职。"
+          },
+          {
+            "source": {
+              "title": "JohnnyD本人ArtStation：Call of Antia项目作品与参与自述，核查2026-10-14",
+              "url": "https://johnnyzzz.artstation.com/projects/6bVVyV"
+            },
+            "note": "JohnnyD本人项目美术参与自述；Grafit外部团队Splash art贡献已读，均不推定主美或内部雇佣。"
           }
         ],
         "gaps": [
@@ -991,3 +1006,10 @@ Leon Zhou在2022-02-22本人专访中以产品总监（Director of Product）职
 本人记述：2019开始研发、2020第一季度技术测试、2021-08-20软启动；最初不到10人、采访时扩大到数十人。软启动地区/平台未给出，分别保留美国iOS2021-12-16与官方全球2022-01-24发行记录。官网周年动画访谈进一步区分中国研发与巴塞罗那发行/社区/创意协作；具体内部工作室仍未确认。
 
 [本人制作过程专访](https://www.pocketgamer.biz/making-call-of-antia/)、[FunPlus官方动画访谈](https://funplus.com/info/coa-anime-video/)。
+
+
+## Call of Antia美术贡献边界（核查2026-10-14）
+
+JohnnyD本人作品集自述参与项目美术，按公开职业署名及贡献入档，准确岗位、任期、内部或外包关系仍待核。Grafit Studio作品集自述为本作制作Splash art，并链接同一游戏商店ID，补为外部团队贡献证据，不作为整作研发或内部核心团队。两条均不足以认定主美。
+
+[JohnnyD本人作品集](https://johnnyzzz.artstation.com/projects/6bVVyV)、[Grafit Studio项目作品](https://grafit.artstation.com/projects/r95V3E)。

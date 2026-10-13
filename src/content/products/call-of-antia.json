@@ -30,6 +30,14 @@
     {
       "title": "FunPlus官网周年动画访谈：中国研发与巴塞罗那发行/创意团队，核查2026-10-14",
       "url": "https://funplus.com/info/coa-anime-video/"
+    },
+    {
+      "title": "JohnnyD本人ArtStation：Call of Antia项目作品与参与自述，核查2026-10-14",
+      "url": "https://johnnyzzz.artstation.com/projects/6bVVyV"
+    },
+    {
+      "title": "Grafit Studio本人工作室作品集：Call of Antia Splash art及商店ID，核查2026-10-14",
+      "url": "https://grafit.artstation.com/projects/r95V3E"
     }
   ],
   "verified": true,
@@ -88,12 +96,27 @@
           "url": "https://funplus.com/info/coa-anime-video/"
         }
       ]
+    },
+    {
+      "observedAt": "2026-10-14",
+      "kind": "reported",
+      "summary": "JohnnyD本人作品集称参与项目美术，具体岗位/任期/内部或外包待核，不升格主美。Grafit Studio自述为本作制作Splash art，并链接com.funplus.coa及Apple1583719419；记录为外部美术团队贡献，不是整作研发团队。",
+      "sources": [
+        {
+          "title": "JohnnyD本人ArtStation：Call of Antia项目作品与参与自述，核查2026-10-14",
+          "url": "https://johnnyzzz.artstation.com/projects/6bVVyV"
+        },
+        {
+          "title": "Grafit Studio本人工作室作品集：Call of Antia Splash art及商店ID，核查2026-10-14",
+          "url": "https://grafit.artstation.com/projects/r95V3E"
+        }
+      ]
     }
   ],
   "personnelResearch": {
     "status": "documented",
     "checkedAt": "2026-10-14",
-    "note": "新增本人专访的产品总监Leon Zhou。实名制作人、主策、主美及任期仍待查；官网周年视频中的社区/创意/音乐贡献不升格为游戏核心岗位。",
+    "note": "已补产品总监Leon Zhou本人专访及JohnnyD项目美术作品集；后者具体岗位/雇佣关系未核。主策、主美及准确任期仍待查，不将同人练习和外包工作室当内部核心团队。",
     "sources": [
       {
         "title": "PocketGamer.biz 2022-02-22 Leon Zhou本人专访：Call of Antia研发过程",
@@ -102,6 +125,14 @@
       {
         "title": "FunPlus官网周年动画访谈：中国研发与巴塞罗那发行/创意团队，核查2026-10-14",
         "url": "https://funplus.com/info/coa-anime-video/"
+      },
+      {
+        "title": "JohnnyD本人ArtStation：Call of Antia项目作品与参与自述，核查2026-10-14",
+        "url": "https://johnnyzzz.artstation.com/projects/6bVVyV"
+      },
+      {
+        "title": "Grafit Studio本人工作室作品集：Call of Antia Splash art及商店ID，核查2026-10-14",
+        "url": "https://grafit.artstation.com/projects/r95V3E"
       }
     ]
   }
