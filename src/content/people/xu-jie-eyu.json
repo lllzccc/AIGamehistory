@@ -1,0 +1,35 @@
+{
+  "name": "许杰",
+  "bio": "2016年CIGC主办方公告称易娱网络顾问；2012年采访转载曾称广州九娱副总。按历史公司管理/顾问职业资料记录，未确认当前任职或项目制作人职责。",
+  "sources": [
+    {
+      "title": "37主办方2016-03-03公告：易娱顾问许杰",
+      "url": "https://www.37.com/pinpai/2016/0303/73700.html"
+    },
+    {
+      "title": "GameRes2012-12-12转载新浪采访：广州九娱副总许杰，原视频未读取",
+      "url": "https://www.gameres.com/200221.html"
+    }
+  ],
+  "verified": true,
+  "roles": [
+    {
+      "company": "eyu",
+      "scope": "company",
+      "products": [],
+      "title": "other",
+      "titleNote": "顾问（2016年公开观察，当前职务待核）",
+      "from": "2016-03-03",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-14",
+      "sources": [
+        {
+          "title": "37主办方2016-03-03公告：易娱顾问许杰",
+          "url": "https://www.37.com/pinpai/2016/0303/73700.html"
+        }
+      ],
+      "note": "大会主办方历史公告，不代表实际任职开始日、劳动关系或当前仍在任；不关联所有SLG产品，不推定龙将制作人。"
+    }
+  ]
+}
