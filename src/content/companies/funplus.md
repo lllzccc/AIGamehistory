@@ -175,6 +175,14 @@
     {
       "title": "Project Entropy官方历史站：2022-12版本公告与FunPlus版权",
       "url": "https://entropy-store-release.kingsgroup.cn/"
+    },
+    {
+      "title": "PocketGamer.biz 2022-02-22 Leon Zhou本人专访：Call of Antia研发过程",
+      "url": "https://www.pocketgamer.biz/making-call-of-antia/"
+    },
+    {
+      "title": "FunPlus官网周年动画访谈：中国研发与巴塞罗那发行/创意团队，核查2026-10-14",
+      "url": "https://funplus.com/info/coa-anime-video/"
     }
   ],
   "website": "https://funplus.com/about-funplus/",
@@ -482,6 +490,13 @@
               "url": "https://www.foundation.game/ja"
             },
             "note": "日本2026-03-27开服，与Apple3月26日记录差异分别保留；不是新IP全球首发。"
+          },
+          {
+            "source": {
+              "title": "PocketGamer.biz 2022-02-22 Leon Zhou本人专访：Call of Antia研发过程",
+              "url": "https://www.pocketgamer.biz/making-call-of-antia/"
+            },
+            "note": "Call of Antia产品总监本人：2019研发、2020Q1技术测试、2021-08-20软启动，地区未明；不推定SLG职责或当前任职。"
           }
         ],
         "gaps": [
@@ -694,6 +709,13 @@
               "url": "https://www.sohu.com/a/1047925490_120712893"
             },
             "note": "搜狐发布正文已读，微信原文未取得；角色leader SCG保留待确认，不取未明币种/月份的流水。"
+          },
+          {
+            "source": {
+              "title": "PocketGamer.biz 2022-02-22 Leon Zhou本人专访：Call of Antia研发过程",
+              "url": "https://www.pocketgamer.biz/making-call-of-antia/"
+            },
+            "note": "Call of Antia产品总监本人：2019研发、2020Q1技术测试、2021-08-20软启动，地区未明；不推定SLG职责或当前任职。"
           }
         ],
         "gaps": [
@@ -960,3 +982,12 @@ Hua Lu本人作品集自述带领项目美术团队，Hou China的早期角色�
 
 
 Foundation日本地区正式服务为2026-03-27（日本官网与合作方公告），Apple日本记录为3月26日。同一商店ID可随地区给出不同发行日期，不将美国/日本记录混为一项。日本本地化团队未确认，原项目的外部美术/音乐贡献也不等同本地化负责人。核查2026-10-14。
+
+
+## Call of Antia：产品总监与开发阶段（核查2026-10-14）
+
+Leon Zhou在2022-02-22本人专访中以产品总监（Director of Product）职称讲解《Call of Antia》。保留原职称与英文职业署名，不直接改写为制作人或主策；项目为三消RPG，其经验不据此归为SLG。
+
+本人记述：2019开始研发、2020第一季度技术测试、2021-08-20软启动；最初不到10人、采访时扩大到数十人。软启动地区/平台未给出，分别保留美国iOS2021-12-16与官方全球2022-01-24发行记录。官网周年动画访谈进一步区分中国研发与巴塞罗那发行/社区/创意协作；具体内部工作室仍未确认。
+
+[本人制作过程专访](https://www.pocketgamer.biz/making-call-of-antia/)、[FunPlus官方动画访谈](https://funplus.com/info/coa-anime-video/)。

@@ -22,6 +22,14 @@
     {
       "title": "Apple美国商店Call of Antia原始发行记录",
       "url": "https://itunes.apple.com/lookup?id=1583719419&country=us"
+    },
+    {
+      "title": "PocketGamer.biz 2022-02-22 Leon Zhou本人专访：Call of Antia研发过程",
+      "url": "https://www.pocketgamer.biz/making-call-of-antia/"
+    },
+    {
+      "title": "FunPlus官网周年动画访谈：中国研发与巴塞罗那发行/创意团队，核查2026-10-14",
+      "url": "https://funplus.com/info/coa-anime-video/"
     }
   ],
   "verified": true,
@@ -47,6 +55,54 @@
           "url": "https://mp.weixin.qq.com/s/IoE7vSagYepGBYFTMesgaQ"
         }
       ]
+    },
+    {
+      "note": "核查2026-10-14。Leon Zhou本人2022-02-22专访称2019年开始研发、2020年第一季度开始技术测试、2021-08-20软启动；未说明软启动地区/平台，不覆盖美国iOS2021-12-16商店记录，也不等同全球正式发行。",
+      "sources": [
+        {
+          "title": "PocketGamer.biz 2022-02-22 Leon Zhou本人专访：Call of Antia研发过程",
+          "url": "https://www.pocketgamer.biz/making-call-of-antia/"
+        }
+      ]
     }
-  ]
+  ],
+  "teamEvidence": [
+    {
+      "observedAt": "2022-02-22",
+      "kind": "reported",
+      "summary": "Leon Zhou以产品总监职称接受制作过程专访；据本人，团队从不到10人扩大到数十人，并与外部概念设计师合作。仅为当时团队规模观察，不是当前人数或具名核心岗位名单。",
+      "sources": [
+        {
+          "title": "PocketGamer.biz 2022-02-22 Leon Zhou本人专访：Call of Antia研发过程",
+          "url": "https://www.pocketgamer.biz/making-call-of-antia/"
+        }
+      ]
+    },
+    {
+      "observedAt": "2026-10-14",
+      "kind": "official",
+      "summary": "官网周年动画访谈区分中国研发团队与巴塞罗那发行、社区及创意团队；视频合作贡献不等同游戏制作人或内部雇佣，未据此确定Puzala或其他工作室。",
+      "sources": [
+        {
+          "title": "FunPlus官网周年动画访谈：中国研发与巴塞罗那发行/创意团队，核查2026-10-14",
+          "url": "https://funplus.com/info/coa-anime-video/"
+        }
+      ]
+    }
+  ],
+  "personnelResearch": {
+    "status": "documented",
+    "checkedAt": "2026-10-14",
+    "note": "新增本人专访的产品总监Leon Zhou。实名制作人、主策、主美及任期仍待查；官网周年视频中的社区/创意/音乐贡献不升格为游戏核心岗位。",
+    "sources": [
+      {
+        "title": "PocketGamer.biz 2022-02-22 Leon Zhou本人专访：Call of Antia研发过程",
+        "url": "https://www.pocketgamer.biz/making-call-of-antia/"
+      },
+      {
+        "title": "FunPlus官网周年动画访谈：中国研发与巴塞罗那发行/创意团队，核查2026-10-14",
+        "url": "https://funplus.com/info/coa-anime-video/"
+      }
+    ]
+  }
 }

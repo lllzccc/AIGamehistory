@@ -1,0 +1,36 @@
+{
+  "name": "Leon Zhou",
+  "bio": "2022年Call of Antia制作过程专访称FunPlus Director of Product（产品总监）。本人谈项目研发、技术测试与软启动；公开英文职业署名，中文姓名、当前任职及准确任期待核。",
+  "sources": [
+    {
+      "title": "PocketGamer.biz 2022-02-22 Leon Zhou本人专访：Call of Antia研发过程",
+      "url": "https://www.pocketgamer.biz/making-call-of-antia/"
+    }
+  ],
+  "verified": true,
+  "roles": [
+    {
+      "company": "funplus",
+      "scope": "product",
+      "products": [
+        "call-of-antia"
+      ],
+      "title": "other",
+      "titleNote": "产品总监（Director of Product，2022本人专访）",
+      "specialties": [
+        "rpg"
+      ],
+      "from": "2022-02-22",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-14",
+      "sources": [
+        {
+          "title": "PocketGamer.biz 2022-02-22 Leon Zhou本人专访：Call of Antia研发过程",
+          "url": "https://www.pocketgamer.biz/making-call-of-antia/"
+        }
+      ],
+      "note": "原文职称不等同制作人/主策；采访日期不是实际入职日，不因FunPlus其他作品而关联SLG。"
+    }
+  ]
+}
