@@ -89,3 +89,8 @@ a32e097公司目录批类型/100测试/68页构建通过，Pages38241480869进�
 
 
 2026-10-13用户明确继续：普通额度允许，5小时3%。旧goal仍usageLimited，未调用状态绕过/未新建goal/未重启已到期夜间自动化；按用户新指令推进项目。新增Clash of Lords 2美国iOS2014-05-14及官方截图、历史欧洲负责人Enric Cabestany；补人才/目录清单已查范围。未用匿名职场传闻作研发证据。待验证部署。
+
+
+新增FunPlus公司级创意/叙事2人：Mustapha Mahrach、Guillaume Colomb。官方完整访谈已读，直接HTTP403未得到原始发布时间；保留观察日不当入职日/在职证明，未挂具体SLG产品。已复查海盗制作人Haojun及David Du均既有档案，未重复新增。IGG49437ce Pages38334028490 success，线上验证进行中。
+
+49437ce线上1440/390：新增Clash of Lords2日期、抽屉、官方图解码、Enric人物页与公司正文通过。

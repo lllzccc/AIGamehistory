@@ -1,0 +1,32 @@
+{
+  "name": "Mustapha Mahrach",
+  "aliases": [],
+  "bio": "官方访谈确认里斯本工作室职务，自述曾在Ubisoft、Google Stadia及TiMi Montreal参与设计和团队建设；具体任期和未公开新IP名称待查，不关联既有SLG项目。",
+  "roles": [
+    {
+      "company": "funplus",
+      "scope": "company",
+      "products": [],
+      "title": "creative-director",
+      "titleNote": "游戏创意总监（里斯本工作室）",
+      "from": "2026-10-13",
+      "dateBasis": "public-observation",
+      "status": "unknown",
+      "checkedAt": "2026-10-13",
+      "note": "from仅为本次公开资料观察日，原始发文日和入职日未确认；历史介绍不能证明当前仍在职。官方访谈确认里斯本工作室职务，自述曾在Ubisoft、Google Stadia及TiMi Montreal参与设计和团队建设；具体任期和未公开新IP名称待查，不关联既有SLG项目。",
+      "sources": [
+        {
+          "title": "FunPlus官方访谈：Mustapha Mahrach任里斯本工作室游戏创意总监",
+          "url": "https://funplus.com/info/new-game-creative-director-welcome-mustapha-mahrach/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "FunPlus官方访谈：Mustapha Mahrach任里斯本工作室游戏创意总监",
+      "url": "https://funplus.com/info/new-game-creative-director-welcome-mustapha-mahrach/"
+    }
+  ],
+  "verified": true
+}

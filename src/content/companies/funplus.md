@@ -183,7 +183,7 @@
         "area": "talent",
         "status": "partial",
         "scope": "已补项目管理、研发制作人与音频创作署名；现任、离职、项目主策与核心美术仍待核实。",
-        "checkedAt": "2026-10-12",
+        "checkedAt": "2026-10-13",
         "examined": [
           {
             "source": {
@@ -219,6 +219,20 @@
               "url": "https://funplus.com/info/discovering-foundation-galactic-frontier-community-podcast/"
             },
             "note": "确认成都工作室，实名制作人仍待官方播客原视频署名。"
+          },
+          {
+            "source": {
+              "title": "FunPlus官方访谈：Mustapha Mahrach任里斯本工作室游戏创意总监",
+              "url": "https://funplus.com/info/new-game-creative-director-welcome-mustapha-mahrach/"
+            },
+            "note": "官方完整访谈已读；公司/工作室职责已署名，入职日期、当前任期及具体产品归属未确认。"
+          },
+          {
+            "source": {
+              "title": "FunPlus官方访谈：Guillaume Colomb任跨媒体叙事总监",
+              "url": "https://funplus.com/info/warm-welcome-to-our-new-narrative-director-cross-media/"
+            },
+            "note": "官方完整访谈已读；公司/工作室职责已署名，入职日期、当前任期及具体产品归属未确认。"
           }
         ],
         "gaps": [
@@ -227,6 +241,21 @@
             "status": "pending",
             "nextStep": "核对官网历史目录、公告、年报和公开访谈。",
             "sources": []
+          },
+          {
+            "question": "里斯本工作室新IP、创意与跨媒体叙事团队的实际产品归属及任期是什么？",
+            "status": "pending",
+            "nextStep": "继续对照官方项目发布、人员后续访谈与公开履历，不将公司级职务强挂既有SLG。",
+            "sources": [
+              {
+                "title": "FunPlus官方访谈：Mustapha Mahrach任里斯本工作室游戏创意总监",
+                "url": "https://funplus.com/info/new-game-creative-director-welcome-mustapha-mahrach/"
+              },
+              {
+                "title": "FunPlus官方访谈：Guillaume Colomb任跨媒体叙事总监",
+                "url": "https://funplus.com/info/warm-welcome-to-our-new-narrative-director-cross-media/"
+              }
+            ]
           }
         ]
       },
@@ -284,3 +313,10 @@ FunPlus官网记载公司于2010年成立，目前总部位于瑞士，在多个
 
 
 Misty Continent已按美国iOS版本建档（2022-08-02），官网确认城堡建设、神器与联盟玩法；具体研发工作室与全球首测日期尚未确认。核查2026-10-12。
+
+
+## 创意与叙事团队线索
+
+官方访谈介绍Mustapha Mahrach为里斯本工作室游戏创意总监，负责跨平台游戏的创意方向，并与Alexandre Amancio协作。他自述曾在Ubisoft、Google Stadia与TiMi Montreal参与设计和团队建设，具体任期尚未核实。另篇访谈介绍Guillaume Colomb为跨媒体叙事总监，协调IP在不同媒体的叙事方向。两人暂按公司/工作室角色建档，未将其挂到现有SLG产品；原始发布时间、入职时间、当前任职及新IP归属仍待补。
+
+[Mustapha官方访谈](https://funplus.com/info/new-game-creative-director-welcome-mustapha-mahrach/) · [Guillaume官方访谈](https://funplus.com/info/warm-welcome-to-our-new-narrative-director-cross-media/)。核查2026年10月13日。

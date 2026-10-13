@@ -1,0 +1,32 @@
+{
+  "name": "Guillaume Colomb",
+  "aliases": [],
+  "bio": "官方访谈确认跨媒体IP叙事职责及与Alexandre Amancio协作；未点名所负责SLG产品，不将公司职务推成某款游戏编剧。",
+  "roles": [
+    {
+      "company": "funplus",
+      "scope": "company",
+      "products": [],
+      "title": "other",
+      "titleNote": "跨媒体叙事总监",
+      "from": "2026-10-13",
+      "dateBasis": "public-observation",
+      "status": "unknown",
+      "checkedAt": "2026-10-13",
+      "note": "from仅为本次公开资料观察日，原始发文日和入职日未确认；历史介绍不能证明当前仍在职。官方访谈确认跨媒体IP叙事职责及与Alexandre Amancio协作；未点名所负责SLG产品，不将公司职务推成某款游戏编剧。",
+      "sources": [
+        {
+          "title": "FunPlus官方访谈：Guillaume Colomb任跨媒体叙事总监",
+          "url": "https://funplus.com/info/warm-welcome-to-our-new-narrative-director-cross-media/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "FunPlus官方访谈：Guillaume Colomb任跨媒体叙事总监",
+      "url": "https://funplus.com/info/warm-welcome-to-our-new-narrative-director-cross-media/"
+    }
+  ],
+  "verified": true
+}
