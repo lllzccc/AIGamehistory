@@ -1,0 +1,37 @@
+{
+  "name": "Jeff",
+  "aliases": [],
+  "bio": "《归龙潮》总制作人，负责研发与发行。仅记录来源明确的职责，不推定关联其他项目。",
+  "roles": [
+    {
+      "company": "funplus",
+      "scope": "product",
+      "products": [
+        "guilongchao"
+      ],
+      "title": "producer",
+      "titleNote": "《归龙潮》总制作人，负责研发与发行",
+      "from": "2025-01-13",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        {
+          "title": "触乐2025-01-21具名采访：归龙潮总制作人Jeff及版本负责人青菇",
+          "url": "https://www.chuapp.com/article/290438.html"
+        }
+      ],
+      "note": "日期为公开资料观察日，不等同入职日；当前任职及实际任期未确认。",
+      "specialties": [
+        "rpg"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "触乐2025-01-21具名采访：归龙潮总制作人Jeff及版本负责人青菇",
+      "url": "https://www.chuapp.com/article/290438.html"
+    }
+  ],
+  "verified": true
+}

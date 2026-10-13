@@ -1,0 +1,32 @@
+{
+  "name": "Matt Cordner",
+  "aliases": [],
+  "bio": "Imagendary Studios高级技术美术；不提升为全项目主美。仅记录来源明确的职责，不推定关联其他项目。",
+  "roles": [
+    {
+      "company": "funplus",
+      "scope": "company",
+      "products": [],
+      "title": "core-artist",
+      "titleNote": "Imagendary Studios高级技术美术；不提升为全项目主美",
+      "from": "2022-03-15",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        {
+          "title": "FunPlus官方2022-03-15：Imagendary音频与技术美术任命",
+          "url": "https://funplus.com/imagendary-studios-appoints-jason-hayes-as-audio-director-and-matt-cordner-as-senior-technical-artist-2/"
+        }
+      ],
+      "note": "日期为公开资料观察日，不等同入职日；当前任职及实际任期未确认。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "FunPlus官方2022-03-15：Imagendary音频与技术美术任命",
+      "url": "https://funplus.com/imagendary-studios-appoints-jason-hayes-as-audio-director-and-matt-cordner-as-senior-technical-artist-2/"
+    }
+  ],
+  "verified": true
+}

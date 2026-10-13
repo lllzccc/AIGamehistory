@@ -1,0 +1,26 @@
+{
+  "results": [
+    {
+      "originalUrl": "https://mp.weixin.qq.com/s?__biz=Mzg3MzMzNjM3OQ==&mid=2247520309&idx=1&sn=9d75dc9b2b833075ca73dc5d1e31c271&chksm=cee34b61f994c2776ac7ffa4cb0d9ff71e849cf94e73ccfff8e5f55fd74dd8d048f6d1ad4719#rd",
+      "readStatus": "body-extracted-needs-review",
+      "title": "2022年游戏圈人才变动：有人再度创业获投资，大厂出海争抢人才",
+      "accountName": "游戏新知",
+      "bytes": 8370257,
+      "bodyCharacters": 3552,
+      "checkedAt": "2026-10-13T07:57:56.077Z",
+      "method": "bounded 10MB standalone fetch after knowledge importer 5MB limit; original limits unchanged",
+      "initialError": "知识库导入器5MB限制，后改用有10MB上限的独立读取"
+    },
+    {
+      "id": "imagendary-2024",
+      "originalUrl": "https://mp.weixin.qq.com/s/cXIjMfI8M9rDTBX7uKC9Aw",
+      "mirrorUrl": "https://www.yfchuhai.com/article/10224361.html",
+      "title": "FunPlus海外工作室关闭；《归龙潮》项目组称仍有近百位成员",
+      "accountName": "游戏新知",
+      "publishedAt": "2024-12-30T14:00:00.000Z",
+      "bodyCharacters": 779,
+      "readStatus": "body-extracted-needs-review",
+      "checkedAt": "2026-10-13T07:56:54.614Z"
+    }
+  ]
+}

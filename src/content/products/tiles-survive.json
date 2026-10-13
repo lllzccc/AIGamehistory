@@ -28,6 +28,10 @@
     {
       "title": "FunPlus官方2026半年回顾：Tiles收入占比",
       "url": "https://funplus.com/info/six-months-in-2026-with-funplus-cbo/"
+    },
+    {
+      "title": "FunPlus官方2025-07-17：Tiles Survive全球上线及制作人Dongqi Zhao",
+      "url": "https://funplus.com/tiles-survive-new-mobile-strategy-game/"
     }
   ],
   "verified": true,
@@ -70,6 +74,28 @@
         {
           "title": "FunPlus官方2026半年回顾：Tiles收入占比",
           "url": "https://funplus.com/info/six-months-in-2026-with-funplus-cbo/"
+        }
+      ]
+    },
+    {
+      "note": "2025-07-17官方宣布Android/iOS全球可用；不替代2025-07-03美国iOS首发记录。核查2026-10-13。",
+      "sources": [
+        {
+          "title": "FunPlus官方2025-07-17：Tiles Survive全球上线及制作人Dongqi Zhao",
+          "url": "https://funplus.com/tiles-survive-new-mobile-strategy-game/"
+        }
+      ]
+    }
+  ],
+  "teamEvidence": [
+    {
+      "observedAt": "2025-07-17",
+      "kind": "official",
+      "summary": "官方具名列Dongqi Zhao为制作人。",
+      "sources": [
+        {
+          "title": "FunPlus官方2025-07-17：Tiles Survive全球上线及制作人Dongqi Zhao",
+          "url": "https://funplus.com/tiles-survive-new-mobile-strategy-game/"
         }
       ]
     }

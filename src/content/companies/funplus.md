@@ -83,6 +83,18 @@
     {
       "title": "FunPlus官方：Foundation 2026-09-14第二赛季",
       "url": "https://funplus.com/foundation-galactic-frontier-soars-into-season-two/"
+    },
+    {
+      "title": "FunPlus官方：Tiles Survive具名制作人",
+      "url": "https://funplus.com/tiles-survive-new-mobile-strategy-game/"
+    },
+    {
+      "title": "触乐：归龙潮总制作人Jeff具名采访",
+      "url": "https://www.chuapp.com/article/290438.html"
+    },
+    {
+      "title": "游戏新知公众号：工作室关闭报道及归龙潮团队",
+      "url": "https://mp.weixin.qq.com/s/cXIjMfI8M9rDTBX7uKC9Aw"
     }
   ],
   "website": "https://funplus.com/about-funplus/",
@@ -151,7 +163,7 @@
       {
         "area": "catalog",
         "status": "partial",
-        "scope": "策略目录与伊莫两平台版本；Nightholme待上线",
+        "scope": "策略目录与伊莫两平台版本；Nightholme待上线；续补Call of Antia三消RPG、归龙潮ARPG、Tiles具名制作人与海外工作室历史任命",
         "checkedAt": "2026-10-13",
         "examined": [
           {
@@ -195,6 +207,27 @@
               "url": "https://funplus.com/ourstudios/studio-ellipsis/"
             },
             "note": "本轮核对；范围与来源性质见正文及产品条目。"
+          },
+          {
+            "source": {
+              "title": "FunPlus官方：Tiles Survive具名制作人",
+              "url": "https://funplus.com/tiles-survive-new-mobile-strategy-game/"
+            },
+            "note": "2026-10-13续查：原文已读；具名职责、地区发行及正式运营/陪伴服分别记录。"
+          },
+          {
+            "source": {
+              "title": "触乐：归龙潮总制作人Jeff具名采访",
+              "url": "https://www.chuapp.com/article/290438.html"
+            },
+            "note": "2026-10-13续查：原文已读；具名职责、地区发行及正式运营/陪伴服分别记录。"
+          },
+          {
+            "source": {
+              "title": "游戏新知公众号：工作室关闭报道及归龙潮团队",
+              "url": "https://mp.weixin.qq.com/s/cXIjMfI8M9rDTBX7uKC9Aw"
+            },
+            "note": "2026-10-13续查：原文已读；具名职责、地区发行及正式运营/陪伴服分别记录。"
           }
         ],
         "gaps": [
@@ -209,7 +242,7 @@
       {
         "area": "lifecycle",
         "status": "partial",
-        "scope": "伊莫两阶段、SOS日本移动版与全球PC版、Foundation二赛季",
+        "scope": "伊莫两阶段、SOS日本移动版与全球PC版、Foundation二赛季；续补Call of Antia三消RPG、归龙潮ARPG、Tiles具名制作人与海外工作室历史任命",
         "checkedAt": "2026-10-13",
         "examined": [
           {
@@ -253,6 +286,27 @@
               "url": "https://funplus.com/foundation-galactic-frontier-soars-into-season-two/"
             },
             "note": "本轮核对；范围与来源性质见正文及产品条目。"
+          },
+          {
+            "source": {
+              "title": "FunPlus官方：Tiles Survive具名制作人",
+              "url": "https://funplus.com/tiles-survive-new-mobile-strategy-game/"
+            },
+            "note": "2026-10-13续查：原文已读；具名职责、地区发行及正式运营/陪伴服分别记录。"
+          },
+          {
+            "source": {
+              "title": "触乐：归龙潮总制作人Jeff具名采访",
+              "url": "https://www.chuapp.com/article/290438.html"
+            },
+            "note": "2026-10-13续查：原文已读；具名职责、地区发行及正式运营/陪伴服分别记录。"
+          },
+          {
+            "source": {
+              "title": "游戏新知公众号：工作室关闭报道及归龙潮团队",
+              "url": "https://mp.weixin.qq.com/s/cXIjMfI8M9rDTBX7uKC9Aw"
+            },
+            "note": "2026-10-13续查：原文已读；具名职责、地区发行及正式运营/陪伴服分别记录。"
           }
         ],
         "gaps": [
@@ -267,7 +321,7 @@
       {
         "area": "talent",
         "status": "partial",
-        "scope": "伊莫前生态策划彭杰、集团CBO与Ellipsis动画总监",
+        "scope": "伊莫前生态策划彭杰、集团CBO与Ellipsis动画总监；续补Call of Antia三消RPG、归龙潮ARPG、Tiles具名制作人与海外工作室历史任命",
         "checkedAt": "2026-10-13",
         "examined": [
           {
@@ -360,6 +414,27 @@
               "url": "https://funplus.com/people/funpeople-ilya-mozzhukhin-animation-director/"
             },
             "note": "本轮核对；范围与来源性质见正文及产品条目。"
+          },
+          {
+            "source": {
+              "title": "FunPlus官方：Tiles Survive具名制作人",
+              "url": "https://funplus.com/tiles-survive-new-mobile-strategy-game/"
+            },
+            "note": "2026-10-13续查：原文已读；具名职责、地区发行及正式运营/陪伴服分别记录。"
+          },
+          {
+            "source": {
+              "title": "触乐：归龙潮总制作人Jeff具名采访",
+              "url": "https://www.chuapp.com/article/290438.html"
+            },
+            "note": "2026-10-13续查：原文已读；具名职责、地区发行及正式运营/陪伴服分别记录。"
+          },
+          {
+            "source": {
+              "title": "游戏新知公众号：工作室关闭报道及归龙潮团队",
+              "url": "https://mp.weixin.qq.com/s/cXIjMfI8M9rDTBX7uKC9Aw"
+            },
+            "note": "2026-10-13续查：原文已读；具名职责、地区发行及正式运营/陪伴服分别记录。"
           }
         ],
         "gaps": [
@@ -497,3 +572,12 @@ Misty Continent已按美国iOS版本建档（2022-08-02），官网确认城堡�
 ## 官方收入结构
 
 2026上半年回顾中CBO Chris Petrovic称Tiles Survive约占公司每日收入三分之一，当时为最高收入产品。此为官方收入结构表述，未含绝对金额、具体日、地区平台、净收入/流水口径与分成，不推算年度营收。Chris按公司商务角色建档。
+
+
+## 继续补录：项目与工作室（2026-10-13）
+
+《Tiles Survive!》官方2025-07-17公告具名制作人Dongqi Zhao，中文姓名待核。公司目录另补《Call of Antia》三消RPG及其Facebook地区版本、《归龙潮》ARPG；三者的品类与地区口径分别记录。触乐2025-01采访确认Jeff负责《归龙潮》研发与发行，青菇负责1.3版本，不提升为主策。正式运营2025-12-10终止，公告另设陪伴服，其后状态待查。
+
+Imagendary官方2022年任命补Jason Hayes音频总监、Matt Cordner高级技术美术、Ryan Pollreisz工作室经理及Wei Wang创意管理职务；不默认关联某个SLG。2024-12-30游戏新知公众号已读，报道工作室关闭引用外部艺术家陈述，具体关闭日期仍缺官方确认。2022人才原文超过导入器5MB限制，使用10MB上限的独立读取取得正文，未修改导入器限制。
+
+巴塞罗那补Felipe Mata产品副总裁；Enric Cabestany与既有IGG档案合并，记录2019年IGG和2023年FunPlus公开职务，实际转职日期未知。当前任职、工作室法人与股权、项目主策及主美仍是下一轮缺口。

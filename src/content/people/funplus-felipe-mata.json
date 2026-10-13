@@ -1,0 +1,32 @@
+{
+  "name": "Felipe Mata",
+  "aliases": [],
+  "bio": "产品副总裁；巴塞罗那研发团队管理者，具体项目待确认。仅记录来源明确的职责，不推定关联其他项目。",
+  "roles": [
+    {
+      "company": "funplus",
+      "scope": "company",
+      "products": [],
+      "title": "other",
+      "titleNote": "产品副总裁；巴塞罗那研发团队管理者，具体项目待确认",
+      "from": "2023-05-22",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        {
+          "title": "FunPlus官方2023-05-22：巴塞罗那研发与发行团队",
+          "url": "https://funplus.com/funplus-outlines-plans-to-continue-growing-it-presence-in-barcelona/"
+        }
+      ],
+      "note": "日期为公开资料观察日，不等同入职日；当前任职及实际任期未确认。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "FunPlus官方2023-05-22：巴塞罗那研发与发行团队",
+      "url": "https://funplus.com/funplus-outlines-plans-to-continue-growing-it-presence-in-barcelona/"
+    }
+  ],
+  "verified": true
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Call of Antia",
+  "aliases": [],
+  "chronicles": [],
+  "genre": "rpg",
+  "developer": "funplus",
+  "publisher": "FunPlus International AG",
+  "released": "2021-12-16",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "美国iOS发行记录",
+  "significance": "三消战斗与英雄养成结合的RPG，不因发行集团擅长SLG就归为SLG；内部研发工作室待查。",
+  "cover": "/images/call-of-antia-official.jpg",
+  "keyArt": "/images/call-of-antia-official.jpg",
+  "sources": [
+    {
+      "title": "FunPlus官方2022-01-24：Call of Antia全球上线公告",
+      "url": "https://funplus.com/funplus-invites-players-to-discover-and-protect-a-fantastical-world-in-call-of-antia-a-brand-new-match-3-rpg/"
+    },
+    {
+      "title": "Apple美国商店Call of Antia原始发行记录",
+      "url": "https://itunes.apple.com/lookup?id=1583719419&country=us"
+    }
+  ],
+  "verified": true,
+  "lifecycleNotes": [
+    {
+      "note": "核查2026-10-13。美国iOS商店首发2021-12-16；官方2022-01-24宣布全球上线并提及此前软启动，地区与口径分开记录。",
+      "sources": [
+        {
+          "title": "FunPlus官方2022-01-24：Call of Antia全球上线公告",
+          "url": "https://funplus.com/funplus-invites-players-to-discover-and-protect-a-fantastical-world-in-call-of-antia-a-brand-new-match-3-rpg/"
+        },
+        {
+          "title": "Apple美国商店Call of Antia原始发行记录",
+          "url": "https://itunes.apple.com/lookup?id=1583719419&country=us"
+        }
+      ]
+    }
+  ]
+}

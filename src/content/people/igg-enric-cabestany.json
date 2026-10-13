@@ -1,7 +1,7 @@
 {
   "name": "Enric Cabestany",
   "aliases": [],
-  "bio": "IGG于2019年发布的Mobile Royale推广稿列为欧洲总经理。历史地区管理职务，非已确认的研发主创。",
+  "bio": "2019年IGG欧洲总经理、2023年FunPlus欧洲及拉美发行副总裁见于两家公司公开稿。实际转职时间待查，发行管理职责不等同研发主创。",
   "roles": [
     {
       "company": "igg",
@@ -20,12 +20,34 @@
           "url": "https://www.prnewswire.co.uk/news-releases/top-mobile-game-developer-igg-launches-mobile-royale-to-hit-the-european-market-816624244.html"
         }
       ]
+    },
+    {
+      "company": "funplus",
+      "scope": "company",
+      "products": [],
+      "title": "other",
+      "titleNote": "欧洲及拉美发行副总裁",
+      "from": "2023-05-22",
+      "dateBasis": "public-observation",
+      "status": "unknown",
+      "checkedAt": "2026-10-13",
+      "note": "2019年IGG职务与2023年FunPlus职务为两次公开观察；实际转职日期未知，非研发制作人。",
+      "sources": [
+        {
+          "title": "FunPlus官方2023-05-22：巴塞罗那研发与发行团队",
+          "url": "https://funplus.com/funplus-outlines-plans-to-continue-growing-it-presence-in-barcelona/"
+        }
+      ]
     }
   ],
   "sources": [
     {
       "title": "IGG官方Mobile Royale欧洲推广新闻稿（2019-01-15）",
       "url": "https://www.prnewswire.co.uk/news-releases/top-mobile-game-developer-igg-launches-mobile-royale-to-hit-the-european-market-816624244.html"
+    },
+    {
+      "title": "FunPlus官方2023-05-22：巴塞罗那研发与发行团队",
+      "url": "https://funplus.com/funplus-outlines-plans-to-continue-growing-it-presence-in-barcelona/"
     }
   ],
   "verified": true

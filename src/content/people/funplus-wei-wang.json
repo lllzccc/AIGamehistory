@@ -1,0 +1,32 @@
+{
+  "name": "Wei Wang",
+  "aliases": [],
+  "bio": "FunPlus首席创意官；Imagendary Studios创始人。仅记录来源明确的职责，不推定关联其他项目。",
+  "roles": [
+    {
+      "company": "funplus",
+      "scope": "company",
+      "products": [],
+      "title": "other",
+      "titleNote": "FunPlus首席创意官；Imagendary Studios创始人",
+      "from": "2022-02-16",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        {
+          "title": "FunPlus官方2022-02-16：创意学徒项目及Wei Wang职务",
+          "url": "https://funplus.com/funplus-and-creative-art-works-kick-off-their-first-on-site-character-design-apprenticeship/"
+        }
+      ],
+      "note": "日期为公开资料观察日，不等同入职日；当前任职及实际任期未确认。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "FunPlus官方2022-02-16：创意学徒项目及Wei Wang职务",
+      "url": "https://funplus.com/funplus-and-creative-art-works-kick-off-their-first-on-site-character-design-apprenticeship/"
+    }
+  ],
+  "verified": true
+}

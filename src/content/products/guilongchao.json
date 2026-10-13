@@ -1,0 +1,63 @@
+{
+  "name": "归龙潮",
+  "aliases": [],
+  "chronicles": [],
+  "genre": "rpg",
+  "developer": "funplus",
+  "publisher": "上海好玩橙／龙潮阁",
+  "released": "2024-09-13",
+  "shutdown": "2025-12-10",
+  "platforms": [
+    "PC",
+    "iOS",
+    "Android"
+  ],
+  "status": "shutdown",
+  "versionLabel": "中国大陆正式运营版本",
+  "significance": "上海好玩橙／龙潮阁开发的国潮ARPG；归入FunPlus公司完整产品档案，不纳入SLG卷。法人股权关系仍待公告补证。",
+  "cover": "/images/guilongchao-official.jpg",
+  "keyArt": "/images/guilongchao-official.jpg",
+  "sources": [
+    {
+      "title": "归龙潮官方：2024-09-13全平台公测",
+      "url": "https://www.taptap.cn/moment/573446163861079581"
+    },
+    {
+      "title": "归龙潮官方2025-09-10：正式运营终止及陪伴服安排",
+      "url": "https://www.taptap.cn/moment/714803277681659783"
+    },
+    {
+      "title": "触乐2025-01-21具名采访：归龙潮总制作人Jeff及版本负责人青菇",
+      "url": "https://www.chuapp.com/article/290438.html"
+    },
+    {
+      "title": "游戏新知公众号2024-12-30：FunPlus工作室及归龙潮团队",
+      "url": "https://mp.weixin.qq.com/s/cXIjMfI8M9rDTBX7uKC9Aw"
+    }
+  ],
+  "verified": true,
+  "lifecycleNotes": [
+    {
+      "note": "核查2026-10-13。2025-12-10 10:00停止正式运营；公告另设符合条件账号的陪伴服务器，不代表所有服务器同时关闭，陪伴服现状未确认。",
+      "sources": [
+        {
+          "title": "归龙潮官方2025-09-10：正式运营终止及陪伴服安排",
+          "url": "https://www.taptap.cn/moment/714803277681659783"
+        }
+      ]
+    }
+  ],
+  "teamEvidence": [
+    {
+      "observedAt": "2025-01-13",
+      "kind": "reported",
+      "summary": "触乐采访总制作人Jeff及1.3版本负责人青菇。团队称公测前200余人、调整后100余人；属于当时自述，不当作当前人数。",
+      "sources": [
+        {
+          "title": "触乐2025-01-21具名采访：归龙潮总制作人Jeff及版本负责人青菇",
+          "url": "https://www.chuapp.com/article/290438.html"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Dongqi Zhao",
+  "aliases": [],
+  "bio": "Tiles Survive! 制作人；中文姓名待确认。仅记录来源明确的职责，不推定关联其他项目。",
+  "roles": [
+    {
+      "company": "funplus",
+      "scope": "product",
+      "products": [
+        "tiles-survive"
+      ],
+      "title": "producer",
+      "titleNote": "Tiles Survive! 制作人；中文姓名待确认",
+      "from": "2025-07-17",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        {
+          "title": "FunPlus官方2025-07-17：Tiles Survive全球上线及制作人Dongqi Zhao",
+          "url": "https://funplus.com/tiles-survive-new-mobile-strategy-game/"
+        }
+      ],
+      "note": "日期为公开资料观察日，不等同入职日；当前任职及实际任期未确认。",
+      "specialties": [
+        "strategy"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "FunPlus官方2025-07-17：Tiles Survive全球上线及制作人Dongqi Zhao",
+      "url": "https://funplus.com/tiles-survive-new-mobile-strategy-game/"
+    }
+  ],
+  "verified": true
+}
