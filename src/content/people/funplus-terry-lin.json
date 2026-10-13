@@ -1,0 +1,32 @@
+{
+  "name": "Terry Lin",
+  "aliases": [],
+  "bio": "FunPlus官方领导团队页面列为首席财务官（CFO）。属于公司级职务；没有据此关联具体游戏研发项目。",
+  "roles": [
+    {
+      "company": "funplus",
+      "scope": "company",
+      "products": [],
+      "title": "other",
+      "titleNote": "首席财务官（CFO）",
+      "from": "2026-10-13",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-13",
+      "sources": [
+        {
+          "title": "FunPlus官方领导团队（正文读取，核查2026-10-13）",
+          "url": "https://funplus.com/funplus-leadership-team/"
+        }
+      ],
+      "note": "日期为官方页面观察日，不是入职日；实际任期及人员流动未查明。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "FunPlus官方领导团队（正文读取，核查2026-10-13）",
+      "url": "https://funplus.com/funplus-leadership-team/"
+    }
+  ],
+  "verified": true
+}

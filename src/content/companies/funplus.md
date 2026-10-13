@@ -560,6 +560,13 @@
               "url": "https://www.yfchuhai.com/article/6197.html"
             },
             "note": "具名演讲转载补中文张志伟，与官方英语职责和作品交叉核对；未声称读取公众号原文。"
+          },
+          {
+            "source": {
+              "title": "FunPlus官方领导团队（正文读取，核查2026-10-13）",
+              "url": "https://funplus.com/funplus-leadership-team/"
+            },
+            "note": "补CFO Terry Lin、西方市场法律负责人Dianne Schepers、商务拓展副总裁Bob Slinn。公司级职责，不挂具体产品；任期未知。"
           }
         ],
         "gaps": [
@@ -755,3 +762,6 @@ Sensor Tower 2018年9月原文估算Guns of Glory上线首年全球玩家支出�
 
 
 补录历史SLG Z Day：Apple美国iOS记录2018-08-07。公开USPTO材料补KingsGroup Holdings历史持有人身份，首次商业使用2018-06-26与平台发行日分开；不据商标推股权或制作人。核查2026-10-13。
+
+
+2026-10-13官方领导团队续核：补Terry Lin（CFO）、Dianne Schepers（西方市场副总裁兼总法律顾问）、Bob Slinn（商务拓展副总裁）。均为公司级职务，观察日不是入职日，不能据此判断其参与SLG研发。Puzala与Dino War历史产品仍在核对，尤其不混入2025年另一个开发者的同名Dino War: Survival。
