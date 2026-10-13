@@ -67,6 +67,14 @@
     {
       "title": "IGG官方Frozen War预注册页",
       "url": "https://sk.igg.com/pre_register_site/"
+    },
+    {
+      "title": "卢东彪本人ArtStation履历：2017年1月起IGG Singapore Art lead（至今字段可能陈旧）",
+      "url": "https://ludongbiao.artstation.com/resume"
+    },
+    {
+      "title": "七点GAME2020-11-11具名访谈：卢东彪自述现任腾讯，含本人作品集链接",
+      "url": "https://www.sohu.com/a/431077570_256748"
     }
   ],
   "website": "https://investor.igg.com/milestone.php?lang=1",
@@ -214,6 +222,20 @@
               "url": "https://www.gameres.com/877737.html"
             },
             "note": "确认黄书炜历史运营职务；公众号原文仍不可读。"
+          },
+          {
+            "source": {
+              "title": "卢东彪本人ArtStation履历：2017年1月起IGG Singapore Art lead（至今字段可能陈旧）",
+              "url": "https://ludongbiao.artstation.com/resume"
+            },
+            "note": "本人列IGG Singapore Art lead，旧Present不按现任。"
+          },
+          {
+            "source": {
+              "title": "七点GAME2020-11-11具名访谈：卢东彪自述现任腾讯，含本人作品集链接",
+              "url": "https://www.sohu.com/a/431077570_256748"
+            },
+            "note": "具名本人访谈自述腾讯任职，证实历史转职但不取得准确IGG离职日。"
           }
         ],
         "gaps": [
@@ -345,3 +367,6 @@ Clash of Lords 2已补美国iOS2014年5月14日版本与官方商店截图，And
 ## Frozen War再核查（2026-10-13）
 
 找到历史Apple应用ID6738370929、卖方IGG SINGAPORE PTE. LTD.以及Android包名com.igg.android.frozenwar。以色列商店搜索缓存正文可读，但本轮Apple il/sg/gb/ca查询均无结果，原URL直读跳转首页；Google Play包名页404。官方预注册页仍可读，但缺时间。地区首发、下架范围、停服日期仍不能确定，不造发布或停服节点。修正此前将业绩演示的产品展示写作已推出的过强表述。
+
+
+2026-10-13补历史美术人才：卢东彪本人作品集列2017-01起IGG新加坡Art lead；2020-11具名访谈自述在腾讯任职。两份履历的时间差提醒旧Present不证明当前在职；按历史公司级美术负责人记录，具体IGG游戏与任期终点待核，不认定王国纪元主美。

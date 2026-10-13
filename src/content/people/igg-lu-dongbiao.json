@@ -1,0 +1,43 @@
+{
+  "name": "卢东彪",
+  "aliases": [
+    "Dongbiao Lu",
+    "东哥"
+  ],
+  "bio": "本人作品集列IGG新加坡Art lead；2020年具名访谈自述在腾讯任职。作品集至今字段与后续公开履历不一致，按历史IGG任职归档，当前职位及准确离职日期待核。",
+  "roles": [
+    {
+      "company": "igg",
+      "scope": "company",
+      "products": [],
+      "title": "lead-artist",
+      "titleNote": "IGG新加坡美术指导／Art lead（历史任职）",
+      "from": "2017-01",
+      "status": "departed",
+      "dateBasis": "employment",
+      "checkedAt": "2026-10-13",
+      "note": "起始月份来自本人作品集自述；2020具名访谈明确后来在腾讯，不能把旧Present当当前IGG在职。具体IGG项目及离职日未知，不映射王国纪元主美。",
+      "sources": [
+        {
+          "title": "卢东彪本人ArtStation履历：2017年1月起IGG Singapore Art lead（至今字段可能陈旧）",
+          "url": "https://ludongbiao.artstation.com/resume"
+        },
+        {
+          "title": "七点GAME2020-11-11具名访谈：卢东彪自述现任腾讯，含本人作品集链接",
+          "url": "https://www.sohu.com/a/431077570_256748"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "卢东彪本人ArtStation履历：2017年1月起IGG Singapore Art lead（至今字段可能陈旧）",
+      "url": "https://ludongbiao.artstation.com/resume"
+    },
+    {
+      "title": "七点GAME2020-11-11具名访谈：卢东彪自述现任腾讯，含本人作品集链接",
+      "url": "https://www.sohu.com/a/431077570_256748"
+    }
+  ],
+  "verified": true
+}
