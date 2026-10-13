@@ -1,0 +1,96 @@
+{
+  "name": "Dream Piano",
+  "aliases": [
+    "梦幻钢琴"
+  ],
+  "chronicles": [
+    "casual"
+  ],
+  "genre": "other",
+  "developer": "eyu",
+  "publisher": "Eyugame Network Technology Co., Ltd",
+  "released": "2018-08-25",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "unknown",
+  "versionLabel": "美国iOS音乐休闲版本",
+  "significance": "易娱旗下音乐节奏休闲作品，官网将其关联千源工作室；按实际品类进入休闲卷，不因公司另有SLG产品而归为SLG。",
+  "cover": "/images/dream-piano-official.jpg",
+  "keyArt": "/images/dream-piano-official.jpg",
+  "sources": [
+    {
+      "title": "易娱官网历程/千源工作室：音乐休闲自研作品，核查2026-10-14",
+      "url": "https://www.eyugame.com/p/about"
+    },
+    {
+      "title": "Apple美国Dream Piano原始发行与开发者记录，核查2026-10-14",
+      "url": "https://itunes.apple.com/lookup?id=1426272485&country=us"
+    },
+    {
+      "title": "Sensor Tower原始2018-11报告：Dream Piano Tiles 2018 iOS发行月份",
+      "url": "https://sensortower.com/blog/october-2018-most-downloaded-chinese-games-outside-china-cn"
+    }
+  ],
+  "verified": true,
+  "teamEvidence": [
+    {
+      "observedAt": "2026-10-14",
+      "kind": "official",
+      "summary": "易娱官网千源工作室代表作明确包括本作；该工作室2016成立、专注休闲。苹果商店列Eyugame开发者与卖方。不关联火凤凰或凡人修仙制作人。",
+      "sources": [
+        {
+          "title": "易娱官网历程/千源工作室：音乐休闲自研作品，核查2026-10-14",
+          "url": "https://www.eyugame.com/p/about"
+        },
+        {
+          "title": "Apple美国Dream Piano原始发行与开发者记录，核查2026-10-14",
+          "url": "https://itunes.apple.com/lookup?id=1426272485&country=us"
+        }
+      ]
+    }
+  ],
+  "personnelResearch": {
+    "status": "searched-unconfirmed",
+    "checkedAt": "2026-10-14",
+    "note": "官网工作室及商店署名已读，未取得制作人、主策或美术负责人实名及实际任期。",
+    "sources": [
+      {
+        "title": "易娱官网历程/千源工作室：音乐休闲自研作品，核查2026-10-14",
+        "url": "https://www.eyugame.com/p/about"
+      },
+      {
+        "title": "Apple美国Dream Piano原始发行与开发者记录，核查2026-10-14",
+        "url": "https://itunes.apple.com/lookup?id=1426272485&country=us"
+      }
+    ]
+  },
+  "lifecycleNotes": [
+    {
+      "note": "核查2026-10-14。Apple美国商店发行记录2018-08-25，最后版本更新记录2023-07-14。商店目前可查不等同仍持续更新或服务器可用，现状留未知；Android最早首发及地区扩展待查。",
+      "sources": [
+        {
+          "title": "Apple美国Dream Piano原始发行与开发者记录，核查2026-10-14",
+          "url": "https://itunes.apple.com/lookup?id=1426272485&country=us"
+        }
+      ]
+    },
+    {
+      "note": "官网将全球上线列在2017年历史栏；Apple美国iOS为2018-08-25，Sensor Tower原始2018年报告也称该iOS版本于8月上市。首发地区、平台及不同包体沿革未核全，不用2018替代集团历史2017口径。官网称下载量破亿，统计截止日和平台拆分未给，不视为年度下载或收入。",
+      "sources": [
+        {
+          "title": "易娱官网历程/千源工作室：音乐休闲自研作品，核查2026-10-14",
+          "url": "https://www.eyugame.com/p/about"
+        },
+        {
+          "title": "Apple美国Dream Piano原始发行与开发者记录，核查2026-10-14",
+          "url": "https://itunes.apple.com/lookup?id=1426272485&country=us"
+        },
+        {
+          "title": "Sensor Tower原始2018-11报告：Dream Piano Tiles 2018 iOS发行月份",
+          "url": "https://sensortower.com/blog/october-2018-most-downloaded-chinese-games-outside-china-cn"
+        }
+      ]
+    }
+  ]
+}

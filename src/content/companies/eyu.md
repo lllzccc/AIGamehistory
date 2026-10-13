@@ -72,6 +72,14 @@
     {
       "title": "易娱官方2026-01-26：Puzzles & Chaos自研及累计玩家口径（仅采用产品信息）",
       "url": "https://www.eyugame.com/yiyudongtai/366"
+    },
+    {
+      "title": "易娱官网历程/千源工作室：音乐休闲自研作品，核查2026-10-14",
+      "url": "https://www.eyugame.com/p/about"
+    },
+    {
+      "title": "Sensor Tower原始2018-11报告：Dream Piano Tiles 2018 iOS发行月份",
+      "url": "https://sensortower.com/blog/october-2018-most-downloaded-chinese-games-outside-china-cn"
     }
   ],
   "verified": true,
@@ -118,7 +126,7 @@
         "area": "catalog",
         "status": "partial",
         "scope": "已建SLG系列及凡人修仙传人界篇RPG档案；公司目录跨品类，分卷仅筛选对应作品",
-        "checkedAt": "2026-10-12",
+        "checkedAt": "2026-10-14",
         "examined": [
           {
             "source": {
@@ -140,6 +148,13 @@
               "url": "https://www.eyugame.com/yiyudongtai/366"
             },
             "note": "官网确认自研及累计玩家，不采奖项；无可比较金额。"
+          },
+          {
+            "source": {
+              "title": "易娱官网历程/千源工作室：音乐休闲自研作品，核查2026-10-14",
+              "url": "https://www.eyugame.com/p/about"
+            },
+            "note": "补Dream Piano与Tap Tap Music音乐休闲目录及千源工作室关联。"
           }
         ],
         "gaps": [
@@ -155,7 +170,7 @@
         "area": "lifecycle",
         "status": "partial",
         "scope": "6款美国iOS、谜题大陆中国iOS、日本Puzzles上线及Last Asylum Android现存条目",
-        "checkedAt": "2026-10-12",
+        "checkedAt": "2026-10-14",
         "examined": [
           {
             "source": {
@@ -191,6 +206,13 @@
               "url": "https://itunes.apple.com/lookup?id=1600466385&country=cn"
             },
             "note": "本轮检查本方向事实与统计范围；详情及保留缺口见正文/产品。"
+          },
+          {
+            "source": {
+              "title": "易娱官网历程/千源工作室：音乐休闲自研作品，核查2026-10-14",
+              "url": "https://www.eyugame.com/p/about"
+            },
+            "note": "Dream Piano集团2017历史与美国iOS2018发行分开；Tap Tap Music美国iOS2018-11-28，现状未知。"
           }
         ],
         "gaps": [
@@ -233,7 +255,7 @@
         "area": "talent",
         "status": "partial",
         "scope": "易游工作室产品关联、龙魂等历史工作室、2位历史实名职业资料；未证实SLG实名项目主创",
-        "checkedAt": "2026-10-12",
+        "checkedAt": "2026-10-14",
         "examined": [
           {
             "source": {
@@ -255,6 +277,13 @@
               "url": "https://games.sina.com.cn/w/n/2014-02-10/1802762482.shtml"
             },
             "note": "本轮检查本方向事实与统计范围；详情及保留缺口见正文/产品。"
+          },
+          {
+            "source": {
+              "title": "易娱官网历程/千源工作室：音乐休闲自研作品，核查2026-10-14",
+              "url": "https://www.eyugame.com/p/about"
+            },
+            "note": "千源是两款休闲游戏官方工作室；制作人主策美术未具名，不关联火凤凰/RPG人物。"
           }
         ],
         "gaps": [
@@ -476,3 +505,10 @@ Last Asylum在Sensor Tower原始2026年3月报告中列全球手游收入增长�
 ## 2026-10-13夜间补证
 
 易娱2026-01-26官网明确称Puzzles & Chaos为自研，披露累计全球游戏玩家超过1500万。该口径不等同活跃用户或营收；不将宣传稿奖项写入编年史。继续查SLG制作人、主策与主美，未取得足以新增姓名的证据；外部研报把公司产品和工作室负责人放在同一行，不足以将陈夏璘关联所有SLG，仍只保留已证实RPG项目职责。
+
+
+## 音乐休闲产品与早期目录（核查2026-10-14）
+
+千源工作室2016年成立，官网将Dream Piano、Tap Tap Music列为代表作。补两款美国iOS记录：2018-08-25与2018-11-28，进入休闲卷及公司完整目录。Dream Piano官网2017全球历史与2018 iOS记录存在阶段差异，地区/包体沿革待查。商店可查不等同当前持续维护或服务器可用，状态保留未知；项目人员未具名，不将陈夏璘的凡人修仙职责投射到这两款作品。
+
+官网历史还列龙将（2011网页）、勇者之塔（2012网页）、天天爱西游（2013移动端），需继续查各平台首发、研发发行主体和停服。金麟工作室2021年7月成立，官网称其帝国与魔法于2023年9月上线；与国内代理/小游戏及海外名称的对应关系仍待核，不凭同名直接合并。

@@ -1,0 +1,75 @@
+{
+  "name": "Tap Tap Music",
+  "aliases": [
+    "Tap Tap Music-Pop Songs"
+  ],
+  "chronicles": [
+    "casual"
+  ],
+  "genre": "other",
+  "developer": "eyu",
+  "publisher": "Eyugame Network Technology Co., Ltd",
+  "released": "2018-11-28",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "unknown",
+  "versionLabel": "美国iOS音乐休闲版本",
+  "significance": "易娱旗下音乐节奏休闲作品，官网将其关联千源工作室；按实际品类进入休闲卷，不因公司另有SLG产品而归为SLG。",
+  "cover": "/images/tap-tap-music-official.png",
+  "keyArt": "/images/tap-tap-music-official.png",
+  "sources": [
+    {
+      "title": "易娱官网历程/千源工作室：音乐休闲自研作品，核查2026-10-14",
+      "url": "https://www.eyugame.com/p/about"
+    },
+    {
+      "title": "Apple美国Tap Tap Music原始发行与开发者记录，核查2026-10-14",
+      "url": "https://itunes.apple.com/lookup?id=1437596370&country=us"
+    }
+  ],
+  "verified": true,
+  "teamEvidence": [
+    {
+      "observedAt": "2026-10-14",
+      "kind": "official",
+      "summary": "易娱官网千源工作室代表作明确包括本作；该工作室2016成立、专注休闲。苹果商店列Eyugame开发者与卖方。不关联火凤凰或凡人修仙制作人。",
+      "sources": [
+        {
+          "title": "易娱官网历程/千源工作室：音乐休闲自研作品，核查2026-10-14",
+          "url": "https://www.eyugame.com/p/about"
+        },
+        {
+          "title": "Apple美国Tap Tap Music原始发行与开发者记录，核查2026-10-14",
+          "url": "https://itunes.apple.com/lookup?id=1437596370&country=us"
+        }
+      ]
+    }
+  ],
+  "personnelResearch": {
+    "status": "searched-unconfirmed",
+    "checkedAt": "2026-10-14",
+    "note": "官网工作室及商店署名已读，未取得制作人、主策或美术负责人实名及实际任期。",
+    "sources": [
+      {
+        "title": "易娱官网历程/千源工作室：音乐休闲自研作品，核查2026-10-14",
+        "url": "https://www.eyugame.com/p/about"
+      },
+      {
+        "title": "Apple美国Tap Tap Music原始发行与开发者记录，核查2026-10-14",
+        "url": "https://itunes.apple.com/lookup?id=1437596370&country=us"
+      }
+    ]
+  },
+  "lifecycleNotes": [
+    {
+      "note": "核查2026-10-14。Apple美国商店发行记录2018-11-28，最后版本更新记录2022-02-26。商店目前可查不等同仍持续更新或服务器可用，现状留未知；Android最早首发及地区扩展待查。",
+      "sources": [
+        {
+          "title": "Apple美国Tap Tap Music原始发行与开发者记录，核查2026-10-14",
+          "url": "https://itunes.apple.com/lookup?id=1437596370&country=us"
+        }
+      ]
+    }
+  ]
+}
