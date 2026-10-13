@@ -25,12 +25,34 @@
         }
       ],
       "note": "from为本轮资料观察日，不是加入或任职日期。官方文章保留历史署名；没有据此确认2026年仍在任。具体雇佣法人与离职信息待核实。"
+    },
+    {
+      "company": "funplus",
+      "scope": "company",
+      "products": [],
+      "title": "music",
+      "titleNote": "音频总监（官方人物署名）",
+      "from": "2026-10-13",
+      "dateBasis": "public-observation",
+      "status": "unknown",
+      "checkedAt": "2026-10-13",
+      "note": "访谈自述Zhang Zhiwei即Gary，合并既有人物，不另建重复档案。发布日期、晋升及当前任期未确认，不能回填为各项目总监任期。",
+      "sources": [
+        {
+          "title": "FunPlus官方人物访谈：Gary自述即Zhang Zhiwei，Audio Director",
+          "url": "https://funplus.com/people/funpeople-gary-audio-director/"
+        }
+      ]
     }
   ],
   "sources": [
     {
       "title": "FunPlus官方音乐访谈：Zhang Zhiwei与三款策略产品",
       "url": "https://funplus.com/info/behind-the-music-inside-zhang-zhiwei-creative-mind/"
+    },
+    {
+      "title": "FunPlus官方人物访谈：Gary自述即Zhang Zhiwei，Audio Director",
+      "url": "https://funplus.com/people/funpeople-gary-audio-director/"
     }
   ],
   "verified": true

@@ -94,3 +94,8 @@ a32e097公司目录批类型/100测试/68页构建通过，Pages38241480869进�
 新增FunPlus公司级创意/叙事2人：Mustapha Mahrach、Guillaume Colomb。官方完整访谈已读，直接HTTP403未得到原始发布时间；保留观察日不当入职日/在职证明，未挂具体SLG产品。已复查海盗制作人Haojun及David Du均既有档案，未重复新增。IGG49437ce Pages38334028490 success，线上验证进行中。
 
 49437ce线上1440/390：新增Clash of Lords2日期、抽屉、官方图解码、Enric人物页与公司正文通过。
+
+
+人物深挖继续：新增BC用户体验负责人、Matt Fox工作室叙事总监；官方自述Gary=Zhang Zhiwei，合并既有档案补公司音频总监，不重复计人。Shiyao官方人物链接404，未读取正文不建制作人档案。累计本次新增1产品、5人员（IGG1+FunPlus4）、补1已有人员公司角色，无新增财务/公司。待验证发布。
+
+3c0ca58 Pages38334221433 success，1440/390 FunPlus公司创意段与2人物页检查通过。

@@ -233,6 +233,27 @@
               "url": "https://funplus.com/info/warm-welcome-to-our-new-narrative-director-cross-media/"
             },
             "note": "官方完整访谈已读；公司/工作室职责已署名，入职日期、当前任期及具体产品归属未确认。"
+          },
+          {
+            "source": {
+              "title": "FunPlus官方人物访谈：BC，用户体验负责人",
+              "url": "https://funplus.com/people/funpluspeople-bc-head-of-ux/"
+            },
+            "note": "已读人物访谈；公司/工作室角色独立于产品署名，当前任职和原始发布日期未确认。"
+          },
+          {
+            "source": {
+              "title": "FunPlus官方人物访谈：Matt Fox，叙事总监（Studio Ellipsis）",
+              "url": "https://funplus.com/people/funpeople-matt-fox-narrative-director/"
+            },
+            "note": "已读人物访谈；公司/工作室角色独立于产品署名，当前任职和原始发布日期未确认。"
+          },
+          {
+            "source": {
+              "title": "FunPlus官方人物访谈：Gary自述即Zhang Zhiwei，Audio Director",
+              "url": "https://funplus.com/people/funpeople-gary-audio-director/"
+            },
+            "note": "已读人物访谈；公司/工作室角色独立于产品署名，当前任职和原始发布日期未确认。"
           }
         ],
         "gaps": [
@@ -320,3 +341,8 @@ Misty Continent已按美国iOS版本建档（2022-08-02），官网确认城堡�
 官方访谈介绍Mustapha Mahrach为里斯本工作室游戏创意总监，负责跨平台游戏的创意方向，并与Alexandre Amancio协作。他自述曾在Ubisoft、Google Stadia与TiMi Montreal参与设计和团队建设，具体任期尚未核实。另篇访谈介绍Guillaume Colomb为跨媒体叙事总监，协调IP在不同媒体的叙事方向。两人暂按公司/工作室角色建档，未将其挂到现有SLG产品；原始发布时间、入职时间、当前任职及新IP归属仍待补。
 
 [Mustapha官方访谈](https://funplus.com/info/new-game-creative-director-welcome-mustapha-mahrach/) · [Guillaume官方访谈](https://funplus.com/info/warm-welcome-to-our-new-narrative-director-cross-media/)。核查2026年10月13日。
+
+
+官方人物访谈另列BC为用户体验负责人、Matt Fox为里斯本Studio Ellipsis叙事总监。Gary在访谈中自述即Zhang Zhiwei，官网称其音频总监，因此合并既有音乐人员档案并补公司级职务。BC全名、三人任职起止及具体产品分工仍待核对。
+
+[BC访谈](https://funplus.com/people/funpluspeople-bc-head-of-ux/) · [Matt Fox访谈](https://funplus.com/people/funpeople-matt-fox-narrative-director/) · [Gary身份与职务](https://funplus.com/people/funpeople-gary-audio-director/)。核查2026年10月13日。

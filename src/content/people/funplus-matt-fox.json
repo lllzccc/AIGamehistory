@@ -1,0 +1,32 @@
+{
+  "name": "Matt Fox",
+  "aliases": [],
+  "bio": "官方访谈明确里斯本Studio Ellipsis叙事总监，负责游戏叙事愿景与调性；未给出具体SLG项目和任职起止时间。",
+  "roles": [
+    {
+      "company": "funplus",
+      "scope": "company",
+      "products": [],
+      "title": "other",
+      "titleNote": "叙事总监（Studio Ellipsis）",
+      "from": "2026-10-13",
+      "dateBasis": "public-observation",
+      "status": "unknown",
+      "checkedAt": "2026-10-13",
+      "note": "观察日非入职或原始发布时间，不确认当前在职。官方访谈明确里斯本Studio Ellipsis叙事总监，负责游戏叙事愿景与调性；未给出具体SLG项目和任职起止时间。",
+      "sources": [
+        {
+          "title": "FunPlus官方人物访谈：Matt Fox，叙事总监（Studio Ellipsis）",
+          "url": "https://funplus.com/people/funpeople-matt-fox-narrative-director/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "FunPlus官方人物访谈：Matt Fox，叙事总监（Studio Ellipsis）",
+      "url": "https://funplus.com/people/funpeople-matt-fox-narrative-director/"
+    }
+  ],
+  "verified": true
+}

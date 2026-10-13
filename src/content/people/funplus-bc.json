@@ -1,0 +1,32 @@
+{
+  "name": "BC",
+  "aliases": [],
+  "bio": "官方访谈自述连接用户、游戏设计及管理团队；公开署名仅BC，全名、具体项目及任期未确认。",
+  "roles": [
+    {
+      "company": "funplus",
+      "scope": "company",
+      "products": [],
+      "title": "other",
+      "titleNote": "用户体验负责人",
+      "from": "2026-10-13",
+      "dateBasis": "public-observation",
+      "status": "unknown",
+      "checkedAt": "2026-10-13",
+      "note": "观察日非入职或原始发布时间，不确认当前在职。官方访谈自述连接用户、游戏设计及管理团队；公开署名仅BC，全名、具体项目及任期未确认。",
+      "sources": [
+        {
+          "title": "FunPlus官方人物访谈：BC，用户体验负责人",
+          "url": "https://funplus.com/people/funpluspeople-bc-head-of-ux/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "FunPlus官方人物访谈：BC，用户体验负责人",
+      "url": "https://funplus.com/people/funpluspeople-bc-head-of-ux/"
+    }
+  ],
+  "verified": true
+}
