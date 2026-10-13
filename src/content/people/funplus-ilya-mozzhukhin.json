@@ -1,7 +1,7 @@
 {
   "name": "Ilya Mozzhukhin",
   "aliases": [],
-  "bio": "官方访谈自述为里斯本Studio Ellipsis动画总监，负责动画流程和团队；具体游戏署名不明。",
+  "bio": "Studio Ellipsis动画总监。EHU活动主办方2026-03-12履历明确其负责Nightholme动画；不等同游戏创意总监，其Artificial Detective创意总监为另一动画项目。实际任期及当前状态未确认。",
   "roles": [
     {
       "company": "funplus",
@@ -17,15 +17,23 @@
         {
           "title": "FunPlus官方：Ilya Mozzhukhin任Ellipsis动画总监",
           "url": "https://funplus.com/people/funpeople-ilya-mozzhukhin-animation-director/"
+        },
+        {
+          "title": "EHU主办方2026-03-12活动履历：Ilya任Nightholme动画总监",
+          "url": "https://en.ehuniversity.lt/news/registration-to-the-meetup-game-creation-talks-crafting-worlds-through-art-motion-is-now-open/"
         }
       ],
-      "note": "日期为公开资料观察日，不等同入职日；未公开实际任期。"
+      "note": "官方访谈确认工作室职责；EHU主办方2026-03-12履历明确Nightholme动画总监。作品尚无确认上线日，暂保留公司级角色并注明项目，不推定其他SLG分工。"
     }
   ],
   "sources": [
     {
       "title": "FunPlus官方：Ilya Mozzhukhin任Ellipsis动画总监",
       "url": "https://funplus.com/people/funpeople-ilya-mozzhukhin-animation-director/"
+    },
+    {
+      "title": "EHU主办方2026-03-12活动履历：Ilya任Nightholme动画总监",
+      "url": "https://en.ehuniversity.lt/news/registration-to-the-meetup-game-creation-talks-crafting-worlds-through-art-motion-is-now-open/"
     }
   ],
   "verified": true

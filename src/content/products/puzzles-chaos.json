@@ -32,6 +32,10 @@
     {
       "title": "Apple美国iOS：发行元数据与卖方",
       "url": "https://itunes.apple.com/lookup?id=6446389130&country=us"
+    },
+    {
+      "title": "易娱官方2026-01-26：Puzzles & Chaos自研及累计玩家口径（仅采用产品信息）",
+      "url": "https://www.eyugame.com/yiyudongtai/366"
     }
   ],
   "verified": true,
@@ -65,6 +69,15 @@
         {
           "title": "三七互娱官方：37GAMES为海外发行品牌",
           "url": "https://www.37wan.net/brand.html?active=1"
+        }
+      ]
+    },
+    {
+      "note": "核查2026-10-13。易娱2026-01-26官网明确称本作为自研，累计全球游戏玩家超过1500万；未说明活跃、去重或注册口径，不能写成DAU，也不据此推算收入。本文奖项不收录。",
+      "sources": [
+        {
+          "title": "易娱官方2026-01-26：Puzzles & Chaos自研及累计玩家口径（仅采用产品信息）",
+          "url": "https://www.eyugame.com/yiyudongtai/366"
         }
       ]
     }
