@@ -1,0 +1,45 @@
+{
+  "name": "Gary Sanchez",
+  "aliases": [],
+  "bio": "外部战舰概念设计合作；本人官网列Foundation GF，合作方公告确认战舰设计。不是张志伟（Gary），不认定FunPlus内部雇员。",
+  "roles": [
+    {
+      "company": "funplus",
+      "scope": "product",
+      "products": [
+        "foundation-galactic-frontier"
+      ],
+      "title": "other",
+      "titleNote": "外部战舰概念设计师",
+      "from": "2026-03-30",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-14",
+      "status": "unknown",
+      "specialties": [
+        "strategy"
+      ],
+      "note": "日期为公开公告/报道观察日，不是入职或合作起点。外部战舰概念设计合作；本人官网列Foundation GF，合作方公告确认战舰设计。不是张志伟（Gary），不认定FunPlus内部雇员。",
+      "sources": [
+        {
+          "title": "Mirrativ官方2026-03-30合作公告：Foundation舰船设计与音乐署名",
+          "url": "https://www.mirrativ.co.jp/news/96/"
+        },
+        {
+          "title": "Gary Sanchez本人官网References：FunPlus Foundation GF项目",
+          "url": "https://www.garysanchezdesign.com/references"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Mirrativ官方2026-03-30合作公告：Foundation舰船设计与音乐署名",
+      "url": "https://www.mirrativ.co.jp/news/96/"
+    },
+    {
+      "title": "Gary Sanchez本人官网References：FunPlus Foundation GF项目",
+      "url": "https://www.garysanchezdesign.com/references"
+    }
+  ],
+  "verified": true
+}

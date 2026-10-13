@@ -1,0 +1,37 @@
+{
+  "name": "SCG",
+  "aliases": [],
+  "bio": "七点GAME将其列为角色leader；本人项目作品原文暂未读到，仅作为待确认的公开职业署名，不推定法定姓名、在职或雇佣关系。",
+  "roles": [
+    {
+      "company": "funplus",
+      "scope": "product",
+      "products": [
+        "foundation-galactic-frontier"
+      ],
+      "title": "other",
+      "titleNote": "角色设计负责人（媒体报道，待确认）",
+      "from": "2026-07-09",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-14",
+      "status": "unknown",
+      "specialties": [
+        "strategy"
+      ],
+      "note": "日期为公开公告/报道观察日，不是入职或合作起点。七点GAME将其列为角色leader；本人项目作品原文暂未读到，仅作为待确认的公开职业署名，不推定法定姓名、在职或雇佣关系。",
+      "sources": [
+        {
+          "title": "七点GAME 2026-07-09搜狐发布：Foundation美术团队（微信原文未取得）",
+          "url": "https://www.sohu.com/a/1047925490_120712893"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "七点GAME 2026-07-09搜狐发布：Foundation美术团队（微信原文未取得）",
+      "url": "https://www.sohu.com/a/1047925490_120712893"
+    }
+  ],
+  "verified": false
+}

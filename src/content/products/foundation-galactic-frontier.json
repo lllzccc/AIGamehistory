@@ -36,6 +36,18 @@
     {
       "title": "Sea本人作品集：Foundation飞船礼包插画设计与团队合作",
       "url": "https://user-667325.artstation.com/projects/xdz3l2"
+    },
+    {
+      "title": "Mirrativ官方2026-03-30合作公告：Foundation舰船设计与音乐署名",
+      "url": "https://www.mirrativ.co.jp/news/96/"
+    },
+    {
+      "title": "Gary Sanchez本人官网References：FunPlus Foundation GF项目",
+      "url": "https://www.garysanchezdesign.com/references"
+    },
+    {
+      "title": "七点GAME 2026-07-09搜狐发布：Foundation美术团队（微信原文未取得）",
+      "url": "https://www.sohu.com/a/1047925490_120712893"
     }
   ],
   "verified": true,
@@ -105,12 +117,38 @@
           "url": "https://user-667325.artstation.com/projects/xdz3l2"
         }
       ]
+    },
+    {
+      "observedAt": "2026-03-30",
+      "kind": "official",
+      "summary": "合作方Mirrativ官方公告明确战舰设计师Gary Sanchez、Gan Naran及音乐共同创作者Andreas Waldetoft。按外部项目合作展示，不认定内部员工或游戏制作人。",
+      "sources": [
+        {
+          "title": "Mirrativ官方2026-03-30合作公告：Foundation舰船设计与音乐署名",
+          "url": "https://www.mirrativ.co.jp/news/96/"
+        },
+        {
+          "title": "Gary Sanchez本人官网References：FunPlus Foundation GF项目",
+          "url": "https://www.garysanchezdesign.com/references"
+        }
+      ]
+    },
+    {
+      "observedAt": "2026-07-09",
+      "kind": "reported",
+      "summary": "七点GAME搜狐发布将SCG列为角色leader，Hua Lu中文职业署名为华路。微信原文未取得；SCG具体岗位、法定姓名与任期仍待确认。",
+      "sources": [
+        {
+          "title": "七点GAME 2026-07-09搜狐发布：Foundation美术团队（微信原文未取得）",
+          "url": "https://www.sohu.com/a/1047925490_120712893"
+        }
+      ]
     }
   ],
   "personnelResearch": {
     "status": "documented",
     "checkedAt": "2026-10-14",
-    "note": "已找到项目美术总监及两位具体美术贡献者的本人作品；制作人、主策、实际任期与雇佣关系仍待核。其他致谢对象未逐项确认岗位，不自动建档。",
+    "note": "已找到项目美术总监及两位具体美术贡献者的本人作品；制作人、主策、实际任期与雇佣关系仍待核。其他致谢对象未逐项确认岗位，不自动建档。续补合作方公告可核的两位战舰设计师和一位音乐创作者，以及媒体报道的角色负责人SCG待确认。",
     "sources": [
       {
         "title": "Hua Lu本人作品集：Foundation项目美术总监与团队致谢",

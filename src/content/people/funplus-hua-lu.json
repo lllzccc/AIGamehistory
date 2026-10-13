@@ -1,7 +1,9 @@
 {
   "name": "Hua Lu",
-  "aliases": [],
-  "bio": "本人作品集自述以美术总监身份带领团队约三年，Hou China的项目作品也署名Hualu为美术总监；不从三年倒推入职日。姓名按公开职业作品集署名保留，中文法定姓名未核实。",
+  "aliases": [
+    "华路"
+  ],
+  "bio": "本人作品集自述以美术总监身份带领团队约三年，Hou China的项目作品也署名Hualu为美术总监；不从三年倒推入职日。姓名按公开职业作品集署名保留，中文法定姓名未核实。七点GAME公开报道使用中文职业署名“华路”，不等同法定姓名核验。",
   "roles": [
     {
       "company": "funplus",
@@ -39,6 +41,10 @@
     {
       "title": "Hou China本人作品集：Foundation早期角色探索、美术总监Hualu",
       "url": "https://chinahou.artstation.com/projects/Wd2X9X"
+    },
+    {
+      "title": "七点GAME 2026-07-09搜狐发布：Foundation美术团队（微信原文未取得）",
+      "url": "https://www.sohu.com/a/1047925490_120712893"
     }
   ],
   "verified": true

@@ -1,0 +1,111 @@
+{
+  "name": "Foundation: Galactic Frontier",
+  "aliases": [
+    "ファウンデーション：銀河フロンティア"
+  ],
+  "chronicles": [
+    "slg"
+  ],
+  "genre": "strategy",
+  "developer": "funplus",
+  "publisher": "funplus",
+  "released": "2026-03-27",
+  "platforms": [
+    "iOS",
+    "Android",
+    "Windows"
+  ],
+  "status": "live",
+  "versionLabel": "日本地区正式服务 · 官方3月27日口径",
+  "significance": "既有Foundation项目的日本地区上线，包含舰队、移动主城与商会协作；属于地区版本，不计作2026年全球首发的新IP。",
+  "cover": "/images/slg/foundation-galactic-frontier.jpg",
+  "keyArt": "/images/slg/foundation-galactic-frontier.jpg",
+  "sources": [
+    {
+      "title": "Foundation日本官方网站：2026-03-27配信开始及平台",
+      "url": "https://www.foundation.game/ja"
+    },
+    {
+      "title": "Apple日本Foundation原始记录：2026-03-26，核查2026-10-14",
+      "url": "https://itunes.apple.com/lookup?id=6737595599&country=jp"
+    },
+    {
+      "title": "Mirrativ官方2026-03-30：日本3月27日发行及外部主创署名",
+      "url": "https://www.mirrativ.co.jp/news/96/"
+    }
+  ],
+  "verified": true,
+  "gameplay": {
+    "core": "other",
+    "fusion": [],
+    "basis": "editorial",
+    "checkedAt": "2026-10-12",
+    "note": "按公开玩法作编辑归类；科幻舰队实时战争暂归其他，不仅因有联盟就认定ROK型。",
+    "sources": [
+      {
+        "title": "FunPlus官方全球上线：2025-10-21、成都研发与2024测试",
+        "url": "https://funplus.com/foundation-galactic-frontier-global-launch/"
+      },
+      {
+        "title": "Apple美国iOS发行记录与卖方，核查2026-10-12",
+        "url": "https://itunes.apple.com/lookup?id=6737595599&country=us"
+      }
+    ]
+  },
+  "lifecycleNotes": [
+    {
+      "note": "核查2026-10-14。日本官网及合作方公告记载2026-03-27正式提供服务；日本Apple同ID6737595599记录2026-03-26T07:00:00Z。地区商店记录与正式服务公告分开，一天差异的阶段原因未证实。全球公告2025-10-21不等同日本发行。",
+      "sources": [
+        {
+          "title": "Foundation日本官方网站：2026-03-27配信开始及平台",
+          "url": "https://www.foundation.game/ja"
+        },
+        {
+          "title": "Apple日本Foundation原始记录：2026-03-26，核查2026-10-14",
+          "url": "https://itunes.apple.com/lookup?id=6737595599&country=jp"
+        },
+        {
+          "title": "Mirrativ官方2026-03-30：日本3月27日发行及外部主创署名",
+          "url": "https://www.mirrativ.co.jp/news/96/"
+        }
+      ]
+    },
+    {
+      "note": "官方日本站列App Store/Google Play/PC入口；Apple Silicon Mac的兼容提示不作为单独Mac首发版本。各平台预下载/开服具体时刻仍待查。",
+      "sources": [
+        {
+          "title": "Foundation日本官方网站：2026-03-27配信开始及平台",
+          "url": "https://www.foundation.game/ja"
+        }
+      ]
+    }
+  ],
+  "teamEvidence": [
+    {
+      "observedAt": "2026-03-30",
+      "kind": "official",
+      "summary": "合作方公告署名外部战舰设计师Gary Sanchez/Gan Naran和音效/BGM共同创作者Andreas Waldetoft。这是原项目创作贡献，不证明日本版本本地化团队或发行管理职责。",
+      "sources": [
+        {
+          "title": "Mirrativ官方2026-03-30：日本3月27日发行及外部主创署名",
+          "url": "https://www.mirrativ.co.jp/news/96/"
+        }
+      ]
+    }
+  ],
+  "personnelResearch": {
+    "status": "documented",
+    "checkedAt": "2026-10-14",
+    "note": "原项目部分美术与音乐合作已具名；日本本地化/运营人员、制作人及主策未查明，不将原项目人员自动认定为本地化负责人。",
+    "sources": [
+      {
+        "title": "Mirrativ官方2026-03-30：日本3月27日发行及外部主创署名",
+        "url": "https://www.mirrativ.co.jp/news/96/"
+      },
+      {
+        "title": "Foundation日本官方网站：2026-03-27配信开始及平台",
+        "url": "https://www.foundation.game/ja"
+      }
+    ]
+  }
+}

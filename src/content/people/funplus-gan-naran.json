@@ -1,0 +1,37 @@
+{
+  "name": "Gan Naran",
+  "aliases": [],
+  "bio": "合作方公告署名的外部战舰设计师；实际参与任期、当前合作状态与雇佣关系未确认。",
+  "roles": [
+    {
+      "company": "funplus",
+      "scope": "product",
+      "products": [
+        "foundation-galactic-frontier"
+      ],
+      "title": "other",
+      "titleNote": "外部战舰设计师",
+      "from": "2026-03-30",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-14",
+      "status": "unknown",
+      "specialties": [
+        "strategy"
+      ],
+      "note": "日期为公开公告/报道观察日，不是入职或合作起点。合作方公告署名的外部战舰设计师；实际参与任期、当前合作状态与雇佣关系未确认。",
+      "sources": [
+        {
+          "title": "Mirrativ官方2026-03-30合作公告：Foundation舰船设计与音乐署名",
+          "url": "https://www.mirrativ.co.jp/news/96/"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "Mirrativ官方2026-03-30合作公告：Foundation舰船设计与音乐署名",
+      "url": "https://www.mirrativ.co.jp/news/96/"
+    }
+  ],
+  "verified": true
+}

@@ -475,6 +475,13 @@
               "url": "https://store.steampowered.com/app/2806410/Project_Entropy/"
             },
             "note": "移动商店2023-12-06、Steam2024-04-16、2022-12历史版本公告分别记录。"
+          },
+          {
+            "source": {
+              "title": "Foundation日本官方网站：2026-03-27配信开始及平台",
+              "url": "https://www.foundation.game/ja"
+            },
+            "note": "日本2026-03-27开服，与Apple3月26日记录差异分别保留；不是新IP全球首发。"
           }
         ],
         "gaps": [
@@ -673,6 +680,20 @@
               "url": "https://user-667325.artstation.com/projects/xdz3l2"
             },
             "note": "读取本人项目作品说明，核对具体美术贡献；雇佣/任期未知。"
+          },
+          {
+            "source": {
+              "title": "Mirrativ官方2026-03-30合作公告：Foundation舰船设计与音乐署名",
+              "url": "https://www.mirrativ.co.jp/news/96/"
+            },
+            "note": "合作方公告具名战舰设计及音乐共同创作，外部项目合作与内部人才分开。"
+          },
+          {
+            "source": {
+              "title": "七点GAME 2026-07-09搜狐发布：Foundation美术团队（微信原文未取得）",
+              "url": "https://www.sohu.com/a/1047925490_120712893"
+            },
+            "note": "搜狐发布正文已读，微信原文未取得；角色leader SCG保留待确认，不取未明币种/月份的流水。"
           }
         ],
         "gaps": [
@@ -933,3 +954,9 @@ Sensor Tower 2018年9月原文估算Guns of Glory上线首年全球玩家支出�
 ## Foundation项目美术署名（核查2026-10-14）
 
 Hua Lu本人作品集自述带领项目美术团队，Hou China的早期角色设计作品亦将其署名为Art Director；Sea作品说明负责飞船礼包插画。三位按具体项目职责进入人才地图。公开职业署名不等同法定姓名，作品贡献不等同内部雇佣或当前在职；实际任期、制作人和主策仍待查，其他致谢名单也不直接作岗位证明。
+
+
+2026-10-14续核Foundation团队：合作方Mirrativ官方2026-03-30公告署名战舰设计师Gary Sanchez、Gan Naran及音乐共同创作者Andreas Waldetoft；Gary本人官网也列FunPlus的Foundation GF项目。三位按外部合作记录，未知实际任期。七点GAME搜狐发布补华路中文职业署名，以及角色leader SCG待确认；公众号原文未取得，未采用其缺少月份/币种说明的流水数字。
+
+
+Foundation日本地区正式服务为2026-03-27（日本官网与合作方公告），Apple日本记录为3月26日。同一商店ID可随地区给出不同发行日期，不将美国/日本记录混为一项。日本本地化团队未确认，原项目的外部美术/音乐贡献也不等同本地化负责人。核查2026-10-14。
