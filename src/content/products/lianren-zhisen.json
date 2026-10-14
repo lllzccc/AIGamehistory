@@ -47,10 +47,16 @@
     }
   ],
   "revenue": [],
+  "keyArt": "/images/lianren-zhisen-official.png",
+  "artPosition": "center",
   "sources": [
     {
       "title": "九游《恋人之森》渠道页：开发商玩友时代、好玩友独家代理、状态停止运营",
       "url": "https://www.9game.cn/lrzs/1522363.html"
+    },
+    {
+      "title": "九游《恋人之森》主站（icon归属交叉验证）",
+      "url": "https://www.9game.cn/lrzs/"
     },
     {
       "title": "百度百科（线索级）：恋人之森——好玩友发行、2019-10-31停止运营",
