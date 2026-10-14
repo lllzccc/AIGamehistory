@@ -103,10 +103,18 @@ researchChecklist:
             title: 每经网：2026 年 6 月 17 日官方确认制作人小萌离职
             url: https://www.nbd.com.cn/articles/2026-06-18/4430386.html
           note: 小萌自立项至2026-06在任，离职后由原核心团队承接；既有档案续查。
+        - source:
+            title: 新华网（瞭望东方周刊）2024-08-14：如鸢制作人小萌专访
+            url: http://www.news.cn/local/20240814/4e98a80e0da745c595e45eb5054c6510/c.html
+          note: 小萌为女制作人；音乐团队年轻（最年轻2000年出生）、团队含历史学专业同事；离职后去向未披露。已入人物档与产品teamEvidence。
+        - source:
+            title: 网易云游戏资讯页 2026-06-19（用户投稿级）
+            url: https://cg.163.com/static/content/6a35fc927e38e81e6746b629
+          note: 主笔扶他柠檬茶（网络文学作家）与制作人同日确认离队、重心转向影视编剧；官方公告未具名确认，线索级入档。
       gaps:
         - question: 鸢工作室主策、主美、核心美术等岗位公开署名
           status: not-found
-          nextStep: 查官方幕后内容与开发者访谈；离职后承接团队的具体负责人未公开。
+          nextStep: 制作人与主笔已入档（主笔为线索级）；主策、主美等岗位仍无公开署名，离职后承接团队的具体负责人未公开。
           sources: []
         - question: 周炳枢担任《三国志·战略版》制作人的起始时间
           status: pending
@@ -146,6 +154,15 @@ researchChecklist:
           url: https://finance.sina.com.cn/jjxw/2026-08-24/doc-inipkriv0120529.shtml
         - title: 每日经济新闻 2024-12-09：灵犀互娱是时候证明自己了
           url: https://www.mrjjxw.com/articles/2024-12-09/3678259.html
+    - checkedAt: "2026-10-14"
+      channel: 人才专项（官方媒体专访与玩家资讯）
+      note: "小萌专访细节（女制作人、团队构成）与主笔扶他柠檬茶线索入档；主笔离队待官方级来源。"
+      foundKeyFacts: true
+      sources:
+        - title: 新华网（瞭望东方周刊）2024-08-14：如鸢制作人小萌专访
+          url: http://www.news.cn/local/20240814/4e98a80e0da745c595e45eb5054c6510/c.html
+        - title: 网易云游戏资讯页 2026-06-19（用户投稿级）
+          url: https://cg.163.com/static/content/6a35fc927e38e81e6746b629
 ---
 
 ### 概览

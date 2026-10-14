@@ -162,10 +162,18 @@ researchChecklist:
             title: 竞核直接采访 2026-03-16：恋与深空制作人栗子
             url: https://cgames.com/contents/2/10773.html
           note: 2026-10-10人员审计轮已核对；栗子2013年加入叠纸。
+        - source:
+            title: 搜狐：姚润昊TGDC 2019演讲《〈闪耀暖暖〉项目背后的故事》（2019-09-21）
+            url: https://www.sohu.com/a/342507476_204824
+          note: 姚润昊自述“坚持自己担任制作人做下去”，已为其实录闪耀暖暖制作人产品署名；腾讯游戏学堂存演讲页。
+        - source:
+            title: Automaton 2026-05-04：无限暖暖美术总监Dodie的GDC 2026服装设计演讲
+            url: https://automaton-media.com/en/news/you-cant-touch-peoples-hearts-by-just-piling-together-visual-information-infinity-nikki-art-director-explains-how-outfits-are-designed-to-express-narrative-and-sym
+          note: Dodie获第二独立来源（Apple专题+GDC演讲报道）升verified；GDC 2026另设恋与深空专场。
       gaps:
-        - question: 恋与制作人/奇迹暖暖/闪耀暖暖/暖暖环游世界的制作人、主策、主美等岗位公开实名署名
+        - question: 恋与制作人/奇迹暖暖/暖暖环游世界的制作人、主策、主美等岗位公开实名署名（闪耀暖暖制作人已核实为姚润昊）
           status: not-found
-          nextStep: 继续查官方幕后内容、开发者演讲与当期采访；不以创始人公司职务替代项目署名。
+          nextStep: 三作继续查官方幕后内容、开发者演讲与当期采访；闪耀暖暖的主策、主美仍无署名，不以创始人公司职务替代。
           sources: []
         - question: Douhu/Ade/Dodie 的全名及中英文对应
           status: pending
@@ -217,7 +225,16 @@ researchChecklist:
           url: https://www.jiemian.com/article/12230881.html
         - title: Apple 开发者专题 2026-04-03：无限暖暖团队约800人与主创署名
           url: https://developer.apple.com/news/?id=9mgkwjnm
-financials: []
+    - checkedAt: "2026-10-14"
+      channel: 人才专项（大会演讲、官方专题与当期报道）
+      note: "闪耀暖暖制作人姚润昊（TGDC自述）入档；Dodie升verified；未发现恋与制作人/奇迹暖暖/暖暖环游世界项目署名，缺口收窄。"
+      foundKeyFacts: true
+      sources:
+        - title: 搜狐：姚润昊TGDC 2019演讲《〈闪耀暖暖〉项目背后的故事》
+          url: https://www.sohu.com/a/342507476_204824
+        - title: Automaton 2026-05-04：无限暖暖美术总监Dodie的GDC 2026演讲
+          url: https://automaton-media.com/en/news/you-cant-touch-peoples-hearts-by-just-piling-together-visual-information-infinity-nikki-art-director-explains-how-outfits-are-designed-to-express-narrative-and-sym
+  financials: []
 research:
   - area: people
     status: partial

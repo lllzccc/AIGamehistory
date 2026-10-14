@@ -58,5 +58,18 @@
   "verified": false,
   "chronicles": [
     "female"
+  ],
+  "teamEvidence": [
+    {
+      "observedAt": "2024-08-14",
+      "kind": "reported",
+      "summary": "制作人小萌专访：音乐团队非常年轻（多数刚毕业两三年、最年轻2000年出生），团队中有历史学专业毕业的同事；针对“换人跑路”传言回应称与团队追求新鲜体验、缺乏成熟经验可循有关。",
+      "sources": [
+        {
+          "title": "新华网（瞭望东方周刊）2024-08-14：如鸢制作人小萌专访",
+          "url": "http://www.news.cn/local/20240814/4e98a80e0da745c595e45eb5054c6510/c.html"
+        }
+      ]
+    }
   ]
 }

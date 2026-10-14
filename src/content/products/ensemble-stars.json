@@ -49,5 +49,18 @@
   "verified": false,
   "chronicles": [
     "female"
+  ],
+  "teamEvidence": [
+    {
+      "observedAt": "2026-10-14",
+      "kind": "official",
+      "summary": "Live2D官方采访：ES APP开发运营团队为Happy Elements株式会社Cacalia Studio，约25人；2名Live2D担当兼任艺术总监与背景插画，APP上线前Live2D工作全部自制无外包；Live2D方案在企划阶段即采纳。",
+      "sources": [
+        {
+          "title": "Live2D官方采访：偶像梦幻祭开发团队（Cacalia Studio）",
+          "url": "https://www.live2d.com/zh-CHS/business/interview/ensemblestars"
+        }
+      ]
+    }
   ]
 }
