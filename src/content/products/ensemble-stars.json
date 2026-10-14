@@ -14,6 +14,17 @@
     "Android"
   ],
   "status": "shutdown",
+  "lifecycleNotes": [
+    {
+      "note": "日服原版2015年5月1日上线；2020年日服拆分为承接原故事线的Basic与3D新作Music两版（4Gamer采访口径）。本档为国服一代（腾讯代理），国服停运后由二代承接。",
+      "sources": [
+        {
+          "title": "GameLook（4Gamer采访）2023-03：乐元素日本CEO新井元基专访",
+          "url": "http://www.gamelook.com.cn/2023/03/512660"
+        }
+      ]
+    }
+  ],
   "significance": "乐元素日本工作室开发的男子偶像养成，玩家扮演女性制作人；国服由腾讯代理，是当时少有的头部二次元女向引进作。",
   "keyArt": "/images/happyelements/ensemble-stars.jpg",
   "revenue": [],

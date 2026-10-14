@@ -1,0 +1,35 @@
+{
+  "name": "日日日",
+  "aliases": [
+    "Akira"
+  ],
+  "bio": "日本轻小说作家（笔名“日日日”，读作Akira）。《偶像梦幻祭》系列的故事脚本由其担任，为外部合作者，非乐元素内部员工。",
+  "roles": [
+    {
+      "company": "happyelements",
+      "scope": "product",
+      "products": [
+        "ensemble-stars-2"
+      ],
+      "title": "writer",
+      "from": "2023",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "sources": [
+        {
+          "title": "GameLook（4Gamer采访）2023-03：乐元素日本CEO新井元基专访",
+          "url": "http://www.gamelook.com.cn/2023/03/512660"
+        }
+      ],
+      "checkedAt": "2026-10-14",
+      "note": "依据4Gamer采访中ES!! Music开发叙述（除3DCG与音乐外自制，故事由外部脚本作家、轻小说家日日日负责）；起点按采访观察日，实际执笔起点与是否覆盖一代未核实；外部编剧身份不按公司职员计。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "GameLook（4Gamer采访）2023-03：乐元素日本CEO新井元基专访",
+      "url": "http://www.gamelook.com.cn/2023/03/512660"
+    }
+  ],
+  "verified": false
+}

@@ -13,6 +13,30 @@
     "Android"
   ],
   "status": "live",
+  "teamEvidence": [
+    {
+      "observedAt": "2023-03",
+      "kind": "reported",
+      "summary": "4Gamer采访新井元基：HEKK京都约250人团队中约90人投入偶像梦幻祭系列；除3DCG与音乐外内容几乎全部由开发团队自制，故事由外部脚本作家、轻小说家日日日负责。",
+      "sources": [
+        {
+          "title": "GameLook（4Gamer采访）2023-03：乐元素日本CEO新井元基专访",
+          "url": "http://www.gamelook.com.cn/2023/03/512660"
+        }
+      ]
+    }
+  ],
+  "lifecycleNotes": [
+    {
+      "note": "对应日服ES!! Music：上线当日列日本App Store畅销榜第6，此后长期居前十；2023年3月采访时点日本月流水1亿元人民币以上、占HEKK收入九成以上（媒体采访口径，非财报数字，不作年度流水录入）。",
+      "sources": [
+        {
+          "title": "GameLook（4Gamer采访）2023-03：乐元素日本CEO新井元基专访",
+          "url": "http://www.gamelook.com.cn/2023/03/512660"
+        }
+      ]
+    }
+  ],
   "significance": "一代国服停运后的续作，对应日服 Music，由乐元素自研自发，从卡牌养成转向 3D LIVE 音游。",
   "keyArt": "/images/happyelements/ensemble-stars-2.jpg",
   "revenue": [],
@@ -28,6 +52,10 @@
     {
       "title": "App Store：开发者为乐元素，官网 es2.happyelements.cn",
       "url": "https://apps.apple.com/cn/app/%E5%81%B6%E5%83%8F%E6%A2%A6%E5%B9%BB%E7%A5%AD2/id1495166402"
+    },
+    {
+      "title": "GameLook（4Gamer采访）2023-03：乐元素日本CEO新井元基专访",
+      "url": "http://www.gamelook.com.cn/2023/03/512660"
     }
   ],
   "verified": false,

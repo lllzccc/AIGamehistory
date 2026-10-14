@@ -1,0 +1,34 @@
+{
+  "name": "新井元基",
+  "aliases": [
+    "Motoyuki Arai"
+  ],
+  "bio": "乐元素日本子公司 Happy Elements株式会社（HEKK）社长。原为日本电脑制作株式会社社长，2011年该公司被乐元素收购后一直执掌HEKK，主导从代理发行转向本地自研，京都团队先后做出《梅露可物语》《偶像梦幻祭》系列等作品。",
+  "roles": [
+    {
+      "company": "happyelements",
+      "scope": "company",
+      "products": [],
+      "title": "other",
+      "titleNote": "Happy Elements株式会社（乐元素日本子公司）社长",
+      "from": "2011",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "sources": [
+        {
+          "title": "GameLook（4Gamer采访）2023-03：乐元素日本CEO新井元基专访",
+          "url": "http://www.gamelook.com.cn/2023/03/512660"
+        }
+      ],
+      "checkedAt": "2026-10-14",
+      "note": "起点为2011年收购时点（4Gamer采访口径：其自收购起任HEKK社长）；最近在任佐证为2023-03采访，当前状态未再核实。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "GameLook（4Gamer采访）2023-03：乐元素日本CEO新井元基专访",
+      "url": "http://www.gamelook.com.cn/2023/03/512660"
+    }
+  ],
+  "verified": false
+}

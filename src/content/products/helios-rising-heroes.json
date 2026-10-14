@@ -1,0 +1,52 @@
+{
+  "name": "HELIOS Rising Heroes",
+  "aliases": [
+    "エリオスライジングヒーローズ"
+  ],
+  "chronicles": [
+    "female"
+  ],
+  "genre": "rpg",
+  "developer": "happyelements",
+  "publisher": "happyelements",
+  "released": "2020-08-03",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "status": "live",
+  "versionLabel": "日本 · HEKKカカリアスタジオ研发",
+  "significance": "乐元素日本子公司HEKK旗下カカリアスタジオ研发的女性向英雄育成指令战斗RPG，上线当日登顶日本iOS免费榜；2026年9月官宣结束在线服务并转入离线版。",
+  "lifecycleNotes": [
+    {
+      "note": "2026-09-28官方公告：在线服务于2026-12-28 14:59终止，此后应用预计更新为离线版（暂名）供继续阅读既有故事，终止前追加后日谈与既往活动全程语音化。截至核查日仍在运营，故状态记live、停服日期待实际执行后按本公告回填。核查2026-10-14。",
+      "sources": [
+        {
+          "title": "gamebiz 2026-09-28：HELIOS Rising Heroesオンライン版サービス終了のお知らせ",
+          "url": "https://gamebiz.jp/news/433265"
+        }
+      ]
+    },
+    {
+      "note": "2020年8月3日日本上线，上线数小时内登顶日本iOS免费榜（4Gamer采访口径）。",
+      "sources": [
+        {
+          "title": "GameLook（4Gamer采访）2023-03：乐元素日本CEO新井元基专访",
+          "url": "http://www.gamelook.com.cn/2023/03/512660"
+        }
+      ]
+    }
+  ],
+  "revenue": [],
+  "sources": [
+    {
+      "title": "gamebiz 2026-09-28：HELIOS Rising Heroesオンライン版サービス終了のお知らせ",
+      "url": "https://gamebiz.jp/news/433265"
+    },
+    {
+      "title": "GameLook（4Gamer采访）2023-03：乐元素日本CEO新井元基专访",
+      "url": "http://www.gamelook.com.cn/2023/03/512660"
+    }
+  ],
+  "verified": false
+}
