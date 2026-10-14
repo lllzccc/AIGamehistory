@@ -1,0 +1,29 @@
+---
+import type { Company, OrgUnitKind } from '../lib/types';
+import { orgUnitKindLabel } from '../lib/labels';
+interface Props { company: Company }
+const { company } = Astro.props;
+const units = company.orgUnits ?? [];
+const kindOrder: OrgUnitKind[] = ['business-group', 'studio-group', 'studio', 'project-team', 'middle-platform', 'publisher-brand', 'branch', 'subsidiary'];
+const groups = kindOrder.map(kind => ({ kind, items: units.filter(u => u.kind === kind) })).filter(g => g.items.length > 0);
+---
+{units.length > 0 && <section id="org" class="mx-auto max-w-6xl px-6 pt-20 sm:px-10">
+  <h2 class="font-serif text-2xl text-ink">组织架构</h2>
+  <p class="mt-3 max-w-3xl text-sm leading-relaxed text-ink-soft">公开来源可核的组织单元：工作室、中台、发行品牌与分支机构。观察日为来源口径时间；未经核实的传闻不入架构。</p>
+  <div class="mt-8 grid gap-10 md:grid-cols-2">
+    {groups.map(group => <div>
+      <h3 class="text-xs tracking-widest text-mist">{orgUnitKindLabel[group.kind]}</h3>
+      <ul class="mt-4 space-y-6">
+        {group.items.map(unit => <li class="border-l-2 border-ink/15 pl-4">
+          <div class="flex flex-wrap items-baseline gap-x-3">
+            <span class="font-display text-lg text-ink">{unit.name}</span>
+            {unit.parentUnit && <span class="text-xs text-mist">隶属 {unit.parentUnit}</span>}
+            {unit.observedAt && <span class="text-xs text-mist">观察 {unit.observedAt}</span>}
+          </div>
+          <p class="mt-1 text-sm leading-relaxed text-ink-soft">{unit.scope}{unit.note && `；${unit.note}`}</p>
+          <a href={unit.sources[0].url} title={unit.sources[0].title} target="_blank" rel="noopener noreferrer" class="mt-1 inline-block text-xs text-mist underline underline-offset-4">来源 ↗</a>
+        </li>)}
+      </ul>
+    </div>)}
+  </div>
+</section>}

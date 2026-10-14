@@ -1,9 +1,20 @@
-import type { Company, PersonTitle, Product, RevenueBasis, Role, TimelineKind } from './types';
+import type { Company, OrgUnitKind, PersonTitle, Product, RevenueBasis, Role, TimelineKind } from './types';
 
 export const revenueBasisLabel: Record<RevenueBasis, string> = {
   store: '应用商店口径',
   'all-platform': '全平台估算',
   'official-report': '官方财报',
+};
+
+export const orgUnitKindLabel: Record<OrgUnitKind, string> = {
+  'business-group': '事业群',
+  'studio-group': '工作室群',
+  studio: '工作室',
+  'project-team': '项目组',
+  'middle-platform': '中台',
+  'publisher-brand': '发行品牌',
+  branch: '分支机构',
+  subsidiary: '子公司 / 法人',
 };
 
 export const companyKindLabel: Record<Company['kind'], string> = {

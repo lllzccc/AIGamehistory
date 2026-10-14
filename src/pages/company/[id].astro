@@ -2,8 +2,11 @@
 import type { InferGetStaticPropsType } from 'astro';
 import { getCollection, render } from 'astro:content';
 import Base from '../../layouts/Base.astro';
+import KnowledgePanel from '../../components/KnowledgePanel';
+import InternalPeople from '../../components/InternalPeople';
 import CompanyHero from '../../components/CompanyHero.astro';
 import CompanyDossier from '../../components/CompanyDossier.astro';
+import CompanyOrgUnits from '../../components/CompanyOrgUnits.astro';
 import ResearchChecklist from '../../components/ResearchChecklist.astro';
 import PeopleSection from '../../components/PeopleSection.astro';
 import TalentMap from '../../components/TalentMap.astro';
@@ -46,6 +49,7 @@ const notesIndex = pad(section);
   <CompanyHero company={company} cover={cover} productCount={view.products.length} parentName={parentName} />
 
   <CompanyDossier company={company} />
+  <CompanyOrgUnits company={company} />
   <section id="timeline" class="py-24">
     <div class="mx-auto max-w-6xl px-6 sm:px-10">
       <SectionTitle index="01" title="时间轴" note="按住拖动浏览" />
@@ -64,6 +68,7 @@ const notesIndex = pad(section);
   </section>
 
   <PeopleSection index={peopleIndex} people={view.people} companies={ds.companies} />
+  {import.meta.env.PUBLIC_KNOWLEDGE_ENABLED === 'true' && <div class="mx-auto max-w-6xl px-6 pb-12 sm:px-10"><InternalPeople client:load companyId={company.id} /></div>}
   {view.talentMap.length > 0 && <TalentMap index={talentIndex} groups={view.talentMap} />}
 
   <section class="mx-auto max-w-3xl px-6 py-24 sm:px-10">
@@ -76,4 +81,5 @@ const notesIndex = pad(section);
     </div>
   </section>
   <ResearchChecklist company={company} />
+  {import.meta.env.PUBLIC_KNOWLEDGE_ENABLED === 'true' && <div class="mx-auto max-w-3xl px-6 pb-16 sm:px-10"><KnowledgePanel client:visible companyId={company.id} /></div>}
 </Base>

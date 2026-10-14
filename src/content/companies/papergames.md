@@ -49,6 +49,42 @@ sources:
   - title: ミラクルニキ（奇迹暖暖日本版）官方X：维护与活动公告，核查2026-10-14仍运营
     url: https://x.com/miraclenikkijp
 verified: false
+orgUnits:
+  - name: TipsWorks
+    kind: studio
+    scope: 《帕斯卡契约》研发工作室；2021年10月与叠纸官宣合作并入，研发跨平台动作RPG《万物契约》（2025年1月官宣转向买断制单机并团队人员调整）
+    observedAt: "2025-01"
+    sources:
+      - title: 界面新闻 2021-10-20：TipsWorks 工作室选择叠纸作为新东家
+        url: https://www.jiemian.com/article/6720501.html
+  - name: 十七折工作室
+    kind: studio
+    scope: 多平台中国风开放世界动作游戏《百面千相》自研（2022年首曝，尚未开测）
+    observedAt: "2026-10-14"
+    sources:
+      - title: 叠纸官网主站目录：万物契约（TipsWorks）、百面千相（十七折）与叠纸动画，核查2026-10-14
+        url: https://www.papegames.com
+  - name: 叠纸动画
+    kind: studio
+    scope: 原创动画业务线，专注高品质原创动画作品
+    observedAt: "2026-10-14"
+    sources:
+      - title: 叠纸官网主站目录：万物契约（TipsWorks）、百面千相（十七折）与叠纸动画，核查2026-10-14
+        url: https://www.papegames.com
+  - name: Infold 京都办公室
+    kind: branch
+    scope: 海外研发分支：富永健太郎为该办公室首名员工，2024年8月采访时点约10人规模
+    observedAt: "2024-08"
+    sources:
+      - title: IGN 采访 2024-08-23：富永健太郎任无限暖暖 sub-director 及 Infold 京都办公室
+        url: https://www.ign.com/articles/dress-up-jump-up-developer-kentaro-tominaga-shares-gameplay-design-of-infinity-nikki
+  - name: 上海叠纸科技有限公司
+    kind: subsidiary
+    scope: 2019年3月成立，苏州叠纸网络科技股份有限公司全资持股；《恋与深空》由其旗下子公司运营，2025年10月法定代表人变更为联合创始人、COO姚飞
+    observedAt: "2025-10"
+    sources:
+      - title: 南方都市报 2025-10-28：姚飞接任上海叠纸科技法定代表人
+        url: https://static.nfnews.com/content/202510/28/c11856476.html
 researchChecklist:
   items:
     - area: history

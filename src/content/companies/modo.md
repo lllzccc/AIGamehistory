@@ -19,6 +19,21 @@ sources:
   - title: "TapTap 官方入驻：皇上吉祥2研发、发行与安卓上线日期"
     url: https://www.taptap.cn/app/195532
 verified: false
+orgUnits:
+  - name: MODO GLOBAL
+    kind: branch
+    scope: 2019年设立于新加坡的海外品牌主体，Legend of the Phoenix 等海外产品由其发行
+    observedAt: "2026-10-14"
+    sources:
+      - title: 摩多官网：公司成立及产品发展历程
+        url: https://modo.cn/cn/mobile/about.html
+  - name: 成都分公司
+    kind: branch
+    scope: 2020年成立
+    observedAt: "2026-10-14"
+    sources:
+      - title: 摩多官网：公司成立及产品发展历程
+        url: https://modo.cn/cn/mobile/about.html
 researchChecklist:
   items:
     - area: history

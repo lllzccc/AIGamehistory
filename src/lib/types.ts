@@ -3,6 +3,8 @@ import type {
   companySchema,
   eventSchema,
   marketEntrySchema,
+  orgUnitKindSchema,
+  orgUnitSchema,
   personSchema,
   personTitleSchema,
   productSchema,
@@ -14,6 +16,8 @@ import type {
 
 export type Source = z.infer<typeof sourceSchema>;
 export type Company = z.infer<typeof companySchema> & { id: string };
+export type OrgUnit = z.infer<typeof orgUnitSchema>;
+export type OrgUnitKind = z.infer<typeof orgUnitKindSchema>;
 export type RevenueBasis = z.infer<typeof revenueBasisSchema>;
 export type RevenueEntry = z.infer<typeof revenueEntrySchema>;
 export type Product = z.infer<typeof productSchema> & { id: string };
@@ -110,6 +114,7 @@ export interface MarketPoint {
 export interface RiverCompany {
   id: string;
   name: string;
+  aliases?: string[];
   tagline: string;
   kind: Company['kind'];
   logo?: string;

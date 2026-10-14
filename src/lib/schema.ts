@@ -14,6 +14,17 @@ export const sourceSchema = z.object({
 const sources = z.array(sourceSchema).min(1, { error: '至少需要一个来源' });
 
 export const researchAreaSchema = z.enum(['history', 'catalog', 'lifecycle', 'talent', 'business']);
+
+export const orgUnitKindSchema = z.enum(['business-group', 'studio-group', 'studio', 'project-team', 'middle-platform', 'publisher-brand', 'branch', 'subsidiary']);
+export const orgUnitSchema = z.object({
+  name: z.string().min(1),
+  kind: orgUnitKindSchema,
+  scope: z.string().min(1),
+  parentUnit: z.string().optional(),
+  observedAt: partialDate.optional(),
+  note: z.string().optional(),
+  sources: z.array(sourceSchema).min(1),
+});
 export const researchGapSchema = z.object({
   question: z.string().min(1),
   status: z.enum(['pending', 'not-found', 'conflicting', 'unavailable', 'access-needed']),
@@ -63,6 +74,7 @@ export const companySchema = z.object({
   logo: z.string().optional(),
   cover: z.string().optional(),
   researchChecklist: researchChecklistSchema.optional(),
+  orgUnits: z.array(orgUnitSchema).optional(),
   financials: z.array(z.object({
     period: z.string().regex(/^\d{4}(-H[12])?$/),
     revenueCNY: z.number().nonnegative(),

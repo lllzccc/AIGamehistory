@@ -24,6 +24,21 @@ sources:
   - title: 每日经济新闻 2024-12-09：灵犀互娱是时候证明自己了（管理层交接、如鸢与三战数据）
     url: https://www.mrjjxw.com/articles/2024-12-09/3678259.html
 verified: false
+orgUnits:
+  - name: 鸢工作室
+    kind: studio
+    scope: 女向自研工作室，《代号鸢》《如鸢》的研发团队；2026年6月制作人小萌离职后由原核心团队承接
+    observedAt: "2026-10-14"
+    sources:
+      - title: 36氪：灵犀先在海外推出《代号鸢》，再以《如鸢》回国公测
+        url: https://m.36kr.com/p/2934123680685192
+  - name: 上海灵犀互动娱乐有限公司
+    kind: subsidiary
+    scope: 国服《如鸢》运营主体
+    observedAt: "2026-10-14"
+    sources:
+      - title: 36氪：灵犀先在海外推出《代号鸢》，再以《如鸢》回国公测
+        url: https://m.36kr.com/p/2934123680685192
 researchChecklist:
   items:
     - area: history
