@@ -17,7 +17,11 @@
     },
     {
       "title": "网易招股书：1997年6月业务创办及主体区别",
-      "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2020/0602/9302684/2020060200086_c.pdf"
+      "url": "https://www1.hkexnews.h/listedco/listconews/sehk/2020/0602/9302684/2020060200086_c.pdf"
+    },
+    {
+      "title": "观察者网风闻（ACGx）2024-01-19：世界之外提前开服与国乙商战",
+      "url": "https://user.guancha.cn/main/content?id=1168359"
     }
   ],
   "website": "https://www.netease.com/",
@@ -48,14 +52,23 @@
       },
       {
         "area": "catalog",
-        "status": "pending",
-        "scope": "本轮代表产品与研发／发行关系",
-        "examined": [],
+        "status": "partial",
+        "scope": "本轮代表产品与研发／发行关系（SLG入口+女向线）",
+        "checkedAt": "2026-10-14",
+        "examined": [
+          {
+            "source": {
+              "title": "观察者网风闻（ACGx）2024-01-19",
+              "url": "https://user.guancha.cn/main/content?id=1168359"
+            },
+            "note": "女向线入档：《时空中的绘旅人》（2020-10-23公测，百科线索级）与《世界之外》（2024-01-18不删档不限量，原定01-26）；世界之外与恋与深空同日开服。绘旅人官方源待补。"
+          }
+        ],
         "gaps": [
           {
-            "question": "核对官网全量目录、历史下架产品及发行地区。",
+            "question": "绘旅人与世界之外的官方首发公告及各地区版本；官网全量目录、历史下架产品及发行地区。",
             "status": "pending",
-            "nextStep": "核对官网全量目录、历史下架产品及发行地区。"
+            "nextStep": "逐产品核对官方渠道；女向线公众号文章本轮未获可读微信原文，下轮反查。"
           }
         ]
       },

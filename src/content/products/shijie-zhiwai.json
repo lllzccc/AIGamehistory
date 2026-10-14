@@ -1,0 +1,36 @@
+{
+  "name": "世界之外",
+  "chronicles": [
+    "female"
+  ],
+  "genre": "otome",
+  "developer": "netease",
+  "publisher": "netease",
+  "released": "2024-01-18",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "status": "live",
+  "versionLabel": "中国大陆 · 不删档不限量",
+  "significance": "网易无限流言情手游，主打轻松甜宠向恋爱；2024年1月与叠纸《恋与深空》同日开服，被媒体称为“国乙大战”节点。",
+  "lifecycleNotes": [
+    {
+      "note": "原定2024-01-26公测，后提前至01-18凌晨宣布开启“无限爱”不删档不限量测试，与叠纸《恋与深空》公测同日；宣发以高福利与官博互动著称（当期媒体观察）。",
+      "sources": [
+        {
+          "title": "观察者网风闻（ACGx）2024-01-19：世界之外提前开服与国乙商战",
+          "url": "https://user.guancha.cn/main/content?id=1168359"
+        }
+      ]
+    }
+  ],
+  "revenue": [],
+  "sources": [
+    {
+      "title": "观察者网风闻（ACGx）2024-01-19：世界之外提前开服与国乙商战",
+      "url": "https://user.guancha.cn/main/content?id=1168359"
+    }
+  ],
+  "verified": false
+}

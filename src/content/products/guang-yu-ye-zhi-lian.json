@@ -1,0 +1,57 @@
+{
+  "name": "光与夜之恋",
+  "aliases": [
+    "Light and Night",
+    "光與夜之戀：光夜流轉"
+  ],
+  "chronicles": [
+    "female"
+  ],
+  "genre": "otome",
+  "developer": "tencent",
+  "publisher": "tencent",
+  "released": "2021-06-24",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "status": "live",
+  "versionLabel": "中国大陆 · 全平台公测",
+  "significance": "腾讯北极光工作室研发的腾讯首款自研乙女手游，东方都市背景的高沉浸互动恋爱；“四大国乙”之一。",
+  "lifecycleNotes": [
+    {
+      "note": "2021-06-24国服上线当日登App Store免费榜首；上线前官网预约约1000万；当期报道发稿时列App Store游戏畅销总榜第12、TapTap评分7.8（娱乐独角兽报道口径）。核查2026-10-14。",
+      "sources": [
+        {
+          "title": "微信公众号“娱乐独角兽”原文2021-06：北极光工作室研发、上线表现与预约数据",
+          "url": "https://mp.weixin.qq.com/s/ZaB5GBfkT5wEwTRgu10bbQ"
+        }
+      ]
+    },
+    {
+      "note": "2024-01-18网易《世界之外》提前开服当天为光夜“光夜盛典”首日，发布古风卡面新PV并联动友商评论区互动（媒体称“国乙商战”）。海外繁中版《光與夜之戀：光夜流轉》上线日期待核。",
+      "sources": [
+        {
+          "title": "观察者网风闻（ACGx）2024-01-19：国乙商战当日各作应战动作",
+          "url": "https://user.guancha.cn/main/content?id=1168359"
+        }
+      ]
+    }
+  ],
+  "revenue": [],
+  "sources": [
+    {
+      "title": "光与夜之恋官方网站（腾讯游戏）",
+      "url": "https://love.qq.com"
+    },
+    {
+      "title": "微信公众号“娱乐独角兽”原文2021-06：北极光工作室研发、上线表现与预约数据",
+      "url": "https://mp.weixin.qq.com/s/ZaB5GBfkT5wEwTRgu10bbQ"
+    },
+    {
+      "title": "观察者网风闻（ACGx）2024-01-19：国乙商战当日各作应战动作",
+      "url": "https://user.guancha.cn/main/content?id=1168359"
+    }
+  ],
+  "verified": false
+}

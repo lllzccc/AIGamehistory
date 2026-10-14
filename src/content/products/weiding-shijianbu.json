@@ -1,0 +1,43 @@
+{
+  "name": "未定事件簿",
+  "aliases": [
+    "Tears of Themis"
+  ],
+  "chronicles": [
+    "female"
+  ],
+  "genre": "otome",
+  "developer": "mihoyo",
+  "publisher": "mihoyo",
+  "released": "2020-07-30",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "status": "live",
+  "versionLabel": "中国大陆 · 全平台公测",
+  "significance": "米哈游律政恋爱推理手游，玩家扮演新人律师与四位男主角解决委托；媒体口中的“四大国乙”之一。",
+  "lifecycleNotes": [
+    {
+      "note": "2020-07-29 11:00起开启预下载（iOS约07-30 00:00），2020-07-30 11:00全平台公测开服（官方公告口径）。海外版 Tears of Themis 各地区版本日期待逐项核对后另记。",
+      "sources": [
+        {
+          "title": "未定事件簿官网公告 2020-07-29：7月30日11:00全平台公测开服",
+          "url": "https://wd.mihoyo.com/information/detail/7805"
+        }
+      ]
+    }
+  ],
+  "revenue": [],
+  "sources": [
+    {
+      "title": "未定事件簿官网公告 2020-07-29：7月30日11:00全平台公测开服",
+      "url": "https://wd.mihoyo.com/information/detail/7805"
+    },
+    {
+      "title": "微信公众号“娱乐独角兽”原文（36氪出海转载反查）：米哈游《未定事件簿》列入大厂乙女布局",
+      "url": "https://mp.weixin.qq.com/s/ZaB5GBfkT5wEwTRgu10bbQ"
+    }
+  ],
+  "verified": false
+}

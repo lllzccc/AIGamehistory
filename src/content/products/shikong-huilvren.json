@@ -1,0 +1,39 @@
+{
+  "name": "时空中的绘旅人",
+  "chronicles": [
+    "female"
+  ],
+  "genre": "otome",
+  "developer": "netease",
+  "publisher": "netease",
+  "released": "2020-10-23",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "status": "live",
+  "significance": "网易自研乙女向剧情恋爱手游，平行宇宙世界观美术生视角，全程知名声优配音；“四大国乙”之一。",
+  "lifecycleNotes": [
+    {
+      "note": "2024-01-18“国乙大战”期间上架旺旺联名表情包并以抽奖应战（当期媒体观察）。上线与版本节点目前依据百科类线索（2020-10-23全平台公测、2019-08首曝），官方源待补。",
+      "sources": [
+        {
+          "title": "观察者网风闻（ACGx）2024-01-19：国乙商战当日各作应战动作",
+          "url": "https://user.guancha.cn/main/content?id=1168359"
+        }
+      ]
+    }
+  ],
+  "revenue": [],
+  "sources": [
+    {
+      "title": "百度百科（线索级）：时空中的绘旅人——网易制作发行、2020-10-23全平台公测",
+      "url": "https://baike.baidu.com/item/%E6%97%B6%E7%A9%BA%E4%B8%AD%E7%9A%84%E7%BB%98%E6%97%85%E4%BA%BA/23747110"
+    },
+    {
+      "title": "观察者网风闻（ACGx）2024-01-19：国乙商战当日各作应战动作",
+      "url": "https://user.guancha.cn/main/content?id=1168359"
+    }
+  ],
+  "verified": false
+}
