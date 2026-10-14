@@ -191,6 +191,10 @@
     {
       "title": "Grafit Studio本人工作室作品集：Call of Antia Splash art及商店ID，核查2026-10-14",
       "url": "https://grafit.artstation.com/projects/r95V3E"
+    },
+    {
+      "title": "Patrick Hegarty本人Twine职业简介：FunPlus五年工作已结束、四款游戏叙事贡献，核查2026-10-14",
+      "url": "https://www.twine.net/user1520988"
     }
   ],
   "website": "https://funplus.com/about-funplus/",
@@ -731,6 +735,13 @@
               "url": "https://johnnyzzz.artstation.com/projects/6bVVyV"
             },
             "note": "JohnnyD本人项目美术参与自述；Grafit外部团队Splash art贡献已读，均不推定主美或内部雇佣。"
+          },
+          {
+            "source": {
+              "title": "Patrick Hegarty本人Twine职业简介：FunPlus五年工作已结束、四款游戏叙事贡献，核查2026-10-14",
+              "url": "https://www.twine.net/user1520988"
+            },
+            "note": "PatrickHegarty本人列四作叙事与已结束FunPlus工作；各项目起止及劳动关系仍待核。"
           }
         ],
         "gaps": [
@@ -1013,3 +1024,10 @@ Leon Zhou在2022-02-22本人专访中以产品总监（Director of Product）职
 JohnnyD本人作品集自述参与项目美术，按公开职业署名及贡献入档，准确岗位、任期、内部或外包关系仍待核。Grafit Studio作品集自述为本作制作Splash art，并链接同一游戏商店ID，补为外部团队贡献证据，不作为整作研发或内部核心团队。两条均不足以认定主美。
 
 [JohnnyD本人作品集](https://johnnyzzz.artstation.com/projects/6bVVyV)、[Grafit Studio项目作品](https://grafit.artstation.com/projects/r95V3E)。
+
+
+## SLG项目叙事岗位与流动（核查2026-10-14）
+
+Patrick Hegarty本人职业简介列FunPlus资深编剧／配音导演，明确提及《Guns of Glory》《King of Avalon》《Sea of Conquest》《Stormshot》叙事贡献，并称五年工作已经结束。按本人公开履历记录已离任；表列2019—2024，仅保留年份，不把模板中的1月1日当准确日期，也不将公司任期套为每款项目的参与任期。该岗位属于叙事，不提升为制作人、主策或主美。
+
+[本人职业简介](https://www.twine.net/user1520988)。

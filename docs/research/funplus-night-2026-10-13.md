@@ -87,3 +87,8 @@ PocketGamer.biz https://www.pocketgamer.biz/making-call-of-antia/ 2022-02-22本�
 新增JohnnyD公开职业署名，本人https://johnnyzzz.artstation.com/projects/6bVVyV正文已读，明确projectworkingon，不推定主美/雇佣/实际任期，观察日2026-10-14而非入职日。Grafit https://grafit.artstation.com/projects/r95V3E正文已读，自述Splashart且列Apple1583719419/GPcom.funplus.coa，作为外部美术团队证据（不是新增公司实体/人员）。候选ElizavetaSedova/DiegoMartinez/MilenMilchov/KirillKhitrov是模仿同人练习，不加入正式项目人才；MUNAN仅被练习作者引用，未取得本人项目署名先不录。Stormshot/Misty主策/主美实名本轮未找到可靠新证据。
 
 累计公司0、产品版本14、已核职业记录17+报道2、事件4、金额观察6、官方图片7+历史1。开始07:34，5小时17%/周34%，ordinaryallowed，无耗尽。08:00后暂停自动化，保留全部共享UI/知识库改动。
+
+
+## 用户白天续跑：Patrick Hegarty叙事（2026-10-14）
+
+不恢复夜间自动化。Twine https://www.twine.net/user1520988 本人正文已读，四作GunsGlory/KingAvalon/SeaConquest/Stormshot叙事明确，SeniorWriter/VoiceDirector，五年工作已结束，新增1人和4项目署名，不当制作人/主策。表列2019-2024但模板Jan1/教育2030异常，不采用日/月精度，项目rolefrom观察日不套公司任期。IMDb/Metacritic只检索辅助未作关键证据，领英公开检索缓存亦不声称登录读取。夜批统计冻结17核+2线索；白天新增1人，不混进夜批。

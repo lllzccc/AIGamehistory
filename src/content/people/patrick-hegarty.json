@@ -1,0 +1,39 @@
+{
+  "name": "Patrick Hegarty",
+  "bio": "本人职业简介列FunPlus Senior Writer/Voice Director，明确参与Guns of Glory、King of Avalon、Sea of Conquest、Stormshot叙事，并称五年FunPlus工作已结束。履历表按年份列2019—2024，准确月份及逐项目任期待核。",
+  "sources": [
+    {
+      "title": "Patrick Hegarty本人Twine职业简介：FunPlus五年工作已结束、四款游戏叙事贡献，核查2026-10-14",
+      "url": "https://www.twine.net/user1520988"
+    }
+  ],
+  "verified": true,
+  "roles": [
+    {
+      "company": "funplus",
+      "scope": "product",
+      "products": [
+        "guns-of-glory",
+        "king-of-avalon",
+        "sea-of-conquest",
+        "stormshot"
+      ],
+      "title": "writer",
+      "titleNote": "资深编剧／配音导演（本人职业履历）",
+      "specialties": [
+        "strategy"
+      ],
+      "from": "2026-10-14",
+      "status": "departed",
+      "dateBasis": "public-observation",
+      "checkedAt": "2026-10-14",
+      "sources": [
+        {
+          "title": "Patrick Hegarty本人Twine职业简介：FunPlus五年工作已结束、四款游戏叙事贡献，核查2026-10-14",
+          "url": "https://www.twine.net/user1520988"
+        }
+      ],
+      "note": "日期为本次公开职业资料观察日，不是入职或四个项目起点。本人称结束五年FunPlus工作，表列2019—2024，日/月精度及项目起止未核。叙事贡献不等同制作人、主策或整个研发团队；雇佣/合同形式待核。"
+    }
+  ]
+}
