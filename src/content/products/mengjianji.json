@@ -17,7 +17,7 @@
   "significance": "完美世界女性向卡牌RPG（《梦间集天鹅座》IP前作），以金庸武侠与中国古代兵器设定为基底的拟人化恋爱养成。",
   "lifecycleNotes": [
     {
-      "note": "2017年7月14日iOS公测、7月26日全平台上线（媒体口径，官方源待补）；官方网站截至2026年10月仍在持续发布停服维护公告与限时活动（状态live）。续作《梦间集天鹅座》已另行建档。",
+      "note": "2017年7月14日iOS公测、7月26日全平台上线（媒体口径，官方源待补）；官方网站截至2026年10月仍在持续发布停服维护公告与限时活动（状态live）。续作《梦间集天鹅座》已另行建档。 图片：AppIcon取自Wayback存档App Store页（2019-06快照）的Apple CDN原图链接（2026-10-14）。",
       "sources": [
         {
           "title": "《梦间集》手游官方网站（完美世界，核查2026-10-14仍在运营）",
@@ -37,5 +37,7 @@
       "url": "https://m.games.wanmei.com"
     }
   ],
-  "verified": false
+  "verified": false,
+  "keyArt": "/images/perfectworld/mengjianji-official.jpg",
+  "artPosition": "center"
 }
