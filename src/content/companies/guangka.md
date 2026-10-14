@@ -15,6 +15,78 @@ sources:
   - title: "TapTap 官方入驻：爱江山更爱美人，供应商广州炫动"
     url: https://www.taptap.cn/app/170849
 verified: false
+researchChecklist:
+  items:
+    - area: history
+      status: partial
+      scope: 光卡主体沿革与存续状态
+      checkedAt: "2026-10-14"
+      examined:
+        - source:
+            title: "上交所披露的宜搜申报回复：光卡成立时间与爱江山内容提供关系"
+            url: https://static.sse.com.cn/stock/disclosure/announcement/c/202004/000257_20200430_HEIR.pdf
+          note: "2016年成立、内容提供关系（沿既有核对）。"
+      gaps:
+        - question: 企查查页面显示光卡经营状态为注销（本轮仅检索摘要，注销时间未获）
+          status: pending
+          nextStep: "核对工商公示原件确认注销与时间，再决定公司status是否改为closed；摘要不作定论。"
+          sources:
+            - title: "企查查：广州光卡数据技术有限公司（经营状态注销，检索摘要）"
+              url: https://m.qcc.com/firm/1564f33205d4cefe9173e3d1bc22b9cb.html
+    - area: catalog
+      status: partial
+      scope: 爱江山更爱美人的研发/发行/运营关系
+      checkedAt: "2026-10-14"
+      examined:
+        - source:
+            title: "TapTap 官方入驻：爱江山更爱美人，供应商广州炫动"
+            url: https://www.taptap.cn/app/170849
+          note: "当前商店品牌火树游戏、供应商广州炫动（沿既有核对）。"
+      gaps:
+        - question: 光卡→火树/炫动的产品权利与运营交接时间
+          status: pending
+          nextStep: "对照申报文件与商店变更记录；供应商名称不等于研发主体。"
+          sources: []
+    - area: lifecycle
+      status: partial
+      scope: 爱江山更爱美人上线与运营现状
+      checkedAt: "2026-10-14"
+      examined:
+        - source:
+            title: "上交所申报回复：爱江山联合运营内容提供商与合作口径"
+            url: https://static.sse.com.cn/stock/disclosure/announcement/c/202004/000257_20200430_PBUQ.pdf
+          note: "宜搜渠道2019-06-28上线口径（沿既有核对）。"
+      gaps:
+        - question: 产品当前运营状态与各渠道版本
+          status: pending
+          nextStep: "查官方渠道与商店更新记录。"
+          sources: []
+    - area: talent
+      status: pending
+      scope: 光卡/火树/炫动相关团队
+      examined: []
+      gaps:
+        - question: 无公开实名署名
+          status: not-found
+          nextStep: "申报文件未披露个人；继续查登记信息与招聘。"
+          sources: []
+    - area: business
+      status: pending
+      scope: 申报口径收入与公司财务
+      examined: []
+      gaps:
+        - question: 申报文件联合运营净额不等于全平台流水；公司自身无财务披露
+          status: not-found
+          nextStep: "维持不填流水；如工商年报有披露再按口径录入。"
+          sources: []
+  supplementRounds:
+    - checkedAt: "2026-10-14"
+      channel: 工商信息检索与既有申报文件复核
+      note: "首轮五方向：企查查注销线索入档待原件核；其余沿既有材料建清单。"
+      foundKeyFacts: false
+      sources:
+        - title: "企查查：广州光卡数据技术有限公司（经营状态注销，检索摘要）"
+          url: https://m.qcc.com/firm/1564f33205d4cefe9173e3d1bc22b9cb.html
 ---
 
 ### 概览

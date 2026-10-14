@@ -26,5 +26,16 @@
   "keyArt": "/images/palace/jipin-zhimaguan.jpg",
   "chronicles": [
     "female"
+  ],
+  "lifecycleNotes": [
+    {
+      "note": "海外版《叫我官老爺》（Call Me Official，全球发行亦见Be the King名号）约2018年上线：Google Play 2026-08-17更新的\"八週年慶典\"与2018年9月玩家评论佐证；开发者署名Hong Kong Chuang Cool Interactive Entertainment，与国内版同一玩法框架，按独立版本记录不合并条目。核查2026-10-14。",
+      "sources": [
+        {
+          "title": "Google Play：叫我官老爺（Call Me Official，香港创酷主体，2026-08八週年慶典仍更新）",
+          "url": "https://play.google.com/store/apps/details?id=com.szckhd.jwgly.azfanti"
+        }
+      ]
+    }
   ]
 }

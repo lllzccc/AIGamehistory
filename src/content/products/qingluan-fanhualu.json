@@ -26,5 +26,16 @@
   "keyArt": "/images/palace/qingluan-fanhualu.jpg",
   "chronicles": [
     "female"
+  ],
+  "lifecycleNotes": [
+    {
+      "note": "开发组官方帖（TapTap开发者的话）：开发组已收回游戏运营权，后续由红豆互动负责运营；变更时间未标注，首发发行方南京仙地保留为初始发行记录。核查2026-10-14。",
+      "sources": [
+        {
+          "title": "TapTap 官方入驻：青鸾繁华录研发、发行及运营权说明",
+          "url": "https://www.taptap.cn/app/206236/all-info"
+        }
+      ]
+    }
   ]
 }

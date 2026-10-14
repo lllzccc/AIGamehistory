@@ -16,7 +16,81 @@ sources:
     url: https://pdf.dfcfw.com/pdf/H2_AN202010261423695438_1.pdf
   - title: "TapTap 官方入驻：极品芝麻官研发与安卓上线日期"
     url: https://www.taptap.cn/app/53064/all-info
+  - title: "Google Play：叫我官老爺（Call Me Official，香港创酷主体，2026-08八週年慶典仍更新）"
+    url: https://play.google.com/store/apps/details?id=com.szckhd.jwgly.azfanti
 verified: false
+researchChecklist:
+  items:
+    - area: history
+      status: partial
+      scope: 深圳创酷主体与香港创酷实体
+      checkedAt: "2026-10-14"
+      examined:
+        - source:
+            title: "Google Play：叫我官老爺"
+            url: https://play.google.com/store/apps/details?id=com.szckhd.jwgly.azfanti
+          note: "海外版开发者列 Hong Kong Chuang Cool Interactive Entertainment（另示 Pixel Peak）；包名前缀szckhd与官网域名一致。"
+      gaps:
+        - question: 深圳/香港创酷实体的关系与股权
+          status: pending
+          nextStep: "查公开工商与登记资料；包名关联不等于法人同一。"
+          sources: []
+    - area: catalog
+      status: partial
+      scope: 极品芝麻官与海外版叫我官老爷/Be the King
+      checkedAt: "2026-10-14"
+      examined:
+        - source:
+            title: "Google Play：叫我官老爺"
+            url: https://play.google.com/store/apps/details?id=com.szckhd.jwgly.azfanti
+          note: "海外版《叫我官老爺》（Call Me Official，全球发行亦见Be the King名号）为清代官场模拟，含门客、红颜、子嗣、联盟与海外贸易玩法；与国内《极品芝麻官》同一玩法框架，按两条版本记录、不合并条目。"
+      gaps:
+        - question: 海外版确切的首次上线日期与各地区版本
+          status: pending
+          nextStep: "八周年庆典与2018年9月玩家评论佐证约2018年上线；精确日期查发行记录。"
+          sources:
+            - title: "Google Play：叫我官老爺"
+              url: https://play.google.com/store/apps/details?id=com.szckhd.jwgly.azfanti
+    - area: lifecycle
+      status: partial
+      scope: 国内外两版本的长期运营
+      checkedAt: "2026-10-14"
+      examined:
+        - source:
+            title: "Google Play：叫我官老爺"
+            url: https://play.google.com/store/apps/details?id=com.szckhd.jwgly.azfanti
+          note: "海外版2026-08-17仍在更新（兵器争霸赛等活动）；国内版运营状态待核。"
+      gaps:
+        - question: "《极品芝麻官》国内近年运营状态"
+          status: pending
+          nextStep: "查官方渠道更新记录。"
+          sources: []
+    - area: talent
+      status: pending
+      scope: 创始团队与项目主创
+      examined: []
+      gaps:
+        - question: 无公开实名署名
+          status: not-found
+          nextStep: "查采访与登记信息；本轮未检索到。"
+          sources: []
+    - area: business
+      status: pending
+      scope: 公司财务与流水口径
+      examined: []
+      gaps:
+        - question: 无公开财务披露下的替代口径
+          status: not-found
+          nextStep: "海外收入排名与累计收入需原始报告，未找到前不填流水。"
+          sources: []
+  supplementRounds:
+    - checkedAt: "2026-10-14"
+      channel: Google Play商店记录
+      note: "首轮五方向：叫我官老爷海外版约2018年上线、2026-08仍更新、香港创酷主体署名入档。"
+      foundKeyFacts: true
+      sources:
+        - title: "Google Play：叫我官老爺（Call Me Official）"
+          url: https://play.google.com/store/apps/details?id=com.szckhd.jwgly.azfanti
 ---
 
 ### 概览

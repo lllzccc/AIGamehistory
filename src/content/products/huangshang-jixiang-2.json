@@ -27,5 +27,16 @@
   "keyArt": "/images/palace/huangshang-jixiang-2.jpg",
   "chronicles": [
     "female"
+  ],
+  "lifecycleNotes": [
+    {
+      "note": "海外版以Greetings Your Majesty Ⅱ名义在官方英文目录运营（清代宫廷模拟，含君主/田园双线与跨服联盟战）；上线与各地区日期待逐项核对。核查2026-10-14。",
+      "sources": [
+        {
+          "title": "摩多官网英文版游戏目录：Legend of the Phoenix等四款（核查2026-10-14）",
+          "url": "https://modo.cn/en/game.html"
+        }
+      ]
+    }
   ]
 }
