@@ -1,0 +1,61 @@
+{
+  "name": "恋人之森",
+  "aliases": [
+    "恋人の森"
+  ],
+  "chronicles": [
+    "female"
+  ],
+  "genre": "otome",
+  "developer": "youyi-shiguang",
+  "publisher": "好玩友（独家代理发行）",
+  "released": "2017",
+  "shutdown": "2019-10-31",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "status": "shutdown",
+  "versionLabel": "中国大陆 · 好玩友代理发行",
+  "significance": "玩友时代旗下发行品牌好玩友独家代理的乙女向恋爱冒险养成手游，主打萌宠拟人“人宠互变”养成；2017年开测、运营约两年半后停运，是公司早期二次元乙女赛道尝试。",
+  "lifecycleNotes": [
+    {
+      "note": "2017年1月唤醒测试，此后多轮测试（羁绊测试、守护测试等）；公测精确日期未从当期报道确认，released按首个测试与玩家运营记录记2017年（九游渠道页玩家评论最早2017年7月），不据后续iOS节奏倒推。研发与发行的代理边界以渠道页口径为准，官方公告原件未直接打开。",
+      "sources": [
+        {
+          "title": "九游《恋人之森》渠道页：开发商玩友时代、好玩友独家代理、状态停止运营",
+          "url": "https://www.9game.cn/lrzs/1522363.html"
+        },
+        {
+          "title": "百度百科（线索级）：恋人之森——好玩友发行、2019-10-31停止运营",
+          "url": "https://baike.baidu.com/item/%E6%81%8B%E4%BA%BA%E4%B9%8B%E6%A3%AE/20590045"
+        }
+      ]
+    },
+    {
+      "note": "2019年10月31日12:00停止运营并关闭登录，安卓与苹果版均下架（停运公告经百科与九游渠道页转述，公告原文未直接打开）。核查2026-10-14。",
+      "sources": [
+        {
+          "title": "百度百科（线索级）：恋人之森——好玩友发行、2019-10-31停止运营",
+          "url": "https://baike.baidu.com/item/%E6%81%8B%E4%BA%BA%E4%B9%8B%E6%A3%AE/20590045"
+        },
+        {
+          "title": "九游《恋人之森》渠道页：开发商玩友时代、好玩友独家代理、状态停止运营",
+          "url": "https://www.9game.cn/lrzs/1522363.html"
+        }
+      ]
+    }
+  ],
+  "revenue": [],
+  "sources": [
+    {
+      "title": "九游《恋人之森》渠道页：开发商玩友时代、好玩友独家代理、状态停止运营",
+      "url": "https://www.9game.cn/lrzs/1522363.html"
+    },
+    {
+      "title": "百度百科（线索级）：恋人之森——好玩友发行、2019-10-31停止运营",
+      "url": "https://baike.baidu.com/item/%E6%81%8B%E4%BA%BA%E4%B9%8B%E6%A3%AE/20590045"
+    }
+  ],
+  "verified": false
+}
