@@ -1,0 +1,47 @@
+{
+  "name": "以闪亮之名",
+  "aliases": [
+    "Life Makeover"
+  ],
+  "chronicles": [
+    "female"
+  ],
+  "genre": "dressup",
+  "developer": "zulong",
+  "publisher": "zulong",
+  "released": "2023-03-24",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "status": "live",
+  "versionLabel": "中国大陆",
+  "significance": "祖龙Vvanna工作室研发的UE4高自由度时尚生活手游，定制造型、构建家园与浪漫剧情结合；祖龙首次进入女性向赛道的作品。",
+  "lifecycleNotes": [
+    {
+      "note": "海外版Life Makeover于2022-07-28登陆港澳台、新加坡、马来西亚，首日登顶各地App Store免费榜，全球预约量突破一千万（游戏葡萄当期报道）；美区App Store上架2023-05-10（发行主体Famous Heart Limited，Apple官方接口）。国服2023-03-24为检索口径待官方源核对。",
+      "sources": [
+        {
+          "title": "游戏葡萄（搜狐发布）2022-07-28：祖龙《以闪亮之名》海外上线首日登顶港澳台新马",
+          "url": "https://www.sohu.com/a/572516227_204824"
+        },
+        {
+          "title": "Apple官方接口：Life Makeover releaseDate（us，核查2026-10-14）",
+          "url": "https://itunes.apple.com/lookup?id=1619100281&country=us"
+        }
+      ]
+    }
+  ],
+  "revenue": [],
+  "sources": [
+    {
+      "title": "游戏葡萄（搜狐发布）2022-07-28：祖龙《以闪亮之名》海外上线首日登顶港澳台新马",
+      "url": "https://www.sohu.com/a/572516227_204824"
+    },
+    {
+      "title": "Apple官方接口：Life Makeover releaseDate（us，核查2026-10-14）",
+      "url": "https://itunes.apple.com/lookup?id=1619100281&country=us"
+    }
+  ],
+  "verified": false
+}

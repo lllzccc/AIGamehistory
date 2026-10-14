@@ -1,0 +1,42 @@
+{
+  "name": "灵猫传",
+  "aliases": [],
+  "chronicles": [
+    "female"
+  ],
+  "genre": "otome",
+  "developer": "youmeng",
+  "publisher": "nuverse",
+  "released": "2020-12",
+  "shutdown": "2023-12-30",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "status": "shutdown",
+  "versionLabel": "中国大陆 · 朝夕光年代理期",
+  "significance": "华风乙女手游，研发游梦初心、朝夕光年代理发行；经历停运→运营权转回研发商复活→最终停运，是朝夕光年收缩的典型案例。",
+  "lifecycleNotes": [
+    {
+      "note": "2022-08-31项目组公告：因运营调整，2022-09-07 12:00起关闭充值与新注册，2022-10-31 12:00朝夕光年版正式关服，运营权由发行方转回研发商游梦初心独立运营，玩家经“归鸿之约”自愿迁移数据（截止10-31）；2023年1月换发行商重新开服，2023-12-30最终停止运营。",
+      "sources": [
+        {
+          "title": "TapTap官方公告：《灵猫传》停运及官包数据迁移（2022-08-31）",
+          "url": "https://www.taptap.cn/moment/313790575591555185"
+        }
+      ]
+    }
+  ],
+  "revenue": [],
+  "sources": [
+    {
+      "title": "TapTap官方公告：《灵猫传》停运及官包数据迁移（2022-08-31）",
+      "url": "https://www.taptap.cn/moment/313790575591555185"
+    },
+    {
+      "title": "搜狐 2022-11-01：朝夕光年《灵猫传》正式停运、预计12月更换发行商重新上架",
+      "url": "https://www.sohu.com/a/601797912_204824"
+    }
+  ],
+  "verified": false
+}

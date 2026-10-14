@@ -1,0 +1,110 @@
+---
+name: 百奥家庭互动
+aliases: [Baioo Family Interactive, 广州百田信息科技有限公司, 百田, 02100.HK]
+founded: "2014"
+headquarters: 广州
+kind: independent
+status: active
+tagline: 港股上市的家庭互动娱乐公司，女向线为旗下天梯互娱研发的美食拟人《食物语》
+website: https://www.baioo.com.hk
+cover: /images/home-ensemble-v2.png
+sources:
+  - title: "TapTap官方公告：《食物语》停运及完结更新告示（2024-04-17，腾讯运营团队与广州天梯联合署名）"
+    url: https://www.taptap.cn/moment/529775897918572981
+  - title: "百奥家庭互动官网新闻页（天梯与手游平台口径，线索级）"
+    url: http://www.baioo.com.hk/m/news/81532
+verified: false
+orgUnits:
+  - name: 广州天梯网络科技有限公司（天梯互娱）
+    kind: subsidiary
+    scope: 《食物语》研发方（腾讯代理发行，官方停运公告署名）；百科记其2015-07-09成立、由广州百田信息科技全资控股，为百奥手游研发运营平台——股权关系以百科与官网线索记，原件待核
+    observedAt: "2024-04-17"
+    sources:
+      - title: TapTap官方公告：《食物语》停运及完结更新告示（2024-04-17，腾讯运营团队与广州天梯联合署名）
+        url: https://www.taptap.cn/moment/529775897918572981
+researchChecklist:
+  items:
+    - area: history
+      status: partial
+      scope: 上市主体与境内研发平台
+      checkedAt: "2026-10-14"
+      examined:
+        - source:
+            title: TapTap官方公告：《食物语》停运及完结更新告示
+            url: https://www.taptap.cn/moment/529775897918572981
+          note: "官方公告确认广州天梯为开发商；百奥2014年港股上市、天梯2015年成立为百科线索级。"
+      gaps:
+        - question: 百奥上市主体与百田/天梯的完整股权结构
+          status: pending
+          nextStep: "查港交所公告与工商资料；founded暂记上市年2014。"
+          sources: []
+    - area: catalog
+      status: partial
+      scope: 女向与家庭娱乐产品线
+      checkedAt: "2026-10-14"
+      examined:
+        - source:
+            title: TapTap官方公告：《食物语》停运及完结更新告示
+            url: https://www.taptap.cn/moment/529775897918572981
+          note: "女向线一款《食物语》（2019-09国服公测、2024-06-18停服）；奥比岛等产品归休闲线不属本卷。"
+      gaps:
+        - question: "《食物语陪伴版》（停运公告提及2024年Q3推出）是否上线"
+          status: pending
+          nextStep: "查天梯/百奥官方渠道；未核实不建档。"
+          sources:
+            - title: TapTap官方公告：《食物语》停运及完结更新告示
+              url: https://www.taptap.cn/moment/529775897918572981
+    - area: lifecycle
+      status: partial
+      scope: 食物语运营周期
+      checkedAt: "2026-10-14"
+      examined:
+        - source:
+            title: TapTap官方公告：《食物语》停运及完结更新告示
+            url: https://www.taptap.cn/moment/529775897918572981
+          note: "2024-04-18零时停充值/下架，2024-06-18 11:00正式停服（代理协议到期，腾讯与天梯协商）；停运前推出完结语音剧情【百馔为家】。"
+      gaps:
+        - question: 海外版本（如有）与陪伴版进展
+          status: pending
+          nextStep: "逐项核对官方渠道。"
+          sources: []
+    - area: talent
+      status: pending
+      scope: 天梯项目主创
+      examined: []
+      gaps:
+        - question: 食物语制作人、主策署名
+          status: not-found
+          nextStep: "查当期采访；本轮未检索。"
+          sources: []
+    - area: business
+      status: partial
+      scope: 上市公司口径与单品贡献
+      checkedAt: "2026-10-14"
+      examined:
+        - source:
+            title: TapTap官方公告：《食物语》停运及完结更新告示
+            url: https://www.taptap.cn/moment/529775897918572981
+          note: "媒体报道称食物语2023年为百奥带来约1.3亿元收入（证券日报/36氪报道摘要，原文本轮超时未开，待核）。"
+      gaps:
+        - question: 百奥财报逐年数字与食物语收入口径原件
+          status: pending
+          nextStep: "查港交所公告原件后录入financials。"
+          sources: []
+  supplementRounds:
+    - checkedAt: "2026-10-14"
+      channel: 官方停运公告与财经报道线索
+      note: "首轮建线：食物语官方停运时间线、天梯归属、百奥收入贡献线索入档。"
+      foundKeyFacts: true
+      sources:
+        - title: TapTap官方公告：《食物语》停运及完结更新告示
+          url: https://www.taptap.cn/moment/529775897918572981
+---
+
+### 概览
+
+百奥家庭互动（02100.HK）以《奥比岛》等家庭娱乐产品起家（2014年4月港股上市），2015年成立全资手游平台天梯互娱。女向代表作《食物语》为中华美食拟人女性向手游，由天梯研发、腾讯代理，2019年9月国服公测；因代理协议到期于2024年6月18日停服，官方停运公告与完结剧情【百馔为家】同步发布，开发商预告将推出《食物语陪伴版》。媒体报道称该作2023年为公司带来约1.3亿元收入（待原件核）。本卷仅覆盖女向线，奥比岛等归休闲线。
+
+### 资料口径
+
+`founded` 暂记上市主体挂牌年2014；境内百田主体与天梯成立时间为百科线索级，原件待核。食物语国服公测日2019-09-03见媒体口径，官方源待补。

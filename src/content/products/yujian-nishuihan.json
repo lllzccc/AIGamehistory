@@ -1,0 +1,40 @@
+{
+  "name": "遇见逆水寒",
+  "aliases": [],
+  "chronicles": [
+    "female"
+  ],
+  "genre": "otome",
+  "developer": "netease",
+  "publisher": "netease",
+  "released": "2018",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "status": "live",
+  "significance": "网易古风恋爱手游（乙女向，逆水寒IP），主打“大宋最甜恋爱”与卡牌收集。",
+  "lifecycleNotes": [
+    {
+      "note": "官网仍提供下载与更新公告（更新频率明显放缓）；台服繁中版因代理合约到期于2020-04-30停止运营；九游渠道服将于2026-11-16 15:00停止该渠道运营（渠道级，非全服）。精确公测日期待官方源。",
+      "sources": [
+        {
+          "title": "《遇见逆水寒》官方网站（网易，核查2026-10-14仍在运营）",
+          "url": "http://yujian.163.com"
+        },
+        {
+          "title": "九游渠道公告：《遇见逆水寒》九游渠道版本运营公告（2026-09-15）",
+          "url": "https://h5.9game.cn/content/postsDetail?postId=1000091455"
+        }
+      ]
+    }
+  ],
+  "revenue": [],
+  "sources": [
+    {
+      "title": "《遇见逆水寒》官方网站（网易，核查2026-10-14仍在运营）",
+      "url": "http://yujian.163.com"
+    }
+  ],
+  "verified": false
+}
