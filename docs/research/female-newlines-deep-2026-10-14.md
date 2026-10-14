@@ -32,3 +32,5 @@
 ## 自检
 
 本地三道通过：vitest 109 个测试全过；astro check 0 错误 0 警告；npx astro build 成功。公开部署验证在推送后追加。
+
+发布验收：内容提交dc55c5d已推送master，GitHub Pages 运行 success。/person/xuanzi/（制作人/主笔、砺思资本）、网易公司页（璇子）、腾讯公司页（台繁版2023-06-15与唯數娛樂）均在线渲染。
