@@ -36,6 +36,19 @@
           "url": "https://user.guancha.cn/main/content?id=1168359"
         }
       ]
+    },
+    {
+      "note": "繁体版《光與夜之戀》（光夜流轉）：台湾App Store 2023-06-15上架（Apple官方接口），由唯數娛樂（GAME HOURS）发行、腾讯版权；官方站持续更新至2026-10（含10-15停服更新公告与9-27语音内容调整公告），辅导十五岁分级。韩服（빛과밤의사랑）2024-06-18上线为维基线索，待官方源核对。",
+      "sources": [
+        {
+          "title": "Apple官方接口：光與夜之戀 releaseDate（tw，核查2026-10-14）",
+          "url": "https://itunes.apple.com/lookup?id=1605898358&country=tw"
+        },
+        {
+          "title": "光與夜之戀繁体版官方网站（唯數娛樂发行，2026-10仍在更新）",
+          "url": "https://lan.tw.gamehours.com/site/index/source/cover"
+        }
+      ]
     }
   ],
   "revenue": [],
@@ -51,6 +64,10 @@
     {
       "title": "观察者网风闻（ACGx）2024-01-19：国乙商战当日各作应战动作",
       "url": "https://user.guancha.cn/main/content?id=1168359"
+    },
+    {
+      "title": "光與夜之戀繁体版官方网站",
+      "url": "https://lan.tw.gamehours.com/site/index/source/cover"
     }
   ],
   "verified": false

@@ -26,6 +26,19 @@
           "url": "https://wd.mihoyo.com/information/detail/7805"
         }
       ]
+    },
+    {
+      "note": "海外版 Tears of Themis：美国App Store 2021-07-27上架（发行方Cognosphere Pte. Ltd.，Apple官方接口口径），支持简中/繁中/英/日/韩多语言；HoYoverse官方周年帖以7月29日为正式上线日，两口径并存。上架日与官方上线日的差异保留，不人为统一。",
+      "sources": [
+        {
+          "title": "Apple官方接口：Tears of Themis releaseDate（us，核查2026-10-14）",
+          "url": "https://itunes.apple.com/search?term=tears+of+themis&entity=software&country=us&limit=2"
+        },
+        {
+          "title": "HoYoverse官方新闻（2023-07-12周年帖）：Tears of Themis于2021-07-29正式上线",
+          "url": "https://www.hoyoverse.com/en-us/news/112261"
+        }
+      ]
     }
   ],
   "revenue": [],
@@ -37,7 +50,24 @@
     {
       "title": "微信公众号“娱乐独角兽”原文（36氪出海转载反查）：米哈游《未定事件簿》列入大厂乙女布局",
       "url": "https://mp.weixin.qq.com/s/ZaB5GBfkT5wEwTRgu10bbQ"
+    },
+    {
+      "title": "游戏茶馆（搜狐发布）2020-08-07：对话米哈游《未定事件簿》文案负责人W",
+      "url": "https://www.sohu.com/a/411948392_116126"
     }
   ],
-  "verified": false
+  "verified": false,
+  "teamEvidence": [
+    {
+      "observedAt": "2020-08-07",
+      "kind": "reported",
+      "summary": "游戏茶馆采访文案负责人“W”（未公开全名）：世界观“所有设定皆有来处”、主人公为高智商职业女性、四位男主角代表人生岔路的不同选择；四位声优姜sir/赵路/杨天翔/金弦的录制幕后。",
+      "sources": [
+        {
+          "title": "游戏茶馆（搜狐发布）2020-08-07：对话米哈游《未定事件簿》文案负责人W",
+          "url": "https://www.sohu.com/a/411948392_116126"
+        }
+      ]
+    }
+  ]
 }

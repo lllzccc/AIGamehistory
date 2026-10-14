@@ -59,9 +59,9 @@ researchChecklist:
             url: https://user.guancha.cn/main/content?id=1168359
           note: "2024-01-18《世界之外》提前开服当天为光夜“光夜盛典”首日并发布古风卡面新PV。"
       gaps:
-        - question: 海外繁中版《光與夜之戀：光夜流轉》上线日期与运营范围
+        - question: 韩服（빛과밤의사랑，维基线索称2024-06-18）上线日期与运营方
           status: pending
-          nextStep: "百科与商店线索需官方渠道核对。"
+          nextStep: "台繁版已锚定（2023-06-15上架、唯數娛樂发行、2026-10仍在更新）；韩服查官方渠道。"
           sources: []
     - area: talent
       status: pending
@@ -89,6 +89,15 @@ researchChecklist:
       sources:
         - title: 微信公众号“娱乐独角兽”原文2021-06
           url: https://mp.weixin.qq.com/s/ZaB5GBfkT5wEwTRgu10bbQ
+    - checkedAt: "2026-10-14"
+      channel: Apple官方接口与繁体版官网
+      note: "台繁版锚定：2023-06-15上架、唯數娛樂（GAME HOURS）发行、官网2026-10仍在更新；韩服留缺口。"
+      foundKeyFacts: true
+      sources:
+        - title: 光與夜之戀繁体版官方网站
+          url: https://lan.tw.gamehours.com/site/index/source/cover
+        - title: Apple官方接口：光與夜之戀 releaseDate（tw）
+          url: https://itunes.apple.com/lookup?id=1605898358&country=tw
 ---
 
 ### 概览

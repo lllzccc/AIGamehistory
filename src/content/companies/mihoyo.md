@@ -55,18 +55,23 @@ researchChecklist:
             url: https://wd.mihoyo.com/information/detail/7805
           note: "2020-07-29预下载、07-30 11:00全平台公测开服。"
       gaps:
-        - question: 海外版Tears of Themis（日服、繁中、英文等）各地区上线日期与现状
+        - question: 繁中版先行上架的单独日期（维基称大陆→繁中→全球的次序）
           status: pending
-          nextStep: "百科与维基线索称日服2021-07-29上线，需官方渠道逐地区核对后入档。"
+          nextStep: "全球版（多语言）US上架2021-07-27已由Apple官方接口锚定；繁中先行版日期查台区商店与官方渠道。"
           sources: []
     - area: talent
-      status: pending
+      status: partial
       scope: 项目组主创
-      examined: []
+      checkedAt: "2026-10-14"
+      examined:
+        - source:
+            title: 游戏茶馆（搜狐发布）2020-08-07：对话米哈游《未定事件簿》文案负责人W
+            url: https://www.sohu.com/a/411948392_116126
+          note: "文案负责人以花名“W”受访（世界观/主人公/四男主设计），无全名——记teamEvidence不建人物档。"
       gaps:
-        - question: 制作人、主策、主美公开署名
+        - question: 制作人、主策、主美及文案负责人W的全名
           status: not-found
-          nextStep: "查官方幕后与采访；本轮未见实名。"
+          nextStep: "查官方幕后与后续采访；匿名花名不建人物档。"
           sources: []
     - area: business
       status: pending
@@ -85,6 +90,15 @@ researchChecklist:
       sources:
         - title: 未定事件簿官网公告 2020-07-29
           url: https://wd.mihoyo.com/information/detail/7805
+    - checkedAt: "2026-10-14"
+      channel: Apple官方接口、茶馆采访与官方周年帖线索
+      note: "海外版Tears of Themis全球多语言版US上架2021-07-27锚定（官方周年口径7-29并存）；文案负责人W采访入teamEvidence。"
+      foundKeyFacts: true
+      sources:
+        - title: Apple官方接口：Tears of Themis releaseDate（us）
+          url: https://itunes.apple.com/search?term=tears+of+themis&entity=software&country=us&limit=2
+        - title: 游戏茶馆（搜狐发布）2020-08-07：对话米哈游《未定事件簿》文案负责人W
+          url: https://www.sohu.com/a/411948392_116126
 ---
 
 ### 概览

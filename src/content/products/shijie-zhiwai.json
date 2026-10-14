@@ -23,6 +23,15 @@
           "url": "https://user.guancha.cn/main/content?id=1168359"
         }
       ]
+    },
+    {
+      "note": "2025年7月新版本未提前公告推出更高定价的“刹那”卡牌引发玩家大规模抗议，团队以“世界之外想赚钱”等三张大字报回应再引争议；7月23日至8月末iOS畅销榜持续下滑（游戏陀螺报道口径）。另有报道将2024-01-26记为公测日，与本档采用的01-18不删档口径并存。",
+      "sources": [
+        {
+          "title": "游戏陀螺 2025-10-17：《世界之外》制作人璇子提出离职（含刹那卡牌争议时间线）",
+          "url": "https://www.youxituoluo.com/533897.html"
+        }
+      ]
     }
   ],
   "revenue": [],
@@ -32,5 +41,20 @@
       "url": "https://user.guancha.cn/main/content?id=1168359"
     }
   ],
-  "verified": false
+  "verified": false,
+  "personnelResearch": {
+    "status": "documented",
+    "checkedAt": "2026-10-14",
+    "note": "制作人/主笔璇子（官方公告职务标注）：2024年公测起统筹并深度参与内容创作、曾为主题曲作词；2025年10月离职，2026年2月报道创办新公司获米哈游与砺思资本天使轮。其余岗位无公开署名。",
+    "sources": [
+      {
+        "title": "游戏陀螺 2025-10-17：《世界之外》制作人璇子提出离职",
+        "url": "https://www.youxituoluo.com/533897.html"
+      },
+      {
+        "title": "GameLook（腾讯新闻转载）2026-02-13：璇子新公司获米哈游与砺思资本天使轮",
+        "url": "https://news.qq.com/rain/a/20260213A07L8000"
+      }
+    ]
+  }
 }
