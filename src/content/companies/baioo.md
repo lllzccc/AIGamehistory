@@ -50,7 +50,7 @@ researchChecklist:
       gaps:
         - question: "《食物语陪伴版》（停运公告提及2024年Q3推出）是否上线"
           status: pending
-          nextStep: "查天梯/百奥官方渠道；未核实不建档。"
+          nextStep: 已确认在架：App Store现存《食物语-陪伴版》（发行方广州天梯，2026-10-14接口核查）；后续补其上线日期与版本关系。
           sources:
             - title: TapTap官方公告：《食物语》停运及完结更新告示
               url: https://www.taptap.cn/moment/529775897918572981

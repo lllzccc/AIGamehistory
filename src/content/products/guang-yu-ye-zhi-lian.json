@@ -70,5 +70,7 @@
       "url": "https://lan.tw.gamehours.com/site/index/source/cover"
     }
   ],
-  "verified": false
+  "verified": false,
+  "keyArt": "/images/tencent/guang-yu-ye-zhi-lian-official.jpg",
+  "artPosition": "center"
 }

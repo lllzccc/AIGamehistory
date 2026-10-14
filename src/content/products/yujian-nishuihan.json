@@ -36,5 +36,7 @@
       "url": "http://yujian.163.com"
     }
   ],
-  "verified": false
+  "verified": false,
+  "keyArt": "/images/netease/yujian-nishuihan-official.jpg",
+  "artPosition": "center"
 }

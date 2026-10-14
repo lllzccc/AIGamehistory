@@ -43,5 +43,7 @@
       "url": "https://itunes.apple.com/lookup?id=1619100281&country=us"
     }
   ],
-  "verified": false
+  "verified": false,
+  "keyArt": "/images/zulong/yishanliang-zhiming-official.jpg",
+  "artPosition": "center"
 }

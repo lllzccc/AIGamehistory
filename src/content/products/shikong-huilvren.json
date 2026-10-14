@@ -44,5 +44,7 @@
       "url": "https://user.guancha.cn/main/content?id=1168359"
     }
   ],
-  "verified": false
+  "verified": false,
+  "keyArt": "/images/netease/shikong-huilvren-official.jpg",
+  "artPosition": "center"
 }

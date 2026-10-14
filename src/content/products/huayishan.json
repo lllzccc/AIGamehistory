@@ -36,5 +36,7 @@
       "url": "https://apps.apple.com/cn/app/id1523282795"
     }
   ],
-  "verified": false
+  "verified": false,
+  "keyArt": "/images/nuverse/huayishan-official.jpg",
+  "artPosition": "center"
 }
