@@ -1,0 +1,32 @@
+{
+  "name": "姚飞",
+  "aliases": [],
+  "bio": "叠纸游戏联合创始人、首席运营官（COO）。2025年7月起陆续接任多家子公司法定代表人，同年10月接替姚润昊任上海叠纸科技有限公司法定代表人、执行董事；报道称属企业常规操作。",
+  "roles": [
+    {
+      "company": "papergames",
+      "scope": "company",
+      "products": [],
+      "title": "other",
+      "titleNote": "联合创始人、首席运营官（COO）",
+      "from": "2025-07",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "sources": [
+        {
+          "title": "南方都市报 2025-10-28：姚飞接任上海叠纸科技法定代表人",
+          "url": "https://static.nfnews.com/content/202510/28/c11856476.html"
+        }
+      ],
+      "checkedAt": "2026-10-14",
+      "note": "职务为南方都市报2025-10报道口径；起点按可核实的2025年7月起接任子公司法定代表人公开记录，联合创始人的早年任职起点与最新在任状态未再核实。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "南方都市报 2025-10-28：姚飞接任上海叠纸科技法定代表人",
+      "url": "https://static.nfnews.com/content/202510/28/c11856476.html"
+    }
+  ],
+  "verified": false
+}

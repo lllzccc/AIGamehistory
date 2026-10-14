@@ -12,6 +12,32 @@
     "Android"
   ],
   "status": "live",
+  "lifecycleNotes": [
+    {
+      "note": "国际版《Mr Love: Queen's Choice》由 Elex 运营，2026-02-27 官方公告停服：2026-03-27 终止服务并下架商店、2026-04-30 前受理退款，公告称近年运营状况下滑（含 2023 年语音削减）；国服与台服继续运营。核查2026-10-14。",
+      "sources": [
+        {
+          "title": "A Dose of Otome 2026-02-27：Mr Love 国际版停服公告（Elex 运营方官宣转述）",
+          "url": "https://adoseofotome.com/mr-love-queens-choice-announces-end-of-service"
+        }
+      ]
+    }
+  ],
+  "personnelResearch": {
+    "status": "searched-unconfirmed",
+    "checkedAt": "2026-10-14",
+    "note": "复核当期报道与创始人采访，姚润昊等均以公司职务身份出现；项目级制作人、主策、主美、编剧、音乐无公开实名署名。维基百科称项目组约三十余人，无具名岗位，不建档。",
+    "sources": [
+      {
+        "title": "北京商报：《恋与制作人》走红的背后",
+        "url": "https://www.bbtnews.com.cn/2018/0118/226958.shtml"
+      },
+      {
+        "title": "GameLook：《恋与制作人》DAU 超 400 万，月收入或达 3 亿元",
+        "url": "http://www.gamelook.com.cn/2018/01/317760/"
+      }
+    ]
+  },
   "significance": "“恋与”系列首作，上线首月成为现象级产品，打开了国内乙女游戏市场。",
   "keyArt": "/images/papergames/love-and-producer-official-full.jpg",
   "revenue": [

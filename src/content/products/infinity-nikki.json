@@ -14,6 +14,38 @@
     "Android"
   ],
   "status": "live",
+  "teamEvidence": [
+    {
+      "observedAt": "2026-04-03",
+      "kind": "official",
+      "summary": "Apple 开发者专题：开发团队约 800 人，基于 UE5 采用全局光照与四层 UV 混合面料管线、自研布料解算；获 2025 年 Apple 设计大奖（视觉与图形），App Store Awards 2025 年度游戏决选提名。",
+      "sources": [
+        {
+          "title": "Apple 开发者专题 2026-04-03：无限暖暖团队约800人与主创署名",
+          "url": "https://developer.apple.com/news/?id=9mgkwjnm"
+        }
+      ]
+    }
+  ],
+  "personnelResearch": {
+    "status": "documented",
+    "checkedAt": "2026-10-14",
+    "note": "执行制作人富永健太郎（2022-11 公开亮相；IGN 2024-08 采访署 sub-director，Apple 2026-04 专题署执行制作人）；服装玩法系统主设计师 Douhu、首席程序员 Ade、美术总监 Dodie 为 Apple 专题花名署名，全名未核实；开放世界活动内容负责人 PR Peng（GDC 2026 官方议程）。",
+    "sources": [
+      {
+        "title": "Apple 开发者专题 2026-04-03：无限暖暖团队约800人与主创署名",
+        "url": "https://developer.apple.com/news/?id=9mgkwjnm"
+      },
+      {
+        "title": "IGN 采访 2024-08-23：富永健太郎任无限暖暖 sub-director 及 Infold 京都办公室",
+        "url": "https://www.ign.com/articles/dress-up-jump-up-developer-kentaro-tominaga-shares-gameplay-design-of-infinity-nikki"
+      },
+      {
+        "title": "GDC 2026 官方议程：无限暖暖上线一年后的核心玩法运营（PR Peng）",
+        "url": "https://schedule.gdconf.com/session/refreshing-the-core-mechanics-fun-after-1-year-of-liveops-in-infinity-nikki/915310"
+      }
+    ]
+  },
   "significance": "“暖暖”系列第五作，以 UE5 打造的多平台开放世界换装冒险，标志叠纸进入主机与 PC 市场。",
   "keyArt": "/images/papergames/infinity-nikki-official-full.jpg",
   "revenue": [
@@ -38,6 +70,14 @@
     {
       "title": "界面新闻：《无限暖暖》12 月 5 日全球公测",
       "url": "https://m.jiemian.com/article/12079832.html"
+    },
+    {
+      "title": "Apple 开发者专题 2026-04-03：无限暖暖团队约800人与主创署名",
+      "url": "https://developer.apple.com/news/?id=9mgkwjnm"
+    },
+    {
+      "title": "IGN 采访 2024-08-23：富永健太郎任无限暖暖 sub-director 及 Infold 京都办公室",
+      "url": "https://www.ign.com/articles/dress-up-jump-up-developer-kentaro-tominaga-shares-gameplay-design-of-infinity-nikki"
     }
   ],
   "verified": true,

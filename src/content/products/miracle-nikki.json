@@ -2,7 +2,9 @@
   "name": "奇迹暖暖",
   "aliases": [
     "Love Nikki: Dress Up Queen",
-    "Miracle Nikki"
+    "Miracle Nikki",
+    "ミラクルニキ",
+    "아이러브니키"
   ],
   "genre": "dressup",
   "developer": "papergames",
@@ -13,6 +15,30 @@
     "Android"
   ],
   "status": "live",
+  "lifecycleNotes": [
+    {
+      "note": "日本版 2016-12-08 配信（ニキ株式会社运营），截至 2026-10-14 仍在正常运营（官方X发布 2026-10-15 维护公告与 2026 年 11 月日历投票）。此前玩家攻略wiki顶部记有“2025-10-22 11:00 停服”，经核对其引用的是韩服停服公告转帖，与本档采信的官方账号现状冲突，不采信。",
+      "sources": [
+        {
+          "title": "ミラクルニキ（奇迹暖暖日本版）官方X：维护与活动公告，核查2026-10-14仍运营",
+          "url": "https://x.com/miraclenikkijp"
+        }
+      ]
+    },
+    {
+      "note": "韩版《아이러브니키》（2016-07-03 上线）于 2025-10-22 11:00 停服（2025-09-22 起停售、2025-11-22 客服结束）；东南亚版、泰版、印尼版分别于 2019-12-31、2022-06-23、2023-03-28 停服。以上地区日期转引日文维基百科（其注当地官方社媒/媒体出处），原始官方公告未逐条核对；国际英文版 Love Nikki 截至 2026-07 仍在 Google Play 更新。",
+      "sources": [
+        {
+          "title": "日文维基百科：奇迹暖暖各地区版本停服时间汇总",
+          "url": "https://ja.wikipedia.org/wiki/ミラクルニキ"
+        },
+        {
+          "title": "Google Play：Love Nikki-Dress UP Queen 商店页，2026-07-28仍更新",
+          "url": "https://play.google.com/store/apps/details?id=com.elex.nikkigp"
+        }
+      ]
+    }
+  ],
   "significance": "“暖暖”系列第三作，由腾讯代理，全球注册用户过亿，使“暖暖”成为国内最具影响力的女性向游戏系列。",
   "keyArt": "/images/papergames/miracle-nikki-official-full.jpg",
   "revenue": [],

@@ -1,6 +1,16 @@
 {
   "updatedAt": "2026-10-14",
   "order": [
+    "papergames",
+    "youyi-shiguang",
+    "happyelements",
+    "lingxi",
+    "hongdou",
+    "huoyu",
+    "modo",
+    "guangka",
+    "chuangku",
+    "dianchu",
     "eyu",
     "lilith",
     "rivergame",
@@ -144,9 +154,9 @@
       "next": "从代表产品出发，补完整目录、版本、团队与经营口径。"
     },
     "papergames": {
-      "stage": "已建档",
-      "done": "已有公司档案；逐方向证据及具体已查范围见展开记录。",
-      "next": "从代表产品出发，补完整目录、版本、团队与经营口径。"
+      "stage": "首轮深挖",
+      "done": "建立五方向清单；补TipsWorks/万物契约与百面千相未上线线索、暖暖系海外服生命周期（日服在营、韩服2025-10停服、恋与制作人国际版2026-03停服、闪耀暖暖国际服2021-07上线）、5位新主创（姚飞、杨洋、Douhu、Ade、Dodie）及富永健太郎佐证、上海叠纸实体与法人变更。",
+      "next": "暖暖/恋与各项目制作人、主策、主美的公开署名；各地区服原始停服公告逐条核对；TipsWorks股权结构与无限暖暖地区版本；公众号渠道本轮被验证页拦截，下轮复用知识库读取路径重试。"
     },
     "youyi-shiguang": {
       "stage": "已建档",

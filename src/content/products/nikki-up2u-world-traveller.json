@@ -12,6 +12,17 @@
     "Android"
   ],
   "status": "live",
+  "personnelResearch": {
+    "status": "searched-unconfirmed",
+    "checkedAt": "2026-10-14",
+    "note": "当期报道与姚润昊访谈聚焦创业史与发行代理关系；项目级制作人、主策、主美等岗位无独立公开署名。",
+    "sources": [
+      {
+        "title": "GameLook：叠纸CEO姚润昊解读《暖暖环游世界》（2014-07，称游戏一年前于 iOS 付费榜上架；iOS 版由猎豹移动、安卓版由阿里游戏代理）",
+        "url": "http://www.gamelook.com.cn/2014/07/170329/"
+      }
+    ]
+  },
   "significance": "叠纸团队的首部作品，公司正式成立前一个月上线，被官方称为国内第一款主流换装手游，奠定了“暖暖”系列。",
   "keyArt": "/images/papergames/nikki-up2u-world-traveller-official-full.jpg",
   "revenue": [],

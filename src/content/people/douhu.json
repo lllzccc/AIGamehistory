@@ -1,0 +1,32 @@
+{
+  "name": "Douhu",
+  "aliases": [],
+  "bio": "《无限暖暖》服装玩法系统主设计师（Lead gameplay systems designer for outfits），Apple 开发者专题署名，介绍团队约800人及六年前立项开放世界的思路；花名式署名，全名与中文对应未核实。",
+  "roles": [
+    {
+      "company": "papergames",
+      "scope": "product",
+      "products": ["infinity-nikki"],
+      "title": "lead-designer",
+      "titleNote": "服装玩法系统主设计师（Lead gameplay systems designer for outfits）",
+      "from": "2026-04",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "sources": [
+        {
+          "title": "Apple 开发者专题 2026-04-03：无限暖暖团队约800人与主创署名",
+          "url": "https://developer.apple.com/news/?id=9mgkwjnm"
+        }
+      ],
+      "checkedAt": "2026-10-14",
+      "note": "起点为Apple专题发布日（公开署名观察日），非入职日期。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple 开发者专题 2026-04-03：无限暖暖团队约800人与主创署名",
+      "url": "https://developer.apple.com/news/?id=9mgkwjnm"
+    }
+  ],
+  "verified": false
+}

@@ -12,6 +12,21 @@
     "Android"
   ],
   "status": "live",
+  "lifecycleNotes": [
+    {
+      "note": "国际服 Shining Nikki 于 2021-07-05 19:00（UTC-7）全球上线（上线日期由原计划提前，预注册 50 万达成），由 Papergames 海外发行；国际服官网截至 2026-10-14 仍在运营。核查2026-10-14。",
+      "sources": [
+        {
+          "title": "闪耀暖暖国际服官方新闻 2021-07-01：全球上线提前至 7 月 5 日",
+          "url": "https://nikki4.playpapergames.com/m/news/100205"
+        },
+        {
+          "title": "闪耀暖暖国际服官网：下载与运营状态，核查2026-10-14",
+          "url": "https://nikki4.playpapergames.com/m/home"
+        }
+      ]
+    }
+  ],
   "significance": "“暖暖”系列第四作、叠纸首款 3D 手游，把换装游戏推进到次世代 3D 画面。",
   "keyArt": "/images/papergames/shining-nikki-official-full.jpg",
   "revenue": [

@@ -1,6 +1,6 @@
 {
   "name": "富永健太郎",
-  "bio": "日本游戏开发者，曾参与《塞尔达传说》系列多部作品，任《塞尔达传说：旷野之息》策划及 DLC「英杰之诗」导演。2022 年 11 月以《无限暖暖》执行制作人身份公开亮相，后负责叠纸京都工作室。加入叠纸的确切时间未见公开报道。",
+  "bio": "日本游戏开发者，曾参与《塞尔达传说》系列多部作品，任《塞尔达传说：旷野之息》策划及 DLC「英杰之诗」导演。2022 年 11 月以《无限暖暖》执行制作人身份公开亮相，后作为 Infold 京都办公室首名成员赴日建点（约10人规模）。加入叠纸的确切时间未见公开报道。",
   "aliases": [
     "Kentaro Tominaga"
   ],
@@ -12,6 +12,7 @@
         "infinity-nikki"
       ],
       "title": "executive-producer",
+      "titleNote": "执行制作人（Executive Producer），IGN 采访与官方帖亦署 Sub-Director（副总监）",
       "from": "2022",
       "status": "unknown",
       "dateBasis": "public-observation",
@@ -23,9 +24,18 @@
         {
           "title": "腾讯网（IGN 中国）：专访《无限暖暖》制作人富永健太郎",
           "url": "https://news.qq.com/rain/a/20240829A015H000"
+        },
+        {
+          "title": "IGN 采访 2024-08-23：富永健太郎任无限暖暖 sub-director 及 Infold 京都办公室",
+          "url": "https://www.ign.com/articles/dress-up-jump-up-developer-kentaro-tominaga-shares-gameplay-design-of-infinity-nikki"
+        },
+        {
+          "title": "Apple 开发者专题 2026-04-03：无限暖暖团队约800人与主创署名",
+          "url": "https://developer.apple.com/news/?id=9mgkwjnm"
         }
       ],
-      "note": "沿用既有公开履历，起点不一定为实际入职日期；当前状态需独立核实。"
+      "checkedAt": "2026-10-14",
+      "note": "起点不一定为实际入职日期；2024-08 IGN 采访（品牌方赞助内容）称其为 Infold 京都办公室首名员工、赴日前与上海团队共事约半年，2026-04 Apple 专题仍署执行制作人。当前是否仍在任未获官方页面直接确认。"
     }
   ],
   "sources": [
@@ -36,7 +46,15 @@
     {
       "title": "腾讯网（IGN 中国）：专访《无限暖暖》制作人富永健太郎",
       "url": "https://news.qq.com/rain/a/20240829A015H000"
+    },
+    {
+      "title": "IGN 采访 2024-08-23：富永健太郎任无限暖暖 sub-director 及 Infold 京都办公室",
+      "url": "https://www.ign.com/articles/dress-up-jump-up-developer-kentaro-tominaga-shares-gameplay-design-of-infinity-nikki"
+    },
+    {
+      "title": "Apple 开发者专题 2026-04-03：无限暖暖团队约800人与主创署名",
+      "url": "https://developer.apple.com/news/?id=9mgkwjnm"
     }
   ],
-  "verified": false
+  "verified": true
 }

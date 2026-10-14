@@ -1,0 +1,37 @@
+{
+  "name": "杨洋",
+  "aliases": [],
+  "bio": "TipsWorks 工作室创始人。2000年入行，曾在KONAMI任职近十年参与《寂静岭》《恶魔城》《实况足球》等项目；后率队开发买断制魂系手游《帕斯卡契约》，2021年随工作室加入叠纸，曾任跨平台动作RPG《万物契约》制作人。专业方向为动作RPG，不计入女性向人才统计。",
+  "roles": [
+    {
+      "company": "papergames",
+      "scope": "company",
+      "products": [],
+      "specialties": ["rpg"],
+      "title": "other",
+      "titleNote": "TipsWorks 工作室创始人；曾任《万物契约》制作人",
+      "from": "2021",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "sources": [
+        {
+          "title": "界面新闻 2021-10-20：TipsWorks 工作室选择叠纸作为新东家",
+          "url": "https://www.jiemian.com/article/6720501.html"
+        },
+        {
+          "title": "界面新闻（游戏茶馆）2025-01-10：《万物契约》转向单机，并不让人意外",
+          "url": "https://www.jiemian.com/article/12230881.html"
+        }
+      ],
+      "checkedAt": "2026-10-14",
+      "note": "2021年10月媒体报道TipsWorks与叠纸官宣合作并称选择叠纸为新东家，以此为公开记录起点；《万物契约》2025年1月转向后其当前职务未披露，不从项目调整推断去留。媒体线索称TipsWorks创立于2017年，原文未逐字核对。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "界面新闻（游戏茶馆）2025-01-10：《万物契约》转向单机，并不让人意外",
+      "url": "https://www.jiemian.com/article/12230881.html"
+    }
+  ],
+  "verified": false
+}
