@@ -78,6 +78,10 @@ researchChecklist:
             title: 36氪：灵犀先在海外推出《代号鸢》，再以《如鸢》回国公测
             url: https://m.36kr.com/p/2934123680685192
           note: 女向线两条产品独立运营的官方口径核对。
+        - source:
+            title: 竞核HOT周报（腾讯新闻）2026-08-23：灵犀互娱新游《代号咘咘》曝光开启测试招募
+            url: https://news.qq.com/rain/a/20260823A06R8600
+          note: 捉宠题材模拟经营新游，2026-08-21经TapTap等渠道曝光并开启测试招募，为8-17易主确认后灵犀首款对外曝光新游。非女向线不建产品档，按研发方向线索记录（发现渠道：小红书，经竞核当期报道核实）。
       gaps:
         - question: 海外发行域名 qookkagames（代号鸢官网）与灵犀/QooKka品牌关系
           status: pending
