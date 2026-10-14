@@ -23,6 +23,8 @@ sources:
     url: https://finance.sina.com.cn/jjxw/2026-08-24/doc-inipkriv0120529.shtml
   - title: 每日经济新闻 2024-12-09：灵犀互娱是时候证明自己了（管理层交接、如鸢与三战数据）
     url: https://www.mrjjxw.com/articles/2024-12-09/3678259.html
+  - title: 竞核（知乎专栏）2024-03-08：阿里游戏换了新掌门，三战制作人接棒詹钟晖
+    url: https://zhuanlan.zhihu.com/p/686047148
 verified: false
 orgUnits:
   - name: 鸢工作室
@@ -39,6 +41,62 @@ orgUnits:
     sources:
       - title: 36氪：灵犀先在海外推出《代号鸢》，再以《如鸢》回国公测
         url: https://m.36kr.com/p/2934123680685192
+  - name: S3 工作室
+    kind: studio
+    scope: 《三国志·战略版》研发线，负责人周炳枢（饼叔），2024-03接任灵犀业务负责人前的工作室职务
+    observedAt: "2023-01"
+    note: 2023-01截止口径，竞核文章转引游鲨游戏圈报道；内部代号命名
+    sources:
+      - title: 竞核（知乎专栏）2024-03-08：阿里游戏换了新掌门（附灵犀工作室架构）
+        url: https://zhuanlan.zhihu.com/p/686047148
+  - name: 星辰工作室
+    kind: studio
+    scope: 《三国志幻想大陆》《代号英雄》研发线，负责人楚轩（王忆飞，网易前高级总监）
+    observedAt: "2023-01"
+    note: 同上口径
+    sources:
+      - title: 竞核（知乎专栏）2024-03-08：阿里游戏换了新掌门（附灵犀工作室架构）
+        url: https://zhuanlan.zhihu.com/p/686047148
+  - name: M1 工作室
+    kind: studio
+    scope: 自研工作室之一，颜科西（网易前副总经理）负责或监管
+    observedAt: "2023-01"
+    note: 同上口径；M1/X1/M5多条线与颜科西的对应关系为转引报道表述
+    sources:
+      - title: 竞核（知乎专栏）2024-03-08：阿里游戏换了新掌门（附灵犀工作室架构）
+        url: https://zhuanlan.zhihu.com/p/686047148
+  - name: X1 工作室
+    kind: studio
+    scope: 自研工作室之一，颜科西负责或监管
+    observedAt: "2023-01"
+    note: 同上口径
+    sources:
+      - title: 竞核（知乎专栏）2024-03-08：阿里游戏换了新掌门（附灵犀工作室架构）
+        url: https://zhuanlan.zhihu.com/p/686047148
+  - name: M5 工作室
+    kind: studio
+    scope: 自研工作室之一，颜科西负责或监管
+    observedAt: "2023-01"
+    note: 同上口径
+    sources:
+      - title: 竞核（知乎专栏）2024-03-08：阿里游戏换了新掌门（附灵犀工作室架构）
+        url: https://zhuanlan.zhihu.com/p/686047148
+  - name: S6 工作室
+    kind: studio
+    scope: 自研工作室之一，由原《英雄三国》数值策划负责
+    observedAt: "2023-01"
+    note: 同上口径
+    sources:
+      - title: 竞核（知乎专栏）2024-03-08：阿里游戏换了新掌门（附灵犀工作室架构）
+        url: https://zhuanlan.zhihu.com/p/686047148
+  - name: 创新实验室
+    kind: middle-platform
+    scope: 自研游戏与自研引擎研发，负责人吴云洋（云风）；其主管的Ant Engine项目2024年关停后吴云洋离职
+    observedAt: "2023-01"
+    note: 同上口径；南方都市报2024-05报道引擎项目关停与离职
+    sources:
+      - title: 竞核（知乎专栏）2024-03-08：阿里游戏换了新掌门（附灵犀工作室架构）
+        url: https://zhuanlan.zhihu.com/p/686047148
 researchChecklist:
   items:
     - area: history
@@ -54,6 +112,10 @@ researchChecklist:
             title: 每日经济新闻 2024-12-09
             url: https://www.mrjjxw.com/articles/2024-12-09/3678259.html
           note: 2014 UC九游起步→2016阿里游戏→2020独立事业群；2024-03詹钟晖/陈伟安卸任、周炳枢接任、5月吴云洋离职。
+        - source:
+            title: 竞核（知乎专栏）2024-03-08：阿里游戏换了新掌门，三战制作人接棒詹钟晖
+            url: https://zhuanlan.zhihu.com/p/686047148
+          note: 交接细节校准：2024-03-08内部信、3-31财年末生效卸任大班委，同期卸任含花名「春娇」（身份待核）；另附2023-01工作室架构（S3/星辰/M1/X1/M5/S6+创新实验室，转引游鲨游戏圈），已入组织架构区。詹钟晖人物档案同步修正离任状态（校准轮2026-10-14）。
       gaps:
         - question: 信宸资本交易的交割状态与工商股权变更
           status: pending
