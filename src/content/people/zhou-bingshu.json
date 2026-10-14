@@ -1,0 +1,41 @@
+{
+  "name": "周炳枢",
+  "aliases": [],
+  "bio": "灵犀互娱CEO，《三国志·战略版》制作人。2024年3月接替詹钟晖出任业务负责人，简悦创始团队同期退场；2026年8月阿里向信宸资本出售灵犀互娱时以CEO身份发内部信，确认与管理团队留任。",
+  "roles": [
+    {
+      "company": "lingxi",
+      "scope": "company",
+      "products": [],
+      "specialties": ["strategy"],
+      "title": "ceo",
+      "titleNote": "CEO；《三国志·战略版》制作人",
+      "from": "2024-03",
+      "status": "active",
+      "dateBasis": "public-observation",
+      "sources": [
+        {
+          "title": "界面新闻（新浪转载）2026-08-24：阿里出售灵犀互娱，CEO周炳枢内部信确认",
+          "url": "https://finance.sina.com.cn/jjxw/2026-08-24/doc-inipkriv0120529.shtml"
+        },
+        {
+          "title": "每日经济新闻 2024-12-09：灵犀互娱是时候证明自己了（2024年3月管理层交接）",
+          "url": "https://www.mrjjxw.com/articles/2024-12-09/3678259.html"
+        }
+      ],
+      "checkedAt": "2026-10-14",
+      "note": "起点按2024年3月接任业务负责人的公开报道；CEO称谓见2026-08-17内部信报道。《三国志·战略版》为SLG卷产品，specialties=strategy，不计入女性向人才统计；担任该项目制作人的起始时间未单独核实，故不挂产品署名。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "界面新闻（新浪转载）2026-08-24：阿里出售灵犀互娱，CEO周炳枢内部信确认",
+      "url": "https://finance.sina.com.cn/jjxw/2026-08-24/doc-inipkriv0120529.shtml"
+    },
+    {
+      "title": "每日经济新闻 2024-12-09：灵犀互娱是时候证明自己了（2024年3月管理层交接）",
+      "url": "https://www.mrjjxw.com/articles/2024-12-09/3678259.html"
+    }
+  ],
+  "verified": true
+}

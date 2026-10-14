@@ -13,6 +13,17 @@
     "Android"
   ],
   "status": "live",
+  "personnelResearch": {
+    "status": "documented",
+    "checkedAt": "2026-10-14",
+    "note": "制作人小萌自立项参与至 2026-06 离任（官方公告确认），此后由原核心团队承接；主策、主美等其余岗位无公开实名署名。",
+    "sources": [
+      {
+        "title": "每经网：2026 年 6 月 17 日官方确认制作人小萌离职",
+        "url": "https://www.nbd.com.cn/articles/2026-06-18/4430386.html"
+      }
+    ]
+  },
   "significance": "灵犀互娱第一条女向产品线，三国权谋卡牌，先在港澳台及海外上线并出圈，再以《如鸢》回国。",
   "keyArt": "/images/lingxi/daimao-yuan.jpg",
   "revenue": [
