@@ -1,6 +1,6 @@
 {
   "name": "姚润昊",
-  "bio": "1988 年生，2011 年早稻田大学经济学专业毕业后继续攻读金融，2012 年读金融系研一期间与网友业余开发《暖暖的换装物语》，2013 年回国创办叠纸并任董事长兼 CEO；2019 年在腾讯游戏开发者大会自述仍坚持亲自担任《闪耀暖暖》制作人；Forbes 2025 年估其身家约 13 亿美元。",
+  "bio": "1988 年生，2011 年早稻田大学经济学专业毕业后继续攻读金融，2012 年读金融系研一期间与网友业余开发《暖暖的换装物语》，2013 年回国创办叠纸并任董事长兼 CEO；2015 年以《奇迹暖暖》制作人身份接受游戏葡萄专访，2019 年在腾讯游戏开发者大会自述仍坚持亲自担任《闪耀暖暖》制作人，2025 年 1 月以叠纸CEO、《无限暖暖》制作人身份出镜谈项目优化；Forbes 2025 年估其身家约 13 亿美元。",
   "aliases": [
     "Yao Runhao"
   ],
@@ -51,9 +51,51 @@
       ],
       "checkedAt": "2026-10-14",
       "note": "起点按TGDC 2019演讲自述的公开观察日（游戏2019-08公测）；此前的暖暖系列各作是否均由其担任制作人未逐作核实，不外推；此后是否持续担任本作制作人未再核实。"
+    },
+    {
+      "company": "papergames",
+      "scope": "product",
+      "products": [
+        "miracle-nikki"
+      ],
+      "title": "producer",
+      "from": "2015-05",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "sources": [
+        {
+          "title": "游戏葡萄微信公众号 2015-05-15：《专访“暖暖”制作人姚润昊：有了腾讯的嫁妆，〈奇迹暖暖〉能否再创奇迹？》（标题及内文两处署名“《奇迹暖暖》的制作人姚润昊”；原文经公众号临时链读取全文核实，签名链会过期，永久链待补）",
+          "url": "https://mp.weixin.qq.com/s?src=3&timestamp=1791975625&ver=1&signature=ZscGCUGnk0DcsFLe27sOc9bjs*xkZywussCwNGongHHxQ2eGfYONUmdZOe3KMSRDffJgykqUIBQvW*UTmkJZoEvCwkZq335lt6fIe71V51KfOUmnNKb0hoq4LfOC19chqwk5prN07M09anoCGw4YXQ=="
+        }
+      ],
+      "checkedAt": "2026-10-15",
+      "note": "观察起点按专访发布日（游戏2015-05-20公测前）。原文经微信公众号临时签名链读取全文核实（游戏葡萄原发，葡萄君署名），该链接会过期；未检索到稳定转载，永久链或转载版留缺口。奇迹暖暖上线初期为腾讯独家代理。"
+    },
+    {
+      "company": "papergames",
+      "scope": "product",
+      "products": [
+        "infinity-nikki"
+      ],
+      "title": "producer",
+      "from": "2025-01",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "sources": [
+        {
+          "title": "腾讯新闻（GameLook账号）2025-01-21：叠纸CEO姚润昊畅谈《无限暖暖》——两处署名“叠纸CEO、《无限暖暖》制作人姚润昊”",
+          "url": "https://news.qq.com/rain/a/20250121A09U7S00"
+        }
+      ],
+      "checkedAt": "2026-10-15",
+      "note": "观察起点按当期专访（游戏2024-12上线后、项目优化公开信时期）；实际担任制作人起点未核实（项目2020-12立项传闻期不采用）。与富永健太郎（执行制作人/sub-director）为两个不同岗位，不互斥。"
     }
   ],
   "sources": [
+    {
+      "title": "腾讯新闻（GameLook账号）2025-01-21：叠纸CEO姚润昊畅谈《无限暖暖》",
+      "url": "https://news.qq.com/rain/a/20250121A09U7S00"
+    },
     {
       "title": "腾讯网（时代周报）：《恋与深空》海外上线3个月狂赚超5亿元，苏州跑出一匹游戏黑马",
       "url": "https://news.qq.com/rain/a/20240425A00G8W00"
@@ -61,10 +103,6 @@
     {
       "title": "Forbes：AI Boyfriends Make Chinese Gaming Entrepreneur Yao Runhao A Billionaire",
       "url": "https://www.forbes.com/sites/ywang/2025/02/14/ai-boyfriends-make-chinese-gaming-entrepreneur-yao-runhao-a-billionaire/"
-    },
-    {
-      "title": "虎嗅：那个做《暖暖环游世界》和《奇迹暖暖》的游戏公司，刚刚完成B轮融资",
-      "url": "https://www.huxiu.com/article/129420.html"
     }
   ],
   "verified": true
