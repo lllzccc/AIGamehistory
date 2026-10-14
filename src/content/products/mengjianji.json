@@ -1,0 +1,41 @@
+{
+  "name": "梦间集",
+  "aliases": [],
+  "chronicles": [
+    "female"
+  ],
+  "genre": "rpg",
+  "developer": "perfectworld",
+  "publisher": "perfectworld",
+  "released": "2017-07-26",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "status": "live",
+  "versionLabel": "中国大陆",
+  "significance": "完美世界女性向卡牌RPG（《梦间集天鹅座》IP前作），以金庸武侠与中国古代兵器设定为基底的拟人化恋爱养成。",
+  "lifecycleNotes": [
+    {
+      "note": "2017年7月14日iOS公测、7月26日全平台上线（媒体口径，官方源待补）；官方网站截至2026年10月仍在持续发布停服维护公告与限时活动（状态live）。续作《梦间集天鹅座》已另行建档。",
+      "sources": [
+        {
+          "title": "《梦间集》手游官方网站（完美世界，核查2026-10-14仍在运营）",
+          "url": "https://m.games.wanmei.com"
+        },
+        {
+          "title": "百度百科（线索级）：梦间集——2017-07-14 iOS公测、07-26全平台",
+          "url": "https://baike.baidu.com/item/%E6%A2%A6%E9%97%B4%E9%9B%86/22459026"
+        }
+      ]
+    }
+  ],
+  "revenue": [],
+  "sources": [
+    {
+      "title": "《梦间集》手游官方网站（完美世界，核查2026-10-14仍在运营）",
+      "url": "https://m.games.wanmei.com"
+    }
+  ],
+  "verified": false
+}
