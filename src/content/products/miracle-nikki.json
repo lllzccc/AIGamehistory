@@ -37,6 +37,15 @@
           "url": "https://play.google.com/store/apps/details?id=com.elex.nikkigp"
         }
       ]
+    },
+    {
+      "note": "2026-10-15 App Store 接口口径核查：美区 Love Nikki-Dress UP Queen（trackId 1214763767，2017-05-05 上架，发行方 Galaxy Play Technology Limited）在架；台服《奇迹暖暖》（1091427040，Nikkigames HK Limited）在架；日服ミラクルニキ（1169846772，Nikki Inc. Japan）在架——美/台/日三地区服均未停运，与韩服2025-10停服、东南亚三版停运并存，构成当前地区分布快照。台服发行主体 Nikkigames HK 为本档首次记录。",
+      "sources": [
+        {
+          "title": "iTunes search 接口（us/tw/jp，查询日2026-10-15）：Love Nikki 在架",
+          "url": "https://itunes.apple.com/lookup?id=1214763767&country=us"
+        }
+      ]
     }
   ],
   "significance": "“暖暖”系列第三作，由腾讯代理，全球注册用户过亿，使“暖暖”成为国内最具影响力的女性向游戏系列。",
