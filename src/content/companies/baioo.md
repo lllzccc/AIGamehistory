@@ -89,8 +89,10 @@ researchChecklist:
       gaps:
         - question: 百奥财报逐年数字与食物语收入口径原件
           status: pending
-          nextStep: "查港交所公告原件后录入financials。"
-          sources: []
+          nextStep: "披露渠道已定位（2026-10-15夜跑轮）：港交所披露易hkexnews.hk按代码02100检索（2014-04-10上市）；公司IR入口baioo.com.hk投资者关系栏目（财务摘要2014–2026年份选项卡，JS渲染需浏览器），公司确认以电子通讯方式在官网与披露易发布企业通讯。本轮本机网络到hkexnews被重置、官网静态域证书异常，原件调取留待网络可用时段用浏览器检索。"
+          sources:
+            - title: 百奥官网关于我们（企业通讯发布渠道声明：官网+披露易）
+              url: https://www.baioo.com.hk/zh-CN/?page=about&tab=intorduction
   supplementRounds:
     - checkedAt: "2026-10-14"
       channel: 官方停运公告与财经报道线索

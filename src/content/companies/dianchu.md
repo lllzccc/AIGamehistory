@@ -101,8 +101,12 @@ researchChecklist:
       gaps:
         - question: 年报原件逐年数字（含2021–2023）与2024归母净利两说
           status: pending
-          nextStep: "雪球年报PDF本轮下载失败（SSL）；另有检索摘要称2024归母净利638.61万与报道0.8亿不一致，需原件核对。"
-          sources: []
+          nextStep: "年报原件已定位（2026-10-15夜跑轮）：2022年报公告页xinsanban.eastmoney.com/Article/NoticeContent?id=AN202304271585945919（PDF直链pdf.dfcfw.com/pdf/H2_AN202304271585945919_1.pdf）、2023年报id=AN202404261631399987（PDF直链H2_AN202404261631399987_1.pdf），公告页可开、直链本机curl被SSL拦，解析用webReader或换网络重试。另有检索摘要称2024归母净利638.61万与报道0.8亿不一致，需原件核对。摘要确认公司以历史养成（女向）为核心方向（Vikingard/房间的秘密/Game of Sultans）。"
+          sources:
+            - title: 点触科技：2022年年度报告（东方财富新三板公告页）
+              url: https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202304271585945919
+            - title: 点触科技：2023年年度报告（东方财富新三板公告页）
+              url: https://xinsanban.eastmoney.com/Article/NoticeContent?id=AN202404261631399987
   supplementRounds:
     - checkedAt: "2026-10-14"
       channel: 新三板资料页与财经媒体
