@@ -206,6 +206,10 @@ researchChecklist:
             title: Automaton 2026-05-04：无限暖暖美术总监Dodie的GDC 2026服装设计演讲
             url: https://automaton-media.com/en/news/you-cant-touch-peoples-hearts-by-just-piling-together-visual-information-infinity-nikki-art-director-explains-how-outfits-are-designed-to-express-narrative-and-sym
           note: Dodie获第二独立来源（Apple专题+GDC演讲报道）升verified；GDC 2026另设恋与深空专场。
+        - source:
+            title: 游戏那点事（知乎专栏）2026-09-14：《独家专访｜叠纸主策划：一次固执，在8个月后终于被读懂了》
+            url: https://zhuanlan.zhihu.com/p/2082942623917068530
+          note: 无限暖暖主策划琥琥（署名疑为花名）经专访署名入档；发现渠道为小红书游戏那点事账号转载。
       gaps:
         - question: 恋与制作人/奇迹暖暖/暖暖环游世界的制作人、主策、主美等岗位公开实名署名（闪耀暖暖制作人已核实为姚润昊）
           status: not-found

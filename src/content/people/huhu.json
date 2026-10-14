@@ -1,0 +1,35 @@
+{
+  "name": "琥琥",
+  "aliases": [],
+  "bio": "叠纸游戏《无限暖暖》主策划（专访署名\"琥琥\"，疑为花名，本名未核实）。2026年9月科隆游戏展期间接受游戏那点事专访，讲述2.0版本\"伊赞之土\"历时8个月的叙事长线设计与3.X\"暖暖过去篇章\"规划；受访报道以\"她\"指称。",
+  "roles": [
+    {
+      "company": "papergames",
+      "scope": "product",
+      "specialties": ["dressup"],
+      "products": [
+        "infinity-nikki"
+      ],
+      "title": "lead-designer",
+      "titleNote": "主策划（专访职务标注）",
+      "from": "2026-09",
+      "status": "active",
+      "dateBasis": "public-observation",
+      "sources": [
+        {
+          "title": "游戏那点事（知乎专栏）2026-09-14：《独家专访｜叠纸主策划：一次固执，在8个月后终于被读懂了》",
+          "url": "https://zhuanlan.zhihu.com/p/2082942623917068530"
+        }
+      ],
+      "checkedAt": "2026-10-14",
+      "note": "担任主策划的实际起始时间未核实，from按首次公开受访署名日记录；小红书\"游戏那点事\"账号2026-10-01转载同文（笔记6abcf944000000001b02220c）为发现渠道。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "游戏那点事（知乎专栏）2026-09-14：《独家专访｜叠纸主策划：一次固执，在8个月后终于被读懂了》",
+      "url": "https://zhuanlan.zhihu.com/p/2082942623917068530"
+    }
+  ],
+  "verified": true
+}
