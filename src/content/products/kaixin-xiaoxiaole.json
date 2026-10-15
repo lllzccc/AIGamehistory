@@ -12,7 +12,8 @@
   "released": "2014-02",
   "platforms": [
     "iOS",
-    "Android"
+    "Android",
+    "微信小程序"
   ],
   "status": "live",
   "significance": "乐元素的长线三消休闲产品。官方 App Store 介绍记载 2014 年 2 月推出 iOS 版；本条按移动版建档，不与更早网页版本混用，安卓与地区日期另行核实。",
@@ -28,5 +29,20 @@
     }
   ],
   "keyArt": "/images/happyelements/kaixin-xiaoxiaole.jpg",
-  "verified": false
+  "verified": false,
+  "lifecycleNotes": [
+    {
+      "note": "微信小程序版2024-11-13上线（即点即玩、账号数据同步的轻量版；四家媒体同日通稿口径，乐元素官方投放）。上线时间以通稿日期记录，官方公告原件待补。",
+      "sources": [
+        {
+          "title": "网易 2024-11-13：来了！《开心消消乐》微信小程序重磅上线（同日多源通稿）",
+          "url": "https://www.163.com/dy/article/JGSCT8QI05148M7V.html"
+        },
+        {
+          "title": "IT168（限时抢购转载）2024-11-28：开心消消乐微信小程序版上线：即点即玩，数据同步",
+          "url": "https://shike.it168.com/news/16099.html"
+        }
+      ]
+    }
+  ]
 }

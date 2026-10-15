@@ -1,0 +1,32 @@
+{
+  "name": "熹妃传H5",
+  "aliases": ["熹妃传小游戏"],
+  "chronicles": ["female"],
+  "genre": "palace",
+  "developer": "youyi-shiguang",
+  "publisher": "youyi-shiguang",
+  "released": "2025-03",
+  "platforms": ["H5小游戏"],
+  "status": "live",
+  "versionLabel": "H5小游戏 · 熹妃传IP小游戏版",
+  "significance": "友谊时光后宫养成核心IP《熹妃传》的小游戏版，2025年3月上线并逐步加大推广，是公司宫斗主线IP向小游戏渠道迁移的首款产品；同期《代号：恋人》《代号：花》《代号：遗迹》《代号：HX》等小游戏在研发测试中。",
+  "lifecycleNotes": [
+    {
+      "note": "2025年3月上线、逐步加大推广中（2024年报展望段原文「《熹妃傳H5》已於2025年3月上線」）。渠道平台年报未指明微信或抖音，platforms按年报定义记H5小游戏待细化。注意与2024年5月节点区分：年报大事记2024-05为《凌云诺H5》进微信畅销榜Top50，非本作上线（此前公司档案核查项有「熹妃传小游戏2024年5月上线」的记录，系对中期报告的误读，已修正）。",
+      "sources": [
+        {
+          "title": "友谊时光2024年年度报告（印刷页20：《熹妃传H5》已于2025年3月上线；四款代号小游戏研发测试中）",
+          "url": "https://www.friendtimes.net/res/ftnet/202504/28181923gbvx.pdf"
+        }
+      ]
+    }
+  ],
+  "revenue": [],
+  "sources": [
+    {
+      "title": "友谊时光2024年年度报告（熹妃传H5上线时间与储备）",
+      "url": "https://www.friendtimes.net/res/ftnet/202504/28181923gbvx.pdf"
+    }
+  ],
+  "verified": true
+}

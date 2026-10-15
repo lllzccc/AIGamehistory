@@ -1,0 +1,32 @@
+{
+  "name": "凌云诺H5",
+  "aliases": ["凌云诺小游戏"],
+  "chronicles": ["female"],
+  "genre": "palace",
+  "developer": "youyi-shiguang",
+  "publisher": "youyi-shiguang",
+  "released": "2024-05",
+  "platforms": ["微信小游戏"],
+  "status": "live",
+  "versionLabel": "微信小游戏 · 凌云诺IP小游戏版",
+  "significance": "友谊时光古风宫廷IP《凌云诺》的小游戏版，公司小游戏线首款跑出成绩的产品：2024年5月进入微信小游戏畅销榜Top50，带动2024年上下半年收益环比+20.7%/+21.0%的增量之一。",
+  "lifecycleNotes": [
+    {
+      "note": "2024年5月进入微信小游戏畅销榜Top50（2024年报大事记口径）。released按首次公开观察（进榜月）记录，实际上线日未披露，不据进榜倒推。年报官方定义：H5/小游戏指以小程序等为载体、无需下载即点即玩的产品形态。",
+      "sources": [
+        {
+          "title": "友谊时光2024年年度报告（印刷页70大事记：2024年5月凌云诺H5进入微信小游戏畅销榜Top50；页14收益增量归因）",
+          "url": "https://www.friendtimes.net/res/ftnet/202504/28181923gbvx.pdf"
+        }
+      ]
+    }
+  ],
+  "revenue": [],
+  "sources": [
+    {
+      "title": "友谊时光2024年年度报告（凌云诺H5进榜与收益增量）",
+      "url": "https://www.friendtimes.net/res/ftnet/202504/28181923gbvx.pdf"
+    }
+  ],
+  "verified": true
+}
