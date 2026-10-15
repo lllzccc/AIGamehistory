@@ -36,6 +36,14 @@ sources:
   - title: "面包财经 2025-09-19：点触科技2025年上半年营收4.21亿、归母净利1.02亿；营收自2020年12.21亿降至2024年5.26亿"
     url: https://www.mbcaijing.com/article/MyNuzRAY6X0=
 verified: false
+orgUnits:
+  - name: 钢之直男工作室
+    kind: studio
+    scope: 《英勇之地》（Hero's Land）研发工作室，点触从历史养成向PC多端竞技的转型线
+    observedAt: "2024-06"
+    sources:
+      - title: 游戏联合体（腾讯新闻）2024-06-21：开创热门赛道，全球流水过亿
+        url: https://news.qq.com/rain/a/20240621A08VI400
 researchChecklist:
   items:
     - area: history
@@ -60,7 +68,7 @@ researchChecklist:
         - source:
             title: "面包财经 2025-09-19"
             url: https://www.mbcaijing.com/article/MyNuzRAY6X0=
-          note: "《英勇之地》2025-05公测（多端竞技生存，非女性向不建档）、《开心大碰撞》2025-06公测（首个轻竞技）；海外线Game of Sultans/Khans沿既有档案。"
+          note: "《英勇之地》2025-05公测（多端竞技生存，非女性向不建档）、《开心大碰撞》2025-06公测（首个轻竞技）；海外线Game of Sultans/Khans沿既有档案。2026-10-15增补（游戏联合体2024-06-21+汪雄军公众号采访2024-05）：英勇之地由点触旗下钢之直男工作室研发、PvPvE生存竞技，先上Steam全球服Hero's Land（多地区热销榜、PCU超3.7万、全球在线TOP50），2024-06国内PC首发预约超300万，Steam单平台单月收入破300万美元（采访口径）；系点触从历史养成向PC多端转型的代表作品。"
       gaps:
         - question: 海外产品（Game of Sultans/Khans等）逐款版本与地区档案
           status: pending
