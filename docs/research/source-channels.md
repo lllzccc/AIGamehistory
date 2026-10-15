@@ -10,7 +10,7 @@
 | 上市公司披露（港交所/上交所/新三板/证监会） | 稳定 | 财务、沿革、主体结构 | PDF 用本地 pdfjs-dist 管线解析 |
 | App Store 接口（iTunes lookup/search） | 稳定 | 各地区上架日、发行方、官方 artwork | 已用于 9+ 产品；国区搜索需精确词 |
 | Google Play / TapTap 页面 | 大体可抓 | 上线日、署名、停运公告（TapTap moment 优先） | TapTap app 页部分 JS 渲染 |
-| 微信公众号原文 | **已知URL可读**：`server/knowledge/web.mjs` fetchPublicPage | 当期报道、官方公告 | 正样本：光夜娱乐独角兽篇；发现靠转载反查（36氪出海/搜狐转载页留 mp.weixin 链接） |
+| 微信公众号原文 | **已知URL可读**：`server/knowledge/web.mjs` fetchPublicPage；**公众号→搜狐号镜像**：`mp.sohu.com/profile?xpt=<base64(账号@sohu.com)>` 列近20篇+相对时间（另一会话2026-10验证，游戏葡萄样本成功） | 当期报道、官方公告 | 正样本：光夜娱乐独角兽篇；发现靠转载反查（36氪出海/搜狐转载页留 mp.weixin 链接）；搜狐镜像绕开微信临时链与antispider，首扫即命中AI乙游《代号如意》 |
 | **B站 API** | **2026-10-14 验证匿名可用**（search + view 接口） | 官方号视频、幕后纪录片 staff 署名、简介制作人署名、发布日期 | 简介为 UGC 口径需甄别官方号；**署名多在视频画面内不在元数据**；匿名搜索接口连续调用会触发风控（返回HTML），需加 4 秒以上间隔 |
 | **Wayback Machine** | 匿名可用、**限流严格**（429） | 已停运产品官网 KV、停运公告、下架 App Store 页（mzstatic 图链常仍存活） | 请求间加延时，逐条跑；**已验证路径：存档App Store页提取AppIcon的mzstatic链接→Apple CDN原图直接下载**（灵猫传/梦间集成功样本）；CDX需filter=statuscode:200过滤404快照 |
 | 官方 X/Facebook | 可抓 | 海外版本运营状态、停服公告 | 日服 X 账号维护中即运营证据 |
