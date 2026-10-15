@@ -33,6 +33,8 @@ export const companyStatusLabel: Record<Company['status'], string> = {
 export const genreLabel: Record<Product['genre'], string> = {
   otome: '乙女',
   dressup: '换装',
+  palace: '宫斗',
+  court: '官斗',
   interactive: '互动叙事',
   strategy: 'SLG策略',
   rpg: 'RPG角色扮演',

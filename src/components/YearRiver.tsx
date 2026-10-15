@@ -1,5 +1,5 @@
 import { withBase } from '../lib/paths';
-import { useCallback, useMemo, useState, type ReactNode } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState, type ReactNode } from 'react';
 import { AnimatePresence, motion, MotionConfig, useReducedMotion } from 'motion/react';
 import type { GenreFilter, YearBucket } from '../lib/types';
 import { bucketSize, filterBucket } from '../lib/data';
@@ -9,11 +9,15 @@ import ProductDrawer from './ProductDrawer';
 import GameplayTags from './GameplayTags';
 import {coreGameplayLabels, fusionGameplayLabels, filterGameplayBuckets, type CoreFilter, type FusionFilter} from '../lib/gameplay';
 import SourceLinks from './SourceLinks';
+import { searchRiver } from '../lib/riverSearch';
+import './YearRiver.css';
 
 const FILTERS: { value: GenreFilter; label: string }[] = [
   { value: 'all', label: '全部' },
   { value: 'otome', label: genreLabel.otome },
   { value: 'dressup', label: genreLabel.dressup },
+  { value: 'palace', label: genreLabel.palace },
+  { value: 'court', label: genreLabel.court },
   { value: 'interactive', label: genreLabel.interactive },
 ];
 
@@ -32,11 +36,74 @@ export default function YearRiver({ buckets, chronicle }: { buckets: YearBucket[
   const [core, setCore] = useState<CoreFilter>('all');
   const [fusion, setFusion] = useState<FusionFilter>('all');
   const [genre, setGenre] = useState<GenreFilter>('all');
+  const [query, setQuery] = useState('');
+  const [activeYear, setActiveYear] = useState<number | null>(null);
+  const riverRef = useRef<HTMLDivElement>(null);
+  const toolsRef = useRef<HTMLDivElement>(null);
+  const yearsRef = useRef<HTMLDivElement>(null);
   const [openId, setOpenId] = useState<string | null>(null);
   const close = useCallback(() => setOpenId(null), []);
   const reduceMotion = useReducedMotion();
 
-  const visible = useMemo(() => chronicle === 'slg' ? filterGameplayBuckets(buckets, core, fusion) : buckets.map((b) => filterBucket(b, genre)), [buckets, genre, chronicle, core, fusion]);
+  const visible = useMemo(() => searchRiver(
+    chronicle === 'slg' ? filterGameplayBuckets(buckets, core, fusion) : buckets.map((b) => filterBucket(b, genre)),
+    query,
+  ), [buckets, genre, chronicle, core, fusion, query]);
+
+  useEffect(() => {
+    const tools = toolsRef.current;
+    if (!tools) return;
+    const observer = new ResizeObserver(() => {
+      riverRef.current?.style.setProperty('--river-tools-height', `${tools.offsetHeight}px`);
+    });
+    observer.observe(tools);
+    return () => observer.disconnect();
+  }, []);
+
+  useEffect(() => {
+    let frame = 0;
+    const update = () => {
+      const sections = riverRef.current?.querySelectorAll<HTMLElement>('[data-river-year]');
+      if (!sections?.length) { setActiveYear(null); return; }
+      const offset = (toolsRef.current?.offsetHeight ?? 0) + (window.innerWidth < 1440 ? 80 : 24);
+      let year = Number(sections[0].dataset.riverYear);
+      for (const section of sections) {
+        if (section.getBoundingClientRect().top <= offset + 2) year = Number(section.dataset.riverYear);
+        else break;
+      }
+      setActiveYear(year);
+    };
+    const schedule = () => {
+      cancelAnimationFrame(frame);
+      frame = requestAnimationFrame(update);
+    };
+    update();
+    window.addEventListener('scroll', schedule, { passive: true });
+    window.addEventListener('resize', schedule);
+    const observer = new ResizeObserver(schedule);
+    if (riverRef.current) observer.observe(riverRef.current);
+    return () => {
+      cancelAnimationFrame(frame);
+      observer.disconnect();
+      window.removeEventListener('scroll', schedule);
+      window.removeEventListener('resize', schedule);
+    };
+  }, [visible]);
+
+  useEffect(() => {
+    const list = yearsRef.current;
+    const link = list?.querySelector<HTMLElement>('[aria-current="location"]');
+    if (!list || !link) return;
+    if (window.innerWidth >= 1440) {
+      if (link.offsetTop < list.scrollTop) list.scrollTop = link.offsetTop;
+      else if (link.offsetTop + link.offsetHeight > list.scrollTop + list.clientHeight)
+        list.scrollTop = link.offsetTop + link.offsetHeight - list.clientHeight;
+    } else {
+      if (link.offsetLeft < list.scrollLeft) list.scrollLeft = link.offsetLeft;
+      else if (link.offsetLeft + link.offsetWidth > list.scrollLeft + list.clientWidth)
+        list.scrollLeft = link.offsetLeft + link.offsetWidth - list.clientWidth;
+    }
+  }, [activeYear]);
   const filteredCount = visible.reduce((n,b) => n + b.launches.length, 0);
   const fusionOptions = Object.entries(fusionGameplayLabels).filter(([tag]) => buckets.some(b => b.launches.some(p => p.gameplay?.fusion.includes(tag as Exclude<FusionFilter, 'all'>))));
   const open = useMemo(
@@ -56,7 +123,17 @@ export default function YearRiver({ buckets, chronicle }: { buckets: YearBucket[
 
   return (
     <MotionConfig reducedMotion="user">
-      <div className="sticky top-0 z-30 -mx-6 border-b border-ink/10 bg-paper/90 px-6 backdrop-blur sm:-mx-10 sm:px-10">
+      <div ref={riverRef} className="year-river">
+      <div ref={toolsRef} className="sticky top-0 z-30 -mx-6 border-b border-ink/10 bg-paper/90 px-6 backdrop-blur sm:-mx-10 sm:px-10">
+        <div className="river-search">
+          <label htmlFor="river-keyword" className="text-xs tracking-widest text-ink-soft">关键词搜索</label>
+          <div className="river-search-field">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" /><path d="m16 16 5 5" /></svg>
+            <input id="river-keyword" type="search" value={query} onChange={e => setQuery(e.target.value)} placeholder="搜索产品或公司名称" autoComplete="off" />
+            {query && <button type="button" onClick={() => setQuery('')} aria-label="清除关键词">清除</button>}
+          </div>
+          {query.trim() && <span role="status" className="text-xs text-ink-soft">找到 {visible.reduce((n, b) => n + bucketSize(b), 0)} 条记录</span>}
+        </div>
         {chronicle === 'slg' ? <div className="py-4">
           <div className="flex flex-wrap items-end gap-3">
             <label className="min-w-[140px] flex-1 sm:min-w-0 sm:flex-none"><span className="mb-1 block text-xs tracking-wide text-mist">核心玩法</span><select aria-label="核心玩法" value={core} onChange={e => setCore(e.target.value as CoreFilter)} className="w-full min-w-0 border border-ink/15 bg-paper px-3 py-2 text-sm text-ink sm:w-56"><option value="all">全部体系</option>{Object.entries(coreGameplayLabels).map(([value,label]) => <option key={value} value={value}>{label}</option>)}<option value="unclassified">待分类</option></select></label>
@@ -85,16 +162,37 @@ export default function YearRiver({ buckets, chronicle }: { buckets: YearBucket[
         </div>) }
       </div>
 
+      <div className="river-body">
+      {visible.length > 0 && <aside className="river-directory">
+        <nav aria-label="时间目录" className="river-directory-inner">
+          <p className="river-directory-title">时间目录</p>
+          <div ref={yearsRef} className="river-years">
+            {visible.map(b => <a key={b.year} href={`#y${b.year}`} aria-current={activeYear === b.year ? 'location' : undefined}
+              onClick={e => {
+                e.preventDefault();
+                const section = document.getElementById(`y${b.year}`);
+                if (!section) return;
+                history.replaceState(null, '', `#y${b.year}`);
+                section.scrollIntoView({ behavior: reduceMotion || e.detail === 0 ? 'instant' : 'smooth', block: 'start' });
+                section.focus({ preventScroll: true });
+              }}>
+              <span>{b.year}</span><span className="river-year-count">{bucketSize(b)}</span>
+            </a>)}
+          </div>
+        </nav>
+      </aside>}
       {visible.length === 0 ? (
-        <p className="py-24 text-center font-serif text-lg text-ink-soft">没有符合当前筛选的记录，请调整或清除筛选。</p>
+        <p className="py-24 text-center font-serif text-lg text-ink-soft">没有符合当前搜索或筛选的记录，请调整关键词或清除筛选。</p>
       ) : (
         visible.map((b) => (
           <section
             key={b.year}
             id={`y${b.year}`}
-            className="grid scroll-mt-20 gap-8 border-t border-ink/10 py-16 first:border-t-0 md:grid-cols-[11rem_1fr] md:gap-12"
+            data-river-year={b.year}
+            tabIndex={-1}
+            className="river-year-section grid gap-8 border-t border-ink/10 py-16 first:border-t-0 md:grid-cols-[11rem_1fr] md:gap-12"
           >
-            <div className="md:sticky md:top-24 md:self-start">
+            <div className="river-year-heading md:sticky md:self-start">
               <h2 className="font-display text-6xl leading-none text-ink md:text-8xl">{b.year}</h2>
               <p className="mt-3 text-xs tracking-[0.3em] text-mist">{bucketSize(b)} 条记录</p>
             </div>
@@ -224,6 +322,8 @@ export default function YearRiver({ buckets, chronicle }: { buckets: YearBucket[
         ))
       )}
 
+      </div>
+      </div>
       <AnimatePresence>{open && <ProductDrawer key={open.id} product={open} onClose={close} />}</AnimatePresence>
     </MotionConfig>
   );

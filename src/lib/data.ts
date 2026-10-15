@@ -21,7 +21,7 @@ import type {
   YearBucket,
 } from './types';
 
-const GENRE_ORDER: Genre[] = ['otome', 'dressup', 'interactive', 'other'];
+const GENRE_ORDER: Genre[] = ['otome', 'dressup', 'palace', 'court', 'interactive', 'rpg', 'strategy', 'other'];
 
 function byDate<T>(get: (item: T) => string) {
   return (a: T, b: T) => compareDates(get(a), get(b));
@@ -318,6 +318,7 @@ export function getYearBuckets(ds: Dataset, endYear: number): YearBucket[] {
   const founded: RiverCompany[] = ds.companies.map((c) => ({
     id: c.id,
     name: c.name,
+    aliases: c.aliases,
     tagline: c.tagline,
     kind: c.kind,
     logo: c.logo,

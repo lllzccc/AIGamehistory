@@ -119,7 +119,7 @@ export const productSchema = z.object({
   chronicles: z.array(z.enum(['female', 'casual', 'slg'])).optional(),
   name: z.string().min(1),
   aliases: z.array(z.string()).default([]),
-  genre: z.enum(['otome', 'dressup', 'interactive', 'strategy', 'rpg', 'other']),
+  genre: z.enum(['otome', 'dressup', 'palace', 'court', 'interactive', 'strategy', 'rpg', 'other']),
   developer: z.string().min(1),
   publisher: z.string().min(1),
   released: partialDate,
@@ -170,7 +170,7 @@ export const roleSchema = z
   .object({
     company: z.string().min(1),
     scope: z.enum(['company', 'product']),
-    specialties: z.array(z.enum(['otome', 'dressup', 'interactive', 'strategy', 'rpg', 'other'])).min(1).optional(),
+    specialties: z.array(z.enum(['otome', 'dressup', 'palace', 'court', 'interactive', 'strategy', 'rpg', 'other'])).min(1).optional(),
     products: z.array(z.string()).default([]),
     title: personTitleSchema,
     titleNote: z.string().optional(),
