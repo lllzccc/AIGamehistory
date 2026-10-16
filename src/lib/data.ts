@@ -362,8 +362,19 @@ export function bucketSize(bucket: YearBucket): number {
   return bucket.founded.length + bucket.launches.length + bucket.events.length;
 }
 
+const MINIGAME_PLATFORMS = ['微信小游戏', '抖音小游戏', 'H5小游戏'];
+const isMinigame = (p: Product) => p.platforms.some((pf) => MINIGAME_PLATFORMS.includes(pf));
+
 export function filterBucket(bucket: YearBucket, genre: GenreFilter): YearBucket {
   if (genre === 'all') return bucket;
+  if (genre === 'minigame') {
+    return {
+      year: bucket.year,
+      founded: bucket.founded,
+      launches: bucket.launches.filter(isMinigame),
+      events: bucket.events,
+    };
+  }
   return {
     year: bucket.year,
     founded: bucket.founded.filter((c) => c.genres.includes(genre)),

@@ -28,7 +28,7 @@ export type ChronicleEvent = z.infer<typeof eventSchema> & { id: string };
 export type MarketEntry = z.infer<typeof marketEntrySchema> & { id: string };
 export type EventType = ChronicleEvent['type'];
 export type Genre = Product['genre'];
-export type GenreFilter = Genre | 'all';
+export type GenreFilter = Genre | 'all' | 'minigame';
 
 export interface Dataset {
   companies: Company[];

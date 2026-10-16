@@ -18,6 +18,8 @@ const FILTERS: { value: GenreFilter; label: string }[] = [
   { value: 'dressup', label: genreLabel.dressup },
   { value: 'palace', label: genreLabel.palace },
   { value: 'court', label: genreLabel.court },
+
+  { value: 'minigame', label: '小游戏渠道' },
   { value: 'interactive', label: genreLabel.interactive },
 ];
 
