@@ -1,0 +1,42 @@
+{
+  "name": "EVE",
+  "aliases": ["EVE – AI 伴侣", "EVE AI乙游"],
+  "chronicles": ["female"],
+  "genre": "otome",
+  "developer": "nature-select",
+  "publisher": "nature-select",
+  "released": "2024-04",
+  "platforms": ["iOS", "Android"],
+  "status": "live",
+  "versionLabel": "2026-04 上线（媒体口径） · 国区iOS 2026-04-10 上架",
+  "significance": "自然选择研发的AI乙游/伴侣产品——AI乙游赛道里唯一正式上线的一款：A轮融资超3000万美元（恺英网络、阿里巴巴、蚂蚁集团、五源资本等）；上线后深度用户少于预期（达成角色目标的玩家估计约5000人）、月卡68–328元定价被吐槽、评分一度跌至2.2，被行业观察视为AI乙游「两头不靠」（自由度不及玩家自建AI恋人、游戏性不及成熟传统乙游）的代表性样本。",
+  "lifecycleNotes": [
+    {
+      "note": "上线时间双口径：游戏茶馆2026-10-09称「2024年4月上线」；国区App Store上架日为2026-04-10（iTunes接口2026-10-15核验，seller=Nature Select CO.,LTD）——2024-04或为海外/早期版本起点，国区iOS上架为2026-04，两口径并存待官方澄清。运营现状：每天10轮免费次数、月卡68–328元；媒体称深度用户少、评分一度2.2。",
+      "sources": [
+        {
+          "title": "游戏茶馆（搜狐号）2026-10-09：数亿融资的AI乙游，正在失守它的阵地（EVE融资、上线口径与数据）",
+          "url": "https://www.sohu.com/a/1085363299_116126"
+        },
+        {
+          "title": "iTunes cn接口：EVE – AI 伴侣 trackId 6499481710（国区上架2026-04-10）",
+          "url": "https://itunes.apple.com/lookup?id=6499481710&country=cn"
+        }
+      ]
+    }
+  ],
+  "revenue": [],
+  "keyArt": "/images/eve-ai-official.jpg",
+  "artPosition": "center",
+  "sources": [
+    {
+      "title": "游戏茶馆（搜狐号）2026-10-09：数亿融资的AI乙游，正在失守它的阵地",
+      "url": "https://www.sohu.com/a/1085363299_116126"
+    },
+    {
+      "title": "iTunes cn接口：EVE – AI 伴侣",
+      "url": "https://itunes.apple.com/lookup?id=6499481710&country=cn"
+    }
+  ],
+  "verified": true
+}
