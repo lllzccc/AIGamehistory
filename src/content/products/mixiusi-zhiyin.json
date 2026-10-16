@@ -1,0 +1,45 @@
+{
+  "name": "米修斯之印",
+  "aliases": [],
+  "chronicles": ["female"],
+  "genre": "otome",
+  "developer": "annipa",
+  "publisher": "annipa",
+  "released": "2024-10-17",
+  "shutdown": "2025-07-14",
+  "platforms": ["iOS", "Android"],
+  "status": "shutdown",
+  "versionLabel": "2024-10-17 公测 · 2025-07-14 关服（存活179天）",
+  "significance": "末世背景恋爱冒险乙女手游：曾被称乙游「黑马」，公测179天后官宣停运——小厂乙女突围失败的代表性样本；团队成员后续流向AI乙游赛道（有消息称《星眠》吸纳其美术成员，线索级），成为传统乙游人才向AI乙游迁移的注脚。",
+  "lifecycleNotes": [
+    {
+      "note": "项目2020年起研发，历经项目重构、改名与人力不足（媒体复盘口径）；公测前（2024-02预约期）曾陷抄袭争议。2024-10-17公测；2025-04-14官宣停运（当日18:00停止充值与新用户注册，官方称「不可抗力因素无法支撑项目运营」）；2025-07-14 18:00关闭服务器——公测至停运公告存活179天。",
+      "sources": [
+        {
+          "title": "新快报 2025-04-23：《米修斯之印》仅179天停运 从「黑马」到停服",
+          "url": "https://www.xkb.com.cn/articleDetail/397113"
+        },
+        {
+          "title": "界面新闻（36氪稿）2025-04：只活了179天，今天又一款「乙游黑马」遗憾停运了",
+          "url": "https://www.jiemian.com/article/10820457.html"
+        },
+        {
+          "title": "新浪财经 2025-04-14：米修斯之印停运公告报道",
+          "url": "https://finance.sina.com.cn/tech/digi/2025-04-14/doc-inetcqhu8780499.shtml"
+        }
+      ]
+    }
+  ],
+  "revenue": [],
+  "sources": [
+    {
+      "title": "新快报 2025-04-23：《米修斯之印》仅179天停运",
+      "url": "https://www.xkb.com.cn/articleDetail/397113"
+    },
+    {
+      "title": "界面新闻（36氪稿）2025-04：只活了179天",
+      "url": "https://www.jiemian.com/article/10820457.html"
+    }
+  ],
+  "verified": true
+}
