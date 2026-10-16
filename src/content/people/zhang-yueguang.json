@@ -1,0 +1,35 @@
+{
+  "name": "张月光",
+  "bio": "清华计算机系毕业，曾任职阿里、字节，前「妙鸭相机」负责人；2023年12月创办北京沐言智语科技有限公司，再创业方向为AI应用与AI乙游——《星眠》2025年12月首轮内测、2026年7月取得版号。创业两年后公开访谈中反思「妙鸭不是AI Native产品」。",
+  "aliases": [],
+  "roles": [
+    {
+      "company": "muyan-zhiyu",
+      "scope": "company",
+      "title": "founder",
+      "titleNote": "创始人（妙鸭相机前负责人）",
+      "from": "2023-12",
+      "status": "active",
+      "dateBasis": "public-observation",
+      "sources": [
+        {
+          "title": "游戏茶馆（搜狐号）2026-10-09：数亿融资的AI乙游，正在失守它的阵地（张月光履历与星眠）",
+          "url": "https://www.sohu.com/a/1085363299_116126"
+        },
+        {
+          "title": "Apple Podcasts：张月光创业两年首次访谈——妙鸭不是AI Native产品",
+          "url": "https://podcasts.apple.com/cn/podcast/130-%E5%BC%A0%E6%9C%88%E5%85%89%E5%88%9B%E4%B8%9A%E4%B8%A4%E5%B9%B4%E9%A6%96%E6%AC%A1%E8%AE%BF%E8%B0%88-%E5%A6%99%E9%B8%AD%E4%B8%8D%E6%98%AFai-native%E4%BA%A7%E5%93%81-%E6%B5%81%E7%A8%8B%E5%88%B0"
+        }
+      ],
+      "checkedAt": "2026-10-15",
+      "note": "履历口径来自茶馆报道（清华计算机系、阿里/字节经历、妙鸭相机负责人）；任职阿里与字节的具体时段未核实。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "游戏茶馆（搜狐号）2026-10-09：数亿融资的AI乙游，正在失守它的阵地",
+      "url": "https://www.sohu.com/a/1085363299_116126"
+    }
+  ],
+  "verified": true
+}

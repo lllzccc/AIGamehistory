@@ -1,0 +1,31 @@
+{
+  "name": "何黛兰",
+  "bio": "阿里用户运营出身，沐言智语AI乙游《星眠》制作人；产品为全女性团队制作，2025年12月完成首轮内测。",
+  "aliases": [],
+  "roles": [
+    {
+      "company": "muyan-zhiyu",
+      "scope": "company",
+      "title": "producer",
+      "titleNote": "《星眠》制作人（星眠未上线未建产品档，建档后回挂产品署名）",
+      "from": "2026-10",
+      "status": "active",
+      "dateBasis": "public-observation",
+      "sources": [
+        {
+          "title": "游戏茶馆（搜狐号）2026-10-09：数亿融资的AI乙游，正在失守它的阵地（何黛兰阿里出身与星眠团队）",
+          "url": "https://www.sohu.com/a/1085363299_116126"
+        }
+      ],
+      "checkedAt": "2026-10-15",
+      "note": "星眠未正式上线暂不建产品档，先以公司侧制作人身份建档；from按报道观察日。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "游戏茶馆（搜狐号）2026-10-09：数亿融资的AI乙游，正在失守它的阵地",
+      "url": "https://www.sohu.com/a/1085363299_116126"
+    }
+  ],
+  "verified": false
+}
