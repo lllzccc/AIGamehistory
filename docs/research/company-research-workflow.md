@@ -52,3 +52,7 @@
 - 既有循环A（公司→产品）之外，新增循环B（渠道→产品→公司）：每月小游戏月榜/App Store品类榜/TapTap新游榜反向扫描，发现的产品反查归属，新厂商当日进 mapping-plan 仅列名。
 - 负面结论四步纪律：≥2检索公式+引擎轮换（搜狗反爬即换内置搜索）+商店开发者账号反查+近三月榜单核查，未完成不得写 not-found。
 - 人物离职/新公司事件触发三连查：工商+商标+招聘。
+
+## 门禁陷阱（2026-10-15实测）
+
+- `npx astro check` 在内容加载崩溃（InvalidContentEntryDataError）时**仍返回 exit 0**——不能只看退出码！门禁必须同时 grep 输出中的 `InvalidContentEntryDataError` 与 `- N errors` 汇总行；CI 是最后防线但别依赖它兜底。本轮 8760430 曾因此带病提交，1836fed 修复。
