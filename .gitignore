@@ -7,3 +7,27 @@ dist/
 tmp-logos/
 .superpowers/
 .local-checks/
+
+# Private/local work must never enter the public repository
+.knowledge-data/
+.internal-dist/
+.astro-knowledge/
+deploy/
+output/
+server/
+server.mjs
+docs/internal-knowledge.md
+DEPLOYMENT.md
+src/pages/knowledge.astro
+src/components/InternalPeople.tsx
+src/components/Knowledge*
+src/lib/knowledge.ts
+scripts/knowledge-*
+scripts/__pycache__/
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+*.pem
+*.key

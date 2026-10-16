@@ -13,6 +13,8 @@ concurrency:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      PUBLIC_KNOWLEDGE_ENABLED: 'false'
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -21,10 +23,12 @@ jobs:
           cache: npm
       - uses: actions/configure-pages@v5
         id: pages
+      - run: node scripts/check-public-release.mjs --source-only
       - run: npm ci
       - run: npm test
       - run: npm run check
       - run: npx astro build --site "${{ steps.pages.outputs.origin }}" --base "${{ steps.pages.outputs.base_path }}"
+      - run: node scripts/check-public-release.mjs
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

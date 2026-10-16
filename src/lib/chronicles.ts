@@ -7,6 +7,12 @@ export const chronicles = [
 ] as const;
 export type ChronicleId = typeof chronicles[number]['id'];
 
+export const chronicleArtwork: Record<ChronicleId, string> = {
+  female: '/images/home-ensemble-v2.png',
+  casual: '/images/casual-ensemble-v2.png',
+  slg: '/images/slg-ensemble-v2.png',
+};
+
 export function selectChronicle(ds: Dataset, id: ChronicleId): Dataset {
   const products = ds.products.filter(p => (p.chronicles ?? ['female']).includes(id));
   const productIds = new Set(products.map(p => p.id));

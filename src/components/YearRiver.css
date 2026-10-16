@@ -1,0 +1,30 @@
+.year-river { --river-tools-height: 130px; position: relative; }
+.river-search { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; padding: 16px 0 0; }
+.river-search-field { display: flex; align-items: center; gap: 10px; width: min(100%, 360px); padding: 9px 12px; border: 1px solid var(--color-ink-soft); background: var(--color-paper); color: var(--color-ink-soft); }
+.river-search-field:focus-within { outline: 2px solid var(--color-rouge); outline-offset: 2px; }
+.river-search-field input { width: 100%; min-width: 0; outline: none; font-size: 14px; }
+.river-search-field input::placeholder { color: var(--color-ink-soft); opacity: .75; }
+.river-search-field button { flex-shrink: 0; font-size: 12px; color: var(--color-rouge); }
+.river-body { position: relative; }
+.river-directory { position: sticky; top: var(--river-tools-height); z-index: 20; background: var(--color-paper); border-bottom: 1px solid color-mix(in srgb, var(--color-ink) 10%, transparent); }
+.river-directory-inner { display: flex; align-items: center; gap: 16px; }
+.river-directory-title { flex-shrink: 0; font-size: 11px; letter-spacing: .15em; color: var(--color-ink-soft); }
+.river-years { position: relative; display: flex; overflow: auto; padding: 8px 0; gap: 4px; scrollbar-width: thin; }
+.river-years a { flex-shrink: 0; display: flex; align-items: baseline; gap: 12px; padding: 6px 10px; font-family: var(--font-display); font-size: 22px; line-height: 1.25; color: var(--color-ink-soft); border-left: 2px solid transparent; transition: color 150ms ease, background-color 150ms ease; }
+.river-year-count { font-family: var(--font-sans); font-size: 10px; opacity: .65; }
+.river-years a[aria-current] { color: var(--color-rouge); background: var(--color-rouge-soft); border-left-color: var(--color-rouge); }
+.river-years a:focus-visible, .river-search button:focus-visible { outline: 2px solid var(--color-rouge); outline-offset: 2px; }
+.river-year-section { scroll-margin-top: calc(var(--river-tools-height) + 80px); }
+.river-year-section:focus { outline: none; }
+.river-year-heading { top: calc(var(--river-tools-height) + 80px); }
+@media (hover: hover) { .river-years a:hover { color: var(--color-rouge); background: var(--color-rouge-soft); } }
+@media (min-width: 1440px) {
+  .river-directory { position: absolute; inset: 0 auto 0 -136px; width: 112px; z-index: 10; background: none; border: none; }
+  .river-directory-inner { position: sticky; top: calc(var(--river-tools-height) + 24px); display: block; }
+  .river-directory-title { margin-bottom: 16px; padding-left: 12px; }
+  .river-years { display: block; max-height: calc(100dvh - var(--river-tools-height) - 88px); padding: 2px 4px; }
+  .river-years a { justify-content: space-between; margin-bottom: 4px; }
+  .river-year-section { scroll-margin-top: calc(var(--river-tools-height) + 24px); }
+  .river-year-heading { top: calc(var(--river-tools-height) + 24px); }
+}
+@media (max-width: 639px) { .river-search { gap: 8px; } .river-search-field { width: 100%; } .river-directory-inner { gap: 8px; } }
