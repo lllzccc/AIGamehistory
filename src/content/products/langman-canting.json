@@ -1,12 +1,22 @@
 {
   "name": "浪漫餐厅",
-  "aliases": ["Gossip Harbor", "浪漫餐厅小游戏"],
-  "chronicles": ["casual", "female"],
+  "aliases": [
+    "Gossip Harbor",
+    "浪漫餐厅小游戏"
+  ],
+  "chronicles": [
+    "casual",
+    "female"
+  ],
   "genre": "other",
   "developer": "lemonmicrofun",
   "publisher": "lemonmicrofun",
   "released": "2022-07",
-  "platforms": ["iOS", "Android", "微信小游戏"],
+  "platforms": [
+    "iOS",
+    "Android",
+    "微信小游戏"
+  ],
   "status": "live",
   "versionLabel": "海外版 Gossip Harbor 2022-07 首发 · 国内微信小游戏版上线日未披露",
   "significance": "柠檬微趣合并消除（merge-2）双端冠军：海外版《Gossip Harbor》2022年7月上线后月流水两年翻近10倍、2025年单月破3亿元，为全球合并玩法月收入第一；国内微信小游戏版月流水约4000万至1亿元（媒体口径），长期居微信小游戏畅销榜头部（2026年8月第5名）——女性休闲小游戏赛道的头部样本。",
@@ -45,5 +55,7 @@
       "url": "https://news.qq.com/rain/a/20260902A0EOEJ00"
     }
   ],
-  "verified": true
+  "verified": true,
+  "keyArt": "/images/langman-canting-official.jpg",
+  "artPosition": "center"
 }

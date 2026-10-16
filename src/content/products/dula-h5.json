@@ -1,12 +1,18 @@
 {
   "name": "杜拉拉升职记H5",
-  "aliases": ["杜拉拉升职记小游戏"],
-  "chronicles": ["female"],
+  "aliases": [
+    "杜拉拉升职记小游戏"
+  ],
+  "chronicles": [
+    "female"
+  ],
   "genre": "dressup",
   "developer": "youyi-shiguang",
   "publisher": "youyi-shiguang",
   "released": "2024-10",
-  "platforms": ["抖音小游戏"],
+  "platforms": [
+    "抖音小游戏"
+  ],
   "status": "live",
   "versionLabel": "抖音小游戏 · 杜拉拉IP小游戏版",
   "significance": "友谊时光都市职场IP《杜拉拉升职记》的小游戏版：2024年10月进入抖音小游戏热度榜Top30，获2024年度金茶奖「年度优秀小游戏」——公司小游戏线在抖音渠道的代表产品。",
@@ -28,5 +34,8 @@
       "url": "https://www.friendtimes.net/res/ftnet/202504/28181923gbvx.pdf"
     }
   ],
-  "verified": true
+  "verified": true,
+  "keyArt": "/images/youyi-shiguang/du-lala.jpg",
+  "artPosition": "center",
+  "keyArtNote": "H5版暂用同IP移动版官方素材（游戏为IP复用产品），H5专属素材待官方渠道补"
 }

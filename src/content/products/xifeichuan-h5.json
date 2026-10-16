@@ -1,12 +1,18 @@
 {
   "name": "熹妃传H5",
-  "aliases": ["熹妃传小游戏"],
-  "chronicles": ["female"],
+  "aliases": [
+    "熹妃传小游戏"
+  ],
+  "chronicles": [
+    "female"
+  ],
   "genre": "palace",
   "developer": "youyi-shiguang",
   "publisher": "youyi-shiguang",
   "released": "2025-03",
-  "platforms": ["H5小游戏"],
+  "platforms": [
+    "H5小游戏"
+  ],
   "status": "live",
   "versionLabel": "H5小游戏 · 熹妃传IP小游戏版",
   "significance": "友谊时光后宫养成核心IP《熹妃传》的小游戏版，2025年3月上线并逐步加大推广，是公司宫斗主线IP向小游戏渠道迁移的首款产品；同期《代号：恋人》《代号：花》《代号：遗迹》《代号：HX》等小游戏在研发测试中。",
@@ -28,5 +34,8 @@
       "url": "https://www.friendtimes.net/res/ftnet/202504/28181923gbvx.pdf"
     }
   ],
-  "verified": true
+  "verified": true,
+  "keyArt": "/images/youyi-shiguang/xifei-zhuan.jpg",
+  "artPosition": "center",
+  "keyArtNote": "H5版暂用同IP移动版官方素材（游戏为IP复用产品），H5专属素材待官方渠道补"
 }

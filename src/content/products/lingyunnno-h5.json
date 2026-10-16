@@ -1,12 +1,18 @@
 {
   "name": "凌云诺H5",
-  "aliases": ["凌云诺小游戏"],
-  "chronicles": ["female"],
+  "aliases": [
+    "凌云诺小游戏"
+  ],
+  "chronicles": [
+    "female"
+  ],
   "genre": "palace",
   "developer": "youyi-shiguang",
   "publisher": "youyi-shiguang",
   "released": "2024-05",
-  "platforms": ["微信小游戏"],
+  "platforms": [
+    "微信小游戏"
+  ],
   "status": "live",
   "versionLabel": "微信小游戏 · 凌云诺IP小游戏版",
   "significance": "友谊时光古风宫廷IP《凌云诺》的小游戏版，公司小游戏线首款跑出成绩的产品：2024年5月进入微信小游戏畅销榜Top50，带动2024年上下半年收益环比+20.7%/+21.0%的增量之一。",
@@ -28,5 +34,8 @@
       "url": "https://www.friendtimes.net/res/ftnet/202504/28181923gbvx.pdf"
     }
   ],
-  "verified": true
+  "verified": true,
+  "keyArt": "/images/youyi-shiguang/ling-yun-nuo.jpg",
+  "artPosition": "center",
+  "keyArtNote": "H5版暂用同IP移动版官方素材（游戏为IP复用产品），H5专属素材待官方渠道补"
 }

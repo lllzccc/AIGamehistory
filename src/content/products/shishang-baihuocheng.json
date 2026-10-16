@@ -1,12 +1,19 @@
 {
   "name": "时尚百货城",
   "aliases": [],
-  "chronicles": ["casual", "female"],
+  "chronicles": [
+    "casual",
+    "female"
+  ],
   "genre": "other",
   "developer": "ai-fanqie",
   "publisher": "ai-fanqie",
   "released": "2026-01-28",
-  "platforms": ["iOS", "Android", "微信小游戏"],
+  "platforms": [
+    "iOS",
+    "Android",
+    "微信小游戏"
+  ],
   "status": "live",
   "versionLabel": "iOS 2026-01-28 首发 · 微信小游戏版在榜",
   "significance": "爱的番茄从现代都市职场女性视角切入的模拟经营：百货店铺经营、时装走秀、美妆珠宝等女性题材，含店铺经营/关卡研发/影视创作三大收入体系与伙伴/艺人/主角三条养成线，以「员工求助」「生产决策」问答强化商业大女主体验；上线不足一天冲进iOS免费榜Top5并登顶，约一个月闯入畅销榜Top18，2026-10-05微信小游戏畅销榜第49名。",
@@ -45,5 +52,7 @@
       "url": "https://news.qq.com/rain/a/20261006A0BE3300"
     }
   ],
-  "verified": true
+  "verified": true,
+  "keyArt": "/images/shishang-baihuocheng-official.jpg",
+  "artPosition": "center"
 }
