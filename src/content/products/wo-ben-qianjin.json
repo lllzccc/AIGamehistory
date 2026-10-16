@@ -1,0 +1,42 @@
+{
+  "name": "我本千金",
+  "aliases": [],
+  "chronicles": ["female"],
+  "genre": "otome",
+  "developer": "ai-fanqie",
+  "publisher": "ai-fanqie",
+  "released": "2022-01-14",
+  "platforms": ["iOS", "Android"],
+  "status": "live",
+  "versionLabel": "iOS 2022-01-14 上架（报道口径2021年上线）",
+  "significance": "爱的番茄的乙女向模拟养成（都市千金题材），累计流水破亿（腾讯新闻2026-02口径）——该公司女性向产品线的起点作，其后继《时尚百货城》延续都市女性视角。",
+  "lifecycleNotes": [
+    {
+      "note": "iOS 2022-01-14 上架（iTunes接口2026-10-15核验，seller=Shenzhen Tomato of Love Technology）；腾讯新闻2026-02-23报道称「2021年上线」并累计流水破亿——两口径并存，2021或为开测/安卓先发，iOS上架日为接口权威值，正式公测日待官方源。",
+      "sources": [
+        {
+          "title": "iTunes cn接口：我本千金 trackId 1564060033",
+          "url": "https://itunes.apple.com/lookup?id=1564060033&country=cn"
+        },
+        {
+          "title": "腾讯新闻 2026-02-23：前作流水破亿后，这家深圳厂商又出霸榜爆款（我本千金累计流水破亿）",
+          "url": "https://news.qq.com/rain/a/20260223A06C2000"
+        }
+      ]
+    }
+  ],
+  "revenue": [],
+  "keyArt": "/images/wo-ben-qianjin-official.jpg",
+  "artPosition": "center",
+  "sources": [
+    {
+      "title": "iTunes cn接口：我本千金",
+      "url": "https://itunes.apple.com/lookup?id=1564060033&country=cn"
+    },
+    {
+      "title": "腾讯新闻 2026-02-23：前作流水破亿后，这家深圳厂商又出霸榜爆款",
+      "url": "https://news.qq.com/rain/a/20260223A06C2000"
+    }
+  ],
+  "verified": true
+}
