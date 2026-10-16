@@ -1,0 +1,36 @@
+{
+  "name": "这城有良田",
+  "aliases": [],
+  "chronicles": ["casual", "female"],
+  "genre": "other",
+  "developer": "eworld",
+  "publisher": "eworld",
+  "released": "2023-07-20",
+  "platforms": ["iOS", "Android", "微信小游戏"],
+  "status": "live",
+  "versionLabel": "iOS 2023-07-20 上架 · 微信小游戏双端在榜",
+  "significance": "益世界古风模拟经营（古代县城治理+农田经营+剧情叙事），女性玩家占比高的经营类产品：iOS版2023年7月上线，微信小游戏双端长期在榜（2026年8月与10月畅销榜均在列，10-05第80名）——女性休闲小游戏赛道的古风经营代表之一。",
+  "lifecycleNotes": [
+    {
+      "note": "iOS 2023-07-20 上架（iTunes接口2026-10-15核验，seller=Eworld Network Technology Shanghai）；2026-08进入微信小游戏畅销榜Top100、2026-10-05第80名（ADX口径月榜与日榜文章）。小游戏版上线日未披露。",
+      "sources": [
+        {
+          "title": "iTunes cn接口：这城有良田 trackId 6446884897（seller与上架日）",
+          "url": "https://itunes.apple.com/lookup?id=6446884897&country=cn"
+        },
+        {
+          "title": "腾讯新闻 2026-10-06：微信小游戏畅销榜10月5日（这城有良田第80）",
+          "url": "https://news.qq.com/rain/a/20261006A0BE3300"
+        }
+      ]
+    }
+  ],
+  "revenue": [],
+  "sources": [
+    {
+      "title": "iTunes cn接口：这城有良田",
+      "url": "https://itunes.apple.com/lookup?id=6446884897&country=cn"
+    }
+  ],
+  "verified": true
+}
