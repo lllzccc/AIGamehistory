@@ -1,0 +1,44 @@
+{
+  "name": "叫我大掌柜",
+  "aliases": [],
+  "chronicles": ["female", "casual"],
+  "genre": "other",
+  "developer": "yanqu",
+  "publisher": "sanqi",
+  "released": "2021-04-30",
+  "platforms": ["iOS", "Android", "微信小游戏"],
+  "status": "live",
+  "versionLabel": "iOS 2021-04-30 上架 · App+小游戏双端 · 三七系研运一体",
+  "significance": "延趣互动研发、三七互娱发行（运营主体海南尚轩为三七全资子公司）的古风模拟经营：北宋张择端画作题材背景、市井文化模拟经营，女性玩家占比高，营收过亿的品类爆款；App与微信小游戏双端运营，2025年借三七自研行业大模型「小七」与AI生成技术推出「全运广州」数字孪生特别版本。",
+  "lifecycleNotes": [
+    {
+      "note": "iOS 2021-04-30 上架（iTunes接口2026-10-20核验，seller=Hainan Shangxuan Network Technology，三七全资子公司）；研发方延趣互动为三七「朋友圈」投资标的（Cocos官方案例2022-08记载其App+小游戏双端研发）；三七2025年报多次提及该作并披露全运广州AI特别版本。小游戏版上线日未单独披露。",
+      "sources": [
+        {
+          "title": "iTunes cn接口：叫我大掌柜 trackId 1533375965（海南尚轩上架，2021-04-30）",
+          "url": "https://itunes.apple.com/lookup?id=1533375965&country=cn"
+        },
+        {
+          "title": "知乎专栏：收留失意的游戏人儿——三七互娱的朋友圈（延趣为三七投资研发标的）",
+          "url": "https://zhuanlan.zhihu.com/p/573101995"
+        },
+        {
+          "title": "三七互娱2025年年度报告（叫我大掌柜全运广州AI版本披露）",
+          "url": "http://notice.10jqka.com.cn/api/pdf/674a3ddf927e8aee.pdf"
+        }
+      ]
+    }
+  ],
+  "revenue": [],
+  "sources": [
+    {
+      "title": "iTunes cn接口：叫我大掌柜",
+      "url": "https://itunes.apple.com/lookup?id=1533375965&country=cn"
+    },
+    {
+      "title": "知乎专栏：三七互娱的朋友圈",
+      "url": "https://zhuanlan.zhihu.com/p/573101995"
+    }
+  ],
+  "verified": true
+}

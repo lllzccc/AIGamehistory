@@ -28,6 +28,19 @@
           "url": "https://www.friendtimes.net/res/ftnet/201909/06820-9026094-FRIENDTIMES.pdf"
         }
       ]
+    },
+    {
+      "note": "国际版停运时间线（官网公告2026-08-05 18:03，FriendTimes Inc.版权自营，覆盖新马与北美大区）：2026-08-06 14:00（UTC+8）停止下载/角色创建/充值；2026-11-26 10:00正式关服并删除全部游戏数据（北美大区11-25 19:00）；2026-12-10官方社群关闭。此前2025年经历多轮合服与服务器数据互通（2025-02/03/04/07公告）——长线衰退轨迹完整。国服侧：TapTap官方页（app/738612）在册，keyArt取自该页官方icon（同IP官方素材）。核查2026-10-20（官网公告经浏览器渲染读取）。",
+      "sources": [
+        {
+          "title": "《宫廷风云》国际版停运公告（官网，2026-08-05 18:03）",
+          "url": "https://gtfy.wishgamer.com/notice/20260805/1176434494bfbd33e077f.html"
+        },
+        {
+          "title": "TapTap：宫廷风云官方页（icon来源）",
+          "url": "https://www.taptap.cn/app/738612"
+        }
+      ]
     }
   ],
   "revenue": [],
@@ -41,5 +54,7 @@
       "url": "https://www.friendtimes.net/res/ftnet/201909/06820-9026094-FRIENDTIMES.pdf"
     }
   ],
-  "verified": false
+  "verified": false,
+  "keyArt": "/images/gongting-fengyun-official.jpg",
+  "artPosition": "center"
 }
