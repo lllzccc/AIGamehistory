@@ -1,0 +1,32 @@
+{
+  "name": "官居几品",
+  "aliases": [],
+  "chronicles": ["female", "casual"],
+  "genre": "interactive",
+  "developer": "chengguang",
+  "publisher": "chengguang",
+  "released": "2015-02",
+  "platforms": ["网页"],
+  "status": "unknown",
+  "versionLabel": "橙光文字游戏 · 2015-02 发布",
+  "significance": "橙光平台的升官养成文字游戏，曾登平台人气榜第1——被业内视为官斗玩法类型的文字源头：其升官、门客、娶妻纳妾的养成框架，与2016-2017年官斗手游潮（《我在大清当皇帝》《一品官老爷》《极品芝麻官》）的数值框架一脉相承。",
+  "lifecycleNotes": [
+    {
+      "note": "2015年2月发布（GameRes/游戏茶馆2017-12品类复盘口径），曾登橙光人气榜第1。作为平台内UGC文字作品，无独立停运概念，status按平台存续记unknown；作品当前在平台内的状态未逐一核验。",
+      "sources": [
+        {
+          "title": "GameRes（游戏茶馆稿）2017-12-01：官斗手游分析（官居几品为品类文字源头）",
+          "url": "https://www.gameres.com/784798.html"
+        }
+      ]
+    }
+  ],
+  "revenue": [],
+  "sources": [
+    {
+      "title": "GameRes（游戏茶馆稿）2017-12-01：官斗手游分析",
+      "url": "https://www.gameres.com/784798.html"
+    }
+  ],
+  "verified": false
+}

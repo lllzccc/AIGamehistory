@@ -1,0 +1,36 @@
+{
+  "name": "后宫·甄嬛传",
+  "aliases": ["后宫甄嬛传手游", "甄嬛传手游（蓝港版）"],
+  "chronicles": ["female"],
+  "genre": "palace",
+  "developer": "linekong",
+  "publisher": "linekong",
+  "released": "2015",
+  "platforms": ["iOS", "Android"],
+  "status": "unknown",
+  "versionLabel": "流潋紫唯一授权 · 2015年上线（App Store口径）/ iOS 2016-11-24上架",
+  "significance": "小说作者流潋紫唯一授权的国民级宫斗手游（蓝港互动研发发行），甄嬛传IP游戏化的第一个完整版本：完美再现后宫佳丽群像，曾进行iOS限免推广。2026年甄嬛传IP时隔12年重回游戏圈（三七《梦回甄嬛传》、雷霆代理版、此前媒体盘点三家并行）时，本作是其历史前作坐标。",
+  "lifecycleNotes": [
+    {
+      "note": "上线口径两说并存：App Store官方介绍称2015年（安卓/宣发口径）；iOS上架日2016-11-24（iTunes接口2026-10-20核验，seller=Linekong Entertainment Technology）。当前运营状态未核（App Store条目仍可查、游戏实际服务器状态待官方渠道确认，不作停运推断）。",
+      "sources": [
+        {
+          "title": "App Store：后宫甄嬛传手游-正版授权（流潋紫唯一授权、2015年介绍口径）",
+          "url": "https://apps.apple.com/cn/app/%E5%90%8E%E5%AE%AE%E7%94%84%E5%AC%B2%E4%BC%A0%E6%89%8B%E6%B8%B8-%E6%AD%A3%E7%89%88%E6%8E%88%E6%9D%83/id1149182335"
+        },
+        {
+          "title": "iTunes cn接口：iOS 2016-11-24上架",
+          "url": "https://itunes.apple.com/lookup?id=1149182335&country=cn"
+        }
+      ]
+    }
+  ],
+  "revenue": [],
+  "sources": [
+    {
+      "title": "App Store：后宫甄嬛传手游-正版授权",
+      "url": "https://apps.apple.com/cn/app/%E5%90%8E%E5%AE%AE%E7%94%84%E5%AC%B2%E4%BC%A0%E6%89%8B%E6%B8%B8-%E6%AD%A3%E7%89%88%E6%8E%88%E6%9D%83/id1149182335"
+    }
+  ],
+  "verified": false
+}

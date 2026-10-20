@@ -1,0 +1,36 @@
+{
+  "name": "一品官老爷",
+  "aliases": [],
+  "chronicles": ["female", "casual"],
+  "genre": "court",
+  "developer": "tanwan",
+  "publisher": "tanwan",
+  "released": "2017",
+  "platforms": ["iOS", "Android"],
+  "status": "live",
+  "versionLabel": "2017年上线（四周年庆2021-09反推）· 持续运营至2022年后仍更新",
+  "significance": "2017年官斗买量潮的代表产品之一（贪玩游戏发行、王刚代言）：官员晋升、门客培养、红颜与联盟经营的官斗养成；与《极品芝麻官》《官居一品》等共同构成被业内称为「SLG版传奇」的官斗品类生态——换皮严重、买量驱动、明星代言轰炸（王刚/吴孟达/徐锦江同期为多家官斗产品代言）。",
+  "lifecycleNotes": [
+    {
+      "note": "上线时间口径：2021年9月四周年庆反推2017年（九游周年庆报道）；2021-07媒体复盘称「从18年到现在」；2017H2为品类爆发窗口——年份精度取2017，月日待官方源。2022-12推出V4.2新增模拟经营玩法（持续运营证据）；4399专区长期在册。",
+      "sources": [
+        {
+          "title": "GameRes（游戏茶馆稿）2017-12-01：官斗手游分析——一品官老爷为贪玩游戏产品（王刚代言）",
+          "url": "https://www.gameres.com/784798.html"
+        },
+        {
+          "title": "九游：《一品官老爷》四周年庆报道（2021-09，上线时间反推）",
+          "url": "https://a.9game.cn/news/5459759.html"
+        }
+      ]
+    }
+  ],
+  "revenue": [],
+  "sources": [
+    {
+      "title": "GameRes（游戏茶馆稿）2017-12-01：官斗手游分析",
+      "url": "https://www.gameres.com/784798.html"
+    }
+  ],
+  "verified": false
+}
