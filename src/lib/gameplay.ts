@@ -7,7 +7,7 @@ export const coreGameplayLabels = {
   other: '其他策略体系',
 } as const;
 export const fusionGameplayLabels = {
-  merge: '合成', 'match-3': '三消', 'tower-defense': '塔防',
+  merge: '合成（未细分）', 'merge-2': '二合 · Merge-2', 'merge-3': '三合 · Merge-3', 'match-3': '三消', 'tower-defense': '塔防',
   shooting: '射击／弹道', simulation: '模拟经营', card: '卡牌',
 } as const;
 export type CoreFilter = keyof typeof coreGameplayLabels | 'all' | 'unclassified';

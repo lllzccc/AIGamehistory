@@ -54,6 +54,14 @@
     {
       "title": "长江证券2016-10-01重组核查意见：点点分工、产品及跨年收入",
       "url": "https://disc.static.szse.cn/disc/disk01/finalpage/2016-10-01/0ba4da5e-8bae-4244-98fd-b9a85ff66f45.PDF"
+    },
+    {
+      "title": "Century Games官方Tasty Travels",
+      "url": "https://www.centurygames.com/games/tasty-travels/"
+    },
+    {
+      "title": "Century Games官方Hotel Legacy",
+      "url": "https://www.centurygames.com/games/hotel-legacy/"
     }
   ],
   "website": "https://www.campfiregames.cn/aboutus/",
@@ -121,6 +129,20 @@
               "url": "https://disc.static.szse.cn/disc/disk01/finalpage/2016-10-01/0ba4da5e-8bae-4244-98fd-b9a85ff66f45.PDF"
             },
             "note": "正文已读：点点开曼/北京职责、四款自研社交游戏与2014—2016H1收入范围，不等同当前集团营收。"
+          },
+          {
+            "source": {
+              "title": "Century Games官方Tasty Travels",
+              "url": "https://www.centurygames.com/games/tasty-travels/"
+            },
+            "note": "新增两款二合美国iOS产品与宣传图，不把SLG人员自动关联二合团队。"
+          },
+          {
+            "source": {
+              "title": "Century Games官方Hotel Legacy",
+              "url": "https://www.centurygames.com/games/hotel-legacy/"
+            },
+            "note": "新增两款二合美国iOS产品与宣传图，不把SLG人员自动关联二合团队。"
           }
         ],
         "gaps": [
@@ -135,20 +157,36 @@
             "nextStep": "继续核对制作团队公开资料及官方上线公告。"
           }
         ],
-        "checkedAt": "2026-10-12"
+        "checkedAt": "2026-10-27"
       },
       {
         "area": "lifecycle",
-        "status": "pending",
+        "status": "partial",
         "scope": "首发口径、地区版本与运营状态",
-        "examined": [],
+        "examined": [
+          {
+            "source": {
+              "title": "Century Games官方Tasty Travels",
+              "url": "https://www.centurygames.com/games/tasty-travels/"
+            },
+            "note": "新增两款二合美国iOS产品与宣传图，不把SLG人员自动关联二合团队。"
+          },
+          {
+            "source": {
+              "title": "Century Games官方Hotel Legacy",
+              "url": "https://www.centurygames.com/games/hotel-legacy/"
+            },
+            "note": "新增两款二合美国iOS产品与宣传图，不把SLG人员自动关联二合团队。"
+          }
+        ],
         "gaps": [
           {
             "question": "继续补齐各地区、各平台开服与停服公告。",
             "status": "pending",
             "nextStep": "继续补齐各地区、各平台开服与停服公告。"
           }
-        ]
+        ],
+        "checkedAt": "2026-10-27"
       },
       {
         "area": "talent",
@@ -200,7 +238,24 @@
         "checkedAt": "2026-10-11"
       }
     ],
-    "supplementRounds": []
+    "supplementRounds": [
+      {
+        "checkedAt": "2026-10-27",
+        "channel": "官网、官方App Store与Apple接口；公众号授权转载",
+        "note": "新增两款二合美国iOS产品与宣传图，不把SLG人员自动关联二合团队。",
+        "foundKeyFacts": true,
+        "sources": [
+          {
+            "title": "Century Games官方Tasty Travels",
+            "url": "https://www.centurygames.com/games/tasty-travels/"
+          },
+          {
+            "title": "Century Games官方Hotel Legacy",
+            "url": "https://www.centurygames.com/games/hotel-legacy/"
+          }
+        ]
+      }
+    ]
   }
 }
 ---

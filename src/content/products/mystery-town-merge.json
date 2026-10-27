@@ -1,0 +1,90 @@
+{
+  "name": "Mystery Town: Merge Games",
+  "aliases": [],
+  "chronicles": [
+    "casual"
+  ],
+  "genre": "other",
+  "developer": "learnings",
+  "developerAttribution": "reported",
+  "publisher": "Cedar Co., Limited",
+  "released": "2024-10-18",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "美国App Store iOS版（非全球首发）",
+  "significance": "小镇悬疑调查与物品二合；媒体关联乐信圣文，内部研发项目组仍待核。",
+  "lifecycleNotes": [
+    {
+      "note": "日期仅取Apple美国商店接口，不等于全球正式发行或Android日期。商店卖方：Cedar Co., Limited。公司档按品牌/媒体线索聚合，不据此认定项目自研团队。",
+      "sources": [
+        {
+          "title": "官方App Store美国版：Mystery Town: Merge Games（核查2026-10-27）",
+          "url": "https://apps.apple.com/us/app/id6503603603"
+        },
+        {
+          "title": "Apple官方接口：美国版releaseDate（核查2026-10-27）",
+          "url": "https://itunes.apple.com/lookup?id=6503603603&country=us"
+        },
+        {
+          "title": "发行品牌官网或服务政策（核查2026-10-27）",
+          "url": "https://cedargamestudio.com/pp.html"
+        },
+        {
+          "title": "研发归属存在待核边界的行业报道",
+          "url": "https://www.yfchuhai.com/article/10227485.html"
+        }
+      ]
+    }
+  ],
+  "gameplay": {
+    "fusion": [
+      "merge-2",
+      "simulation"
+    ],
+    "basis": "editorial",
+    "checkedAt": "2026-10-27",
+    "note": "本站根据官方说明与商店截图整理：两个相同物品升级、订单驱动，叠加经营/修复。不将三合混入。",
+    "sources": [
+      {
+        "title": "官方App Store美国版：Mystery Town: Merge Games（核查2026-10-27）",
+        "url": "https://apps.apple.com/us/app/id6503603603"
+      },
+      {
+        "title": "Apple官方接口：美国版releaseDate（核查2026-10-27）",
+        "url": "https://itunes.apple.com/lookup?id=6503603603&country=us"
+      },
+      {
+        "title": "发行品牌官网或服务政策（核查2026-10-27）",
+        "url": "https://cedargamestudio.com/pp.html"
+      },
+      {
+        "title": "研发归属存在待核边界的行业报道",
+        "url": "https://www.yfchuhai.com/article/10227485.html"
+      }
+    ]
+  },
+  "revenue": [],
+  "sources": [
+    {
+      "title": "官方App Store美国版：Mystery Town: Merge Games（核查2026-10-27）",
+      "url": "https://apps.apple.com/us/app/id6503603603"
+    },
+    {
+      "title": "Apple官方接口：美国版releaseDate（核查2026-10-27）",
+      "url": "https://itunes.apple.com/lookup?id=6503603603&country=us"
+    },
+    {
+      "title": "发行品牌官网或服务政策（核查2026-10-27）",
+      "url": "https://cedargamestudio.com/pp.html"
+    },
+    {
+      "title": "研发归属存在待核边界的行业报道",
+      "url": "https://www.yfchuhai.com/article/10227485.html"
+    }
+  ],
+  "verified": false,
+  "keyArt": "/images/merge2/mystery-town-merge.jpg",
+  "artPosition": "top"
+}

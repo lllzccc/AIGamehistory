@@ -1,26 +1,28 @@
 ---
 import femaleRoster from '../content/company-roster/female.json';
+import casualRoster from '../content/company-roster/casual.json';
 import slgRoster from '../content/company-roster/slg.json';
 import { z } from 'astro/zod';
 import { sourceSchema } from '../lib/schema';
 import { withBase } from '../lib/paths';
 import type { Dataset } from '../lib/types';
-interface Props { companies: Dataset['companies']; products: Dataset['products']; chronicle?: 'female' | 'slg'; }
-const { companies, products, chronicle = 'female' } = Astro.props;
-const roster = chronicle === 'slg' ? slgRoster : femaleRoster;
+interface Props { companies: Dataset['companies']; products: Dataset['products']; allCompanies?: Dataset['companies']; chronicle?: 'female' | 'slg' | 'casual'; }
+const { companies, allCompanies = companies, products, chronicle = 'female' } = Astro.props;
+const roster = chronicle === 'slg' ? slgRoster : chronicle === 'casual' ? casualRoster : femaleRoster;
 const parsedCandidates = z.array(z.object({ id:z.string(), name:z.string(), kind:z.enum(['公司','工作室']), products:z.array(z.string()).min(1), note:z.string(), source:sourceSchema, checkedAt:z.string() })).parse(roster);
 if (new Set(parsedCandidates.map(c => c.id)).size !== parsedCandidates.length) throw new Error('公司名录存在重复条目');
 // Promote an entry automatically when its company archive joins this volume.
-const candidates = parsedCandidates.filter(c => !companies.some(company => company.id === c.id));
+const scopeCompanies = [...companies, ...allCompanies.filter(c => !companies.some(x => x.id === c.id) && parsedCandidates.some(r => r.id === c.id))];
+const candidates = parsedCandidates.filter(c => !scopeCompanies.some(company => company.id === c.id));
 const entries = [
- ...companies.map(c => ({ ...c, kind:'公司', stage:'archived', products:products.filter(p => p.developer===c.id || p.publisher===c.id).map(p=>p.name), note:c.tagline, source:c.sources[0] })),
+ ...scopeCompanies.map(c => ({ ...c, kind:'公司', stage:'archived', products:products.filter(p => p.developer===c.id || p.publisher===c.id).map(p=>p.name), note:c.tagline, source:c.sources[0] })),
  ...candidates.map(c => ({...c,stage:'listed'})),
 ];
 ---
 <section id="company-roster" class="mx-auto mt-16 max-w-6xl px-6 sm:px-10" aria-labelledby="roster-title">
  <details class="roster-disclosure border-t border-ink/15">
   <summary class="roster-summary">
-   <div><p class="text-xs tracking-[0.25em] text-rouge">公司与团队名录</p><h2 id="roster-title" class="mt-2 font-serif text-2xl">已建档 {companies.length} 家 · 待建档 {candidates.length} 家</h2></div>
+   <div><p class="text-xs tracking-[0.25em] text-rouge">公司与团队名录</p><h2 id="roster-title" class="mt-2 font-serif text-2xl">已建档 {scopeCompanies.length} 家 · 待建档 {candidates.length} 家</h2></div>
    <span class="roster-toggle text-sm text-rouge"><span class="when-closed">展开名录</span><span class="when-open">收起名录</span><span class="roster-chevron" aria-hidden="true">⌄</span></span>
   </summary>
   <p class="max-w-2xl text-sm leading-7 text-ink-soft">先确定名字与产品线索，再逐家补齐历史。包含历史项目与发行主体，名单持续补充。</p>

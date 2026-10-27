@@ -4,7 +4,9 @@
   "aliases": [
     "Microfun",
     "北京柠檬微趣科技股份有限公司",
-    "北京嘤鸣谷科技有限公司"
+    "北京嘤鸣谷科技有限公司",
+    "柠檬微趣科技",
+    "Microfun Limited"
   ],
   "founded": "2008-08-25",
   "headquarters": "北京",
@@ -20,6 +22,14 @@
     {
       "title": "柠檬微趣官网：休闲产品与公司品牌",
       "url": "https://www.microfun.cn/"
+    },
+    {
+      "title": "Microfun官方隐私政策：产品列表（核查2026-10-27）",
+      "url": "https://www.microfun.com/privacy_EN.html"
+    },
+    {
+      "title": "Microfun官网：产品列表",
+      "url": "https://www.microfun.com/privacy_EN.html"
     }
   ],
   "verified": false,
@@ -59,7 +69,7 @@
         "area": "catalog",
         "status": "partial",
         "scope": "国内三消与海外合成代表产品",
-        "checkedAt": "2026-10-12",
+        "checkedAt": "2026-10-27",
         "examined": [
           {
             "source": {
@@ -116,6 +126,13 @@
               "url": "https://www.microfun.cn/"
             },
             "note": "检查历史产品章节与四款代表作的官方商店署名。"
+          },
+          {
+            "source": {
+              "title": "Microfun官网：产品列表",
+              "url": "https://www.microfun.com/privacy_EN.html"
+            },
+            "note": "新增Flambé；Gossip Harbor与国内浪漫餐厅重复记录合并，二合与Merge Fables三合区分。"
           }
         ],
         "gaps": [
@@ -131,7 +148,7 @@
         "area": "lifecycle",
         "status": "partial",
         "scope": "首发版本与运营状态",
-        "checkedAt": "2026-10-12",
+        "checkedAt": "2026-10-27",
         "examined": [
           {
             "source": {
@@ -202,6 +219,13 @@
               "url": "https://www.microfun.cn/"
             },
             "note": "国内日期用申报稿；三款海外iOS日期用Apple官方接口，核查地区为美国。"
+          },
+          {
+            "source": {
+              "title": "Microfun官网：产品列表",
+              "url": "https://www.microfun.com/privacy_EN.html"
+            },
+            "note": "新增Flambé；Gossip Harbor与国内浪漫餐厅重复记录合并，二合与Merge Fables三合区分。"
           }
         ],
         "gaps": [
@@ -260,7 +284,20 @@
         ]
       }
     ],
-    "supplementRounds": []
+    "supplementRounds": [
+      {
+        "checkedAt": "2026-10-27",
+        "channel": "官网、官方App Store与Apple接口；公众号授权转载",
+        "note": "新增Flambé；Gossip Harbor与国内浪漫餐厅重复记录合并，二合与Merge Fables三合区分。",
+        "foundKeyFacts": true,
+        "sources": [
+          {
+            "title": "Microfun官网：产品列表",
+            "url": "https://www.microfun.com/privacy_EN.html"
+          }
+        ]
+      }
+    ]
   }
 }
 ---
@@ -276,3 +313,7 @@
 ### 收入口径
 
 申报稿的历史主营业务收入按联运净额确认，不能等同玩家充值流水。近期海外产品财务仍在清单中，不以排行榜或集团收入反推单品数字。
+
+
+### 二合专项（2026-10-27）
+Gossip Harbor、Seaside Escape与Flambé按二合分类；Merge Fables为三合，独立标记。已合并重复lemonmicrofun公司id，国内浪漫餐厅版本线索并入Gossip Harbor；国内上线日未取得，撤下原用海外参考日期制造的国内上线事件。下一轮核实国内外包体、项目人员与商业口径。

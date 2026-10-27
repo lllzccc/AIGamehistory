@@ -1,0 +1,76 @@
+[
+  {
+    "id": "microfun",
+    "name": "柠檬微趣",
+    "kind": "公司",
+    "products": [
+      "Gossip Harbor",
+      "Seaside Escape",
+      "Flambé"
+    ],
+    "note": "二合、三合、三消产品线分开核查。",
+    "source": {
+      "title": "官方入口及归属线索，核查2026-10-27",
+      "url": "https://www.microfun.com/privacy_EN.html"
+    },
+    "checkedAt": "2026-10-27"
+  },
+  {
+    "id": "centurygames",
+    "name": "点点互动",
+    "kind": "公司",
+    "products": [
+      "Tasty Travels",
+      "Hotel Legacy"
+    ],
+    "note": "SLG与二合并行，公司保留跨品类全目录。",
+    "source": {
+      "title": "官方入口及归属线索，核查2026-10-27",
+      "url": "https://www.centurygames.com/"
+    },
+    "checkedAt": "2026-10-27"
+  },
+  {
+    "id": "happibits",
+    "name": "Happibits",
+    "kind": "公司",
+    "products": [
+      "Merge Cooking",
+      "Foodstars"
+    ],
+    "note": "按官方发行品牌建档，国内关联方待核。",
+    "source": {
+      "title": "官方入口及归属线索，核查2026-10-27",
+      "url": "https://www.happibits.com/"
+    },
+    "checkedAt": "2026-10-27"
+  },
+  {
+    "id": "playdayy",
+    "name": "天天玩家",
+    "kind": "公司",
+    "products": [
+      "Merge Cooking（媒体关联线索）"
+    ],
+    "note": "休闲研发公司已建档；Happibits关联关系未完成法人核验，不直接认定项目自研。",
+    "source": {
+      "title": "官方入口及归属线索，核查2026-10-27",
+      "url": "https://www.playdayy.cn/about.html"
+    },
+    "checkedAt": "2026-10-27"
+  },
+  {
+    "id": "learnings",
+    "name": "乐信圣文",
+    "kind": "公司",
+    "products": [
+      "Mystery Town: Merge Games"
+    ],
+    "note": "Cedar商店署名与实际研发组分开，研发归属据报道待核。",
+    "source": {
+      "title": "官方入口及归属线索，核查2026-10-27",
+      "url": "https://apps.apple.com/us/app/id6503603603"
+    },
+    "checkedAt": "2026-10-27"
+  }
+]

@@ -1,0 +1,90 @@
+{
+  "name": "Foodstars: Merge & Cook",
+  "aliases": [],
+  "chronicles": [
+    "casual"
+  ],
+  "genre": "other",
+  "developer": "happibits",
+  "developerAttribution": "unknown",
+  "publisher": "Happibits Technologies Pte. Ltd.",
+  "released": "2025-12-11",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "美国App Store iOS版（非全球首发）",
+  "significance": "围绕美食合成与订单交付展开的后续产品，具体研发团队待核。",
+  "lifecycleNotes": [
+    {
+      "note": "日期仅取Apple美国商店接口，不等于全球正式发行或Android日期。商店卖方：Happibits Technologies Pte. Ltd.。公司档按品牌/媒体线索聚合，不据此认定项目自研团队。",
+      "sources": [
+        {
+          "title": "官方App Store美国版：Foodstars: Merge & Cook（核查2026-10-27）",
+          "url": "https://apps.apple.com/us/app/id6753862216"
+        },
+        {
+          "title": "Apple官方接口：美国版releaseDate（核查2026-10-27）",
+          "url": "https://itunes.apple.com/lookup?id=6753862216&country=us"
+        },
+        {
+          "title": "发行品牌官网或服务政策（核查2026-10-27）",
+          "url": "https://www.happibits.com/"
+        },
+        {
+          "title": "游戏新知2025-11-26：海外市场手游收入TOP100（36氪授权转载，微信原文未取得）",
+          "url": "https://www.36kr.com/p/3568446146575233"
+        }
+      ]
+    }
+  ],
+  "gameplay": {
+    "fusion": [
+      "merge-2",
+      "simulation"
+    ],
+    "basis": "editorial",
+    "checkedAt": "2026-10-27",
+    "note": "本站根据官方说明与商店截图整理：两个相同物品升级、订单驱动，叠加经营/修复。不将三合混入。",
+    "sources": [
+      {
+        "title": "官方App Store美国版：Foodstars: Merge & Cook（核查2026-10-27）",
+        "url": "https://apps.apple.com/us/app/id6753862216"
+      },
+      {
+        "title": "Apple官方接口：美国版releaseDate（核查2026-10-27）",
+        "url": "https://itunes.apple.com/lookup?id=6753862216&country=us"
+      },
+      {
+        "title": "发行品牌官网或服务政策（核查2026-10-27）",
+        "url": "https://www.happibits.com/"
+      },
+      {
+        "title": "游戏新知2025-11-26：海外市场手游收入TOP100（36氪授权转载，微信原文未取得）",
+        "url": "https://www.36kr.com/p/3568446146575233"
+      }
+    ]
+  },
+  "revenue": [],
+  "sources": [
+    {
+      "title": "官方App Store美国版：Foodstars: Merge & Cook（核查2026-10-27）",
+      "url": "https://apps.apple.com/us/app/id6753862216"
+    },
+    {
+      "title": "Apple官方接口：美国版releaseDate（核查2026-10-27）",
+      "url": "https://itunes.apple.com/lookup?id=6753862216&country=us"
+    },
+    {
+      "title": "发行品牌官网或服务政策（核查2026-10-27）",
+      "url": "https://www.happibits.com/"
+    },
+    {
+      "title": "游戏新知2025-11-26：海外市场手游收入TOP100（36氪授权转载，微信原文未取得）",
+      "url": "https://www.36kr.com/p/3568446146575233"
+    }
+  ],
+  "verified": false,
+  "keyArt": "/images/merge2/foodstars.jpg",
+  "artPosition": "top"
+}

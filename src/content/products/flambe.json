@@ -1,0 +1,78 @@
+{
+  "name": "Flambé®: Merge and Cook",
+  "aliases": [],
+  "chronicles": [
+    "casual"
+  ],
+  "genre": "other",
+  "developer": "microfun",
+  "developerAttribution": "unknown",
+  "publisher": "Microfun Limited",
+  "released": "2025-05-08",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "美国App Store iOS版（非全球首发）",
+  "significance": "二合食材订单叠加烹饪与餐厅修复。",
+  "lifecycleNotes": [
+    {
+      "note": "日期仅取Apple美国商店接口，不等于全球正式发行或Android日期。商店卖方：Microfun Limited。公司档按品牌/媒体线索聚合，不据此认定项目自研团队。",
+      "sources": [
+        {
+          "title": "官方App Store美国版：Flambé®: Merge and Cook（核查2026-10-27）",
+          "url": "https://apps.apple.com/us/app/id6618142292"
+        },
+        {
+          "title": "Apple官方接口：美国版releaseDate（核查2026-10-27）",
+          "url": "https://itunes.apple.com/lookup?id=6618142292&country=us"
+        },
+        {
+          "title": "发行品牌官网或服务政策（核查2026-10-27）",
+          "url": "https://www.microfun.com/privacy_EN.html"
+        }
+      ]
+    }
+  ],
+  "gameplay": {
+    "fusion": [
+      "merge-2",
+      "simulation"
+    ],
+    "basis": "editorial",
+    "checkedAt": "2026-10-27",
+    "note": "本站根据官方说明与商店截图整理：两个相同物品升级、订单驱动，叠加经营/修复。不将三合混入。",
+    "sources": [
+      {
+        "title": "官方App Store美国版：Flambé®: Merge and Cook（核查2026-10-27）",
+        "url": "https://apps.apple.com/us/app/id6618142292"
+      },
+      {
+        "title": "Apple官方接口：美国版releaseDate（核查2026-10-27）",
+        "url": "https://itunes.apple.com/lookup?id=6618142292&country=us"
+      },
+      {
+        "title": "发行品牌官网或服务政策（核查2026-10-27）",
+        "url": "https://www.microfun.com/privacy_EN.html"
+      }
+    ]
+  },
+  "revenue": [],
+  "sources": [
+    {
+      "title": "官方App Store美国版：Flambé®: Merge and Cook（核查2026-10-27）",
+      "url": "https://apps.apple.com/us/app/id6618142292"
+    },
+    {
+      "title": "Apple官方接口：美国版releaseDate（核查2026-10-27）",
+      "url": "https://itunes.apple.com/lookup?id=6618142292&country=us"
+    },
+    {
+      "title": "发行品牌官网或服务政策（核查2026-10-27）",
+      "url": "https://www.microfun.com/privacy_EN.html"
+    }
+  ],
+  "verified": false,
+  "keyArt": "/images/merge2/flambe.jpg",
+  "artPosition": "top"
+}

@@ -38,3 +38,16 @@ describe('gameplay filtering',()=>{
  });
 });
 
+
+// Merge-2 and Merge-3 must stay disjoint even when both use the word Merge.
+describe('casual merge taxonomy',()=>{
+ it('keeps two-item and three-item merges separate while preserving company history',()=>{
+ const ds=makeDataset();ds.products[0].gameplay={...evidence,fusion:['merge-2']};ds.products[1].gameplay={...evidence,fusion:['merge-3']};
+ const result=filterGameplayBuckets(getYearBuckets(ds,2026),'all','merge-2');
+ expect(result.flatMap(b=>b.launches).map(p=>p.id)).toEqual(['a-first']);
+ expect(result.flatMap(b=>b.founded).map(c=>c.id)).toEqual(['alpha']);
+ expect(matchesGameplay(ds.products[1],'all','merge-2')).toBe(false);
+ expect(matchesGameplay({...ds.products[0],gameplay:undefined},'all','merge-2')).toBe(false);
+ });
+ it('requires evidence for the new taxonomy too',()=>{expect(gameplaySchema.safeParse({...evidence,fusion:['merge-2']}).success).toBe(true);expect(gameplaySchema.safeParse({fusion:['merge-2']}).success).toBe(false);});
+});

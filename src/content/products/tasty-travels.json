@@ -1,0 +1,78 @@
+{
+  "name": "Tasty Travels: Merge Game",
+  "aliases": [],
+  "chronicles": [
+    "casual"
+  ],
+  "genre": "other",
+  "developer": "centurygames",
+  "developerAttribution": "unknown",
+  "publisher": "Century Games Pte. Ltd.",
+  "released": "2024-04-11",
+  "platforms": [
+    "iOS"
+  ],
+  "status": "live",
+  "versionLabel": "美国App Store iOS版（非全球首发）",
+  "significance": "把二合食材订单与环球旅行题材结合，属于点点互动跨SLG和休闲的产品目录。",
+  "lifecycleNotes": [
+    {
+      "note": "日期仅取Apple美国商店接口，不等于全球正式发行或Android日期。商店卖方：Century Games Pte. Ltd.。公司档按品牌/媒体线索聚合，不据此认定项目自研团队。",
+      "sources": [
+        {
+          "title": "官方App Store美国版：Tasty Travels: Merge Game（核查2026-10-27）",
+          "url": "https://apps.apple.com/us/app/id6471045672"
+        },
+        {
+          "title": "Apple官方接口：美国版releaseDate（核查2026-10-27）",
+          "url": "https://itunes.apple.com/lookup?id=6471045672&country=us"
+        },
+        {
+          "title": "发行品牌官网或服务政策（核查2026-10-27）",
+          "url": "https://www.centurygames.com/games/tasty-travels/"
+        }
+      ]
+    }
+  ],
+  "gameplay": {
+    "fusion": [
+      "merge-2",
+      "simulation"
+    ],
+    "basis": "editorial",
+    "checkedAt": "2026-10-27",
+    "note": "本站根据官方说明与商店截图整理：两个相同物品升级、订单驱动，叠加经营/修复。不将三合混入。",
+    "sources": [
+      {
+        "title": "官方App Store美国版：Tasty Travels: Merge Game（核查2026-10-27）",
+        "url": "https://apps.apple.com/us/app/id6471045672"
+      },
+      {
+        "title": "Apple官方接口：美国版releaseDate（核查2026-10-27）",
+        "url": "https://itunes.apple.com/lookup?id=6471045672&country=us"
+      },
+      {
+        "title": "发行品牌官网或服务政策（核查2026-10-27）",
+        "url": "https://www.centurygames.com/games/tasty-travels/"
+      }
+    ]
+  },
+  "revenue": [],
+  "sources": [
+    {
+      "title": "官方App Store美国版：Tasty Travels: Merge Game（核查2026-10-27）",
+      "url": "https://apps.apple.com/us/app/id6471045672"
+    },
+    {
+      "title": "Apple官方接口：美国版releaseDate（核查2026-10-27）",
+      "url": "https://itunes.apple.com/lookup?id=6471045672&country=us"
+    },
+    {
+      "title": "发行品牌官网或服务政策（核查2026-10-27）",
+      "url": "https://www.centurygames.com/games/tasty-travels/"
+    }
+  ],
+  "verified": false,
+  "keyArt": "/images/merge2/tasty-travels.jpg",
+  "artPosition": "top"
+}

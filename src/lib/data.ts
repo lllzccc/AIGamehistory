@@ -215,7 +215,7 @@ export function getPersonView(ds: Dataset, id: string): PersonView {
 export function toProductCards(ds: Dataset, products: Product[]): ProductCard[] {
   return products.map((p) => ({
     ...p,
-    developerName: displayCompanyName(ds, p.developer),
+    developerName: displayCompanyName(ds, p.developer) + (p.developerAttribution === 'reported' ? '（研发归属据报道，待核）' : p.developerAttribution === 'unknown' ? '（研发归属待核）' : ''),
     publisherName: displayCompanyName(ds, p.publisher),
     publisherId: ds.companies.some((c) => c.id === p.publisher) ? p.publisher : undefined,
     series: revenueSeries(p),

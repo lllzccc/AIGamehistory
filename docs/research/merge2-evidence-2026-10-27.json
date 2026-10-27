@@ -1,0 +1,50 @@
+[
+  {
+    "id": "flambe",
+    "appId": 6618142292,
+    "date": "2025-05-08",
+    "seller": "Microfun Limited",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/58/1b/7b/581b7bdd-18fe-4f0e-4f78-d59b46eb21ad/ipx-merge-en.jpg/320x480bb.jpg",
+    "checkedAt": "2026-10-27"
+  },
+  {
+    "id": "merge-cooking",
+    "appId": 1643509748,
+    "date": "2022-09-19",
+    "seller": "Happibits Technologies Pte. Ltd.",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/c1/85/ae/c185aea1-1b08-2818-2720-6b3d3a38088d/1.jpg/320x480bb.jpg",
+    "checkedAt": "2026-10-27"
+  },
+  {
+    "id": "foodstars",
+    "appId": 6753862216,
+    "date": "2025-12-11",
+    "seller": "Happibits Technologies Pte. Ltd.",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/27/7c/4b/277c4bdf-7bcc-9a04-2a8f-c46bea885215/1.jpg/320x480bb.jpg",
+    "checkedAt": "2026-10-27"
+  },
+  {
+    "id": "tasty-travels",
+    "appId": 6471045672,
+    "date": "2024-04-11",
+    "seller": "Century Games Pte. Ltd.",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/fb/2c/cb/fb2ccbfa-a1d9-a599-cc97-9dbfe4a96ff1/1290x2796-0_english.jpg/320x480bb.jpg",
+    "checkedAt": "2026-10-27"
+  },
+  {
+    "id": "hotel-legacy",
+    "appId": 6752886832,
+    "date": "2026-01-14",
+    "seller": "Century Games Innovation Pte. Ltd.",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/48/68/2b/48682bd6-1598-1d21-68c9-6c31cd9d25d5/minigame1.jpg/320x480bb.jpg",
+    "checkedAt": "2026-10-27"
+  },
+  {
+    "id": "mystery-town-merge",
+    "appId": 6503603603,
+    "date": "2024-10-18",
+    "seller": "Cedar Co., Limited",
+    "image": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/3e/a5/75/3ea5756e-6ed9-d056-0149-8d555843c6bc/783f9af9-fa76-48a5-b552-82900700af6e_4.jpg/392x696bb.jpg",
+    "checkedAt": "2026-10-27"
+  }
+]

@@ -13,7 +13,8 @@ export function getStaticPaths() {
   return chronicles.map(volume => ({ params: { slug: volume.id }, props: { volume } }));
 }
 const { volume } = Astro.props;
-const ds = selectChronicle(await loadDataset(), volume.id);
+const fullDataset = await loadDataset();
+const ds = selectChronicle(fullDataset, volume.id);
 const endYear = new Date().getFullYear();
 const buckets = getYearBuckets(ds, endYear);
 const firstYear = buckets[0]?.year ?? endYear;
@@ -65,7 +66,7 @@ const stats = [
     </ul>
   </section>
 
-  {(volume.id === 'female' || volume.id === 'slg') && <CompanyRoster companies={companies} products={ds.products} chronicle={volume.id} />}
+  <CompanyRoster companies={companies} allCompanies={fullDataset.companies} products={ds.products} chronicle={volume.id} />
 
   <section class="mx-auto max-w-6xl px-6 pt-16 pb-32 sm:px-10">
     <p class="mb-5 text-xs tracking-widest text-mist">时间线 · 从近到远</p>

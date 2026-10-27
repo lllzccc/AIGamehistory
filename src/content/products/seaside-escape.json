@@ -35,12 +35,12 @@
   ],
   "gameplay": {
     "fusion": [
-      "merge",
+      "merge-2",
       "simulation"
     ],
     "basis": "editorial",
-    "checkedAt": "2026-10-12",
-    "note": "按官方产品说明整理玩法，标签不代表研发传承关系或全部历史版本。",
+    "checkedAt": "2026-10-27",
+    "note": "二合与三合按官方商店描述和棋盘截图的主循环区分，不以Merge标题自动归类。",
     "sources": [
       {
         "title": "Seaside Escape: Merge & Story官方App Store（us）",

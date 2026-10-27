@@ -48,7 +48,7 @@ export default function YearRiver({ buckets, chronicle }: { buckets: YearBucket[
   const reduceMotion = useReducedMotion();
 
   const visible = useMemo(() => searchRiver(
-    chronicle === 'slg' ? filterGameplayBuckets(buckets, core, fusion) : buckets.map((b) => filterBucket(b, genre)),
+    (chronicle === 'slg' || chronicle === 'casual') ? filterGameplayBuckets(buckets, core, fusion) : buckets.map((b) => filterBucket(b, genre)),
     query,
   ), [buckets, genre, chronicle, core, fusion, query]);
 
@@ -144,7 +144,7 @@ export default function YearRiver({ buckets, chronicle }: { buckets: YearBucket[
             {(core !== 'all' || fusion !== 'all') && <button type="button" onClick={() => {setCore('all');setFusion('all');}} className="py-2 text-xs text-rouge underline underline-offset-4">清除筛选</button>}
           </div>
           <details className="mt-3 text-xs leading-relaxed text-ink-soft"><summary className="cursor-pointer text-mist">分类口径</summary><p className="mt-2 max-w-3xl">COK-like侧重城建、行军与联盟战争；ROK-like侧重开放地图中的自由行军与即时操作；赛季地块侧重占地、赛季与领土争夺。融合玩法单独标注，可与核心玩法组合筛选。这是本站依据公开玩法描述作的整理，不是官方分类或研发传承关系；依据与核查日期见产品详情，未确认的保留待分类。</p></details>
-        </div> : (        <div role="group" aria-label="按品类筛选" className="flex flex-wrap items-center gap-2 py-4 text-sm">
+        </div> : chronicle === 'casual' ? <div className="py-4"><div role="group" aria-label="休闲玩法筛选" className="flex flex-wrap items-center gap-2 text-sm">{[['all','全部休闲'],['merge-2','二合 · Merge-2'],['merge-3','三合 · Merge-3'],['match-3','三消'],['simulation','模拟经营'],['merge','合成待细分']].map(([value,label]) => <button key={value} type="button" aria-pressed={fusion===value} onClick={()=>setFusion(value as FusionFilter)} className={'rounded-full border px-4 py-1.5 '+(fusion===value?'border-ink bg-ink text-paper':'border-ink/15 text-ink-soft hover:border-rouge')}>{label}</button>)}</div><p className="mt-3 text-xs leading-relaxed text-ink-soft">{filteredCount} 条产品版本 · 二合按两个相同物品升级的主循环分类；三合单列。公司保留跨品类档案，玩法标签不代表全部团队经历。</p></div> : (        <div role="group" aria-label="按品类筛选" className="flex flex-wrap items-center gap-2 py-4 text-sm">
           <span className="mr-2 text-xs tracking-[0.3em] text-mist">品类</span>
           {FILTERS.map((f) => (
             <button

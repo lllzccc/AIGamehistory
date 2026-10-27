@@ -106,7 +106,7 @@ export const revenueEntrySchema = z.object({
 
 export const gameplaySchema = z.object({
   core: z.enum(['cok-like', 'rok-like', 'seasonal', 'other']).optional(),
-  fusion: z.array(z.enum(['merge', 'match-3', 'tower-defense', 'shooting', 'simulation', 'card'])),
+  fusion: z.array(z.enum(['merge', 'merge-2', 'merge-3', 'match-3', 'tower-defense', 'shooting', 'simulation', 'card'])),
   basis: z.literal('editorial'),
   checkedAt: partialDate,
   note: z.string().min(1),
@@ -115,6 +115,7 @@ export const gameplaySchema = z.object({
 
 export const productSchema = z.object({
   gameplay: gameplaySchema.optional(),
+  developerAttribution: z.enum(['confirmed', 'reported', 'unknown']).optional(),
   // An explicit empty list keeps a company portfolio work outside the published volumes.
   chronicles: z.array(z.enum(['female', 'casual', 'slg'])).optional(),
   name: z.string().min(1),
