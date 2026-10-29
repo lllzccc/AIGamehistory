@@ -32,8 +32,10 @@ researchChecklist:
       gaps:
         - question: 工商登记信息与股权结构
           status: pending
-          nextStep: "查公开工商资料；当前仅招聘主页年份口径。"
-          sources: []
+          nextStep: "查公开工商资料；当前仅招聘主页年份口径。2026-10-29官方接口佐证：iTunes CN区女皇陛下seller为Nanjing Red Bean Information Technology Co.,Ltd（南京红豆信息技术有限公司）——红豆互动注册主体名称经商店开发者账号确认（摘要口径另称品牌英文名KYoo Games、专做H5、产品线含围住神经猫/全民宫斗/盗墓英雄/全民穿越之宫/卿云之上，均待原件）；另有摘要线索称百奥2021年报提及与红豆互动合作打造爆款女性向游戏（与baioo卷交叉，年报原件待核）。"
+          sources:
+            - title: iTunes Search接口 CN区全民养成之女皇陛下（seller=Nanjing Red Bean Information Technology）
+              url: https://itunes.apple.com/search?term=%E5%A5%B3%E7%9A%87%E9%99%9B%E4%B8%8B&country=cn&entity=software
     - area: catalog
       status: partial
       scope: 女皇陛下、青鸾繁华录与前序H5产品
@@ -66,7 +68,7 @@ researchChecklist:
               url: https://www.taptap.cn/app/206236/all-info
         - question: "《全民养成之女皇陛下》近年运营状态"
           status: pending
-          nextStep: "查官方渠道更新记录，不停留在live默认值。"
+          nextStep: "2026-10-29解决：iTunes CN区末次版本更新2025-12-21——iOS侧2025年12月仍在更新、seller南京红豆信息技术，近年运营状态确认（产品档lifecycleNotes已补）；摘要级补充：新浪渠道每周例行维护通知、应用宝渠道在架。"
           sources: []
     - area: talent
       status: pending

@@ -30,5 +30,16 @@
   "keyArt": "/images/palace/nvhuang-bixia.jpg",
   "chronicles": [
     "female"
+  ],
+  "lifecycleNotes": [
+    {
+      "note": "运营状态与主体核补（2026-10-29，iTunes官方接口）：CN区seller为Nanjing Red Bean Information Technology Co.,Ltd（南京红豆信息技术有限公司，即红豆互动主体）；iOS 2019-08-29上架、末次版本更新2025-12-21——iOS侧2025年12月仍在更新，近年运营状态确认（此前缺口）。摘要级补充：新浪渠道每周例行停服维护通知、腾讯应用宝渠道包名com.tencent.tmgp.hdyxnbhx。",
+      "sources": [
+        {
+          "title": "iTunes Search接口 CN区全民养成之女皇陛下（seller/上架日/末次版本日，核查2026-10-29）",
+          "url": "https://itunes.apple.com/search?term=%E5%A5%B3%E7%9A%87%E9%99%9B%E4%B8%8B&country=cn&entity=software"
+        }
+      ]
+    }
   ]
 }

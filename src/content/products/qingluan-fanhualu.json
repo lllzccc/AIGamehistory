@@ -36,6 +36,15 @@
           "url": "https://www.taptap.cn/app/206236/all-info"
         }
       ]
+    },
+    {
+      "note": "iOS运营主体补充（2026-10-29，iTunes官方接口）：CN区seller为Nanjing Yongbei Information Technology Co., Ltd（南京永贝信息技术）——与TapTap官方帖'运营权回归红豆互动'的实体对应关系待核：公开口径中TapTap/B站记首发发行方南京仙地信息技术、百度百科称南京红豆信息技术、'南京永贝'无公开关联报道。不影响'2023-06-30 iOS上架、2025-07-17仍更新'的既有口径。",
+      "sources": [
+        {
+          "title": "iTunes Search接口 CN区青鸾繁华录（seller=Nanjing Yongbei，核查2026-10-29）",
+          "url": "https://itunes.apple.com/search?term=%E6%89%B6%E6%91%87%E4%B8%80%E6%A2%A6&country=cn&entity=software"
+        }
+      ]
     }
   ]
 }
