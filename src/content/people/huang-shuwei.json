@@ -1,0 +1,37 @@
+{
+  "name": "黄书炜",
+  "aliases": [
+    "Edwin"
+  ],
+  "bio": "IGG全球运营高级总监（2020年出海独联体《2020中国游戏出海白皮书》采访口径）。受访谈《王国纪元》2016年全球发行以来的市场变化与IGG全球化运营策略。",
+  "roles": [
+    {
+      "company": "igg",
+      "scope": "company",
+      "products": [],
+      "specialties": [
+        "strategy"
+      ],
+      "title": "other",
+      "titleNote": "全球运营高级总监（2020采访口径）",
+      "from": "2020",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "sources": [
+        {
+          "title": "微信公众号原文（出海独联体《2020中国游戏出海白皮书》，经知识库fetchPublicPage读取，2026-10-29）：IGG全球运营高级总监黄书炜（Edwin）采访",
+          "url": "https://mp.weixin.qq.com/s/DahZSHwpiQEsLtvPRK1wjg"
+        }
+      ],
+      "checkedAt": "2026-10-29",
+      "note": "职务为2020年白皮书采访原文口径；当前在任未核实。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "微信公众号原文（出海独联体《2020中国游戏出海白皮书》，经知识库fetchPublicPage读取，2026-10-29）：IGG全球运营高级总监黄书炜（Edwin）采访",
+      "url": "https://mp.weixin.qq.com/s/DahZSHwpiQEsLtvPRK1wjg"
+    }
+  ],
+  "verified": false
+}

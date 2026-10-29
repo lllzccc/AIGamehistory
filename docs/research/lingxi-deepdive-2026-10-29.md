@@ -26,3 +26,13 @@
 ## 自检
 
 见当批提交流程：npm test 全过 → astro check（grep InvalidContentEntryDataError=0 且汇总 0 errors）→ knowledge:build → 4330 渲染验证 → 点名提交推送。
+
+## 夜跑轮（同日晚，闲时任务）——微信队列清空（lilith/igg侧）
+
+队列3条 pending（2026-10-12起 original-unavailable）经知识库 `fetchPublicPage` 通路**全部核开为原文**（另2条属 lilith/igg，随这两家落档）：
+
+- 游戏新知《莉莉丝第二款自研SLG已达一亿流水》：**袁帅=莉莉丝三位创始人之一、《小小冰传奇》与《剑与家园》制作人、《战火勋章》开发负责人**；2020-11-10 安卓全球上线（除中国大陆）、4 个月流水破 1 亿元、美区 Google Play 畅销 125-150；iOS 原计划 2021-03-16；2018 年起测试（长 Soft Launch）。→ lilith 档+warpath 产品档+新人物档 yuan-shuai。
+- 游戏新知《第四款SLG开测后…》：Age of KITA（卡塔纪元）=代理发行第二款 SLG、旗下第四款（继剑与家园/万国觉醒/战火勋章）、海外低调开测、媒体称"科幻版万国觉醒"。→ lilith 档。
+- 出海独联体《2020中国游戏出海白皮书》：**黄书炜（Edwin）=IGG 全球运营高级总监**；王国纪元 2016 全球发行、Sensor Tower 2020-10 中国发行商全球收入第 8。→ igg 档+新人物档 huang-shuwei。
+
+队列状态全部改 original-read（accountName/作者/读取方式已记）。本 lingxi 条目自身本轮无新检索（交割工商与台服原件仍待网络/登录态渠道）。

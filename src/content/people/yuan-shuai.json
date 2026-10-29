@@ -1,0 +1,37 @@
+{
+  "name": "袁帅",
+  "aliases": [],
+  "bio": "莉莉丝游戏联合创始人（三位创始人之一）、《小小冰传奇》制作人、莉莉丝首款SLG《剑与家园》制作人，并担任《战火勋章》开发负责人（游戏新知2021原文口径）。",
+  "roles": [
+    {
+      "company": "lilith",
+      "scope": "product",
+      "products": [
+        "art-of-war"
+      ],
+      "specialties": [
+        "strategy"
+      ],
+      "title": "producer",
+      "titleNote": "《剑与家园》制作人；《战火勋章》开发负责人",
+      "from": "2021-03",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "sources": [
+        {
+          "title": "微信公众号原文（游戏新知，经知识库fetchPublicPage读取，2026-10-29）：莉莉丝第二款自研SLG已达一亿流水（作者阿莱斯特/山边植树）",
+          "url": "https://mp.weixin.qq.com/s/0kxjGCmFdvHTAP-FGprUAw"
+        }
+      ],
+      "checkedAt": "2026-10-29",
+      "note": "职务为游戏新知2021-03前后原文口径；《剑与家园》制作人身份同源；联合创始人身份同文；当前分工未核实。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "微信公众号原文（游戏新知，经知识库fetchPublicPage读取，2026-10-29）：莉莉丝第二款自研SLG已达一亿流水（作者阿莱斯特/山边植树）",
+      "url": "https://mp.weixin.qq.com/s/0kxjGCmFdvHTAP-FGprUAw"
+    }
+  ],
+  "verified": false
+}

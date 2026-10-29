@@ -1,33 +1,37 @@
 {
-  "checkedAt": "2026-10-12",
-  "entries": [
-    {
-      "company": "lilith",
-      "product": "Warpath",
-      "originalUrl": "https://mp.weixin.qq.com/s/0kxjGCmFdvHTAP-FGprUAw",
-      "mirrorUrl": "https://www.gameres.com/881431.html",
-      "accountName": null,
-      "readStatus": "original-unavailable",
-      "factVerification": "pending",
-      "nextStep": "核对微信原文账号、发布日及袁帅开发负责人身份和任期"
-    },
-    {
-      "company": "lilith",
-      "originalUrl": "https://mp.weixin.qq.com/s/2UzImtqiQxhhuZ9Ly_y8dQ",
-      "mirrorUrl": "https://www.gameres.com/890453.html",
-      "accountName": null,
-      "readStatus": "original-unavailable",
-      "factVerification": "pending",
-      "nextStep": "追查官方产品线与研发发行边界，不依据文章标题计产品数量"
-    },
-    {
-      "company": "igg",
-      "originalUrl": "https://mp.weixin.qq.com/s/DahZSHwpiQEsLtvPRK1wjg",
-      "mirrorUrl": "https://www.gameres.com/877737.html",
-      "accountName": null,
-      "readStatus": "original-unavailable",
-      "factVerification": "pending",
-      "nextStep": "已读出海独联体转载访谈；原文账号、发布时间及后续任职待核对。"
-    }
-  ]
+ "checkedAt": "2026-10-29",
+ "entries": [
+  {
+   "company": "lilith",
+   "product": "Warpath",
+   "originalUrl": "https://mp.weixin.qq.com/s/0kxjGCmFdvHTAP-FGprUAw",
+   "mirrorUrl": "https://www.gameres.com/881431.html",
+   "accountName": "游戏新知（作者阿莱斯特、山边植树）",
+   "readStatus": "original-read",
+   "factVerification": "done",
+   "nextStep": "已核：袁帅=莉莉丝三位创始人之一、《小小冰传奇》与《剑与家园》制作人、《战火勋章》开发负责人；战火勋章2020-11-10安卓全球上线（除中国大陆）、4个月流水破1亿、美区Google Play畅销125-150、2021-03-16 iOS上线计划、2018年起测试。已入档案。",
+   "originalMeta": {
+    "readAt": "2026-10-29",
+    "via": "knowledge-base fetchPublicPage"
+   }
+  },
+  {
+   "company": "lilith",
+   "originalUrl": "https://mp.weixin.qq.com/s/2UzImtqiQxhhuZ9Ly_y8dQ",
+   "mirrorUrl": "https://www.gameres.com/890453.html",
+   "accountName": "游戏新知（作者安德鲁）",
+   "readStatus": "original-read",
+   "factVerification": "done",
+   "nextStep": "已核：Age of KITA（卡塔纪元）=莉莉丝代理发行第二款SLG/旗下第四款SLG（继剑与家园、万国觉醒、战火勋章），海外低调开测；文章谈莉莉丝「第三代产品」方向。已入档案。"
+  },
+  {
+   "company": "igg",
+   "originalUrl": "https://mp.weixin.qq.com/s/DahZSHwpiQEsLtvPRK1wjg",
+   "mirrorUrl": "https://www.gameres.com/877737.html",
+   "accountName": "出海独联体（《2020中国游戏出海白皮书》）",
+   "readStatus": "original-read",
+   "factVerification": "done",
+   "nextStep": "已核：黄书炜（Edwin）=IGG全球运营高级总监（2020采访口径）；王国纪元2016全球发行、Sensor Tower 2020-10中国发行商全球收入TOP30第8。已入档案。"
+  }
+ ]
 }

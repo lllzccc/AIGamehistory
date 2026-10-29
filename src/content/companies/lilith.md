@@ -184,6 +184,16 @@
     ],
     "supplementRounds": [
       {
+        "checkedAt": "2026-10-29",
+        "channel": "微信公众号原文（知识库fetchPublicPage通路，队列3条清空）",
+        "note": "游戏新知Warpath文原文核开：袁帅（联创/小小冰/剑与家园制作人）任战火勋章开发负责人、2020-11-10安卓全球上线4个月破1亿流水、2018年起Soft Launch；Age of KITA=代理发行第二款SLG/旗下第四款；新人物档yuan-shuai。出海独联体IGG黄书炜文归igg档。队列original-unavailable全部清为original-read。",
+        "foundKeyFacts": true,
+        "sources": [
+          {"title": "游戏新知公众号：莉莉丝第二款自研SLG已达一亿流水（2026-10-29经fetchPublicPage核开）", "url": "https://mp.weixin.qq.com/s/0kxjGCmFdvHTAP-FGprUAw"},
+          {"title": "游戏新知公众号：第四款SLG开测后，莉莉丝的「第三代产品」浮出水面", "url": "https://mp.weixin.qq.com/s/2UzImtqiQxhhuZ9Ly_y8dQ"}
+        ]
+      },
+      {
         "checkedAt": "2026-10-12",
         "channel": "作者账号访谈、官方商店与公众号授权转载",
         "note": "补袁帅与小庄；任期、交接及主策/美术仍待查。",
