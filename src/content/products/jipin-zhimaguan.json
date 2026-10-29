@@ -36,6 +36,19 @@
           "url": "https://play.google.com/store/apps/details?id=com.szckhd.jwgly.azfanti"
         }
       ]
+    },
+    {
+      "note": "双边主体与精确日期（2026-10-29，iTunes官方接口双区核查）：国服《极品芝麻官》CN区seller=Shenzhen Chuangku Interactive Information Technology Co., Ltd.（深圳创酷互动信息技术），iOS上架2017-01-17（与档案2017-06-12上线日分记，口径差异待核——或为商店首发与全平台公测之别），末次版本更新2026-10-12——国服iOS三周前仍更新；海外《Be The King: Judge Destiny》US区seller=HONG KONG CHUANG COOL INTERACTIVE ENTERTAINMENT CO., LIMITED（香港创酷互动娱乐），iOS首发2018-08-07（海外版'约2018年'精确化），末次版本更新2026-10-20。深圳/香港双主体结构经双边官方接口确认。",
+      "sources": [
+        {
+          "title": "iTunes Search接口 CN区极品芝麻官（seller=Shenzhen Chuangku，核查2026-10-29）",
+          "url": "https://itunes.apple.com/search?term=%E6%9E%81%E5%93%81%E8%8A%9D%E9%BA%BB%E5%AE%98&country=cn&entity=software"
+        },
+        {
+          "title": "iTunes Search接口 US区Be The King: Judge Destiny（seller=Hong Kong Chuang Cool，首发2018-08-07）",
+          "url": "https://itunes.apple.com/search?term=Be+the+King&country=us&entity=software"
+        }
+      ]
     }
   ]
 }

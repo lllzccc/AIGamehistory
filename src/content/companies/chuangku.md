@@ -33,7 +33,7 @@ researchChecklist:
       gaps:
         - question: 深圳/香港创酷实体的关系与股权
           status: pending
-          nextStep: "查公开工商与登记资料；包名关联不等于法人同一。"
+          nextStep: "查公开工商与登记资料；包名关联不等于法人同一。2026-10-29双边官方接口确认实体名：国服iOS seller=Shenzhen Chuangku Interactive Information Technology Co., Ltd.（深圳创酷互动信息技术）、海外US区seller=HONG KONG CHUANG COOL INTERACTIVE ENTERTAINMENT CO., LIMITED（香港创酷互动娱乐）——深港两实体名已锁定，股权关系仍待工商原件。"
           sources: []
     - area: catalog
       status: partial
@@ -47,7 +47,7 @@ researchChecklist:
       gaps:
         - question: 海外版确切的首次上线日期与各地区版本
           status: pending
-          nextStep: "八周年庆典与2018年9月玩家评论佐证约2018年上线；精确日期查发行记录。"
+          nextStep: "2026-10-29解决：US区Be The King: Judge Destiny iOS首发2018-08-07（iTunes官方接口releaseDate），末版2026-10-20仍更新；各地区版本（东南亚/韩日等）逐区对应继续。"
           sources:
             - title: "Google Play：叫我官老爺"
               url: https://play.google.com/store/apps/details?id=com.szckhd.jwgly.azfanti
@@ -63,7 +63,7 @@ researchChecklist:
       gaps:
         - question: "《极品芝麻官》国内近年运营状态"
           status: pending
-          nextStep: "查官方渠道更新记录。"
+          nextStep: "2026-10-29解决：CN区极品芝麻官iOS 2017-01-17上架、末次版本更新2026-10-12——国服iOS持续更新中；2017-01-17与档案2017-06-12上线日的口径差异待核因（或为商店首发与全平台公测之别）。"
           sources: []
     - area: talent
       status: pending
