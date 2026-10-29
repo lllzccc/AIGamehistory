@@ -55,6 +55,19 @@
           "url": "https://www.9game.cn/news/7650185.html"
         }
       ]
+    },
+    {
+      "note": "旧版停服公告核原件（2026-10-29，九游2023-02-28转载官方告别信）：旧版（宫斗APP）自2023-02-27 20:00停止充值与新角色创建、2023-04-27终止商业化运营并停止下载；公告署《凤凰心计》运营团队（内务府全体人员），并称迁移后由研发方火羽游戏承担维护。同名三形态区分：旧版宫斗APP（已停）、本档合成装修版APP（2023-12-22 iOS上架，seller=HongKong Skyhorse Cultural Innovation Co.,Limited，末版2025-07-31）、H5小游戏版（4399在册，2025-07知乎称广州团队将已停运APP转小游戏平台并调试，摘要级）。",
+      "sources": [
+        {
+          "title": "九游 2023-02-28：《凤凰心计》停服告别公告（2023-02-27停充、04-27终止运营）",
+          "url": "https://www.9game.cn/news/7650185.html"
+        },
+        {
+          "title": "iTunes Search接口 CN区凤凰心计-休闲合成装修游戏（seller=Skyhorse，核查2026-10-29）",
+          "url": "https://itunes.apple.com/search?term=%E5%87%A4%E5%87%B0%E5%BF%83%E8%AE%A1&country=cn&entity=software"
+        }
+      ]
     }
   ],
   "sources": [

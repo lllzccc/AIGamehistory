@@ -103,13 +103,17 @@
         ],
         "gaps": [
           {
-            "question": "旧版凤凰心计的首发及实际关服日期、各产品海外与小游戏版本如何对应？",
+            "question": "旧版凤凰心计首发日期、各产品海外与小游戏版本对应细节",
             "status": "pending",
-            "nextStep": "对照旧版公告、各地区商店和官方渠道；停止充值日期不作为关服日期。",
+            "nextStep": "关服时间线已核原件（2026-10-29）：旧版宫斗APP 2023-02-27 20:00停止充值与新角色、2023-04-27终止商业化运营并停止下载（九游2023-02-28官方告别信转载，署运营团队/内务府，称迁移后由研发方火羽游戏承担维护）。三形态对应已入产品档：旧版APP（已停）→合成装修版APP（2023-12-22 iOS，seller=HongKong Skyhorse Cultural Innovation Co.,Limited，末版2025-07-31）→H5小游戏版（4399在册，转小游戏平台为2025-07知乎摘要级）。遗留：旧版首发日期、海外版本逐地区对应。",
             "sources": [
               {
-                "title": "TapTap：凤凰心计合成版游戏信息",
-                "url": "https://www.taptap.cn/app/482410/all-info"
+                "title": "九游 2023-02-28：《凤凰心计》停服告别公告",
+                "url": "https://www.9game.cn/news/7650185.html"
+              },
+              {
+                "title": "iTunes Search接口 CN区凤凰心计/盛世芳华（seller=Skyhorse，核查2026-10-29）",
+                "url": "https://itunes.apple.com/search?term=%E5%87%A4%E5%87%B0%E5%BF%83%E8%AE%A1&country=cn&entity=software"
               }
             ]
           }

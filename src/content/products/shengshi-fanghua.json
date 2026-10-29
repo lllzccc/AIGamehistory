@@ -29,6 +29,15 @@
           "url": "https://www.taptap.cn/app/206052/all-info"
         }
       ]
+    },
+    {
+      "note": "运营状态与主体补充（2026-10-29，iTunes官方接口）：iOS 2021-06-30上架（与TapTap安卓2021-07-01首发口径差一天，分记）、seller=HongKong Skyhorse Cultural Innovation Co.,Limited（与凤凰心计合成版同发行主体）、末次版本更新2026-08-21——2026年8月仍在更新。'盛世芳华=凤凰心计项目组新作'仍为APKPure线索级，但旧版告别信'迁移后由研发方火羽游戏承担维护'的迁移表述与之间接呼应，项目组承接关系待官方原文。",
+      "sources": [
+        {
+          "title": "iTunes Search接口 CN区盛世芳华-宫廷剧情游戏（seller=Skyhorse/末版2026-08-21）",
+          "url": "https://itunes.apple.com/search?term=%E7%9B%9B%E4%B8%96%E8%8A%B3%E5%8D%8E&country=cn&entity=software"
+        }
+      ]
     }
   ],
   "sources": [
