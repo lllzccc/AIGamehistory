@@ -47,13 +47,11 @@ researchChecklist:
             title: TapTap官方公告：《食物语》停运及完结更新告示
             url: https://www.taptap.cn/moment/529775897918572981
           note: "女向线一款《食物语》（2019-09国服公测、2024-06-18停服）；奥比岛等产品归休闲线不属本卷。"
-      gaps:
-        - question: "《食物语陪伴版》（停运公告提及2024年Q3推出）是否上线"
-          status: pending
-          nextStep: 已确认在架：App Store现存《食物语-陪伴版》（发行方广州天梯，2026-10-14接口核查）；后续补其上线日期与版本关系。
-          sources:
-            - title: TapTap官方公告：《食物语》停运及完结更新告示
-              url: https://www.taptap.cn/moment/529775897918572981
+        - source:
+            title: iTunes Search接口 CN区食物语-陪伴版（seller/上架日/版本，核查2026-10-29）
+            url: https://itunes.apple.com/search?term=%E9%A3%9F%E7%89%A9%E8%AF%AD%E9%99%AA%E4%BC%B4%E7%89%88&country=cn&entity=software
+          note: "陪伴版缺口解决：《食物语-陪伴版》iOS 2024-08-14上架、发行方广州天梯网络科技有限公司、版本1.0.17（iOS末次更新2024-08-15）；官方承诺完全免费、永不停服（2024-08-06游戏茶馆转述官方公告，安卓8-16口径摘要级）。不另建产品档，归属食物语生命周期。"
+      gaps: []
     - area: lifecycle
       status: partial
       scope: 食物语运营周期
@@ -64,18 +62,22 @@ researchChecklist:
             url: https://www.taptap.cn/moment/529775897918572981
           note: "2024-04-18零时停充值/下架，2024-06-18 11:00正式停服（代理协议到期，腾讯与天梯协商）；停运前推出完结语音剧情【百馔为家】。"
       gaps:
-        - question: 海外版本（如有）与陪伴版进展
+        - question: 海外版本（如有）与陪伴版安卓侧运营现状
           status: pending
-          nextStep: "逐项核对官方渠道。"
+          nextStep: "陪伴版已核（2026-10-29）：iOS 2024-08-14上架、seller广州天梯、官方免费永不停服承诺；安卓侧2024-08-16上线与2025-2026持续更新为摘要级，待官方渠道原件。海外版本仍待逐项核对。"
           sources: []
     - area: talent
       status: pending
       scope: 天梯项目主创
-      examined: []
+      examined:
+        - source:
+            title: 游戏陀螺 2019-11-20：90后女主策与《食物语》
+            url: https://www.youxituoluo.com/523447.html
+          note: "主策划苏凡（真名）经当期专访具名入档（people/su-fan.json）；初始团队含角色原画组长与'现已为主美'的外援美术（均未具名）。"
       gaps:
-        - question: 食物语制作人、主策署名
+        - question: 食物语制作人、主美具名署名
           status: not-found
-          nextStep: "查当期采访；本轮未检索。"
+          nextStep: "主策苏凡已入档（2026-10-29）；制作人与主美（专访提及外援美术转任主美但未具名）继续查当期报道与作品集。"
           sources: []
     - area: business
       status: partial

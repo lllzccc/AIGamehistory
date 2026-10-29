@@ -24,6 +24,23 @@
           "url": "https://www.taptap.cn/moment/529775897918572981"
         }
       ]
+    },
+    {
+      "note": "公测官方源核补与主策署名（2026-10-29）：游戏陀螺2019-11-20当期稿——2019年9月开启公测、上线未达30天流水突破1亿元、腾讯代理发行/天梯互娱（百奥旗下）研发、主策划苏凡（90后女性，专访具名）。陪伴版进展：《食物语-陪伴版》iOS 2024-08-14上架（iTunes接口releaseDate），发行方广州天梯网络科技有限公司（Guangzhou Tianti Network Technology Co., Ltd.），版本1.0.17、iOS末次版本更新2024-08-15；官方承诺完全免费、永不停服（2024-08-06游戏茶馆转述官方公告：已提审压测、希望8月上线）；安卓侧2024-08-16上线与2025-2026仍更新均为摘要级待原件。",
+      "sources": [
+        {
+          "title": "游戏陀螺 2019-11-20：90后女主策与《食物语》",
+          "url": "https://www.youxituoluo.com/523447.html"
+        },
+        {
+          "title": "iTunes Search接口 CN区食物语-陪伴版（seller/上架日/版本）",
+          "url": "https://itunes.apple.com/search?term=%E9%A3%9F%E7%89%A9%E8%AF%AD%E9%99%AA%E4%BC%B4%E7%89%88&country=cn&entity=software"
+        },
+        {
+          "title": "TapTap游戏茶馆动态 2024-08-06：陪伴版提审与免费永不停服承诺（转述官方公告）",
+          "url": "https://www.taptap.cn/moment/570106409107064940"
+        }
+      ]
     }
   ],
   "revenue": [],
@@ -39,5 +56,18 @@
   ],
   "verified": false,
   "keyArt": "/images/baioo/shiwuyu-official.jpg",
-  "artPosition": "center"
+  "artPosition": "center",
+  "teamEvidence": [
+    {
+      "observedAt": "2019-11",
+      "kind": "reported",
+      "summary": "主策划苏凡（真名，90后女性）经游戏陀螺当期专访具名；同文提及初始团队角色原画组长与'现已为食物语主美'的外援美术（未具名）。",
+      "sources": [
+        {
+          "title": "游戏陀螺 2019-11-20：90后女主策与《食物语》",
+          "url": "https://www.youxituoluo.com/523447.html"
+        }
+      ]
+    }
+  ]
 }

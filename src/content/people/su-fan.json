@@ -1,0 +1,37 @@
+{
+  "name": "苏凡",
+  "aliases": [],
+  "bio": "《食物语》主策划，90后女性游戏开发者。2019年11月游戏陀螺专访（当期稿）：初始团队含文案、角色原画组长及美术外援（该外援'现已为食物语主美'，未具名）；《食物语》2019年9月公测，上线未达30天流水突破1亿元，由腾讯代理发行、天梯互娱（百奥家庭互动旗下）研发。",
+  "roles": [
+    {
+      "company": "baioo",
+      "scope": "product",
+      "products": [
+        "shiwuyu"
+      ],
+      "specialties": [
+        "otome"
+      ],
+      "title": "lead-designer",
+      "titleNote": "《食物语》主策划",
+      "from": "2019-11",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "sources": [
+        {
+          "title": "游戏陀螺 2019-11-20：90后女主策与《食物语》",
+          "url": "https://www.youxituoluo.com/523447.html"
+        }
+      ],
+      "checkedAt": "2026-10-29",
+      "note": "职务为2019-11当期专访原文口径；入职与在任起止未披露，项目2024年停运后的去向未核实。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "游戏陀螺 2019-11-20：90后女主策与《食物语》",
+      "url": "https://www.youxituoluo.com/523447.html"
+    }
+  ],
+  "verified": false
+}
