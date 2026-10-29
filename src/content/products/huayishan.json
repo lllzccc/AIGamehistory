@@ -23,6 +23,19 @@
           "url": "https://www.163.com/dy/article/IKIKM8RQ0519DFFO.html"
         }
       ]
+    },
+    {
+      "note": "国服上线官方源核补（2026-10-29）：2021-11-26全平台公测、朝夕光年首款自研国风手游（公测当日稿载体），iOS商店上架2021-11-25（iTunes接口releaseDate口径）。现行运营方核查（iTunes接口，2026-10-29）：CN区seller仍为Beijing Zhaoxiguangnian Information Technology Co., Ltd.（北京朝夕光年信息技术有限公司），iOS版本1.7.4、最后版本更新2024-02-28——iOS侧更新停滞但仍在架，与安卓侧2025年四周年版本活动的摘要口径（17173，未开原件）分开记录。",
+      "sources": [
+        {
+          "title": "te5 2021-11-26：花亦山心之月今日全平台公测（朝夕光年首款自研）",
+          "url": "https://m.te5.com/news/2021/624437.html"
+        },
+        {
+          "title": "iTunes Search接口 CN区花亦山心之月（seller/版本/上架日，核查2026-10-29）",
+          "url": "https://itunes.apple.com/search?term=%E8%8A%B1%E4%BA%A6%E5%B1%B1%E5%BF%83%E4%B9%8B%E6%9C%88&country=cn&entity=software"
+        }
+      ]
     }
   ],
   "revenue": [],

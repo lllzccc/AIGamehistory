@@ -64,8 +64,12 @@ researchChecklist:
       gaps:
         - question: 花亦山现行运营方与长期计划
           status: pending
-          nextStep: "查官方公告主体与2026年动态。"
-          sources: []
+          nextStep: "查官方公告主体与2026年动态。2026-10-29核查：iTunes接口显示CN区seller仍为北京朝夕光年信息技术有限公司（现行运营主体确认），但iOS版本停在1.7.4、最后版本更新2024-02-28（iOS侧更新停滞）；安卓侧摘要口径称2025-11仍有四周年版本（17173，未开原件）——两侧口径分开记录，长期计划待官方公告。上线官方源已核：2021-11-26全平台公测、朝夕光年首款自研（te5当日稿）。另：灵猫传研发商游梦初心母公司破产清算为检索摘要线索（TapTap载体，未开原件）。"
+          sources:
+            - title: te5 2021-11-26：花亦山心之月今日全平台公测
+              url: https://m.te5.com/news/2021/624437.html
+            - title: iTunes Search接口 CN区花亦山心之月（seller与版本口径）
+              url: https://itunes.apple.com/search?term=%E8%8A%B1%E4%BA%A6%E5%B1%B1%E5%BF%83%E4%B9%8B%E6%9C%88&country=cn&entity=software
     - area: talent
       status: pending
       scope: 女向项目主创
