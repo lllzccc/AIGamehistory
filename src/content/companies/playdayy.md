@@ -63,6 +63,13 @@
               "url": "https://www.playdayy.cn/about.html"
             },
             "note": "实际读取来源，记录公司自述与未确认边界。"
+          },
+          {
+            "source": {
+              "title": "iTunes Search接口 US区 Playdayy Technologies Pte. Ltd. 开发者账号反查（核查2026-10-29）",
+              "url": "https://itunes.apple.com/search?term=playdayy&country=us&entity=software&attribute=softwareDeveloper"
+            },
+            "note": "Playdayy自有iOS开发者账号目录共5款且全为谜题/排序类（Goods Rush! 3D Sort 2026-01、PathGo 2026-08、PixGlow 2026-08、Food Sort 2025-11、Solitaire Butterfly 2024-03），无二合产品——二合归属（媒体线索挂Merge Cooking/Foodstars于happibits署名档）与Playdayy自有账号在iOS侧无交叉，归属边界进一步明确而非缩小。"
           }
         ],
         "gaps": [

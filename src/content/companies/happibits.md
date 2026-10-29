@@ -82,7 +82,15 @@
         "area": "lifecycle",
         "status": "pending",
         "scope": "美国iOS日期及其他平台版本",
-        "examined": [],
+        "examined": [
+          {
+            "source": {
+              "title": "iTunes Search接口 US区 Merge Cooking/Foodstars（seller=HAPPIBITS TECHNOLOGIES PTE. LTD.，核查2026-10-29）",
+              "url": "https://itunes.apple.com/search?term=Merge+Cooking&country=us&entity=software"
+            },
+            "note": "双作US区seller确认；末次版本更新均为2026-10-28（持续高频更新），iOS上架日与档案一致。"
+          }
+        ],
         "gaps": [
           {
             "question": "测试、Android、地区首发与停服",

@@ -82,7 +82,15 @@
         "area": "lifecycle",
         "status": "pending",
         "scope": "美国iOS日期及其他平台版本",
-        "examined": [],
+        "examined": [
+          {
+            "source": {
+              "title": "iTunes Search接口 US区 Mystery Town: Merge Games（seller=Cedar Co., Limited，核查2026-10-29）",
+              "url": "https://itunes.apple.com/search?term=Mystery+Town+Merge&country=us&entity=software"
+            },
+            "note": "seller复核确认；末次版本更新2026-09-25，仍持续运营。"
+          }
+        ],
         "gaps": [
           {
             "question": "测试、Android、地区首发与停服",
