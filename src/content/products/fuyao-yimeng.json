@@ -27,6 +27,19 @@
           "url": "https://baike.baidu.com/item/%E6%89%B6%E6%91%87%E4%B8%80%E6%A2%A6/62591528"
         }
       ]
+    },
+    {
+      "note": "渠道状态补充（2026-10-29）：iTunes CN区搜索0命中——App Store已下架（开发者账号反查）；官网 fyym.37.com.cn 仍在线（JS渲染首页，未获公告列表，仅37手游介绍与关键词）；检索未见官方停运公告。iOS下架与官网在线并存，安卓侧现状待官方渠道核实，status维持live不改判。",
+      "sources": [
+        {
+          "title": "iTunes Search接口 CN区反查：扶摇一梦无结果（核查2026-10-29）",
+          "url": "https://itunes.apple.com/search?term=%E6%89%B6%E6%91%87%E4%B8%80%E6%A2%A6&country=cn&entity=software"
+        },
+        {
+          "title": "扶摇一梦官网（仍在线，JS渲染，核查2026-10-29）",
+          "url": "https://fyym.37.com.cn"
+        }
+      ]
     }
   ],
   "revenue": [],
