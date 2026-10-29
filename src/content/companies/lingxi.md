@@ -148,6 +148,10 @@ researchChecklist:
             title: 竞核HOT周报（腾讯新闻）2026-08-23：灵犀互娱新游《代号咘咘》曝光开启测试招募
             url: https://news.qq.com/rain/a/20260823A06R8600
           note: 捉宠题材模拟经营新游，2026-08-21经TapTap等渠道曝光并开启测试招募，为8-17易主确认后灵犀首款对外曝光新游。非女向线不建产品档，按研发方向线索记录（发现渠道：小红书，经竞核当期报道核实）。
+        - source:
+            title: 游戏葡萄（搜狐号）2026-10-27：爆冷登上畅销榜Top4：2026最鸡贼的新游
+            url: https://www.sohu.com/a/1093553849_204824
+          note: 新品《篮球少女：飞跃巅峰》（二可+体育，女子篮球题材）：2026-10-21 iOS上架（iTunes官方接口seller=Lingxi Games Inc.佐证），开服三天登中国App Store畅销榜第4。已建产品档（chronicles空——二可+体育不入女性向/休闲/SLG卷，按跨品类纪律入公司完整目录）。
       gaps:
         - question: 海外发行域名 qookkagames（代号鸢官网）与灵犀/QooKka品牌关系
           status: pending

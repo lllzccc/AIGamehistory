@@ -1,0 +1,41 @@
+{
+  "name": "篮球少女：飞跃巅峰",
+  "aliases": [],
+  "genre": "other",
+  "developer": "lingxi",
+  "publisher": "灵犀互娱",
+  "released": "2026-10-21",
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "status": "live",
+  "significance": "灵犀互娱二次元+体育（女子篮球）融合新游：赛马娘式随机养成+AFK式卡牌框架，上线第三天登上中国App Store游戏畅销榜第4（2026-10下旬）。女子校队萌系题材但付费深度超常规二游，非女性向（乙女）卷口径——按跨品类纪律收录入公司完整目录、不归入现有三卷（chronicles为空）。",
+  "chronicles": [],
+  "lifecycleNotes": [
+    {
+      "note": "上线与表现（2026-10-29核）：iOS 2026-10-21上架（iTunes官方接口，seller=Lingxi Games Inc.）、10-29仍高频更新；游戏葡萄2026-10-27原文——开服三天登App Store游戏畅销榜第4，二可+体育品类融合，借鉴赛马娘随机养成与剑与远征卡牌框架，局外含挂机副本/大富翁等休闲玩法。核查2026-10-29。",
+      "sources": [
+        {
+          "title": "游戏葡萄（搜狐号）2026-10-27：爆冷登上畅销榜Top4：2026最鸡贼的新游",
+          "url": "https://www.sohu.com/a/1093553849_204824"
+        },
+        {
+          "title": "iTunes Search接口 CN区篮球少女：飞跃巅峰（seller=Lingxi Games Inc.，核查2026-10-29）",
+          "url": "https://itunes.apple.com/search?term=%E7%AF%AE%E7%90%83%E5%B0%91%E5%A5%B3&country=cn&entity=software"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "游戏葡萄（搜狐号）2026-10-27：爆冷登上畅销榜Top4",
+      "url": "https://www.sohu.com/a/1093553849_204824"
+    },
+    {
+      "title": "iTunes Search接口 CN区（seller/上架/末版）",
+      "url": "https://itunes.apple.com/search?term=%E7%AF%AE%E7%90%83%E5%B0%91%E5%A5%B3&country=cn&entity=software"
+    }
+  ],
+  "verified": false
+}
