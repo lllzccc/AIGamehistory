@@ -1,0 +1,35 @@
+{
+  "name": "刘祎玮",
+  "aliases": [],
+  "bio": "乐信圣文（Learnings）创始人。早年在百度担任渠道服务经理，2009年加入谷歌；2016年2月创立乐信圣文，做移动出海应用（益智休闲为主），至2026年月活突破3亿、累计触达用户超20亿、覆盖230多个国家，代表产品Vita Mahjong（下载1.2亿）并延伸到二合品类（Mystery Town: Merge Games）。",
+  "roles": [
+    {
+      "company": "learnings",
+      "scope": "company",
+      "products": [],
+      "specialties": [
+        "other"
+      ],
+      "title": "founder",
+      "titleNote": "乐信圣文创始人",
+      "from": "2016-02",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "sources": [
+        {
+          "title": "游戏陀螺 2026-06-29：月活3亿！解构乐信圣文十年之路（创始人履历）",
+          "url": "https://www.youxituoluo.com/534624.html"
+        }
+      ],
+      "checkedAt": "2026-10-29",
+      "note": "履历（百度渠道服务经理→2009加入谷歌→2016-02创业）为游戏陀螺专访原文口径；当前职务状态未核实。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "游戏陀螺 2026-06-29：月活3亿！解构乐信圣文十年之路",
+      "url": "https://www.youxituoluo.com/534624.html"
+    }
+  ],
+  "verified": false
+}
