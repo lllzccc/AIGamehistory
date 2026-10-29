@@ -38,6 +38,19 @@
           "url": "https://www.9game.cn/news/9946335.html"
         }
       ]
+    },
+    {
+      "note": "状态证据链收紧（2026-10-29）：iTunes CN区搜索'梦间集/天鹅座'均0命中——App Store已下架（开发者账号反查）；官网首页仍可访问但冻结于'今日公测'状态、公告列表最新一条为2020-01-08（直开核实），此前档案记录公告页停滞于2020-05-28；搜索摘要称'约2021年7月双双下架停运'但无官方停运公告可开，与官网仍在的事实仅'下架'部分吻合。维持status=unknown：无官方停运公告不定论，倾向最低维护或已实质停运。",
+      "sources": [
+        {
+          "title": "iTunes Search接口 CN区反查：梦间集/天鹅座均无结果（核查2026-10-29）",
+          "url": "https://itunes.apple.com/search?term=%E5%A4%A9%E9%B9%85%E5%BA%A7&country=cn&entity=software"
+        },
+        {
+          "title": "梦间集天鹅座官方网站（首页冻结于公测期，公告最新2020-01-08，核查2026-10-29）",
+          "url": "https://al.games.wanmei.com"
+        }
+      ]
     }
   ],
   "revenue": [],

@@ -28,6 +28,15 @@
           "url": "https://baike.baidu.com/item/%E6%A2%A6%E9%97%B4%E9%9B%86/22459026"
         }
       ]
+    },
+    {
+      "note": "渠道状态补充（2026-10-29）：iTunes CN区搜索0命中——App Store已下架（开发者账号反查）；但官方网站截至2026-10仍在持续发布停服维护公告（既有档案口径），二者并存按'商店下架、官方渠道（安卓/网页）仍在运营'记录。搜索摘要称'2021年7月与天鹅座双双下架停运'——'下架'与反查吻合、'停运'与官网现状矛盾，不采信。",
+      "sources": [
+        {
+          "title": "iTunes Search接口 CN区反查：梦间集无结果（核查2026-10-29）",
+          "url": "https://itunes.apple.com/search?term=%E6%A2%A6%E9%97%B4%E9%9B%86&country=cn&entity=software"
+        }
+      ]
     }
   ],
   "revenue": [],

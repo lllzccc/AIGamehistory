@@ -37,9 +37,9 @@ researchChecklist:
             url: https://al.games.wanmei.com/m/news/index.html
           note: "官网定位'超心动恋爱经营手游'、《梦间集》IP续作（咖啡厅经营+恋爱养成）。"
       gaps:
-        - question: 前作《梦间集》的上线时间与现状
+        - question: 前作《梦间集》的上线官方源与商店下架时间
           status: pending
-          nextStep: "核对后再决定是否单独建档。"
+          nextStep: "2026-10-29：App Store已下架（iTunes CN反查0命中）、官网仍运营的口径已入产品档；'2021-07双双下架停运'摘要的下架时间待原件，上线官方源（2017-07-14 iOS/07-26全平台为媒体口径）仍待官方公告原件。"
           sources: []
     - area: lifecycle
       status: partial
@@ -53,8 +53,10 @@ researchChecklist:
       gaps:
         - question: 天鹅座的实际停运或最低维护状态确认
           status: pending
-          nextStep: "查服务器状态与官方社媒；有官方公告再回填。"
-          sources: []
+          nextStep: "查服务器状态与官方社媒；有官方公告再回填。2026-10-29证据链收紧：App Store已下架（iTunes反查0命中）+官网首页冻结于公测期（公告最新2020-01-08）+社区反映运营长期停滞；无官方停运公告仍维持unknown，倾向已实质停运。搜索摘要'2021-07双双下架停运'的停运部分不采信（梦间集官网2026-10仍在发公告，见catalog）。"
+          sources:
+            - title: iTunes Search接口 CN区反查（梦间集/天鹅座均0命中）
+              url: https://itunes.apple.com/search?term=%E5%A4%A9%E9%B9%85%E5%BA%A7&country=cn&entity=software
     - area: talent
       status: pending
       scope: 梦间集项目主创
@@ -74,6 +76,15 @@ researchChecklist:
           nextStep: "查A股披露后再按口径录入；单品流水不折算。"
           sources: []
   supplementRounds:
+    - checkedAt: "2026-10-29"
+      channel: 开发者账号反查（iTunes接口）+官网直开
+      note: "天鹅座与梦间集App Store均已下架（反查0命中）；天鹅座官网冻结于2020公测期（公告最新2020-01-08）；'2021-07双双停运'摘要不采信（梦间集官网2026-10仍发公告）；两产品档lifecycleNotes已补。"
+      foundKeyFacts: true
+      sources:
+        - title: iTunes Search接口 CN区反查（梦间集/天鹅座均0命中，2026-10-29）
+          url: https://itunes.apple.com/search?term=%E5%A4%A9%E9%B9%85%E5%BA%A7&country=cn&entity=software
+        - title: 梦间集天鹅座官方网站（首页冻结于公测期）
+          url: https://al.games.wanmei.com
     - checkedAt: "2026-10-14"
       channel: 官方网站与检索
       note: "首轮建线：天鹅座公测日与官网公告停滞现状入档；梦间集前作留缺口。"
