@@ -26,5 +26,16 @@
   "keyArt": "/images/palace/jiao-wo-wansuiye.jpg",
   "chronicles": [
     "female"
+  ],
+  "lifecycleNotes": [
+    {
+      "note": "运营现状核补（2026-10-29，iTunes官方接口）：CN区叫我万岁爷 seller=Xiamen Dianchu Information Technology Co.,Ltd.（厦门点触信息技术，发行主体官方确认）、末次版本更新2026-09-18——仍在持续更新。iOS上架2017-11-01，与档案2017-08-22上线日分记（或为商店首发与公测之别）。",
+      "sources": [
+        {
+          "title": "iTunes Search接口 CN区叫我万岁爷（seller=Xiamen Dianchu，核查2026-10-29）",
+          "url": "https://itunes.apple.com/search?term=%E5%8F%AB%E6%88%91%E4%B8%87%E5%B2%81%E7%88%B7&country=cn&entity=software"
+        }
+      ]
+    }
   ]
 }

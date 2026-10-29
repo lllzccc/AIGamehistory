@@ -26,5 +26,16 @@
   "keyArt": "/images/palace/wo-zai-daqing.jpg",
   "chronicles": [
     "female"
+  ],
+  "lifecycleNotes": [
+    {
+      "note": "运营现状核补（2026-10-29，iTunes官方接口）：CN区我在大清当皇帝HD seller=Xiamen Dianchu Information Technology Co.,Ltd.（厦门点触信息技术，发行主体官方确认）、末次版本更新2026-09-18——仍在持续更新。iOS上架2015-07-03（HD版），与档案2013-07网页版起点分记。",
+      "sources": [
+        {
+          "title": "iTunes Search接口 CN区我在大清当皇帝HD（seller=Xiamen Dianchu，核查2026-10-29）",
+          "url": "https://itunes.apple.com/search?term=%E6%88%91%E5%9C%A8%E5%A4%A7%E6%B8%85%E5%BD%93%E7%9A%87%E5%B8%9D&country=cn&entity=software"
+        }
+      ]
+    }
   ]
 }

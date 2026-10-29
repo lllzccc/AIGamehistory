@@ -86,8 +86,10 @@ researchChecklist:
       gaps:
         - question: "《我在大清当皇帝》《叫我万岁爷》的近年运营状态与版本节点"
           status: pending
-          nextStep: "查官方渠道更新记录，不停留在live默认值。"
-          sources: []
+          nextStep: "2026-10-29解决：两款CN区seller均为Xiamen Dianchu Information Technology Co.,Ltd.（厦门点触信息技术），末次版本更新同为2026-09-18——双双持续运营；我在大清当皇帝HD iOS上架2015-07-03、叫我万岁爷2017-11-01，与档案上线日口径分记（已入产品档lifecycleNotes）。"
+          sources:
+            - title: iTunes Search接口 CN区我在大清当皇帝HD/叫我万岁爷（seller与末版，核查2026-10-29）
+              url: https://itunes.apple.com/search?term=%E5%8F%AB%E6%88%91%E4%B8%87%E5%B2%81%E7%88%B7&country=cn&entity=software
     - area: talent
       status: pending
       scope: 创始团队与各项目主创
