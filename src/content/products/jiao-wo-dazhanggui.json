@@ -1,12 +1,19 @@
 {
   "name": "叫我大掌柜",
   "aliases": [],
-  "chronicles": ["female", "casual"],
+  "chronicles": [
+    "female",
+    "casual"
+  ],
   "genre": "other",
   "developer": "yanqu",
   "publisher": "sanqi",
   "released": "2021-04-30",
-  "platforms": ["iOS", "Android", "微信小游戏"],
+  "platforms": [
+    "iOS",
+    "Android",
+    "微信小游戏"
+  ],
   "status": "live",
   "versionLabel": "iOS 2021-04-30 上架 · App+小游戏双端 · 三七系研运一体",
   "significance": "延趣互动研发、三七互娱发行（运营主体海南尚轩为三七全资子公司）的古风模拟经营：北宋张择端画作题材背景、市井文化模拟经营，女性玩家占比高，营收过亿的品类爆款；App与微信小游戏双端运营，2025年借三七自研行业大模型「小七」与AI生成技术推出「全运广州」数字孪生特别版本。",
@@ -40,5 +47,18 @@
       "url": "https://zhuanlan.zhihu.com/p/573101995"
     }
   ],
-  "verified": true
+  "verified": true,
+  "teamEvidence": [
+    {
+      "observedAt": "2022-08",
+      "kind": "reported",
+      "summary": "主程序格兰（花名）署名分享：项目2019年中立项（最初仅App）、小游戏版2021年4月投入研发；App端Cocos Creator 2.2.2、小游戏端2.4.4→2.4.7，一份代码双引擎版本+自研API兼容中间层，UI采用FairyGUI；已在8个国家或地区多平台多语言发布。",
+      "sources": [
+        {
+          "title": "GameRes 2022-08-12：叫我大掌柜App+小游戏双端技术分享",
+          "url": "https://www.gameres.com/896577.html"
+        }
+      ]
+    }
+  ]
 }

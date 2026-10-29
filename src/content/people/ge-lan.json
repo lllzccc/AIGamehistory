@@ -1,0 +1,39 @@
+{
+  "name": "格兰",
+  "aliases": [
+    "格兰COCOS"
+  ],
+  "bio": "《叫我大掌柜》主程序（署名格兰）。2022年8月在Cocos Star Meetings厦门站分享该作App+小游戏双端技术实践（GameRes实录）：项目2019年中立项最初只做App，App端Cocos Creator 2.2.2、小游戏端2.4.4升级至2.4.7，同引擎双版本一份代码、自研API兼容中间层，UI用FairyGUI（fgui）支持多语言多区域；产品已在8个国家或地区多平台多语言发布。",
+  "roles": [
+    {
+      "company": "yanqu",
+      "scope": "product",
+      "products": [
+        "jiao-wo-dazhanggui"
+      ],
+      "specialties": [
+        "other"
+      ],
+      "title": "other",
+      "titleNote": "《叫我大掌柜》主程序",
+      "from": "2022-08",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "sources": [
+        {
+          "title": "GameRes 2022-08-12：延趣游戏《叫我大掌柜》App+小游戏双端技术分享（主程格兰）",
+          "url": "https://www.gameres.com/896577.html"
+        }
+      ],
+      "checkedAt": "2026-10-29",
+      "note": "署名为花名（格兰COCOS），全名未公开；职务为主程序，分享为Cocos Star Meetings厦门站实录（GameRes为可永久访问载体，另见Cocos官方公众号2022-08-09版）。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "GameRes 2022-08-12：延趣游戏《叫我大掌柜》App+小游戏双端技术分享",
+      "url": "https://www.gameres.com/896577.html"
+    }
+  ],
+  "verified": false
+}
