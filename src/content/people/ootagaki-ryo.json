@@ -1,0 +1,37 @@
+{
+  "name": "太田垣諒",
+  "aliases": ["おおたがき りょう", "Otagaki Ryo"],
+  "bio": "Happy Elements株式会社员工，《偶像梦幻祭》初代背景美术与Live2D建模・动画担当。2015年6月在CEDEC相关活动alive 2015登台讲述该作Live2D自然动作的实现（第1期至第3期模型制作演变），自述为首次制作动画。",
+  "roles": [
+    {
+      "company": "happyelements",
+      "scope": "product",
+      "products": [
+        "ensemble-stars"
+      ],
+      "specialties": [
+        "otome"
+      ],
+      "title": "core-artist",
+      "titleNote": "《偶像梦幻祭》背景制作与Live2D建模・动画担当",
+      "from": "2015-07",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "sources": [
+        {
+          "title": "gamebiz 2015-07-01：alive 2015太田垣諒讲演报道（ES背景与Live2D制作）",
+          "url": "https://gamebiz.jp/news/145843"
+        }
+      ],
+      "checkedAt": "2026-10-29",
+      "note": "职务为2015年7月gamebiz讲演报道口径；是否升任主美或后续在任状态未核实。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "gamebiz 2015-07-01：alive 2015太田垣諒讲演报道（ES背景与Live2D制作）",
+      "url": "https://gamebiz.jp/news/145843"
+    }
+  ],
+  "verified": false
+}

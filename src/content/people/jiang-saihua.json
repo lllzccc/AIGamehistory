@@ -1,0 +1,32 @@
+{
+  "name": "蒋赛骅",
+  "aliases": [],
+  "bio": "乐元素副总裁（VP）。2015年6月在腾讯应用宝手机游戏开发者沙龙分享《开心消消乐》的成功方法：团队（产品、市场、渠道、客服）合计超过一百人；动物形象由7名设计师花费两三个月设计；接入短代前后付费效率提升近10倍；曾进行地铁、公交、CCTV及湖南、浙江卫视等大规模投放。",
+  "roles": [
+    {
+      "company": "happyelements",
+      "scope": "company",
+      "products": [],
+      "title": "other",
+      "titleNote": "副总裁（VP，2015年公开演讲口径）",
+      "from": "2015-06",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "sources": [
+        {
+          "title": "搜狐 2015-06-11：乐元素VP蒋赛骅演讲《做好休闲游戏一点都不轻松》（应用宝开发者沙龙）",
+          "url": "https://www.sohu.com/a/18438906_114795"
+        }
+      ],
+      "checkedAt": "2026-10-29",
+      "note": "VP头衔为2015年6月演讲报道口径，具体分管与当前状态未核实；演讲未提及项目级制作人姓名。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "搜狐 2015-06-11：乐元素VP蒋赛骅演讲《做好休闲游戏一点都不轻松》（应用宝开发者沙龙）",
+      "url": "https://www.sohu.com/a/18438906_114795"
+    }
+  ],
+  "verified": false
+}
