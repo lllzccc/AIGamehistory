@@ -36,7 +36,7 @@ researchChecklist:
       gaps:
         - question: 祖龙娱乐成立/上市沿革与前身工作室脉络
           status: pending
-          nextStep: "查当期报道与上市文件；founded暂记上市主体挂牌年2020，公司化沿革待核。"
+          nextStep: "查当期报道与上市文件；founded暂记上市主体挂牌年2020，公司化沿革待核。2026-10-29摘要级交叉（17173/36氪/搜狐载体，未开原件）：前身完美世界祖龙工作室，2014-10完美宣布研发结构调整成立五个新子公司、祖龙独立，2015-09独立运营；2020-04-03递表（中金独家保荐）、2020-07港交所上市9990.HK；上市股权李青46.39%（董事长兼CEO）/完美世界23.1%/腾讯17.51%。待年报/招股书原件核对后入档。"
           sources: []
     - area: catalog
       status: partial
@@ -61,11 +61,11 @@ researchChecklist:
             title: 游戏葡萄（搜狐发布）2022-07-28
             url: https://www.sohu.com/a/572516227_204824
           note: "海外版2022-07-28港澳台新马上线、首日免费榜第一；国服2023-03-24（检索口径待官方源）；美区上架2023-05-10（Apple接口）。"
-      gaps:
-        - question: 国服公测日官方源与其他地区版本
-          status: pending
-          nextStep: "查官方公告与商店记录。"
-          sources: []
+        - source:
+            title: 游民星空 2023-03-24：《以闪亮之名》今日公测（自研自发、预约超1500万）
+            url: https://wap.gamersky.com/news/Content-1579671.html
+          note: "国服2023-03-24全平台公测（PC/Android/iOS）官方源已核（缺口解决）：祖龙自研自发、截至3-23预约超1500万、建模精度超10万面；2023-03-02定档官宣稿同载体。产品档lifecycleNotes已补。其他地区版本沿用既有海外首日登顶口径。"
+      gaps: []
     - area: talent
       status: partial
       scope: Vvanna工作室主创
@@ -76,9 +76,9 @@ researchChecklist:
             url: https://www.sohu.com/a/572516227_204824
           note: "执行总裁吴盛鹤公开表态女性向战略；项目主创暂无实名署名。"
       gaps:
-        - question: 以闪亮之名制作人、主策、主美署名
+        - question: 以闪亮之名主策、主美等岗位公开署名（制作人Summer已于2026-10-29入档）
           status: not-found
-          nextStep: "查开发者访谈与制作名单。"
+          nextStep: "制作人Summer（兼Vvanna工作室首席设计师，花名）已凭游戏日报2022-09专访原文入档（people/summer-vvanna.json）；主策、主美等岗位仍无公开署名（2026-10-29查），缺口收窄为其余岗位。"
           sources: []
     - area: business
       status: pending
@@ -87,7 +87,7 @@ researchChecklist:
       gaps:
         - question: 财报中女向线收入口径
           status: pending
-          nextStep: "查港股财报披露后再按口径录入；本轮未检索。"
+          nextStep: "查港股财报披露后再按口径录入；本轮未检索。2026-10-29摘要级线索（未开原件）：澎湃2026-05报道称VVANNA事业部以闪亮之名全球累计流水突破20亿元、同报道曝光新项目《代号：神不言》；钛媒体2024-11称其为国内女性向换装类收入最高产品；界面2024-05报道叠纸与祖龙因暖暖与以闪竞争对簿公堂（诉讼事件待原件）。"
           sources: []
   supplementRounds:
     - checkedAt: "2026-10-14"

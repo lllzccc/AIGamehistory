@@ -1,0 +1,37 @@
+{
+  "name": "Summer",
+  "aliases": [],
+  "bio": "祖龙娱乐Vvanna工作室《以闪亮之名》制作人兼Vvanna工作室首席设计师（花名/署名，全名未公开）。以'前线制作人'身份常年活跃于玩家社群，2022年9月作为团队推荐的采访代理人接受游戏日报专访：游戏全球预约超1000万、用户女性占比接近80%、虚幻4引擎开发，港澳台iOS免费榜与Google热门榜登顶、新加坡与马来西亚iOS免费榜第一。",
+  "roles": [
+    {
+      "company": "zulong",
+      "scope": "product",
+      "products": [
+        "yishanliang-zhiming"
+      ],
+      "specialties": [
+        "dressup"
+      ],
+      "title": "producer",
+      "titleNote": "《以闪亮之名》制作人兼Vvanna工作室首席设计师",
+      "from": "2022-09",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "sources": [
+        {
+          "title": "游戏日报 2022-09-01：专访《以闪亮之名》制作团队（制作人Summer）",
+          "url": "http://news.yxrb.net/202209/01230720.html"
+        }
+      ],
+      "checkedAt": "2026-10-29",
+      "note": "职务为2022-09专访原文口径（'我是《以闪亮之名》的制作人Summer，也是Vvanna工作室的首席设计师'）；Summer为署名用名、全名与主策/主美等其他岗位未公开，当前在任状态未核实。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "游戏日报 2022-09-01：专访《以闪亮之名》制作团队（制作人Summer）",
+      "url": "http://news.yxrb.net/202209/01230720.html"
+    }
+  ],
+  "verified": false
+}

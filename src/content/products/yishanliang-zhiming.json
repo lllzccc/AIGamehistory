@@ -30,6 +30,23 @@
           "url": "https://itunes.apple.com/lookup?id=1619100281&country=us"
         }
       ]
+    },
+    {
+      "note": "国服2023-03-24全平台公测（PC/Android/iOS）官方源核补：祖龙自研自发，截至2023-03-23累计预约超1500万，人物建模精度超10万面；此前2023-03-02官方CG《Shooting Star》官宣定档（游民星空载体）。海外侧2022-09制作人专访口径：全球预约超1000万、用户女性占比接近80%、港澳台iOS免费榜与Google热门榜登顶、新马iOS免费榜第一。核查2026-10-29。",
+      "sources": [
+        {
+          "title": "游民星空 2023-03-24：《以闪亮之名》今日公测（自研自发、预约超1500万）",
+          "url": "https://wap.gamersky.com/news/Content-1579671.html"
+        },
+        {
+          "title": "游民星空 2023-03-02：官宣CG《Shooting Star》定档3月24日全平台公测",
+          "url": "https://wap.gamersky.com/news/Content-1572457.html"
+        },
+        {
+          "title": "游戏日报 2022-09-01：制作人Summer专访",
+          "url": "http://news.yxrb.net/202209/01230720.html"
+        }
+      ]
     }
   ],
   "revenue": [],
@@ -45,5 +62,18 @@
   ],
   "verified": false,
   "keyArt": "/images/zulong/yishanliang-zhiming-official.jpg",
-  "artPosition": "center"
+  "artPosition": "center",
+  "teamEvidence": [
+    {
+      "observedAt": "2022-09",
+      "kind": "reported",
+      "summary": "制作人Summer（兼Vvanna工作室首席设计师）作为团队采访代理人接受游戏日报专访，自述'前线制作人'、活跃于玩家社群；主策/主美等其他岗位无公开署名。",
+      "sources": [
+        {
+          "title": "游戏日报 2022-09-01：专访《以闪亮之名》制作团队",
+          "url": "http://news.yxrb.net/202209/01230720.html"
+        }
+      ]
+    }
+  ]
 }
