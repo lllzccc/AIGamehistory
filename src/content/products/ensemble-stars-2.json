@@ -35,6 +35,15 @@
           "url": "http://www.gamelook.com.cn/2023/03/512660"
         }
       ]
+    },
+    {
+      "note": "国服运营主体官方锚定（2026-10-29夜跑轮，iTunes官方接口）：CN区seller=Shanghai Happy Element World Technology Co., Ltd.（上海乐元素世界科技，乐元素系CN运营主体）、iOS上架2020-11-27、末次版本更新2026-09-21——国服持续运营中。乐元素主站域名已迁移：happyelements.com 301跳转 leyuansu.com（JS壳，自述'亚洲领先的互动娱乐公司'，keywords=乐元素,开心消消乐,消消乐）。核查2026-10-29。",
+      "sources": [
+        {
+          "title": "iTunes Search接口 CN区偶像梦幻祭2（seller=Shanghai Happy Element World，核查2026-10-29）",
+          "url": "https://itunes.apple.com/search?term=%E5%81%B6%E5%83%8F%E6%A2%A6%E5%B9%BB%E7%A5%AD2&country=cn&entity=software"
+        }
+      ]
     }
   ],
   "significance": "一代国服停运后的续作，对应日服 Music，由乐元素自研自发，从卡牌养成转向 3D LIVE 音游。",

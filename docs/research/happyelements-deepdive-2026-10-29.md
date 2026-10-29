@@ -27,3 +27,10 @@ ES 内部制作人/主策（开发者演讲/制作名单/作品集）→ IPO 官
 ## 自检
 
 见当批提交流程：npm test 全过 → astro check（grep InvalidContentEntryDataError=0 且汇总 0 errors）→ knowledge:build → 4330 渲染验证 → 点名提交推送。
+
+## 夜跑轮（同日晚，闲时任务）
+
+- **ES2 国服运营主体官方锚定**：iTunes CN 区 seller=**Shanghai Happy Element World Technology Co., Ltd.**（上海乐元素世界科技——乐元素系 CN 运营主体名，工商全名待核）；iOS 2020-11-27 上架、末次版本 2026-09-21——国服持续运营。已入 ES2 产品档。
+- **乐元素主站域名迁移**：happyelements.com → **leyuansu.com**（301）；主站为 JS 壳（meta 自述"亚洲领先的互动娱乐公司"、keywords 含开心消消乐/消消乐）——无静态内容可提取，产品目录待 JS 渲染或档案页。
+- 上交所审核页 listing.sse.com.cn 本轮 DNS 未解析（网络限制）——IPO 官方名单留待，未达负面结论。
+- ES 内部制作人/主策：本轮以 B 站/App Store 角度两公式试无新署名（其中 App Store US 页抓到的是 CN Today 页与无关 app，通道无效记录）。
