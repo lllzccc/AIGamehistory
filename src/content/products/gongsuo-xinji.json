@@ -37,5 +37,20 @@
   "keyArt": "/images/palace/gongsuo-xinji.jpg",
   "chronicles": [
     "female"
+  ],
+  "lifecycleNotes": [
+    {
+      "note": "海外版核补（2026-10-29，双官方源）：摩多官网口径2020年《宮鎖心計》在东南亚、日韩、欧美地区表现强劲；iTunes美区Legend of the Phoenix（seller=MODO PTE. LTD.，即2019年设立的新加坡海外主体）2020-04-29上架、末次版本更新2026-08-24——海外iOS至2026年8月仍在更新。摘要级补充（未开原件）：海外发行品牌Modo Global、包名com.duige.hzw.multilingual、APKPure显示2026-01仍发版（v3.6.7）、官方Facebook活跃、充值入口modo.com.sg、另有Steam版《宮鎖心計-古風唯愛》（AppID 1823490）。",
+      "sources": [
+        {
+          "title": "摩多科技官网關於我們（2020年宮鎖心計海外表现表述）",
+          "url": "https://modo.cn/tc/mobile/about.html"
+        },
+        {
+          "title": "iTunes Search接口 US区Legend of the Phoenix（seller=MODO PTE. LTD.，核查2026-10-29）",
+          "url": "https://itunes.apple.com/search?term=Legend+of+the+Phoenix&country=us&entity=software"
+        }
+      ]
+    }
   ]
 }

@@ -59,13 +59,19 @@ researchChecklist:
             title: "摩多官网英文版游戏目录"
             url: https://modo.cn/en/game.html
           note: "官方英文目录四款：Legend of the Phoenix（女性向古风乙女，官方称在东南亚/日韩获得好评）、Greetings Your Majesty Ⅱ（皇上吉祥2海外版）、Starry Love（主播恋爱养成）、Spirit Beast of the East（御兽）；后三款未建档，其中仅LOP为明确女性向定位。"
+        - source:
+            title: 摩多科技官网關於我們（繁中版，2026-10-29直开）
+            url: https://modo.cn/tc/mobile/about.html
+          note: "官方沿革口径：摩多游戏2015年成立（总部厦门）、2019年新加坡设海外公司、2020年成都分公司，专注女性向轻度养成手游研运一体；产品时间线：2016传奇世界H5（处女作）→2018卓越之翼（奇迹MU授权）/皇上吉祥2→2020宫锁心计海外强劲→2021异兽录/星途恋曲/超甜APP（Bonbon）→2022 Rage Mage→2023 Among Palace（全新宫斗玩法）。花之舞与LOP英文名未在此页出现。"
       gaps:
         - question: "《宫锁心计》与Legend of the Phoenix、花之舞的地区版本对应与研发主体"
           status: pending
-          nextStep: "逐版本核对商店与官方账号；不把品牌归属等同于同一法人自研。"
+          nextStep: "2026-10-29官方接口确认一环：iTunes美区LOP（seller=MODO PTE. LTD.，2019新加坡主体）2020-04-29上架、2026-08-24仍更新——宫锁心计海外版=新加坡MODO PTE. LTD.发行（不等于厦门主体自研结论）。花之舞对应关系仍为摘要级（Google Play com.duige.hzw.global与宫锁心计multilingual同包名族hzw，开发者Modo Global，官网hzw.antiphonal.cn，未开原件），逐版本继续核对商店与官方账号；不把品牌归属等同于同一法人自研。"
           sources:
             - title: "摩多官网英文版游戏目录"
               url: https://modo.cn/en/game.html
+            - title: "iTunes Search接口 US区Legend of the Phoenix（seller=MODO PTE. LTD.）"
+              url: https://itunes.apple.com/search?term=Legend+of+the+Phoenix&country=us&entity=software
         - question: "《Among Palace》（2023）上线与研发主体"
           status: pending
           nextStep: "查官方公告与商店记录再决定是否建档。"
