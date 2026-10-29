@@ -31,5 +31,16 @@
   "verified": false,
   "chronicles": [
     "female"
+  ],
+  "lifecycleNotes": [
+    {
+      "note": "iOS运营主体与现状（2026-10-29，iTunes官方接口）：CN区seller为DIDOO GAMES CO. LIMITED（权利链新环节：历史研发广州光卡（注销待原件核）→当前商店品牌火树游戏/供应商广州炫动→iOS上架主体DIDOO GAMES，三者关系待核）；iOS 2020-04-28上架（与既有2019-06-28国服上线口径分记，或为商店后续换架上架）、末次版本更新2025-10-11——iOS侧2025年10月仍在更新。",
+      "sources": [
+        {
+          "title": "iTunes Search接口 CN区爱江山更爱美人（seller=DIDOO GAMES CO. LIMITED，核查2026-10-29）",
+          "url": "https://itunes.apple.com/search?term=%E7%88%B1%E6%B1%9F%E5%B1%B1%E6%9B%B4%E7%88%B1%E7%BE%8E%E4%BA%BA&country=cn&entity=software"
+        }
+      ]
+    }
   ]
 }
