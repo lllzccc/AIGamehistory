@@ -1,0 +1,39 @@
+{
+  "aliases": [],
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "status": "live",
+  "verified": false,
+  "chronicles": [
+    "female"
+  ],
+  "name": "螺旋圆舞曲2：蔷薇战争",
+  "genre": "dressup",
+  "developer": "shizixing",
+  "released": "2023-05-18",
+  "significance": "十字星原班团队自研自发的续作：二次元竖版剧情换装RPG（道具付费），螺旋圆舞曲IP第二代。",
+  "lifecycleNotes": [
+    {
+      "note": "公测日采用百科口径2023-05-18，iOS上架2023-05-17（iTunes官方接口，差一天分记）；iOS末次版本更新2023-10-25——上架后约半年iOS更新停滞，无停运公告，现状待官方渠道核验。核查2026-10-29。",
+      "sources": [
+        {
+          "title": "iTunes Search接口 CN区螺旋圆舞曲2-蔷薇战争（核查2026-10-29）",
+          "url": "https://itunes.apple.com/search?term=%E8%9E%BA%E6%97%8B%E5%9C%86%E8%88%9E%E6%9B%B2&country=cn&entity=software"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "百度百科：螺旋圆舞曲2-蔷薇战争（2023-05-18公测、自研自发）",
+      "url": "https://baike.baidu.com/item/%E8%9E%BA%E6%97%8B%E5%9C%86%E8%88%9E%E6%9B%B22-%E8%94%B7%E8%96%87%E6%88%98%E4%BA%89/62020514"
+    },
+    {
+      "title": "iTunes Search接口 CN区（iOS上架与末版）",
+      "url": "https://itunes.apple.com/search?term=%E8%9E%BA%E6%97%8B%E5%9C%86%E8%88%9E%E6%9B%B2&country=cn&entity=software"
+    }
+  ],
+  "publisher": "杭州十字星信息服务有限公司（自研自发，百科口径）"
+}

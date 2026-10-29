@@ -1,0 +1,35 @@
+{
+  "aliases": [],
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "status": "live",
+  "verified": false,
+  "chronicles": [
+    "female"
+  ],
+  "name": "神仙记事录",
+  "genre": "otome",
+  "developer": "lameng",
+  "publisher": "冰狮游戏（北京冰狮互动）",
+  "released": "2021-09-29",
+  "significance": "拉萌研发、冰狮游戏发行的都市神明题材剧情乙女——两家长期研发-发行配对的代表作，TapTap高人气（媒体称百万人气，摘要级）。",
+  "lifecycleNotes": [
+    {
+      "note": "上线日采用媒体/平台口径2021-09-29；iOS上架2022-11-02（iTunes官方接口，或为商店后续换架/版本，口径分记）、末次版本更新2025-01-03。核查2026-10-29。",
+      "sources": [
+        {
+          "title": "iTunes Search接口 CN区神仙记事录（seller=Beijing IceSimba，核查2026-10-29）",
+          "url": "https://itunes.apple.com/search?term=%E7%A5%9E%E4%BB%99%E8%AE%B0%E4%BA%8B%E5%BD%95&country=cn&entity=software"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "iTunes Search接口 CN区神仙记事录（seller/上架/末版）",
+      "url": "https://itunes.apple.com/search?term=%E7%A5%9E%E4%BB%99%E8%AE%B0%E4%BA%8B%E5%BD%95&country=cn&entity=software"
+    }
+  ]
+}

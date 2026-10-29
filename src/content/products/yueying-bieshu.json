@@ -1,0 +1,35 @@
+{
+  "aliases": [],
+  "platforms": [
+    "iOS",
+    "Android"
+  ],
+  "status": "live",
+  "verified": false,
+  "chronicles": [
+    "female"
+  ],
+  "name": "月影别墅",
+  "genre": "otome",
+  "developer": "lameng",
+  "publisher": "冰狮游戏（北京冰狮互动）",
+  "released": "2023-02-02",
+  "significance": "拉萌研发、冰狮发行的女性向恋爱手游，被媒体列入2024年国产乙女游戏代表作品之一（摘要级口径）。",
+  "lifecycleNotes": [
+    {
+      "note": "iOS上架2023-02-02（iTunes官方接口releaseDate）、末次版本更新2026-04-21——仍在运营更新。上架主体为发行方北京冰狮互动（Beijing IceSimba），与研发方拉萌的配对关系同档。核查2026-10-29。",
+      "sources": [
+        {
+          "title": "iTunes Search接口 CN区月影别墅（seller=Beijing IceSimba，核查2026-10-29）",
+          "url": "https://itunes.apple.com/search?term=%E6%9C%88%E5%BD%B1%E5%88%AB%E5%A2%85&country=cn&entity=software"
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "title": "iTunes Search接口 CN区月影别墅（seller/上架/末版）",
+      "url": "https://itunes.apple.com/search?term=%E6%9C%88%E5%BD%B1%E5%88%AB%E5%A2%85&country=cn&entity=software"
+    }
+  ]
+}
