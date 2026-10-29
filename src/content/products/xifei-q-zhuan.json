@@ -41,5 +41,16 @@
   "verified": false,
   "chronicles": [
     "female"
+  ],
+  "lifecycleNotes": [
+    {
+      "note": "上市招股书单款收益拆分（unaudited）：2017年0.911亿元（占13.0%，2017-09上线当年）、2018年6.918亿元（占47.2%，当年收入第一单品）；其中国服简中版2018年5.469亿元（同比+500.3%）、海外版本1.449亿元；2019年一季度1.824亿元（占46.3%）。核查2026-10-29，PDF原件逐格核对。",
+      "sources": [
+        {
+          "title": "友谊时光2019上市招股书（印刷页288-291）：Revenue by games及地区/语言版本拆分表",
+          "url": "https://www.friendtimes.net/res/ftnet/201909/06820-9026094-FRIENDTIMES.pdf"
+        }
+      ]
+    }
   ]
 }
