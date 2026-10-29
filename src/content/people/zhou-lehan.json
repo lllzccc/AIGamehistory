@@ -1,0 +1,46 @@
+{
+  "name": "周乐涵",
+  "aliases": [
+    "乐涵"
+  ],
+  "bio": "叠纸游戏发行负责人（2020年以'叠纸发行负责人'身份接受GameRes专访谈《恋与制作人》营销与发行体系）。2022年从叠纸离职，成为前《闪耀暖暖》制作人刘盼的创业伙伴，在上海可笠网络担任发行VP。",
+  "roles": [
+    {
+      "company": "papergames",
+      "scope": "company",
+      "products": [],
+      "specialties": [
+        "dressup"
+      ],
+      "title": "other",
+      "titleNote": "叠纸发行负责人（2020年专访口径）",
+      "from": "2020-07",
+      "to": "2022",
+      "status": "departed",
+      "dateBasis": "public-observation",
+      "sources": [
+        {
+          "title": "GameRes 2020-07：专访叠纸发行负责人乐涵（2026-10-29已开原文：恋与制作人电话营销事件、发行逻辑）",
+          "url": "https://www.gameres.com/forum/t/871430"
+        },
+        {
+          "title": "游戏新知 2024-05-07：前叠纸制作人创业项目曝光（周乐涵2022离职、可笠发行VP）",
+          "url": "http://www.youxixinzhi.com/?p=27113"
+        }
+      ],
+      "checkedAt": "2026-10-29",
+      "note": "2020-07专访为'叠纸发行负责人'公开亮相口径（from为观察日非入职日）；2022离职与可笠发行VP为游戏新知原文口径。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "GameRes 2020-07：专访叠纸发行负责人乐涵",
+      "url": "https://www.gameres.com/forum/t/871430"
+    },
+    {
+      "title": "游戏新知 2024-05-07：前叠纸制作人创业项目曝光",
+      "url": "http://www.youxixinzhi.com/?p=27113"
+    }
+  ],
+  "verified": false
+}
