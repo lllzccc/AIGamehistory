@@ -1,0 +1,43 @@
+{
+  "name": "柳晓宇",
+  "aliases": ["柳柳", "柳柳_66RPG"],
+  "bio": "橙光创始人、CEO（北京六趣网络科技有限公司）。2005年学生时代基于RPG Maker搭建原创游戏社区66RPG.COM；2012年5月推出'像制作PPT一样简单'的橙光文字游戏制作工具，社区更名转型为橙光游戏。2016年专访口径：平台注册用户超2500万、作者123万，其目标是把橙光做成同时处于漫画网文下游与影视出版上游的IP孵化平台。",
+  "roles": [
+    {
+      "company": "chengguang",
+      "scope": "company",
+      "products": [],
+      "specialties": [
+        "interactive"
+      ],
+      "title": "founder",
+      "titleNote": "橙光创始人、CEO",
+      "from": "2012-05",
+      "status": "unknown",
+      "dateBasis": "public-observation",
+      "sources": [
+        {
+          "title": "界面新闻 2016-05-13：橙光游戏CEO柳晓宇专访——文字冒险游戏如何孵化IP",
+          "url": "https://www.jiemian.com/article/644389.html"
+        },
+        {
+          "title": "新浪游戏 2016-07-07：橙光游戏柳晓宇——1.5亿估值的背后",
+          "url": "http://games.sina.cn/cyfw/cyxw/2016-07-07/detail-ifxtwiht3290517.d.html"
+        }
+      ],
+      "checkedAt": "2026-10-29",
+      "note": "2012-05为公司成立与工具上线口径（界面专访）；此前2005年运营66RPG社区为个人站长阶段。清华背景、日式RPG《黑暗圣剑传说》制作者履历为检索摘要级（MBA智库等载体）待原件；当前在任状态未核实，2018-01署名文章争议未核。"
+    }
+  ],
+  "sources": [
+    {
+      "title": "界面新闻 2016-05-13：橙光游戏CEO柳晓宇专访",
+      "url": "https://www.jiemian.com/article/644389.html"
+    },
+    {
+      "title": "新浪游戏 2016-07-07：橙光游戏柳晓宇专访",
+      "url": "http://games.sina.cn/cyfw/cyxw/2016-07-07/detail-ifxtwiht3290517.d.html"
+    }
+  ],
+  "verified": false
+}
