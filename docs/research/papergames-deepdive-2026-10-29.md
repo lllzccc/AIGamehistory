@@ -46,3 +46,10 @@ mapping 第三轮（发现协议循环A）。承接 [2026-10-14 首轮](papergam
 ## 自检
 
 见当批提交流程：npm test 全过 → astro check（grep InvalidContentEntryDataError=0 且 0 errors）→ knowledge:build → 4330 渲染验证 → 点名提交推送。
+
+## 夜跑轮（同日晚，闲时任务）
+
+- **刘盼线索解决（此前两次被拒的原站本轮 http 直连成功）**：游戏新知 2024-05-07 原文——完整履历链：腾讯产品经理（Flash 小游戏平台）→2013 银汉游戏策划负责人（《拳皇命运》《时空猎人》《时空猎人3D》）→**2020-02 入职叠纸任《闪耀暖暖》制作人**（在首任发行制作人刘子健 2020-04 离职创办阿佩吉后接手，接手时点为原文"猜测"推断口径）→**2022-10 离职**，与前同事创立上海可笠网络（发行 VP 周乐涵、技术总监班帝[银汉→广州欢动→可笠]），在研赛博朋克 ARPG《代号：熬夜天使》（2024 TapTap 聚光灯计划亮相）。
+- **先后任链定案**：姚润昊（TGDC2019 自任制作人=上线期 2019-08）→刘盼（2020-02~2022-10）→现任未公开。新人物档 `people/liu-pan.json`（producer，departed，products=[shining-nikki]）、`people/zhou-lehan.json`（叠纸发行负责人 2020 专访口径+2022 离职， departed）。
+- **闪耀暖暖产品档**补制作人先后任 lifecycleNote。
+- 通道经验：youxixinzhi.com https 拒连（443 refused）但 **http 可用**——镜像重试时先试 http 变体。
